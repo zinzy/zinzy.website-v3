@@ -1,0 +1,18 @@
+{{ define "main" }}
+{{ partial "back_link.html" .}}
+
+<article class="prose prose-blue xl:prose:text-lg ">
+
+    <h1>{{ .Title }}</h1>
+
+    {{ if .Params.toc }}
+        <aside {{ if .Params.tocBorder }} class="toc" {{ end }}>
+            {{ .TableOfContents }}
+        </aside>
+    {{ end }}
+
+    <!-- {{ .Content }} -->
+    <!-- https://github.com/gohugoio/hugo/issues/3606#issuecomment-634092082 -->
+    {{ .Content | replaceRE "\\[\\[([^/]+)\\]\\]" "<a href=\"${1}.html\">$1</a>" |safeHTML }} 
+</article>
+{{ end }}

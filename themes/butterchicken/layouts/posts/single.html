@@ -1,0 +1,21 @@
+{{ define "main" }}
+{{ partial "back_link.html" .}}
+
+<article class="prose prose-blue xl:prose:text-lg ">
+    <header class="mb-20">
+        <h1>{{ .Title }}</h1>
+        <time datetime="{{ .Date }}">
+            {{ .Date | time.Format site.Params.theme_config.date_format }}
+        </time>
+    </header>
+ 
+
+    {{ if .Params.toc }}
+        <aside {{ if .Params.tocBorder }} class="toc" {{ end }}>
+            {{ .TableOfContents }}
+        </aside>
+    {{ end }}
+
+    {{ .Content }}
+</article>
+{{ end }}
