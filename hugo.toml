@@ -1,7 +1,7 @@
 baseURL = "https://zinzy.website"
 languageCode = "en-us"
 title = "Zinzy's website"
-theme = "nostyleplease"
+theme = "butterchicken"
 [permalinks]
   [permalinks.page]
     posts = '/:year/:month/:day/:slug/'
