@@ -1,0 +1,11 @@
+baseURL = "https://zinzy.website"
+languageCode = "en-us"
+title = "Zinzy's website"
+theme = "nostyleplease"
+[permalinks]
+  [permalinks.page]
+    posts = '/:year/:month/:day/:slug/'
+    notes = '/:slug/'
+    pages = '/:slug'
+  [permalinks.section]
+    posts = '/posts/'
