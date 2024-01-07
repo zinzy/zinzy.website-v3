@@ -12,7 +12,7 @@
 
     {{ range $postsWithTitle | first 6 }}
     <li class="flex items-center max-w-full">
-        <a href="{{ .Permalink }}"  class="flex-none truncate overflow-hidden">
+        <a href="{{ .Permalink }}"  class="flex-none py-2 lg:py-0">
             <div class="min-w-0">{{ .Title }}</div>
         </a>
         <span class="mx-3 mt-1 grow w-full border-t border-gray-400 dark:border-zinc-700 shrink">
@@ -43,9 +43,9 @@
 
 <ul class="mb-10">
     <h3 class=" mb-4">Misc</h3>
-    {{ range ( where site.RegularPages "Section" "pages" | first 6 ) }}
+    {{ range ( where site.RegularPages "Section" "pages" ) }}
         <li class="flex items-center">
-            <a href="{{ .Permalink }}"  class="flex-none">
+            <a href="{{ .Permalink }}"  class="flex-none py-2 lg:py-0">
                 {{ .Title }}
             </a>
             <span class="mx-3 mt-1 grow w-full border-t border-gray-400 dark:border-zinc-700 shrink">

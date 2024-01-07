@@ -2,8 +2,9 @@
 {{ partial "back_link.html" .}}
 
 <article class="prose prose-blue lg:prose-xl dark:prose-invert">
-
-    <h1>{{ .Title }}</h1>
+    <header class="mb-20">
+        <h1>{{ .Title }}</h1>
+    </header>
 
     {{ if .Params.toc }}
         <aside {{ if .Params.tocBorder }} class="toc" {{ end }}>

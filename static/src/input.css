@@ -9,39 +9,13 @@ h1, h2, h3, h4, h5, h6 {
   font-family: Arial, sans-serif;
 }
 
-
-.flex-parent {
-    display: flex;
-    align-items: center;
-    padding: 10px;
-    margin: 30px 0;
+table {
+  thead {
+    font-size: 100%;
+    text-transform: uppercase;
+    font-family: Arial, sans-serif;
+    th {
+      font-weight: 400 !important;
+    }
   }
-  .long-and-truncated {
-    flex: 1;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
-  
-  .short-and-fixed {
-    white-space: nowrap;
-  }
-  .long-and-truncated-with-child {
-    flex: 1;
-  }
-  .long-and-truncated-with-child h2 {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
-  
-  .long-and-truncated-with-child-corrected {
-    flex: 1;
-    min-width: 0;
-    /* or some value */
-  }
-  .long-and-truncated-with-child-corrected h2 {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
+}

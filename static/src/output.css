@@ -1234,6 +1234,16 @@ video {
   padding: 2rem;
 }
 
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
 .text-right {
   text-align: right;
 }
@@ -1254,44 +1264,15 @@ h1, h2, h3, h4, h5, h6 {
   font-family: Arial, sans-serif;
 }
 
-.flex-parent {
-  display: flex;
-  align-items: center;
-  padding: 10px;
-  margin: 30px 0;
-}
-
-.long-and-truncated {
-  flex: 1;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.short-and-fixed {
-  white-space: nowrap;
-}
-
-.long-and-truncated-with-child {
-  flex: 1;
-}
-
-.long-and-truncated-with-child h2 {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.long-and-truncated-with-child-corrected {
-  flex: 1;
-  min-width: 0;
-  /* or some value */
-}
-
-.long-and-truncated-with-child-corrected h2 {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+table {
+  thead {
+    font-size: 100%;
+    text-transform: uppercase;
+    font-family: Arial, sans-serif;
+    th {
+      font-weight: 400 !important;
+    }
+  }
 }
 
 @media (min-width: 1024px) {
@@ -1570,6 +1551,18 @@ h1, h2, h3, h4, h5, h6 {
   .md\:p-20 {
     padding: 5rem;
   }
+
+  .md\:py-0 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:py-0 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
 }
 
 @media (min-width: 1280px) {
@@ -1579,6 +1572,11 @@ h1, h2, h3, h4, h5, h6 {
 
   .xl\:text-lg {
     font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  .xl\:text-xl {
+    font-size: 1.25rem;
     line-height: 1.75rem;
   }
 }
