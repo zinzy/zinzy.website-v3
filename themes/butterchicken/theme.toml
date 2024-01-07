@@ -1,5 +1,4 @@
 name = "butter-chicken"
-license = "MIT"
 description = "A theme for zinzy.website"
 features = [] 
 show_description = true
