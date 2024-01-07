@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>webmention on Zinzy&#39;s website</title>
+    <link>https://zinzy.website/tags/webmention/</link>
+    <description>Recent content in webmention on Zinzy&#39;s website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 17 Mar 2023 10:24:39 +0100</lastBuildDate>
+    <atom:link href="https://zinzy.website/tags/webmention/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://zinzy.website/2023/03/17/</link>
+      <pubDate>Fri, 17 Mar 2023 10:24:39 +0100</pubDate>
+      <guid>https://zinzy.website/2023/03/17/</guid>
+      <description>This is precisely what I love about webmentions, the return to the cozy web!</description>
+    </item>
+  </channel>
+</rss>

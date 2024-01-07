@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>accessibility on Zinzy&#39;s website</title>
+    <link>https://zinzy.website/tags/accessibility/</link>
+    <description>Recent content in accessibility on Zinzy&#39;s website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 13 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://zinzy.website/tags/accessibility/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>`alt` text culture</title>
+      <link>https://zinzy.website/2023/01/13/alt-text-culture/</link>
+      <pubDate>Fri, 13 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://zinzy.website/2023/01/13/alt-text-culture/</guid>
+      <description>More than any other time in my online life am I aware of the value of alt text. I make a point to write image descriptions whenever I can. Kind strangers with a variety of accessibility needs have been helping me understand how to best capture my interpretation of an image. I&amp;rsquo;ve come to regard alt text as the secret side bar I get to have with blind people and others who need it.</description>
+    </item>
+  </channel>
+</rss>

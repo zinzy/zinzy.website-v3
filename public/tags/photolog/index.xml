@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>photolog on Zinzy&#39;s website</title>
+    <link>https://zinzy.website/tags/photolog/</link>
+    <description>Recent content in photolog on Zinzy&#39;s website</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 15 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://zinzy.website/tags/photolog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sneak preview</title>
+      <link>https://zinzy.website/2023/01/15/sneak-preview/</link>
+      <pubDate>Sun, 15 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://zinzy.website/2023/01/15/sneak-preview/</guid>
+      <description> </description>
+    </item>
+    <item>
+      <title>On keeping a journal</title>
+      <link>https://zinzy.website/2012/08/31/on-keeping-a-journal/</link>
+      <pubDate>Fri, 31 Aug 2012 00:00:00 +0000</pubDate>
+      <guid>https://zinzy.website/2012/08/31/on-keeping-a-journal/</guid>
+      <description>The only journal I’ve ever been able to successfully keep is a photo journal. Not so much the one-book or one-website type, but more so a simply collection of visual anecdotes, encounters and experiences. My first website was called www.doyoulikemytightsweater.com. It was a HTML-based one-photo-per-page website that I updated very frequently. Ever since the domain expired and I got a little sick of getting pervy emails (I should have known), I had never owned a photo website that I loved so much.</description>
+    </item>
+  </channel>
+</rss>
