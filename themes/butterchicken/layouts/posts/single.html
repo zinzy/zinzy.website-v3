@@ -1,9 +1,9 @@
 {{ define "main" }}
 {{ partial "back_link.html" .}}
 
-<article class="prose prose-blue lg:prose-xl dark:prose-invert">
+<article class="h-entry prose prose-blue lg:prose-xl dark:prose-invert">
     <header class="mb-20">
-        <h2>{{ .Title }}</h2>
+        <h2 class="p-name">{{ .Title }}</h2>
         <time datetime="{{ .Date }}">
             {{ .Date | time.Format site.Params.theme_config.date_format }}
         </time>
@@ -16,6 +16,8 @@
         </aside>
     {{ end }}
 
-    {{ .Content }}
+    <div class="e-content">
+        {{ .Content }}
+    </div>
 </article>
 {{ end }}

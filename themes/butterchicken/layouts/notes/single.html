@@ -1,8 +1,8 @@
 {{ define "main" }}
 {{ partial "back_link.html" .}}
 
-<article class="prose prose-blue lg:prose-xl dark:prose-invert">
-    <header class="mb-20">
+<article class="h-entry prose prose-blue lg:prose-xl dark:prose-invert">
+    <header class="p-name mb-20">
         <h2>{{ .Title }}</h2>
     </header>
 
@@ -11,9 +11,10 @@
             {{ .TableOfContents }}
         </aside>
     {{ end }}
-
-    <!-- {{ .Content }} -->
-    <!-- https://github.com/gohugoio/hugo/issues/3606#issuecomment-634092082 -->
-    {{ .Content | replaceRE "\\[\\[([^/]+)\\]\\]" "<a href=\"${1}.html\">$1</a>" |safeHTML }} 
+ 
+    <div class="e-content">
+        <!-- https://github.com/gohugoio/hugo/issues/3606#issuecomment-634092082 -->
+        {{ .Content | replaceRE "\\[\\[([^/]+)\\]\\]" "<a href=\"${1}.html\">$1</a>" |safeHTML }} 
+    </div> 
 </article>
 {{ end }}
