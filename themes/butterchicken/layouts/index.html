@@ -2,6 +2,7 @@
 
 <header class="mb-20">
     <h1>{{ $.Site.Title }}</h1>
+    <p>A warm welcome</p>
 </header>
 {{ .Content }}
  
@@ -13,7 +14,7 @@
     {{ range $postsWithTitle | first 6 }}
     <li class="flex items-center max-w-full">
         <a href="{{ .Permalink }}"  class="flex-none py-2 lg:py-0">
-            <div class="min-w-0">{{ .Title }}</div>
+            <div class="min-w-0">{{ .Title }} - </div>
         </a>
         <span class="mx-3 mt-1 grow w-full border-t border-gray-400 dark:border-zinc-700 shrink">
         </span>
@@ -22,24 +23,7 @@
         </span>
     </li>
     {{ end }}
-    <!-- <a href="/posts" class="mt-4 block">All posts</a> -->
 </ul>
-
-<!-- <ul class="mb-10">
-    <h3 class=" mb-4">Wiki</h3>
-    {{ range ( where site.RegularPages "Section" "notes" | first 6 ) }}
-        <li class="flex items-center">
-            <a href="{{ .Permalink }}"  class="flex-none">
-                {{ .Title }}
-            </a>
-            <span class="mx-3 mt-1 grow w-full border-t border-gray-400 shrink">
-            </span>
-            <span class="flex-none">
-                {{ .Description }}
-            </span>
-        </li>
-    {{ end }}
-</ul> -->
 
 <ul class="mb-10">
     <h3 class=" mb-4">Misc</h3>
