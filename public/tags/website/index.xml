@@ -10,16 +10,16 @@
     <atom:link href="https://zinzy.website/tags/website/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>https://zinzy.website/posts/2023-12-31-07-53-02/</link>
+      <link>https://zinzy.website/2023-12-31-07-53-02/</link>
       <pubDate>Sun, 31 Dec 2023 09:53:02 +0000</pubDate>
-      <guid>https://zinzy.website/posts/2023-12-31-07-53-02/</guid>
+      <guid>https://zinzy.website/2023-12-31-07-53-02/</guid>
       <description> Updated the general UI of this website by adding a softer background color Added a splice method I used earlier to photo posts, which allows me to alter the size of the images served through Cloudinary Merged _notes contents into my _posts folder so that my dated content is organized in a single place (this is convenient for pagination purposes) Styled the tags page Updated layout of an individual tag page so that short notes and posts are grouped accordingly </description>
     </item>
     <item>
       <title>A lifetime without representation</title>
-      <link>https://zinzy.website/posts/2023-12-20-a-lifetime-without-representation/</link>
+      <link>https://zinzy.website/2023-12-20-a-lifetime-without-representation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://zinzy.website/posts/2023-12-20-a-lifetime-without-representation/</guid>
+      <guid>https://zinzy.website/2023-12-20-a-lifetime-without-representation/</guid>
       <description>My friend and I reunite after 18 months. I missed him dearly, but once we sit down for ramen we can both tell it&amp;rsquo;s like we were there yesterday. I talk about him often. He&amp;rsquo;s the person who was so discombobulated by Dutch white innocence, that he felt more comfortable going back to the Middle East to live in the closet. He&amp;rsquo;s doing better now. No more crack, and the spinning class is surprisingly inclusive.</description>
     </item>
   </channel>
