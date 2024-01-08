@@ -2,10 +2,21 @@ baseURL = "https://zinzy.website"
 languageCode = "en-us"
 title = "Zinzy's website"
 theme = "butterchicken"
+[params]
+  subtitle = 'The Best Widgets on Earth'
+  [params.author]
+    givenName = 'Zinzy'
+    familyName = 'Waleson Geene'
+    ethnicity = 'Afropean'
+    genderIdentity = 'queer'
+    locality = 'Amsterdam'
+    country = 'The Netherlands'
+    jobTitle = 'Senior UX practitioner'
+    org = 'Gerimedica'
 [permalinks]
   [permalinks.page]
     posts = '/:year/:month/:day/:slug/'
     notes = '/:slug/'
     pages = '/:slug'
   [permalinks.section]
-    posts = '/posts/'
+    posts = '/posts/' 
