@@ -27,7 +27,7 @@
 
 <ul class="mb-10">
     <h3 class=" mb-4">Misc</h3>
-    {{ range ( where site.RegularPages "Type" "pages"  ) }}
+    {{ range ( where site.RegularPages "Section" "page"  ) }}
         <li class="flex items-center">
             <a href="{{ .Permalink }}"  class="flex-none py-2 lg:py-0">
                 {{ .Title }}
