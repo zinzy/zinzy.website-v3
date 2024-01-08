@@ -1146,6 +1146,10 @@ video {
   display: grid;
 }
 
+.hidden {
+  display: none;
+}
+
 .h-4 {
   height: 1rem;
 }
@@ -1202,16 +1206,6 @@ video {
   gap: 1rem;
 }
 
-.overflow-hidden {
-  overflow: hidden;
-}
-
-.truncate {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
 .border-t {
   border-top-width: 1px;
 }
@@ -1232,11 +1226,6 @@ video {
 
 .p-8 {
   padding: 2rem;
-}
-
-.py-3 {
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
 }
 
 .py-2 {
@@ -1551,11 +1540,6 @@ table {
   .md\:p-20 {
     padding: 5rem;
   }
-
-  .md\:py-0 {
-    padding-top: 0px;
-    padding-bottom: 0px;
-  }
 }
 
 @media (min-width: 1024px) {
@@ -1568,11 +1552,6 @@ table {
 @media (min-width: 1280px) {
   .xl\:max-w-screen-2xl {
     max-width: 1536px;
-  }
-
-  .xl\:text-lg {
-    font-size: 1.125rem;
-    line-height: 1.75rem;
   }
 
   .xl\:text-xl {

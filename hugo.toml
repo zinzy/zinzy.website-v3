@@ -18,5 +18,3 @@ theme = "butterchicken"
     posts = '/:year/:month/:day/:title/'
     notes = '/:slug/'
     pages = '/:slug'
-  [permalinks.section]
-    posts = '/posts/' 
