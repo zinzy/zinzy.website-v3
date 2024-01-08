@@ -4,7 +4,7 @@
 <article class="h-entry prose prose-blue lg:prose-xl dark:prose-invert">
     <header class="mb-20">
         <h2 class="p-name">{{ .Title }}</h2>
-        <time datetime="{{ .Date }}">
+        <time class="dt-published" datetime="{{ .Date }}">
             {{ .Date | time.Format site.Params.theme_config.date_format }}
         </time>
     </header>
