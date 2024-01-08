@@ -13,3 +13,7 @@ theme = "butterchicken"
     country = 'The Netherlands'
     jobTitle = 'Senior UX practitioner'
     org = 'Gerimedica'
+[permalinks]
+  posts = "/:year/:month/:day/:title/"
+  page = "/:slug/"
+  notes = "/:slug/"
