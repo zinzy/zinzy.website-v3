@@ -2,6 +2,10 @@ baseURL = "https://zinzy.website"
 languageCode = "en-us"
 title = "Zinzy's website"
 theme = "butterchicken"
+[permalinks]
+  posts = '/:06/:1/:2/:title'
+  notes = '/notes/:slug'
+  pages = '/:slug'
 [params]
   subtitle = 'The Best Widgets on Earth'
   [params.author]
@@ -13,7 +17,3 @@ theme = "butterchicken"
     country = 'The Netherlands'
     jobTitle = 'Senior UX practitioner'
     org = 'Gerimedica'
-[permalinks]
-  posts = '/meow/:06/:1/:2/:title'
-  notes = '/notes/:slug'
-  pages = '/blabla/:slug'
