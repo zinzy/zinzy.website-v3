@@ -17,24 +17,24 @@ title = "all posts"
   limit = 5
   show_more = true
   show_more_text = "See archive..."
-  show_more_url = "posts"
+  show_more_url = "post"
 
 [[entries]]
 title = "Garden notes"
-  [entries.notes_list]
+  [entries.note_list]
   limit = 5
   show_more = true
   show_more_text = "See garden..."
-  show_more_url = "notes"
+  show_more_url = "note"
 
 [[entries]]
-title = "posts by category"
+title = "post by category"
 
   [entries.post_list]
-  section = "posts"
+  section = "post"
   show_more = true
-  show_more_text = "See more posts..."
-  show_more_url = "posts"
+  show_more_text = "See more post..."
+  show_more_url = "post"
 
 [[entries]]
 title = "rss"

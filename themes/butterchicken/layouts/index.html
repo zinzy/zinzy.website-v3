@@ -7,7 +7,7 @@
  
 <ul class="mb-10">
     <h3 class="mb-4">Latest</h3>
-    {{ $postsDefault := where .Site.RegularPages "Section" "posts" }}
+    {{ $postsDefault := where .Site.RegularPages "Type" "posts" }}
     {{ $postsWithTitle := where $postsDefault "Params.title" "ne" "" }}
 
     {{ range $postsWithTitle | first 6 }}
@@ -43,7 +43,7 @@
 
 <ul class="mb-10">
     <h3 class=" mb-4">Misc</h3>
-    {{ range ( where site.RegularPages "Section" "pages" ) }}
+    {{ range ( where site.RegularPages "Type" "pages"  ) }}
         <li class="flex items-center">
             <a href="{{ .Permalink }}"  class="flex-none py-2 lg:py-0">
                 {{ .Title }}

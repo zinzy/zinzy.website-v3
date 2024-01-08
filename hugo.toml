@@ -3,12 +3,9 @@ languageCode = "en-us"
 title = "Zinzy's website"
 theme = "butterchicken"
 [permalinks]
-  [permalinks.page]
+  [permalinks.section]
     posts = '/:year/:month/:day/:slug/'
     notes = '/training/:slug/'
-  [permalinks.section]
-    posts = '/'
-    notes = '/training/'
 [params]
   subtitle = 'The Best Widgets on Earth'
   [params.author]
