@@ -3,7 +3,7 @@ languageCode = "en-us"
 title = "Zinzy's website"
 theme = "butterchicken"
 [params]
-  subtitle = 'The Best Widgets on Earth'
+  subtitle = 'A warm welcome'
   [params.author]
     givenName = 'Zinzy'
     familyName = 'Waleson Geene'

@@ -19,3 +19,15 @@ table {
     }
   }
 }
+
+input[type='checkbox'],
+input:checked {
+  margin: 0 !important;
+}
+
+.icon {
+  left: -40px;
+  width: 24px;
+  height: 24px;
+  top: 6px;
+}

@@ -34,3 +34,4 @@
     back_home_text = "← Home"
     date_format = "2006-01-02"
     date_format_recent = "Jan 2"
+    date_format_archive = "Jan 2, 2006"

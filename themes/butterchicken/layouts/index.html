@@ -7,7 +7,7 @@
 {{ .Content }}
  
 <ul class="mb-10">
-    <h3 class="mb-4">Latest</h3>
+    <h3 class="mb-4">Latest <a href="/posts" class="underline">(archive)</a></h3>
     {{ $postsDefault := where .Site.RegularPages "Type" "posts" }}
     {{ $postsWithTitle := where $postsDefault "Params.title" "ne" "" }}
 
