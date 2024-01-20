@@ -17,3 +17,8 @@ theme = "butterchicken"
   posts = "/:year/:month/:day/:title/"
   page = "/:slug/"
   notes = "/:slug/"
+[outputs]
+  home = ['html', 'rss']
+  section = ['html', 'rss']
+  taxonomy = ['html']
+  term = ['html']

@@ -1,22 +1,24 @@
 {{ define "main" }}
 {{ partial "back_link.html" .}}
 
-<header class="mb-20">
-    <h2>{{ .Title }}</h2>
-</header>
+<!-- <header class="mb-20">
+    <h2 class="mt-0 mb-0">{{ .Title }}</h2>
+</header> -->
 
-{{ .Content }}
+<section class="my-14">
+  <p>This website contains a post archive going back to the mid-aughts. Currently, the ten latest are displayed on this page.</p>
+</section>
 
  
     {{ $postsDefault := where .Site.RegularPages "Type" "posts" }}
 
-    {{ range $postsDefault }}
+    {{ range $postsDefault | first 10 }}
 
     <article class="prose prose-gray dark:prose-invert mb-28">
         <header>
             <h2>{{ .Title }}</h2>
             <div class="relative">
-                <span class="icon absolute">
+                <!-- <span class="icon absolute">
                     {{ if .Params.likeOf }} {{ partial "post_type_like.html" .}} {{ end }}
                     {{ if .Params.photo }} {{ partial "post_type_photo.html" .}} {{ end }}
                     {{ if .Title }} {{ partial "post_type_post.html" .}} {{ end }}
@@ -24,7 +26,7 @@
                     {{ if and (not (.Title)) (not (.Params.replyTo)) (not (.Params.likeoF)) (not (.Params.photo)) }}
                         {{ partial "post_type_note.html" .}}
                     {{ end }}
-                </span> 
+                </span>  -->
                 <time class="font-mono">{{- (.Date | time.Format site.Params.theme_config.date_format_archive) }}</time>
             </div>
         </header> 

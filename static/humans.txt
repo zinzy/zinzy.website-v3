@@ -1,0 +1,51 @@
+ ____ ____ ____ ____ ____ ____ ____ ____ ____ ____ ____ ____ ____ 
+||z |||i |||n |||z |||y |||. |||w |||e |||b |||s ||i |||t |||e ||
+||__|||__|||__|||__|||__|||__|||__|||__|||__|||__||__|||__|||__||
+|/__\|/__\|/__\|/__\|/__\|/__\|/__\|/__\|/__\|/__\|__\|/__\|/__\|
+
+Hey human! Welcome to the humans.txt file. of zinzy.website.
+For more information on my website and how I built it,
+see https://www.zinzy.website/site
+
+─────────────────────────────────────────────────────────────────
+
+/* TEAM */
+
+Zinzy Waleson Geene
+- Role: designer, developer
+- Location: Amsterdam, the Netherlands
+- Contact: https://www.zinzy.website/hello
+- Mastodon: https://tech.lgbt/@zinzy
+
+─────────────────────────────────────────────────────────────────
+
+/* THANKS */
+
+In designing and building this website, I've found help and 
+inspiration on the Internet. There are countless people
+on StackOverflow and support forms who've managed to push my 
+efforts forward, usually unknowingly so. In particular, the 
+people below have a special place in my heart:
+ 
+- Derek Kedziora            https://derekkedziora.com
+- Harry Cresswell           https://harrycresswell.com 
+- Maxime Vaillancourt       https://maximevaillancourt.com
+- Matias Kinnunen           https://mtsknn.fi
+- Simone Silvestroni        https://simonesilvestroni.com
+- Stephan Ango              https://stephanango.com 
+- Tania Rascia              https://taniarascia.com  
+
+─────────────────────────────────────────────────────────────────
+
+/* SITE */
+
+Standards:
+- HTML5
+- CSS3
+
+Tools: 
+- Cloudinary                https://cloudinary.com
+- Hugo                      https://gohugo.io
+- Github                    https://github.com 
+- Netlify                   https://www.netlify.com
+- Obsidian                  https://obsidian.md 
