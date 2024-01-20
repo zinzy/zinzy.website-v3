@@ -1,0 +1,5 @@
+[build]
+  command = """
+    git submodule update --remote &&
+    npm run build
+  """
