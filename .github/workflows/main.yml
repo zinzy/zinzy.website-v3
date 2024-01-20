@@ -1,7 +1,7 @@
 name: update all submodules
 on:
   schedule:
-    - cron: '* * * * *'
+    - cron: '*/2 * * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
