@@ -1,5 +1,8 @@
 name: update all submodules
-on: push
+on:
+  schedule:
+    # Run at 0815 daily
+    - cron: '*/5 * * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
