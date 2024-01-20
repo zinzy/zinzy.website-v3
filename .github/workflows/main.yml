@@ -1,8 +1,7 @@
 name: update all submodules
 on:
   schedule:
-    # Run at 0815 daily
-    - cron: '*/5 * * * *'
+    - cron: '* * * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -18,5 +17,5 @@ jobs:
           git submodule update --init --recursive --checkout -f --remote
           git config --global user.name "Zinzy Waleson Geene"
           git config --global user.email "zinzy@pm.me"
-          git commit -am "deployed"
+          git commit -am "Updated submodule"
           git push
