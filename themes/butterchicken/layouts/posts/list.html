@@ -12,7 +12,7 @@
 
     {{ range $postsDefault }}
 
-    <article class="prose prose-blue lg:prose-xl dark:prose-invert mb-28">
+    <article class="prose prose-gray dark:prose-invert mb-28">
         <header>
             <h2>{{ .Title }}</h2>
             <div class="relative">
@@ -25,7 +25,7 @@
                         {{ partial "post_type_note.html" .}}
                     {{ end }}
                 </span> 
-                <time>{{- (.Date | time.Format site.Params.theme_config.date_format_archive) }}</time>
+                <time class="font-mono">{{- (.Date | time.Format site.Params.theme_config.date_format_archive) }}</time>
             </div>
         </header> 
     

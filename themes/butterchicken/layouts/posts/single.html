@@ -1,10 +1,10 @@
 {{ define "main" }}
 {{ partial "back_link.html" .}}
 
-<article class="h-entry prose prose-blue lg:prose-xl dark:prose-invert">
+<article class="h-entry prose prose-gray dark:prose-invert">
     <header class="mb-20">
         <h2 class="p-name">{{ .Title }}</h2>
-        <time class="dt-published" datetime="{{ .Date }}">
+        <time class="font-mono dt-published" datetime="{{ .Date }}">
             {{ .Date | time.Format site.Params.theme_config.date_format }}
         </time>
     </header>

@@ -1,40 +1,37 @@
 {{ define "main" }}
 
-<header class="mb-20">
+<header class="font-mono mb-28">
     <h1>{{ $.Site.Title }}</h1>
-    <p>A warm welcome</p>
-</header>
-{{ .Content }}
- 
-<ul class="mb-10">
-    <h3 class="mb-4">Latest <a href="/posts" class="underline">(archive)</a></h3>
-    {{ $postsDefault := where .Site.RegularPages "Type" "posts" }}
-    {{ $postsWithTitle := where $postsDefault "Params.title" "ne" "" }}
+    <p>—</p>
+    <p>A digital living room</p>
+    <p>Last published on {{ now.Format "02 January 2006"}}</p>
+</header> 
 
-    {{ range $postsWithTitle | first 6 }}
-    <li class="flex items-center max-w-full">
-        <a href="{{ .Permalink }}"  class="flex-none py-2 lg:py-0">
-            <div class="min-w-0">{{ .Title }}</div>
+<p>Hello, I'm Zinzy Waleson Geene, and this is my personal website. It's a space for soft stances, lived experiences, and critical notes on the things I hold dear.</p>
+
+ 
+
+<ul class="my-14">
+    <h3 class=" mb-4">Table of contents</h3>
+
+    <li class="flex items-center">
+        <a href="/posts"  class="flex-none py-1">
+            Posts
         </a>
-        <span class="mx-3 mt-1 grow w-full border-t border-gray-400 dark:border-zinc-700 shrink">
+        <span class="mx-3 mt-1 grow w-full border-t border-gray-300 dark:border-zinc-700 shrink">
         </span>
-        <span class="flex-none">
-            <time>{{- (.Date | time.Format site.Params.theme_config.date_format_recent) }}</time>
+        <span class="flex-none font-mono">
+            Things I've written
         </span>
     </li>
-    {{ end }}
-</ul>
-
-<ul class="mb-10">
-    <h3 class=" mb-4">Misc</h3>
     {{ range ( where site.RegularPages "Section" "page"  ) }}
         <li class="flex items-center">
-            <a href="{{ .Permalink }}"  class="flex-none py-2 lg:py-0">
+            <a href="{{ .Permalink }}"  class="flex-none py-1">
                 {{ .Title }}
             </a>
-            <span class="mx-3 mt-1 grow w-full border-t border-gray-400 dark:border-zinc-700 shrink">
+            <span class="mx-3 mt-1 grow w-full border-t border-gray-300 dark:border-zinc-700 shrink">
             </span>
-            <span class="flex-none">
+            <span class="flex-none font-mono">
                 {{ .Description }}
             </span>
         </li>

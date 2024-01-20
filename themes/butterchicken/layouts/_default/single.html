@@ -1,10 +1,10 @@
 {{ define "main" }}
 {{ partial "back_link.html" .}}
 
-<article class="prose prose-blue lg:prose-xl dark:prose-invert">
+<article class="prose prose-gray dark:prose-invert">
  
         <p class="post-meta">
-            <time datetime="{{ .Date }}">
+            <time class="font-mono" datetime="{{ .Date }}">
                 {{ .Date | time.Format site.Params.theme_config.date_format }}
             </time>
         </p> 

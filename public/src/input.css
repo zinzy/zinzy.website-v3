@@ -2,23 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-h1, h2, h3, h4, h5, h6 {
-  font-size: 100% !important;
-  font-weight: normal;
-  text-transform: uppercase;
-  font-family: Arial, sans-serif;
+body {
+  max-width: 600px;
 }
 
-table {
-  thead {
-    font-size: 100%;
-    text-transform: uppercase;
-    font-family: Arial, sans-serif;
-    th {
-      font-weight: 400 !important;
-    }
+body:hover a {
+  color: red;
   }
-}
 
 input[type='checkbox'],
 input:checked {

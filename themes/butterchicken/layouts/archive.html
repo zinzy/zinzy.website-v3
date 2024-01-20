@@ -21,7 +21,7 @@ cdscdscds
         <span class="mx-3 mt-1 grow w-full border-t border-gray-400 dark:border-zinc-700 shrink">
         </span>
         <span class="flex-none">
-            <time>{{- (.Date | time.Format site.Params.theme_config.date_format_recent) }}</time>
+            <time class="font-mono">{{- (.Date | time.Format site.Params.theme_config.date_format_recent) }}</time>
         </span>
     </li>
     {{ end }}
