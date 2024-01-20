@@ -4,3 +4,4 @@
 [submodule "content"]
 	path = content
 	url = https://github.com/zinzy/content.git
+    update = merge # <-- this is what you need to add
