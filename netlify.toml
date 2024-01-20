@@ -1,6 +1,2 @@
 [build]
-  command = """
-    git submodule update --remote &&
-    hugo &&
-    npm run build
-  """
+  command = "git submodule update --remote && hugo && npm run build"
