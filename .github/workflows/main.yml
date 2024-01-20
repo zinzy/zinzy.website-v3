@@ -4,10 +4,15 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
-      with:
-        submodules: recursive  # Fetch Hugo themes (true OR recursive)
-        fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
-    # - name: Checkout submodules
-    #   run: git submodule update --remote --merge
+      - name: Checkout
+        uses: actions/checkout@v4.1.1
+        with:
+          submodules: recursive
+          fetch-depth: 0
+      - name: Update module
+        run: |
+          git submodule update --init --recursive --checkout -f --remote"
+          git config --global user.name "Zinzy Waleson Geene"
+          git config --global user.email "zinzy@pm.me"
+          git commit -am "deployed"
+          git push
