@@ -135,7 +135,7 @@ code,
 kbd,
 samp,
 pre {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: Andalé Mono, monospace;
   /* 1 */
   font-feature-settings: normal;
   /* 2 */
@@ -1046,6 +1046,52 @@ video {
   margin-bottom: 0;
 }
 
+.prose-gray {
+  --tw-prose-body: #000;
+  --tw-prose-headings: #000;
+  --tw-prose-lead: #000;
+  --tw-prose-links: #d946ef;
+  --tw-prose-bold: #000;
+  --tw-prose-counters: #000;
+  --tw-prose-bullets: #000;
+  --tw-prose-hr: #000;
+  --tw-prose-quotes: #000;
+  --tw-prose-quote-borders: #000;
+  --tw-prose-captions: #000;
+  --tw-prose-kbd: #111827;
+  --tw-prose-kbd-shadows: 17 24 39;
+  --tw-prose-code: #000;
+  --tw-prose-pre-code: #000;
+  --tw-prose-pre-bg: #000;
+  --tw-prose-th-borders: #000;
+  --tw-prose-td-borders: #000;
+  --tw-prose-invert-body: #fff;
+  --tw-prose-invert-headings: #fff;
+  --tw-prose-invert-lead: #d4d4d8;
+  --tw-prose-invert-links: #e879f9;
+  --tw-prose-invert-bold: #fff;
+  --tw-prose-invert-counters: #d4d4d8;
+  --tw-prose-invert-bullets: #d4d4d8;
+  --tw-prose-invert-hr: #52525b;
+  --tw-prose-invert-quotes: #d4d4d8;
+  --tw-prose-invert-quote-borders: #3f3f46;
+  --tw-prose-invert-captions: #a1a1aa;
+  --tw-prose-invert-kbd: #fff;
+  --tw-prose-invert-kbd-shadows: 255 255 255;
+  --tw-prose-invert-code: #fff;
+  --tw-prose-invert-pre-code: #d4d4d8;
+  --tw-prose-invert-pre-bg: rgb(0 0 0 / 50%);
+  --tw-prose-invert-th-borders: #52525b;
+  --tw-prose-invert-td-borders: #3f3f46;
+}
+
+.prose-gray :where(h1,h2,h3,h4,h5,h6):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  font-size: 100%;
+  font-family: Arial, sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
 .absolute {
   position: absolute;
 }
@@ -1059,6 +1105,11 @@ video {
   margin-right: 0.25rem;
 }
 
+.mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
 .mx-3 {
   margin-left: 0.75rem;
   margin-right: 0.75rem;
@@ -1067,6 +1118,20 @@ video {
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
+}
+
+.my-14 {
+  margin-top: 3.5rem;
+  margin-bottom: 3.5rem;
+}
+
+.my-5 {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.mb-0 {
+  margin-bottom: 0px;
 }
 
 .mb-10 {
@@ -1097,8 +1162,8 @@ video {
   margin-top: 0.25rem;
 }
 
-.mt-20 {
-  margin-top: 5rem;
+.mt-28 {
+  margin-top: 7rem;
 }
 
 .mt-4 {
@@ -1119,10 +1184,6 @@ video {
 
 .grid {
   display: grid;
-}
-
-.contents {
-  display: contents;
 }
 
 .hidden {
@@ -1203,10 +1264,6 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.fill-blue-900 {
-  fill: #1e3a8a;
-}
-
 .stroke-gray-950 {
   stroke: #030712;
 }
@@ -1224,16 +1281,46 @@ video {
   text-align: right;
 }
 
+.font-mono {
+  font-family: Andalé Mono, monospace;
+}
+
 .font-serif {
   font-family: Times New Roman, sans-serif;
 }
 
+.text-gray-300 {
+  --tw-text-opacity: 1;
+  color: rgb(209 213 219 / var(--tw-text-opacity));
+}
+
+.text-gray-950 {
+  --tw-text-opacity: 1;
+  color: rgb(3 7 18 / var(--tw-text-opacity));
+}
+
+body, html {
+  font-size: 19px;
+}
+
 body {
+  font-size: 1rem;
   max-width: 600px;
 }
 
-body:hover a {
-  color: red;
+.font-mono {
+  font-size: 75%;
+}
+
+table {
+  thead {
+    th {
+      font-family: 'Andalé Mono', monospace !important;
+      font-size: 75%;
+      text-transform: uppercase;
+      font-weight: normal !important;
+    }
+  }
 }
 
 input[type='checkbox'],
@@ -1247,6 +1334,39 @@ input:checked {
   height: 24px;
   top: 6px;
 }
+
+.total {
+  position: relative;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  text-align: center;
+  font-size: 10px;
+}
+
+h2, h3, h4, h5, h6,
+.prose h2, .prose h3, .prose h4, .prose h5, .prose h6 {
+  font-family: 'Andalé Mono', monospace !important;
+  font-size: 75%;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+content p:first-child {
+  margin-top: 0 !important;
+}
+
+figure h2, figure h3, figure h4, figure h5, figure h6 {
+  font-family: 'Andalé Mono', monospace !important;
+  font-size: 75%;
+  text-transform: none !important;
+  font-weight: normal;
+}
+
+/* 
+.prose a {
+  color: blue;
+} */
 
 @media (prefers-color-scheme: dark) {
   .dark\:prose-invert {

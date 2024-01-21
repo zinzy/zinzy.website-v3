@@ -27,7 +27,7 @@
                         {{ partial "post_type_note.html" .}}
                     {{ end }}
                 </span>  -->
-                <time class="font-mono">{{- (.Date | time.Format site.Params.theme_config.date_format_archive) }}</time>
+                <a href="{{ .Permalink }}"><time class="font-mono">{{- (.Date | time.Format site.Params.theme_config.date_format_archive) }}</time></a>
             </div>
         </header> 
     

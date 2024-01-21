@@ -1047,42 +1047,49 @@ video {
 }
 
 .prose-gray {
-  --tw-prose-body: #374151;
-  --tw-prose-headings: #111827;
-  --tw-prose-lead: #4b5563;
-  --tw-prose-links: #111827;
-  --tw-prose-bold: #111827;
-  --tw-prose-counters: #6b7280;
-  --tw-prose-bullets: #d1d5db;
-  --tw-prose-hr: #e5e7eb;
-  --tw-prose-quotes: #111827;
-  --tw-prose-quote-borders: #e5e7eb;
-  --tw-prose-captions: #6b7280;
+  --tw-prose-body: #000;
+  --tw-prose-headings: #000;
+  --tw-prose-lead: #000;
+  --tw-prose-links: #1d4ed8;
+  --tw-prose-bold: #000;
+  --tw-prose-counters: #000;
+  --tw-prose-bullets: #000;
+  --tw-prose-hr: #000;
+  --tw-prose-quotes: #000;
+  --tw-prose-quote-borders: #000;
+  --tw-prose-captions: #000;
   --tw-prose-kbd: #111827;
   --tw-prose-kbd-shadows: 17 24 39;
-  --tw-prose-code: #111827;
-  --tw-prose-pre-code: #e5e7eb;
-  --tw-prose-pre-bg: #1f2937;
-  --tw-prose-th-borders: #d1d5db;
-  --tw-prose-td-borders: #e5e7eb;
-  --tw-prose-invert-body: #d1d5db;
+  --tw-prose-code: #000;
+  --tw-prose-pre-code: #000;
+  --tw-prose-pre-bg: #000;
+  --tw-prose-th-borders: #000;
+  --tw-prose-td-borders: #000;
+  --tw-prose-invert-body: #fff;
   --tw-prose-invert-headings: #fff;
-  --tw-prose-invert-lead: #9ca3af;
-  --tw-prose-invert-links: #fff;
+  --tw-prose-invert-lead: #d4d4d8;
+  --tw-prose-invert-links: #93c5fd;
   --tw-prose-invert-bold: #fff;
-  --tw-prose-invert-counters: #9ca3af;
-  --tw-prose-invert-bullets: #4b5563;
-  --tw-prose-invert-hr: #374151;
-  --tw-prose-invert-quotes: #f3f4f6;
-  --tw-prose-invert-quote-borders: #374151;
-  --tw-prose-invert-captions: #9ca3af;
+  --tw-prose-invert-counters: #d4d4d8;
+  --tw-prose-invert-bullets: #d4d4d8;
+  --tw-prose-invert-hr: #52525b;
+  --tw-prose-invert-quotes: #d4d4d8;
+  --tw-prose-invert-quote-borders: #3f3f46;
+  --tw-prose-invert-captions: #a1a1aa;
   --tw-prose-invert-kbd: #fff;
   --tw-prose-invert-kbd-shadows: 255 255 255;
   --tw-prose-invert-code: #fff;
-  --tw-prose-invert-pre-code: #d1d5db;
+  --tw-prose-invert-pre-code: #d4d4d8;
   --tw-prose-invert-pre-bg: rgb(0 0 0 / 50%);
-  --tw-prose-invert-th-borders: #4b5563;
-  --tw-prose-invert-td-borders: #374151;
+  --tw-prose-invert-th-borders: #52525b;
+  --tw-prose-invert-td-borders: #3f3f46;
+}
+
+.prose-gray :where(h1,h2,h3,h4,h5,h6):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  font-size: 100%;
+  font-family: Arial, sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
 }
 
 .absolute {
@@ -1093,13 +1100,14 @@ video {
   position: relative;
 }
 
-.m-0 {
-  margin: 0px;
-}
-
 .mx-1 {
   margin-left: 0.25rem;
   margin-right: 0.25rem;
+}
+
+.mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
 }
 
 .mx-3 {
@@ -1117,9 +1125,13 @@ video {
   margin-bottom: 3.5rem;
 }
 
-.mx-2 {
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
+.my-5 {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.mb-0 {
+  margin-bottom: 0px;
 }
 
 .mb-10 {
@@ -1150,20 +1162,12 @@ video {
   margin-top: 0.25rem;
 }
 
-.mt-14 {
-  margin-top: 3.5rem;
-}
-
 .mt-28 {
   margin-top: 7rem;
 }
 
 .mt-4 {
   margin-top: 1rem;
-}
-
-.mb-0 {
-  margin-bottom: 0px;
 }
 
 .block {
@@ -1180,10 +1184,6 @@ video {
 
 .grid {
   display: grid;
-}
-
-.contents {
-  display: contents;
 }
 
 .hidden {
@@ -1254,11 +1254,6 @@ video {
   border-top-width: 1px;
 }
 
-.border-gray-300 {
-  --tw-border-opacity: 1;
-  border-color: rgb(209 213 219 / var(--tw-border-opacity));
-}
-
 .border-gray-400 {
   --tw-border-opacity: 1;
   border-color: rgb(156 163 175 / var(--tw-border-opacity));
@@ -1275,15 +1270,6 @@ video {
 
 .p-8 {
   padding: 2rem;
-}
-
-.p-0 {
-  padding: 0px;
-}
-
-.py-1 {
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
 }
 
 .py-2 {
@@ -1303,14 +1289,14 @@ video {
   font-family: Times New Roman, sans-serif;
 }
 
-.text-gray-950 {
-  --tw-text-opacity: 1;
-  color: rgb(3 7 18 / var(--tw-text-opacity));
-}
-
 .text-gray-300 {
   --tw-text-opacity: 1;
   color: rgb(209 213 219 / var(--tw-text-opacity));
+}
+
+.text-gray-950 {
+  --tw-text-opacity: 1;
+  color: rgb(3 7 18 / var(--tw-text-opacity));
 }
 
 body, html {
@@ -1366,12 +1352,15 @@ h2, h3, h4, h5, h6,
   font-weight: normal;
 }
 
-.prose {
-  color: #000;
-}
-
 content p:first-child {
   margin-top: 0 !important;
+}
+
+figure h2, figure h3, figure h4, figure h5, figure h6 {
+  font-family: 'Andalé Mono', monospace !important;
+  font-size: 75%;
+  text-transform: none !important;
+  font-weight: normal;
 }
 
 @media (prefers-color-scheme: dark) {
