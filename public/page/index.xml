@@ -15,6 +15,13 @@
       <description>Hello, I’m Zinzy Waleson Geene (she/they) and this is my personal website; a quiet street on the Internet where I come to link and think. It’s a home for soft stances, lived experiences, and critical notes on the things I hold dear. On this website as well as in life, I aim to bring my whole self: the self that works, plays, questions, doodles, fears, cooks, prays, gets angry, changes her mind.</description>
     </item>
     <item>
+      <title>Changelog</title>
+      <link>https://zinzy.website/changelog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://zinzy.website/changelog/</guid>
+      <description>January 21, 2024 External links now open in a new tab, using a Hugo add-on January 20, 2024 Established new deployment scheme, which populates the website&amp;rsquo;s contents folder twice daily with whatever has changed in my Obsidian vault, and deploys it to Netlify. Earlier Filter untitled posts out of post index Got added to the xxiivv webring </description>
+    </item>
+    <item>
       <title>Codex</title>
       <link>https://zinzy.website/codex/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -33,7 +40,7 @@
       <link>https://zinzy.website/interests/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://zinzy.website/interests/</guid>
-      <description>The red thread in my life is bottomless curiosity for the world in which we live. I enjoy doing short deep-dives into all sorts of subjects. Some stay, but with many I&amp;rsquo;ll reach a point of satisfaction at some point, ready to take on something new. To learn about the more fleeting interests occupying my mind, you should read my Now page. Below is an overview of the topics that have been with me for decades.</description>
+      <description>The red thread in my life is bottomless curiosity for the world in which we live. I enjoy doing short deep-dives into all sorts of subjects. Some stay, but with many I&amp;rsquo;ll reach a point of satisfaction at some point, ready to take on something new. To learn about the more fleeting interests occupying my mind, you should read my Now page. Below is an overview of the themes that have been with me for decades.</description>
     </item>
     <item>
       <title>Now</title>
@@ -47,7 +54,7 @@
       <link>https://zinzy.website/site/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://zinzy.website/site/</guid>
-      <description>I grew up on the Internet in a time when social media meant writing comments on other people&amp;rsquo;s hand-built blogs. The sense of whimsy, endless curiosity, and a beautiful lack of information overload are highs I have been chasing ever since. It instilled in me a deep appreciation for a small-scale, intimate, and friendly internet made up of hand-crafted websites. This is one of them.&#xA;I’ve been yelling at Internet clouds since 1997.</description>
+      <description>I grew up on the Internet in a time when social media meant writing comments on other people&amp;rsquo;s hand-built blogs. The sense of whimsy, coziness, and a beautiful lack of information overload are highs I have been chasing ever since. The Web 1.0 has instilled in me a deep appreciation for a small-scale, intimate, and friendly Internet made up of hand-crafted websites. This is one of them.&#xA;I’ve been yelling at Internet clouds since 1997.</description>
     </item>
     <item>
       <title>Work</title>

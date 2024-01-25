@@ -1050,7 +1050,7 @@ video {
   --tw-prose-body: #000;
   --tw-prose-headings: #000;
   --tw-prose-lead: #000;
-  --tw-prose-links: #1d4ed8;
+  --tw-prose-links: #dc2626;
   --tw-prose-bold: #000;
   --tw-prose-counters: #000;
   --tw-prose-bullets: #000;
@@ -1297,6 +1297,15 @@ video {
 .text-gray-950 {
   --tw-text-opacity: 1;
   color: rgb(3 7 18 / var(--tw-text-opacity));
+}
+
+.text-red-600 {
+  --tw-text-opacity: 1;
+  color: rgb(220 38 38 / var(--tw-text-opacity));
+}
+
+.underline {
+  text-decoration-line: underline;
 }
 
 body, html {

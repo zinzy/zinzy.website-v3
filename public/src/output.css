@@ -1050,7 +1050,7 @@ video {
   --tw-prose-body: #000;
   --tw-prose-headings: #000;
   --tw-prose-lead: #000;
-  --tw-prose-links: #d946ef;
+  --tw-prose-links: #dc2626;
   --tw-prose-bold: #000;
   --tw-prose-counters: #000;
   --tw-prose-bullets: #000;
@@ -1068,7 +1068,7 @@ video {
   --tw-prose-invert-body: #fff;
   --tw-prose-invert-headings: #fff;
   --tw-prose-invert-lead: #d4d4d8;
-  --tw-prose-invert-links: #e879f9;
+  --tw-prose-invert-links: #93c5fd;
   --tw-prose-invert-bold: #fff;
   --tw-prose-invert-counters: #d4d4d8;
   --tw-prose-invert-bullets: #d4d4d8;
@@ -1299,6 +1299,15 @@ video {
   color: rgb(3 7 18 / var(--tw-text-opacity));
 }
 
+.text-red-600 {
+  --tw-text-opacity: 1;
+  color: rgb(220 38 38 / var(--tw-text-opacity));
+}
+
+.underline {
+  text-decoration-line: underline;
+}
+
 body, html {
   font-size: 19px;
 }
@@ -1362,11 +1371,6 @@ figure h2, figure h3, figure h4, figure h5, figure h6 {
   text-transform: none !important;
   font-weight: normal;
 }
-
-/* 
-.prose a {
-  color: blue;
-} */
 
 @media (prefers-color-scheme: dark) {
   .dark\:prose-invert {

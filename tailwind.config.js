@@ -28,7 +28,7 @@ module.exports = {
             '--tw-prose-body': theme('colors.black'),
             '--tw-prose-headings': theme('colors.black'),
             '--tw-prose-lead': theme('colors.black'),
-            '--tw-prose-links': theme('colors.blue[700]'),
+            '--tw-prose-links': theme('colors.red[600]'),
             '--tw-prose-bold': theme('colors.black'),
             '--tw-prose-counters': theme('colors.black'),
             '--tw-prose-bullets': theme('colors.black'),
