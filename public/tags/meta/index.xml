@@ -16,13 +16,6 @@
       <description>Recently, I&amp;rsquo;ve been making some great progress with my personal website. While I normally don&amp;rsquo;t engage in technical ballets on the goings-on of this website, I feel it&amp;rsquo;s relevant to document what I&amp;rsquo;ve learnt and done, if only for posterity.&#xA;Tools Jekyll: as is often the case for me, this site is built using my favorite flat-file content management system Github: hosts the code for this website Netlify: serves the content to my website Obsidian: I write in a single Obsidian vault obsidian-git: helps me manage the version control of my Obsidian content Push git subdirectory as branch: a Github action that lets me publish a part of the content of my Obsidian vault to a separate repository Git submodule: my separate repository is pulled into my website&amp;rsquo;s code base Netlify build hook: every day, Netlify looks for new content and publishes it to my website Why this is great I hold the strong belief that tools don&amp;rsquo;t matter.</description>
     </item>
     <item>
-      <title>Week 15: Ironic</title>
-      <link>https://zinzy.website/2022/04/17/week-15-ironic/</link>
-      <pubDate>Sun, 17 Apr 2022 00:00:00 +0000</pubDate>
-      <guid>https://zinzy.website/2022/04/17/week-15-ironic/</guid>
-      <description>Brushing my teeth on Friday morning, I think about the weekend ahead, secretly complaining that my social engagements will keep me from getting the rest I need. Then I remember Easter Monday. The true marker of my mid-thirties is the excitement I feel at the prospect of a bed, and nothing but it.&#xA;I hold a baby this week, one of my favorite ones. His face has two states that exist simultaneously: the one of utter shock and surprise only newborns can have, and the one that reminds you that babies know everything about the world and forget it as soon as they start to speak.</description>
-    </item>
-    <item>
       <title>On keeping a journal</title>
       <link>https://zinzy.website/2012/08/31/on-keeping-a-journal/</link>
       <pubDate>Fri, 31 Aug 2012 00:00:00 +0000</pubDate>

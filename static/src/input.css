@@ -54,6 +54,9 @@ h2, h3, h4, h5, h6,
   font-weight: normal;
 }
 
+.prose h3 { margin-top: 3rem; }
+.prose h4 { margin-top: 2rem; }
+
 
 content p:first-child {
   margin-top: 0 !important;
@@ -65,3 +68,4 @@ figure h2, figure h3, figure h4, figure h5, figure h6 {
   text-transform: none !important;
   font-weight: normal;
 }
+

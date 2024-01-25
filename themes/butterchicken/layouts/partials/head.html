@@ -12,6 +12,8 @@
     {{ end }}
   </title>
 
+  <link rel="alternate" type="application/rss+xml" href="{{.Site.BaseURL }}/posts/index.xml"  title="{{ .Site.Title }}">
+
   <link rel="icon" type="image/svg+xml" href="https://emojicdn.elk.sh/👋🏽">
   <!-- 
   {{ $options := (dict "outputStyle" "compressed" "enableSourceMap" (not hugo.IsProduction)) }}

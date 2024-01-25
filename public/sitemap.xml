@@ -3,13 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://zinzy.website/2024/01/16/</loc>
-    <lastmod>2024-01-16T07:12:25+01:00</lastmod>
+    <lastmod>2024-01-16T07:12:25+00:00</lastmod>
   </url><url>
     <loc>https://zinzy.website/updates/</loc>
-    <lastmod>2024-01-16T07:12:25+01:00</lastmod>
+    <lastmod>2024-01-16T07:12:25+00:00</lastmod>
   </url><url>
     <loc>https://zinzy.website/</loc>
-    <lastmod>2024-01-16T07:12:25+01:00</lastmod>
+    <lastmod>2024-01-16T07:12:25+00:00</lastmod>
   </url><url>
     <loc>https://zinzy.website/tags/all-saints/</loc>
     <lastmod>2024-01-14T00:00:00+00:00</lastmod>
@@ -44,6 +44,9 @@
     <loc>https://zinzy.website/2024/01/07/week-1-miracle-mornings/</loc>
     <lastmod>2024-01-07T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://zinzy.website/2024/01/03/</loc>
+    <lastmod>2024-01-03T16:51:39+00:00</lastmod>
+  </url><url>
     <loc>https://zinzy.website/2024/01/02/</loc>
     <lastmod>2024-01-02T10:04:19+02:00</lastmod>
   </url><url>
@@ -58,6 +61,30 @@
   </url><url>
     <loc>https://zinzy.website/2023/12/22/</loc>
     <lastmod>2023-12-22T08:54:03+02:00</lastmod>
+  </url><url>
+    <loc>https://zinzy.website/tags/annual-review/</loc>
+    <lastmod>2023-12-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zinzy.website/2023/12/21/annual-review-at-36/</loc>
+    <lastmod>2023-12-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zinzy.website/tags/birthday/</loc>
+    <lastmod>2023-12-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zinzy.website/tags/community/</loc>
+    <lastmod>2023-12-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zinzy.website/tags/lists/</loc>
+    <lastmod>2023-12-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zinzy.website/tags/questions/</loc>
+    <lastmod>2023-12-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zinzy.website/2023/12/20/a-lifetime-without-representation/</loc>
+    <lastmod>2023-12-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zinzy.website/tags/indieweb/</loc>
+    <lastmod>2023-12-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://zinzy.website/2023/12/17/</loc>
     <lastmod>2023-12-17T20:25:37+00:00</lastmod>
@@ -185,9 +212,6 @@
     <loc>https://zinzy.website/tags/cinema/</loc>
     <lastmod>2023-09-30T09:16:15+02:00</lastmod>
   </url><url>
-    <loc>https://zinzy.website/tags/community/</loc>
-    <lastmod>2023-09-30T09:16:15+02:00</lastmod>
-  </url><url>
     <loc>https://zinzy.website/tags/film-club/</loc>
     <lastmod>2023-09-30T09:16:15+02:00</lastmod>
   </url><url>
@@ -225,9 +249,6 @@
     <lastmod>2023-09-17T08:49:15+02:00</lastmod>
   </url><url>
     <loc>https://zinzy.website/tags/home/</loc>
-    <lastmod>2023-09-17T08:49:15+02:00</lastmod>
-  </url><url>
-    <loc>https://zinzy.website/tags/indieweb/</loc>
     <lastmod>2023-09-17T08:49:15+02:00</lastmod>
   </url><url>
     <loc>https://zinzy.website/tags/mental-health/</loc>
@@ -1196,9 +1217,6 @@
     <loc>https://zinzy.website/2021/07/18/a-believable-truth/</loc>
     <lastmod>2021-07-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://zinzy.website/tags/birthday/</loc>
-    <lastmod>2021-07-18T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://zinzy.website/2021/07/13/the-old-sharing/</loc>
     <lastmod>2021-07-13T00:00:00+00:00</lastmod>
   </url><url>
@@ -1287,9 +1305,6 @@
     <lastmod>2020-12-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://zinzy.website/2020/12/15/33-things/</loc>
-    <lastmod>2020-12-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://zinzy.website/tags/lists/</loc>
     <lastmod>2020-12-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://zinzy.website/2020/11/29/of-bridges-and-neighbors/</loc>
@@ -1468,17 +1483,9 @@
   </url><url>
     <loc>https://zinzy.website/1/01/01/</loc>
   </url><url>
-    <loc>https://zinzy.website/1/01/01/</loc>
-  </url><url>
     <loc>https://zinzy.website/tags/100daystooffload/</loc>
   </url><url>
-    <loc>https://zinzy.website/1/01/01/a-lifetime-without-representation/</loc>
-  </url><url>
     <loc>https://zinzy.website/about/</loc>
-  </url><url>
-    <loc>https://zinzy.website/tags/annual-review/</loc>
-  </url><url>
-    <loc>https://zinzy.website/1/01/01/annual-review-at-36/</loc>
   </url><url>
     <loc>https://zinzy.website/categories/</loc>
   </url><url>
@@ -1493,8 +1500,6 @@
     <loc>https://zinzy.website/now/</loc>
   </url><url>
     <loc>https://zinzy.website/page/</loc>
-  </url><url>
-    <loc>https://zinzy.website/tags/questions/</loc>
   </url><url>
     <loc>https://zinzy.website/site/</loc>
   </url><url>

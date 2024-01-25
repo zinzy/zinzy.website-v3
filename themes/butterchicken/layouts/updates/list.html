@@ -10,9 +10,9 @@
 </section>
 
  
-    {{ $postsDefault := where .Site.RegularPages "Type" "posts" }}
+    {{ $postsDefault := where .Site.RegularPages "Type" "updates" }}
 
-    {{ range $postsDefault | first 10 }}
+    {{ range $postsDefault }}
 
     <article class="prose prose-gray dark:prose-invert mb-28">
         <header>

@@ -15,7 +15,7 @@
 <ul>
     {{ range $postsDefault }}
     <li> 
-        <a class="text-red-600 underline" href="{{ .Permalink }}">{{ .Title }}</a> - <time class="font-mono">{{- (.Date | time.Format site.Params.theme_config.date_format_archive) }}</time>
+        <a class="text-blue-600 dark:text-purple-300 underline" href="{{ .Permalink }}">{{ .Title }}</a> - <time class="font-mono">{{- (.Date | time.Format site.Params.theme_config.date_format_archive) }}</time>
     </li>
     {{ end }} 
 </ul>  
