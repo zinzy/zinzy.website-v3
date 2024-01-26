@@ -1065,10 +1065,10 @@ video {
   --tw-prose-pre-bg: #1f2937;
   --tw-prose-th-borders: #e5e7eb;
   --tw-prose-td-borders: #e5e7eb;
-  --tw-prose-invert-body: #fff;
+  --tw-prose-invert-body: #d1d5db;
   --tw-prose-invert-headings: #fff;
   --tw-prose-invert-lead: #d4d4d8;
-  --tw-prose-invert-links: #d8b4fe;
+  --tw-prose-invert-links: #fff;
   --tw-prose-invert-bold: #fff;
   --tw-prose-invert-counters: #d4d4d8;
   --tw-prose-invert-bullets: #d4d4d8;
@@ -1081,8 +1081,8 @@ video {
   --tw-prose-invert-code: #fff;
   --tw-prose-invert-pre-code: #d4d4d8;
   --tw-prose-invert-pre-bg: rgb(0 0 0 / 50%);
-  --tw-prose-invert-th-borders: #52525b;
-  --tw-prose-invert-td-borders: #3f3f46;
+  --tw-prose-invert-th-borders: #065f46;
+  --tw-prose-invert-td-borders: #065f46;
 }
 
 .prose-gray :where(.prose a):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
@@ -1347,7 +1347,7 @@ table {
       font-family: 'Andalé Mono', monospace !important;
       font-size: 95%;
       font-weight: normal !important;
-      color: #6b7280 !important;
+      /* color: #6b7280 !important; */
     }
   }
 }
@@ -1438,8 +1438,17 @@ figure h2, figure h3, figure h4, figure h5, figure h6 {
     stroke: #d4d4d8;
   }
 
+  .dark\:text-white {
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+  }
+
   .dark\:text-zinc-300 {
     --tw-text-opacity: 1;
     color: rgb(212 212 216 / var(--tw-text-opacity));
+  }
+
+  .dark\:text-opacity-50 {
+    --tw-text-opacity: 0.5;
   }
 }

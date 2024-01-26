@@ -21,7 +21,7 @@ table {
         font-family: 'Andalé Mono', monospace !important;
         font-size: 95%; 
         font-weight: normal !important;
-        color: #6b7280 !important;
+        /* color: #6b7280 !important; */
     }
   }
 }

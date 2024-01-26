@@ -45,10 +45,10 @@ module.exports = {
             '--tw-prose-th-borders': theme('colors.gray[200]'),
             '--tw-prose-td-borders': theme('colors.gray[200]'),
             // Everything below will be dark mode
-            '--tw-prose-invert-body': theme('colors.white'),
+            '--tw-prose-invert-body': theme('colors.gray[300]'),
             '--tw-prose-invert-headings': theme('colors.white'),
             '--tw-prose-invert-lead': theme('colors.zinc[300]'),
-            '--tw-prose-invert-links': theme('colors.purple[300]'),
+            '--tw-prose-invert-links': theme('colors.white'),
             '--tw-prose-invert-bold': theme('colors.white'),
             '--tw-prose-invert-counters': theme('colors.zinc[300]'),
             '--tw-prose-invert-bullets': theme('colors.zinc[300]'),
@@ -59,8 +59,8 @@ module.exports = {
             '--tw-prose-invert-code': theme('colors.white'),
             '--tw-prose-invert-pre-code': theme('colors.zinc[300]'),
             '--tw-prose-invert-pre-bg': 'rgb(0 0 0 / 50%)',
-            '--tw-prose-invert-th-borders': theme('colors.zinc[600]'),
-            '--tw-prose-invert-td-borders': theme('colors.zinc[700]'),
+            '--tw-prose-invert-th-borders': theme('colors.emerald[800]'),
+            '--tw-prose-invert-td-borders': theme('colors.emerald[800]'),
           }
         }
       })
