@@ -3,7 +3,7 @@
 
 <article class="h-entry prose prose-gray dark:prose-invert">
     <header>
-        <!-- <h2 class="p-name">{{ .Title }}</h2> -->
+        <h2 class="p-name">{{ .Title }}</h2>
         <time class="font-mono dt-published" datetime="{{ .Date }}">
             {{ .Date | time.Format site.Params.theme_config.date_format_archive }}
         </time>

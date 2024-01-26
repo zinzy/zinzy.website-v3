@@ -1,21 +1,19 @@
 {{ define "main" }}
 {{ partial "back_link.html" .}}
 
-<!-- <header class="mb-20">
-    <h2 class="mt-0 mb-0">{{ .Title }}</h2>
-</header> -->
-
-<section class="my-14">
-  <p>This website contains a post archive going back to the mid-aughts. Some are outdated, incorrect, perhaps even embarrassing, but they're all mine.</p>
-</section>
+<header class="prose mb-20">
+    <h2>{{ .Title }}</h2>
+    <p>This website contains a post archive going back to the mid-aughts. Some are outdated, incorrect, perhaps even embarrassing, but they're all mine.</p>
+</header>
+ 
 
  
 {{ $postsDefault := where .Site.RegularPages "Type" "posts" }}
 
 <ul>
     {{ range $postsDefault }}
-    <li> 
-        <a class="text-blue-600 dark:text-purple-300 underline" href="{{ .Permalink }}">{{ .Title }}</a> - <time class="font-mono">{{- (.Date | time.Format site.Params.theme_config.date_format_archive) }}</time>
+    <li class="mb-3"> 
+        <a class="border-dashed border-b border-gray-400" href="{{ .Permalink }}">{{ .Title }}</a> - <time class="font-mono text-gray-500">{{- (.Date | time.Format site.Params.theme_config.date_format_archive) }}</time>
     </li>
     {{ end }} 
 </ul>  
