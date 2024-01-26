@@ -1416,6 +1416,15 @@ figure h2, figure h3, figure h4, figure h5, figure h6 {
   }
 }
 
+.hover\:text-gray-800:hover {
+  --tw-text-opacity: 1;
+  color: rgb(31 41 55 / var(--tw-text-opacity));
+}
+
+.hover\:text-opacity-90:hover {
+  --tw-text-opacity: 0.9;
+}
+
 @media (min-width: 1024px) {
   .lg\:py-0 {
     padding-top: 0px;
@@ -1450,5 +1459,17 @@ figure h2, figure h3, figure h4, figure h5, figure h6 {
 
   .dark\:text-opacity-50 {
     --tw-text-opacity: 0.5;
+  }
+
+  .dark\:text-opacity-90 {
+    --tw-text-opacity: 0.9;
+  }
+
+  .dark\:hover\:text-opacity-90:hover {
+    --tw-text-opacity: 0.9;
+  }
+
+  .hover\:dark\:text-opacity-90:hover {
+    --tw-text-opacity: 0.9;
   }
 }
