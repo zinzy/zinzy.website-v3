@@ -15,9 +15,22 @@ theme = "butterchicken"
     org = 'Gerimedica'
 [permalinks]
   posts = "/:year/:month/:day/:title/"
-  updates = "/:year/:month/:day"
+  updates = "/:slugorfilename/"
   page = "/:slug/"
   notes = "/:slug/"
 [outputs]
   home = ['html', 'rss']
   section = ['html', 'rss']
+[[menu.main]]
+  name = "Start"
+  url = "/"
+  weight = 5
+[[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 10
+[[menu.main]]
+  name = "Work"
+  url = "/work/"
+  weight = 15
+paginate = 6

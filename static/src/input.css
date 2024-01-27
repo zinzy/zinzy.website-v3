@@ -46,7 +46,9 @@ input:checked {
   font-size: 10px;
 }
  
-
+.prose h2, .prose h3, .prose h4, .prose h5, .prose h6 {
+  font-weight: 500;
+}
 .prose h3 { margin-top: 3rem; }
 .prose h4 { margin-top: 2rem; }
 
@@ -61,4 +63,17 @@ figure h2, figure h3, figure h4, figure h5, figure h6 {
   line-height: 160% !important;
   font-weight: normal;
   color: #6b7280;
+}
+
+header nav ul li a {
+  color: #6b7280;
+}
+
+@media (prefers-color-scheme: dark) {
+  header nav ul li a {
+    color: rgba(255,255,255,.5);
+  }
+  hr {
+    border-color:  rgba(255,255,255,.3);
+  }
 }

@@ -1,23 +1,9 @@
 <!DOCTYPE html>
-<html lang="{{ $.Site.LanguageCode }}">
+<html lang="{{ $.Site.LanguageCode }}" class="scroll-smooth">
     {{- partial "head.html" . -}}
-    <body class="antialiased mx-auto p-8 text-gray-950 bg-white dark:bg-emerald-950 dark:text-zinc-300" a="{{ $.Site.Params.theme_config.appearance | default "auto" }}">
+    <body class="antialiased mx-auto p-8 md:py-14 text-gray-950 bg-white dark:bg-emerald-950 dark:text-zinc-300" a="{{ $.Site.Params.theme_config.appearance | default "auto" }}">
 
-        <header class="flex font-mono mb-28"> 
-            <div class="flex-none">
-                <h1 class=""><a href="/" class="text-gray-500 dark:text-white dark:text-opacity-50 hover:text-opacity-90">{{ $.Site.Title }}</a></h1>
-            </div>
-            <div class="grow text-right">
-                <nav>
-                    <ul class="m-0 p-0">
-                        <li class="inline-block"><a class="text-gray-500 dark:text-white dark:text-opacity-50 hover:text-opacity-90" href="/">Start</a></li>
-                        <li class="inline-block"><a class="text-gray-500 dark:text-white dark:text-opacity-50 hover:text-opacity-90" href="/about">About</a></li>
-                        <li class="inline-block"><a class="text-gray-500 dark:text-white dark:text-opacity-50 hover:text-opacity-90" href="/work">Work</a></li> 
-                    </ul>
-                </nav>
-            </div>
-  
-        </header> 
+        {{- partial "header.html" . -}}
 
         <main class="page-content" aria-label="Content">
             <div class="w">

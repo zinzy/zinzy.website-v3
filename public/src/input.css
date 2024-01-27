@@ -3,25 +3,25 @@
 @tailwind utilities;
 
 body, html {
-  font-size: 19px;
+  /* font-size: 19px; */
 }
 
 body {
   font-size: 1rem;
-  max-width: 600px;
+  max-width: 650px;
 }
 
 .font-mono {
-  font-size: 75%;
+  font-size: 85%;
 }
 
 table {
   thead {
     th {
         font-family: 'Andalé Mono', monospace !important;
-        font-size: 75%;
-        text-transform: uppercase;
+        font-size: 95%; 
         font-weight: normal !important;
+        /* color: #6b7280 !important; */
     }
   }
 }
@@ -45,12 +45,12 @@ input:checked {
   text-align: center;
   font-size: 10px;
 }
-
-h2, h3, h4, h5, h6,
+ 
 .prose h2, .prose h3, .prose h4, .prose h5, .prose h6 {
-
-  font-weight: normal;
+  font-weight: 500;
 }
+.prose h3 { margin-top: 3rem; }
+.prose h4 { margin-top: 2rem; }
 
 
 content p:first-child {
@@ -59,8 +59,21 @@ content p:first-child {
 
 figure h2, figure h3, figure h4, figure h5, figure h6 {
   font-family: 'Andalé Mono', monospace !important;
-  font-size: 75%;
-  text-transform: none !important;
+  font-size: 95%;
+  line-height: 160% !important;
   font-weight: normal;
+  color: #6b7280;
 }
 
+header nav ul li a {
+  color: #6b7280;
+}
+
+@media (prefers-color-scheme: dark) {
+  header nav ul li a {
+    color: rgba(255,255,255,.5);
+  }
+  hr {
+    border-color:  rgba(255,255,255,.3);
+  }
+}

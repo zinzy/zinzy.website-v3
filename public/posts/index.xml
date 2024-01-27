@@ -268,6 +268,27 @@
       <description>Living in a good neighborhood has many advantages. One of them is that it makes me want to spend a lot of time there. Saturday morning is very likely my favorite day in the neighborhood.&#xA;I get up, without an alarm, around 6:30, engage in some morning writing, and fanny around the house for a bit. I take a shower at 7:45, and walk to my favorite coffee place at 08:20.</description>
     </item>
     <item>
+      <title></title>
+      <link>https://zinzy.website/2023/02/03/</link>
+      <pubDate>Fri, 03 Feb 2023 09:53:34 +0100</pubDate>
+      <guid>https://zinzy.website/2023/02/03/</guid>
+      <description>If you still needed convincing that I&amp;rsquo;m Grandma Tech at home, struggling to use even the most straightforward of functionalities, please be aware that I was today years old when I learned that, five years ago, TextExpander released a custom iOS keyboard that would&amp;rsquo;ve solved so many of my mundane problems, and all I was doing was asking myself &amp;ldquo;why am I even paying for that app anymore?&amp;rdquo;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://zinzy.website/2023/02/03/</link>
+      <pubDate>Fri, 03 Feb 2023 09:16:56 +0100</pubDate>
+      <guid>https://zinzy.website/2023/02/03/</guid>
+      <description>I&amp;rsquo;m quite excited at the prospect of an impromptu, Kimberly Hirsch-is-in-the-Netherlands-inspired IndieWeb meet-up.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://zinzy.website/2023/02/02/</link>
+      <pubDate>Thu, 02 Feb 2023 10:52:34 +0100</pubDate>
+      <guid>https://zinzy.website/2023/02/02/</guid>
+      <description>Listening to act two of This American Life&amp;rsquo;s episode The Runaround, in which we meet a boy who can only really calm his mind by running loops around the block, I can&amp;rsquo;t help but wonder: it&amp;rsquo;s beautiful to see a young problem-solver with ADHD make life easier for himself, but were there other people who thought of the compensatory behaviors often displayed by people with an eating disorder?</description>
+    </item>
+    <item>
       <title>Walking with Annelie</title>
       <link>https://zinzy.website/2023/02/02/walking-with-annelie/</link>
       <pubDate>Thu, 02 Feb 2023 00:00:00 +0000</pubDate>
@@ -373,11 +394,60 @@
       <description>I have a feeling 2023 will be the year for weird movies that steal our hearts. Look at Triangle of Sadness and White Noise. Here you have two high-budget oddball films that I&amp;rsquo;d describe not as mumblecore but coastercore, pulling you from one weird subnarrative into another, not really making up their minds about what they are, and before you&amp;rsquo;ve formed a full opinion on it, the ride is over, but you loved it.</description>
     </item>
     <item>
+      <title>Week 51: The piano</title>
+      <link>https://zinzy.website/2022/12/25/week-51-the-piano/</link>
+      <pubDate>Sun, 25 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://zinzy.website/2022/12/25/week-51-the-piano/</guid>
+      <description>Happy Hanukkah and/or Christmas to those who celebrate! Even though our house is (reluctantly) multi-religious, we forgot just about every tradition we were ever taught for this time of the year. On Hanukkah Eve, Anja said &amp;ldquo;where are the tea lights?&amp;rdquo;, but we had no luck finding them to produce a makeshift chanukiah. Probably for the best. I don&amp;rsquo;t mind that we didn&amp;rsquo;t put up a Christmas tree, but I did find myself missing our outrageous ornaments.</description>
+    </item>
+    <item>
+      <title>Week 47: Booster</title>
+      <link>https://zinzy.website/2022/11/27/week-47-booster/</link>
+      <pubDate>Sun, 27 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://zinzy.website/2022/11/27/week-47-booster/</guid>
+      <description>I forgot how the COVID booster can make you feel as though, temporarily, the world may well be ending. I got it earlier this week, and it left me with a sore arm and that dreadful, ridiculous sensation that accompanies a flu that lasts a week too long. I mimic my late stepfather, who used to wimper like a puppy whenever he got a cold. I still do well to limit my hours of screen time.</description>
+    </item>
+    <item>
       <title>Notes on my web mastery</title>
       <link>https://zinzy.website/2022/11/26/notes-on-my-web-mastery/</link>
       <pubDate>Sat, 26 Nov 2022 00:00:00 +0000</pubDate>
       <guid>https://zinzy.website/2022/11/26/notes-on-my-web-mastery/</guid>
       <description>Recently, I&amp;rsquo;ve been making some great progress with my personal website. While I normally don&amp;rsquo;t engage in technical ballets on the goings-on of this website, I feel it&amp;rsquo;s relevant to document what I&amp;rsquo;ve learnt and done, if only for posterity.&#xA;Tools Jekyll: as is often the case for me, this site is built using my favorite flat-file content management system Github: hosts the code for this website Netlify: serves the content to my website Obsidian: I write in a single Obsidian vault obsidian-git: helps me manage the version control of my Obsidian content Push git subdirectory as branch: a Github action that lets me publish a part of the content of my Obsidian vault to a separate repository Git submodule: my separate repository is pulled into my website&amp;rsquo;s code base Netlify build hook: every day, Netlify looks for new content and publishes it to my website Why this is great I hold the strong belief that tools don&amp;rsquo;t matter.</description>
+    </item>
+    <item>
+      <title>Week 44: Coat</title>
+      <link>https://zinzy.website/2022/11/06/week-44-coat/</link>
+      <pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>https://zinzy.website/2022/11/06/week-44-coat/</guid>
+      <description>The weather has officially reached a temperature that requires me to buy a new coat. I dread it. Unlike most other types of clothing, coats and jackets never seem to suit me, regardless of the style. To soften the blow of having to order several coats on the Internet hoping one will work for me, I granted myself three sets of retro socks.&#xA;I finished reading The Midnight Library, which I had borrowed from Annelie.</description>
+    </item>
+    <item>
+      <title>Week 16: Springtime holidays</title>
+      <link>https://zinzy.website/2022/04/23/week-16-springtime-holidays/</link>
+      <pubDate>Sat, 23 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://zinzy.website/2022/04/23/week-16-springtime-holidays/</guid>
+      <description>Each year I&amp;rsquo;m less embarrassed to say it: I don&amp;rsquo;t like that stretch of time during the Dutch Springtime when no work week is normal. Aside from the usual Christian holidays there&amp;rsquo;s King&amp;rsquo;s Day and Liberation Day, and I&amp;rsquo;ve found it really messes with my head. I don&amp;rsquo;t mind them much looking ahead (like I did last week, but having to live through it could well be too much for me.</description>
+    </item>
+    <item>
+      <title>Week 15: Ironic</title>
+      <link>https://zinzy.website/2022/04/17/week-15-ironic/</link>
+      <pubDate>Sun, 17 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://zinzy.website/2022/04/17/week-15-ironic/</guid>
+      <description>Brushing my teeth on Friday morning, I think about the weekend ahead, secretly complaining that my social engagements will keep me from getting the rest I need. Then I remember Easter Monday. The true marker of my mid-thirties is the excitement I feel at the prospect of a bed, and nothing but it.&#xA;I hold a baby this week, one of my favorite ones. His face has two states that exist simultaneously: the one of utter shock and surprise only newborns can have, and the one that reminds you that babies know everything about the world and forget it as soon as they start to speak.</description>
+    </item>
+    <item>
+      <title>Week 13: Recruiting</title>
+      <link>https://zinzy.website/2022/04/02/week-13-recruiting/</link>
+      <pubDate>Sat, 02 Apr 2022 00:00:00 +0000</pubDate>
+      <guid>https://zinzy.website/2022/04/02/week-13-recruiting/</guid>
+      <description>It has been snowing in Amsterdam. As the years go by, I&amp;rsquo;m having trouble understanding whether I&amp;rsquo;m experiencing the effects of global warming, or whether I&amp;rsquo;ve never paid attention to what was always in front of me until now. It is likely a combination of the two. Either way, it is sad to see Amsterdammers retreat into their homes after two weeks of shorts and drinks in the sun.&#xA;At work Leeruniek&amp;rsquo;s Product team is hiring, and I&amp;rsquo;ve been the one taking care of the recruitment process for two engineering and one design role.</description>
+    </item>
+    <item>
+      <title>Week 12: Bonsoihoir</title>
+      <link>https://zinzy.website/2022/03/26/week-12-bonsoihoir/</link>
+      <pubDate>Sat, 26 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://zinzy.website/2022/03/26/week-12-bonsoihoir/</guid>
+      <description>The tourists are back in town. Lots of Germans with face masks. I suppose we&amp;rsquo;re all beginning to venture out into the world again, just a bit closer to home. Anja and I are considering taking the ferry to Norway. Apparently you can camp virtually anywhere in that country, as long as you &amp;ldquo;leave it cleaner than you found it&amp;rdquo; and make sure you&amp;rsquo;re gone after two days. At this point, we&amp;rsquo;re vastly underestimating how attached we are to luxury.</description>
     </item>
     <item>
       <title>Overheard in July</title>

@@ -15,5 +15,6 @@ theme = "butterchicken"
     org = 'Gerimedica'
 [permalinks]
   posts = "/:year/:month/:day/:title/"
+  updates = "/:year/:month/:day/:slug/"
   page = "/:slug/"
   notes = "/:slug/"
