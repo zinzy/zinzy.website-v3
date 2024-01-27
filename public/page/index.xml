@@ -12,7 +12,14 @@
       <link>https://zinzy.website/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://zinzy.website/about/</guid>
-      <description>Hello, I’m Zinzy Waleson Geene (she/they) and this is my personal website; a quiet street on the Internet where I come to link and think. It’s a home for soft stances, lived experiences, and critical notes on the things I hold dear. On this website as well as in life, I aim to bring my whole self: the self that works, plays, questions, doodles, fears, cooks, prays, gets angry, changes her mind.</description>
+      <description>[[Codex]] Codex, Week 2: Omek&#xA;Hello, I’m Zinzy Waleson Geene (she/they) and this is my personal website; a quiet street on the Internet where I come to link and think. It’s a home for soft stances, lived experiences, and critical notes on the things I hold dear. On this website as well as in life, I aim to bring my whole self: the self that works, plays, questions, doodles, fears, cooks, prays, gets angry, changes her mind.</description>
+    </item>
+    <item>
+      <title>Bookmarks</title>
+      <link>https://zinzy.website/bookmarks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://zinzy.website/bookmarks/</guid>
+      <description></description>
     </item>
     <item>
       <title>Changelog</title>
@@ -33,7 +40,7 @@
       <link>https://zinzy.website/follow/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://zinzy.website/follow/</guid>
-      <description>The easiest way to be notified of when there&amp;rsquo;s something new on this website, is by adding the posts RSS to your reader of choice.</description>
+      <description>You can subscribe to my posts via RSS. Read more about feeds and RSS. I personally enjoy using Readwise&amp;rsquo;s Reader app for my RSS needs.&#xA;Just add any of the following to your reader of choice, and enjoy Zinzy&amp;rsquo;s website from anywhere:&#xA;Long-form posts RSS feed Short-form updates RSS feed </description>
     </item>
     <item>
       <title>Hello</title>
@@ -50,11 +57,11 @@
       <description>The red thread in my life is bottomless curiosity for the world in which we live. I enjoy doing short deep-dives into all sorts of subjects. Some stay, but with many I&amp;rsquo;ll reach a point of satisfaction at some point, ready to take on something new. To learn about the more fleeting interests occupying my mind, you should read my Now page. Below is an overview of the themes that have been with me for decades.</description>
     </item>
     <item>
-      <title>Links</title>
-      <link>https://zinzy.website/links/</link>
+      <title>Manual - Work edition</title>
+      <link>https://zinzy.website/manual-work-edition/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://zinzy.website/links/</guid>
-      <description></description>
+      <guid>https://zinzy.website/manual-work-edition/</guid>
+      <description>Hello, I&amp;rsquo;m Zinzy Waleson Geene I&amp;rsquo;m a senior researcher and designer currently employed by Gerimedica, an enterprise software provider in the Dutch healthcare space. This page is inspired by Jamie Tanna&amp;rsquo;s manual and Manual of Me and seeks to help coworkers make the most of working with me. You may be interested to learn more about me.&#xA;If I came with a warning label, it would say If golden retriever energy and the Law of Two Feet had a love child that periodically throws glitter in your face.</description>
     </item>
     <item>
       <title>Now</title>

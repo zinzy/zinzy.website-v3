@@ -1109,11 +1109,6 @@ video {
   margin-right: 0.5rem;
 }
 
-.mx-3 {
-  margin-left: 0.75rem;
-  margin-right: 0.75rem;
-}
-
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -1127,10 +1122,6 @@ video {
 .my-5 {
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
-}
-
-.mb-10 {
-  margin-bottom: 2.5rem;
 }
 
 .mb-2 {
@@ -1149,10 +1140,6 @@ video {
   margin-bottom: 0.75rem;
 }
 
-.mb-4 {
-  margin-bottom: 1rem;
-}
-
 .mb-5 {
   margin-bottom: 1.25rem;
 }
@@ -1169,16 +1156,12 @@ video {
   margin-top: 0px;
 }
 
-.mt-1 {
-  margin-top: 0.25rem;
+.mt-20 {
+  margin-top: 5rem;
 }
 
 .mt-28 {
   margin-top: 7rem;
-}
-
-.mt-4 {
-  margin-top: 1rem;
 }
 
 .block {
@@ -1221,20 +1204,12 @@ video {
   width: 100%;
 }
 
-.min-w-0 {
-  min-width: 0px;
-}
-
 .max-w-full {
   max-width: 100%;
 }
 
 .flex-none {
   flex: none;
-}
-
-.shrink {
-  flex-shrink: 1;
 }
 
 .grow {
@@ -1251,10 +1226,6 @@ video {
 
 .place-content-between {
   place-content: space-between;
-}
-
-.items-center {
-  align-items: center;
 }
 
 .justify-stretch {
@@ -1293,10 +1264,6 @@ video {
 
 .border-b {
   border-bottom-width: 1px;
-}
-
-.border-t {
-  border-top-width: 1px;
 }
 
 .border-dashed {
@@ -1507,23 +1474,7 @@ header nav ul li a {
   }
 }
 
-@media (min-width: 1024px) {
-  .lg\:py-0 {
-    padding-top: 0px;
-    padding-bottom: 0px;
-  }
-}
-
 @media (prefers-color-scheme: dark) {
-  .dark\:border-zinc-700 {
-    --tw-border-opacity: 1;
-    border-color: rgb(63 63 70 / var(--tw-border-opacity));
-  }
-
-  .dark\:border-white\/30 {
-    border-color: rgb(255 255 255 / 0.3);
-  }
-
   .dark\:bg-emerald-950 {
     --tw-bg-opacity: 1;
     background-color: rgb(2 44 34 / var(--tw-bg-opacity));
@@ -1538,13 +1489,13 @@ header nav ul li a {
     color: rgb(255 255 255 / var(--tw-text-opacity));
   }
 
+  .dark\:text-white\/50 {
+    color: rgb(255 255 255 / 0.5);
+  }
+
   .dark\:text-zinc-300 {
     --tw-text-opacity: 1;
     color: rgb(212 212 216 / var(--tw-text-opacity));
-  }
-
-  .dark\:text-white\/50 {
-    color: rgb(255 255 255 / 0.5);
   }
 
   .dark\:text-opacity-50 {

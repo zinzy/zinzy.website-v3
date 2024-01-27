@@ -1,11 +1,15 @@
 {{ define "main" }}
+ 
+
+
     <section class="prose prose-gray dark:prose-invert">
         <h2>Well, if it isn't you</h2>
         <p>Hello, I'm Zinzy Waleson Geene, and this is my personal website. It's a space for soft stances, lived experiences, and critical notes on the things I hold dear. Learn more <a href="/about">about me</a>.</p>
-        <p>I write <a href="#posts">posts</a> and <a href="#updates">updates</a> about life, <a href="/work">work</a>, my <a href="/interests">interests</a> and what I'm up to <a href="/now">now</a>. I treat this <a href="/site">site</a> like my living room, you should, too. I'm growing a <a href="/codex">codex</a> of things I believe to be true.</p>
+        <p>I write <a href="#posts">posts</a> and <a href="#updates">updates</a> about life, <a href="/work">work</a>, my <a href="/interests">interests</a> and what I'm up to <a href="/now">now</a>. I treat this <a href="/site">site</a> like my living room, you should, too, and don't forget to check out my <a href="/bookmarks">bookmarks</a>. I'm growing a <a href="/codex">codex</a> of things I believe to be true.</p>
         <p>I'm an advocate for the IndieWeb, and I enjoy the whimsy and coziness involved in meeting Internet strangers. You are warmly invited to say <a href="/hello">hello</a> and <a href="/follow">follow</a> this website.</p>
     </section>
     <hr class="my-14">
+
     <section id="posts">
         {{ $postsDefault := where .Site.RegularPages "Type" "posts" }}
         {{ range first 1 $postsDefault }} 

@@ -3,7 +3,6 @@
 
 <article class="h-entry prose prose-gray dark:prose-invert">
     <header>
-
         <h2 class="p-name">{{ .Title }}</h2>
     </header>
 
@@ -16,5 +15,7 @@
     <div class="e-content">
         {{ .Content }}
     </div>
+
+    {{ partial "backlinks.html" . }}
 </article>
 {{ end }}
