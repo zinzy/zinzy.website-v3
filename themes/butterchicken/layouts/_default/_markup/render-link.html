@@ -1,5 +1,15 @@
+<!-- https://raw.githubusercontent.com/jhvanderschee/hugocodex/main/layouts/_default/_markup/render-link.html -->
+
 {{ $link := .Destination }}
 {{ $isRemote := (or (strings.HasPrefix $link "http") (in (lower $link) ".pdf")) }}
+
+<!-- Turn wikilink `[[]]` into <a> -->
+
+  {{ $firstBracket := "\\[\\[" }}
+  {{ $lastBracket := "\\]\\]" }}
+  {{ $wikiregex := "\\[\\[([^/]+?)\\]\\]" }}
+
+<!-- Turn Markdown link `[]()` into <a> -->
 {{- if not $isRemote -}}
   {{ $url := urls.Parse .Destination }}
   {{- if $url.Path -}}
@@ -12,4 +22,4 @@
     {{ end }}
   {{ end -}}
 {{- end -}}
-<a href="{{ $link | safeURL }}"{{ with .Title}} title="{{ . }}"{{ end }}{{ if $isRemote }} target="_blank" rel="noopener"{{ end }}>{{ .Text | safeHTML }}</a>
+<a href="{{ $link | safeURL }}"{{ with .Title}} title="{{ . }}"{{ end }}{{ if $isRemote }} target="_blank" rel="noopener"{{ end }} class="{{ if $isRemote }} after:content-[' ↗'] {{ end }}">{{ .Text | safeHTML }}</a>

@@ -1481,6 +1481,31 @@ header nav ul li a {
   }
 }
 
+.after\:content-\[\'Hello_World\'\]::after {
+  --tw-content: 'Hello World';
+  content: var(--tw-content);
+}
+
+.after\:content-\[\'\2197\'\]::after {
+  --tw-content: '↗';
+  content: var(--tw-content);
+}
+
+.after\:content-\[\'\&nearr\;\'\]::after {
+  --tw-content: '&nearr;';
+  content: var(--tw-content);
+}
+
+.after\:content-\[\'\>\'\]::after {
+  --tw-content: '>';
+  content: var(--tw-content);
+}
+
+.after\:content-\[\'\&\#8599\;\'\]::after {
+  --tw-content: '&#8599;';
+  content: var(--tw-content);
+}
+
 .hover\:border-gray-400:hover {
   --tw-border-opacity: 1;
   border-color: rgb(156 163 175 / var(--tw-border-opacity));

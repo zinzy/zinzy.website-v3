@@ -2,6 +2,16 @@ baseURL = "https://zinzy.website"
 languageCode = "en-us"
 title = "Zinzy's website"
 theme = "butterchicken"
+
+# When using ref or relref to resolve page links and a link cannot resolved, it will be logged with this log level.
+# Valid values are ERROR (default) or WARNING. Any ERROR will fail the build (exit -1).
+# Default value: 'ERROR'
+
+refLinksErrorLevel = 'WARNING'
+relrefLinksErrorLevel = 'WARNING'
+
+# URL to be used as a placeholder when a page reference cannot be found in ref or relref. Is used as-is.
+refLinksNotFoundURL = "/"
 [params]
   subtitle = 'A warm welcome'
   [params.author]
