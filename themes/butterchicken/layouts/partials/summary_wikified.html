@@ -23,9 +23,9 @@
 {{ $wikiregex := "\\[\\[([^\\]\\|\\r\\n]+?)\\]\\]" }}
 
 {{ $page := .Page }}
-{{ $pageContent := .Content }}
+{{ $pageContent := .Summary }}
 
-{{ range ($wikilinks := .Content | findRE $wikiregex) }}
+{{ range ($wikilinks := .Summary | findRE $wikiregex) }}
 <!-- This line says, replace anything in $link matching the content from $wikiregex -->
 	{{ $link := . | replaceRE $wikiregex "$1" }} 
 	{{ $wikilink :=  printf "\\[\\[%s\\]\\]" $link }}

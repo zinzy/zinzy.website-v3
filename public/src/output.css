@@ -1124,6 +1124,10 @@ video {
   margin-bottom: 1.25rem;
 }
 
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
 .mb-2 {
   margin-bottom: 0.5rem;
 }
@@ -1289,6 +1293,10 @@ video {
   stroke: #030712;
 }
 
+.p-0 {
+  padding: 0px;
+}
+
 .p-8 {
   padding: 2rem;
 }
@@ -1313,6 +1321,11 @@ video {
 
 .text-lg {
   font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
   line-height: 1.75rem;
 }
 
@@ -1436,6 +1449,16 @@ header nav ul li a {
     border-color:  rgba(255,255,255,.3);
   }
 
+  .prose a {
+    border-color: white;
+  }
+}
+
+.bookmarks {
+  margin-bottom: 2rem;
+}
+
+@media (prefers-color-scheme: dark) {
   .dark\:prose-invert {
     --tw-prose-body: var(--tw-prose-invert-body);
     --tw-prose-headings: var(--tw-prose-invert-headings);
@@ -1458,6 +1481,31 @@ header nav ul li a {
   }
 }
 
+.after\:content-\[\'Hello_World\'\]::after {
+  --tw-content: 'Hello World';
+  content: var(--tw-content);
+}
+
+.after\:content-\[\'\2197\'\]::after {
+  --tw-content: '↗';
+  content: var(--tw-content);
+}
+
+.after\:content-\[\'\&nearr\;\'\]::after {
+  --tw-content: '&nearr;';
+  content: var(--tw-content);
+}
+
+.after\:content-\[\'\>\'\]::after {
+  --tw-content: '>';
+  content: var(--tw-content);
+}
+
+.after\:content-\[\'\&\#8599\;\'\]::after {
+  --tw-content: '&#8599;';
+  content: var(--tw-content);
+}
+
 .hover\:border-gray-400:hover {
   --tw-border-opacity: 1;
   border-color: rgb(156 163 175 / var(--tw-border-opacity));
@@ -1475,6 +1523,11 @@ header nav ul li a {
 }
 
 @media (prefers-color-scheme: dark) {
+  .dark\:border-emerald-600 {
+    --tw-border-opacity: 1;
+    border-color: rgb(5 150 105 / var(--tw-border-opacity));
+  }
+
   .dark\:bg-emerald-950 {
     --tw-bg-opacity: 1;
     background-color: rgb(2 44 34 / var(--tw-bg-opacity));

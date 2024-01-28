@@ -13,7 +13,7 @@
     {{ end }}
 
     <div class="e-content">
-        {{ .Content }}
+        {{- partial "content_wikified" . -}}
     </div>
 
     {{ partial "backlinks.html" . }}

@@ -76,4 +76,11 @@ header nav ul li a {
   hr {
     border-color:  rgba(255,255,255,.3);
   }
+  .prose a {
+    border-color: white;
+  }
+}
+
+.bookmarks {
+  margin-bottom: 2rem;
 }
