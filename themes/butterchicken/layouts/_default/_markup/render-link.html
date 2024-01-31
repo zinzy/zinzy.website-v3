@@ -3,7 +3,7 @@
 {{ $link := .Destination }}
 {{ $isRemote := (or (strings.HasPrefix $link "http") (in (lower $link) ".pdf")) }}
 
-<!-- Turn wikilink `[[]]` into <a> -->
+<!-- Checks mark-up for characters -->
 
   {{ $firstBracket := "\\[\\[" }}
   {{ $lastBracket := "\\]\\]" }}

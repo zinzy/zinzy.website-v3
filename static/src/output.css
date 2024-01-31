@@ -1244,10 +1244,10 @@ video {
   gap: 1rem;
 }
 
-.space-x-8 > :not([hidden]) ~ :not([hidden]) {
+.space-x-4 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
-  margin-right: calc(2rem * var(--tw-space-x-reverse));
-  margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));
+  margin-right: calc(1rem * var(--tw-space-x-reverse));
+  margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .scroll-smooth {
@@ -1481,31 +1481,6 @@ header nav ul li a {
   }
 }
 
-.after\:content-\[\'Hello_World\'\]::after {
-  --tw-content: 'Hello World';
-  content: var(--tw-content);
-}
-
-.after\:content-\[\'\2197\'\]::after {
-  --tw-content: '↗';
-  content: var(--tw-content);
-}
-
-.after\:content-\[\'\&nearr\;\'\]::after {
-  --tw-content: '&nearr;';
-  content: var(--tw-content);
-}
-
-.after\:content-\[\'\>\'\]::after {
-  --tw-content: '>';
-  content: var(--tw-content);
-}
-
-.after\:content-\[\'\&\#8599\;\'\]::after {
-  --tw-content: '&#8599;';
-  content: var(--tw-content);
-}
-
 .hover\:border-gray-400:hover {
   --tw-border-opacity: 1;
   border-color: rgb(156 163 175 / var(--tw-border-opacity));
@@ -1516,6 +1491,12 @@ header nav ul li a {
 }
 
 @media (min-width: 768px) {
+  .md\:space-x-8 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(2rem * var(--tw-space-x-reverse));
+    margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+
   .md\:py-14 {
     padding-top: 3.5rem;
     padding-bottom: 3.5rem;
@@ -1523,11 +1504,6 @@ header nav ul li a {
 }
 
 @media (prefers-color-scheme: dark) {
-  .dark\:border-emerald-600 {
-    --tw-border-opacity: 1;
-    border-color: rgb(5 150 105 / var(--tw-border-opacity));
-  }
-
   .dark\:bg-emerald-950 {
     --tw-bg-opacity: 1;
     background-color: rgb(2 44 34 / var(--tw-bg-opacity));

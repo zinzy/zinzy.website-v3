@@ -25,24 +25,37 @@
 {{ $page := .Page }}
 {{ $pageContent := .Content }}
 
-{{ range ($wikilinks := .Content | findRE $wikiregex) }}
-<!-- This line says, replace anything in $link matching the content from $wikiregex -->
+<!-- Loop for wikilinks -->
+{{ range ($wikilinks := .Content | findRE $wikiregex) }} 
+
+    <!-- Variables -->
+
+    <!-- Replace anything in $link matching the content from $wikiregex -->
 	{{ $link := . | replaceRE $wikiregex "$1" }} 
 	{{ $wikilink :=  printf "\\[\\[%s\\]\\]" $link }}
-        {{ with relref $page $link }}
-            {{ $link := printf "%s%s%s%s%s" "<a href=\"" . "\">" ($.Site.GetPage $link).Title "</a>"  }}
-            {{ $pageContent = $pageContent | replaceRE $wikilink $link }}
-        {{ end }}
+
+    <!-- Function:  -->
+    {{ with relref $page $link }}
+        <!-- Format $link -->
+        {{ $link := printf "%s%s%s%s%s" "<a href=\"" . "\">" ($.Site.GetPage $link).Title "</a>"  }}
+        <!-- Replace the wiki link with the HTML link -->
+        {{ $pageContent = $pageContent | replaceRE $wikilink $link }}
+    {{ end }}
 {{ end }}
 
+
 {{ range ($pageContent | findRE $wikiregexWithText) }}
+
+    <!-- Variables -->
 	{{ $link := . | replaceRE $wikiregexWithText "$1" }}
 	{{ $text := . | replaceRE $wikiregexWithText "$2" }}
-	{{ $wikilink :=  printf "\\[\\[%s\\|%s\\]\\]" $link $text }}	
-        {{ with relref $page $link }}
-            {{ $link := printf "%s%s%s%s%s" "<a href=\"" . "\">" $text "</a>" }}
-            {{ $pageContent = $pageContent | replaceRE $wikilink $link }}
-        {{ end }}
+	{{ $wikilink :=  printf "\\[\\[%s\\|%s\\]\\]" $link $text }}
+
+    <!-- Function -->	
+    {{ with relref $page $link }}
+        {{ $link := printf "%s%s%s%s%s" "<a href=\"" . "\">" $text "</a>" }}
+        {{ $pageContent = $pageContent | replaceRE $wikilink $link }}
+    {{ end }}
 {{ end }}
 
 {{ $pageContent | safeHTML }}
