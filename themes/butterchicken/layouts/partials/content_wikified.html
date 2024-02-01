@@ -20,19 +20,20 @@
 -->
 
 {{ $wikiregexWithText := "\\[\\[([^\\]\\|\\r\\n]+?)\\|([^\\]\\|\\r\\n]+?)\\]\\]" }}
-{{ $wikiregex := "\\[\\[([^\\]\\|\\r\\n]+?)\\]\\]" }}
+{{ $wikiregex := "\\[\\[([^\\]\\[:]+)\\|([^\\]\\[:]+)\\]\\]" }}
+{{ $wikiSpecialCharacters := "[()%_?&=]" }}
 
 {{ $page := .Page }}
 {{ $pageContent := .Content }}
 
-<!-- Loop for wikilinks -->
+<!-- Loop for the parts of contents that match the $wikiregex syntax -->
 {{ range ($wikilinks := .Content | findRE $wikiregex) }} 
 
     <!-- Variables -->
 
     <!-- Replace anything in $link matching the content from $wikiregex -->
 	{{ $link := . | replaceRE $wikiregex "$1" }} 
-	{{ $wikilink :=  printf "\\[\\[%s\\]\\]" $link }}
+	{{ $wikilink :=  printf "\\[\\[%s\\]\\]" $link }} 
 
     <!-- Function:  -->
     {{ with relref $page $link }}
@@ -50,6 +51,7 @@
 	{{ $link := . | replaceRE $wikiregexWithText "$1" }}
 	{{ $text := . | replaceRE $wikiregexWithText "$2" }}
 	{{ $wikilink :=  printf "\\[\\[%s\\|%s\\]\\]" $link $text }}
+
 
     <!-- Function -->	
     {{ with relref $page $link }}

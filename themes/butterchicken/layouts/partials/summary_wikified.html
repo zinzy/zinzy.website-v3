@@ -20,23 +20,16 @@
 -->
 
 {{ $wikiregexWithText := "\\[\\[([^\\]\\|\\r\\n]+?)\\|([^\\]\\|\\r\\n]+?)\\]\\]" }}
+<!-- Matches the entire link, including content -->
 {{ $wikiregex := "\\[\\[([^\\]\\|\\r\\n]+?)\\]\\]" }}
 
 {{ $page := .Page }}
 {{ $pageContent := .Summary }}
 
-{{ range ($wikilinks := .Summary | findRE $wikiregex) }}
-<!-- This line says, replace anything in $link matching the content from $wikiregex -->
-	{{ $link := . | replaceRE $wikiregex "$1" }} 
-	{{ $wikilink :=  printf "\\[\\[%s\\]\\]" $link }}
-        {{ with relref $page $link }}
-            {{ $link := printf "%s%s%s%s%s" "<a href=\"" . "\">" ($.Site.GetPage $link).Title "</a>"  }}
-            {{ $pageContent = $pageContent | replaceRE $wikilink $link }}
-        {{ end }}
-{{ end }}
-
 {{ range ($pageContent | findRE $wikiregexWithText) }}
+    <!-- From the context, replace $wikiregexWithText with the first part of the capture group  -->
 	{{ $link := . | replaceRE $wikiregexWithText "$1" }}
+    <!-- From the context, replace $wikiregexWithText with the second part of the capture group  -->
 	{{ $text := . | replaceRE $wikiregexWithText "$2" }}
 	{{ $wikilink :=  printf "\\[\\[%s\\|%s\\]\\]" $link $text }}	
         {{ with relref $page $link }}

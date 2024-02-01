@@ -1,10 +1,4 @@
 {{ define "main" }}
- 
-
-{{ $s := "http://gohugo.io/docs" }}
-<div>{{ replaceRE "^https?://([^/]+).*" "$1" $s }}</div>
-
-<BR><BR><BR><BR>
 
     <section class="prose prose-gray dark:prose-invert">
         <h2>Well, if it isn't you</h2>
@@ -22,7 +16,7 @@
                     <h2 class="not-prose text-lg font-medium inline-block mr-3"><a class="no-underline" href="{{ .Permalink }}">{{ .Title }}</a></h2> 
                     <time class="font-mono text-gray-500 dark:text-white dark:text-opacity-50">{{- (.Date | time.Format site.Params.theme_config.date_format_recent) }}</time>
                 </header>   
-                {{- partial "summary_wikified" . -}}
+                {{ .Summary }}
             </article>
         {{ end }}
         <a href="/posts" class="px-3 py-2 border border-gray-300 rounded hover:border-gray-400 transition-all ease-in-out ">All posts</a>
@@ -53,7 +47,7 @@
                 {{ end }} 
 
                 <content>
-                    {{- partial "content_wikified" . -}}
+                    {{ .Content }}
                 </content>
             </article>
             {{ end }}
