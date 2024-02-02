@@ -1,5 +1,5 @@
 {{ $taxonomy := "tags" }} {{ with .Param $taxonomy }}
-<ul class="text-gray-500 dark:text-white dark:text-opacity-50 inline-block m-0 p-0 mt-20">
+<ul class="text-gray-500 dark:text-white dark:text-opacity-50 inline-block m-0 p-0 mt-10">
     <span class="mr-3">Tagged</span> 
   {{ range $index, $tag := . }} {{ with $.Site.GetPage (printf "/%s/%s"
   $taxonomy $tag) -}}
