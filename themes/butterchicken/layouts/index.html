@@ -1,5 +1,7 @@
 {{ define "main" }}
 
+
+
 <header class="">
     <div class="mb-14 relative flex content-center">
     <span class="leading-10 md:leading-none text-gray-500 dark:text-white align-middle no-underline">{{ $.Site.Title }}</span>
@@ -19,7 +21,7 @@
         {{ $currentPage := . }}
         {{ range .Site.Menus.main }}
         <li class="inline-block mb-2">
-            <a class="text-gray-950 dark:text-white" href="{{.URL}}">{{ .Name }}</a>
+            <a class="text-gray-950 dark:text-white underline" href="{{.URL}}">{{ .Name }}</a>
         </li>
         {{ end }}
         </ul>
@@ -33,7 +35,7 @@
     <div class="mb-5">
         <h3 class="text-lg font-medium inline-block">Updates</h3>
         <span class=" text-sm">
-            <a class="mx-3" href="/updates">Archive</a>
+            <a class="mx-3 underline" href="/updates">Archive</a>
         </span> 
     </div>
     {{ $postsDefault := where .Site.RegularPages "Type" "updates" }}
@@ -72,8 +74,8 @@
     <div class="mb-5">
         <h3 class="text-lg font-medium inline-block">Posts</h3>
         <span class=" text-sm">
-            <a class="mx-3" href="/posts">Archive</a>
-            <a class="" href="/index.xml" target="_blank">RSS</a>
+            <a class="mx-3 underline" href="/posts">Archive</a>
+            <a class="underline" href="/index.xml" target="_blank">RSS</a>
         </span> 
     </div>
     {{ $postsDefault := where .Site.RegularPages "Type" "posts" }}
