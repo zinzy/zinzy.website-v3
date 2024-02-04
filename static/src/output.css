@@ -1111,11 +1111,6 @@ video {
   margin: 0px;
 }
 
-.mx-1 {
-  margin-left: 0.25rem;
-  margin-right: 0.25rem;
-}
-
 .mx-2 {
   margin-left: 0.5rem;
   margin-right: 0.5rem;
@@ -1139,20 +1134,6 @@ video {
 .my-5 {
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
-}
-
-.mx-4 {
-  margin-left: 1rem;
-  margin-right: 1rem;
-}
-
-.mx-7 {
-  margin-left: 1.75rem;
-  margin-right: 1.75rem;
-}
-
-.mb-10 {
-  margin-bottom: 2.5rem;
 }
 
 .mb-14 {
@@ -1251,36 +1232,8 @@ video {
   flex-grow: 1;
 }
 
-.grid-flow-row {
-  grid-auto-flow: row;
-}
-
 .grid-flow-col {
   grid-auto-flow: column;
-}
-
-.auto-rows-max {
-  grid-auto-rows: max-content;
-}
-
-.grid-cols-2 {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
-.grid-cols-4 {
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-}
-
-.grid-rows-4 {
-  grid-template-rows: repeat(4, minmax(0, 1fr));
-}
-
-.grid-rows-3 {
-  grid-template-rows: repeat(3, minmax(0, 1fr));
-}
-
-.place-content-between {
-  place-content: space-between;
 }
 
 .content-center {
@@ -1289,14 +1242,6 @@ video {
 
 .justify-stretch {
   justify-content: stretch;
-}
-
-.gap-4 {
-  gap: 1rem;
-}
-
-.justify-self-end {
-  justify-self: end;
 }
 
 .scroll-smooth {
@@ -1512,7 +1457,7 @@ nav ul li a {
 }
 
 nav ul li:not(:last-child):after {
-  content: "\25AA";
+  content: "\00B7";
   margin: 0 .4rem;
   color: #d1d5db;
 }

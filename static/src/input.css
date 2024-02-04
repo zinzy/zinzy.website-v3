@@ -70,7 +70,7 @@ content p:first-child {
 }
 
 nav ul li:not(:last-child):after {
-  content: "\25AA";
+  content: "\00B7";
   margin: 0 .4rem;
   color: #d1d5db;
 }
