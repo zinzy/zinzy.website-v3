@@ -8,7 +8,7 @@
 <ul>
     {{ range .Data.Pages }}
     <li class="mb-3"> 
-      <a class="border-dashed border-b border-gray-400" href="{{.RelPermalink}}">{{ .Title }}</a> - <time class="font-mono text-gray-500 dark:text-white dark:text-opacity-50">{{- (.Date | time.Format site.Params.theme_config.date_format_archive) }}</time>
+      <a class="border-dashed border-b border-gray-400" href="{{.RelPermalink}}">{{ .Title }}</a> - <time class=" text-gray-500 dark:text-white dark:text-opacity-50">{{- (.Date | time.Format site.Params.theme_config.date_format_archive) }}</time>
     </li>
     {{ end }}
   </ul>

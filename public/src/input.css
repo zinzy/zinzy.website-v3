@@ -18,7 +18,6 @@ body {
 table {
   thead {
     th {
-        font-family: 'Andalé Mono', monospace !important;
         font-size: 95%; 
         font-weight: normal !important;
         /* color: #6b7280 !important; */
@@ -49,7 +48,8 @@ input:checked {
 .prose h2, .prose h3, .prose h4, .prose h5, .prose h6 {
   font-weight: 500;
 }
-.prose h3 { margin-top: 3rem; }
+.prose h2 { margin: 0; }
+.prose h3 { margin-top: 2.5rem; }
 .prose h4 { margin-top: 2rem; }
 
 
@@ -57,17 +57,24 @@ content p:first-child {
   margin-top: 0 !important;
 }
 
-figure h2, figure h3, figure h4, figure h5, figure h6 {
-  font-family: 'Andalé Mono', monospace !important;
+.prose figure h2, .prose figure h3, .prose figure h4, .prose figure h5, .prose figure h6 {
   font-size: 95%;
   line-height: 160% !important;
   font-weight: normal;
+  margin-top: .5rem;
   color: #6b7280;
 }
 
-header nav ul li a {
+ nav ul li a {
   color: #6b7280;
 }
+
+nav ul li:not(:last-child):after {
+  content: "\25AA";
+  margin: 0 .4rem;
+  color: #d1d5db;
+}
+
 
 @media (prefers-color-scheme: dark) {
   header nav ul li a {
@@ -79,8 +86,34 @@ header nav ul li a {
   .prose a {
     border-color: white;
   }
+  nav ul li:not(:last-child):after {
+    color: rgba(255,255,255,.3);
+  }
+  .prose figure h2, .prose figure h3, .prose figure h4, .prose figure h5, .prose figure h6 {
+    color: rgba(255,255,255,.7);
+  }
 }
 
 .bookmarks {
   margin-bottom: 2rem;
+}
+
+.footnotes hr {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.back-link {
+  text-decoration: none;
+  line-height: 1.6em;
+  aspect-ratio: 1/1;
+  display: inline-block;
+  border-radius: 4em;
+}
+
+a,
+.underline {
+  border-bottom: 1px dashed #6b7280;
+  text-decoration: none;
 }

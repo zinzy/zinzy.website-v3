@@ -3,7 +3,7 @@ module.exports = {
   content: ["content/*.md", "themes/butterchicken/layouts/**/*.html"],
   theme: {
     fontFamily: {
-      sans: ['-apple-system,BlinkMacSystemFont,segoe ui,Roboto,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol', 'sans-serif'],
+      sans: ['system-ui', 'sans-serif'],
       serif: ['Times New Roman', 'sans-serif'],
       mono: ['Andalé Mono', 'monospace'],
     }, 

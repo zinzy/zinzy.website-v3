@@ -1,7 +1,7 @@
 {{ define "main" }}
 {{ partial "back_link.html" .}}
 
-<header class="mb-20 prose dark:prose-invert">
+<header class="mb-14 prose dark:prose-invert">
     <h2 class="m-0 mb-2">{{ .Title }}</h2>
     <p>These are small pieces of text and other media, writing in a hurry, left fleeting in my collection of notes.</p>
 </header>
@@ -11,9 +11,9 @@
 
     {{ range $paginator.Pages }}
 
-    <article class="prose prose-gray dark:prose-invert mb-28">
+    <article class="prose prose-gray dark:prose-invert mb-14">
         <header>
-            <a href="{{ .Permalink }}"><time class="font-mono">{{- (.Date | time.Format site.Params.theme_config.date_format_archive) }}</time></a>
+            <a href="{{ .Permalink }}"><time class="">{{- (.Date | time.Format site.Params.theme_config.date_format_archive) }}</time></a>
         </header> 
   
 

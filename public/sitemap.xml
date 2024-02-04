@@ -2,13 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://zinzy.website/tags/app-defaults/</loc>
+    <lastmod>2024-02-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zinzy.website/2024/02/02/defaults-early-2024-edition/</loc>
+    <lastmod>2024-02-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zinzy.website/posts/</loc>
+    <lastmod>2024-02-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zinzy.website/tags/recommendations/</loc>
+    <lastmod>2024-02-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zinzy.website/tags/software/</loc>
+    <lastmod>2024-02-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zinzy.website/tags/</loc>
+    <lastmod>2024-02-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zinzy.website/tags/tools/</loc>
+    <lastmod>2024-02-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zinzy.website/tags/uses/</loc>
+    <lastmod>2024-02-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zinzy.website/</loc>
+    <lastmod>2024-02-02T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://zinzy.website/2024-01-31-13-48-46/</loc>
     <lastmod>2024-01-31T13:48:52+01:00</lastmod>
   </url><url>
     <loc>https://zinzy.website/updates/</loc>
-    <lastmod>2024-01-31T13:48:52+01:00</lastmod>
-  </url><url>
-    <loc>https://zinzy.website/</loc>
     <lastmod>2024-01-31T13:48:52+01:00</lastmod>
   </url><url>
     <loc>https://zinzy.website/tags/anja/</loc>
@@ -35,13 +59,7 @@
     <loc>https://zinzy.website/tags/positivity/</loc>
     <lastmod>2024-01-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://zinzy.website/posts/</loc>
-    <lastmod>2024-01-31T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://zinzy.website/tags/sobriety/</loc>
-    <lastmod>2024-01-31T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://zinzy.website/tags/</loc>
     <lastmod>2024-01-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://zinzy.website/2024-01-27-07-57-01/</loc>
@@ -1133,9 +1151,6 @@
     <loc>https://zinzy.website/tags/grandma-tech/</loc>
     <lastmod>2023-02-03T09:53:34+01:00</lastmod>
   </url><url>
-    <loc>https://zinzy.website/tags/uses/</loc>
-    <lastmod>2023-02-03T09:53:34+01:00</lastmod>
-  </url><url>
     <loc>https://zinzy.website/2023/02/03/</loc>
     <lastmod>2023-02-03T09:16:56+01:00</lastmod>
   </url><url>
@@ -1586,11 +1601,17 @@
   </url><url>
     <loc>https://zinzy.website/codex/</loc>
   </url><url>
+    <loc>https://zinzy.website/library/conversations-with-scripture-the-gospel-of-john-2007/</loc>
+  </url><url>
+    <loc>https://zinzy.website/library/conversations-with-scripture/</loc>
+  </url><url>
     <loc>https://zinzy.website/follow/</loc>
   </url><url>
     <loc>https://zinzy.website/hello/</loc>
   </url><url>
     <loc>https://zinzy.website/interests/</loc>
+  </url><url>
+    <loc>https://zinzy.website/library/</loc>
   </url><url>
     <loc>https://zinzy.website/manual/</loc>
   </url><url>
@@ -1599,6 +1620,8 @@
     <loc>https://zinzy.website/now/</loc>
   </url><url>
     <loc>https://zinzy.website/page/</loc>
+  </url><url>
+    <loc>https://zinzy.website/photos/</loc>
   </url><url>
     <loc>https://zinzy.website/site/</loc>
   </url><url>

@@ -1,14 +1,16 @@
 {{ define "main" }}
 
+{{ partial "back_link.html" .}}
+
 <article class=" ">
-  <header class="prose prose-gray dark:prose-invert mb-20">
+  <header class="prose prose-gray dark:prose-invert mb-14">
       <h2 class="p-name">{{ .Title }}</h2>
       <p>This is an overview of websites I like to visit. Most of them are quirky, highly personal, and experimental in nature.</p>
   </header>
 
 
   {{ with .Site.Data.bookmarks }}
-    <ul class="mb-10" role="bookmarks">
+    <ul class="mb-7" role="bookmarks">
       <h3 class="text-xl text-gray-950 dark:text-white font-medium">People I know</h3>
     {{ range .friends }}
       <li class="m-0 p-0">
@@ -16,7 +18,7 @@
       </li>
     {{ end }}
     </ul>
-    <ul class="mb-10" role="bookmarks">
+    <ul class="mb-7" role="bookmarks">
       <h3 class="text-xl text-gray-950 dark:text-white font-medium">Internet buddies</h3>
     {{ range .internet_buddies }}
       <li class="m-0 p-0">

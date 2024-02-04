@@ -9,7 +9,7 @@
 {{ $upper_limit := (sub $paginator.TotalPages $adjacent_links) }}
  
 {{ if gt $paginator.TotalPages 1 }}
-<nav aria-label="Page navigation" class="w-full font-mono text-gray-500 dark:text-white/50">
+<div class="w-full  text-gray-500 dark:text-white/50">
   <ul class="grid grid-flow-col justify-stretch">
     <!-- First page. -->
     {{ if ne $paginator.PageNumber 1 }}
@@ -81,7 +81,7 @@
       </a>
     </li>
     {{ end }}
-  </ul>
+  </div>
   <!-- </nav> -->
 </nav>
 {{ end }}

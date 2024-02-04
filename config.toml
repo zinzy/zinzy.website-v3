@@ -36,16 +36,51 @@ refLinksNotFoundURL = "/wiki"
 [outputs]
   home = ['html', 'rss']
   section = ['html', 'rss']
-[[menu.main]]
-  name = "Start"
-  url = "/"
-  weight = 5
+paginate = 6
+
 [[menu.main]]
   name = "About"
   url = "/about/"
-  weight = 10
+  weight = 2
+[[menu.main]]
+  name = "Now"
+  url = "/now/"
+  weight = 3
+[[menu.main]]
+  name = "Interests"
+  url = "/interests/"
+  weight = 4
 [[menu.main]]
   name = "Work"
   url = "/work/"
-  weight = 15
-paginate = 6
+  weight = 5
+[[menu.main]]
+  name = "Posts"
+  url = "/posts/"
+  weight = 6
+[[menu.main]]
+  name = "Updates"
+  url = "/updates/"
+  weight = 7
+[[menu.main]]
+  name = "Site"
+  url = "/site/"
+  weight = 8
+[[menu.main]]
+  name = "Bookmarks"
+  url = "/bookmarks/"
+  weight = 9
+[[menu.main]]
+  name = "Codex"
+  url = "/codex/"
+  weight = 10
+[[menu.main]]
+  name = "Follow"
+  url = "/follow/"
+  weight = 11
+[[menu.main]]
+  name = "Hello"
+  url = "/hello/"
+  weight = 12
+
+   

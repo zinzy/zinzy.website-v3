@@ -1,0 +1,22 @@
+{{ define "main" }}
+{{ partial "back_link.html" .}}
+
+<article class="h-entry prose prose-gray dark:prose-invert dark:text-opacity-50">
+    <header class="mb-20">
+        <h2 class="p-name mb-2">{{ .Title }}</h2>
+    </header> 
+
+    <content class="e-content">
+        {{ .Content }}
+    </content>
+
+
+   
+    {{ partial "tags.html" .}}
+
+    {{ partial "backlinks.html" . }}
+
+
+
+</article>
+{{ end }}

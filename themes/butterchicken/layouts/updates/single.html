@@ -3,9 +3,11 @@
 
 <article class="h-entry prose prose-gray dark:prose-invert">
     <header>
-        <time class="font-mono dt-published" datetime="{{ .Date }}">
+        <time class=" dt-published" datetime="{{ .Date }}">
             {{ .Date | time.Format site.Params.theme_config.date_format_archive }}
         </time>
+
+    {{ partial "tags.html" .}}
     </header> 
 
     <content class="e-content">
@@ -28,6 +30,7 @@
 
       {{ .Content }} 
     </content>
+    
 
 </article>
 {{ end }}

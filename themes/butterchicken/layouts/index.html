@@ -1,61 +1,91 @@
 {{ define "main" }}
 
-    <section class="prose prose-gray dark:prose-invert">
+<header class="">
+    <div class="mb-14 relative flex content-center">
+    <span class="leading-10 md:leading-none text-gray-500 dark:text-white align-middle no-underline">{{ $.Site.Title }}</span>
+    </div>
+</header>
+
+<div class="my-14 text-gray-300 dark:text-white/30">■</div>
+
+<section class="">
+    <div class="prose prose-gray dark:prose-invert">
         <h2>Well, if it isn't you</h2>
-        <p>Hello, I'm Zinzy Waleson Geene, and this is my personal website. It's a space for soft stances, lived experiences, and critical notes on the things I hold dear. Learn more <a href="/about">about me</a>.</p>
-        <p>I write <a href="#posts">posts</a> and <a href="#updates">updates</a> about life, <a href="/work">work</a>, my <a href="/interests">interests</a> and what I'm up to <a href="/now">now</a>. I treat this <a href="/site">site</a> like my living room, you should, too, and don't forget to check out my <a href="/bookmarks">bookmarks</a>. I'm growing a <a href="/codex">codex</a> of things I believe to be true.</p>
-        <p>I'm an advocate for the IndieWeb, and I enjoy the whimsy and coziness involved in meeting Internet strangers. You are warmly invited to say <a href="/hello">hello</a> and <a href="/follow">follow</a> this website.</p>
-    </section>
-    <hr class="my-14">
+        <p>I'm happy you made it to this quiet street on the Internet. Hello, I'm Zinzy Waleson Geene, a human living in Amsterdam. I'm a UX practitioner making tools for people at work. This is my personal website, a space for soft stances, lived experiences, and critical notes on the things I hold dear.</p>
+    </div> 
 
-    <section id="posts">
-        {{ $postsDefault := where .Site.RegularPages "Type" "posts" }}
-        {{ range first 1 $postsDefault }} 
-            <article class="prose prose-gray dark:prose-invert mb-7">
-                <header class="">
-                    <h2 class="not-prose text-lg font-medium inline-block mr-3"><a class="no-underline" href="{{ .Permalink }}">{{ .Title }}</a></h2> 
-                    <time class="font-mono text-gray-500 dark:text-white dark:text-opacity-50">{{- (.Date | time.Format site.Params.theme_config.date_format_recent) }}</time>
-                </header>   
-
-                {{ if .Description }}
-                    {{ .Description }}
-                {{ else }}
-                    {{ .Summary }}
-                {{ end }}
-            </article>
+    <nav class="mt-14" aria-label="Main Navigation">
+        <ul class="nav-menu">
+        {{ $currentPage := . }}
+        {{ range .Site.Menus.main }}
+        <li class="inline-block mb-2">
+            <a class="text-gray-950 dark:text-white" href="{{.URL}}">{{ .Name }}</a>
+        </li>
         {{ end }}
-        <a href="/posts" class="px-3 py-2 border border-gray-300 rounded hover:border-gray-400 transition-all ease-in-out ">All posts</a>
-    </section>
-    <hr class="my-14">
-    <section id="updates">
-        {{ $postsDefault := where .Site.RegularPages "Type" "updates" }}
-        {{ range first 1 $postsDefault }} 
-            <article class="prose prose-gray dark:prose-invert mb-7">
-                <header class="">
-                    <time class="font-mono text-gray-500 dark:text-white dark:text-opacity-50">{{- (.Date | time.Format site.Params.theme_config.date_format_recent) }}</time>
-                </header>   
-                
-                {{ if .Params.photo }}
-                    <img src="{{ .Params.photo }}" alt="" class="mb-5">
-                {{ end }}
+        </ul>
+    </nav> 
+</section>
 
-                {{ if .Params.replyTo }}
-                <p class="mt-0 u-in-reply-to">
-                Replied to <a href="{{.Params.replyTo}}" rel=in-reply-to class="break-all u-in-reply-to text-url" target="_blank">{{.Params.replyToName}}</a>
-                </p> 
-                {{ end }}
 
-                {{ if .Params.likeOf }}
-                <p class="mt-0">
-                    Liked <a href="{{.Params.likeOf}}" class="break-all u-like-of text-url" target="_blank">{{.Params.likeOf}}</a> 
-                </p> 
-                {{ end }} 
+<div class="my-14 text-gray-300 dark:text-white/30">■</div> 
 
-                <content>
-                    {{ .Content }}
-                </content>
-            </article>
+<section id="updates">
+    <div class="mb-5">
+        <h3 class="text-lg font-medium inline-block">Updates</h3>
+        <span class=" text-sm">
+            <a class="mx-3" href="/updates">Archive</a>
+        </span> 
+    </div>
+    {{ $postsDefault := where .Site.RegularPages "Type" "updates" }}
+    {{ range first 1 $postsDefault }} 
+        <article class="prose prose-gray dark:prose-invert mb-7">
+            <header class="">
+                <time class=" text-gray-500 dark:text-white dark:text-opacity-50">{{- (.Date | time.Format site.Params.theme_config.date_format_recent) }}</time>
+            </header>   
+            
+            {{ if .Params.photo }}
+                <img src="{{ .Params.photo }}" alt="" class="mb-5">
             {{ end }}
-            <a href="/updates" class="px-3 py-2 border border-gray-300 rounded hover:border-gray-400 transition-all ease-in-out ">All updates</a>
-    </section>
+
+            {{ if .Params.replyTo }}
+            <p class="mt-0 u-in-reply-to">
+            Replied to <a href="{{.Params.replyTo}}" rel=in-reply-to class="break-all u-in-reply-to text-url" target="_blank">{{.Params.replyToName}}</a>
+            </p> 
+            {{ end }}
+
+            {{ if .Params.likeOf }}
+            <p class="mt-0">
+                Liked <a href="{{.Params.likeOf}}" class="break-all u-like-of text-url" target="_blank">{{.Params.likeOf}}</a> 
+            </p> 
+            {{ end }} 
+
+            <content>
+                {{ .Content }}
+            </content>
+        </article>
+        {{ end }}
+</section>
+
+<div class="my-14 text-gray-300 dark:text-white/30">■</div>
+
+<section id="updates">
+    <div class="mb-5">
+        <h3 class="text-lg font-medium inline-block">Posts</h3>
+        <span class=" text-sm">
+            <a class="mx-3" href="/posts">Archive</a>
+            <a class="" href="/index.xml" target="_blank">RSS</a>
+        </span> 
+    </div>
+    {{ $postsDefault := where .Site.RegularPages "Type" "posts" }}
+    <ul>
+        {{ range first 6 $postsDefault }}
+        <li class="mb-3"> 
+            <a class="border-dashed border-b border-gray-400" href="{{ .Permalink }}">{{ .Title }}</a> - <time class=" text-gray-500 dark:text-white dark:text-opacity-50">{{- (.Date | time.Format site.Params.theme_config.date_format_archive) }}</time>
+        </li>
+        {{ end }} 
+    </ul>  
+</section>
+
+<div class="mt-14 text-gray-300 dark:text-white/30">■</div>
+
 {{ end }}  
