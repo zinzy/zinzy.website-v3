@@ -1111,11 +1111,6 @@ video {
   margin: 0px;
 }
 
-.mx-1 {
-  margin-left: 0.25rem;
-  margin-right: 0.25rem;
-}
-
 .mx-2 {
   margin-left: 0.5rem;
   margin-right: 0.5rem;
@@ -1139,10 +1134,6 @@ video {
 .my-5 {
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
-}
-
-.mb-10 {
-  margin-bottom: 2.5rem;
 }
 
 .mb-14 {
@@ -1209,10 +1200,6 @@ video {
   display: grid;
 }
 
-.contents {
-  display: contents;
-}
-
 .hidden {
   display: none;
 }
@@ -1237,20 +1224,12 @@ video {
   width: 100%;
 }
 
+.grow {
+  flex-grow: 1;
+}
+
 .grid-flow-col {
   grid-auto-flow: column;
-}
-
-.grid-cols-2 {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
-.grid-rows-4 {
-  grid-template-rows: repeat(4, minmax(0, 1fr));
-}
-
-.place-content-between {
-  place-content: space-between;
 }
 
 .content-center {
@@ -1259,10 +1238,6 @@ video {
 
 .justify-stretch {
   justify-content: stretch;
-}
-
-.gap-4 {
-  gap: 1rem;
 }
 
 .scroll-smooth {
@@ -1331,6 +1306,10 @@ video {
 
 .text-right {
   text-align: right;
+}
+
+.text-end {
+  text-align: end;
 }
 
 .align-middle {
@@ -1474,9 +1453,32 @@ nav ul li a {
 }
 
 nav ul li:not(:last-child):after {
-  content: "\25AA";
+  content: "\00B7";
   margin: 0 .4rem;
   color: #d1d5db;
+}
+
+.bookmarks {
+  margin-bottom: 2rem;
+}
+
+.footnotes hr {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.back-link {
+  text-decoration: none;
+  line-height: 1.6em;
+  aspect-ratio: 1/1;
+  display: inline-block;
+  border-radius: 4em;
+}
+
+.underline {
+  border-bottom: 1px dashed #6b7280;
+  text-decoration: none;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -1499,33 +1501,7 @@ nav ul li:not(:last-child):after {
   .prose figure h2, .prose figure h3, .prose figure h4, .prose figure h5, .prose figure h6 {
     color: rgba(255,255,255,.7);
   }
-}
 
-.bookmarks {
-  margin-bottom: 2rem;
-}
-
-.footnotes hr {
-  border: 0;
-  margin: 0;
-  padding: 0;
-}
-
-.back-link {
-  text-decoration: none;
-  line-height: 1.6em;
-  aspect-ratio: 1/1;
-  display: inline-block;
-  border-radius: 4em;
-}
-
-a,
-.underline {
-  border-bottom: 1px dashed #6b7280;
-  text-decoration: none;
-}
-
-@media (prefers-color-scheme: dark) {
   .dark\:prose-invert {
     --tw-prose-body: var(--tw-prose-invert-body);
     --tw-prose-headings: var(--tw-prose-invert-headings);
@@ -1617,3 +1593,4 @@ a,
     --tw-text-opacity: 0.5;
   }
 }
+ 

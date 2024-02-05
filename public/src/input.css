@@ -70,28 +70,9 @@ content p:first-child {
 }
 
 nav ul li:not(:last-child):after {
-  content: "\25AA";
+  content: "\00B7";
   margin: 0 .4rem;
   color: #d1d5db;
-}
-
-
-@media (prefers-color-scheme: dark) {
-  header nav ul li a {
-    color: rgba(255,255,255,.5);
-  }
-  hr {
-    border-color:  rgba(255,255,255,.3);
-  }
-  .prose a {
-    border-color: white;
-  }
-  nav ul li:not(:last-child):after {
-    color: rgba(255,255,255,.3);
-  }
-  .prose figure h2, .prose figure h3, .prose figure h4, .prose figure h5, .prose figure h6 {
-    color: rgba(255,255,255,.7);
-  }
 }
 
 .bookmarks {
@@ -112,8 +93,26 @@ nav ul li:not(:last-child):after {
   border-radius: 4em;
 }
 
-a,
 .underline {
   border-bottom: 1px dashed #6b7280;
   text-decoration: none;
 }
+
+@media (prefers-color-scheme: dark) {
+  header nav ul li a {
+    color: rgba(255,255,255,.5);
+  }
+  hr {
+    border-color:  rgba(255,255,255,.3);
+  }
+  .prose a {
+    border-color: white;
+  }
+  nav ul li:not(:last-child):after {
+    color: rgba(255,255,255,.3);
+  }
+  .prose figure h2, .prose figure h3, .prose figure h4, .prose figure h5, .prose figure h6 {
+    color: rgba(255,255,255,.7);
+  }
+}
+ 
