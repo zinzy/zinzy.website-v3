@@ -1184,6 +1184,10 @@ video {
   margin-top: 5rem;
 }
 
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
 .block {
   display: block;
 }
@@ -1212,6 +1216,18 @@ video {
   height: 1.25rem;
 }
 
+.w-1\/2 {
+  width: 50%;
+}
+
+.w-1\/4 {
+  width: 25%;
+}
+
+.w-3\/4 {
+  width: 75%;
+}
+
 .w-4 {
   width: 1rem;
 }
@@ -1238,6 +1254,10 @@ video {
 
 .justify-stretch {
   justify-content: stretch;
+}
+
+.gap-4 {
+  gap: 1rem;
 }
 
 .scroll-smooth {
@@ -1476,6 +1496,7 @@ nav ul li:not(:last-child):after {
   border-radius: 4em;
 }
 
+.prose a, 
 .underline {
   border-bottom: 1px dashed #6b7280;
   text-decoration: none;
