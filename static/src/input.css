@@ -96,6 +96,8 @@ nav ul li:not(:last-child):after {
 .underline {
   border-bottom: 1px dashed #6b7280;
   text-decoration: none;
+  -webkit-text-decoration-line: none;
+  text-decoration-line: none;
 }
 
 @media (prefers-color-scheme: dark) {
