@@ -92,7 +92,7 @@ nav ul li:not(:last-child):after {
   display: inline-block;
   border-radius: 4em;
 }
-
+.prose a, 
 .underline {
   border-bottom: 1px dashed #6b7280;
   text-decoration: none;
