@@ -2,14 +2,12 @@
 {{ partial "back_link.html" .}}
 
 <article class="h-entry prose prose-gray dark:prose-invert dark:text-opacity-50">
-    <header class="mb-20">
+    <header class="mb-14">
         <h2 class="p-name mb-2">{{ .Title }}</h2>
         <div class="">
             <time class="dt-published inline-block" datetime="{{ .Date }}">
                 {{ .Date | time.Format site.Params.theme_config.date_format_archive }}
             </time>
-            <span class="inline-block mx-2">|</span>
-            {{ partial "tags.html" .}}
         </div> 
     </header> 
 
@@ -28,6 +26,7 @@
     
 
 
+    {{ partial "tags.html" .}}
     
 
     {{ partial "backlinks.html" . }}
