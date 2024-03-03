@@ -1,8 +1,20 @@
 {{ define "main" }}
 {{ partial "back_link.html" .}}
 
-<h1>{{ .Title }}</h1>
+<header class="prose mb-20 dark:prose-invert">
+    <h2>{{ .Title }}</h2>
+    <p class="">This website contains a growing number of undated notes on all sorts of subjects. I tend to them, add resources, change my perspective, and let them develop over time.</p>
+</header>
+ 
 
-{{ .Content }}
-{{ partial "notes_list.html" (dict "context" . "section" .Section)}}
+ 
+{{ $notes := where .Site.RegularPages "Type" "notes" }}
+
+<ul>
+    {{ range $notes }}
+    <li class="mb-3"> 
+        <a class="border-dashed border-b border-gray-400" href="{{ .Permalink }}">{{ .Title }}</a>
+    </li>
+    {{ end }} 
+</ul>  
 {{ end }}
