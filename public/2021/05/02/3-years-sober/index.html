@@ -19,7 +19,7 @@ Nothing dramatic had happened in Stockholm. We had just returned from a midweek 
   
 
   <link rel="stylesheet" href="/src/output.css">
-  <script src="https://cdn.tailwindcss.com"></script>
+  
 
   
   <link rel="me" href="https://github.com/zinzy" />
@@ -32,6 +32,9 @@ Nothing dramatic had happened in Stockholm. We had just returned from a midweek 
 
   <link rel="microsub" href="https://aperture.p3k.io/microsub/596">
   <link rel="micropub" href="https://zinzy.website/micropub/main">
+
+  
+  <link rel="webmention" href="https://webmention.herokuapp.com/api/webmention" />
 
   
 </head>
@@ -52,24 +55,12 @@ Nothing dramatic had happened in Stockholm. We had just returned from a midweek 
 
 
 <article class="h-entry prose prose-gray dark:prose-invert dark:text-opacity-50">
-    <header class="mb-20">
+    <header class="mb-14">
         <h2 class="p-name mb-2">3 years sober</h2>
         <div class="">
             <time class="dt-published inline-block" datetime="2021-05-02 00:00:00 &#43;0000 UTC">
                 May 2, 2021
             </time>
-            <span class="inline-block mx-2">|</span>
-             
-<ul class="inline-block text-gray-500 dark:text-white dark:text-opacity-50 m-0 p-0">
-   <li class="inline-block m-0 p-0">
-    <a href="https://zinzy.website/tags/milestones/" class="text-gray-500 dark:text-white dark:text-opacity-50 mr-2 mb-2">milestones</a>
-  </li> <li class="inline-block m-0 p-0">
-    <a href="https://zinzy.website/tags/addiction/" class="text-gray-500 dark:text-white dark:text-opacity-50 mr-2 mb-2">addiction</a>
-  </li> <li class="inline-block m-0 p-0">
-    <a href="https://zinzy.website/tags/recovery/" class="text-gray-500 dark:text-white dark:text-opacity-50 mr-2 mb-2">recovery</a>
-  </li> </ul>
-
- 
         </div> 
     </header> 
 
@@ -130,6 +121,17 @@ Nothing dramatic had happened in Stockholm. We had just returned from a midweek 
     
 
 
+     
+<ul class="inline-block text-sm text-gray-500 dark:text-white/60 mt-14 p-0">
+   <li class="inline-block m-0 p-0">
+    <a href="https://zinzy.website/tags/milestones/" class="text-gray-500 dark:text-white dark:text-opacity-50 mr-2 mb-2">milestones</a>
+  </li> <li class="inline-block m-0 p-0">
+    <a href="https://zinzy.website/tags/addiction/" class="text-gray-500 dark:text-white dark:text-opacity-50 mr-2 mb-2">addiction</a>
+  </li> <li class="inline-block m-0 p-0">
+    <a href="https://zinzy.website/tags/recovery/" class="text-gray-500 dark:text-white dark:text-opacity-50 mr-2 mb-2">recovery</a>
+  </li> </ul>
+
+ 
     
 
     
@@ -137,6 +139,18 @@ Nothing dramatic had happened in Stockholm. We had just returned from a midweek 
 
 
 </article>
+
+<script id="webmention-hosted">
+    (function () {
+    var sn = document.createElement("script"), s = document.getElementsByTagName("script")[0], url;
+    url = document.querySelectorAll ? document.querySelectorAll("link[rel~=canonical]") : false;
+    url = url && url[0] ? url[0].href : false;
+    sn.type = "text/javascript"; sn.async = true;
+    sn.src = "//webmention.herokuapp.com/api/embed?url=" + encodeURIComponent(url || window.location);
+    s.parentNode.insertBefore(sn, s);
+    }());
+    </script>
+
 
             </div>
         </main><footer class="text-sm">
