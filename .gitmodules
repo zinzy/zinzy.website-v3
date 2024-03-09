@@ -1,3 +1,6 @@
 [submodule "nostyleplease"]
 	path = themes/nostyleplease
 	url = https://github.com/g-hanwen/hugo-theme-nostyleplease.git
+[submodule "wiki"]
+	path = content/wiki
+	url = https://github.com/zinzy/wiki

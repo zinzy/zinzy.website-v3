@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://zinzy.website/2024-03-09-11-37-35/</loc>
-    <lastmod>2024-03-09T11:37:09+01:00</lastmod>
+    <loc>https://zinzy.website/2024-03-09-11-53-45/</loc>
+    <lastmod>2024-03-09T11:54:19+00:00</lastmod>
   </url><url>
     <loc>https://zinzy.website/updates/</loc>
-    <lastmod>2024-03-09T11:37:09+01:00</lastmod>
+    <lastmod>2024-03-09T11:54:19+00:00</lastmod>
   </url><url>
     <loc>https://zinzy.website/</loc>
+    <lastmod>2024-03-09T11:54:19+00:00</lastmod>
+  </url><url>
+    <loc>https://zinzy.website/2024-03-09-11-37-35/</loc>
     <lastmod>2024-03-09T11:37:09+01:00</lastmod>
   </url><url>
     <loc>https://zinzy.website/2024-03-09-11-28-46/</loc>
@@ -1680,19 +1683,13 @@
   </url><url>
     <loc>https://zinzy.website/im-a-christian/</loc>
   </url><url>
-    <loc>https://zinzy.website/wiki/im-a-christian/</loc>
-  </url><url>
     <loc>https://zinzy.website/im-child-free/</loc>
-  </url><url>
-    <loc>https://zinzy.website/wiki/im-child-free/</loc>
   </url><url>
     <loc>https://zinzy.website/interests/</loc>
   </url><url>
     <loc>https://zinzy.website/manual/</loc>
   </url><url>
     <loc>https://zinzy.website/mentoring/</loc>
-  </url><url>
-    <loc>https://zinzy.website/wiki/mentoring/</loc>
   </url><url>
     <loc>https://zinzy.website/notes/</loc>
   </url><url>
@@ -1701,8 +1698,6 @@
     <loc>https://zinzy.website/page/</loc>
   </url><url>
     <loc>https://zinzy.website/site/</loc>
-  </url><url>
-    <loc>https://zinzy.website/wiki/</loc>
   </url><url>
     <loc>https://zinzy.website/work/</loc>
   </url>
