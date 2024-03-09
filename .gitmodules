@@ -4,3 +4,6 @@
 [submodule "wiki"]
 	path = contents/wiki
 	url = https://github.com/zinzy/wiki.git
+[submodule "content"]
+	path = content
+	url = https://github.com/zinzy/content.git
