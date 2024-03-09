@@ -1,9 +1,9 @@
 [submodule "nostyleplease"]
 	path = themes/nostyleplease
 	url = https://github.com/g-hanwen/hugo-theme-nostyleplease.git
-[submodule "content/wiki"]
-	path = content/wiki
-	url = https://github.com/zinzy/wiki
+# [submodule "content/wiki"]
+# 	path = content/wiki
+# 	url = https://github.com/zinzy/wiki
 [submodule "notes"]
 	path = notes
 	url = https://github.com/zinzy/notes
