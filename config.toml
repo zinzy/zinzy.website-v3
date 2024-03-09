@@ -13,6 +13,8 @@ relrefLinksErrorLevel = 'WARNING'
 # URL to be used as a placeholder when a page reference cannot be found in ref or relref. Is used as-is.
 refLinksNotFoundURL = "/wiki"
 
+contentDir = 'contents'
+
 [taxonomies]
   category = 'categories'
   tag = 'tags'

@@ -2,5 +2,5 @@
 	path = themes/nostyleplease
 	url = https://github.com/g-hanwen/hugo-theme-nostyleplease.git
 [submodule "wiki"]
-	path = content/wiki
+	path = contents/wiki
 	url = https://github.com/zinzy/wiki.git
