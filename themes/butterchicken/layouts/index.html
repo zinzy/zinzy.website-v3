@@ -86,17 +86,24 @@
     </ul>  
 </section>
 
-<div class="mt-14 text-gray-300 dark:text-white/30">■</div>
+<!-- <div class="my-14 text-gray-300 dark:text-white/30">■</div>
 
-
-
-<!-- {{ $notes := where .Site.RegularPages "Type" "notes" }}
+<section id="updates">
+    <div class="mb-5 prose dark:prose-invert">
+        <h3 class="">Wiki</h3>
+        <p class="mt-3">I maintain a growing set of publically available working notes. Some of them are descriptive ramblings about who and what I am, others are things I use for work, hobbies, or other activities in which I engage. There exists no index of these notes. Instead, I'm happy you to point you in the direction of some good starting points:</p>
+    </div>
+    {{ $wiki := where .Site.RegularPages "Type" "wiki" }}
 <ul>
-    {{ range  $notes }}
+    {{ range  $wiki }}
     <li class="mb-3"> 
         <a class="border-dashed border-b border-gray-400" href="{{ .Permalink }}">{{ .Title }}</a>
     </li>
     {{ end }} 
-</ul>   -->
+</ul>  
+</section> -->
+
+ 
+<div class="mt-14 text-gray-300 dark:text-white/30">■</div>
 
 {{ end }}  
