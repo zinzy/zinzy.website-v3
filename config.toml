@@ -32,7 +32,6 @@ refLinksNotFoundURL = "/wiki"
   posts = "/:year/:month/:day/:title/"
   updates = "/:filename/"
   page = "/:slug/"
-  notes = "/:slug/"
 [outputs]
   home = ['html', 'rss']
   section = ['html', 'rss']
