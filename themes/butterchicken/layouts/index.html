@@ -44,7 +44,7 @@
             </header>   
             
             {{ if .Params.photo }}
-                <img src="{{ .Params.photo }}" alt="" class="mb-5">
+               <a href="/updates"><img src="{{ slicestr .Params.photo 0 50 }}c_scale,h_100,e_blur:200/{{ slicestr .Params.photo 50 86 }}" alt="" class="mb-5"></a>
             {{ end }}
 
             {{ if .Params.replyTo }}
@@ -86,7 +86,7 @@
     </ul>  
 </section>
 
-<div class="my-14 text-gray-300 dark:text-white/30">■</div>
+<!-- <div class="my-14 text-gray-300 dark:text-white/30">■</div>
 
 <section id="updates">
     <div class="mb-5 prose dark:prose-invert">
@@ -101,7 +101,7 @@
     </li>
     {{ end }} 
 </ul>  
-</section>
+</section> -->
 
  
 <div class="mt-14 text-gray-300 dark:text-white/30">■</div>
