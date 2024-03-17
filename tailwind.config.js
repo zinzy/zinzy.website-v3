@@ -17,19 +17,10 @@ module.exports = {
         gray: {
           css: { 
             '.prose a': { 
-              borderBottom: '1px dashed #6b7280',
               fontWeight: '400',
-              textDecoration: 'none',
             },
-            'h1,h2,h3,h4,h5,h6': { 
-              // fontSize: '100%',
-              // fontFamily: 'Arial, sans-serif',
-              fontWeight: '500',
-              // textTransform: 'uppercase',
-            }
-            ,
-            '--tw-prose-body': theme('colors.gray[600]'),
-            '--tw-prose-headings': theme('colors.gray[800]'),
+            '--tw-prose-body': theme('colors.gray[950]'),
+            '--tw-prose-headings': theme('colors.gray[500]'),
             '--tw-prose-lead': theme('colors.gray[800]'),
             '--tw-prose-links': theme('colors.gray[800]'),
             '--tw-prose-bold': theme('colors.gray[800]'),
@@ -45,7 +36,7 @@ module.exports = {
             '--tw-prose-th-borders': theme('colors.gray[200]'),
             '--tw-prose-td-borders': theme('colors.gray[200]'),
             // Everything below will be dark mode
-            '--tw-prose-invert-body': theme('colors.gray[300]'),
+            '--tw-prose-invert-body': theme('colors.zinc[300]'),
             '--tw-prose-invert-headings': theme('colors.white'),
             '--tw-prose-invert-lead': theme('colors.zinc[300]'),
             '--tw-prose-invert-links': theme('colors.white'),
@@ -59,8 +50,8 @@ module.exports = {
             '--tw-prose-invert-code': theme('colors.white'),
             '--tw-prose-invert-pre-code': theme('colors.zinc[300]'),
             '--tw-prose-invert-pre-bg': 'rgb(0 0 0 / 50%)',
-            '--tw-prose-invert-th-borders': theme('colors.emerald[800]'),
-            '--tw-prose-invert-td-borders': theme('colors.emerald[800]'),
+            '--tw-prose-invert-th-borders': theme('colors.zinc[800]'),
+            '--tw-prose-invert-td-borders': theme('colors.zinc[800]'),
           }
         }
       })

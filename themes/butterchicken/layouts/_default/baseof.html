@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="{{ $.Site.LanguageCode }}" class="scroll-smooth">
     {{- partial "head.html" . -}}
-    <body class="antialiased mx-auto p-8 md:py-14  text-gray-950 bg-white dark:bg-emerald-950 dark:text-zinc-300" a="{{ $.Site.Params.theme_config.appearance | default "auto" }}">
+    <body class="antialiased mx-auto px-5 md:px-0 pb-6 text-gray-950 bg-white dark:bg-gray-950 dark:text-zinc-300" a="{{ $.Site.Params.theme_config.appearance | default "auto" }}">
 
         {{- partial "header.html" . -}}
 
-        <main class="page-content mb-14" aria-label="Content">
+        <main class="page-content my-24" aria-label="Content">
             <div class="w">
                 {{- block "main" . }}{{- end }}
             </div>

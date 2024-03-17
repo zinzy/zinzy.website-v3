@@ -1,21 +1,23 @@
 {{ define "main" }}
 {{ partial "back_link.html" .}}
 
-<header class="prose mb-20 dark:prose-invert">
-    <h2>{{ .Title }}</h2>
-    <p class="">This website contains a post archive going back to the mid-aughts. Some are outdated, incorrect, perhaps even embarrassing, but they're all mine.</p>
+<header class="">
+    <h2 class="text-gray-500 dark:text-white/50 mb-6">{{ .Title }}</h2>
+    <p>This website contains a post archive going back to the mid-aughts. Some of the contents below are vastly outdated, hilariously incorrect, and in some cases simply shame-inducing. I like to keep them here to remind myself that life is ever-evolving, as am I.</p>
 </header>
  
 
  
 {{ $postsDefault := where .Site.RegularPages "Type" "posts" }}
 
-<ul>
+<ul class="mt-12">
     {{ range $postsDefault }}
-    <li class="mb-3"> 
-        <a class="border-dashed border-b border-gray-400" href="{{ .Permalink }}">{{ .Title }}</a> - <time class=" text-gray-500 dark:text-white dark:text-opacity-50">{{- (.Date | time.Format site.Params.theme_config.date_format_archive) }}</time>
+    <li class="border-b last:border-b-0 py-2 first:pt-0 md:flex"> 
+        <a class="block md:grow " href="{{ .Permalink }}">{{ .Title }}</a>
+        <time class="md:flex-none text-gray-500 dark:text-white dark:text-opacity-50">{{- (.Date | time.Format site.Params.theme_config.date_format_archive) }}</time>
     </li>
     {{ end }} 
-</ul>  
+</ul> 
+
 {{ end }}
 

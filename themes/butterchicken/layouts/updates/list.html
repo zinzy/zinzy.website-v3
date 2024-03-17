@@ -1,29 +1,34 @@
 {{ define "main" }}
 {{ partial "back_link.html" .}}
 
-<header class="mb-14 prose dark:prose-invert">
-    <h2 class="m-0 mb-2">{{ .Title }}</h2>
-    <p>These are small pieces of text and other media, writing in a hurry, left fleeting in my collection of notes.</p>
+<header class="">
+  <h2 class="text-gray-500 dark:text-white/50">{{ .Title }}</h2>
+  <p>These are small pieces of text and other media, writing in a hurry, left fleeting in my collection of notes.</p>
 </header>
 
-    {{ $postsDefault := where .Site.RegularPages "Type" "updates" }}
-    {{ $paginator := .Paginate $postsDefault }}
+<ul class="mt-12">
 
-    {{ range $paginator.Pages }}
+  {{ $postsDefault := where .Site.RegularPages "Type" "updates" }}
+  {{ $paginator := .Paginate $postsDefault }}
 
-    <article class="prose prose-gray dark:prose-invert mb-14">
-        <header>
-            <a href="{{ .Permalink }}"><time class="">{{- (.Date | time.Format site.Params.theme_config.date_format_archive) }}</time></a>
-        </header> 
-  
-
+  {{ range $paginator.Pages }}
+  <li class="border-b pt-4 md:flex first:border-t"> 
+      <a href="{{ .Permalink }}" class="decoration-gray-500  dark:decoration-white/50"><time class="md:flex-none w-40 text-gray-500 dark:text-white/50 block mb-3">{{- (.Date | time.Format site.Params.theme_config.date_format_archive) }}</time></a>
+      <article class="prose prose-gray dark:prose-invert grow">
         {{ if .Params.photo }}
             <img src="{{ .Params.photo }}" alt="" class="mb-5"> 
         {{ end }}
    
         {{ if .Params.replyTo }}
         <p class="mt-0 u-in-reply-to">
-          Replied to <a href="{{.Params.replyTo}}" rel=in-reply-to class="break-all u-in-reply-to text-url" target="_blank">{{.Params.replyToName}}</a>
+          Replied to 
+            <a href="{{.Params.replyTo}}" rel=in-reply-to class="break-all u-in-reply-to text-url" target="_blank">
+              {{ if .Params.replyToName }}
+                {{.Params.replyToName}}
+              {{ else }}
+              {{.Params.replyTo}}
+              {{ end }}
+            </a>
         </p> 
         {{ end }}
 
@@ -38,13 +43,12 @@
     </content>
 
     </article>
-
-
-    {{ end }} 
-
-    
-
-  {{partial "pagination.html" .}}  
+  </li>
+  {{ end }} 
+</ul> 
+  <div class="ml-40 mt-6">
+    {{partial "pagination.html" .}}  
+  </div>
 
 {{ end }}
 

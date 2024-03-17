@@ -1,41 +1,50 @@
-<footer class="text-sm">
+<footer class="">
 
-  <p class="leading-6 text-sm text-gray-500 dark:text-white/60 mb-14">Thanks for reading! I <a href="/site#privacy" class="underline">don't track you</a>, so unless you tell me, I won't know you've been here. Email me by @ing "hello" to this domain, or find another way to <a href="/hello" class="underline">say hello</a>. Don't forget to <a href="/follow" class="underline">follow me</a> with your favorite RSS reader. This <a href="/site" class="underline">site</a> is in constant flux, don't you dig?</p>
-
-  <p class="h-card hidden">
-    <a class="u-url u-uid" href="{{.Site.Params.baseURL}}">
-      <span class="p-name">
-        <span class="p-given-name">{{.Site.Params.author.givenName}}</span> 
-        <span class="p-family-name">{{.Site.Params.author.familyName}}</span></span></a> 
-    is an 
-    <span class="">{{.Site.Params.author.ethnicity}}</span> 
-    <span class="p-gender-identity">{{.Site.Params.author.genderIdentity}}</span> 
-    IndieWeb advocate living in  
-    <span class="p-locality">{{.Site.Params.author.locality}}</span> 
-    (<span class="p-country-name">{{.Site.Params.author.country}}</span>) 
-    and working as a 
-    <span class="p-category">{{.Site.Params.author.jobTitle}}</span> 
-    at 
-    <span class="p-org">{{.Site.Params.author.org}}</span>.
-    <img class="u-photo hidden" src="https://res.cloudinary.com/dbi2zounq/image/upload/w_200/v1667744670/me/zinzy-1_telofx.jpg"/> 
-  </p>
-
-    <div class="flex">
-      <div>
-        <a href="https://webring.xxiivv.com/#zinzy" target="_blank" rel="noopener" class="no-underline" aria-label="xxiivv webring">
-          <!-- <img src="https://webring.xxiivv.com/icon.black.svg" alt="XXIIVV webring" class="inline-block mx-auto h-4 w-4" /> -->
-          {{- partial "webring_xxiivv.html" . -}}
-        </a>
-      </div class="">
-      <div class="grow text-end text-right">
-        <a href="https://xn--sr8hvo.ws/previous" class="text-gray-500 dark:text-white/60">←</a>
-        <span class="mx-3 inline-block text-gray-500 dark:text-white/60">
-          Smile, you're on the 
-          <a href="https://xn--sr8hvo.ws" class="inline-block text-gray-500 dark:text-white/60">🕸💍 IndieWeb</a>
-        </span>
-        <a href="https://xn--sr8hvo.ws/next" class="text-gray-500 dark:text-white/60">→</a>
-      </div>
+  <div class="flex border-t py-6">
+    <div class="w-3/12">
+      <h3 class="text-gray-500 dark:text-white/50 mb-3">Content</h3>
+      <nav aria-label="Site content">
+        <ul>
+        {{ $currentPage := . }}
+        {{ range .Site.Menus.content }} 
+            <li> 
+                 <a href="{{.URL}}">{{ .Name }}</a>
+            </li> 
+        {{ end }}
+        </ul>
+      </nav>
     </div>
-   
-   
+    <div class="w-5/12">
+      <h3 class="text-gray-500 dark:text-white/50 mb-3">Information</h3>
+      <nav aria-label="Information">
+        <ul class="columns-2">
+        {{ $currentPage := . }}
+        {{ range .Site.Menus.information }} 
+            <li> 
+                 <a href="{{.URL}}">{{ .Name }}</a>
+            </li> 
+        {{ end }}
+        </ul>
+      </nav>
+    </div>
+    <div class="w-4/12 flex justify-end">
+      <a href="https://webring.xxiivv.com/#zinzy" target="_blank" rel="noopener" class="no-underline" aria-label="xxiivv webring">
+        <!-- <img src="https://webring.xxiivv.com/icon.black.svg" alt="XXIIVV webring" class="inline-block mx-auto h-4 w-4" /> -->
+        {{- partial "webring_xxiivv.html" . -}}
+      </a>
+    </div>
+  </div>
+
+
+  <div class="flex text-sm text-gray-500 dark:text-white/50 pt-6 border-t">
+    <span class="flex-none w-40">
+      <a href="https://xn--sr8hvo.ws/previous" class="text-gray-500 dark:text-white/50 dark:text-white/60 inline-block mr-3">←</a>
+      <a href="https://xn--sr8hvo.ws/next" class="text-gray-500 dark:text-white/50 dark:text-white/60">→</a>
+    </span>
+    <span class="grow">
+    <span class="text-center text-sm text-gray-500 dark:text-white/50"> 
+      Smile, you're on the  <a href="https://xn--sr8hvo.ws" class="inline-block text-gray-500 dark:text-white/50 dark:text-white/60">🕸💍 IndieWeb</a>
+    </span>
+    </span>
+    </div>
   </footer>

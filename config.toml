@@ -18,6 +18,7 @@ refLinksNotFoundURL = "/wiki"
   tag = 'tags'
 
 [params]
+  title = "Zinzy's website"
   subtitle = 'A warm welcome'
   [params.author]
     givenName = 'Zinzy'
@@ -28,6 +29,8 @@ refLinksNotFoundURL = "/wiki"
     country = 'The Netherlands'
     jobTitle = 'Senior UX practitioner'
     org = 'Gerimedica'
+    nickname = 'Zinzatron'
+
 [permalinks]
   posts = "/:year/:month/:day/:title/"
   updates = "/:filename/"
@@ -38,49 +41,56 @@ refLinksNotFoundURL = "/wiki"
   section = ['html', 'rss']
 paginate = 6
 
-[[menu.main]]
-  name = "About"
-  url = "/about/"
-  weight = 2
-[[menu.main]]
-  name = "Now"
-  url = "/now/"
-  weight = 3
-[[menu.main]]
-  name = "Interests"
-  url = "/interests/"
-  weight = 4
-[[menu.main]]
-  name = "Work"
-  url = "/work/"
-  weight = 5
-[[menu.main]]
-  name = "Posts"
-  url = "/posts/"
-  weight = 6
-[[menu.main]]
-  name = "Updates"
-  url = "/updates/"
-  weight = 7
-[[menu.main]]
-  name = "Site"
-  url = "/site/"
-  weight = 8
-[[menu.main]]
-  name = "Bookmarks"
-  url = "/bookmarks/"
-  weight = 9
-[[menu.main]]
-  name = "Codex"
-  url = "/codex/"
-  weight = 10
-[[menu.main]]
-  name = "Follow"
-  url = "/follow/"
-  weight = 11
-[[menu.main]]
-  name = "Hello"
-  url = "/hello/"
-  weight = 12
 
+
+[[menu.content]]
+  name = "Posts"
+  url = "/posts"
+  weight = 1
+[[menu.content]]
+  name = "Updates"
+  url = "/updates"
+  weight = 2
+[[menu.content]]
+  name = "Wiki"
+  url = "/wiki"
+  weight = 3
+[[menu.content]]
+  name = "Bookmarks"
+  url = "/bookmarks"
+  weight = 4
+[[menu.content]]
+  name = "Codex"
+  url = "/codex"
+  weight = 5
+
+
+[[menu.information]]
+  name = "About"
+  url = "/about"
+  weight = 1
+[[menu.information]]
+  name = "Work"
+  url = "/work"
+  weight = 2
+[[menu.information]]
+  name = "Hello"
+  url = "/hello"
+  weight = 3
+[[menu.information]]
+  name = "Follow"
+  url = "/follow"
+  weight = 4
+[[menu.information]]
+  name = "Now"
+  url = "/now"
+  weight = 5
+[[menu.information]]
+  name = "Manual"
+  url = "/manual"
+  weight = 6
+[[menu.information]]
+  name = "Site"
+  url = "/site"
+  weight = 7
    

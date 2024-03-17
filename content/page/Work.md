@@ -1,52 +1,61 @@
 ---
 title: Work
 share: true
-layout: work
+layout: page
 section: page
 description: What I do for money
 ---
-### I'm a User Experience practitioner; a researcher and designer creating tools for people at work
+I'm a User Experience practitioner; a researcher and designer creating tools for people at work. For the past 17 years, I've worked as a researcher, developer, designer, design manager, and product manager in technology companies across a variety of industries. I take a Ted Lasso approach to building products: I care little about my job title, and a lot about whatever activity will help us solve problems more effectively.
 
-For the past seventeen years, I've worked as a researcher, developer, designer, design manager, and product manager in technology companies across a variety of industries. I take a Ted Lasso approach to building products: I care little about my job title, and a lot about whatever activity will help us solve problems more effectively.
-
----
-
-### Gerimedica
-2023 - now
-
-| Title    | Company | Timeline |
-| -------- | ------- | ------- |
-| Senior UX Researcher & Designer | Gerimedica | 2023 - |
-| Design & Product Manager | Leeruniek | 2020 - 2023 |
-| Lead Designer | Airtrade | 2015 - 2020 |
-| Designer & Developer | Studio Zinzy | 2007 - 2015 |
-
-### Case studies
-The majority of my work is protected by non-disclosure agreements. If you'd like to dive into the details of some of my favorite projects from the past few years, feel free to [reach out to me](_Inbox/hello.md). If you're interested in my failures, make sure to check out my [graveyard](/graveyard).
-
----
-
-### Why enterprise SaaS
-In the years I've spent getting paid to make digital products I've learnt one thing: I like a good challenge. Tools built for people at work are usually highly specialized, are behind on best design practices, and are often created to appeal to the buyer (a company), not the user (an employee).
-
-The intricacies of enterprise SaaS products, and the endurance and creativity they require of their makers are what I need to feel excited about my work.
-
-### My practice
-Over the past two decades, my practice as a researcher and designer has radically evolved. Much of this I thank to developing a keener understanding of what it means to be the type of neurodivergent that I am. The following has accelerated my productivity. 
-
-#### Habitless productivity
-I do not actively attempt to build better habits into my work routine.  Rather, I trust my body and instincts to tell me what to do, finding ways to unblock those habits I intrinsically lean towards.
-
-#### Chaotic passion
-I let intense curiosity, rapid learning, hyperfocus, and lateral thinking lead the way towards projects I take on at work.
-
-#### Unblock, then unlock
-The reason I get anything of value done at all is because the thing that motivates me strongest is the stability and freedom that come with people trusting me to do good work. Tasks that unblock product owners and developers are the first things I cross off my to do list in the morning. After that, I discover, play, question, make mistakes, and learn.
-
-#### Just enough research and design
-I take a strategic approach to engaging in research and design work. I never design more than a developer of prototype needs, and I research just enough to get past the hurdle of risky assumptions.
-
-#### Laziness
-The previous paragraph can also be expressed by Bill Gates:
-
-> [I choose a lazy person to do a hard job. Because a lazy person will find an easy way to do it.](https://www.goodreads.com/quotes/568877-i-choose-a-lazy-person-to-do-a-hard-job) 
+{{< rawhtml >}}
+<div id="Gerimedica">
+    <div class="bg-gray-100 h-80 rounded grid place-content-center">
+      <img src="https://www.gerimedica.nl/wp-content/uploads/2023/02/1.-YSIS-LOGO-DARK-TEXT.png" class="w-40" alt="">
+    </div>
+    <div class="flex mt-5 mb-3">
+      <h3>
+        <a href="https://gerimedica.nl" target="_blank" rel="noopener noreferrer" class="mr-3">Gerimedica</a>
+        <span class="text-gray-500 dark:text-white/50">2023 - now</span>
+      </h3>
+    </div>
+    <div class="prose dark:prose-invert">
+      <p>As their senior UX researcher and designer, I enable Gerimedica's product department in building user-friendly solutions for our market leading multidisciplinary healthcare software.</p>
+    </div>
+  </div>
+  <div class="mt-12" id="Leeruniek">
+    <div class="bg-gray-100 h-80 rounded grid place-content-center">
+      <img src="https://i0.wp.com/leeruniek.nl/wp-content/uploads/2023/08/Logo.png?fit=1038%2C218&ssl=1" class="w-40" alt="">
+    </div>
+      <h3>
+        <a href="https://leeruniek.nl" target="_blank" rel="noopener noreferrer" class="mr-3">Leeruniek</a>
+        <span class="text-gray-500 dark:text-white/50">2020 - 2023</span>
+      </h3>
+    <div class="prose dark:prose-invert">
+      <p>First as a UX strategist, and later as a Design & Product Manager, I helped streamline workflows at this startup, and built and scaled their interdisciplinary research practice.</p>
+    </div>
+  </div>
+  <div class="mt-12" id="Airtrade">
+    <div class="bg-gray-100 h-80 rounded grid place-content-center">
+      <img src="https://www.airtrade.com/assets/img/logo_header.png" class="w-40" alt="">
+    </div>
+    <h3>
+        <a href="https://airtrade.com" target="_blank" rel="noopener noreferrer" class="mr-3">Airtrade</a>
+        <span class="text-gray-500 dark:text-white/50">2023 - now</span>
+    </h3>
+    <div class="prose dark:prose-invert">
+      <p>As their first designer (though truly I started there as a front-end lead), I established a UX process at this travel technology market leader, building a multi-brand design system for a dozen of white labels tools in our product suite.</p>
+    </div>
+  </div>
+  <div class="mt-12" id="Studio Zinzy">
+    <div class="bg-gray-100 h-80 rounded grid place-content-center">
+      <div class="text-2xl font-medium dark:text-zinc-950">Studio Zinzy</div>
+    </div>
+    <h3>
+        <span class="mr-3 text-gray-950 dark:text-white">Studio Zinzy</span>
+        <span class="text-gray-500 dark:text-white/50">2007 - 2015</span>
+    </h3>
+    <div class="prose dark:prose-invert">
+      <p>In my one-person studio I designed and built websites and software for freelancers, startups, academic departments, churches, healthcare professionals, event managers, journalists, and other clients.</p>
+    </div>
+  </div>
+{{< /rawhtml >}}

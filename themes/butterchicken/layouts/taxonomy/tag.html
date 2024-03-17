@@ -2,14 +2,24 @@
 {{ partial "back_link.html" .}}
 
 <header class="prose mb-20 dark:prose-invert">
-    <h2>Things tagged <span class="bg-gray-100 text-gray-600 p-1 px-2 rounded ml-3"># {{ .Title }}</span></h2>
+    <h2>Things tagged <span class="bg-gray-100 dark:bg-zinc-800 dark:text-white/50 text-gray-600 p-1 px-2 rounded ml-3"># {{ .Title }}</span></h2>
 </header>
- 
-<ul>
-    {{ range .Data.Pages }}
-    <li class="mb-3"> 
-      <a class="border-dashed border-b border-gray-400" href="{{.RelPermalink}}">{{ .Title }}</a> - <time class=" text-gray-500 dark:text-white dark:text-opacity-50">{{- (.Date | time.Format site.Params.theme_config.date_format_archive) }}</time>
-    </li>
-    {{ end }}
-  </ul>
+
+<ul class="mt-12">
+  {{ range .Data.Pages }}
+  <li class="border-b last:border-b-0 py-2 first:pt-0 md:flex"> 
+      <span class="md:grow">
+        <a href="{{ .Permalink }}">
+          {{ if .Title}}
+            {{ .Title }}
+          {{ else }}
+            Note
+          {{ end }}
+        </a>
+      </span>
+      <time class="md:flex-none text-gray-500 dark:text-white dark:text-opacity-50">{{- (.Date | time.Format site.Params.theme_config.date_format_archive) }}</time>
+  </li>
+  {{ end }} 
+</ul> 
+
   {{ end }}
