@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@tailwind variants;
 
 body, html {
   /* font-size: 19px; */
@@ -119,3 +120,14 @@ a {
   }
 }
  
+#footnotes {
+ @apply mt-12 pt-12 border-t text-base font-normal;
+}
+
+.footnotes hr {
+  display: none;
+}
+
+.footnotes ol {
+  @apply text-sm text-gray-500 dark:text-white/50;
+}

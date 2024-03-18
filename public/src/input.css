@@ -1,9 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@tailwind variants;
 
 body, html {
   /* font-size: 19px; */
+}
+
+@layer components {
+  .border,
+  .border-r,
+  .border-l,
+  .border-t,
+  .border-b,
+  .border-x,
+  .border-y {
+      @apply border-gray-200 dark:border-white/20;
+  }
 }
 
 body {
@@ -44,11 +57,10 @@ input:checked {
   text-align: center;
   font-size: 10px;
 }
-/* h2, h3, h4, h5, h6, 
+h2, h3, h4, h5, h6, 
 .prose h2, .prose h3, .prose h4, .prose h5, .prose h6 {
-  @apply font-mono;
-  font-weight: 400;
-} */
+  @apply text-gray-500 dark:text-white/50 text-base font-normal;
+}
 .prose h2 { margin: 0; }
 .prose h3 { margin-top: 2.5rem; }
 .prose h4 { margin-top: 2rem; }
@@ -84,12 +96,10 @@ content p:first-child {
   display: inline-block;
   border-radius: 4em;
 }
-.prose a, 
-.underline { 
-  @apply border-b-2 border-slate-300;
-  text-decoration: none;
-  -webkit-text-decoration-line: none;
-  text-decoration-line: none;
+
+a {
+  @apply underline decoration-inherit hover:opacity-70 transition-all;
+  border: 0;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -110,3 +120,14 @@ content p:first-child {
   }
 }
  
+h1#footnotes {
+ @apply mt-12 pt-12 border-t font-base font-normal;
+}
+
+.footnotes hr {
+  display: none;
+}
+
+.footnotes {
+  @apply text-sm text-gray-500 dark:text-white/50;
+}

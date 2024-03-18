@@ -1,8 +1,20 @@
 {
+  "name": "butter-chicken",
+  "version": "1.0.0",
+  "description": "A layout for Zinzy's website",
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.10",
     "prettier": "^3.2.5",
     "prettier-plugin-tailwindcss": "^0.5.11",
     "tailwindcss": "^3.4.0"
-  }
+  },
+  "scripts": {
+    "zinzygo": "hugo serve && npx tailwindcss -i ./src/input.css -o ./src/output.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "hugo server --watch --disableFastRender",
+    "clean": "rm -rf public",
+    "build": "hugo --minify"
+  },
+  "author": "Zinzy Waleson Geene",
+  "license": "ISC"
 }
