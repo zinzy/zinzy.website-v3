@@ -48,8 +48,8 @@ paginate = 6
   url = "/posts"
   weight = 1
 [[menu.content]]
-  name = "Updates"
-  url = "/updates"
+  name = "Omake"
+  url = "/omake"
   weight = 2
 [[menu.content]]
   name = "Wiki"
@@ -58,11 +58,7 @@ paginate = 6
 [[menu.content]]
   name = "Bookmarks"
   url = "/bookmarks"
-  weight = 4
-[[menu.content]]
-  name = "Codex"
-  url = "/codex"
-  weight = 5
+  weight = 4 
 
 
 [[menu.information]]

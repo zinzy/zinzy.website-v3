@@ -1,0 +1,603 @@
+- name: About
+  children:
+  - name: "Facts"
+    children:
+    - property: "Name"
+      value: "Zinzy Waleson Geene"
+    - property: "Pronunciation"
+      value: "ZIN-zee WHALE-sun GHEE-n"
+  - name: Favorites
+    children:
+    - property: "Beverage"
+      value: "Cold water"
+    - property: "Beverage (alternative)"
+      value: "Cold milk"
+    - property: "Animal"
+      value: "Duck"
+    - property: "Monster"
+      value: "Godzilla"
+    - property: "Teal"
+      value: ""
+    - property: "Date format"
+      value: ""
+    - property: "Musician"
+      value: ""
+    - property: "Spelling"
+      value: ""
+    - property: "Language"
+      value: ""
+    - property: "Food"
+      value: ""
+- name: Codex
+  description: "This is a collection of beliefs and values that inform my decisions and life."
+  children:
+  - name: "Beliefs about beliefs"
+    children:
+    - property: "Opinions, beliefs, and values may change over time and that's okay"
+  - name: "About myself"
+    children:
+    - property: "I am an optimist"
+    - property: "I make mistakes "
+    - property: "My intuition will always be able to lead the way"
+    - property: "My emotions are my responsibility (Gregology)"
+    - property: "My questions are relevant"
+    - property: "I'm great at finding connections with others "
+    - property: "At heart I'm a cultural relativist"
+  - name: "Spirituality and religion"
+    children:
+    - property: "I take the Bible too seriously to take it literally"
+    - property: "What we do trumps what we believe"
+    - property: "Christian culture is concerned too much with what's to come and not enough with what is"
+    - property: "Jesus is my teacher, not my savior"
+    - property: "Studying the Bible in its historical, literary, and liturgical context is an important tool to better understand the cultures in which it has become or has been dominant"
+  - name: "People and relationships"
+    children:
+    - property: "People try to do what they think will make the world a better place, even if that means its destruction"
+    - property: "Strangers don't often expect kindness. It can be a spark for a great friendship."
+    - property: "Everybody's lives are infinitely complex, vulnerable, precious, and potential, just like mine."
+    - property: "White isn't a color unless it's a skin color"
+    - property: "Seeing yourself in other people is crucial to developing a healthy sense of self"
+    - property: "No adult person should be forced to carry on a relationship with family members. "
+    - property: "Some people shouldn't have children."
+    - property: "Sometimes, going no contact with a parent is the least damaging option."
+    - property: "Everyone has their own way of saying 'I love you"
+    - property: "People who bring children or pets into public spaces such as coffee shops and expect others to be responsible for them shouldn't be free to leave the house"
+  - name: "Culture and society"
+    children:
+    - property: "It's pronounced 'Timothy Charmander'"
+    - property: "Seeing your experiences and standpoint reflected in media is crucial to developing a healthy sense of self"
+    - property: "It's good to have one website as your central point of communication with the Internet"
+    - property: "To learn about a group of people, look at the stories they tell themselves and others"
+    - property: "History is told by the winner, and sometimes by the loudest"
+  - name: "Politics and policies"
+    children:
+    - property: "No political system is flawless, some are worse than others"
+    - property: "Both revolution and evolution are required for change"
+    - property: "Ones politics cannot be seen separately from ones character and conduct. Sometimes, it's not possible to 'engage with someone despite your different views', because of the implications those views have"
+    - property: "Abortion and birth control should be easily accessible to every human on earth"
+    - property: "Life starts at conception, and whoever carries the life is the only person who gets to decide what happens to it"
+    - property: "Drug abuse is a disease, not a crime" 
+    - property: "Reparations for the transatlantic slave trade are necessary, in the form of investing in deep anti-racist education"
+  - name: "Health and well-being"
+    children:
+    - property: "Diet culture is dangerous"
+    - property: "Eating disorders are not about food"
+  - name: "Learning"
+    children:
+    - property: "Education should be affordable for every human on earth"
+    - property: "Discomfort is where growth happens"
+    - property: "I learn best when I can do it top-down"
+  - name: "Work"
+    children:
+    - property: "Praise in public, criticize in private"
+    - property: "Don't work overtime unless required"
+    - property: "I learn best when I can do it top-down"
+    - property: "The product designer should conduct user research"
+    - property: "The product designer should be a PO's sidekick"
+  - name: "Habits"
+    children:
+    - property: "I am intrinsically motivated, and will struggle with anything that I must do based on extrinsic motivation"
+    - property: "Practice yin yoga to train your quietude muscle, and tolerance of discomfort "
+    - property: "Wash your face every day, and moisturize properly. "
+    - property: "Buy simple black t-shirts and wear one every day"
+    - property: "Dress in calm tones, have one splash of style (glasses, weird socks)"
+  - name: "Personal productivity"
+    children:
+    - property: "I am intrinsically motivated, and will struggle with anything that I must do based on extrinsic motivation"
+    - property: "Practice yin yoga to train your quietude muscle, and tolerance of discomfort "
+    - property: "Wash your face every day, and moisturize properly. "
+    - property: "Buy simple black t-shirts and wear one every day"
+    - property: "One notebook for everything is enough"
+    - property: "Tools do not matter"
+  - name: "Nitty gritty"
+    children:
+    - property: "Treat or split the tab; don't try to remember who owes who what"
+    - property: "Carnations are the best flowers"
+    - property: "Growing plants is more fun when the plants are small"
+    - property: "People in their early- to mid-thirties should have access to Pokémon Red on a floppy disk, as well as a device on which to play it"
+    - property: "Ironing is a calming activity"
+    - property: "Neon candles are usually the most beautiful candles"
+  - name: "Media favorites"
+    children:
+    - property: "_Halloween_ is the best horror movie franchise, in the very first place because of the blatant disregard the films have for one another. "
+    - property: "Carnations are the best flowers"
+    - property: "Growing plants is more fun when the plants are small"
+    - property: "People in their early- to mid-thirties should have access to Pokémon Red on a floppy disk, as well as a device on which to play it"
+    - property: "Ironing is a calming activity"
+    - property: "Neon candles are usually the most beautiful candles"
+- name: Geography
+  children:
+  - name: "Where I've lived"
+    children:
+    - property: "🇳🇱 Roermond"
+    - property: "🇳🇱 Eindhoven"
+    - property: "🇳🇱 Utrecht"
+    - property: "🇳🇱 Haarlem"
+    - property: "🇳🇱 Amsterdam"
+  - name: "Visited in Europe"
+    children:
+    - property: "Sweden"
+    - property: "Belgium"
+    - property: "England"
+    - property: "Greece"
+    - property: "Denmark"
+    - property: "Norway"
+    - property: "🇩🇪 Berlin" 
+    - property: "🇩🇪 Baden-Württemberg" 
+    - property: "🇩🇪 Nordrhein-Westfalen" 
+    - property: "🇵🇹 Lisbon" 
+    - property: "🇵🇹 Algarve" 
+    - property: "🇵🇱 Warsaw" 
+    - property: "Spain"
+    - property: "Luxembourg"
+  - name: "Visited in Asia"
+    children:
+    - property: "🇮🇳 Gujarat" 
+  - name: "Visited in North America"
+    children:
+    - property: "🇺🇸 San Francisco" 
+    - property: "🇺🇸 New York City" 
+  - name: "Travel wish list"
+    children:
+    - property: "Italy"
+    - property: "Japan"
+    - property: "Iceland"
+    - property: "South Korea"
+    - property: "Israel"
+    - property: "Morocco"
+    - property: "Japan"
+    - property: "New Zealand"
+  - name: "Places I'm scared to visit as a Black person"
+    children:
+    - property: "Italy"
+    - property: "Japan"
+- name: Links
+  children:
+  - name: "Friends and acquaintances"
+    children:
+    - property: Anja Waleson
+      url: https://anjawaleson.notion.site/Anja-Waleson-0182c8df804b4b12ab6e70b5b5795a55
+    - property: Annelie Wambeek
+      url: https://www.anneliewambeek.com
+    - property: Maarten Brouwer
+      url: https://murb.nl
+    - property: Mehdi Rezazadeh
+      url: https://www.mehdirezazadeh.dev
+    - property: Patrick "Pickles" Weston
+      url: http://patrickfweston.com
+    - property: Pat Flores
+      url: https://www.realphototexas.com
+    - property: John D. Boy
+      url: https://www.jboy.space
+    - property: Elliott Cost
+      url: https://www.elliott.computer 
+    - property: Patrick Rhone
+      url: https://patrickrhone.net
+  - name: "Internet buddies"
+    children:
+    - property: Simone Silvestroni
+      url: https://minutestomidnight.co.uk
+    - property: Shannon Kay
+      url: https://blog.shannonkay.me
+    - property: Chris Wiegman
+      url: https://chriswiegman.com
+    - property: Derek Kedziora
+      url: https://derekkedziora.com
+    - property: Rachel J. Kwon
+      url: https://kwon.nyc
+    - property: Adrianna Tan
+      url: https://popagandhi.com
+    - property: Bindu Upadhyay
+      url: https://youbee.in
+    - property: Ru Singh
+      url: https://rusingh.com
+    - property: Barry Frost
+      url: https://barryfrost.com
+    - property: Karen L.
+      url: https://chronosaur.us/
+  - name: "(Personal) sites I like"
+    children:
+    - property: Aaron Swartz
+      url: http://www.aaronsw.com/
+    - property: Alessia Bellisario
+      url: https://aless.co
+    - property: Alison Wilder
+      url: https://alisonwilder.net
+    - property: Matt Haughey
+      url: https://a.wholelottanothing.org
+    - property: Barry Sampson
+      url: https://barrysampson.com 
+    - property: Brain Baking
+      url: https://brainbaking.com
+    - property: Cal Newport
+      url: https://calnewport.com
+    - property: Cam Pegg
+      url: https://campegg.com
+    - property: Alex Cobleigh
+      url: https://cblgh.org
+    - property: Cameron Higby‑Naquin
+      url: https://chigby.org
+    - property: Christian Buhlmann
+      url: https://christianbuehlmann.com 
+    - property: Rutherford Craze
+      url: https://craze.co.uk
+    - property: Cygnoir
+      url: https://cygnoir.net
+    - property: Daniel Sieger
+      url: https://danielsieger.com
+    - property: Daniel Zarick
+      url: https://danielzarick.com
+    - property: Daryl Manning
+      url: https://daryl.wakatara.com
+    - property: Artiom Dashinsky
+      url: https://dashinsky.com
+    - property: David Wolfpaw
+      url: https://davidwolfpaw.com 
+    - property: Alexandra Deschamps-Sonsino
+      url: https://designswarm.com
+    - property: Phil Gyford
+      url: https://gyford.com
+    - property: Henry Leach
+      url: https://henryleach.com 
+    - property: Matt Webb
+      url: https://interconnected.org
+    - property: Jason Cosper
+      url: https://jasoncosper.com
+    - property: Jan-Lukas Else
+      url: https://jlelse.blog
+    - property: Jamie Tanna
+      url: https://jvt.me 
+    - property: Luke Harris
+      url: https://lkhrs.com
+    - property: Manuel Moreale
+      url: https://manuelmoreale.com
+    - property: Matthias Ott
+      url: https://matthiasott.com
+    - property: Adam Morse
+      url: https://mrmrs.cc
+    - property: Matias Kinnunen
+      url: https://mtsknn.fi
+    - property: Mu-An Chiou
+      url: https://muan.co
+    - property: Emma Stamm
+      url: https://o-culus.com
+    - property: Paco Coursey
+      url: https://paco.me  
+    - property: Rob Hope
+      url: https://robhope.com
+    - property: Rousette
+      url: https://rousette.org.uk 
+    - property: Sadgrl
+      url: https://sadgrl.online
+    - property: Sam Selikoff
+      url: https://samselikoff.com
+    - property: Shu Ding
+      url: https://shud.in
+    - property: Leon Paternoster
+      url: https://thisdaysportion.com
+    - property: Tom Hackshaw
+      url: https://tom.so
+    - property: Winnie Lim
+      url: https://winnielim.org 
+    - property: Cole Jackowski
+      url: http://colejackowski.com
+    - property: Evan Travers
+      url: http://evantravers.com
+    - property: Savannah Million
+      url: http://savannahmillion.com
+    - property: Piette Buttin
+      url: http://www.pierrebuttin.com
+    - property: Karina Zavidova
+      url: http://zavidova.com
+    - property: Amy Hupe
+      url: https://amyhupe.co.uk
+    - property: Anders Jensen-Urstad
+      url: https://anders.unix.se
+    - property: Aral Balkan
+      url: https://ar.al
+    - property: Bastian Allgeier
+      url: https://bastianallgeier.com
+    - property: Becca's Inventory
+      url: https://beccasinventory.com
+    - property: Ben Borgers
+      url: https://benborgers.com/
+    - property: Jeremy Beasley
+      url: https://jeremypbeasley.com
+    - property: Brian Gilham
+      url: https://briangilham.com
+    - property: Brian Lovin
+      url: https://brianlovin.com
+    - property: Calum Ryan
+      url: https://calumryan.com
+    - property: Chris Bowler
+      url: https://chrisbowler.com
+    - property: Dan Luu
+      url: https://danluu.com
+    - property: Danny White
+      url: https://dannywhite.org
+    - property: David Ralph Lewis
+      url: https://davidralphlewis.co.uk
+    - property: Daniel Eatock
+      url: https://eatock.com
+    - property: Filipe Donadio
+      url: https://filipedonadio.com
+    - property: Glynnis Ritchie
+      url: https://glynn.is
+    - property: Harry Cresswell
+      url: https://harrycresswell.com
+    - property: Michelle Mac
+      url: https://heymichellemac.com
+    - property: Jacob Hall
+      url: https://jacobhall.net
+    - property: James Mead
+      url: https://jamesmead.org
+    - property: Jeff Huang
+      url: https://jeffhuang.com
+    - property: Joel Hooks
+      url: https://joelhooks.com
+    - property: Jon-Kyle
+      url: https://jon-kyle.com
+    - property: Jonas Downey
+      url: https://jonas.do
+    - property: Kimberly Hirsh
+      url: https://kimberlyhirsh.com
+    - property: Laura Kalbag
+      url: https://laurakalbag.com
+    - property: Viktor Lofgren
+      url: https://marginalia.nu
+    - property: Matthew Smith
+      url: https://matthewsmith.website
+    - property: Maxime Vaillancourt
+      url: https://maximevaillancourt.com
+    - property: Maxwell Kuzma
+      url: https://maxwellkuzma.com
+    - property: Max Böck
+      url: https://mxb.dev
+    - property: Parimal Satyal
+      url: https://neustadt.fr
+    - property: Nicole van der Hoeven
+      url: https://nicolevanderhoeven.com
+    - property: Andy Matuschak
+      url: https://notes.andymatuschak.org
+    - property: Ana Rodrigues
+      url: https://ohhelloana.blog
+    - property: Roel Groeneveld
+      url: https://roel.io
+    - property: Salim Virani
+      url: https://salimvirani.com
+    - property: Shawn Roberts
+      url: https://shawnjr.online
+    - property: Richard Stallman
+      url: https://stallman.org
+    - property: Thomasorus
+      url: https://thomasorus.com
+    - property: Toby Shorin
+      url: https://tobyshorin.com
+    - property: Tom Critchlow
+      url: https://tomcritchlow.com
+    - property: Tammy Strobel
+      url: https://tstrobel.com/
+    - property: Venkatesh Rao
+      url: https://venkateshrao.com
+    - property: Vincent Pickering
+      url: https://vincentp.me
+    - property: Will Webberley
+      url: https://wilw.dev
+    - property: Dan Eden
+      url: https://www.daneden.me
+    - property: Maggie Delano
+      url: https://www.maggiedelano.com
+    - property: E. Rae Bruml Norton 
+      url: https://www.marceldochamp.net
+    - property: Miriam Suzanne
+      url: https://www.miriamsuzanne.com
+    - property: Sara Soueidan
+      url: https://www.sarasoueidan.com
+    - property:  Max Cohen
+      url: https://www.senseantisense.com
+    - property: Tania Rascia
+      url: https://www.taniarascia.com
+    - property: Tom MacWright
+      url: https://www.macwright.com
+    - property: Charles Harries
+      url: https://charlesharri.es
+    - property: Ellie Huxtable
+      url: https://ellie.wtf
+    - property: Ewen
+      url: https://ewen.io
+    - property: Chris Glass
+      url: https://chrisglass.com/
+    - property: Buster Benson
+      url: https://busterbenson.com/
+    - property: Ben Crowder
+      url: https://bencrowder.net/
+    - property: Lizz Thabet
+      url: https://www.lizzthabet.com/ 
+    - property: Josh Kim
+      url: https://www.joshkimux.com/
+    - property: Ron Vaisman
+      url: https://ronvaisman.dev/
+    - property: Jason Morris
+      url: https://jasonmorris.com/
+    - property: Katy Decorah
+      url: https://katydecorah.com/
+    - property: DJ Chase
+      url: https://dj-chase.com/
+    - property: Kehinde Adeleke
+      url: https://www.kehinde.xyz/
+    - property: Robin Rendle
+      url: https://robinrendle.com/
+    - property: Jez Burrows
+      url: https://www.jezburrows.com/
+    - property: Lucy Bellwood
+      url: https://lucybellwood.com/
+    - property: Rachel Andrew
+      url: https://rachelandrew.co.uk/
+    - property: Rebeccah Toh
+      url: https://rebeccatoh.co/
+    - property: 47nil
+      url: https://47nil.com/
+    - property: Scott Nesbitt
+      url: https://scottnesbitt.net/
+    - property: Oatmeal
+      url: https://eli.li/
+    - property: Andrew Healey
+      url: https://healeycodes.com/
+    - property: Daryl Sun
+      url: darylsun.page
+    - property: Jack Bardwell
+      url: https://jackbardwell.com/
+    - property: Imogen Moon
+      url: https://moon.fyi/
+    - property: Improve Something Today
+      url: https://improvesomething.today
+    - property: IndieWeb
+      url: https://indieweb.org
+    - property: IndieWeb Webring
+      url: https://xn--sr8hvo.ws
+    - property: Yesterweb
+      url: https://yesterweb.org
+    - property: Yarchive
+      url: https://yarchive.net
+    - property: Dan & Richard & you
+      url: https://danandrichardandyou.com
+    - property: Other Internet
+      url: https://otherinter.net
+    - property: Ahead of Thyme
+      url: https://www.aheadofthyme.com
+    - property: Alexandra Cooks
+      url: https://alexandracooks.com
+    - property: Just One Cookbook
+      url: https://www.justonecookbook.com
+    - property: Lady & Pups
+      url: https://ladyandpups.com
+    - property: Smitten Kitchen
+      url: https://smittenkitchen.com
+    - property: Needle 'n Thread
+      url: https://www.needlenthread.com
+    - property: Language Jones
+      url: https://www.languagejones.com
+    - property: Epic People
+      url: https://www.epicpeople.org
+    - property: Internet History Podcast
+      url: https://www.internethistorypodcast.com
+    - property: Curls and Cocao
+      url: https://curlsandcocoa.com
+    - property: Places Journal
+      url: https://placesjournal.org
+    - property: Student Christian Movement
+      url: https://www.movement.org.uk
+    - property: CBE International
+      url: https://www.cbeinternational.org
+    - property: Erin Clark
+      url: https://emclark.co/
+    - property: Faith-based productivity
+      url: https://faithbasedproductivity.com
+    - property: Blogroll.org
+      url: https://blogroll.org
+    - property: xxiivv webring
+      url: https://webring.xxiivv.com
+    - property: The Forest
+      url: https://theforest.link
+    - property: Gossip's Web
+      url: https://gossipsweb.net
+    - property: Tech Policy Press
+      url: https://techpolicy.press
+    - property: Natural Hair Club
+      url: https://thenaturalhairclub.nl
+    - property: Diana Butler Bass
+      url: https://dianabutlerbass.com
+    - property: Robin Meyers
+      url: https://www.robinrexmeyers.com
+    - property: Temporary Liveness
+      url: https://temporaryliveness.org/
+    - property: a11y-webring.club
+      url: https://a11y-webring.club
+    - property: Sunday Sites
+      url: https://sundaysites.cafe/
+    - property: Big List of Personal Websites
+      url: http://biglist.terraaeon.com/
+    - property: Imagine IC
+      url: https://imagineic.nl/
+    - property: Midnight Pub
+      url: https://midnight.pub/
+    - property: Extra Practice
+      url: https://extrapractice.space/
+    - property: Afropean
+      url: https://afropean.com/
+    - property: POC Online Classroom
+      url: https://www.poconlineclassroom.com/
+    - property: Shelter For the Spirit
+      url: https://shelterforthespirit.com/
+    - property: Backseat Frying
+      url: https://backseatfrying.net/
+    - property: Patrik Arvidsson
+      url: https://patrikarvidsson.com/
+    - property: Clement Hepburn
+      url: https://clemhepburn.github.io
+    - property: Clarity Flowers
+      url: https://clarity.flowers
+    - property: Radical Web Design
+      url: https://radicalweb.design
+    - property: Tim Holman
+      url: https://tholman.com
+    - property: Yara Veloso
+      url: https://www.yaraveloso.nu
+    - property: Rite House
+      url: http://rite.house
+    - property: James Scholz
+      url: https://jvscholz.com/
+    - property: Erich Friedman
+      url: https://erich-friedman.github.io/
+    - property: Devine Lu Linvega
+      url: https://xxiivv.com
+    - property: Northern Information
+      url: https://nor.the-rn.info/
+    - property: Sunny
+      url: https://sny.sh
+    - property: Harry Cresswell
+      url: https://harrycresswell.com/
+    - property: Webdesign Museum
+      url: https://www.webdesignmuseum.org/
+    - property: Publish Something Online
+      url: https://publishsomethingonline.com/
+    - property: A Website is a Room
+      url: https://a-website-is-a-room.net/
+    - property: Youra Hong
+      url: https://yourahong.com/
+    - property: Maxwell Neely-Cohen
+      url: https://www.maxy.world/
+    - property: Norman Köhring
+      url: https://koehr.in/
+    - property: App Defaults
+      url: https://defaults.rknight.me/
+    - property: Clara Le
+      url: https://clarale.com/
+    - property: Mt. Solitary
+      url: https://www.mtsolitary.com/
+    - property: Joost van der Schee
+      url: https://www.usecue.com/
+    - property: Justin Miller
+      url: https://justinmiller.io/
+    - property: V.H. Belvadi
+      url: https://vhbelvadi.com/

@@ -9,6 +9,15 @@ I grew up on the Internet in a time when social media meant writing comments on 
 
 I’ve been yelling at Internet clouds since 1997.
 
+{{< rawhtml >}}
+<div class="flex gap-4">
+    <a href="/img/banner.svg" target="_blank" rel="noopener noreferrer"><img src="/img/banner.svg" alt=""></a>
+    <a href="https://notbyai.fyi/" target="_blank" rel="noopener noreferrer"><img src="/img/human-not-ai.svg" alt=""></a>
+</div> 
+{{< /rawhtml >}}
+
+---
+
 ### Principles
 - This is a [motherfucking website](https://motherfuckingwebsite.com/)
 - [A website is a room](https://a-website-is-a-room.net/)
@@ -54,9 +63,5 @@ I respect your digital sovereignty. I do not track your personal data nor the jo
 - [ ] [Tufte-style footnotes](https://edwardtufte.github.io/tufte-css/)
 - [ ] Guestbook
 - [ ] Photo blog 
-- [ ] Restructure [blogroll](/blogroll) so that it's one list with attributes
-- [ ] Make sure Hugo handles wiki titles as post slugs
-- [ ] Add tags
-- [ ] Webmentions 
 - [ ] State for nonexistent wiki notes
 - [ ] Fix double build

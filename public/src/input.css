@@ -120,14 +120,14 @@ a {
   }
 }
  
-h1#footnotes {
- @apply mt-12 pt-12 border-t font-base font-normal;
+#footnotes {
+ @apply mt-12 pt-12 border-t text-base font-normal;
 }
 
 .footnotes hr {
   display: none;
 }
 
-.footnotes {
+.footnotes ol {
   @apply text-sm text-gray-500 dark:text-white/50;
 }

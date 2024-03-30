@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://zinzy.website/2024-03-18-06-59-29/</loc>
-    <lastmod>2024-03-18T06:59:29+01:00</lastmod>
+    <loc>https://zinzy.website/2024-03-18-13-14-14/</loc>
+    <lastmod>2024-03-18T13:14:14+01:00</lastmod>
   </url><url>
     <loc>https://zinzy.website/updates/</loc>
-    <lastmod>2024-03-18T06:59:29+01:00</lastmod>
+    <lastmod>2024-03-18T13:14:14+01:00</lastmod>
   </url><url>
     <loc>https://zinzy.website/</loc>
+    <lastmod>2024-03-18T13:14:14+01:00</lastmod>
+  </url><url>
+    <loc>https://zinzy.website/2024-03-18-06-59-29/</loc>
     <lastmod>2024-03-18T06:59:29+01:00</lastmod>
   </url><url>
     <loc>https://zinzy.website/2024-03-15-07-00-26/</loc>
@@ -1696,13 +1699,9 @@
   </url><url>
     <loc>https://zinzy.website/about/</loc>
   </url><url>
-    <loc>https://zinzy.website/bookmarks/</loc>
-  </url><url>
     <loc>https://zinzy.website/categories/</loc>
   </url><url>
     <loc>https://zinzy.website/changelog/</loc>
-  </url><url>
-    <loc>https://zinzy.website/codex/</loc>
   </url><url>
     <loc>https://zinzy.website/follow/</loc>
   </url><url>
@@ -1716,6 +1715,8 @@
   </url><url>
     <loc>https://zinzy.website/im-child-free/</loc>
   </url><url>
+    <loc>https://zinzy.website/im-neurodivergent/</loc>
+  </url><url>
     <loc>https://zinzy.website/interests/</loc>
   </url><url>
     <loc>https://zinzy.website/manual/</loc>
@@ -1727,6 +1728,8 @@
     <loc>https://zinzy.website/notes/</loc>
   </url><url>
     <loc>https://zinzy.website/now/</loc>
+  </url><url>
+    <loc>https://zinzy.website/omake/</loc>
   </url><url>
     <loc>https://zinzy.website/page/</loc>
   </url><url>
