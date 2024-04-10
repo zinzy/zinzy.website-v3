@@ -1,0 +1,35 @@
+{{ define "main" }}
+{{ partial "back_link.html" .}}
+
+<article>
+    <header class="my-12 h-entry prose prose-gray dark:prose-invert">
+        <h2 class="p-name mb-6">{{ .Title }}</h2>
+        <p>{{ .Description }}</p>
+    </header>
+
+  <figure>
+    <img src="https://res.cloudinary.com/dbi2zounq/image/upload/w_1300/v1712755362/zinzy.website/zinzy-design-mentor_cbjx5d.jpg" alt=""> 
+    <figcaption class="text-gray-500 dark:text-white dark:text-opacity-50 text-sm">Me and <a href="https://www.linkedin.com/in/gabrielaroestandy/" target="_blank">Gabriela Roestandy</a> after a her one-day internship at the Gerimedica office</figcaption>
+  </figure>
+
+  <div class="my-14">
+    <h3 class="">What my mentees are saying</h3>
+  <ul class="sm:columns-2 mt-7">
+    {{ range sort $.Site.Data.mentoring "name" }}
+      <li class="bg-gray-50 border rounded p-2 mb-4 break-inside-avoid-column">
+          <p>{{ .quote }}</p>
+          <p class="text-gray-500 dark:text-white dark:text-opacity-50 text-sm mt-3">
+              <a href="{{ .url }}" target="_blank" rel="noopener noreferrer">{{ .name }}</a>
+          </p>
+      </li>
+      {{ end }}
+  </ul>
+  </div>
+
+    <div class="e-content h-entry prose prose-gray dark:prose-invert mb-14">
+        {{ .Content }}
+    </div>
+
+    {{ partial "backlinks.html" . }}
+</article>
+{{ end }}
