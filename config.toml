@@ -19,7 +19,7 @@ refLinksNotFoundURL = "/wiki"
 
 [params]
   title = "Zinzy's website"
-  subtitle = 'A warm welcome'
+  subtitle = 'is a researcher, designer, writer, and mentor making tools for people at work'
   [params.author]
     givenName = 'Zinzy'
     familyName = 'Waleson Geene'
@@ -42,51 +42,43 @@ refLinksNotFoundURL = "/wiki"
 paginate = 6
 
 
-
-[[menu.content]]
+[[menu.sitemap]]
   name = "Posts"
   url = "/posts"
   weight = 1
-[[menu.content]]
-  name = "Omake"
-  url = "/omake"
-  weight = 2
-[[menu.content]]
-  name = "Wiki"
-  url = "/wiki"
-  weight = 3
-[[menu.content]]
-  name = "Bookmarks"
-  url = "/bookmarks"
-  weight = 4 
-
-
-[[menu.information]]
+[[menu.sitemap]]
   name = "About"
   url = "/about"
-  weight = 1
-[[menu.information]]
-  name = "Work"
-  url = "/work"
   weight = 2
-[[menu.information]]
+[[menu.sitemap]]
   name = "Hello"
   url = "/hello"
   weight = 3
-[[menu.information]]
-  name = "Follow"
-  url = "/follow"
-  weight = 4
-[[menu.information]]
+[[menu.sitemap]]
   name = "Now"
   url = "/now"
+  weight = 4
+[[menu.sitemap]]
+  name = "Work"
+  url = "/work"
   weight = 5
-[[menu.information]]
+[[menu.sitemap]]
+  name = "Updates"
+  url = "/updates"
+  weight = 6
+[[menu.sitemap]]
+  name = "Omake"
+  url = "/omake"
+  weight = 7
+[[menu.sitemap]]
   name = "Manual"
   url = "/manual"
-  weight = 6
-[[menu.information]]
+  weight = 9
+[[menu.sitemap]]
   name = "Site"
   url = "/site"
-  weight = 7
-   
+  weight = 10
+[[menu.sitemap]]
+  name = "Follow"
+  url = "/follow"
+  weight = 11

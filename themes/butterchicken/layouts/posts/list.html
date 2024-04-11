@@ -1,23 +1,26 @@
-{{ define "main" }}
-{{ partial "back_link.html" .}}
+{{ define "main" }} {{ partial "back_link.html" .}}
 
-<header class="">
-    <h2 class="text-gray-500 dark:text-white/50 mb-6">{{ .Title }}</h2>
-    <p>This website contains a post archive going back to the mid-aughts. Some of the contents below are vastly outdated, hilariously incorrect, and in some cases simply shame-inducing. I like to keep them here to remind myself that life is ever-evolving, as am I. If you're looking for shorter, fleeter, and more frequent posts, see my <a href="/updates">Updates</a>.</p>
+<header class="lg:w-2/3">
+  <h2 class="mb-6 text-4xl leading-normal">{{ .Title }}</h2>
+  <p class="text-secondary mb-7">
+    This website contains posts dating from the mid-aughts. I keep them here to
+    remind myself that life is ever-evolving, as am I.
+  </p>
 </header>
- 
 
- 
 {{ $postsDefault := where .Site.RegularPages "Type" "posts" }}
 
-<ul class="mt-12">
-    {{ range $postsDefault }}
-    <li class="border-b last:border-b-0 py-2 first:pt-0 md:flex"> 
-        <a class="block md:grow " href="{{ .Permalink }}">{{ .Title }}</a>
-        <time class="md:flex-none text-gray-500 dark:text-white dark:text-opacity-50">{{- (.Date | time.Format site.Params.theme_config.date_format_archive) }}</time>
-    </li>
-    {{ end }} 
-</ul> 
+<ul class="mt-14">
+  {{ range $postsDefault }}
+  <li class="border-b py-2 first:pt-0 last:border-b-0 md:flex">
+    <a class="block md:grow" href="{{ .Permalink }}">{{ .Title }}</a>
+    <time
+      class="text-gray-500 md:flex-none dark:text-white dark:text-opacity-50"
+      >{{- (.Date | time.Format site.Params.theme_config.date_format_archive)
+      }}</time
+    >
+  </li>
+  {{ end }}
+</ul>
 
 {{ end }}
-

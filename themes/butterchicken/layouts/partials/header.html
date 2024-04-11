@@ -1,4 +1,16 @@
-<header class="border-b py-3">
-    <h1><a href="/" class="">{{ .Site.Params.title }}</a></h1>
-    <p class="text-gray-500 dark:text-white/50">{{.Site.Params.subtitle}}</p>
+<header class="my-7 flex text-sm md:my-14 lg:my-32">
+  <div class="w-2/3 flex-none md:w-96">
+    <div>
+      <h1 class="inline">
+        <a href="/" class="font-medium"
+          >{{.Site.Params.author.givenName}}
+          {{.Site.Params.author.familyName}}</a
+        >
+      </h1>
+      <p class="text-secondary inline">{{.Site.Params.subtitle}}</p>
+    </div>
+  </div>
+  <div class="grow text-end">
+    <a href="/site" class="text-secondary">0.00g / 64.4 kB &rarr;</a>
+  </div>
 </header>

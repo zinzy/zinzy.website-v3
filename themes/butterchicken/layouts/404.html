@@ -1,23 +1,36 @@
-{{ define "main" }}
+{{ define "main" }} {{- partial "back_link.html" . -}}
 
-{{- partial "back_link.html" . -}}
+<article class="h-entry">
+  <header class="mb-14 lg:w-2/3">
+    <h2 class="p-name mb-6 text-5xl leading-tight">
+      Sometimes I'll start a sentence, and I don't even...
+    </h2>
+    <p class="text-secondary">
+      I'm sorry that something has led you to this 404 page. What you were
+      hoping to find does not exist (anymore). Please head back to the
+      <a href="/">front page</a> to continue your journey.
+    </p>
+  </header>
 
-<article class="prose prose-gray dark:prose-invert mb-14">
-    <header class="my-12">
-        <h2 class="p-name mb-6">Well, well, how the turn tables...</h2>
-        <p>I'm sorry that something has led you to this 404 page. What you were hoping to find does not exist (anymore). Please head back to the <a href="/">front page</a> to continue your journey.</p>
-    </header>
+  <section>
+    <div class="text-secondary mb-7">Most recently...</div>
 
-    {{ if .Params.toc }}
-        <aside {{ if .Params.tocBorder }} class="toc" {{ end }}>
-            {{ .TableOfContents }}
-        </aside>
-    {{ end }}
+    {{ $postsDefault := where .Site.RegularPages "Type" "posts" }} {{ range
+    first 3 $postsDefault }}
+    <div class="mb-7">
+      <h3 class="">
+        <a class="block md:grow" href="{{ .Permalink }}">{{ .Title }}</a>
+      </h3>
 
-    <div class="e-content">
-        {{ .Content }}
+      <time
+        class="text-gray-500 md:block md:flex-none dark:text-white dark:text-opacity-50"
+        >{{- (.Date | time.Format site.Params.theme_config.date_format_archive)
+        }}</time
+      >
     </div>
+    {{ end }}
+  </section>
 
-    {{ partial "backlinks.html" . }}
+  {{ partial "backlinks.html" . }}
 </article>
 {{ end }}

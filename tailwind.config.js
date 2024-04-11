@@ -19,7 +19,7 @@ module.exports = {
             '.prose a': { 
               fontWeight: '400',
             },
-            '--tw-prose-body': theme('colors.gray[950]'),
+            '--tw-prose-body': theme('colors.gray[500]'),
             '--tw-prose-headings': theme('colors.gray[500]'),
             '--tw-prose-lead': theme('colors.gray[800]'),
             '--tw-prose-links': theme('colors.gray[800]'),

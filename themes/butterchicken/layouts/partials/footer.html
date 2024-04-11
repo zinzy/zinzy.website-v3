@@ -1,50 +1,32 @@
-<footer class="">
-
-  <div class="flex border-t py-6">
-    <div class="w-2/6 md:w-3/12">
-      <h3 class="text-gray-500 dark:text-white/50 mb-3">Content</h3>
-      <nav aria-label="Site content">
-        <ul>
-        {{ $currentPage := . }}
-        {{ range .Site.Menus.content }} 
-            <li> 
-                 <a href="{{.URL}}">{{ .Name }}</a>
-            </li> 
-        {{ end }}
-        </ul>
-      </nav>
-    </div>
-    <div class="w-3/6 md:w-5/12">
-      <h3 class="text-gray-500 dark:text-white/50 mb-3">Information</h3>
-      <nav aria-label="Information">
-        <ul class="columns-2">
-        {{ $currentPage := . }}
-        {{ range .Site.Menus.information }} 
-            <li> 
-                 <a href="{{.URL}}">{{ .Name }}</a>
-            </li> 
-        {{ end }}
-        </ul>
-      </nav>
-    </div>
-    <div class="w-1/6 md:w-4/12 flex justify-end">
-      <a href="https://webring.xxiivv.com/#zinzy" target="_blank" rel="noopener" class="no-underline" aria-label="xxiivv webring">
-        <!-- <img src="https://webring.xxiivv.com/icon.black.svg" alt="XXIIVV webring" class="inline-block mx-auto h-4 w-4" /> -->
-        {{- partial "webring_xxiivv.html" . -}}
-      </a>
-    </div>
-  </div>
-
-
-  <div class="flex text-sm text-gray-500 dark:text-white/50 pt-6 border-t">
-    <span class="flex-none w-40">
-      <a href="https://xn--sr8hvo.ws/previous" class="text-gray-500 dark:text-white/50 dark:text-white/60 inline-block mr-3">←</a>
-      <a href="https://xn--sr8hvo.ws/next" class="text-gray-500 dark:text-white/50 dark:text-white/60">→</a>
+<footer class="mb-7 mt-32 text-sm sm:mb-14 lg:mb-32">
+  <div class="text-secondary flex">
+    <span class="w-20 flex-none">
+      <a
+        href="https://xn--sr8hvo.ws/previous"
+        class="text-secondary mr-3 inline-block"
+        >←</a
+      >
+      <a href="https://xn--sr8hvo.ws/next" class="text-secondary">→</a>
     </span>
     <span class="grow">
-    <span class="text-center text-sm text-gray-500 dark:text-white/50"> 
-      Smile, you're on the  <a href="https://xn--sr8hvo.ws" class="inline-block text-gray-500 dark:text-white/50 dark:text-white/60">🕸💍 IndieWeb</a>
+      <span class="text-secondary text-center text-sm">
+        Smile, you're on the
+        <a href="https://xn--sr8hvo.ws" class="text-secondary inline-block"
+          >IndieWeb</a
+        >
+      </span>
     </span>
-    </span>
-    </div>
-  </footer>
+    <span class="flex-none">
+      <a
+        href="https://webring.xxiivv.com/#zinzy"
+        target="_blank"
+        rel="noopener"
+        class="no-underline"
+        aria-label="xxiivv webring"
+      >
+        <!-- <img src="https://webring.xxiivv.com/icon.black.svg" alt="XXIIVV webring" class="inline-block mx-auto h-4 w-4" /> -->
+        {{- partial "webring_xxiivv.html" . -}}
+      </a></span
+    >
+  </div>
+</footer>
