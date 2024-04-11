@@ -47,38 +47,30 @@ paginate = 6
   url = "/posts"
   weight = 1
 [[menu.sitemap]]
+  name = "Updates"
+  url = "/updates"
+  weight = 2
+[[menu.sitemap]]
   name = "About"
   url = "/about"
-  weight = 2
+  weight = 3
 [[menu.sitemap]]
   name = "Hello"
   url = "/hello"
-  weight = 3
+  weight = 4
 [[menu.sitemap]]
   name = "Now"
   url = "/now"
-  weight = 4
+  weight = 5
 [[menu.sitemap]]
   name = "Work"
   url = "/work"
-  weight = 5
-[[menu.sitemap]]
-  name = "Updates"
-  url = "/updates"
   weight = 6
 [[menu.sitemap]]
   name = "Omake"
   url = "/omake"
   weight = 7
 [[menu.sitemap]]
-  name = "Manual"
-  url = "/manual"
-  weight = 9
-[[menu.sitemap]]
   name = "Site"
   url = "/site"
-  weight = 10
-[[menu.sitemap]]
-  name = "Follow"
-  url = "/follow"
-  weight = 11
+  weight = 8
