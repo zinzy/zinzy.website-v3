@@ -1704,17 +1704,6 @@ body {
   }
 }
 
-abody:hover {
-  --tw-text-opacity: 1;
-  color: rgb(156 163 175 / var(--tw-text-opacity));
-}
-
-@media (prefers-color-scheme: dark) {
-  abody:hover {
-    color: rgb(255 255 255 / 0.4);
-  }
-}
-
 .font-mono {
   font-size: 85%;
 }
@@ -1789,7 +1778,7 @@ h2, h3, h4, h5, h6,
 }
 
 .prose h4 {
-  margin-top: 0.875rem;
+  margin-top: 2.5rem;
   font-size: 1.5rem;
   line-height: 2rem;
 }
@@ -1841,15 +1830,8 @@ content p:first-child {
   }
 }
 
-a.text-secondary:hover {
-  --tw-text-opacity: 1;
-  color: rgb(156 163 175 / var(--tw-text-opacity));
-}
-
-@media (prefers-color-scheme: dark) {
-  a.text-secondary:hover {
-    color: rgb(255 255 255 / 0.4);
-  }
+a:hover {
+  opacity: .8;
 }
 
 .bookmarks {
