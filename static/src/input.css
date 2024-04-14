@@ -5,6 +5,9 @@
 
 body, html {
   /* font-size: 22px; */
+  @media screen and (min-width: 768px) {
+    font-size: 18px;
+  }
   @media screen and (min-width: 992px) {
     font-size: 22px;
   }
@@ -145,3 +148,9 @@ a:hover {
 .footnotes ol {
   @apply text-sm text-gray-500 dark:text-white/50;
 }
+ 
+@media screen and (min-width: 768px) {
+ .prose {
+  @apply w-4/6;
+ } 
+} 

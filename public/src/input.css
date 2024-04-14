@@ -5,6 +5,9 @@
 
 body, html {
   /* font-size: 22px; */
+  @media screen and (min-width: 768px) {
+    font-size: 18px;
+  }
   @media screen and (min-width: 992px) {
     font-size: 22px;
   }
@@ -68,7 +71,7 @@ h2, h3, h4, h5, h6,
 .prose h1 { @apply m-0 mb-3 text-5xl text-gray-950 font-medium}
 .prose h2 { @apply m-0 mb-3 text-4xl}
 .prose h3 { @apply mt-7 text-3xl}
-.prose h4 { @apply mt-3.5 text-2xl}
+.prose h4 { @apply mt-10 text-2xl}
 .prose h5 { @apply mt-2 text-xl}
 .prose h6 { @apply mt-2 text-lg}
 
@@ -88,8 +91,8 @@ content p:first-child {
 .text-primary { @apply text-gray-950 dark:text-white}
 .text-secondary { @apply text-gray-500 dark:text-white/50}
 
-a.text-secondary:hover {
-  @apply text-gray-400 dark:text-white/40
+a:hover {
+  opacity: .8;
 }
 
 
@@ -145,3 +148,9 @@ a.text-secondary:hover {
 .footnotes ol {
   @apply text-sm text-gray-500 dark:text-white/50;
 }
+ 
+@media screen and (min-width: 768px) {
+ .prose {
+  @apply w-4/6;
+ } 
+} 

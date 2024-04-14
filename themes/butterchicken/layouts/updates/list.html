@@ -12,9 +12,9 @@
   {{ $postsDefault := where .Site.RegularPages "Type" "updates" }} {{ $paginator
   := .Paginate $postsDefault }} {{ range $paginator.Pages }}
   <li class="border-b pt-4 first:border-t md:flex">
-    <a href="{{ .Permalink }}"
+    <a href="{{ .Permalink }}" class="mb-3 block text-gray-500 sm:w-40 sm:flex-none lg:w-72 dark:text-white/50"
       ><time
-        class="mb-3 block text-gray-500 md:w-40 md:flex-none lg:w-72 dark:text-white/50"
+        class=""
         >{{- (.Date | time.Format site.Params.theme_config.date_format_archive)
         }}</time
       ></a
