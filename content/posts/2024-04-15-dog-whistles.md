@@ -20,11 +20,11 @@ Playing frisbee with Lemonade in the courtyard, and Amber and her parents are th
 
 Someone in the building shares a photo in the group chat of two boys in black hoodies. Like all the other teenage street-dwelling boys in this story, they're probably of Muslim heritage, descending from Moroccan, Syrian, Afghan, Turkish families who've lived in this neighborhood for decades, long before any of us gentrifiers got here. Oh, to be stereotyped into failure. 
 
-In the photo, the boys in the black hoodies can be seen hanging out in the courtyard, leaving a mess. Kids. One neighbor wonders what kind of black animal species would leave such a mess. I leave the group chat. Anja later tells me that nobody took offense to the dehumanization, but there _is_ confusion about why I don't understand that the neighbor was referring to the black hoodies, and not the boys' skin, which isn't black to begin with. I feel disturbed, but more strongly I cringe at the dramatic irony gravitating around the wondering neighbor, who is from Israel.
+In the photo, the boys in the black hoodies can be seen hanging out in the courtyard, leaving a mess. Kids. One neighbor wonders what kind of black animal species would leave such a mess. I leave the group chat. Anja later tells me that nobody took offense to the dehumanization, but there _is_ confusion about why I don't understand that the neighbor was referring to the black hoodies, and not the boys' skin, which isn't black to begin with. I feel disturbed, but more strongly I cringe at the dramatic irony gravitating around the wondering neighbor, who served in the Israeli Defense Force.
 
 I've been defending "kut-Marokkanen"[^1] since before the Towers fell, even though I hate myself for it when my friend's eye socket is destroyed. Something's happening in the neighborhood, and maybe it's not a new thing, but a new language. Not a new language per se, but new encounters with it. Encounters stringing together words and a lack thereof to remind me it's perfectly _salonfähig_ that we turn ourselves so nonchalantly against our own neighbors.
 
-It's a peculiar thing, to be in the presence of but not on the receiving end of bigotry, for a change. 
+It's a peculiar thing, to be in the presence but not on the receiving end of bigotry, for a change. 
 
 
 ### Footnotes
