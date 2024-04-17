@@ -1,12 +1,14 @@
 {{ define "main" }} {{ partial "back_link.html" .}}
 
-<div class="border-b pt-4 first:border-t md:flex">
-  <time
-    class="mb-3 block w-40 text-gray-500 sm:w-40 sm:flex-none lg:w-72 dark:text-white/50"
-    >{{- (.Date | time.Format site.Params.theme_config.date_format_archive)
-    }}</time
-  >
-  <article class="prose prose-gray grow dark:prose-invert">
+<div class="">
+  <div class="mb-3">
+    <a href="/updates" class="">Updates</a> /
+    <time class="text-gray-500 dark:text-white/50"
+      >{{- (.Date | time.Format site.Params.theme_config.date_format_archive)
+      }}</time
+    >
+  </div>
+  <article class="prose prose-gray dark:prose-invert">
     {{ if .Params.photo }}
     <img src="{{ .Params.photo }}" alt="{{ .Params.alt }}" class="mb-5" />
     {{ end }} {{ if .Params.replyTo }}

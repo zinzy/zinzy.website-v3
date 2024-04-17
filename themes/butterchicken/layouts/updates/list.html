@@ -1,25 +1,26 @@
 {{ define "main" }} {{ partial "back_link.html" .}}
 
-<header class="lg:w-2/3">
-  <h2 class="mb-6 text-4xl leading-normal">{{ .Title }}</h2>
+<header class="">
+  <h2 class="">{{ .Title }}</h2>
   <p class="text-secondary mb-7">
     These are small pieces of text and other media, writing in a hurry, left
     fleeting in my collection of notes.
   </p>
 </header>
 
-<ul class="mt-12">
+<ul class="mt-20">
   {{ $postsDefault := where .Site.RegularPages "Type" "updates" }} {{ $paginator
   := .Paginate $postsDefault }} {{ range $paginator.Pages }}
-  <li class="border-b pt-4 first:border-t md:flex">
-    <a href="{{ .Permalink }}" class="mb-3 block text-gray-500 sm:w-40 sm:flex-none lg:w-72 dark:text-white/50"
-      ><time
-        class=""
+  <li class="mt-20">
+    <a
+      href="{{ .Permalink }}"
+      class="mb-3 block text-gray-500 dark:text-white/50"
+      ><time class=""
         >{{- (.Date | time.Format site.Params.theme_config.date_format_archive)
         }}</time
       ></a
     >
-    <article class="prose prose-gray grow dark:prose-invert">
+    <article class="prose prose-gray dark:prose-invert">
       {{ if .Params.photo }}
       <img src="{{ .Params.photo }}" alt="{{ .Params.alt }}" class="mb-5" />
       {{ end }} {{ if .Params.replyTo }}

@@ -44,20 +44,13 @@ paginate = 6
 
 [[menu.sitemap]]
   name = "Posts"
+  description = "Something"
   url = "/posts"
   weight = 1
 [[menu.sitemap]]
   name = "Updates"
   url = "/updates"
-  weight = 2
-[[menu.sitemap]]
-  name = "About"
-  url = "/about"
-  weight = 3
-[[menu.sitemap]]
-  name = "Hello"
-  url = "/hello"
-  weight = 4
+  weight = 2 
 [[menu.sitemap]]
   name = "Now"
   url = "/now"

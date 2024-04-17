@@ -1,25 +1,81 @@
 {{ define "main" }}
 
-<section class="mb-14 sm:w-10/12 prose dark:prose-invert">
-  <h2 class="">
-    Well, well, well,<br />how the turntables...
-  </h2>
-  <p class="">
-    This is a personal website; a space for soft stances, lived experiences, and
-    critical notes on the things I hold dear. I'm Zinzy, a human living and
-    working in Amsterdam.
-    <p class="">
-  <p>I treat this website as a sort of garden, tending to it on a regular basis. Some of the things here are old, others perpetually in flux. If you find anything of interest, or would like to talk to me about something, don't hesitate to <a href="/hello" class="underline">say hello</a>.</p>
+<section class="prose dark:prose-invert">
+  <p>
+    Hello, <a href="/about">I'm Zinzy Waleson Geene</a>, a researcher, designer,
+    writer, and mentor making tools for people at work. This is a personal
+    website; a space for soft stances, lived experiences, and critical notes on
+    the things I hold dear.
+  </p>
+  <p>This is a standing invitation to <a href="/hello">say hello</a>.</p>
 </section>
 
-<section class="">
-  <h3 class="mb-6 text-3xl">Sitemap</h3>
-  <ul>
-    {{ $currentPage := . }} {{ range .Site.Menus.sitemap }}
-    <li class="mb-5 mr-5 inline-block">
-      <a href="{{.URL}}" class="text-secondary">{{ .Name }}</a>
+<section class="mt-20">
+  {{ $postsDefault := where .Site.RegularPages "Type" "posts" }}
+
+  <ul class="mt-14">
+    {{ range first 5 $postsDefault }}
+    <li class="-mx-3">
+      <a class="block rounded p-3 hover:bg-gray-50" href="{{ .Permalink }}">
+        <span class="block">{{ .Title }}</span>
+        <time class="text-secondary text-sm"
+          >{{- (.Date | time.Format
+          site.Params.theme_config.date_format_archive) }}</time
+        >
+      </a>
     </li>
     {{ end }}
+  </ul>
+</section>
+
+<section class="mt-20">
+  <ul class="">
+    <li class="-mx-3">
+      <a href="/posts" class="block rounded p-3 hover:bg-gray-50">
+        <div>Posts</div>
+        <div class="text-secondary text-sm">
+          Essays, musings, and reflections
+        </div>
+      </a>
+    </li>
+    <li class="-mx-3">
+      <a href="/updates" class="block rounded p-3 hover:bg-gray-50">
+        <div>Updates</div>
+        <div class="text-secondary text-sm">
+          Fleeting thoughts, snapshots, and opinions
+        </div>
+      </a>
+    </li>
+    <li class="-mx-3">
+      <a href="/now" class="block rounded p-3 hover:bg-gray-50">
+        <div>Now</div>
+        <div class="text-secondary text-sm">
+          What I'd tell a friend I hadn't seen in a year
+        </div>
+      </a>
+    </li>
+    <li class="-mx-3">
+      <a href="/work" class="block rounded p-3 hover:bg-gray-50">
+        <div>Work</div>
+        <div class="text-secondary text-sm">
+          What I do for money, and how I do it
+        </div>
+      </a>
+    </li>
+    <li class="-mx-3">
+      <a href="/omake" class="block rounded p-3 hover:bg-gray-50">
+        <div>Omake</div>
+        <div class="text-secondary text-sm">An overview of extra content</div>
+      </a>
+    </li>
+    <li class="-mx-3">
+      <a href="/site" class="block rounded p-3 hover:bg-gray-50">
+        <div>Site</div>
+        <div class="text-secondary text-sm">
+          Notes on design and development
+        </div>
+      </a>
+    </li>
   </ul>
 </section>
 

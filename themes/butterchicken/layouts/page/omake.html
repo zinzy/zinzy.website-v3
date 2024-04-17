@@ -1,51 +1,45 @@
-{{ define "main" }}
-{{ partial "back_link.html" .}}
+{{ define "main" }} {{ partial "back_link.html" .}}
 
-<article class="h-entry prose prose-gray dark:prose-invert mb-14">
-    <header class="my-12">
-        <h2 class="p-name mb-6">{{ .Title }}</h2>
-        <p>{{ .Description }}</p>
-    </header>
+<article class="h-entry prose prose-gray mb-14 dark:prose-invert">
+  <header class="my-12">
+    <h2 class="p-name">{{ .Title }}</h2>
+    <p>{{ .Description }}</p>
+  </header>
 
-    <div class="e-content" class="mb-14">
-        {{ .Content }}
-    </div>
+  <div class="e-content" class="mb-14">{{ .Content }}</div>
 
-        {{ range $.Site.Data.omake }}
-        <details id="{{ .name }}">
-          <summary class="cursor-pointer">{{ .name }}</summary> 
-          <div class="ml-5">
-            <!-- <div class="p-2 my-2 border">
+  {{ range $.Site.Data.omake }}
+  <details id="{{ .name }}">
+    <summary class="cursor-pointer">{{ .name }}</summary>
+    <div class="ml-5">
+      <!-- <div class="p-2 my-2 border">
               {{ .description }}
             </div> -->
-            {{ range .children }}  
-              <details id="{{ .name }}">
-                <summary class="cursor-pointer">{{ .name }}</summary>
-                <ul class="m-0 p-0 ml-5">
-                  {{ range .children }}
-                  <li class="m-0 p-0">
-                    {{ if .value }}
-                      {{ if .url }}
-                        <span class="text-gray-600 dark:text-white/50">{{ .property }}:</span> <a href="{{ .url }}">{{ .value }}</a>
-                        {{ else }} 
-                        <span class="text-gray-600 dark:text-white/50">{{ .property }}:</span> {{ .value }}
-                      {{ end }} 
-                      {{ else }} 
-                      {{ if .url }}
-                        <a href="{{ .url }}">{{ .property }}</a>
-                        {{ else }} 
-                        {{ .property }}
-                      {{ end }} 
-                    {{ end }}
-                  </li>
-                {{ end }}
-                </ul>
-            </details>  
-          {{ end }} 
-          </div>
-        </details>
-        {{ end }}
-
-    {{ partial "backlinks.html" . }}
+      {{ range .children }}
+      <details id="{{ .name }}">
+        <summary class="cursor-pointer">{{ .name }}</summary>
+        <ul class="m-0 ml-5 p-0">
+          {{ range .children }}
+          <li class="m-0 p-0">
+            {{ if .value }} {{ if .url }}
+            <span class="text-gray-600 dark:text-white/50"
+              >{{ .property }}:</span
+            >
+            <a href="{{ .url }}">{{ .value }}</a>
+            {{ else }}
+            <span class="text-gray-600 dark:text-white/50"
+              >{{ .property }}:</span
+            >
+            {{ .value }} {{ end }} {{ else }} {{ if .url }}
+            <a href="{{ .url }}">{{ .property }}</a>
+            {{ else }} {{ .property }} {{ end }} {{ end }}
+          </li>
+          {{ end }}
+        </ul>
+      </details>
+      {{ end }}
+    </div>
+  </details>
+  {{ end }} {{ partial "backlinks.html" . }}
 </article>
 {{ end }}
