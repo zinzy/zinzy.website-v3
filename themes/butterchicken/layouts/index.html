@@ -16,7 +16,7 @@
   <ul class="mt-14">
     {{ range first 5 $postsDefault }}
     <li class="-mx-3">
-      <a class="block rounded p-3 hover:bg-gray-50" href="{{ .Permalink }}">
+      <a class="block rounded p-3 hover:bg-gray-50 dark:hover:bg-gray-900" href="{{ .Permalink }}">
         <span class="block">{{ .Title }}</span>
         <time class="text-secondary text-sm"
           >{{- (.Date | time.Format
@@ -31,7 +31,7 @@
 <section class="mt-20">
   <ul class="">
     <li class="-mx-3">
-      <a href="/posts" class="block rounded p-3 hover:bg-gray-50">
+      <a href="/posts" class="block rounded p-3 hover:bg-gray-50 dark:hover:bg-gray-900">
         <div>Posts</div>
         <div class="text-secondary text-sm">
           Essays, musings, and reflections
