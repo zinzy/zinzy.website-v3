@@ -6,7 +6,13 @@
     <p class="text-secondary">{{ .Description }}</p>
   </header>
 
-  <figure>
+  <div class="prose dark:prose-invert">
+    <section>
+      <p>I'm a volunteer mentor reserving some of my working hours to coach researchers and designers. The people I speak with are a diverse, friendly bunch: seasoned practitioners with specific problems at the office, newbies looking for a portfolio review, mid-weight designers looking for a raise, and anyone in between. You may <a href="#before-you-book">book a session</a> with me any time through ADPList.</p>
+    </section>
+  </div>
+
+  <figure class="my-20">
     <img
       src="https://res.cloudinary.com/dbi2zounq/image/upload/w_1300/v1712755362/zinzy.website/zinzy-design-mentor_cbjx5d.jpg"
       alt=""
@@ -22,8 +28,8 @@
     </figcaption>
   </figure>
 
-  <div class="my-14">
-    <h3 class="">What my mentees are saying</h3>
+  <div class="mt-20">
+    <h3 class="">What it's like to work with me</h3>
     <ul class="mt-7 sm:columns-2">
       {{ range sort $.Site.Data.mentoring "name" }}
       <li class="mb-4 break-inside-avoid-column rounded border bg-gray-50 p-2">
@@ -40,7 +46,7 @@
     </ul>
   </div>
 
-  <div class="e-content h-entry prose prose-gray mb-14 dark:prose-invert">
+  <div id="before-you-book" class="pt-20 e-content h-entry prose prose-gray dark:prose-invert">
     {{ .Content }}
   </div>
 

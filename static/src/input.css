@@ -71,13 +71,23 @@ content p:first-child {
   margin-top: 0 !important;
 }
 
-.prose figure h2, .prose figure h3, .prose figure h4, .prose figure h5, .prose figure h6 {
-  font-size: 95%;
-  line-height: 160% !important;
-  font-weight: normal;
-  margin-top: .5rem;
-  color: #6b7280;
+figure h2, figure h3, figure h4, figure h5, figure h6, figure figcaption {
+  @apply text-xl leading-6 font-normal text-gray-500 dark:text-white/50 block
 }
+
+figure {
+  img {
+    @apply mb-3
+  }
+  figcaption {
+    a {
+      @apply underline
+    }
+  }
+}
+
+
+
 
 .text-primary { @apply text-gray-950 dark:text-white}
 .text-secondary { @apply text-gray-500 dark:text-white/50}
@@ -123,7 +133,7 @@ a:hover {
   nav ul li:not(:last-child):after {
     color: rgba(255,255,255,.3);
   }
-  .prose figure h2, .prose figure h3, .prose figure h4, .prose figure h5, .prose figure h6 {
+  figure h2, figure h3, figure h4, figure h5, figure h6 {
     color: rgba(255,255,255,.7);
   }
 }
@@ -146,4 +156,8 @@ a:hover {
   text-underline-offset: 4px;
 }
 
+
+.prose h2 {
+  @apply mb-0
+}
 

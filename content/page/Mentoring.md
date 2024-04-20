@@ -1,12 +1,18 @@
 ---
 title: Mentoring
 layout: mentoring
-description: I reserve some of my time to give back to the community
+description: Talk to me about your design career
 ---
+### Book a session
 
-Because I love winning friends and influencing people[^1], I reserve a small portion of my time for mentoring UX professionals and hopefuls and other people in the product field. You're welcome to book a free 30-minute session with me through [ADPList](https://adplist.org/mentors/zinzy-nev-geene).
+I love speaking with people from all around the world about what it means to research and design digital products. Whether you're new to the industry or you've been around the block a few times, I'd love to learn more about your story. You can find me on [ADPList](https://adplist.org/mentors/zinzy-nev-geene).
 
-While each person's story is unique, it's easy to see commonalities in the struggles of the average UX career. These are things I am asked often in my role as a mentor:
+### Before you book 
+While I keep my session inbox open to anyone, I've noticed lately that there are more requests than I can manage. I may direct your request to another mentor or resources.
+
+<!-- 
+
+
 ### How do I actually organize a research project?
 Research is all about moving from assumptions and unknowingness to a state of knowing just enough to unblock a project. When you begin planning your research, don't start with the method. Instead, start with the questions you need an answer to. Are they the right questions? What type of data should you collect to answer them? To get started on this journey, which happens to be my favorite, read UserInterviews.com's [Field Guide](https://www.userinterviews.com/ux-research-field-guide).
 
@@ -20,4 +26,4 @@ Research is all about moving from assumptions and unknowingness to a state of kn
 
 ### Footnotes
 
-[^1]: I'm kidding. This is a reference to [a book I've never read](https://en.wikipedia.org/wiki/How_to_Win_Friends_and_Influence_People). I don't know why I talk like this.
+[^1]: I'm kidding. This is a reference to [a book I've never read](https://en.wikipedia.org/wiki/How_to_Win_Friends_and_Influence_People). I don't know why I talk like this. -->

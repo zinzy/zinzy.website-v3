@@ -3,16 +3,6 @@
 @tailwind utilities;
 @tailwind variants;
 
-body, html {
-  /* font-size: 22px; */
-  @media screen and (min-width: 768px) {
-    font-size: 18px;
-  }
-  @media screen and (min-width: 992px) {
-    font-size: 22px;
-  }
-}
-
 @layer components {
   .border,
   .border-r,
@@ -27,7 +17,7 @@ body, html {
 
 body {
   font-size: 1rem;
-  max-width: 1100px;
+  max-width: 600px;
   @apply text-secondary;
 }
 
@@ -64,29 +54,29 @@ input:checked {
   text-align: center;
   font-size: 10px;
 }
-h2, h3, h4, h5, h6, 
-.prose h2, .prose h3, .prose h4, .prose h5, .prose h6 {
-  @apply text-gray-950 dark:text-white font-medium;
+
+h1, h2, h3, h4, h5, h6, 
+.prose h1, .prose h2, .prose h3, .prose h4, .prose h5, .prose h6 {
+  @apply text-gray-950 dark:text-white font-normal text-base;
 }
-.prose h1 { @apply m-0 mb-3 text-5xl text-gray-950 font-medium}
+/* .prose h1 { @apply m-0 mb-3 text-5xl text-gray-950 font-medium}
 .prose h2 { @apply m-0 mb-3 text-4xl}
 .prose h3 { @apply mt-7 text-3xl}
 .prose h4 { @apply mt-10 text-2xl}
 .prose h5 { @apply mt-2 text-xl}
-.prose h6 { @apply mt-2 text-lg}
+.prose h6 { @apply mt-2 text-lg} */
 
 
 content p:first-child {
   margin-top: 0 !important;
 }
 
-.prose figure h2, .prose figure h3, .prose figure h4, .prose figure h5, .prose figure h6 {
-  font-size: 95%;
-  line-height: 160% !important;
-  font-weight: normal;
-  margin-top: .5rem;
-  color: #6b7280;
+.prose figure h2, .prose figure h3, .prose figure h4, .prose figure h5, .prose figure h6, .prose figure figcaption {
+  @apply text-xl leading-6 font-normal mt-20 text-gray-500 dark:text-white/50 block
 }
+
+
+
 
 .text-primary { @apply text-gray-950 dark:text-white}
 .text-secondary { @apply text-gray-500 dark:text-white/50}
@@ -148,9 +138,11 @@ a:hover {
 .footnotes ol {
   @apply text-sm text-gray-500 dark:text-white/50;
 }
- 
-@media screen and (min-width: 768px) {
- .prose {
-  @apply w-4/6;
- } 
-} 
+
+
+.prose :where(a):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  font-weight: 400;
+  text-underline-offset: 4px;
+}
+
+
