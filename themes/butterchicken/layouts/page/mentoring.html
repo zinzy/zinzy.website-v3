@@ -50,6 +50,20 @@
     {{ .Content }}
   </div>
 
+<section class="mt-20">
+  {{ $notes := where .Site.RegularPages "Type" "notes" }}
+  <ul class="">
+    {{ range $notes }}
+    {{ if in .Params.tags "mentoring-guides" }}
+    <li class="-mx-3">
+      <a class="block rounded p-3 hover:bg-gray-50 dark:hover:bg-gray-900" href="{{ .Permalink }}">
+        {{ .Title }}</a>
+    </li>
+    {{ end }} 
+    {{ end }}
+  </ul>
+</section>
+
   {{ partial "backlinks.html" . }}
 </article>
 {{ end }}

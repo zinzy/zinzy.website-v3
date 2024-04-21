@@ -155,9 +155,12 @@ a:hover {
   font-weight: 400;
   text-underline-offset: 4px;
 }
+strong, b,
+.prose :where(strong):not(:where([class~="not-prose"],[class~="not-prose"] *)) {  @apply font-normal text-gray-950 dark:text-white
+
+}
 
 
 .prose h2 {
   @apply mb-0
 }
-

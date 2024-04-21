@@ -8,7 +8,7 @@ description: Talk to me about your design career
 I love speaking with people from all around the world about what it means to research and design digital products. Whether you're new to the industry or you've been around the block a few times, I'd love to learn more about your story. You can find me on [ADPList](https://adplist.org/mentors/zinzy-nev-geene).
 
 ### Before you book 
-While I keep my session inbox open to anyone, I've noticed lately that there are more requests than I can manage. I may direct your request to another mentor or resources.
+While I keep my session inbox open to anyone, I've noticed lately that there are more requests than I can manage. I may direct your request to another mentor, resources, or one of the guides below.
 
 <!-- 
 

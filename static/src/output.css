@@ -1229,6 +1229,10 @@ video {
   margin-top: 0px;
 }
 
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
 .mt-12 {
   margin-top: 3rem;
 }
@@ -1870,7 +1874,21 @@ a:hover {
   text-underline-offset: 4px;
 }
 
+strong, b,
+.prose :where(strong):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  font-weight: 400;
+  --tw-text-opacity: 1;
+  color: rgb(3 7 18 / var(--tw-text-opacity));
+}
+
+@media (prefers-color-scheme: dark) {
+  strong, b,
+.prose :where(strong):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+  }
+}
+
 .prose h2 {
   margin-bottom: 0px;
 }
-

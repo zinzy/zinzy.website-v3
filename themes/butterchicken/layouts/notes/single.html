@@ -6,6 +6,12 @@
         <h2 class="p-name">{{ .Title }}</h2>
     </header>
 
+    {{ if in .Params.tags "mentoring-guides" }}
+    <section class="prose prose-gray dark:prose-invert border p-3 mb-20 text-sm rounded">
+        <p>Hey! This is one of my <a href="/mentoring">mentoring guides</a>; short reflections on my experience in the UX industry. I'm unable to take on all mentoring requests I receive, but I hope this guide may help you take a next step.</p>
+    </section>
+    {{ end }} 
+
     {{ if .Params.toc }}
         <aside {{ if .Params.tocBorder }} class="toc" {{ end }}>
             {{ .TableOfContents }}
@@ -19,5 +25,8 @@
         {{- partial "content_wikified" . -}}
     </div> 
 </article>
+
+
+{{ partial "hello.html" .}}
 {{ end }}
  
