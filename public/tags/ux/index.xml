@@ -1,15 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>UX on Zinzy&#39;s website</title>
+    <title>ux on Zinzy&#39;s website</title>
     <link>https://zinzy.website/tags/ux/</link>
-    <description>Recent posts in UX on Zinzy&#39;s website</description>
+    <description>Recent posts in ux on Zinzy&#39;s website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 12 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 20 Apr 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://zinzy.website/tags/ux/index.xml" rel="self" type="application/rss+xml" />
 
     
+    <item>
+      <title>A job for me, part one</title>
+      <link>https://zinzy.website/2024/04/20/a-job-for-me-part-one/</link>
+      <pubDate>Sat, 20 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://zinzy.website/2024/04/20/a-job-for-me-part-one/</guid>
+      <description>Yesterday, as I was going through what seemed like the most severe after-lunch dip in recent memory, I logged on to ADPList to meet a designer from Denmark. It&amp;rsquo;s miraculous, the effect unexpected kindness can have on the body. After 30 minutes, I skipped out of my meeting booth ready to take on the rest of the afternoon, which I did, and it rocked.
+Here&amp;rsquo;s a summary of her booking request:</description>
+    </item>
     <item>
       <title>Dog whistles</title>
       <link>https://zinzy.website/2024/04/15/dog-whistles/</link>
