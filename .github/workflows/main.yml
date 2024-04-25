@@ -1,24 +1,24 @@
-name: update all submodules
-on:
-  schedule:
-    - cron: '0 1 * * *'
-  push:
-    branches:
-      - main
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4.1.1
-        with:
-          token: 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
-          submodules: recursive
-          fetch-depth: 0
-      - name: Update module
-        run: |
-          git submodule update --init --recursive --checkout -f --remote
-          git config --global user.name "Zinzy Waleson Geene"
-          git config --global user.email "zinzy@pm.me"
-          git commit -am "Updated submodule"
-          git push
+# name: update all submodules
+# on:
+#   schedule:
+#     - cron: '0 1 * * *'
+#   push:
+#     branches:
+#       - main
+# jobs:
+#   build:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - name: Checkout
+#         uses: actions/checkout@v4.1.1
+#         with:
+#           token: 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
+#           submodules: recursive
+#           fetch-depth: 0
+#       - name: Update module
+#         run: |
+#           git submodule update --init --recursive --checkout -f --remote
+#           git config --global user.name "Zinzy Waleson Geene"
+#           git config --global user.email "zinzy@pm.me"
+#           git commit -am "Updated submodule"
+#           git push
