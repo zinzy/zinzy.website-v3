@@ -5,10 +5,6 @@ tags:
   - photography
 ---
 
-![](https://res.cloudinary.com/dbi2zounq/image/upload/v1714045184/2006-07-17_05_yxlhhh.jpg)
-
-![](https://res.cloudinary.com/dbi2zounq/image/upload/v1714045184/2006-07-17_02_hzvyfy.jpg)
-
 {{< rawhtml >}}
 
 <div class="grid grid-cols-2 gap-4">
