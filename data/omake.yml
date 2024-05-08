@@ -6,6 +6,8 @@
           value: "Zinzy Waleson Geene"
         - property: "Pronunciation"
           value: "ZIN-zee WHALE-sun GHEE-n"
+        - property: "Pronouns"
+          value: "They/she"
     - name: Favorites
       children:
         - property: "Beverage"
@@ -595,3 +597,5 @@
           url: https://justinmiller.io/
         - property: V.H. Belvadi
           url: https://vhbelvadi.com/
+        - property: Low-tech Magazine
+          url: https://lowtechmagazine.com/
