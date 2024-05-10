@@ -5,7 +5,7 @@
     <header class="mb-14">
         <h2 class="p-name mb-2">{{ .Title }}</h2>
         <div class="">
-            <time class="dt-published inline-block" datetime="{{ .Date }}">
+            <time class="dt-published inline-block text-gray-500 dark:text-white/50" datetime="{{ .Date }}">
                 {{ .Date | time.Format site.Params.theme_config.date_format_archive }}
             </time>
         </div> 
@@ -23,17 +23,17 @@
         {{- partial "content_wikified" . -}}
     </content>
 
-    
-
-
-    {{ partial "tags.html" .}}
-
-    {{ partial "hello.html" .}}
-
-
-    {{ partial "backlinks.html" . }}
+     
 
 
 </article>
+
+
+{{ partial "tags.html" .}}
+
+{{ partial "hello.html" .}}
+
+
+{{ partial "backlinks.html" . }}
 
 {{ end }}

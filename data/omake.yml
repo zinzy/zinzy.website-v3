@@ -167,7 +167,7 @@
       children:
         - property: "Italy"
         - property: "Japan"
-- name: Links
+- name: Sites I like
   children:
     - name: "Friends and acquaintances"
       children:

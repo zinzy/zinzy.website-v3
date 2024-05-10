@@ -1,50 +1,104 @@
 {{ define "main" }}
 
+  {{ $feed := where (where .Site.RegularPages "Type" "ne" "notes" ) "Type" "ne" "page" }} 
+  <ul class="feed"> 
+    {{ range first 5 $feed }}
+      <li class="flex">
+
+        <div class="flex-none w-10 mt-[2px] flex flex-col">
+          <div class="">
+            {{ if .Params.photo }} {{ partial "post_type_photo.html" . }}
+              {{ else if .Params.replyTo }} {{ partial "post_type_reply.html" . }}
+              {{ else if .Params.likeOf }} {{ partial "post_type_like.html" . }}
+              {{ else if .Title }} {{ partial "post_type_post.html" . }}
+              {{ else }} {{ partial "post_type_note.html" . }}
+            {{ end }}
+          </div>
+          <div class="grow border-l ml-2.5">&nbsp;
+          </div>
+
+        </div>
+        <div class="grow pb-5">
+          {{ if .Title }} <h2><a href="{{ .Permalink }}">{{.Title}}</a></h2> {{end}}
+          <a
+            href="{{ .Permalink }}"
+            class="mb-3 block text-gray-500 dark:text-white/50"
+            ><time class=""
+              >{{- (.Date | time.Format site.Params.theme_config.date_format_archive)
+              }}</time
+            ></a
+          >
+          <article class="prose prose-gray dark:prose-invert">
+            {{ if .Params.photo }}
+            <p class="mb-5"><code>ALT</code> {{ .Params.alt }}</p>
+            {{ end }}
+            {{ if .Params.replyTo }}
+            <p class="u-in-reply-to mt-0">
+              Replied to
+              <a
+                href="{{.Params.replyTo}}"
+                rel="in-reply-to"
+                class="u-in-reply-to text-url break-all"
+                target="_blank"
+              >
+                {{ if .Params.replyToName }} {{.Params.replyToName}} {{ else }}
+                {{.Params.replyTo}} {{ end }}
+              </a>
+            </p>
+            {{ end }} {{ if .Params.likeOf }}
+            <p class="mt-0">
+              Liked
+              <a
+                href="{{.Params.likeOf}}"
+                class="u-like-of text-url break-all"
+                target="_blank"
+                >{{.Params.likeOf}}</a
+              >
+            </p>
+            {{ end }}
+  
+  
+          {{ if .Title }}
+            {{.Summary}}
+
+          <div class="mt-3 mb-7"><a href="{{ .Permalink }}" class="button">Continue reading</a></div>
+            {{ else if .Params.photo }}
+            {{else}}
+            <content> {{ .Content }} </content>
+          {{end}}
+          </article>
+        </div> 
+    </li>
+    {{ end }} 
+  </ul> 
+
+
+  <div class="mt-5"><a href="/feed" class="button">Go to feed</a></div>
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <a href="/updates" class="transition-all ease-in-out"></a>
 
-<section>
-  <div class="">
-    <div class="flex overflow-hidden overflow-x-auto">
-      {{ $updates := where (where .Site.RegularPages "Type" "updates" )
-      ".Params.photo" "ne" nil }} {{ range first 3 $updates }}
-      <div class="mr-3 flex-none">
-        <img
-          src="{{ slicestr .Params.photo 0 50 }}h_100,e_sepia{{ slicestr .Params.photo 49 86 }}"
-          alt="{{ .Params.alt }}"
-          style="height: 100px; filter: grayscale(0.7); opacity: 70%"
-        />
-      </div>
-      {{ end }}
-    </div>
-  </div>
-  <p class="mt-5">
-    <a href="/updates" class="text-secondary text-sm">All updates</a>
-  </p>
-</section>
-
-<section class="mt-20">
-  {{ $postsDefault := where .Site.RegularPages "Type" "posts" }}
-
-  <ul class="mt-14">
-    {{ range first 3 $postsDefault }}
-    <li class="-mx-3">
-      <a
-        class="block rounded p-3 hover:bg-gray-50 dark:hover:bg-gray-900"
-        href="{{ .Permalink }}"
-      >
-        <span class="block">{{ .Title }}</span>
-        <time class="text-secondary text-sm"
-          >{{- (.Date | time.Format
-          site.Params.theme_config.date_format_archive) }}</time
-        >
-      </a>
-    </li>
-    {{ end }}
-  </ul>
-  <p class="mt-5">
-    <a href="/posts" class="text-secondary text-sm">All posts</a>
-  </p>
-</section>
 
 <section class="prose mt-20 dark:prose-invert">
   <h3>Bio</h3>

@@ -4,9 +4,9 @@ layout: page
 description: Wow, there's a lot happening.
 ---
 
-Don't care for narrative? Check my [omake](/omake).
-
 ![](https://res.cloudinary.com/dbi2zounq/image/upload/w_1300/v1692260666/IMG_4778_fm3g1i.jpg)
+
+Don't care for narrative? Check my [omake](/omake).
 
 Hello, I’m Zinzy Waleson Geene (she/they) and this is my personal website; a quiet street on the Internet where I come to link and think. It’s a home for soft stances, lived experiences, and critical notes on the things I hold dear. On this website as well as in life, I aim to bring my whole self: the self that works, plays, questions, doodles, fears, cooks, prays, gets angry, changes her mind.
 

@@ -57,15 +57,8 @@ input:checked {
 
 h1, h2, h3, h4, h5, h6, 
 .prose h1, .prose h2, .prose h3, .prose h4, .prose h5, .prose h6 {
-  @apply text-gray-950 dark:text-white font-normal text-base;
+  @apply text-gray-950 dark:text-white font-semibold text-base;
 }
-/* .prose h1 { @apply m-0 mb-3 text-5xl text-gray-950 font-medium}
-.prose h2 { @apply m-0 mb-3 text-4xl}
-.prose h3 { @apply mt-7 text-3xl}
-.prose h4 { @apply mt-10 text-2xl}
-.prose h5 { @apply mt-2 text-xl}
-.prose h6 { @apply mt-2 text-lg} */
-
 
 content p:first-child {
   margin-top: 0 !important;
@@ -92,8 +85,9 @@ figure {
 .text-primary { @apply text-gray-950 dark:text-white}
 .text-secondary { @apply text-gray-500 dark:text-white/50}
 
+a { @apply transition ease-in-out }
 a:hover {
-  opacity: .8;
+  @apply duration-500
 }
 
 
@@ -127,9 +121,6 @@ a:hover {
   hr {
     border-color:  rgba(255,255,255,.3);
   }
-  .prose a {
-    border-color: white;
-  }
   nav ul li:not(:last-child):after {
     color: rgba(255,255,255,.3);
   }
@@ -152,15 +143,37 @@ a:hover {
 
 
 .prose :where(a):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
-  font-weight: 400;
-  text-underline-offset: 4px;
+  @apply font-normal underline-offset-4 underline decoration-gray-300 dark:decoration-zinc-600 dark:hover:decoration-zinc-500;
 }
-strong, b,
-.prose :where(strong):not(:where([class~="not-prose"],[class~="not-prose"] *)) {  @apply font-normal text-gray-950 dark:text-white
 
+.button {
+  @apply text-gray-950 dark:text-white px-3 py-2 border rounded no-underline text-sm font-semibold hover:border-gray-300 hover:shadow-sm dark:border-zinc-700 dark:hover:border-zinc-600 dark:hover:text-white dark:hover:opacity-100;
+  &::after {
+    content: "→";
+    margin-left: .5rem;
+  }
+}
+
+.tag {
+  @apply text-gray-700 dark:text-white/70 px-2 p-1 bg-gray-100 rounded-xl no-underline text-sm font-semibold hover:bg-gray-200 hover:shadow-sm dark:bg-zinc-700 hover:cursor-pointer
 }
 
 
 .prose h2 {
   @apply mb-0
+}
+
+
+ul.feed li:last-child .border-l {
+  display: none;
+}
+
+
+.prose :where(code):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  content: "";
+  @apply bg-gray-100 dark:bg-zinc-700 p-1 rounded text-sm;
+}
+
+.prose :where(code):not(:where([class~="not-prose"],[class~="not-prose"] *))::after {
+  content: "";
 }
