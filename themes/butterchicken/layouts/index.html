@@ -6,7 +6,7 @@
   <div class="">
     <div class="flex overflow-hidden overflow-x-auto">
       {{ $updates := where (where .Site.RegularPages "Type" "updates" )
-      ".Params.photo" "ne" nil }} {{ range first 10 $updates }}
+      ".Params.photo" "ne" nil }} {{ range first 3 $updates }}
       <div class="mr-3 flex-none">
         <img
           src="{{ slicestr .Params.photo 0 50 }}h_100,e_sepia{{ slicestr .Params.photo 49 86 }}"
