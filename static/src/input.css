@@ -25,14 +25,9 @@ body {
   font-size: 85%;
 }
 
-table {
-  thead {
-    th {
-        font-size: 95%; 
-        font-weight: normal !important;
-        /* color: #6b7280 !important; */
-    }
-  }
+table thead th {
+  font-size: 95%; 
+  font-weight: normal !important;
 }
 input[type='checkbox'],
 input:checked {
@@ -68,15 +63,12 @@ figure h2, figure h3, figure h4, figure h5, figure h6, figure figcaption {
   @apply text-xl leading-6 font-normal text-gray-500 dark:text-white/50 block
 }
 
-figure {
-  img {
-    @apply mb-3
-  }
-  figcaption {
-    a {
-      @apply underline
-    }
-  }
+figure img {
+  @apply mb-3
+}
+
+figure figcaption a {
+  @apply underline
 }
 
 
@@ -148,10 +140,11 @@ a:hover {
 
 .button {
   @apply text-gray-950 dark:text-white px-3 py-2 border rounded no-underline text-sm font-semibold hover:border-gray-300 hover:shadow-sm dark:border-zinc-700 dark:hover:border-zinc-600 dark:hover:text-white dark:hover:opacity-100;
-  &::after {
-    content: "→";
-    margin-left: .5rem;
-  }
+}
+
+.button::after {
+  content: "→";
+  margin-left: .5rem;
 }
 
 .tag {

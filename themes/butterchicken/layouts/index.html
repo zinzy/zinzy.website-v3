@@ -2,7 +2,7 @@
 
   {{ $feed := where (where .Site.RegularPages "Type" "ne" "notes" ) "Type" "ne" "page" }} 
   <ul class="feed"> 
-    {{ range first 5 $feed }}
+    {{ range first 3 $feed }}
       <li class="flex">
 
         <div class="flex-none w-10 mt-[2px] flex flex-col">

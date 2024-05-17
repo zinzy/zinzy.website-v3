@@ -1744,14 +1744,9 @@ body {
   font-size: 85%;
 }
 
-table {
-  thead {
-    th {
-      font-size: 95%;
-      font-weight: normal !important;
-      /* color: #6b7280 !important; */
-    }
-  }
+table thead th {
+  font-size: 95%;
+  font-weight: normal !important;
 }
 
 input[type='checkbox'],
@@ -1811,15 +1806,12 @@ figure h2, figure h3, figure h4, figure h5, figure h6, figure figcaption {
   }
 }
 
-figure {
-  img {
-    margin-bottom: 0.75rem;
-  }
-  figcaption {
-    a {
-      text-decoration-line: underline;
-    }
-  }
+figure img {
+  margin-bottom: 0.75rem;
+}
+
+figure figcaption a {
+  text-decoration-line: underline;
 }
 
 .text-primary {
@@ -2003,11 +1995,9 @@ a:hover {
   }
 }
 
-.button {
-  &::after {
-    content: "→";
-    margin-left: .5rem;
-  }
+.button::after {
+  content: "→";
+  margin-left: .5rem;
 }
 
 .tag {
