@@ -2,7 +2,6 @@
 title: "Five recent UX uses for AI"
 summary: "There's a reason I keep thinking Millennials are the new Boomers, and that reason is me. Here are some thoughts on how I finally came to welcome AI as a friendly member of my UX toolkit."
 date: 2024-05-17
-draft: true
 tags:
 - career
 - ux
