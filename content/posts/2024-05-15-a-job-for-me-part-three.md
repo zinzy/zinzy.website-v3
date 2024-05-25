@@ -14,7 +14,7 @@ tags:
 - indieweb-carnival
 - series
 ---
-In late April I had a mentoring chat with a designer from Denmark, who, among other things, asked me how she could better handle her emotions at work. 
+In late April I had a [mentoring chat with a designer from Denmark](/2024/04/20/a-job-for-me-part-one/), who, among other things, asked me how she could better handle her emotions at work. This is part three. You may also be interested in [part two](/2024/05/10/a-job-for-me-part-two-good-enough).
 
 ---
 

@@ -135,7 +135,7 @@ a:hover {
 
 
 .prose :where(a):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
-  @apply font-normal underline-offset-4 underline decoration-gray-300 dark:decoration-zinc-600 dark:hover:decoration-zinc-500;
+  @apply font-normal underline-offset-4 underline decoration-gray-400 dark:decoration-zinc-600 dark:hover:decoration-zinc-500;
 }
 
 

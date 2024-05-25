@@ -1,5 +1,14 @@
 {{ define "main" }}
 
+
+
+
+<section class="prose dark:prose-invert mb-24">
+  <p>I'm a <a href="/work">UX practitioner</a>, <a href="/mentoring">design mentor</a>, and <a href="/im-a-christian">crazy church lady</a> living and working in Amsterdam. This is a <a href="/site">personal website</a>; a space for soft stances, lived experiences, and critical notes on the things I hold dear.</p>
+
+  <p>Here's what I'm up to <a href="/now">now</a>, and a bit <a href="/about">about</a> how I got there. You may consider everything you see and read here a standing invitation to <a href="/hello">say hello</a>.</p>
+</section>
+
   {{ $feed := where (where .Site.RegularPages "Type" "ne" "notes" ) "Type" "ne" "page" }} 
   <ul class="feed"> 
     {{ range first 3 $feed }}
@@ -72,7 +81,6 @@
     {{ end }} 
   </ul> 
 
-
   <div class="mt-5"><a href="/feed" class="button">Go to feed</a></div>
 
  
@@ -96,176 +104,5 @@
 
 
 
-
-<a href="/updates" class="transition-all ease-in-out"></a>
-
-
-<section class="prose mt-20 dark:prose-invert">
-  <h3>Bio</h3>
-  <p>
-    <a href="/about">Zinzy Waleson Geene</a> is a
-    <a href="/work">UX practitioner</a>, <a href="/mentoring">design mentor</a>,
-    and <a href="/im-a-christian">crazy church lady</a> living and working in
-    Amsterdam. Here's what they're up to <a href="/now">now</a>. This is a
-    <a href="/site">personal website</a>; a space for soft stances, lived
-    experiences, and critical notes on the things they hold dear. It is a
-    standing invitation to <a href="/hello">say hello</a>.
-  </p>
-</section>
-
-<!-- 
-<section class="mt-12">
-  <ul class="h-card">
-    <li class="flex hidden border-b py-2 last:border-b-0">
-      <span class="w-40 flex-none text-gray-500 dark:text-white/50"
-        >Headshot</span
-      >
-      <span class="grow">
-        <img
-          class="u-photo"
-          src="https://res.cloudinary.com/dbi2zounq/image/upload/w_200/v1667744670/me/zinzy-1_telofx.jpg"
-        />
-      </span>
-    </li>
-    <li class="flex hidden border-b py-2 last:border-b-0">
-      <span class="w-40 flex-none text-gray-500 dark:text-white/50"
-        >Ethnicity</span
-      >
-      <span class="grow">{{.Site.Params.author.ethnicity}}</span>
-    </li>
-    <li class="flex hidden border-b py-2 last:border-b-0">
-      <span class="w-40 flex-none text-gray-500 dark:text-white/50"
-        >Gender</span
-      >
-      <span class="grow"
-        ><span class="p-gender-identity"
-          >{{.Site.Params.author.genderIdentity}}</span
-        >
-      </span>
-    </li>
-    <li class="border-b py-2 last:border-b-0 md:flex">
-      <span
-        class="block w-40 text-gray-500 md:block md:flex-none dark:text-white/50"
-        >Name</span
-      >
-      <span class="grow">
-        <a class="u-url u-uid" href="{{.Site.Params.baseURL}}">
-          <span class="p-name">
-            <span class="p-given-name">{{.Site.Params.author.givenName}}</span>
-            <span class="p-family-name"
-              >{{.Site.Params.author.familyName}}</span
-            ></span
-          >
-        </a>
-      </span>
-    </li>
-    <li class="border-b py-2 last:border-b-0 md:flex">
-      <span class="block w-40 text-gray-500 md:flex-none dark:text-white/50"
-        >Location</span
-      >
-      <span class="grow"
-        ><span class="p-locality">{{.Site.Params.author.locality}}</span>,
-        <span class="p-country-name">{{.Site.Params.author.country}}</span>
-      </span>
-    </li>
-    <li class="border-b py-2 last:border-b-0 md:flex">
-      <span class="block w-40 text-gray-500 md:flex-none dark:text-white/50"
-        >Fam</span
-      >
-      <span class="grow"
-        ><a
-          href="https://anjawaleson.notion.site/Anja-Waleson-0182c8df804b4b12ab6e70b5b5795a55"
-          target="_blank"
-          rel="noopener noreferrer"
-          >Anja</a
-        >
-        +
-        <a
-          href="https://lemonade.waleson.us/"
-          target="_blank"
-          rel="noopener noreferrer"
-          >Lemonade</a
-        ></span
-      >
-    </li>
-    <li class="border-b py-2 last:border-b-0 md:flex">
-      <span class="block w-40 text-gray-500 md:flex-none dark:text-white/50"
-        >Profession</span
-      >
-      <span class="grow">
-        <span class="block"
-          ><a href="/work"
-            ><span class="p-category">{{.Site.Params.author.jobTitle}}</span></a
-          >
-          at <span class="p-org">{{.Site.Params.author.org}}</span></span
-        >
-        <span class="block"><a href="/mentoring">Design mentor</a></span>
-      </span>
-    </li>
-    <li class="border-b py-2 last:border-b-0 md:flex">
-      <span class="block w-40 text-gray-500 md:flex-none dark:text-white/50"
-        >Weekends</span
-      >
-      <span class="grow"><a href="/im-a-christian">Crazy church lady</a></span>
-    </li>
-    <li class="border-b py-2 last:border-b-0 md:flex">
-      <span class="block w-40 text-gray-500 md:flex-none dark:text-white/50"
-        >Interests</span
-      >
-      <span class="grow"
-        >Making music, pickling, languages,
-        <a href="/im-a-christian">progressive theology</a>, embroidery, chaotic
-        passion, instant photography, IndieWeb, gardening,
-        <a href="/im-neurodivergent">neurodivergence and wellbeing</a>,
-        questions</span
-      >
-    </li>
-    <li class="border-b py-2 last:border-b-0 md:flex">
-      <span class="block w-40 text-gray-500 md:flex-none dark:text-white/50"
-        >Bottom line</span
-      >
-      <span class="grow"
-        ><a href="/the-rest-is-commentary">The rest is commentary</a></span
-      >
-    </li>
-    <li class="border-b py-2 last:border-b-0 md:flex">
-      <span
-        class="mb-2 block w-40 text-gray-500 md:flex-none dark:text-white/50"
-        >Recently</span
-      >
-      <span class="grow">
-        {{ $postsDefault := where .Site.RegularPages "Type" "posts" }}
-        <ul class=" ">
-          {{ range first 3 $postsDefault }}
-          <li class="border-b py-2 first:pt-0 last:border-b-0 md:flex">
-            <a class="block md:grow" href="{{ .Permalink }}">{{ .Title }}</a>
-
-            <time
-              class="text-gray-500 md:block md:flex-none dark:text-white dark:text-opacity-50"
-              >{{- (.Date | time.Format
-              site.Params.theme_config.date_format_archive) }}</time
-            >
-          </li>
-          {{ end }}
-          <li class="pt-2 md:flex md:justify-end">
-            <a href="/posts" class="text-gray-500 dark:text-white/50"
-              >Archive →</a
-            >
-          </li>
-        </ul>
-      </span>
-    </li>
-  </ul>
-</section> -->
-
-<!-- 
-{{ $wiki := where .Site.RegularPages "Type" "wiki" }}
-<ul>
-    {{ range  $wiki }}
-    <li>
-        <a href="{{ .Permalink }}">{{ .Title }}</a>
-    </li>
-{{ end }} 
-</ul> -->
 
 {{ end }}

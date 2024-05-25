@@ -1,6 +1,5 @@
 {{ define "main" }} {{ partial "back_link.html" .}}
 
-
 <header class="prose prose-gray dark:prose-invert mb-20">
     <h2 class="mb-5">{{ .Title }}</h2>
     <p class="text-secondary mb-7">
@@ -12,6 +11,7 @@
 {{ $feed := where (where .Site.RegularPages "Type" "ne" "notes" ) "Type" "ne" "page" }} 
 <ul class="feed"> 
   {{ range $feed }}
+
     <li class="flex">
 
       <div class="flex-none w-10 mt-[2px] flex flex-col">
@@ -38,7 +38,7 @@
           ></a
         >
         <article class="prose prose-gray dark:prose-invert">
-          {{ if .Params.photo }}
+          {{ if .Params.photo }} 
           <img src="{{ .Params.photo }}" alt="{{ .Params.alt }}" class="mb-5" />
           {{ end }}
           {{ if .Params.replyTo }}

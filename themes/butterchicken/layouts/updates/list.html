@@ -40,7 +40,8 @@
         >
         <article class="prose prose-gray dark:prose-invert">
           {{ if .Params.photo }}
-          <img src="{{ .Params.photo }}" alt="{{ .Params.alt }}" class="mb-5" />
+          <img src="{{ slicestr .Params.photo 0 50 }}w_1300{{ slicestr .Params.photo 49 86 }}" alt="{{ .Params.alt }}" class="mb-5" />
+
           {{ end }}
           {{ if .Params.replyTo }}
           <p class="u-in-reply-to mt-0">

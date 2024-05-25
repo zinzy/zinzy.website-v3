@@ -1,6 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["content/*.md", "themes/butterchicken/layouts/**/*.html"],
+  content: [
+    "./content/*.md", 
+    "./themes/butterchicken/layouts/**/*.html"
+  ],
   theme: {
     fontFamily: {
       sans: ['system-ui', 'sans-serif'],
