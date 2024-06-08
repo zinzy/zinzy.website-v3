@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="{{ $.Site.LanguageCode }}" class="scroll-smooth">
+    {{- partial "head.html" . -}}
+    <body class=" bg-white dark:bg-zinc-900" a="{{ $.Site.Params.theme_config.appearance | default "auto" }}">
+        
+
+        <main class="page-content p-10" aria-label="Content">
+            {{- partial "header.html" . -}}
+            <div class="w">
+                {{- block "main" . }}{{- end }}
+            </div>
+            {{- partial "footer.html" . -}}
+        </main>
+  
+    </body>
+</html>

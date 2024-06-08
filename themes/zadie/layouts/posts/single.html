@@ -1,0 +1,31 @@
+{{ define "main" }}
+{{ partial "back_link.html" .}}
+
+<article class="h-entry">
+    <header class="">
+        <h2 class="p-name">{{ .Title }}</h2>
+        <div class="">
+            <time class="dt-published inline-block text-gray-500 dark:text-white/50" datetime="{{ .Date }}">
+                {{ .Date | time.Format site.Params.theme_config.date_format_archive }}
+            </time>
+        </div> 
+    </header> 
+
+    <content class="e-content">
+        {{- partial "content_wikified" . -}}
+    </content>
+
+     
+<footer>
+    <p>Thank you for reading! I'm curious to hear your thoughts, so feel free to <a href="/hello">say hello</a>.</p>
+</footer>
+
+</article>
+
+
+<!-- {{ partial "tags.html" .}} -->
+
+
+{{ partial "backlinks.html" . }}
+
+{{ end }}

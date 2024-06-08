@@ -1,182 +1,98 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
-@tailwind utilities;
-@tailwind variants;
+@tailwind utilities; */
 
-@layer components {
-  .border,
-  .border-r,
-  .border-l,
-  .border-t,
-  .border-b,
-  .border-x,
-  .border-y {
-      @apply border-gray-200 dark:border-white/20;
+body, html {
+  font-size: 20px;
+  @media screen and (min-width: 990px) {
+    font-size: 25px;
   }
 }
 
 body {
   font-size: 1rem;
-  max-width: 600px;
-  @apply text-secondary;
+  font-family: "Times New Roman", serif;
+  padding: 30px;
+  @media screen and (min-width: 990px) {
+    max-width: 60%;
+    padding: 60px;
+  }
+  @media screen and (min-width: 1600px) {
+    max-width: 700px;
+    padding: 100px;
+  }
 }
 
-.font-mono {
-  font-size: 85%;
+h1, h2, h3, h4, h5, h6 {
+  font-size: 1rem;
+  font-weight: normal;
 }
 
-table thead th {
-  font-size: 95%; 
-  font-weight: normal !important;
-}
-input[type='checkbox'],
-input:checked {
-  margin: 0 !important;
+ul.list {
+  list-style-type: none;
 }
 
-.icon {
-  left: -40px;
+header {
+  margin-bottom: 100px;
+}
+
+footer {
+  margin-top: 100px;
+  font-size: 80%;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.webring-xxiivv {
+}
+
+.webring-xxiivv svg {
   width: 24px;
-  height: 24px;
-  top: 6px;
 }
 
-.total {
-  position: relative;
-  display: inline-block;
-  width: 24px;
-  height: 24px;
-  text-align: center;
-  font-size: 10px;
-}
-
-h1, h2, h3, h4, h5, h6, 
-.prose h1, .prose h2, .prose h3, .prose h4, .prose h5, .prose h6 {
-  @apply text-gray-950 dark:text-white font-semibold text-base;
-}
-
-content p:first-child {
-  margin-top: 0 !important;
-}
-
-figure h2, figure h3, figure h4, figure h5, figure h6, figure figcaption {
-  @apply text-xl leading-6 font-normal text-gray-500 dark:text-white/50 block
-}
-
-figure img {
-  @apply mb-3
-}
-
-figure figcaption a {
-  @apply underline
+.indieweb {
+  margin: 30px 0;
 }
 
 
 
-
-.text-primary { @apply text-gray-950 dark:text-white}
-.text-secondary { @apply text-gray-500 dark:text-white/50}
-
-a { @apply transition ease-in-out }
-a:hover {
-  @apply duration-500
+time {
+  font-style: italic;
 }
 
-
-.bookmarks {
-  margin-bottom: 2rem;
+form {
+  margin-top: 100px;
 }
 
-.footnotes hr {
-  border: 0;
-  margin: 0;
-  padding: 0;
+form input,
+form textarea {
+  font-family: "Times New Roman", serif;
+  font-size: 1rem;
+  display: block;
+  width: 90%;
+  padding: .5rem;
+  margin-top: .5rem;
+  border: 2px solid black;
 }
 
-.back-link {
-  text-decoration: none;
-  line-height: 1.6em;
-  aspect-ratio: 1/1;
-  display: inline-block;
-  border-radius: 4em;
+form div {
+  margin-bottom: 20px;
 }
 
-/* a {
-  @apply underline decoration-inherit hover:opacity-70 transition-all;
-  border: 0;
-} */
+form button {
+  padding: .5rem;
+  font-family: "Times New Roman", serif;
+  font-size: 1rem;
+  border: 2px solid black;
+}
 
+/* 
 @media (prefers-color-scheme: dark) {
-  header nav ul li a {
-    color: rgba(255,255,255,.5);
-  }
-  hr {
-    border-color:  rgba(255,255,255,.3);
-  }
-  nav ul li:not(:last-child):after {
-    color: rgba(255,255,255,.3);
-  }
-  figure h2, figure h3, figure h4, figure h5, figure h6 {
-    color: rgba(255,255,255,.7);
-  }
+body {
+  background: #000;
+  color: white;
 }
- 
-#footnotes {
- @apply mt-12 pt-12 border-t text-base font-normal;
-}
-
-.footnotes hr {
-  display: none;
-}
-
-.footnotes ol {
-  @apply text-sm text-gray-500 dark:text-white/50;
-}
-
-
-.prose :where(a):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
-  @apply font-normal underline-offset-4 underline decoration-gray-400 dark:decoration-zinc-600 dark:hover:decoration-zinc-500;
-}
-
-
-.prose blockquote p:first-of-type::before,
-.prose blockquote p:first-of-type::after { content: none }
-
-.button {
-  @apply text-gray-950 dark:text-white px-3 py-2 border rounded no-underline text-sm font-semibold hover:border-gray-300 hover:shadow-sm dark:border-zinc-700 dark:hover:border-zinc-600 dark:hover:text-white dark:hover:opacity-100;
-}
-
-.button::after {
-  content: "→";
-  margin-left: .5rem;
-}
-
-.tag {
-  @apply text-gray-700 dark:text-white/70 px-2 p-1 bg-gray-100 rounded-xl no-underline text-sm font-semibold hover:bg-gray-200 hover:shadow-sm dark:bg-zinc-700 hover:cursor-pointer
-}
-
-
-.prose h2 {
-  @apply mb-0
-}
-
-
-ul.feed li:last-child .border-l {
-  display: none;
-}
-
-
-.prose :where(code):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
-  content: "";
-  @apply text-gray-600 dark:text-zinc-400 text-sm;
-}
-
-
-.prose :where(code):not(:where([class~="not-prose"],[class~="not-prose"] *))::after, 
-.prose :where(code):not(:where([class~="not-prose"],[class~="not-prose"] *))::before { 
-  content: "";
-}
-
-.prose :where(code):not(:where([class~="not-prose"],[class~="not-prose"] *)) { 
-  @apply text-gray-600 dark:text-zinc-400 text-sm;
-}
+} */

@@ -1,0 +1,44 @@
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  {{ if .IsPage }} <meta name="description" content="{{ .Summary }}">  {{ end }}
+
+  <title>
+    {{ if not .IsHome }}
+      {{ .Title }}
+    {{ else }}
+      {{ $.Site.Title }}
+    {{ end }}
+  </title>
+
+  <link rel="alternate" type="application/rss+xml" href="{{.Site.BaseURL }}/posts/index.xml"  title="{{ .Site.Title }}">
+
+  <link rel="icon" type="image/svg+xml" href="https://emojicdn.elk.sh/👋🏽">
+  <!-- 
+  {{ $options := (dict "outputStyle" "compressed" "enableSourceMap" (not hugo.IsProduction)) }}
+  {{ $sass := resources.Get "css/main.scss" }}
+  {{ $style := $sass | resources.ToCSS $options | resources.Fingerprint "sha512" }}
+  <link rel="stylesheet" href="{{ $style.Permalink | relURL }}" integrity="{{ $style.Data.Integrity }}" /> -->
+
+  <link rel="stylesheet" href="/src/output.css">
+  <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+
+  <!-- Some links that let IndieAuth know it's me, your girl Zinzy -->
+  <link rel="me" href="https://github.com/zinzy" />
+  <link rel="me" href="https://tech.lgbt/@zinzy" />
+  <link rel="me" href="mailto:zinzy@pm.me" />
+
+  <!-- IndieAuth -->
+  <link rel="authorization_endpoint" href="https://indieauth.com/auth">
+  <link rel="token_endpoint" href="https://tokens.indieauth.com/token">
+
+  <link rel="microsub" href="https://aperture.p3k.io/microsub/596">
+  <link rel="micropub" href="https://zinzy.website/micropub/main">
+
+  <!-- Webmention -->
+  <link rel="webmention" href="https://webmention.herokuapp.com/api/webmention" />
+
+  {{ if .Params.mathjax }} {{ partial "mathjax.html" . }} {{ end }}
+</head>
+

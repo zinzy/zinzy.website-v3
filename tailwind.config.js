@@ -2,7 +2,8 @@
 module.exports = {
   content: [
     "./content/*.md", 
-    "./themes/butterchicken/layouts/**/*.html"
+    "./src/**/*.{html,js}",
+    "./themes/zadie/layouts/**/*.html"
   ],
   theme: {
     fontFamily: {
@@ -22,7 +23,7 @@ module.exports = {
             '--tw-prose-body': theme('colors.gray[950]'),
             '--tw-prose-headings': theme('colors.gray[500]'),
             '--tw-prose-lead': theme('colors.gray[500]'),
-            '--tw-prose-links': theme('colors.gray[800]'),
+            '--tw-prose-links': theme('colors.blue[600]'),
             '--tw-prose-bold': theme('colors.gray[800]'),
             '--tw-prose-counters': theme('colors.gray[800]'),
             '--tw-prose-bullets': theme('colors.gray[800]'),
@@ -36,7 +37,7 @@ module.exports = {
             '--tw-prose-th-borders': theme('colors.gray[200]'),
             '--tw-prose-td-borders': theme('colors.gray[200]'),
             // Everything below will be dark mode
-            '--tw-prose-invert-body': theme('colors.zinc[100]'),
+            '--tw-prose-invert-body': theme('colors.zinc[400]'),
             '--tw-prose-invert-headings': theme('colors.white'),
             '--tw-prose-invert-lead': theme('colors.zinc[300]'),
             '--tw-prose-invert-links': theme('colors.white'),

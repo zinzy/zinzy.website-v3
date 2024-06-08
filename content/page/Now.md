@@ -8,7 +8,7 @@ _Last updated in May 2024_
 
 ![A screen of a digital SLR camera displays an image of a person drawing on a whiteboard](https://res.cloudinary.com/dbi2zounq/image/upload/v1716494193/ofn1vadda593bdw5zng6.jpg)
 
-Here i am at the [Gerimedica](https://gerimedica.nl) office, posing for an employer branding photoshoot. I usually don't use that whiteboard to draw anything, but that _is_ my desk in the background, and that smile is genuine. I gave a great talk at our periodic company update, and I feel I'm doing good work that helps the company reach its goals. It's a good day. The days have been good.
+Here I am at the [Gerimedica](https://gerimedica.nl) office, posing for an employer branding photoshoot. I usually don't use that whiteboard to draw anything, but that _is_ my desk in the background, and that smile is genuine. I gave a great talk at our periodic company update, and I feel I'm doing good work that helps the company reach its goals. It's a good day. The days have been good.
 
 ### Right now, I'm
 

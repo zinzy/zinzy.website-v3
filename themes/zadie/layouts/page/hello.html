@@ -1,0 +1,39 @@
+{{ define "main" }}
+
+{{ partial "back_link.html" .}}
+
+<article class="prose dark:prose-invert">
+  <header class="prose prose-gray dark:prose-invert mb-14">
+      <h2 class="p-name">{{ .Title }}</h2>
+      <p class="text-secondary">{{ .Description }}</p>
+  </header>
+
+  <section class="my-20 prose prose-gray dark:prose-invert">
+    {{ .Content }}
+  </section>
+
+  <form action="https://getform.io/f/724d9a8c-269b-43c7-ad66-4b966655b03b" method="POST" id="form">
+    <div>
+      <label for="formName" class="">Name</label>
+      <input class="" type="text" name="Name" id="formName" placeholder="John Doe">
+    </div>
+
+    <div class="">
+        <label class="" for="formEmail">Email</label>
+        <input type="email" name="Email" id="formEmail" placeholder="email@domain.com">
+    </div>
+
+    <div>
+        <label  class="" for="formMessage">Message</label>
+        <textarea type="text" name="Message" id="formMessage" rows="10"></textarea>
+    </div>
+
+  <!-- add hidden Honeypot input to prevent spams -->
+  <input type="hidden" name="_gotcha" style="display:none !important">
+  <div class="text-right mt-5">
+      <button type="submit" name="Submit" class="button block md:inline-block">Send</button>
+  </div>
+</form>
+</article>
+
+{{ end }}

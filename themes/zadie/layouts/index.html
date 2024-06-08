@@ -1,0 +1,35 @@
+{{ define "main" }}
+
+
+<section class="my-28 prose dark:prose-invert">
+  <p>Welcome to the world wide web homepage of Zinzy Waleson Geene. This is a space for soft stances, lived experiences, and critical notes on the things I hold dear. You are most welcome to learn more <a href="/about">about me</a>, what I'm doing <a href="/now">now</a>, what I do for <a href="/work">work</a> or how you can <a href="/hello">say hello</a>.</p>
+</section>
+
+<section class="my-28">
+
+{{ $feed := where .Site.RegularPages "Type" "posts"  }} 
+
+{{ range $feed.GroupByDate "2006" }}
+<h3 class="mb-5">{{ .Key }}</h3>
+<ul class="list">
+  {{ range .Pages }}
+    <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+  {{ end }}
+</ul>
+{{ end }}
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{{ end }}

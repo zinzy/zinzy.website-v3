@@ -1,0 +1,19 @@
+{{ define "main" }}
+{{ partial "back_link.html" .}}
+
+<article class="h-entry prose prose-gray dark:prose-invert">
+    <header>
+        <h2 class="p-name">{{ .Title }}</h2>
+    </header>
+ 
+    {{ if .Params.toc }}
+        <aside {{ if .Params.tocBorder }} class="toc" {{ end }}>
+            {{ .TableOfContents }}
+        </aside>
+    {{ end }}
+
+    <div class="e-content">
+        {{ .Content }}
+    </div>
+</article>
+{{ end }}

@@ -9,14 +9,6 @@ I'm a User Experience (UX) practitioner. That's a jargon-y way of saying I desig
 
 For the past 17 years, I've worked as a researcher, developer, designer, strategist, design manager, and product manager in technology companies across a variety of industries. I'm strategic in my perspective, and tactical in my day-to-day. Whatever I do, I do just enough of it to solve a problem.
 
-{{< rawhtml >}}
-
-<figure>
-  <img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1673958111/me/zinzy-at-a-party_vrzlqr.jpg" alt="">
-  <figcaption>Here I am with Robin (left) and Michar (right) at an Airtrade office part in 2019.</figcaption>
-</figure>
-{{< /rawhtml >}} 
-
 ### In my last 360 review,
 What stood out in coworker feedback were my high standards and professionalism, rapid production pace, the bridge I provide between business and technology, my ability to make the difficult easy to understand, my critical and creative perspective, the sense that I meet people where they are, and the warmth and humor they experience in our encounters.
 
