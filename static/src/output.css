@@ -96,3 +96,7 @@ body {
   color: white;
 }
 } */
+
+.hidden {
+  display: none !important;
+}
