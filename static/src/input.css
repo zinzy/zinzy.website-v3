@@ -13,6 +13,7 @@ body, html {
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   max-width: 700px;
+  @apply text-gray-950 dark:text-white;
 }
 .prose :where(a):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
   font-weight: normal !important;
