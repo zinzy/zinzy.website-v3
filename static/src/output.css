@@ -1516,14 +1516,20 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-figure {
-  figcaption {
-    margin-top: 1rem;
-    font-size: 80%;
-  }
+figure figcaption {
+  margin-top: 1rem;
+  font-size: 80%;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  --tw-text-opacity: 1;
+  color: rgb(107 114 128 / var(--tw-text-opacity));
 }
 
 @media (prefers-color-scheme: dark) {
+  figure figcaption {
+    color: rgb(255 255 255 / 0.5);
+  }
+
   .dark\:prose-invert {
     --tw-prose-body: var(--tw-prose-invert-body);
     --tw-prose-headings: var(--tw-prose-invert-headings);

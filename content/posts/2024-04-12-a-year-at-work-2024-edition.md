@@ -31,13 +31,8 @@ I suppose the beauty of experience is that it's easier to form trustworthy opini
 
 Because I'm the sole designer at the company, staying connected to the design community is crucial for me. I reserve a few moments each week to mentor designers through [ADPList](https://adplist.org/mentors/zinzy-nev-geene), even bringing someone in for a one-day internship. My manager encourages this tirelessly.
 
-{{< rawhtml >}}
-
-<div class="flex gap-4">
-<img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1712928423/linkedin_ihjfo9.jpg" class="w-1/2" alt="">
-<img src="https://res.cloudinary.com/dbi2zounq/image/upload/w_1300/v1712755362/zinzy.website/zinzy-design-mentor_cbjx5d.jpg" class="w-1/2" alt="">
-</div>
-{{< /rawhtml >}}
+![](https://res.cloudinary.com/dbi2zounq/image/upload/v1712928423/linkedin_ihjfo9.jpg)
+![](https://res.cloudinary.com/dbi2zounq/image/upload/w_1300/v1712755362/zinzy.website/zinzy-design-mentor_cbjx5d.jpg)
 
 ### Tough challenges, learner's mindsets
 
@@ -57,13 +52,10 @@ I pause and think about that often.
 
 He's the only person at our company who lived in a waterfall kind of world. I've never met a leaner engineer in my life. Collaborating with him, the R&D team, and our various Scrum teams is helping me look more clearly at all the times in my career when the statement "we're agile" became a whole new type of waterfall in itself.
 
-{{< rawhtml >}}
 
-<div class="flex gap-4">
-<img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1712929891/1696945984679_z1sqmz.jpg" class="w-1/2" alt="">
-<img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1712929890/1684850435276_zz6lbf.jpg" class="w-1/2" alt="">
-</div>
-{{< /rawhtml >}}
+![](https://res.cloudinary.com/dbi2zounq/image/upload/v1712929891/1696945984679_z1sqmz.jpg)
+![](https://res.cloudinary.com/dbi2zounq/image/upload/v1712929890/1684850435276_zz6lbf.jpg)
+
 
 ### The value of feedback
 

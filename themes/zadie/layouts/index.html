@@ -14,10 +14,6 @@
         <div class="flex-none"><a href="{{ .Permalink }}">{{.Title}}</a></div>
         <div class="hidden md:block grow border-t mt-3 ml-3"></div>
         <div class="flex-none">
-          <!-- <time class=""
-              >{{- (.Date | time.Format site.Params.theme_config.date_format)
-              }}</time
-            > -->
         </div>
     </li>
     {{ end }} 
@@ -33,7 +29,7 @@
         <div class="flex-none"><a href="{{ .Permalink }}">{{.Title}}</a></div>
         <div class="hidden md:block grow border-t m-3 mb-0"></div>
         <div class="flex-none">
-          <time class="font-mono text-sm"
+          <time class="text-secondary"
               >{{- (.Date | time.Format site.Params.theme_config.date_format)
               }}</time
             >
