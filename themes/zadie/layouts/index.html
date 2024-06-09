@@ -1,22 +1,46 @@
 {{ define "main" }}
 
 
-<section class="my-28 prose dark:prose-invert">
-  <p>Welcome to the world wide web homepage of Zinzy Waleson Geene. This is a space for soft stances, lived experiences, and critical notes on the things I hold dear. You are most welcome to learn more <a href="/about">about me</a>, what I'm doing <a href="/now">now</a>, what I do for <a href="/work">work</a> or how you can <a href="/hello">say hello</a>.</p>
+<section class="my-14 prose prose-gray dark:prose-invert">
+  <p>Welcome to the <a href="/site">world wide web homepage</a> of Zinzy Waleson Geene. I've been yelling at Internet clouds since 1997. This is a space for soft stances, lived experiences, and critical notes on the things I hold dear. You are most welcome to learn more <a href="/about">about me</a>, what I'm doing <a href="/now">now</a>, what I do for <a href="/work">work</a> or how you can <a href="/hello">say hello</a>.</p>
 </section>
 
-<section class="my-28">
+<section class="my-14">
+  {{ $pages := where .Site.RegularPages "Type" "page"  }} 
+  <h2 class="mb-5">Information</h2>
+  <ul class="feed"> 
+    {{ range $pages }}
+      <li class="flex">
+        <div class="flex-none"><a href="{{ .Permalink }}">{{.Title}}</a></div>
+        <div class="hidden md:block grow border-t mt-3 ml-3"></div>
+        <div class="flex-none">
+          <!-- <time class=""
+              >{{- (.Date | time.Format site.Params.theme_config.date_format)
+              }}</time
+            > -->
+        </div>
+    </li>
+    {{ end }} 
+  </ul> 
+</section>
 
-{{ $feed := where .Site.RegularPages "Type" "posts"  }} 
-
-{{ range $feed.GroupByDate "2006" }}
-<h3 class="mb-5">{{ .Key }}</h3>
-<ul class="list">
-  {{ range .Pages }}
-    <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
-  {{ end }}
-</ul>
-{{ end }}
+<section class="my-14">
+  {{ $feed := where .Site.RegularPages "Type" "posts"  }} 
+  <h2 class="mb-5">Writing</h2>
+  <ul class="feed"> 
+    {{ range $feed }}
+      <li class="md:flex mb-3 md:mb-0">
+        <div class="flex-none"><a href="{{ .Permalink }}">{{.Title}}</a></div>
+        <div class="hidden md:block grow border-t m-3 mb-0"></div>
+        <div class="flex-none">
+          <time class="font-mono text-sm"
+              >{{- (.Date | time.Format site.Params.theme_config.date_format)
+              }}</time
+            >
+        </div>
+    </li>
+    {{ end }} 
+  </ul> 
 </section>
 
 

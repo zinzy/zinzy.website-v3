@@ -1,6 +1,6 @@
 ---
 title: Changelog
-share: true
+draft: true
 section: page
 description: ""
 ---

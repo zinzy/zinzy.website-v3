@@ -23,7 +23,7 @@ module.exports = {
             '--tw-prose-body': theme('colors.gray[950]'),
             '--tw-prose-headings': theme('colors.gray[500]'),
             '--tw-prose-lead': theme('colors.gray[500]'),
-            '--tw-prose-links': theme('colors.blue[600]'),
+            '--tw-prose-links': theme('colors.gray[950]'),
             '--tw-prose-bold': theme('colors.gray[800]'),
             '--tw-prose-counters': theme('colors.gray[800]'),
             '--tw-prose-bullets': theme('colors.gray[800]'),

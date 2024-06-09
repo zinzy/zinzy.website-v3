@@ -1,8 +1,8 @@
 {{ define "main" }}
 {{ partial "back_link.html" .}}
 
-<article class="h-entry">
-    <header class="">
+<article class="h-entry prose prose-gray dark:prose-invert">
+    <header class="mb-14">
         <h2 class="p-name">{{ .Title }}</h2>
         <div class="">
             <time class="dt-published inline-block text-gray-500 dark:text-white/50" datetime="{{ .Date }}">
@@ -16,9 +16,7 @@
     </content>
 
      
-<footer>
-    <p>Thank you for reading! I'm curious to hear your thoughts, so feel free to <a href="/hello">say hello</a>.</p>
-</footer>
+    {{- partial "hello.html" . -}}
 
 </article>
 

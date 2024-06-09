@@ -1,5 +1,6 @@
 ---
 title: Style
+draft: true
 layout: page
 description: Interface elements
 ---

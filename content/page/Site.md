@@ -50,15 +50,6 @@ Unless otherwise stated, as per [CC BY-NC-SA 4.0](http://creativecommons.org/lic
 
 I respect your digital sovereignty. I do not track your personal data nor the journey you take on this website or any others. While I do my best to minimize this, please remember that, while [I don't track you, others might](https://www.zylstra.org/blog/2020/01/i-dont-track-you-here-but-others-might/).
 
-### To do
-
-- [ ] Save highlights on website
-- [ ] [Acceptable accessibility](https://www.a11yproject.com/)
-- [ ] [Tufte-style footnotes](https://edwardtufte.github.io/tufte-css/)
-- [ ] Guestbook
-- [ ] State for nonexistent wiki notes
-- [ ] Fix double build
-
 {{< rawhtml >}}
-<a href="/img/banner.svg" target="_blank" rel="noopener noreferrer"><img src="/img/banner.svg" alt=""></a>
+<a href="/img/banner.svg" target="_blank" rel="noopener noreferrer"><img src="/img/banner.svg" style="width: 80px" alt=""></a>
 {{< /rawhtml >}}

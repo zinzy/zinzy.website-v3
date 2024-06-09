@@ -1,6 +1,6 @@
 ---
 title: Manual
-share: true
+draft: true
 section: page
 description: ""
 ---
