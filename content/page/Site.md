@@ -5,17 +5,21 @@ title: Site
 description: About this website
 ---
 
-I grew up on the Internet in a time when social media meant writing comments on other people's hand-built blogs. The sense of whimsy, coziness, and a beautiful lack of information overload are highs I have been chasing ever since. The Web 1.0 has instilled in me a deep appreciation for a small-scale, intimate, and friendly Internet made up of hand-crafted websites. This is one of them.
+I grew up on the Internet in a time when social media meant writing comments on other people's hand-built blogs. The sense of whimsy, coziness, and a beautiful lack of information overload are highs I have been chasing ever since.
+
+The Web 1.0 has instilled in me a deep appreciation for a small-scale, intimate, and friendly Internet made up of hand-crafted websites. This is one of them.
 
 I’ve been yelling at Internet clouds since 1997.
 
 ---
 
 ### "What do you do here?"
-This is the only website I have; it details my personal as well as my professional interests and endeavors. With it, I celebrate my vulnerability, lack of awareness, and change of heart. It consists mostly of English language text, as well as images produced by myself.
+As a designer, it may be a tad embarrassing if I _didn't_ have a personal website. Through our own websites, designers and engineers can demonstrate their craft. Still, this website doesn't exist at the mercy of my professional life.
 
-### "Why does this site look... unfinished?"
-I don't know when you're reading this, but chances are that, when you do, this website looks unusual in one way or another. As a designer, my days are made up of making decisions that benefit both the people who use my creations and the people who pay me to make them. On this website, all bets are off. I happen to love the way plain text looks against a white canvas.
+This is the only website I have; it details my personal interests as well as my professional endeavors. With it, I celebrate my curiosity, vulnerability, lack of awareness, and change of heart. As of the summer of 2024, this website is a text-only website.
+
+### "I thought you were a designer. Why does this site look so... unfinished?"
+I don't know when you're reading this, but chances are that, when you do, this website looks unusual in one way or another. At work, my days are made up of decisions that benefit both the people who use my creations and the people who pay me to make them. On this website, all bets are off. I happen to love the way plain text looks against a simple canvas. Let's call it ~~minimalism~~ boring.
 
 ---
 
@@ -49,6 +53,10 @@ Unless otherwise stated, as per [CC BY-NC-SA 4.0](http://creativecommons.org/lic
 ### Privacy
 
 I respect your digital sovereignty. I do not track your personal data nor the journey you take on this website or any others. While I do my best to minimize this, please remember that, while [I don't track you, others might](https://www.zylstra.org/blog/2020/01/i-dont-track-you-here-but-others-might/).
+
+### Sorry, I lied
+
+There is one image on this website. It is this site banner:
 
 {{< rawhtml >}}
 <a href="/img/banner.svg" target="_blank" rel="noopener noreferrer"><img src="/img/banner.svg" style="width: 80px" alt=""></a>

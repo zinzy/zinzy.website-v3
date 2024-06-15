@@ -24,6 +24,9 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
 }
 
+.text-primary {
+  @apply text-gray-950 dark:text-white;
+}
 .text-secondary {
   @apply text-gray-500 dark:text-white/50;
 }
@@ -38,4 +41,12 @@ figure figcaption {
   margin-top: 1rem;
   font-size: 80%;
   @apply text-secondary text-sm;
+}
+
+.message {
+  border-radius: 20px;
+  padding: 8px 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: inline-block;
 }
