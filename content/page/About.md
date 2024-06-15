@@ -3,12 +3,12 @@ title: About
 layout: page
 description: Wow, there's a lot happening.
 ---
-{{< rawhtml >}}
+<!-- {{< rawhtml >}}
 <figure>
   <img src="https://res.cloudinary.com/dbi2zounq/image/upload/w_1300/v1692260666/IMG_4778_fm3g1i.jpg" alt="">
   <figcaption>Here's me in the summer of 2023, relaxing deeply in a Norwegian cabin overlooking a beautiful fjord</figcaption>
 </figure>
-{{< /rawhtml >}}
+{{< /rawhtml >}} -->
 
 
 Hello, I’m Zinzy Waleson Geene and this is my personal website; a home for soft stances, lived experiences, and critical notes on the things I hold dear.

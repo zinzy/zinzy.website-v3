@@ -1,7 +1,7 @@
 ---
 share: true
 section: posts
-draft: false
+draft: true
 title: A series of paintings
 date: 2014-04-01
 tags:

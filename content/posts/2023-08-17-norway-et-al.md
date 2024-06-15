@@ -16,8 +16,8 @@ faces:
 ---
 
 
-
-<img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,w_1400/v1692260659/IMG_4735_mxgbxc.jpg">
+<!-- 
+<img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,w_1400/v1692260659/IMG_4735_mxgbxc.jpg"> -->
 
 After two weeks in Scandinavia, it's clear: we are both too Dutch for proper recycling. Secretly hoarding our trash to avoid a reprimanding from our AirBnb host as he hovers over his six-compartment recycling bin, we continue our trip from rural Sweden to Copenhagen looking for a public recycling station.
 
@@ -31,15 +31,15 @@ After two weeks in Scandinavia, it's clear: we are both too Dutch for proper rec
 
 By now, we're home again, back from our first proper vacation in four years, and boy oh boy, did we need it.
 
-<img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,h_1400/v1692260665/IMG_5143_zgqdss.jpg">
+<!-- <img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,h_1400/v1692260665/IMG_5143_zgqdss.jpg"> -->
 
 Our plan was simple: make Anja's dream come true by renting a Tesla, drive it to Norway, do nothing there for a week, and then spend another week slowly making our way back via the Swedish countryside, and Copenhagen, where our friends live.
 
 After two long, well-airconditioned days in our wonderful car we made it to Eastern Norway. In Hallingdal, one of the country's most popular ski destinations, we found a beautiful and cozy cabin on top of a mountain, overlooking the Tisleifjorden. To our surprise, it proved the perfect getaway for people who didn't really want to... _do_ anything.
 
-<img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,w_1400/v1692260664/IMG_4771_w0rdef.jpg" />
+<!-- <img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,w_1400/v1692260664/IMG_4771_w0rdef.jpg" />
 
-<img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,w_1400/v1692260657/IMG_4764_wegskx.jpg" />
+<img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,w_1400/v1692260657/IMG_4764_wegskx.jpg" /> -->
 
 It's indeed exquisite, the Norwegian faith in our human ability to treat nature with respect. Quietly, it makes an enormous difference. The difference is in the shared understanding of where we leave our trash. It's in the thousands of cabins spread out across the country, [where travellers can stay for next to nothing](https://english.dnt.no/). It's in the fire wood left behind in the [freely-accessible _grillhytte_](https://www.facebook.com/golsfjelletvest/posts/pfbid021q9V7g4XeKd5Wz3QfEbxmsBHWVYmEHEb9mqBT4mn1F34SUCe8LoafcfE6fE61pQBl?locale=nl_NL). It's in the canoe that just lays by the water, available to anyone.
 
@@ -47,25 +47,25 @@ It's indeed exquisite, the Norwegian faith in our human ability to treat nature 
 
 We never kept our doors unlocked, of course. The city is embedded in our system too deeply, as were the countless "cabin in the woods" movie plots I remembered. If anything, though, it helped us pause, listen to the sound of nothing, and listen to our bodies, which were telling us to take that second nap of the day.
 
-<img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,h_1400/v1692260657/FullSizeRender_6_wlkfj3.jpg">
+<!-- <img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,h_1400/v1692260657/FullSizeRender_6_wlkfj3.jpg">
 
 <img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,w_1400/v1692260666/IMG_4778_fm3g1i.jpg">
 
-<img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,h_1400/v1692260656/FullSizeRender_1_ci1pqv.jpg">
+<img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,h_1400/v1692260656/FullSizeRender_1_ci1pqv.jpg"> -->
 
 On Sunday, one day earlier than intended, we swiftly packed the car and drove all night to Lidköping, by Vänern, Sweden's largest lake. While we'd been napping and relaxing, the world was reading the headlines about Storm Hans, a twice-a-century type of storm that would've gotten us stuck on that mountain if we hadn't left when we did. That three hours of driving through landslide-prone mountains wasn't going to be pleasant, even in a well-heated Tesla.
 
 The clouds were low as we drove off.
 
-<img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,w_1400/v1692260661/IMG_5247_q6xbsb.jpg">
+<!-- <img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,w_1400/v1692260661/IMG_5247_q6xbsb.jpg"> -->
 
 Copenhagen, _kubnhawn_ for the in-crowd, was a lot lighter, sunnier, and safer. We stayed with Naomi, Shlomik and little Goldie. Their cute, young family, the house, and the fact that were surrounded by thousands of people everywhere we went, was everything I needed after the quiet Norwegian fjords. One day exploring the city was enough to convince me: I need to visit again.
 
-<img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,w_1400/v1692260654/IMG_5556_zetoqz.jpg">
+<!-- <img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,w_1400/v1692260654/IMG_5556_zetoqz.jpg">
 
 <img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,h_1400/v1692260660/FullSizeRender_24_or4mju.jpg">
 
-<img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,h_1400/v1692260655/FullSizeRender_23_zsjphm.jpg">
+<img src="https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,h_1400/v1692260655/FullSizeRender_23_zsjphm.jpg"> -->
 
 ### Some preliminary (mostly food-related) highlights from two weeks in Norway, Sweden, and Denmark
 - So far, not impressed with Norwegian bakeries

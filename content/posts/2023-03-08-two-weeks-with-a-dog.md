@@ -14,7 +14,7 @@ tags:
 
 Lemonade, Lemonade, Lemonade. Who knew I would ever become a dog person? Two weeks ago, we picked up our corgi Lemonade Zelda Loulé. There was a torrent of research both Anja and I did to prepare for this puppy. There was a birth announcement card. A [godmother](https://www.anneliewambeek.com/) was appointed. Here are some things I learned after two weeks with a dog.
 
-<div class="breakout">
+<!-- <div class="breakout">
     <div class="breakout-content">
         <div class="row">
             <div class="col-4">
@@ -28,7 +28,7 @@ Lemonade, Lemonade, Lemonade. Who knew I would ever become a dog person? Two wee
             </div>
         </div>
     </div>
-</div>
+</div> -->
 
 
 ### The ROI of good research

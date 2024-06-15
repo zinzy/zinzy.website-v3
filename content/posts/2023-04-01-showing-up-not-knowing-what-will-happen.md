@@ -13,7 +13,7 @@ tags:
 ---
 
 
-![](https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,w_1300/v1680341586/zinzy.website/B941CB5A-069A-4130-869C-39C1D63CCD16_miulig.jpg)
+<!-- ![](https://res.cloudinary.com/dbi2zounq/image/upload/c_scale,w_1300/v1680341586/zinzy.website/B941CB5A-069A-4130-869C-39C1D63CCD16_miulig.jpg) -->
 
 I met Shervin at the coffee place this morning. We know each other very casually; we used to frequent the same co-working space, we're LinkedIn friends. He has one of those faces that you just want to meet with a smile. 
 

@@ -1,6 +1,7 @@
 ---
 title: Snapshots
 date: 2006-07-17
+draft: true
 tags:
   - photography
 ---

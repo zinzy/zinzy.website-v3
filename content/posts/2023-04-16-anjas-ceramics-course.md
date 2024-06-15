@@ -19,10 +19,10 @@ Today, Lemonade and I visited [Studio Pansa Amstel](https://www.studiopansa.com/
 
 I saw dozens of gorgeous little cups in the making, each with a unique maker's mark and the intricate details only found in things that were crafted by hands. I think I'll sign up for one of Pansa's courses myself some day. 
 
-<div class="breakout">
+<!-- <div class="breakout">
     <div class="breakout-content">
         <img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1681746974/2023-04-16_1_btgjvq.jpg" alt="" class="mb-5">
         <img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1681746974/2023-04-16_5_m7uc31.jpg" alt="" class="mb-5">
         <img src="https://res.cloudinary.com/dbi2zounq/image/upload/v1681746974/2023-04-16_2_k1jgtv.jpg" alt="" class="mb-5">
     </div>
-</div>
+</div> -->

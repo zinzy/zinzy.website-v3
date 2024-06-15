@@ -17,7 +17,7 @@ faces:
 ---
 
 
-![](https://res.cloudinary.com/dbi2zounq/image/upload/v1681285678/zinzy.website/2023-04-11_qaysnk.jpg)
+<!-- ![](https://res.cloudinary.com/dbi2zounq/image/upload/v1681285678/zinzy.website/2023-04-11_qaysnk.jpg) -->
 
 What I love most about today's snapshot is the despair I can see in Lemonade's eyes even when her entire body is a background blur. DJ is a calm 12-year-old dog, and Lemonade was thrilled to see another dog in our home for the first time, but her energy level was high enough that I eventually brought her back to her crate. It was right in time, too, because the afternoon light filling the living room made for a nice little portrait.
 

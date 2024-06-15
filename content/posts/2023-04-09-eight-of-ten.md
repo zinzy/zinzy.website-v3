@@ -17,7 +17,7 @@ faces:
 ---
 
 
-![](https://res.cloudinary.com/dbi2zounq/image/upload/v1681106797/zinzy.website/2023-04-09_hingfw.jpg)
+<!-- ![](https://res.cloudinary.com/dbi2zounq/image/upload/v1681106797/zinzy.website/2023-04-09_hingfw.jpg) -->
 
 When I first set foot in the [Old Catholic Church](https://amsterdam.oudkatholiek.nl/) to attend an All Saints service, [I knew I had found a special place](/2023/02/12/all-saints-amsterdam/). Today is the third time I make it to their service, which is always on the second Sunday of the month.
 

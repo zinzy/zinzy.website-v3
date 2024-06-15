@@ -21,7 +21,7 @@ Working in travel technology, my experience of the outbreak of Covid 19 was colo
 Anja and I have a different disposition. Both of us have sensitive danger antennas. They were activated on numerous occasions since late last year, with us getting increasingly more worried every time the word "Covid" was mentioned on the news.
 
 Still, by early March, I was coming into the office every day, telling myself I was being too cautious. Until one day...
-
+<!-- 
 <div class="breakout">
     <div class="breakout-content">
         <div class="row">
@@ -39,7 +39,7 @@ Still, by early March, I was coming into the office every day, telling myself I 
             </div>
         </div>
     </div>
-</div>
+</div> -->
 
 Looking back, I suppose I'm lucky to have one colleague with an immunocompromised wife. I'll never forget the way he leaned back in his chair when I came closer to ask him a question. Rightly so, it turned out, because within a day Anja developed a cough I had never heard before in my life.
 
@@ -50,7 +50,7 @@ I know it's difficult to imagine, but travel back with me to the beginning of th
 It wasn't until two weeks in that Anja was invited to come to a pop-up testing facility. Not the ones we have now, but a doctor's office somewhere in Amsterdam that had been turned into a quarantine zone, people in white suits everywhere. Two weeks after that, we had an appointment at the hospital, which had built a testing facility in the parking lot. I waited outside in a tent with a heater as Anja underwent a battery of tests.
 
 The man who went in before her was admitted to the ICU. I prayed rosary after rosary, wondering how in the world I'd get the car home without a license. What felt like hours was really 18 minutes when Anja walked out of the facility. Her cough was terrible, but it wasn't long Covid. Meanwhile, my Covid was barely a sniffle.
-
+<!-- 
 <div class="breakout">
     <div class="breakout-content">
         <div class="row">
@@ -68,7 +68,7 @@ The man who went in before her was admitted to the ICU. I prayed rosary after ro
             </div>
         </div>
     </div>
-</div>
+</div> -->
 
 For a while, I used Instagram to chronicle our experiences. I was getting hundreds of messages a day, and sharing little stories on the platform was a quicker way of updating everyone. I was just going through the archive and noticed that, at some point, the Covid-themed stories just stopped. It's because, after six weeks or so, Anja slowly started to feel better.
 
