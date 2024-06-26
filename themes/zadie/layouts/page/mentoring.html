@@ -2,13 +2,21 @@
 
 <article>
   <header class="h-entry prose prose-gray my-12 dark:prose-invert">
-    <h2 class="p-name">{{ .Title }}</h2>
+    <h2 class="p-name mb-0">{{ .Title }}</h2>
     <p class="text-secondary">{{ .Description }}</p>
   </header>
 
   <div class="prose dark:prose-invert">
     <section>
-      <p>I'm a volunteer mentor reserving some of my working hours to coach researchers and designers. The people I speak with are a diverse, friendly bunch: seasoned practitioners with specific problems at the office, newbies looking for a portfolio review, mid-weight designers looking for a raise, and anyone in between. You may <a href="#before-you-book">book a session</a> with me any time through ADPList.</p>
+      <p>
+        I'm a volunteer mentor reserving some of my working hours to coach
+        researchers and designers. The people I speak with are a diverse,
+        friendly bunch: seasoned practitioners with specific problems at the
+        office, newbies looking for a portfolio review, mid-weight designers
+        looking for a raise, and anyone in between. You may
+        <a href="#before-you-book">book a session</a> with me any time through
+        ADPList.
+      </p>
     </section>
   </div>
 
@@ -46,23 +54,28 @@
     </ul>
   </div>
 
-  <div id="before-you-book" class="pt-20 e-content h-entry prose prose-gray dark:prose-invert">
+  <div
+    id="before-you-book"
+    class="e-content h-entry prose prose-gray pt-20 dark:prose-invert"
+  >
     {{ .Content }}
   </div>
 
-<section class="mt-20">
-  {{ $notes := where .Site.RegularPages "Type" "notes" }}
-  <ul class="">
-    {{ range $notes }}
-    {{ if in .Params.tags "mentoring-guides" }}
-    <li class="-mx-3">
-      <a class="block rounded p-3 hover:bg-gray-50 dark:hover:bg-gray-900" href="{{ .Permalink }}">
-        {{ .Title }}</a>
-    </li>
-    {{ end }} 
-    {{ end }}
-  </ul>
-</section>
+  <section class="mt-20">
+    {{ $notes := where .Site.RegularPages "Type" "notes" }}
+    <ul class="">
+      {{ range $notes }} {{ if in .Params.tags "mentoring-guides" }}
+      <li class="-mx-3">
+        <a
+          class="block rounded p-3 hover:bg-gray-50 dark:hover:bg-gray-900"
+          href="{{ .Permalink }}"
+        >
+          {{ .Title }}</a
+        >
+      </li>
+      {{ end }} {{ end }}
+    </ul>
+  </section>
 
   {{ partial "backlinks.html" . }}
 </article>

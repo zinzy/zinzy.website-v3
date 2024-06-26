@@ -4,9 +4,9 @@
     <body class="antialiased mx-auto md:my-32 p-5 md:p-0 bg-white dark:bg-zinc-900" a="{{ $.Site.Params.theme_config.appearance | default "auto" }}">
         
 
-        <main class="page-content" aria-label="Content">
+        <main class="container mx-auto" aria-label="Content">
             {{- partial "header.html" . -}}
-            <div class="w">
+            <div class="">
                 {{- block "main" . }}{{- end }}
             </div>
             {{- partial "footer.html" . -}}

@@ -1,37 +1,78 @@
 {{ define "main" }}
 
-<section class="prose prose-gray my-14 dark:prose-invert">
+<section class="prose prose-gray mb-14 dark:prose-invert">
   <p>
-    Welcome to the <a href="/site">world wide web homepage</a> of Zinzy Waleson
-    Geene. I've been yelling at Internet clouds since 1997. This is a space for
-    soft stances, lived experiences, and critical notes on the things I hold
-    dear. It is deliberately free of imagery. This is a standing invitation to <a href="/hello">say hello</a>.
+    Welcome to my world wide web homepage, a place for soft stances, lived
+    experiences, and critical notes on the things I hold dear.
+    <a href="/about">I am Zinzy</a>, and I've been yelling at Internet clouds
+    since 1997.
+  </p>
+  <div
+    class="border-gray-150 shadow-subtle flex rounded-md border px-4 py-3 text-xs dark:border-gray-800 dark:bg-gray-900"
+  >
+    <div class="mr-4 flex-none content-center text-3xl">🗓️</div>
+    <div class="grow">
+      In early celebration of Amsterdam Pride I'll be a guest on
+      <a
+        href="https://www.eventbrite.nl/e/tbab-book-club-none-of-the-above-s04e07-tickets-791976652487?aff=oddtdtcreator"
+        target="_blank"
+        rel="noopener noreferrer"
+        >s04e07</a
+      >
+      of The Black Archives Bijlmer Book Club. We'll be reading
+      <em
+        ><a
+          href="https://www.goodreads.com/book/show/59788339-none-of-the-above?from_search=true&from_srp=true&qid=AAzKspamHl&rank=2"
+          target="_blank"
+          rel="noopener noreferrer"
+          >None of the Above</a
+        ></em
+      >
+      by Travis Alabanza.
+    </div>
+  </div>
+  <p>
+    For the past 17 years, I've been at <a href="/work">work</a> as a designer.
+    I'm specialized in making software for people at work. I'm also a
+    <a href="/mentoring">design mentor</a>. I dedicate my spare time to
+    <a href="/community-building">community-building</a>.
+  </p>
+  <p>
+    <a href="/site">This website</a> is perpetual in flux, and has writing going
+    back to 2006. I keep this <a href="/posts">archive</a> of awkward, snarky
+    posts with questionable opinions to remind myself I've changed.
+  </p>
+  <p>
+    You may be excited to <a href="/hello">say hello</a>, learn what I'm up to
+    <a href="/now">now</a> or <a href="/follow">follow</a> me around the
+    Internet.
   </p>
 </section>
 
-<section class="hidden my-14">
-  {{ $status := where .Site.RegularPages "Type" "status" }}
-    {{ range first 1 $status }}
-
-    <div class="flex flex-col w-full leading-1.5 p-5 border-gray-200 bg-gray-100 rounded-3xl rounded-tl-none dark:bg-gray-700">
-      <p class="text-gray-950">{{.Content}}</p>
-      <time class="text-xs text-secondary mt-2"
-            >{{- (.Date | time.Format site.Params.theme_config.date_format_archive)
-            }}</time
-          >
-   </div>
-    {{ end }}
+<!-- <section class="my-14">
+  {{ $pages := where .Site.RegularPages "Type" "page" }}
+  <h2 class="mb-5">Coming up</h2>
+  <div class="prose prose-gray dark:prose-invert">
+    <p>
+      On <strong>July 20, 2024</strong>, I'll be the 1+ at
+      <a
+        href="https://www.eventbrite.nl/e/tbab-book-club-none-of-the-above-s04e07-tickets-791976652487?aff=oddtdtcreator"
+        target="_blank"
+        rel="noopener noreferrer"
+        >S04E07</a
+      >
+      of The Black Archives Bijlmer Book Club.
+    </p>
+  </div>
 </section>
 
 <section class="my-14">
   {{ $pages := where .Site.RegularPages "Type" "page" }}
   <h2 class="mb-5">Information</h2>
-  <ul class="feed">
+  <ul class="columns-3">
     {{ range $pages }}
-    <li class="flex">
-      <div class="flex-none"><a href="{{ .Permalink }}">{{.Title}}</a></div>
-      <div class="ml-3 mt-3 hidden grow border-t md:block"></div>
-      <div class="flex-none"></div>
+    <li class="">
+      <a href="{{ .Permalink }}">{{.Title}}</a>
     </li>
     {{ end }}
   </ul>
@@ -54,6 +95,6 @@
     </li>
     {{ end }}
   </ul>
-</section>
+</section> -->
 
 {{ end }}

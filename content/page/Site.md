@@ -14,16 +14,19 @@ I’ve been yelling at Internet clouds since 1997.
 ---
 
 ### "What do you do here?"
+
 As a designer, it may be a tad embarrassing if I _didn't_ have a personal website. Through our own websites, designers and engineers can demonstrate their craft. Still, this website doesn't exist at the mercy of my professional life.
 
 This is the only website I have; it details my personal interests as well as my professional endeavors. With it, I celebrate my curiosity, vulnerability, lack of awareness, and change of heart. As of the summer of 2024, this website is a text-only website.
 
 ### "I thought you were a designer. Why does this site look so... unfinished?"
+
 I don't know when you're reading this, but chances are that, when you do, this website looks unusual in one way or another. At work, my days are made up of decisions that benefit both the people who use my creations and the people who pay me to make them. On this website, all bets are off. I happen to love the way plain text looks against a simple canvas. Let's call it ~~minimalism~~ boring.
 
 ---
 
 ### Site details
+
 - This website is a proud member of the [250kb club](https://250kb.club/zinzy-website/)
 - [Yellow Lab Tools](https://yellowlab.tools/result/got2ipv3ap) gives this site a 100/100 global score
 - It produces [0.00g of CO2](https://www.websitecarbon.com/website/zinzy-website/), is [hosted green](https://www.thegreenwebfoundation.org/green-web-check/?url=https%3A%2F%2Fzinzy.website) and has been designed to minimise the energy consumption and CO2 emissions that result from navigating the Internet
@@ -59,5 +62,5 @@ I respect your digital sovereignty. I do not track your personal data nor the jo
 There is one image on this website. It is this site banner:
 
 {{< rawhtml >}}
-<a href="/img/banner.svg" target="_blank" rel="noopener noreferrer"><img src="/img/banner.svg" style="width: 80px" alt=""></a>
+<a href="/img/banner.svg" target="_blank" rel="noopener noreferrer"><img src="/img/banner.svg" style="width: 80px; border-radius: 0;" class="rounded-none" alt=""></a>
 {{< /rawhtml >}}

@@ -16,5 +16,8 @@
     "build": "hugo --minify"
   },
   "author": "Zinzy Waleson Geene",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "tailwind-container-break-out": "^2.0.9"
+  }
 }

@@ -1,39 +1,62 @@
-{{ define "main" }}
-
-{{ partial "back_link.html" .}}
+{{ define "main" }} {{ partial "back_link.html" .}}
 
 <article class="prose dark:prose-invert">
-  <header class="prose prose-gray dark:prose-invert mb-14">
-      <h2 class="p-name">{{ .Title }}</h2>
-      <p class="text-secondary">{{ .Description }}</p>
+  <header class="prose prose-gray dark:prose-invert">
+    <h2 class="p-name mb-0">{{ .Title }}</h2>
+    <p class="text-secondary">{{ .Description }}</p>
   </header>
 
-  <section class="my-20 prose prose-gray dark:prose-invert">
+  <section class="prose prose-gray my-20 dark:prose-invert">
     {{ .Content }}
   </section>
 
-  <form action="https://getform.io/f/724d9a8c-269b-43c7-ad66-4b966655b03b" method="POST" id="form">
+  <form
+    action="https://getform.io/f/724d9a8c-269b-43c7-ad66-4b966655b03b"
+    method="POST"
+    id="form"
+  >
     <div>
       <label for="formName" class="">Name</label>
-      <input class="border block px-2 rounded w-full mt-2" type="text" name="Name" id="formName" placeholder="Joey Doe">
+      <input
+        class="mt-2 block w-full rounded border px-2"
+        type="text"
+        name="Name"
+        id="formName"
+        placeholder="Joey Doe"
+      />
     </div>
 
     <div class="mt-5">
-        <label class="" for="formEmail">Email</label>
-        <input class="border block px-2 rounded w-full mt-2" type="email" name="Email" id="formEmail" placeholder="email@domain.com">
+      <label class="" for="formEmail">Email</label>
+      <input
+        class="mt-2 block w-full rounded border px-2"
+        type="email"
+        name="Email"
+        id="formEmail"
+        placeholder="email@domain.com"
+      />
     </div>
 
     <div class="mt-5">
-        <label  class="" for="formMessage">Message</label>
-        <textarea class="border block px-2 rounded w-full mt-2" type="text" name="Message" id="formMessage" rows="10" placeholder="What would you like to share?"></textarea>
+      <label class="" for="formMessage">Message</label>
+      <textarea
+        class="mt-2 block w-full rounded border px-2"
+        type="text"
+        name="Message"
+        id="formMessage"
+        rows="10"
+        placeholder="What would you like to share?"
+      ></textarea>
     </div>
 
-  <!-- add hidden Honeypot input to prevent spams -->
-  <input type="hidden" name="_gotcha" style="display:none !important">
-  <div class="text-right mt-5">
-      <button type="submit" name="Submit" class="button block md:inline-block">Send</button>
-  </div>
-</form>
+    <!-- add hidden Honeypot input to prevent spams -->
+    <input type="hidden" name="_gotcha" style="display: none !important" />
+    <div class="mt-5 text-right">
+      <button type="submit" name="Submit" class="button block md:inline-block">
+        Send
+      </button>
+    </div>
+  </form>
 </article>
 
 {{ end }}

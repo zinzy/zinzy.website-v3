@@ -13,23 +13,21 @@
   <section>
     <div class="text-secondary my-10">Most recently...</div>
 
-    <section class="">
-      {{ $postsDefault := where .Site.RegularPages "Type" "posts" }}
+    {{ $postsDefault := where .Site.RegularPages "Type" "posts" }}
 
-      <ul class="">
-        {{ range first 5 $postsDefault }}
-        <li class="-mx-3">
-          <a class="block rounded p-3 hover:bg-gray-50" href="{{ .Permalink }}">
-            <span class="block">{{ .Title }}</span>
-            <time class="text-secondary text-sm"
-              >{{- (.Date | time.Format
-              site.Params.theme_config.date_format_archive) }}</time
-            >
-          </a>
-        </li>
-        {{ end }}
-      </ul>
-    </section>
+    <ul class="">
+      {{ range first 5 $postsDefault }}
+      <li class="-mx-3">
+        <a class="block rounded p-3 hover:bg-gray-50" href="{{ .Permalink }}">
+          <span class="block">{{ .Title }}</span>
+          <time class="text-secondary text-sm"
+            >{{- (.Date | time.Format
+            site.Params.theme_config.date_format_archive) }}</time
+          >
+        </a>
+      </li>
+      {{ end }}
+    </ul>
   </section>
 
   {{ partial "backlinks.html" . }}

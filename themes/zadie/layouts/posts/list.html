@@ -1,38 +1,33 @@
 {{ define "main" }} {{ partial "back_link.html" .}}
 
-<header class="prose prose-gray dark:prose-invert mb-20">
+<header class="prose prose-gray mb-20 dark:prose-invert">
   <h2 class="mb-5">{{ .Title }}</h2>
   <p class="text-secondary mb-7">
-      This website contains a large <a href="/feed">feed</a> of long-form posts and fleeting <a href="/updates">updates</a> going back to the mid-aughts. Some of them are thoughtful, others written in a hurry, left fleeting in a folder. I keep them here to remind myself that life is ever-evolving, as am I.
+    This website contains an archive of long-form posts going back to the
+    mid-aughts. Some of them are thoughtful, others written in a hurry, left
+    fleeting in a folder. I keep them here to remind myself that life is
+    ever-evolving, as am I.
   </p>
 </header>
 
+<section>
+  {{ $postsDefault := where .Site.RegularPages "Type" "posts" }}
 
-
-{{ $feed := where .Site.RegularPages "Type" "posts"  }} 
-<ul class="feed"> 
-  {{ range $feed }}
-    <li class="flex">
-      <div class="flex-none w-10 mt-[2px] flex flex-col">
-        <div class="">{{ partial "post_type_post.html" . }}</div>
-        <div class="grow border-l ml-2.5">&nbsp;
-        </div>
-
-      </div>
-      <div class="grow mb-5">
-        <h2><a href="{{ .Permalink }}">{{.Title}}</a></h2>
-        <a
-          href="{{ .Permalink }}"
-          class="mb-3 block text-gray-500 dark:text-white/50"
-          ><time class=""
-            >{{- (.Date | time.Format site.Params.theme_config.date_format_archive)
-            }}</time
-          ></a
+  <ul class="">
+    {{ range $postsDefault }}
+    <li class="-mx-3">
+      <a
+        class="hover:border-gray-150 hover:shadow-subtle rounded-md px-4 py-3 hover:border hover:dark:border-gray-800 hover:dark:bg-gray-900"
+        href="{{ .Permalink }}"
+      >
+        <span class="block">{{ .Title }}</span>
+        <time class="text-secondary text-sm"
+          >{{- (.Date | time.Format
+          site.Params.theme_config.date_format_archive) }}</time
         >
-      </div> 
-  </li>
-  {{ end }} 
-</ul> 
-
-
+      </a>
+    </li>
+    {{ end }}
+  </ul>
+</section>
 {{ end }}

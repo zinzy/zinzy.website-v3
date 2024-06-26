@@ -6,6 +6,10 @@ module.exports = {
     "./themes/zadie/layouts/**/*.html"
   ],
   theme: {
+    container: {
+      center: true,
+      padding: '1rem'
+    },
     fontFamily: {
       sans: ['system-ui', 'sans-serif'],
       serif: ['Times New Roman', 'sans-serif'],
@@ -20,8 +24,8 @@ module.exports = {
         },
         gray: {
           css: { 
-            '--tw-prose-body': theme('colors.gray[950]'),
-            '--tw-prose-headings': theme('colors.gray[500]'),
+            '--tw-prose-body': theme('colors.gray[700]'),
+            '--tw-prose-headings': theme('colors.gray[950]'),
             '--tw-prose-lead': theme('colors.gray[500]'),
             '--tw-prose-links': theme('colors.gray[950]'),
             '--tw-prose-bold': theme('colors.gray[800]'),
@@ -60,5 +64,6 @@ module.exports = {
   },
   plugins: [
     require('@tailwindcss/typography'),
+    require('tailwind-container-break-out')
   ],
 }

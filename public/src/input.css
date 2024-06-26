@@ -3,23 +3,44 @@
 @tailwind utilities;
 
 
+
+
 body, html {
-  font-size: 25px;   
+  font-size: 18px;  
+  @media screen and (min-width: 992px) {
+    font-size: 22px;  
+  } 
+  /* @media screen and (min-width: 1900px) {
+    font-size: 28px; 
+  } */
 }
 
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-  max-width: 700px;
+  /* max-width: 600px; */
+  @apply text-gray-950 dark:text-white; 
+}
+
+.container {
+  max-width: 600px !important;
+  /* @media screen and (min-width: 1900px) {
+    max-width: 800px !important;
+  } */
+}
+
+.prose {
+  @apply text-gray-700 dark:text-white/70;
 }
 .prose :where(a):not(:where([class~="not-prose"], [class~="not-prose"] *)) {
-  font-weight: normal !important;
+  /* font-weight: normal !important; */
+  text-decoration: none;
+  font-weight: 600;
+  @apply text-gray-950 dark:text-white;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-size: 100%;
-  font-weight: 400;
+.text-primary {
+  @apply text-gray-950 dark:text-white;
 }
-
 .text-secondary {
   @apply text-gray-500 dark:text-white/50;
 }
@@ -27,12 +48,46 @@ h1, h2, h3, h4, h5, h6 {
 
 .prose h1, .prose h2, .prose h3, .prose h4, .prose h5, .prose h6,
 h1, h2, h3, h4, h5, h6 {
-  @apply text-base font-normal text-secondary;
+  @apply font-medium;
 }
 
-figure {
-  figcaption {
-    margin-top: 1rem;
-    font-size: 80%;
+article {
+  header {
+    @apply mb-14
   }
+}
+
+figure figcaption {
+  margin-top: 1rem;
+  font-size: 80%;
+  @apply text-secondary text-xs;
+}
+
+.message {
+  border-radius: 20px;
+  padding: 8px 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+
+img {
+  @apply rounded-2xl;
+}
+
+
+
+.shadow-subtle {
+  -webkit-box-shadow: 0px 2px 84px -29px rgba(0,0,0,0.09);
+  -moz-box-shadow: 0px 2px 84px -29px rgba(0,0,0,0.09);
+  box-shadow: 0px 2px 84px -29px rgba(0,0,0,0.09);  
+}
+
+
+.prose :where(blockquote p:first-of-type):not(:where([class~="not-prose"],[class~="not-prose"] *))::before {
+  content: none;
+}
+
+.prose :where(blockquote p:last-of-type):not(:where([class~="not-prose"],[class~="not-prose"] *))::after {
+  content: none;
 }
