@@ -15,11 +15,8 @@
 
   <ul class="">
     {{ range $postsDefault }}
-    <li class="-mx-3">
-      <a
-        class="hover:border-gray-150 hover:shadow-subtle rounded-md px-4 py-3 hover:border hover:dark:border-gray-800 hover:dark:bg-gray-900"
-        href="{{ .Permalink }}"
-      >
+    <li class="mb-5">
+      <a class="" href="{{ .Permalink }}">
         <span class="block">{{ .Title }}</span>
         <time class="text-secondary text-sm"
           >{{- (.Date | time.Format
