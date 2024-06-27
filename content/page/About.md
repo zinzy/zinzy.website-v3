@@ -13,19 +13,21 @@ description: Wow, there's a lot happening.
 
 Hello, I’m Zinzy Waleson Geene. This is my personal website. I believe firmly in the practice of showing up in fullness; nuances and flaws included.
 
-That's why this website is a home for soft stances, lived experiences, and critical notes on the things I hold dear. No highlight reel, no likes, no follow button. You may [follow](/follow) me the old-fashioned way or, even better, [say hello](/hello).
+This website is a home for soft stances, lived experiences, and critical notes on the things I hold dear. No highlight reel, no likes, no follow button. You may [follow](/follow) me the old-fashioned way or, even better, [say hello](/hello).
 
-### In short
+I am what some may consider an edge case: Afropean, neurodivergent, queer, non-binary, Christian, living with trauma, and a survivor of domestic violence. It shows in some of the things you read here.
 
-I am what some would consider an edge case: Afropean, neurodivergent, queer, non-binary, a Jesus follower, and a survivor of domestic violence. Midway along the journey of my life (hopefully), I finally feel comfortable to say that my search for kinfolk is a bare necessity.
+If you meet me in person, you'll see I like to laugh a lot. It's not fake, either. I'm just thankful to be where I am today. I live and work in Amsterdam, and share my life and a petit garden with Anja and Lemonade. We live in the city's finest: de Indische Buurt.
 
 ### In long
 
-If you meet me in person, you'll see I like to laugh a lot. It's not fake, either. I'm just pleased to be where I am today. Ever since I was a child, I expected my mid-thirties to bring peace, clarity, and a reduction in fucks given. I was right. I'm looking forward to my mid-fifties.
+I'm of São Toméan and Dutch descent and come from a long line of loud, burgundian band geeks. I grew up in the narrow tail-end of the the Netherlands, bike rides away from both Belgium and Germany.
 
-I'm of São Toméan and Dutch descent and come from a long line of loud, burgundian band geeks. I grew up in the narrow tail-end of the the Netherlands, bike rides away from both Belgium and Germany. Being neurodivergent, queer, and a person of color meant I only began to feel a sense of belonging when I moved to Amsterdam. Its ability to help me recognize myself in the people around me will never seize to be a requirement for my living arrangements.
+I only began to feel a sense of belonging when I moved to Amsterdam. Its ability to help me recognize myself in the people around me will never seize to be a requirement for my living arrangements.
 
-While I had great plans for myself academically, I have yet to decide how I'll spend my Master's degree becoming what I want to be when I grow up. I studied Modern Lit and Linguistics at Utrecht University, and embarked on the VU University track to become a pastor. Meanwhile, I had started a design practice in 2007 that, by now, is an enjoyable career in Information Technology. Academia has taught me most of what I know about reading and writing. It also taught me that everything is a text.
+While I had great plans for myself academically, I have yet to decide how I'll spend my Master's degree becoming what I want to be when I grow up. I hold a degree in Literature and Linguistics from Utrecht University, and embarked on the VU University track to become a pastor.
+
+Meanwhile, I had started a design practice in 2007 that, by now, is an enjoyable career in Information Technology. Academia has taught me most of what I know about reading and writing. It also taught me that everything is a text.
 
 Music has always played an important role in my life. Like all my cousins and friends, I was enrolled in music classes from a very young age. Starting on the recorder, I eventually devoted myself to the trumpet, the oboe, and most other wind instruments found in your average local orchestra. In elementary school, I taught myself to play the guitar, which gave me access to a string of... string instruments. These days, you can often find me at the piano.
 
