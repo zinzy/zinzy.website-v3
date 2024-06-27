@@ -17,7 +17,7 @@
     {{ range $postsDefault }}
     <li class="mb-5">
       <a class="" href="{{ .Permalink }}">
-        <span class="block">{{ .Title }}</span>
+        <span class="block font-medium">{{ .Title }}</span>
         <time class="text-secondary text-sm"
           >{{- (.Date | time.Format
           site.Params.theme_config.date_format_archive) }}</time
