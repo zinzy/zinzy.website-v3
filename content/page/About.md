@@ -13,7 +13,7 @@ Hello, I’m Zinzy Waleson Geene. This is my personal website. I believe firmly 
 
 This website is a home for soft stances, lived experiences, and critical notes on the things I hold dear. No highlight reel, no likes, no follow button. You may [follow](/follow) me the old-fashioned way or, even better, [say hello](/hello).
 
-I am what some may consider an edge case: Afropean, neurodivergent, queer, non-binary, Christian, living with trauma, and a survivor of domestic violence. It shows in some of the things you read here.
+I am what some may consider an edge case: African bicultural, neurodivergent, queer, non-binary, following Jesus, and a survivor of adverse childhood experiences. It shows in some of the things you read here.
 
 If you meet me in person, you'll see I like to laugh a lot. It's not fake, either. I'm just thankful to be where I am today. I live and work in Amsterdam, and share my life and a petit garden with Anja and Lemonade. We live in the city's finest: de Indische Buurt.
 
