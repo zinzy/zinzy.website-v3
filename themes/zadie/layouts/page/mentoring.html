@@ -1,82 +1,40 @@
 {{ define "main" }} {{ partial "back_link.html" .}}
 
-<article>
-  <header class="h-entry prose prose-gray my-12 dark:prose-invert">
+<article class="h-entry prose prose-gray dark:prose-invert ">
+  <header class="my-12">
     <h2 class="p-name mb-0">{{ .Title }}</h2>
     <p class="text-secondary">{{ .Description }}</p>
   </header>
 
-  <div class="prose dark:prose-invert">
-    <section>
-      <p>
-        I'm a volunteer mentor reserving some of my working hours to coach
-        researchers and designers. The people I speak with are a diverse,
-        friendly bunch: seasoned practitioners with specific problems at the
-        office, newbies looking for a portfolio review, mid-weight designers
-        looking for a raise, and anyone in between. You may
-        <a href="#before-you-book">book a session</a> with me any time through
-        ADPList.
-      </p>
-    </section>
-  </div>
-
-  <figure class="my-20">
-    <img
-      src="https://res.cloudinary.com/dbi2zounq/image/upload/w_1300/v1712755362/zinzy.website/zinzy-design-mentor_cbjx5d.jpg"
-      alt=""
-    />
-    <figcaption
-      class="text-sm text-gray-500 dark:text-white dark:text-opacity-50"
-    >
-      Me and
-      <a href="https://www.linkedin.com/in/gabrielaroestandy/" target="_blank"
-        >Gabriela Roestandy</a
-      >
-      after a her one-day internship at the Gerimedica office
-    </figcaption>
-  </figure>
-
-  <div class="mt-20">
-    <h3 class="">What it's like to work with me</h3>
-    <ul class="mt-7 sm:columns-2">
-      {{ range sort $.Site.Data.mentoring "name" }}
-      <li class="mb-4 break-inside-avoid-column rounded border bg-gray-50 p-2">
-        <p>{{ .quote }}</p>
-        <p
-          class="mt-3 text-sm text-gray-500 dark:text-white dark:text-opacity-50"
-        >
-          <a href="{{ .url }}" target="_blank" rel="noopener noreferrer"
-            >{{ .name }}</a
-          >
-        </p>
-      </li>
-      {{ end }}
-    </ul>
-  </div>
-
-  <div
-    id="before-you-book"
-    class="e-content h-entry prose prose-gray pt-20 dark:prose-invert"
-  >
+  <content>
     {{ .Content }}
-  </div>
+  </content>
+  
 
-  <section class="mt-20">
-    {{ $notes := where .Site.RegularPages "Type" "notes" }}
-    <ul class="">
-      {{ range $notes }} {{ if in .Params.tags "mentoring-guides" }}
-      <li class="-mx-3">
-        <a
-          class="block rounded p-3 hover:bg-gray-50 dark:hover:bg-gray-900"
-          href="{{ .Permalink }}"
-        >
-          {{ .Title }}</a
-        >
-      </li>
-      {{ end }} {{ end }}
-    </ul>
-  </section>
+  <ul class="list-none m-0 p-0 mt-12">
+    {{ range sort $.Site.Data.mentoring "name" }}
+    <li class="text-xs group mb-10">
+      <p class="bg-gray-200 shadow-subtle rounded-2xl group-odd:rounded-bl-none group-even:rounded-br-none border px-4 py-3 dark:border-zinc-700 dark:bg-zinc-800">{{ .quote }}</p>
+      
+      <p
+        class="mt-3 flex group-even:justify-end"
+      >
+        <a href="{{ .url }}" target="_blank" rel="noopener noreferrer" class="flex font-normal"
+          >
 
-  {{ partial "backlinks.html" . }}
+          <span class="flex-none group-even:order-2">
+            <img src="{{ .img }}" alt="" class="w-8 rounded-full p-0 m-0 group-odd:mr-4 group-even:ml-4">
+          </span>
+          <span class="grow group-even:order-1 group-even:text-end">
+            <span class="block font-semibold">{{ .name }}</span>
+            <span class="block text-gray-700 dark:text-zinc-400 font-normal">{{ .jobTitle }}</span>
+          </span>
+          </a
+        >
+      </p>
+    </li>
+    {{ end }}
+  </ul>
+
 </article>
 {{ end }}

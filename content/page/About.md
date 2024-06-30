@@ -3,9 +3,7 @@ title: About
 layout: page
 description: Wow, there's a lot happening.
 ---
-
 {{< rawhtml >}}
-
   <div class="mx-break-out">
     <img src="/img/zinzy.jpg" class="w-full" />
   </div>

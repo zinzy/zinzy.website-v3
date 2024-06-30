@@ -13,10 +13,10 @@
 <section>
   {{ $postsDefault := where .Site.RegularPages "Type" "posts" }}
 
-  <ul class="">
+  <ul class="-mx-3">
     {{ range $postsDefault }}
     <li class="mb-5">
-      <a class="" href="{{ .Permalink }}">
+      <a class=" border border-gray-150 dark:border-zinc-700 dark:bg-zinc-800 hover:border-gray-300 p-3 rounded-md shadow-subtle block" href="{{ .Permalink }}">
         <span class="block font-medium">{{ .Title }}</span>
         <time class="text-secondary text-sm"
           >{{- (.Date | time.Format
