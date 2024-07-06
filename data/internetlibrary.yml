@@ -1,0 +1,455 @@
+- name: Internet library
+  children:
+    - name: "Origins"
+      description: "My interest in the Internet is a selfish one, it doesn't start until I did, in the mid 90s."
+      children:
+        - property: Tim Berners-Lee
+          description: "Inventor of the World Wide Web"
+          url: https://www.w3.org/People/Berners-Lee/
+        - property: Cunningham & Cunningham, Inc.
+          description: "Consultancy focused on object-oriented programming"
+          url: https://c2.com/
+        - property: Agile manifesto
+          description: "Maxims for product development"
+          url: https://agilemanifesto.org/
+    - name: "Friends and acquaintances"
+      children:
+        - property: Anja Waleson
+          description: "Bae"
+          url: https://anjawaleson.notion.site/Anja-Waleson-0182c8df804b4b12ab6e70b5b5795a55
+        - property: Annelie Wambeek
+          description: "DEIB consultant and facilitator, a funny woman, and a quiet power house"
+          url: https://www.anneliewambeek.com
+        - property: Maarten Brouwer
+          description: "Neighborhood IndieWeb acquaintance"
+          url: https://murb.nl
+        - property: Mehdi Rezazadeh
+          description: "My work husband"
+          url: https://www.mehdirezazadeh.dev
+        - property: Patrick "Pickles" Weston
+          description: "My favorite Midwesterner, trusted software engineer"
+          url: http://patrickfweston.com
+        - property: Pat Flores
+          description: "My favorite example of how people don't fit in one box"
+          url: https://www.realphototexas.com
+        - property: John D. Boy
+          description: "Social scientist with a knack for digital spaces"
+          url: https://www.jboy.space
+        - property: Elliott Cost
+          description: "One of those backbones of the Internet"
+          url: https://www.elliott.computer
+        - property: Patrick Rhone
+          description: "Personal multidisciplinary hero"
+          url: https://patrickrhone.net
+    - name: "Internet buddies"
+      children:
+        - property: Simone Silvestroni
+          url: https://minutestomidnight.co.uk
+        - property: Shannon Kay
+          url: https://blog.shannonkay.me
+        - property: Chris Wiegman
+          url: https://chriswiegman.com
+        - property: Derek Kedziora
+          url: https://derekkedziora.com
+        - property: Rachel J. Kwon
+          url: https://kwon.nyc
+        - property: Adrianna Tan
+          url: https://popagandhi.com
+        - property: Bindu Upadhyay
+          url: https://youbee.in
+        - property: Ru Singh
+          url: https://rusingh.com
+        - property: Barry Frost
+          url: https://barryfrost.com
+        - property: Karen L.
+          url: https://chronosaur.us/
+    - name: "(Personal) sites I like"
+      children:
+        - property: Aaron Swartz
+          url: http://www.aaronsw.com/
+        - property: Alessia Bellisario
+          url: https://aless.co
+        - property: Alison Wilder
+          url: https://alisonwilder.net
+        - property: Matt Haughey
+          url: https://a.wholelottanothing.org
+        - property: Barry Sampson
+          url: https://barrysampson.com
+        - property: Brain Baking
+          url: https://brainbaking.com
+        - property: Cal Newport
+          url: https://calnewport.com
+        - property: Cam Pegg
+          url: https://campegg.com
+        - property: Alex Cobleigh
+          url: https://cblgh.org
+        - property: Cameron Higby‑Naquin
+          url: https://chigby.org
+        - property: Christian Buhlmann
+          url: https://christianbuehlmann.com
+        - property: Rutherford Craze
+          url: https://craze.co.uk
+        - property: Cygnoir
+          url: https://cygnoir.net
+        - property: Daniel Sieger
+          url: https://danielsieger.com
+        - property: Daniel Zarick
+          url: https://danielzarick.com
+        - property: Daryl Manning
+          url: https://daryl.wakatara.com
+        - property: Artiom Dashinsky
+          url: https://dashinsky.com
+        - property: David Wolfpaw
+          url: https://davidwolfpaw.com
+        - property: Alexandra Deschamps-Sonsino
+          url: https://designswarm.com
+        - property: Phil Gyford
+          url: https://gyford.com
+        - property: Henry Leach
+          url: https://henryleach.com
+        - property: Matt Webb
+          url: https://interconnected.org
+        - property: Jason Cosper
+          url: https://jasoncosper.com
+        - property: Jan-Lukas Else
+          url: https://jlelse.blog
+        - property: Jamie Tanna
+          url: https://jvt.me
+        - property: Luke Harris
+          url: https://lkhrs.com
+        - property: Manuel Moreale
+          url: https://manuelmoreale.com
+        - property: Matthias Ott
+          url: https://matthiasott.com
+        - property: Adam Morse
+          url: https://mrmrs.cc
+        - property: Matias Kinnunen
+          url: https://mtsknn.fi
+        - property: Mu-An Chiou
+          url: https://muan.co
+        - property: Emma Stamm
+          url: https://o-culus.com
+        - property: Paco Coursey
+          url: https://paco.me
+        - property: Rob Hope
+          url: https://robhope.com
+        - property: Rousette
+          url: https://rousette.org.uk
+        - property: Sadgrl
+          url: https://sadgrl.online
+        - property: Sam Selikoff
+          url: https://samselikoff.com
+        - property: Shu Ding
+          url: https://shud.in
+        - property: Leon Paternoster
+          url: https://thisdaysportion.com
+        - property: Tom Hackshaw
+          url: https://tom.so
+        - property: Winnie Lim
+          url: https://winnielim.org
+        - property: Cole Jackowski
+          url: http://colejackowski.com
+        - property: Evan Travers
+          url: http://evantravers.com
+        - property: Savannah Million
+          url: http://savannahmillion.com
+        - property: Piette Buttin
+          url: http://www.pierrebuttin.com
+        - property: Karina Zavidova
+          url: http://zavidova.com
+        - property: Amy Hupe
+          url: https://amyhupe.co.uk
+        - property: Anders Jensen-Urstad
+          url: https://anders.unix.se
+        - property: Aral Balkan
+          url: https://ar.al
+        - property: Bastian Allgeier
+          url: https://bastianallgeier.com
+        - property: Becca's Inventory
+          url: https://beccasinventory.com
+        - property: Ben Borgers
+          url: https://benborgers.com/
+        - property: Jeremy Beasley
+          url: https://jeremypbeasley.com
+        - property: Brian Gilham
+          url: https://briangilham.com
+        - property: Brian Lovin
+          url: https://brianlovin.com
+        - property: Calum Ryan
+          url: https://calumryan.com
+        - property: Chris Bowler
+          url: https://chrisbowler.com
+        - property: Dan Luu
+          url: https://danluu.com
+        - property: Danny White
+          url: https://dannywhite.org
+        - property: David Ralph Lewis
+          url: https://davidralphlewis.co.uk
+        - property: Daniel Eatock
+          url: https://eatock.com
+        - property: Filipe Donadio
+          url: https://filipedonadio.com
+        - property: Glynnis Ritchie
+          url: https://glynn.is
+        - property: Harry Cresswell
+          url: https://harrycresswell.com
+        - property: Michelle Mac
+          url: https://heymichellemac.com
+        - property: Jacob Hall
+          url: https://jacobhall.net
+        - property: James Mead
+          url: https://jamesmead.org
+        - property: Jeff Huang
+          url: https://jeffhuang.com
+        - property: Joel Hooks
+          url: https://joelhooks.com
+        - property: Jon-Kyle
+          url: https://jon-kyle.com
+        - property: Jonas Downey
+          url: https://jonas.do
+        - property: Kimberly Hirsh
+          url: https://kimberlyhirsh.com
+        - property: Laura Kalbag
+          url: https://laurakalbag.com
+        - property: Viktor Lofgren
+          url: https://marginalia.nu
+        - property: Matthew Smith
+          url: https://matthewsmith.website
+        - property: Maxime Vaillancourt
+          url: https://maximevaillancourt.com
+        - property: Maxwell Kuzma
+          url: https://maxwellkuzma.com
+        - property: Max Böck
+          url: https://mxb.dev
+        - property: Parimal Satyal
+          url: https://neustadt.fr
+        - property: Nicole van der Hoeven
+          url: https://nicolevanderhoeven.com
+        - property: Andy Matuschak
+          url: https://notes.andymatuschak.org
+        - property: Ana Rodrigues
+          url: https://ohhelloana.blog
+        - property: Roel Groeneveld
+          url: https://roel.io
+        - property: Salim Virani
+          url: https://salimvirani.com
+        - property: Shawn Roberts
+          url: https://shawnjr.online
+        - property: Richard Stallman
+          url: https://stallman.org
+        - property: Thomasorus
+          url: https://thomasorus.com
+        - property: Toby Shorin
+          url: https://tobyshorin.com
+        - property: Tom Critchlow
+          url: https://tomcritchlow.com
+        - property: Tammy Strobel
+          url: https://tstrobel.com/
+        - property: Venkatesh Rao
+          url: https://venkateshrao.com
+        - property: Vincent Pickering
+          url: https://vincentp.me
+        - property: Will Webberley
+          url: https://wilw.dev
+        - property: Dan Eden
+          url: https://www.daneden.me
+        - property: Maggie Delano
+          url: https://www.maggiedelano.com
+        - property: E. Rae Bruml Norton
+          url: https://www.marceldochamp.net
+        - property: Miriam Suzanne
+          url: https://www.miriamsuzanne.com
+        - property: Sara Soueidan
+          url: https://www.sarasoueidan.com
+        - property: Masaaki Morishita
+          url: https://masaaki.me
+        - property: Max Cohen
+          url: https://www.senseantisense.com
+        - property: Tania Rascia
+          url: https://www.taniarascia.com
+        - property: Tom MacWright
+          url: https://www.macwright.com
+        - property: Charles Harries
+          url: https://charlesharri.es
+        - property: Ellie Huxtable
+          url: https://ellie.wtf
+        - property: Ewen
+          url: https://ewen.io
+        - property: Chris Glass
+          url: https://chrisglass.com/
+        - property: Buster Benson
+          url: https://busterbenson.com/
+        - property: Ben Crowder
+          url: https://bencrowder.net/
+        - property: Lizz Thabet
+          url: https://www.lizzthabet.com/
+        - property: Josh Kim
+          url: https://www.joshkimux.com/
+        - property: Ron Vaisman
+          url: https://ronvaisman.dev/
+        - property: Jason Morris
+          url: https://jasonmorris.com/
+        - property: Katy Decorah
+          url: https://katydecorah.com/
+        - property: DJ Chase
+          url: https://dj-chase.com/
+        - property: Kehinde Adeleke
+          url: https://www.kehinde.xyz/
+        - property: Robin Rendle
+          url: https://robinrendle.com/
+        - property: Jez Burrows
+          url: https://www.jezburrows.com/
+        - property: Lucy Bellwood
+          url: https://lucybellwood.com/
+        - property: Rachel Andrew
+          url: https://rachelandrew.co.uk/
+        - property: Rebeccah Toh
+          url: https://rebeccatoh.co/
+        - property: 47nil
+          url: https://47nil.com/
+        - property: Scott Nesbitt
+          url: https://scottnesbitt.net/
+        - property: Oatmeal
+          url: https://eli.li/
+        - property: Andrew Healey
+          url: https://healeycodes.com/
+        - property: Daryl Sun
+          url: darylsun.page
+        - property: Jack Bardwell
+          url: https://jackbardwell.com/
+        - property: Imogen Moon
+          url: https://moon.fyi/
+        - property: Improve Something Today
+          url: https://improvesomething.today
+        - property: IndieWeb
+          url: https://indieweb.org
+        - property: IndieWeb Webring
+          url: https://xn--sr8hvo.ws
+        - property: Yesterweb
+          url: https://yesterweb.org
+        - property: Yarchive
+          url: https://yarchive.net
+        - property: Dan & Richard & you
+          url: https://danandrichardandyou.com
+        - property: Other Internet
+          url: https://otherinter.net
+        - property: Ahead of Thyme
+          url: https://www.aheadofthyme.com
+        - property: Alexandra Cooks
+          url: https://alexandracooks.com
+        - property: Just One Cookbook
+          url: https://www.justonecookbook.com
+        - property: Lady & Pups
+          url: https://ladyandpups.com
+        - property: Smitten Kitchen
+          url: https://smittenkitchen.com
+        - property: Needle 'n Thread
+          url: https://www.needlenthread.com
+        - property: Language Jones
+          url: https://www.languagejones.com
+        - property: Epic People
+          url: https://www.epicpeople.org
+        - property: Internet History Podcast
+          url: https://www.internethistorypodcast.com
+        - property: Curls and Cocao
+          url: https://curlsandcocoa.com
+        - property: Places Journal
+          url: https://placesjournal.org
+        - property: Student Christian Movement
+          url: https://www.movement.org.uk
+        - property: CBE International
+          url: https://www.cbeinternational.org
+        - property: Erin Clark
+          url: https://emclark.co/
+        - property: Faith-based productivity
+          url: https://faithbasedproductivity.com
+        - property: Blogroll.org
+          url: https://blogroll.org
+        - property: xxiivv webring
+          url: https://webring.xxiivv.com
+        - property: The Forest
+          url: https://theforest.link
+        - property: Gossip's Web
+          url: https://gossipsweb.net
+        - property: Tech Policy Press
+          url: https://techpolicy.press
+        - property: Natural Hair Club
+          url: https://thenaturalhairclub.nl
+        - property: Diana Butler Bass
+          url: https://dianabutlerbass.com
+        - property: Robin Meyers
+          url: https://www.robinrexmeyers.com
+        - property: Temporary Liveness
+          url: https://temporaryliveness.org/
+        - property: a11y-webring.club
+          url: https://a11y-webring.club
+        - property: Sunday Sites
+          url: https://sundaysites.cafe/
+        - property: Big List of Personal Websites
+          url: http://biglist.terraaeon.com/
+        - property: Imagine IC
+          url: https://imagineic.nl/
+        - property: Midnight Pub
+          url: https://midnight.pub/
+        - property: Extra Practice
+          url: https://extrapractice.space/
+        - property: Afropean
+          url: https://afropean.com/
+        - property: POC Online Classroom
+          url: https://www.poconlineclassroom.com/
+        - property: Shelter For the Spirit
+          url: https://shelterforthespirit.com/
+        - property: Backseat Frying
+          url: https://backseatfrying.net/
+        - property: Patrik Arvidsson
+          url: https://patrikarvidsson.com/
+        - property: Clement Hepburn
+          url: https://clemhepburn.github.io
+        - property: Clarity Flowers
+          url: https://clarity.flowers
+        - property: Radical Web Design
+          url: https://radicalweb.design
+        - property: Tim Holman
+          url: https://tholman.com
+        - property: Yara Veloso
+          url: https://www.yaraveloso.nu
+        - property: Rite House
+          url: http://rite.house
+        - property: James Scholz
+          url: https://jvscholz.com/
+        - property: Erich Friedman
+          url: https://erich-friedman.github.io/
+        - property: Devine Lu Linvega
+          url: https://xxiivv.com
+        - property: Northern Information
+          url: https://nor.the-rn.info/
+        - property: Sunny
+          url: https://sny.sh
+        - property: Harry Cresswell
+          url: https://harrycresswell.com/
+        - property: Webdesign Museum
+          url: https://www.webdesignmuseum.org/
+        - property: Publish Something Online
+          url: https://publishsomethingonline.com/
+        - property: A Website is a Room
+          url: https://a-website-is-a-room.net/
+        - property: Youra Hong
+          url: https://yourahong.com/
+        - property: Maxwell Neely-Cohen
+          url: https://www.maxy.world/
+        - property: Norman Köhring
+          url: https://koehr.in/
+        - property: App Defaults
+          url: https://defaults.rknight.me/
+        - property: Clara Le
+          url: https://clarale.com/
+        - property: Mt. Solitary
+          url: https://www.mtsolitary.com/
+        - property: Joost van der Schee
+          url: https://www.usecue.com/
+        - property: Justin Miller
+          url: https://justinmiller.io/
+        - property: V.H. Belvadi
+          url: https://vhbelvadi.com/
+        - property: Low-tech Magazine
+          url: https://lowtechmagazine.com/
