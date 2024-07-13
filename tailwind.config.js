@@ -7,12 +7,20 @@ module.exports = {
   ],
   theme: {
     container: {
+      // you can configure the container to be centered
       center: true,
-      padding: '1rem'
+
+      // or have default horizontal padding
+      padding: '1rem',
+
+      // default breakpoints but with 40px removed
+      screens: {
+        sm: '1000px',
+      },
     },
     fontFamily: {
-      sans: ['system-ui', 'sans-serif'],
-      serif: ['Times New Roman', 'sans-serif'],
+      sans: ['system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'sans-serif'],
+      serif: ['FreightText Pro Book', 'serif'],
       mono: ['Andalé Mono', 'monospace'],
     }, 
     extend: {

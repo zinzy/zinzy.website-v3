@@ -1,8 +1,9 @@
 {{ define "main" }} {{ partial "back_link.html" .}}
 
-<article class="h-entry prose prose-gray mb-14 dark:prose-invert">
+<article class="container h-entry prose prose-gray dark:prose-invert">
   <header class="">
-    <h2 class="p-name mb-0">{{ .Title }}</h2>
+    <p class="text-sm text-secondary mb-0">{{ .Title }}</p>
+    <h2 class="p-name text-3xl mt-2 mb-0 lg:w-3/4">{{ .Description }}</h2>
   </header>
 
   {{ if .Params.toc }}
@@ -11,8 +12,8 @@
   </aside>
   {{ end }}
 
-  <div class="e-content">{{ .Content }}</div>
+  <div class="e-content font-serif">{{ .Content }}</div>
 
-  {{ partial "backlinks.html" . }} {{- partial "hello.html" . -}}
+  {{ partial "backlinks.html" . }} {{- partial "thanks.html" . -}}
 </article>
 {{ end }}

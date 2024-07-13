@@ -1,5 +1,6 @@
 ---
-title: Community building
+title: Play
+description: I'm a volunteer, a community builder, and a facilitator
 layout: page
 ---
 

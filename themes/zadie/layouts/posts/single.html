@@ -1,29 +1,18 @@
 {{ define "main" }} {{ partial "back_link.html" .}}
 
-<div class="mb-14">
-  <header class="fixed left-5 top-5 ml-7">
-    <span class="text-gray-300 dark:text-white/30 inline-block px-4">/</span>
-    <a href="/posts" class="text-gray-950 dark:text-white inline-block">Posts</a>
-  </header>
-</div>
-
-
-<article class="h-entry prose prose-gray dark:prose-invert">
-  <header class="mb-14">
-    <h2 class="p-name mb-0">{{ .Title }}</h2>
-    <div class="">
-      <time
-        class="dt-published text-italic inline-block text-gray-500 dark:text-white/50"
-        datetime="{{ .Date }}"
-      >
-        {{ .Date | time.Format site.Params.theme_config.date_format_archive }}
+<article class="container h-entry prose prose-gray dark:prose-invert">
+  <header class="">
+    <h2 class="p-name text-3xl mb-2 mt-0 lg:w-5/6">{{ .Title }}</h2>
+    <p class="text-sm text-secondary mb-0">
+      <time class="dt-published" datetime="{{ .Date }}">
+        {{ .Date | time.Format site.Params.theme_config.date_verbose }}
       </time>
-    </div>
+    </p>
   </header>
 
-  <content class="e-content"> {{- partial "content_wikified" . -}} </content>
+  <content class="e-content font-serif"> {{- partial "content_wikified" . -}} </content>
 
-  {{- partial "hello.html" . -}}
+  {{- partial "thanks.html" . -}}
 </article>
 
 <!-- {{ partial "tags.html" .}} -->

@@ -1,9 +1,9 @@
 {{ define "main" }} {{ partial "back_link.html" .}}
 
-<article class="prose dark:prose-invert">
-  <header class="prose prose-gray dark:prose-invert">
-    <h2 class="p-name mb-0">{{ .Title }}</h2>
-    <p class="text-secondary">{{ .Description }}</p>
+<article class="container prose dark:prose-invert">
+  <header class="">
+    <p class="text-sm text-secondary mb-0">{{ .Title }}</p>
+    <h2 class="p-name text-3xl mt-2 mb-0 lg:w-3/4">{{ .Description }}</h2>
   </header>
 
   <section class="prose prose-gray my-20 dark:prose-invert">

@@ -1,9 +1,9 @@
 {{ define "main" }}
 {{ partial "back_link.html" .}}
 
-<article class="h-entry prose prose-gray dark:prose-invert">
+<article class="container h-entry prose prose-gray dark:prose-invert">
     <header>
-        <h2 class="p-name">{{ .Title }}</h2>
+        <h2 class="text-3xl p-name">{{ .Title }}</h2>
     </header>
  
     {{ if .Params.toc }}
@@ -12,9 +12,9 @@
         </aside>
     {{ end }}
 
-    <div class="e-content">
+    <div class="e-content font-serif">
         {{ .Content }}
     </div>
-    {{- partial "hello.html" . -}}
+    {{- partial "thanks.html" . -}}
 </article>
 {{ end }}

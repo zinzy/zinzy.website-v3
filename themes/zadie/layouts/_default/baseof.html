@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="{{ $.Site.LanguageCode }}" class="scroll-smooth">
     {{- partial "head.html" . -}}
-    <body class="antialiased mx-auto md:my-32 px-5 py-10 md:px-0 lg:p-0 bg-white dark:bg-zinc-900" a="{{ $.Site.Params.theme_config.appearance | default "auto" }}">
+    <div id="top" class="hidden"></div>
+    <body class="antialiased bg-white dark:bg-zinc-800" a="{{ $.Site.Params.theme_config.appearance | default "auto" }}">
         
 
-        <main class="container mx-auto" aria-label="Content">
-            {{- partial "header.html" . -}}
+        {{- partial "header.html" . -}}
+        <main class="py-32" aria-label="Content">
             <div class="">
                 {{- block "main" . }}{{- end }}
-            </div>
-            {{- partial "footer.html" . -}}
+            </div> 
         </main>
+        {{- partial "footer.html" . -}}
   
+        <script src="/src/site.js"></script>
     </body>
 </html>

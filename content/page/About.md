@@ -1,7 +1,7 @@
 ---
 title: About
+description: "I'm a grateful human, Product Designer, and diarist living and working in Amsterdam"
 layout: page
-description: Wow, there's a lot happening.
 ---
 {{< rawhtml >}}
   <div class="mx-break-out">

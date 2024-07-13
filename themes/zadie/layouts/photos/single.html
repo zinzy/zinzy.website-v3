@@ -1,13 +1,5 @@
 {{ define "main" }} {{ partial "back_link.html" .}}
 
-<div class="mb-14">
-  <header class="fixed left-5 top-5 ml-7">
-    <span class="text-gray-300 dark:text-white/30 inline-block px-4">/</span>
-    <a href="/posts" class="text-gray-950 dark:text-white inline-block">Posts</a>
-  </header>
-</div>
-
-
 <article class="h-entry prose prose-gray dark:prose-invert">
   <header class="mb-14">
     <h2 class="p-name mb-0">{{ .Title }}</h2>
@@ -23,7 +15,7 @@
 
   <content class="e-content"> {{- partial "content_wikified" . -}} </content>
 
-  {{- partial "hello.html" . -}}
+  {{- partial "thanks.html" . -}}
 </article>
 
 <!-- {{ partial "tags.html" .}} -->

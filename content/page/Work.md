@@ -3,7 +3,7 @@ title: Work
 share: true
 layout: page
 section: page
-description: What I do for money
+description: I'm a Product Designer of 17 years specialized in software that people use at work
 ---
 
 I'm a User Experience (UX) practitioner. That's a jargon-y way of saying I design software and research how user-friendly it is. I'm specialized in making tools for people at work.

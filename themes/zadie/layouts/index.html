@@ -1,115 +1,84 @@
 {{ define "main" }}
 
-<div class="group relative h-20 w-20">
-  <img
-    src="/img/avatar.png"
-    alt="A thumbnail of a person smiling at the camera"
-    class="w-20 rounded-xl transition-all hover:-rotate-3"
-  />
-  <span
-    class="absolute -left-8 -top-3 hidden rounded-2xl rounded-br-none bg-blue-600 px-2 py-1 text-xs font-medium text-white transition-all group-hover:block dark:bg-zinc-800"
-    >Heya!</span
-  >
-</div>
-
-<section class="prose prose-gray my-14 dark:prose-invert">
-  <p>
-    Welcome to my world wide web homepage, a place for soft stances, lived
-    experiences, and critical notes on the things I hold dear.
-    <a href="/about">I am Zinzy</a>, and I've been yelling at Internet clouds
-    since 1997.
-  </p>
-  <div
-    class="border-gray-150 shadow-subtle flex rounded-md border px-4 py-3 text-xs dark:border-zinc-700 dark:bg-zinc-800"
-  >
-    <div class="mr-4 flex-none content-center text-3xl">🗓️</div>
-    <div class="grow">
-      In early celebration of Amsterdam Pride I'll be a guest on
-      <a
-        href="https://www.eventbrite.nl/e/tbab-book-club-none-of-the-above-s04e07-tickets-791976652487?aff=oddtdtcreator"
-        target="_blank"
-        rel="noopener noreferrer"
-        >s04e07</a
-      >
-      of The Black Archives Bijlmer Book Club on July 20. We'll be reading
-      <em
-        ><a
-          href="https://www.goodreads.com/book/show/59788339-none-of-the-above?from_search=true&from_srp=true&qid=AAzKspamHl&rank=2"
-          target="_blank"
-          rel="noopener noreferrer"
-          >None of the Above</a
-        ></em
-      >
-      by Travis Alabanza.
+<section class="md:container md:flex mb-10 md:mb-0">
+  <div class="container md:p-0 md:w-2/3">
+    <div class="md:pr-16">
+      <div class="text-xl font-medium md:text-2xl mb-10 dark:text-white">
+      <p class="mb-3">Hey, <a href="/about" class="underline">I'm Zinzy Waleson Geene</a>, a Product Designer making tools for people at work.</p>
+      <p class="">Welcome to my world wide web <a href="/site" class="underline">homepage</a>; a place for soft stances, lived experiences, and critical notes on the things I hold dear.</p>
+      </div> 
+    <p class="text-sm text-secondary">Made in Amsterdam<span class="time" data-timestamp-text=",<BR>where it's currently {time}"></span></p>
     </div>
   </div>
-  <p>
-    For the past 17 years, I've been at <a href="/work">work</a> as a designer.
-    I'm specialized in making software for people at work. I'm also a
-    <a href="/mentoring">design mentor</a>. I dedicate my spare time to
-    <a href="/community-building">community-building</a>.
-  </p>
-  <p>
-    <a href="/site">This website</a> is perpetually in flux, and has writing
-    going back to 2006. I keep this <a href="/posts">archive</a> of awkward,
-    snarky posts with questionable opinions to remind myself I've changed.
-  </p>
-  <p>
-    You may be excited to <a href="/hello">say hello</a>, learn what I'm up to
-    <a href="/now">now</a> or <a href="/follow">follow</a> me around the
-    Internet. If you like what you see here,
-    <a href="https://ko-fi.com/zinzy" target="_blank" rel="noopener noreferrer"
-      >consider buying me coffee</a
-    >.
-  </p>
-</section>
+  <div class="bg-gray-100 dark:bg-zinc-700 mt-10 md:m-0 px-4 py-4 md:w-1/3 rounded-t">
+    
+    <img src="/img/bijlmer-bookclub-july-2024.jpg" class="my-3" alt="">
 
-<!-- <section class="my-14">
-  {{ $pages := where .Site.RegularPages "Type" "page" }}
-  <h2 class="mb-5">Coming up</h2>
-  <div class="prose prose-gray dark:prose-invert">
-    <p>
-      On <strong>July 20, 2024</strong>, I'll be the 1+ at
+    <h3 class="mb-2 font-medium">Coming up on July 20</h3>
+    <p class="mb-3 text-sm text-secondary">I'm the Plus One at <a href="https://www.theblackarchives.nl/tbabookclub.html?lang=en" target="_blank" rel="noopener noreferrer" class="font-medium text-gray-950 dark:text-white">Black Archives Bijlmer Book Club</a>, where we'll be talking about <em>None of the Above</em>.</p>
+    
+    <p class="">
       <a
-        href="https://www.eventbrite.nl/e/tbab-book-club-none-of-the-above-s04e07-tickets-791976652487?aff=oddtdtcreator"
-        target="_blank"
-        rel="noopener noreferrer"
-        >S04E07</a
-      >
-      of The Black Archives Bijlmer Book Club.
+      href="https://www.eventbrite.nl/e/tbab-book-club-none-of-the-above-s04e07-tickets-791976652487?aff=oddtdtcreator"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="button button-primary bg-gray-950 dark:bg-white text-white dark:text-gray-950"
+      >Get your ticket today</a
+    >
     </p>
-  </div>
+    </div>
 </section>
 
-<section class="my-14">
-  {{ $pages := where .Site.RegularPages "Type" "page" }}
-  <h2 class="mb-5">Information</h2>
-  <ul class="columns-3">
-    {{ range $pages }}
-    <li class="">
-      <a href="{{ .Permalink }}">{{.Title}}</a>
-    </li>
-    {{ end }}
-  </ul>
-</section>
+<hr class="hidden md:block my-10 md:mb-20 md:mt-0 dark:border-zinc-700">
 
-<section class="my-14">
+<section class="container">
   {{ $feed := where .Site.RegularPages "Type" "posts" }}
-  <h2 class="mb-5">Writing</h2>
-  <ul class="feed">
-    {{ range $feed }}
-    <li class="mb-3 md:mb-0 md:flex">
-      <div class="flex-none"><a href="{{ .Permalink }}">{{.Title}}</a></div>
-      <div class="m-3 mb-0 hidden grow border-t md:block"></div>
-      <div class="flex-none">
-        <time class="text-secondary"
-          >{{- (.Date | time.Format site.Params.theme_config.date_format)
-          }}</time
-        >
+  
+    {{ range first 1 $feed }}
+
+    
+    <p class="text-sm text-secondary">Published on <time class="" datetime="{{- (.Date | time.Format site.Params.theme_config.date_verbose)
+    }}"
+      >{{- (.Date | time.Format site.Params.theme_config.date_verbose)
+      }}</time
+    ></p>
+      <h3 class="text-xl md:text-2xl my-5"><a href="{{ .Permalink }}">{{.Title}}</a></h3>
+
+      <p class="font-serif">{{.Summary}}</p>
+
+      <div class="text-right mt-3">
+        <a
+      href="{{ .Permalink }}"
+      class="button button-primary"
+      >Continue reading <span class="ml-2">→</span></a
+    >
       </div>
-    </li>
     {{ end }}
-  </ul>
-</section> -->
+
+
+    {{ $postsDefault := where .Site.RegularPages "Type" "posts" }}
+    {{ $firstPosts := first 8 $postsDefault}}
+    <ul class=" mt-10">
+      {{ range after 1 $firstPosts }}
+      <li class="py-3 border-t">
+        <a class="md:flex content-center w-full" href="{{ .Permalink }}">
+          <span class=" font-medium grow">{{ .Title }}</span>
+          <time class="flex-none text-secondary text-sm"
+            >{{- (.Date | time.Format
+            site.Params.theme_config.date_format_archive) }}</time
+          >
+        </a>
+      </li>
+      {{ end }}
+    </ul>     
+    <div class="text-right mt-3">
+      <a
+    href="/posts"
+    class="button button-primary"
+    >Posts archive <span class="ml-2">→</span></a
+  >
+    </div>
+</section>
+ 
 
 {{ end }}
