@@ -2041,6 +2041,11 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0px;
   }
 
+  .md\:py-0 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
   .md\:pr-16 {
     padding-right: 4rem;
   }
@@ -2048,6 +2053,10 @@ h1, h2, h3, h4, h5, h6 {
   .md\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
+  }
+
+  .md\:leading-9 {
+    line-height: 2.25rem;
   }
 }
 

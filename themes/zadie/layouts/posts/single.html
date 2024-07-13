@@ -13,9 +13,9 @@
 
   {{ if gt .Site.Params.oldPost .Date.Year }}
 
-  <div class="flex rounded px-2 text-xs bg-amber-100 dark:bg-yellow-100/10  text-amber-950 dark:text-amber-100">
-      <span class="inline-block leading-9 mr-2 content-center">{{- partial "symbols/alert.html" . -}}</span>
-      <span class="inline-block leading-9">I consider this post to be dated. It may no longer reflect my views.</span>
+  <div class="flex rounded px-2 text-xs bg-amber-100 dark:bg-yellow-100/10  text-amber-950 dark:text-amber-100 py-3 md:py-0">
+      <span class="inline-block md:leading-9 mr-2 content-center">{{- partial "symbols/alert.html" . -}}</span>
+      <span class="inline-block md:leading-9">I consider this post to be dated. It may no longer reflect my views.</span>
   </div>
 {{ end }}
   <content class="e-content font-serif"> {{- partial "content_wikified" . -}} </content>
