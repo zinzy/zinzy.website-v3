@@ -1,6 +1,6 @@
 baseURL = "https://zinzy.website"
 languageCode = "en-us"
-title = "Zinzy's website"
+title = "Zinzy's website" 
 theme = "zadie"
 
 # When using ref or relref to resolve page links and a link cannot resolved, it will be logged with this log level.
@@ -20,6 +20,7 @@ refLinksNotFoundURL = "/"
 [params]
   title = "Zinzy's website"
   subtitle = 'is a researcher, designer, writer, and mentor making tools for people at work'
+  oldPost = "2023"
   [params.author]
     givenName = 'Zinzy'
     familyName = 'Waleson Geene'

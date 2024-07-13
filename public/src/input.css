@@ -2,6 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'FreightText Pro Book';
+  src: url('/fonts/FreightTextProBook-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'FreightText Pro Book';
+  src: url('/fonts/FreightTextProBook-Italic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+
 
 
 
@@ -20,14 +37,14 @@ body {
 }
 
 .prose :where(dt):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
-  font-weight: 500;
+  @apply font-medium  font-sans;
 }
 
 .text-primary {
   @apply text-gray-950 dark:text-white;
 }
 .text-secondary {
-  @apply text-gray-500 dark:text-white/50;
+  @apply text-gray-500 dark:text-zinc-400;
 }
 
 article {
@@ -51,12 +68,12 @@ figure figcaption {
 }
 
 img {
-  @apply rounded-2xl;
+  @apply rounded;
 }
 
 
 .button {
-  @apply border px-2 py-1 rounded inline-block text-sm font-medium;
+  @apply border px-3 h-9 leading-9 rounded inline-block text-xs font-semibold;
 }
 
 .button[target="_blank"]::after {
@@ -65,11 +82,15 @@ img {
 }
 
 .button-square {
-  @apply h-9 w-9 border text-gray-950 hover:border-gray-500 hover:text-gray-500;
+  @apply h-9 w-9 border
 }
 
 .underline {
-  @apply underline-offset-2 border-cyan-400;
+  @apply underline-offset-4 decoration-gray-600 decoration-1 dark:decoration-gray-300 hover:decoration-gray-950;
+}
+
+[class*="border"] {
+  @apply dark:border-zinc-700
 }
 
 
@@ -101,10 +122,19 @@ details[open] > summary::marker {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  @apply font-normal
+  @apply font-medium font-sans dark:text-white;
 }
 .prose {
   h1, h2, h3, h4, h5, h6 {
-    @apply font-normal
+    @apply font-medium font-sans dark:text-white;
   }
+}
+
+
+.font-serif {
+  @apply text-lg text-gray-700 dark:text-zinc-400;
+}
+
+a {
+  @apply dark:text-white;
 }
