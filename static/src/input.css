@@ -146,3 +146,12 @@ a {
 .not-prose a {
   text-decoration: none;
 }
+
+figcaption {
+  @apply font-sans text-xs;
+}
+
+.prose :where(figcaption):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+
+  @apply font-sans text-xs;
+}

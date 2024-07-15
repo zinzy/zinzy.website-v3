@@ -6,9 +6,10 @@ layout: page
 
 {{< rawhtml >}}
 
-  <div class="mx-break-out">
-    <img src="/img/zinzy.jpg" class="w-full" />
-  </div>
+  <figure>
+    <img src="/img/zinzy.jpg" class="w-full" class="Two White men and a Black person smile at the camera with champagne glasses in their hand." />
+    <figcaption>Here I am in 2019 in between Robin (L) and Michar (R), celebrating the 25th birthday of the travel technology company that employed us. The pandemic was only months away. We were but children.</figcaption>
+  </figure>
 {{< /rawhtml >}}
 
 Hello, I’m Zinzy Waleson Geene and you have reached my world wide web homepage. This website is a home for soft stances, lived experiences, and critical notes on the things I hold dear. No highlight reel, no likes, no follow button. You may [follow](/follow) me the old-fashioned way or, even better, [say hello](/hello).

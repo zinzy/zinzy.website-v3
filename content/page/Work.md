@@ -6,6 +6,14 @@ section: page
 description: I'm a Product Designer of 17 years specialized in software that people use at work
 ---
 
+{{< rawhtml >}}
+
+  <figure>
+    <img src="/img/zinzy-at-work.jpg" class="w-full" alt="A Black person smiling at the camera while doodling on a flipover; in the background, an empty office." />
+    <figcaption>Here I am at the Gerimedica office. In the background you can see my favorite chair at my favorite desk. It's my favorite spot in the office. The office is my favorite office in town.</figcaption>
+  </figure>
+{{< /rawhtml >}}
+
 I'm a User Experience (UX) practitioner. That's a jargon-y way of saying I design software and research how user-friendly it is. I'm specialized in making tools for people at work.
 
 Since 2007, I've worked as a researcher, developer, designer, strategist, design manager, and product manager in technology companies across a variety of industries. I'm strategic in my perspective, and tactical in my day-to-day. Whatever I do, I do _just enough_ of it to solve a problem.
