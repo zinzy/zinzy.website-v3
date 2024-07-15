@@ -142,3 +142,7 @@ a {
 .prose a {
   @apply underline;
 }
+
+.not-prose a {
+  text-decoration: none;
+}

@@ -1,12 +1,12 @@
 {{ define "main" }} {{ partial "back_link.html" .}}
 
-<article class="container prose dark:prose-invert">
-  <header class="">
-    <p class="text-sm text-secondary mb-0">{{ .Title }}</p>
-    <h2 class="p-name text-3xl mt-2 mb-0 lg:w-3/4">{{ .Description }}</h2>
+<article class="container">
+  <header class="prose prose-gray font-serif dark:prose-invert">
+    <p class="text-secondary mb-0 text-sm">{{ .Title }}</p>
+    <h2 class="p-name mb-0 mt-2 text-3xl lg:w-3/4">{{ .Description }}</h2>
   </header>
 
-  <section class="prose prose-gray my-20 dark:prose-invert">
+  <section class="prose prose-gray my-20 font-serif dark:prose-invert">
     {{ .Content }}
   </section>
 
@@ -15,32 +15,33 @@
     method="POST"
     id="form"
   >
-    <div>
-      <label for="formName" class="">Name</label>
-      <input
-        class="mt-2 block w-full rounded border px-2"
-        type="text"
-        name="Name"
-        id="formName"
-        placeholder="Joey Doe"
-      />
+    <div class="grid grid-cols-2 gap-4">
+      <div class="">
+        <label for="formName" class="font-medium">Name</label>
+        <input
+          class="mt-2 block w-full rounded border p-3"
+          type="text"
+          name="Name"
+          id="formName"
+          placeholder="Joey Doe"
+        />
+      </div>
+      <div class="">
+        <label class="font-medium" for="formEmail">Email</label>
+        <input
+          class="mt-2 block w-full rounded border p-3"
+          type="email"
+          name="Email"
+          id="formEmail"
+          placeholder="email@domain.com"
+        />
+      </div>
     </div>
 
     <div class="mt-5">
-      <label class="" for="formEmail">Email</label>
-      <input
-        class="mt-2 block w-full rounded border px-2"
-        type="email"
-        name="Email"
-        id="formEmail"
-        placeholder="email@domain.com"
-      />
-    </div>
-
-    <div class="mt-5">
-      <label class="" for="formMessage">Message</label>
+      <label class="font-medium" for="formMessage">Message</label>
       <textarea
-        class="mt-2 block w-full rounded border px-2"
+        class="mt-2 block w-full rounded border p-3"
         type="text"
         name="Message"
         id="formMessage"
@@ -53,7 +54,7 @@
     <input type="hidden" name="_gotcha" style="display: none !important" />
     <div class="mt-5 text-right">
       <button type="submit" name="Submit" class="button block md:inline-block">
-        Send
+        Send →
       </button>
     </div>
   </form>

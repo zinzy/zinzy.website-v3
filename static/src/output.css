@@ -1111,6 +1111,10 @@ video {
   right: 0px;
 }
 
+.col-span-2 {
+  grid-column: span 2 / span 2;
+}
+
 .m-0 {
   margin: 0px;
 }
@@ -1344,6 +1348,14 @@ video {
   grid-auto-flow: column;
 }
 
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.grid-cols-4 {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
 .flex-row {
   flex-direction: row;
 }
@@ -1378,6 +1390,10 @@ video {
 
 .gap-2 {
   gap: 0.5rem;
+}
+
+.gap-4 {
+  gap: 1rem;
 }
 
 .scroll-smooth {
@@ -1881,6 +1897,10 @@ h1, h2, h3, h4, h5, h6 {
   .prose a {
     text-decoration-color: #d1d5db;
   }
+}
+
+.not-prose a {
+  text-decoration: none;
 }
 
 @media (min-width: 768px) {
