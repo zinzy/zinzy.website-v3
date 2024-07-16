@@ -1,7 +1,7 @@
 baseURL = "https://zinzy.website"
 languageCode = "en-us"
 title = "Zinzy's website" 
-theme = "zadie"
+theme = "softlife"
 
 # When using ref or relref to resolve page links and a link cannot resolved, it will be logged with this log level.
 # Valid values are ERROR (default) or WARNING. Any ERROR will fail the build (exit -1).
@@ -45,18 +45,22 @@ paginate = 6
 
 [menu]
 [[menu.main]]
-  name = 'About'
-  url = '/about'
+  name = 'Home'
+  url = '/'
+  icon = '{{- partial "symbols/home.html" . -}}'
   weight = 10
 [[menu.main]]
   name = 'Posts'
   url = '/posts'
+  icon = '{{- partial "symbols/posts.html" . -}}'
   weight = 20
 [[menu.main]]
   name = 'Work'
   url = '/work'
+  icon = '{{- partial "symbols/work.html" . -}}'
   weight = 30
 [[menu.main]]
-  name = 'Play'
-  url = '/play'
+  name = 'About'
+  url = '/about'
+  icon = '{{- partial "symbols/about.html" . -}}'
   weight = 40

@@ -1,0 +1,38 @@
+{{ define "main" }}
+
+<section class="">
+  {{ $feed := where .Site.RegularPages "Type" "posts" }} {{ range first 1 $feed
+  }}
+
+  <article class="h-entry prose prose-gray dark:prose-invert">
+    <header class="">
+      <p class="text-secondary mb-0 text-sm">
+        <time class="dt-published" datetime="{{ .Date }}">
+          {{ .Date | time.Format site.Params.theme_config.date_verbose }}
+        </time>
+      </p>
+      <h2 class="p-name mb-2 mt-0 text-2xl">{{ .Title }}</h2>
+    </header>
+
+    {{ if gt .Site.Params.oldPost .Date.Year }}
+
+    <div
+      class="flex rounded bg-amber-100 px-2 py-3 text-xs text-amber-950 md:py-0 dark:bg-yellow-100/10 dark:text-amber-100"
+    >
+      <span class="mr-2 inline-block content-center md:leading-9"
+        >{{- partial "symbols/alert.html" . -}}</span
+      >
+      <span class="inline-block md:leading-9"
+        >I consider this post to be dated. It may no longer reflect my
+        views.</span
+      >
+    </div>
+    {{ end }}
+    <content class="e-content"> {{- partial "content_wikified" . -}} </content>
+
+    {{- partial "thanks.html" . -}}
+  </article>
+  {{ end }}
+</section>
+
+{{ end }}

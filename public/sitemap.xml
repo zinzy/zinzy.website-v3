@@ -1569,8 +1569,6 @@
   </url><url>
     <loc>https://zinzy.website/categories/</loc>
   </url><url>
-    <loc>https://zinzy.website/community-building/</loc>
-  </url><url>
     <loc>https://zinzy.website/follow/</loc>
   </url><url>
     <loc>https://zinzy.website/hello/</loc>
@@ -1597,6 +1595,8 @@
   </url><url>
     <loc>https://zinzy.website/page/</loc>
   </url><url>
+    <loc>https://zinzy.website/play/</loc>
+  </url><url>
     <loc>https://zinzy.website/tags/portfolio/</loc>
   </url><url>
     <loc>https://zinzy.website/should-i-apply-without-a-portfolio/</loc>
@@ -1606,6 +1606,8 @@
     <loc>https://zinzy.website/the-rest-is-commentary/</loc>
   </url><url>
     <loc>https://zinzy.website/tools-do-not-matter/</loc>
+  </url><url>
+    <loc>https://zinzy.website/values/</loc>
   </url><url>
     <loc>https://zinzy.website/work/</loc>
   </url>

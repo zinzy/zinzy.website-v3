@@ -1,6 +1,6 @@
 ---
 title: About
-description: "I'm a grateful human, Product Designer, and diarist living and working in Amsterdam"
+description: "Hey, I'm Zinzy! I'm a grateful human and Product Designer living and working in Amsterdam"
 layout: page
 ---
 

@@ -1,0 +1,29 @@
+{{ define "main" }} {{ partial "back_link.html" .}}
+
+<div class="">
+  <header>
+    <p class="text-secondary mb-0 text-sm">{{ .Title }}</p>
+    <h2 class="p-name mb-2 mt-0 text-2xl">
+      I am a fervent diarist, and this archive exists to remind myself that life
+      is ever-evolving, as am I.
+    </h2>
+  </header>
+
+  <section class="mt-20">
+    {{ $postsDefault := where .Site.RegularPages "Type" "posts" }}
+    <ul class="border-b">
+      {{ range $postsDefault }}
+      <li class="border-t py-3">
+        <a class="w-full content-center md:flex" href="{{ .Permalink }}">
+          <span class="grow font-medium">{{ .Title }}</span>
+          <time class="text-secondary flex-none text-sm"
+            >{{- (.Date | time.Format
+            site.Params.theme_config.date_format_archive) }}</time
+          >
+        </a>
+      </li>
+      {{ end }}
+    </ul>
+  </section>
+</div>
+{{ end }}

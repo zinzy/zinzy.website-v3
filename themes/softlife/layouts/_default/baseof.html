@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="{{ $.Site.LanguageCode }}" class="scroll-smooth">
+    {{- partial "head.html" . -}}
+    <div id="top" class="hidden"></div>
+    <body class="antialiased bg-white dark:bg-zinc-800" a="{{ $.Site.Params.theme_config.appearance | default "auto" }}">
+        
+
+        <div class="my-20 container">
+            {{- partial "header.html" . -}}
+            <main class="my-20" aria-label="Content">
+                <div class="">
+                    {{- block "main" . }}{{- end }}
+                </div> 
+            </main>
+            {{- partial "footer.html" . -}}
+        </div>
+  
+        <script src="/src/site.js"></script>
+    </body>
+</html>

@@ -1,0 +1,89 @@
+{{ define "main" }} {{ partial "back_link.html" .}}
+
+
+<header class="prose prose-gray dark:prose-invert mb-20">
+  <h2 class="mb-5">{{ .Title }}</h2>
+  <p class="text-secondary mb-7">
+      This website contains a large <a href="/feed">feed</a> of long-form <a href="/posts">posts</a> and fleeting updates going back to the mid-aughts. Some of them are thoughtful, others written in a hurry, left fleeting in a folder. I keep them here to remind myself that life is ever-evolving, as am I.
+  </p>
+</header>
+
+
+
+{{ $feed := where (where .Site.RegularPages "Type" "ne" "notes" ) "Type" "ne" "page" }} 
+<ul class="feed"> 
+  {{ range $feed }}
+    <li class="flex">
+
+      <div class="flex-none w-10 mt-[2px] flex flex-col">
+        <div class="">
+          {{ if .Params.photo }} {{ partial "post_type_photo.html" . }}
+            {{ else if .Params.replyTo }} {{ partial "post_type_reply.html" . }}
+            {{ else if .Params.likeOf }} {{ partial "post_type_like.html" . }}
+            {{ else if .Title }} {{ partial "post_type_post.html" . }}
+            {{ else }} {{ partial "post_type_note.html" . }}
+          {{ end }}
+        </div>
+        <div class="grow border-l ml-2.5">&nbsp;
+        </div>
+
+      </div>
+      <div class="grow pb-5">
+        {{ if .Title }} <h2><a href="{{ .Permalink }}">{{.Title}}</a></h2> {{end}}
+        <a
+          href="{{ .Permalink }}"
+          class="mb-3 block text-gray-500 dark:text-white/50"
+          ><time class=""
+            >{{- (.Date | time.Format site.Params.theme_config.date_format_archive)
+            }}</time
+          ></a
+        >
+        <article class="prose prose-gray dark:prose-invert">
+          {{ if .Params.photo }}
+          <figure class="mb-5">
+            <img src="{{ .Params.photo }}" alt="{{ .Params.alt }}" />
+            <figcaption class="text-secondary text-sm">{{ .Params.alt }}</figcaption>
+          </figure>
+
+          {{ end }}
+          {{ if .Params.replyTo }}
+          <p class="u-in-reply-to mt-0">
+            Replied to
+            <a
+              href="{{.Params.replyTo}}"
+              rel="in-reply-to"
+              class="u-in-reply-to text-url break-all"
+              target="_blank"
+            >
+              {{ if .Params.replyToName }} {{.Params.replyToName}} {{ else }}
+              {{.Params.replyTo}} {{ end }}
+            </a>
+          </p>
+          {{ end }} {{ if .Params.likeOf }}
+          <p class="mt-0">
+            Liked
+            <a
+              href="{{.Params.likeOf}}"
+              class="u-like-of text-url break-all"
+              target="_blank"
+              >{{.Params.likeOf}}</a
+            >
+          </p>
+          {{ end }}
+
+
+        {{ if .Title }}
+          {{.Summary}}
+
+        <div class="mt-3 mb-7"><a href="{{ .Permalink }}" class="button">Continue reading</a></div>
+          {{else}}
+          <content> {{ .Content }} </content>
+        {{end}}
+        </article>
+      </div> 
+  </li>
+  {{ end }} 
+</ul> 
+
+
+{{ end }}

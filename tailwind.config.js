@@ -3,7 +3,7 @@ module.exports = {
   content: [
     "./content/*.md", 
     "./src/**/*.{html,js}",
-    "./themes/zadie/layouts/**/*.html"
+    "./themes/softlife/layouts/**/*.html"
   ],
   theme: {
     container: {
