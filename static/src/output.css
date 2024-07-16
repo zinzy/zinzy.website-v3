@@ -1112,6 +1112,11 @@ video {
   margin-right: -0.75rem;
 }
 
+.mx-3 {
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+}
+
 .my-10 {
   margin-top: 2.5rem;
   margin-bottom: 2.5rem;
@@ -1135,16 +1140,6 @@ video {
 .my-20 {
   margin-top: 5rem;
   margin-bottom: 5rem;
-}
-
-.mx-3 {
-  margin-left: 0.75rem;
-  margin-right: 0.75rem;
-}
-
-.mx-auto {
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .mb-0 {
@@ -1203,10 +1198,6 @@ video {
   margin-right: 1rem;
 }
 
-.mr-6 {
-  margin-right: 1.5rem;
-}
-
 .mt-0 {
   margin-top: 0px;
 }
@@ -1259,16 +1250,16 @@ video {
   display: none;
 }
 
+.h-10 {
+  height: 2.5rem;
+}
+
 .h-5 {
   height: 1.25rem;
 }
 
 .h-80 {
   height: 20rem;
-}
-
-.h-10 {
-  height: 2.5rem;
 }
 
 .w-10 {
@@ -1297,10 +1288,6 @@ video {
 
 .grow {
   flex-grow: 1;
-}
-
-.cursor-not-allowed {
-  cursor: not-allowed;
 }
 
 .list-none {
@@ -1407,16 +1394,6 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-red-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(248 113 113 / var(--tw-bg-opacity));
-}
-
-.bg-amber-50 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 251 235 / var(--tw-bg-opacity));
-}
-
 .fill-amber-950 {
   fill: #451a03;
 }
@@ -1492,10 +1469,6 @@ video {
   text-align: right;
 }
 
-.font-serif {
-  font-family: FreightText Pro Book, serif;
-}
-
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -1532,23 +1505,9 @@ video {
   line-height: 2.25rem;
 }
 
-.leading-10 {
-  line-height: 2.5rem;
-}
-
 .text-amber-950 {
   --tw-text-opacity: 1;
   color: rgb(69 26 3 / var(--tw-text-opacity));
-}
-
-.text-blue-500 {
-  --tw-text-opacity: 1;
-  color: rgb(59 130 246 / var(--tw-text-opacity));
-}
-
-.text-gray-400 {
-  --tw-text-opacity: 1;
-  color: rgb(156 163 175 / var(--tw-text-opacity));
 }
 
 .text-gray-500 {
@@ -1847,28 +1806,14 @@ figcaption {
   border-color: rgb(209 213 219 / var(--tw-border-opacity));
 }
 
-.hover\:bg-gray-50:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(249 250 251 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-gray-500:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(107 114 128 / var(--tw-bg-opacity));
-}
-
 .hover\:bg-gray-100:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
 }
 
-.hover\:fill-gray-600:hover {
-  fill: #4b5563;
-}
-
-.hover\:text-blue-800:hover {
-  --tw-text-opacity: 1;
-  color: rgb(30 64 175 / var(--tw-text-opacity));
+.hover\:bg-gray-50:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 250 251 / var(--tw-bg-opacity));
 }
 
 .group:nth-child(odd) .group-odd\:mr-4 {
@@ -1903,14 +1848,6 @@ figcaption {
   text-align: end;
 }
 
-.group:hover .group-hover\:fill-gray-400 {
-  fill: #9ca3af;
-}
-
-.group:hover .group-hover\:fill-green-400 {
-  fill: #4ade80;
-}
-
 @media (min-width: 768px) {
   .md\:fixed {
     position: fixed;
@@ -1941,16 +1878,6 @@ figcaption {
 
   .md\:leading-9 {
     line-height: 2.25rem;
-  }
-}
-
-@media (min-width: 1024px) {
-  .lg\:w-3\/4 {
-    width: 75%;
-  }
-
-  .lg\:w-5\/6 {
-    width: 83.333333%;
   }
 }
 
@@ -2015,5 +1942,10 @@ figcaption {
 
   .dark\:text-opacity-50 {
     --tw-text-opacity: 0.5;
+  }
+
+  .dark\:hover\:bg-zinc-700:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgb(63 63 70 / var(--tw-bg-opacity));
   }
 }
