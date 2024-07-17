@@ -1,13 +1,21 @@
-<nav>
+<nav role="navigation" aria-label="Main">
   <ul class="flex place-content-center gap-y-5">
-    <li class="mx-3">
+    <li class="mx-3" aria-label="Home">
       <a
         href="/"
         class="group grid h-10 w-10 content-center justify-center rounded-full hover:bg-gray-100 dark:hover:bg-zinc-700"
         >{{- partial "symbols/home.html" . -}}</a
       >
     </li>
-    <li class="mx-3">
+    <li class="mx-3" aria-label="About">
+      <a
+        href="/about"
+        class="group grid h-10 w-10 content-center justify-center rounded-full hover:bg-gray-100 dark:hover:bg-zinc-700"
+      >
+        <span class=""> {{- partial "symbols/about.html" . -}} </span>
+      </a>
+    </li>
+    <li class="mx-3" aria-label="Writing">
       <a
         href="/posts"
         class="group grid h-10 w-10 content-center justify-center rounded-full hover:bg-gray-100 dark:hover:bg-zinc-700"
@@ -15,20 +23,12 @@
         <span class=""> {{- partial "symbols/writing.html" . -}} </span>
       </a>
     </li>
-    <li class="mx-3">
+    <li class="mx-3" aria-label="Work">
       <a
         href="/work"
         class="group grid h-10 w-10 content-center justify-center rounded-full hover:bg-gray-100 dark:hover:bg-zinc-700"
       >
         <span class=""> {{- partial "symbols/work.html" . -}} </span>
-      </a>
-    </li>
-    <li class="mx-3">
-      <a
-        href="/about"
-        class="group grid h-10 w-10 content-center justify-center rounded-full hover:bg-gray-100 dark:hover:bg-zinc-700"
-      >
-        <span class=""> {{- partial "symbols/about.html" . -}} </span>
       </a>
     </li>
   </ul>
