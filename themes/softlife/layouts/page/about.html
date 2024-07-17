@@ -9,93 +9,124 @@
   <section class="mt-20">
     <p class="text-secondary mb-0 text-sm">What to explore</p>
 
-    <ul class="m-0 mt-5 grid list-none grid-cols-3 gap-4 p-0 md:grid-cols-4">
-      <li class="m-0 inline-block p-0">
+    <ul
+      class="m-0 mt-5 grid list-none grid-cols-2 gap-4 p-0 md:grid-cols-3 lg:grid-cols-4"
+    >
+      <li class="group m-0 inline-block p-0">
         <a
           href="#about"
-          class="flex rounded border px-2 text-xs no-underline transition-all hover:bg-gray-50 dark:hover:bg-zinc-700"
+          class="flex rounded border px-2 text-xs no-underline transition-all hover:border-transparent hover:bg-pink-50 dark:hover:border-transparent dark:hover:bg-pink-300/10"
         >
-          <span class="mr-2 inline-block content-center leading-9"
+          <span
+            class="mr-2 inline-block content-center leading-9 transition-all group-hover:rotate-6"
             >{{- partial "symbols/me.html" . -}}</span
           >
-          <span class="inline-block font-medium leading-9">Me</span>
+          <span
+            class="inline-block font-medium leading-9 group-hover:text-pink-500 dark:group-hover:text-pink-300"
+            >Me</span
+          >
         </a>
       </li>
-      <li class="m-0 inline-block p-0">
+      <li class="group m-0 inline-block p-0">
         <a
           href="/values"
-          class="flex rounded border px-2 text-xs no-underline transition-all hover:bg-gray-50 dark:hover:bg-zinc-700"
+          class="flex rounded border px-2 text-xs no-underline transition-all hover:border-transparent hover:bg-pink-50 dark:hover:border-transparent dark:hover:bg-pink-300/10"
         >
-          <span class="mr-2 inline-block content-center leading-9"
+          <span
+            class="mr-2 inline-block content-center leading-9 transition-all group-hover:rotate-6"
             >{{- partial "symbols/values.html" . -}}</span
           >
-          <span class="inline-block font-medium leading-9">Values</span>
+          <span
+            class="inline-block font-medium leading-9 group-hover:text-pink-500 dark:group-hover:text-pink-300"
+            >Values</span
+          >
         </a>
       </li>
-      <li class="m-0 inline-block p-0">
+      <li class="group m-0 inline-block p-0">
         <a
           href="/now"
-          class="flex rounded border px-2 text-xs no-underline transition-all hover:bg-gray-50 dark:hover:bg-zinc-700"
+          class="flex rounded border px-2 text-xs no-underline transition-all hover:border-transparent hover:bg-pink-50 dark:hover:border-transparent dark:hover:bg-pink-300/10"
         >
-          <span class="mr-2 inline-block content-center leading-9"
+          <span
+            class="mr-2 inline-block content-center leading-9 transition-all group-hover:rotate-6"
             >{{- partial "symbols/now.html" . -}}</span
           >
-          <span class="inline-block font-medium leading-9">Now</span>
+          <span
+            class="inline-block font-medium leading-9 group-hover:text-pink-500 dark:group-hover:text-pink-300"
+            >Now</span
+          >
         </a>
       </li>
-      <li class="m-0 inline-block p-0">
+      <li class="group m-0 inline-block p-0">
         <a
           href="/site"
-          class="flex rounded border px-2 text-xs no-underline transition-all hover:bg-gray-50 dark:hover:bg-zinc-700"
+          class="flex rounded border px-2 text-xs no-underline transition-all hover:border-transparent hover:bg-pink-50 dark:hover:border-transparent dark:hover:bg-pink-300/10"
         >
-          <span class="mr-2 inline-block content-center leading-9"
+          <span
+            class="mr-2 inline-block content-center leading-9 transition-all group-hover:rotate-6"
             >{{- partial "symbols/site.html" . -}}</span
           >
-          <span class="inline-block font-medium leading-9">Site</span>
+          <span
+            class="inline-block font-medium leading-9 group-hover:text-pink-500 dark:group-hover:text-pink-300"
+            >Site</span
+          >
         </a>
       </li>
-      <li class="m-0 inline-block p-0">
+      <li class="group m-0 inline-block p-0">
         <a
           href="/library"
-          class="flex rounded border px-2 text-xs no-underline transition-all hover:bg-gray-50 dark:hover:bg-zinc-700"
+          class="flex cursor-not-allowed rounded border px-2 text-xs no-underline opacity-55"
         >
-          <span class="mr-2 inline-block content-center leading-9"
+          <span
+            class="mr-2 inline-block cursor-not-allowed content-center leading-9 opacity-55"
             >{{- partial "symbols/library.html" . -}}</span
           >
           <span class="inline-block font-medium leading-9">Library</span>
         </a>
       </li>
-      <li class="m-0 inline-block p-0">
+      <li class="group m-0 inline-block p-0">
         <a
           href="/follow"
-          class="flex rounded border px-2 text-xs no-underline transition-all hover:bg-gray-50 dark:hover:bg-zinc-700"
+          class="flex rounded border px-2 text-xs no-underline transition-all hover:border-transparent hover:bg-pink-50 dark:hover:border-transparent dark:hover:bg-pink-300/10"
         >
-          <span class="mr-2 inline-block content-center leading-9"
+          <span
+            class="mr-2 inline-block content-center leading-9 transition-all group-hover:rotate-6"
             >{{- partial "symbols/follow.html" . -}}</span
           >
-          <span class="inline-block font-medium leading-9">Follow</span>
+          <span
+            class="inline-block font-medium leading-9 group-hover:text-pink-500 dark:group-hover:text-pink-300"
+            >Follow</span
+          >
         </a>
       </li>
-      <li class="m-0 inline-block p-0">
+      <li class="group m-0 inline-block p-0">
         <a
           href="/hello"
-          class="flex rounded border px-2 text-xs no-underline transition-all hover:bg-gray-50 dark:hover:bg-zinc-700"
+          class="flex rounded border px-2 text-xs no-underline transition-all hover:border-transparent hover:bg-pink-50 dark:hover:border-transparent dark:hover:bg-pink-300/10"
         >
-          <span class="mr-2 inline-block content-center leading-9"
+          <span
+            class="mr-2 inline-block content-center leading-9 transition-all group-hover:rotate-6"
             >{{- partial "symbols/hello.html" . -}}</span
           >
-          <span class="inline-block font-medium leading-9">Say hello</span>
+          <span
+            class="inline-block font-medium leading-9 group-hover:text-pink-500 dark:group-hover:text-pink-300"
+            >Say hello</span
+          >
         </a>
       </li>
-      <li class="m-0 inline-block p-0">
+      <li class="group m-0 inline-block p-0">
         <a
           href="/manual"
-          class="flex rounded border px-2 text-xs no-underline transition-all hover:bg-gray-50 dark:hover:bg-zinc-700"
+          class="flex rounded border px-2 text-xs no-underline transition-all hover:border-transparent hover:bg-pink-50 dark:hover:border-transparent dark:hover:bg-pink-300/10"
         >
-          <span class="mr-2 inline-block content-center leading-9"
+          <span
+            class="mr-2 inline-block content-center leading-9 transition-all group-hover:rotate-6"
             >{{- partial "symbols/manual.html" . -}}</span
           >
-          <span class="inline-block font-medium leading-9">Manual</span>
+          <span
+            class="inline-block font-medium leading-9 group-hover:text-pink-500 dark:group-hover:text-pink-300"
+            >Manual</span
+          >
         </a>
       </li>
     </ul>

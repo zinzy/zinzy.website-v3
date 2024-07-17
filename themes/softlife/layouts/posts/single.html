@@ -7,7 +7,7 @@
         {{ .Date | time.Format site.Params.theme_config.date_format_full }}
       </time>
     </p>
-    <h2 class="p-name mb-2 mt-0 text-2xl">
+    <h2 class="p-name mt-0 text-2xl">
       <a class="u-url" href="{{ .Permalink }}">{{ .Title }}</a>
     </h2>
   </header>
@@ -15,19 +15,24 @@
   {{ if gt .Site.Params.oldPost .Date.Year }}
 
   <div
-    class="flex rounded bg-amber-100 px-2 py-3 text-xs text-amber-950 md:py-0 dark:bg-yellow-100/10 dark:text-amber-100"
+    class="mb-14 flex rounded bg-pink-50 p-3 text-xs text-pink-700 dark:bg-pink-300/10 dark:text-white"
   >
     <span class="mr-2 inline-block content-center md:leading-9"
       >{{- partial "symbols/alert.html" . -}}</span
     >
-    <span class="inline-block md:leading-9"
-      >I consider this post to be dated. It may no longer reflect my
+    <span class="inline-block"
+      >I published this piece quite a while ago. Though I enjoy the art of
+      public record-keeping, you should know it may no longer reflect my
       views.</span
     >
   </div>
   {{ end }}
-  <content class="e-content h-entry prose prose-gray dark:prose-invert">
-    {{- partial "content_wikified" . -}}
+  <content
+    class="e-content h-entry prose prose-gray relative dark:prose-invert"
+  >
+    {{ if .Params.sidenote }}
+    <div class="aside">{{ .Params.sidenote | markdownify }}</div>
+    {{ end }} {{- partial "content_wikified" . -}}
   </content>
 
   {{- partial "thanks.html" . -}}

@@ -2,6 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://zinzy.website/2024/07/17/indieweb-carnival-tools/</loc>
+    <lastmod>2024-07-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zinzy.website/tags/indieweb-carnival/</loc>
+    <lastmod>2024-07-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zinzy.website/posts/</loc>
+    <lastmod>2024-07-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zinzy.website/tags/</loc>
+    <lastmod>2024-07-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zinzy.website/</loc>
+    <lastmod>2024-07-17T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://zinzy.website/tags/being-black/</loc>
     <lastmod>2024-07-06T00:00:00+00:00</lastmod>
   </url><url>
@@ -26,16 +41,7 @@
     <loc>https://zinzy.website/tags/omek/</loc>
     <lastmod>2024-07-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://zinzy.website/posts/</loc>
-    <lastmod>2024-07-06T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://zinzy.website/2024/07/06/present-in-action-without-speculation/</loc>
-    <lastmod>2024-07-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://zinzy.website/tags/</loc>
-    <lastmod>2024-07-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://zinzy.website/</loc>
     <lastmod>2024-07-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://zinzy.website/status/2024-06-19-06-45-09/</loc>
@@ -116,9 +122,6 @@
     <loc>https://zinzy.website/2024/05/10/a-job-for-me-part-two-good-enough/</loc>
     <lastmod>2024-05-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://zinzy.website/tags/indieweb-carnival/</loc>
-    <lastmod>2024-05-10T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://zinzy.website/tags/neurodivergence/</loc>
     <lastmod>2024-05-10T00:00:00+00:00</lastmod>
   </url><url>
@@ -130,6 +133,12 @@
   </url><url>
     <loc>https://zinzy.website/2024-05-08-21-49-12/</loc>
     <lastmod>2024-05-08T21:49:12+02:00</lastmod>
+  </url><url>
+    <loc>https://zinzy.website/now/</loc>
+    <lastmod>2024-05-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zinzy.website/page/</loc>
+    <lastmod>2024-05-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://zinzy.website/2024-04-26-06-50-05/</loc>
     <lastmod>2024-04-26T06:50:05+02:00</lastmod>
@@ -1569,6 +1578,8 @@
   </url><url>
     <loc>https://zinzy.website/categories/</loc>
   </url><url>
+    <loc>https://zinzy.website/community/</loc>
+  </url><url>
     <loc>https://zinzy.website/follow/</loc>
   </url><url>
     <loc>https://zinzy.website/hello/</loc>
@@ -1585,17 +1596,13 @@
   </url><url>
     <loc>https://zinzy.website/internet-library/</loc>
   </url><url>
+    <loc>https://zinzy.website/manual/</loc>
+  </url><url>
     <loc>https://zinzy.website/mentoring/</loc>
   </url><url>
     <loc>https://zinzy.website/tags/mentoring-guides/</loc>
   </url><url>
     <loc>https://zinzy.website/notes/</loc>
-  </url><url>
-    <loc>https://zinzy.website/now/</loc>
-  </url><url>
-    <loc>https://zinzy.website/page/</loc>
-  </url><url>
-    <loc>https://zinzy.website/play/</loc>
   </url><url>
     <loc>https://zinzy.website/tags/portfolio/</loc>
   </url><url>
@@ -1609,6 +1616,6 @@
   </url><url>
     <loc>https://zinzy.website/values/</loc>
   </url><url>
-    <loc>https://zinzy.website/work/</loc>
+    <loc>https://zinzy.website/work-and-play/</loc>
   </url>
 </urlset>

@@ -19,24 +19,35 @@
       </p>
     </div>
     <ul class="m-0 list-none p-0">
-      <li class="m-0 inline-block p-0">
-        <a href="/hello" class="flex rounded border px-2 text-xs no-underline">
-          <span class="mr-2 inline-block content-center leading-9"
+      <li class="group m-0 inline-block p-0">
+        <a
+          href="/hello"
+          class="group flex rounded border px-2 text-xs no-underline transition-all hover:border-transparent hover:bg-pink-50 dark:hover:border-transparent dark:hover:bg-pink-300/10"
+        >
+          <span
+            class="mr-2 inline-block content-center leading-9 transition-all group-hover:rotate-6"
             >{{- partial "symbols/mail.html" . -}}</span
           >
-          <span class="inline-block font-medium leading-9">Say hello</span>
+          <span
+            class="inline-block font-medium leading-9 group-hover:text-pink-500 dark:group-hover:text-pink-300"
+            >Say hello</span
+          >
         </a>
       </li>
-      <li class="m-0 ml-3 inline-block p-0">
+      <li class="group m-0 ml-3 inline-block p-0">
         <a
           href="https://ko-fi.com/zinzy"
-          class="flex rounded border px-2 text-xs"
+          class="group flex rounded border px-2 text-xs transition-all hover:border-transparent hover:bg-pink-50 dark:hover:border-transparent dark:hover:bg-pink-300/10"
           target="_blank"
         >
-          <span class="mr-2 inline-block content-center leading-9"
+          <span
+            class="mr-2 inline-block content-center leading-9 transition-all group-hover:rotate-6"
             >{{- partial "symbols/coffee.html" . -}}</span
           >
-          <span class="inline-block font-medium leading-9">Buy me coffee</span>
+          <span
+            class="inline-block font-medium leading-9 group-hover:text-pink-500 dark:group-hover:text-pink-300"
+            >Buy me coffee</span
+          >
         </a>
       </li>
     </ul>

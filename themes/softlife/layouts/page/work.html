@@ -9,7 +9,7 @@
   <section class="mt-20">
     <p class="text-secondary mb-0 text-sm">What to explore</p>
 
-    <ul class="m-0 mt-5 grid list-none grid-cols-3 gap-4 p-0">
+    <ul class="m-0 mt-5 grid list-none grid-cols-2 gap-4 p-0 lg:grid-cols-3">
       <li class="m-0 inline-block p-0">
         <a
           class="flex cursor-not-allowed rounded border px-2 text-xs no-underline opacity-55"
@@ -17,29 +17,40 @@
           <span class="mr-2 inline-block content-center leading-9"
             >{{- partial "symbols/design.html" . -}}</span
           >
-          <span class="inline-block font-medium leading-9">Design</span>
+          <span
+            class="inline-block font-medium leading-9 group-hover:text-pink-500 dark:group-hover:text-pink-300"
+            >Design</span
+          >
         </a>
       </li>
-      <li class="m-0 inline-block p-0">
+      <li class="group m-0 inline-block p-0">
         <a
           href="/mentoring"
-          class="flex rounded border px-2 text-xs no-underline transition-all hover:bg-gray-50 hover:dark:bg-zinc-700"
+          class="flex rounded border px-2 text-xs no-underline transition-all hover:border-transparent hover:bg-pink-50 dark:hover:border-transparent dark:hover:bg-pink-300/10"
         >
-          <span class="mr-2 inline-block content-center leading-9"
+          <span
+            class="mr-2 inline-block content-center leading-9 transition-all group-hover:rotate-6"
             >{{- partial "symbols/mentoring.html" . -}}</span
           >
-          <span class="inline-block font-medium leading-9">Mentoring</span>
+          <span
+            class="inline-block font-medium leading-9 group-hover:text-pink-500 dark:group-hover:text-pink-300"
+            >Mentoring</span
+          >
         </a>
       </li>
-      <li class="m-0 inline-block p-0">
+      <li class="group m-0 inline-block p-0">
         <a
           href="/community"
-          class="flex rounded border px-2 text-xs no-underline transition-all hover:bg-gray-50 hover:dark:bg-zinc-700"
+          class="flex rounded border px-2 text-xs no-underline transition-all hover:border-transparent hover:bg-pink-50 dark:hover:border-transparent dark:hover:bg-pink-300/10"
         >
-          <span class="mr-2 inline-block content-center leading-9"
+          <span
+            class="mr-2 inline-block content-center leading-9 transition-all group-hover:rotate-6"
             >{{- partial "symbols/community.html" . -}}</span
           >
-          <span class="inline-block font-medium leading-9">Communitiy</span>
+          <span
+            class="inline-block font-medium leading-9 group-hover:text-pink-500 dark:group-hover:text-pink-300"
+            >Communitiy</span
+          >
         </a>
       </li>
     </ul>
