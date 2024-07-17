@@ -1,6 +1,6 @@
 ---
 title: Values
-description: "When it comes down to it, here's what I deem important"
+description: "These are some of the things I enjoy, appreciate, and practice"
 layout: page
 ---
 

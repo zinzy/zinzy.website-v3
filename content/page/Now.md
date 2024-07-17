@@ -1,14 +1,18 @@
 ---
 title: Now
-share: true
-section: page
-description: What I'd tell an old friend
+layout: now
+date: 2024-05-01
+description: What I'm up to at this point in my life
 ---
-_Last updated in May 2024_
-<!-- 
-![A screen of a digital SLR camera displays an image of a person drawing on a whiteboard](https://res.cloudinary.com/dbi2zounq/image/upload/v1716494193/ofn1vadda593bdw5zng6.jpg) -->
 
-I'm at the [Gerimedica](https://gerimedica.nl) office, posing for an employer branding photoshoot. I usually don't use that whiteboard to draw anything, but that _is_ my desk in the background, and that smile is genuine. I gave a great talk at our periodic company update, and I feel I'm doing good work that helps the company reach its goals. It's a good day. The days have been good.
+{{< rawhtml >}}
+
+  <figure>
+    <img src="/img/zinzy-at-work.jpg" class="w-full" class="A Black person at the office smiling at the camera while doodling on a flipchart" />
+  </figure>
+{{< /rawhtml >}}
+
+Here I am at the [Gerimedica](https://gerimedica.nl) office, posing for an employer branding photoshoot. I usually don't use that whiteboard to draw anything, but that _is_ my desk in the background, and that smile is genuine. I gave a great talk at our periodic company update, and I feel I'm doing good work that helps the company reach its goals. It's a good day. The days have been good.
 
 ### Right now, I'm
 

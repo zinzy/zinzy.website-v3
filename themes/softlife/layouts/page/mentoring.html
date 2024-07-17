@@ -1,40 +1,48 @@
 {{ define "main" }} {{ partial "back_link.html" .}}
 
-<article class="h-entry prose prose-gray dark:prose-invert ">
-  <header class="my-12">
-    <h2 class="p-name mb-0">{{ .Title }}</h2>
-    <p class="text-secondary">{{ .Description }}</p>
+<article>
+  <header class="h-entry prose prose-gray dark:prose-invert">
+    <p class="text-secondary mb-0 text-sm">{{ .Title }}</p>
+    <h2 class="p-name mb-2 mt-0 text-2xl">{{ .Description }}</h2>
   </header>
 
-  <content>
+  <content class="h-entry prose prose-gray dark:prose-invert">
     {{ .Content }}
   </content>
-  
 
-  <ul class="list-none m-0 p-0 mt-12">
+  <ul class="m-0 mt-12 list-none p-0">
     {{ range sort $.Site.Data.mentoring "name" }}
-    <li class="text-xs group mb-10">
-      <p class="bg-gray-200 shadow-subtle rounded-2xl group-odd:rounded-bl-none group-even:rounded-br-none border px-4 py-3 dark:border-zinc-700 dark:bg-zinc-800">{{ .quote }}</p>
-      
+    <li class="group mb-10 text-xs">
       <p
-        class="mt-3 flex group-even:justify-end"
+        class="shadow-subtle rounded-2xl bg-gray-100 px-4 py-3 group-odd:rounded-bl-none group-even:rounded-br-none dark:bg-zinc-700 dark:text-white"
       >
-        <a href="{{ .url }}" target="_blank" rel="noopener noreferrer" class="flex font-normal"
-          >
+        {{ .quote }}
+      </p>
 
+      <p class="mt-3 flex group-even:justify-end">
+        <a
+          href="{{ .url }}"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="flex font-normal"
+        >
           <span class="flex-none group-even:order-2">
-            <img src="{{ .img }}" alt="" class="w-8 rounded-full p-0 m-0 group-odd:mr-4 group-even:ml-4">
+            <img
+              src="{{ .img }}"
+              alt=""
+              class="m-0 w-8 rounded-full p-0 group-odd:mr-4 group-even:ml-4"
+            />
           </span>
           <span class="grow group-even:order-1 group-even:text-end">
             <span class="block font-semibold">{{ .name }}</span>
-            <span class="block text-gray-700 dark:text-zinc-400 font-normal">{{ .jobTitle }}</span>
+            <span class="block font-normal text-gray-700 dark:text-zinc-400"
+              >{{ .jobTitle }}</span
+            >
           </span>
-          </a
-        >
+        </a>
       </p>
     </li>
     {{ end }}
   </ul>
-
 </article>
 {{ end }}

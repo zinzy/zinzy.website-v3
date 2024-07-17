@@ -1,0 +1,113 @@
+{{ define "main" }} {{ partial "back_link.html" .}}
+
+<article class="">
+  <header class="h-entry prose prose-gray dark:prose-invert">
+    <p class="text-secondary mb-0 text-sm">{{ .Title }}</p>
+    <h2 class="p-name mb-2 mt-0 text-2xl">{{ .Description }}</h2>
+  </header>
+
+  <section class="mt-20">
+    <p class="text-secondary mb-0 text-sm">What to explore</p>
+
+    <ul class="m-0 mt-5 grid list-none grid-cols-3 gap-4 p-0 md:grid-cols-4">
+      <li class="m-0 inline-block p-0">
+        <a
+          href="#about"
+          class="flex rounded border px-2 text-xs no-underline transition-all hover:bg-gray-50 dark:hover:bg-zinc-700"
+        >
+          <span class="mr-2 inline-block content-center leading-9"
+            >{{- partial "symbols/me.html" . -}}</span
+          >
+          <span class="inline-block font-medium leading-9">Me</span>
+        </a>
+      </li>
+      <li class="m-0 inline-block p-0">
+        <a
+          href="/values"
+          class="flex rounded border px-2 text-xs no-underline transition-all hover:bg-gray-50 dark:hover:bg-zinc-700"
+        >
+          <span class="mr-2 inline-block content-center leading-9"
+            >{{- partial "symbols/values.html" . -}}</span
+          >
+          <span class="inline-block font-medium leading-9">Values</span>
+        </a>
+      </li>
+      <li class="m-0 inline-block p-0">
+        <a
+          href="/now"
+          class="flex rounded border px-2 text-xs no-underline transition-all hover:bg-gray-50 dark:hover:bg-zinc-700"
+        >
+          <span class="mr-2 inline-block content-center leading-9"
+            >{{- partial "symbols/now.html" . -}}</span
+          >
+          <span class="inline-block font-medium leading-9">Now</span>
+        </a>
+      </li>
+      <li class="m-0 inline-block p-0">
+        <a
+          href="/site"
+          class="flex rounded border px-2 text-xs no-underline transition-all hover:bg-gray-50 dark:hover:bg-zinc-700"
+        >
+          <span class="mr-2 inline-block content-center leading-9"
+            >{{- partial "symbols/site.html" . -}}</span
+          >
+          <span class="inline-block font-medium leading-9">Site</span>
+        </a>
+      </li>
+      <li class="m-0 inline-block p-0">
+        <a
+          href="/library"
+          class="flex rounded border px-2 text-xs no-underline transition-all hover:bg-gray-50 dark:hover:bg-zinc-700"
+        >
+          <span class="mr-2 inline-block content-center leading-9"
+            >{{- partial "symbols/library.html" . -}}</span
+          >
+          <span class="inline-block font-medium leading-9">Library</span>
+        </a>
+      </li>
+      <li class="m-0 inline-block p-0">
+        <a
+          href="/follow"
+          class="flex rounded border px-2 text-xs no-underline transition-all hover:bg-gray-50 dark:hover:bg-zinc-700"
+        >
+          <span class="mr-2 inline-block content-center leading-9"
+            >{{- partial "symbols/follow.html" . -}}</span
+          >
+          <span class="inline-block font-medium leading-9">Follow</span>
+        </a>
+      </li>
+      <li class="m-0 inline-block p-0">
+        <a
+          href="/hello"
+          class="flex rounded border px-2 text-xs no-underline transition-all hover:bg-gray-50 dark:hover:bg-zinc-700"
+        >
+          <span class="mr-2 inline-block content-center leading-9"
+            >{{- partial "symbols/hello.html" . -}}</span
+          >
+          <span class="inline-block font-medium leading-9">Say hello</span>
+        </a>
+      </li>
+      <li class="m-0 inline-block p-0">
+        <a
+          href="/manual"
+          class="flex rounded border px-2 text-xs no-underline transition-all hover:bg-gray-50 dark:hover:bg-zinc-700"
+        >
+          <span class="mr-2 inline-block content-center leading-9"
+            >{{- partial "symbols/manual.html" . -}}</span
+          >
+          <span class="inline-block font-medium leading-9">Manual</span>
+        </a>
+      </li>
+    </ul>
+  </section>
+
+  <div
+    id="about"
+    class="e-content h-entry prose prose-gray py-20 dark:prose-invert"
+  >
+    {{ .Content }}
+  </div>
+
+  {{ partial "backlinks.html" . }} {{- partial "thanks.html" . -}}
+</article>
+{{ end }}

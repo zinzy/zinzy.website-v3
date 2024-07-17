@@ -21,8 +21,8 @@
         <a class="block rounded p-3 hover:bg-gray-50" href="{{ .Permalink }}">
           <span class="block">{{ .Title }}</span>
           <time class="text-secondary text-sm"
-            >{{- (.Date | time.Format
-            site.Params.theme_config.date_format_archive) }}</time
+            >{{- (.Date | time.Format site.Params.theme_config.date_format_full)
+            }}</time
           >
         </a>
       </li>

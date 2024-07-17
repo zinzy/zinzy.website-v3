@@ -2,9 +2,7 @@
 
 <header class="prose prose-gray mb-20 dark:prose-invert">
   <h2 class="mb-5">{{ .Title }}</h2>
-  <p class="text-secondary mb-7">
-    photos
-  </p>
+  <p class="text-secondary mb-7">photos</p>
 </header>
 
 <section>
@@ -13,11 +11,14 @@
   <ul class="-mx-3">
     {{ range $postsDefault }}
     <li class="mb-5">
-      <a class=" border border-gray-150 dark:border-zinc-700 dark:bg-zinc-800 hover:border-gray-300 p-3 rounded-md shadow-subtle block" href="{{ .Permalink }}">
+      <a
+        class="border-gray-150 shadow-subtle block rounded-md border p-3 hover:border-gray-300 dark:border-zinc-700 dark:bg-zinc-800"
+        href="{{ .Permalink }}"
+      >
         <span class="block font-medium">{{ .Title }}</span>
         <time class="text-secondary text-sm"
-          >{{- (.Date | time.Format
-          site.Params.theme_config.date_format_archive) }}</time
+          >{{- (.Date | time.Format site.Params.theme_config.date_format_full)
+          }}</time
         >
       </a>
     </li>

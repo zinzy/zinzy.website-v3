@@ -33,7 +33,7 @@ body, html {
 }
 
 .container {
-  max-width:600px;
+  max-width:550px;
 }
 
 body {
@@ -77,16 +77,11 @@ img {
 
 
 .button {
-  @apply border px-3 h-9 leading-9 rounded inline-block text-xs font-semibold;
-}
-
-.button[target="_blank"]::after {
-  content: "↗";
-  @apply inline-block ml-2;
+  @apply border px-3 h-9 leading-9 rounded inline-block text-xs font-semibold dark:border-zinc-700;
 }
 
 .button-square {
-  @apply h-9 w-9 border
+  @apply h-9 w-9 border dark:border-zinc-700
 }
 
 .underline {

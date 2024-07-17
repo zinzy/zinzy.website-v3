@@ -1,13 +1,15 @@
 {{ define "main" }} {{ partial "back_link.html" .}}
 
-<article class="h-entry prose prose-gray dark:prose-invert">
-  <header class="text-center">
-    <h2 class="p-name mb-2 mt-0 text-2xl">{{ .Title }}</h2>
+<article class="">
+  <header class="">
     <p class="text-secondary mb-0 text-sm">
       <time class="dt-published" datetime="{{ .Date }}">
-        {{ .Date | time.Format site.Params.theme_config.date_verbose }}
+        {{ .Date | time.Format site.Params.theme_config.date_format_full }}
       </time>
     </p>
+    <h2 class="p-name mb-2 mt-0 text-2xl">
+      <a class="u-url" href="{{ .Permalink }}">{{ .Title }}</a>
+    </h2>
   </header>
 
   {{ if gt .Site.Params.oldPost .Date.Year }}
@@ -24,7 +26,9 @@
     >
   </div>
   {{ end }}
-  <content class="e-content"> {{- partial "content_wikified" . -}} </content>
+  <content class="e-content h-entry prose prose-gray dark:prose-invert">
+    {{- partial "content_wikified" . -}}
+  </content>
 
   {{- partial "thanks.html" . -}}
 </article>

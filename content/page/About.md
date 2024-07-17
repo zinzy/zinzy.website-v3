@@ -1,7 +1,7 @@
 ---
 title: About
 description: "Hey, I'm Zinzy! I'm a grateful human and Product Designer living and working in Amsterdam"
-layout: page
+layout: about
 ---
 
 {{< rawhtml >}}

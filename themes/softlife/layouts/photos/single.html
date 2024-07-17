@@ -8,7 +8,7 @@
         class="dt-published text-italic inline-block text-gray-500 dark:text-white/50"
         datetime="{{ .Date }}"
       >
-        {{ .Date | time.Format site.Params.theme_config.date_format_archive }}
+        {{ .Date | time.Format site.Params.theme_config.date_format_full }}
       </time>
     </div>
   </header>
