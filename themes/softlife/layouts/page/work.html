@@ -1,7 +1,7 @@
 {{ define "main" }} {{ partial "back_link.html" .}}
 
-<article class="">
-  <header class="h-entry prose prose-gray dark:prose-invert">
+<article class="h-entry">
+  <header class="prose prose-gray dark:prose-invert">
     <p class="text-secondary mb-0 text-sm">{{ .Title }}</p>
     <h2 class="p-name mb-2 mt-0 text-2xl">{{ .Description }}</h2>
   </header>
@@ -58,11 +58,11 @@
 
   <div
     id="about"
-    class="e-content h-entry prose prose-gray py-20 dark:prose-invert"
+    class="e-content prose prose-gray mt-20 dark:prose-invert"
   >
     {{ .Content }}
   </div>
 
-  {{ partial "backlinks.html" . }} {{- partial "thanks.html" . -}}
+  {{ partial "backlinks.html" . }} 
 </article>
 {{ end }}

@@ -47,3 +47,12 @@ function settime() {
       return
     }
   }
+
+  const audio = new Audio("/src/pronunciation.mp3");
+  const buttons = document.querySelectorAll(".name");
+  
+  buttons.forEach(button => {
+    button.addEventListener("click", () => {
+      audio.play();
+    });
+  });

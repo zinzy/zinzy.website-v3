@@ -1,6 +1,6 @@
 ---
 title: About
-description: "Hey, I'm Zinzy! I'm a grateful human and Product Designer living and working in Amsterdam"
+description: "Hey, I'm Zinzy Waleson Geene"
 layout: about
 ---
 
@@ -12,7 +12,7 @@ layout: about
   </figure>
 {{< /rawhtml >}}
 
-Hello, I’m Zinzy Waleson Geene and you have reached my world wide web homepage. This website is a home for soft stances, lived experiences, and critical notes on the things I hold dear. No highlight reel, no likes, no follow button. You may [follow](/follow) me the old-fashioned way or, even better, [say hello](/hello).
+I'm pleased you have reached my world wide web homepage. This is a home for soft stances, lived experiences, and critical notes on the things I hold dear. No highlight reel, no likes, no follow button. You may [follow](/follow) me the old-fashioned way or, even better, [say hello](/hello).
 
 ### I'm one of those privileged people who wake up feeling 8+.
 

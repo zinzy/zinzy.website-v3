@@ -77,13 +77,8 @@ img {
 
 
 .button {
-  @apply border px-3 h-9 leading-9 rounded inline-block text-xs font-semibold dark:border-zinc-700;
+  @apply border px-3 h-9 leading-9 rounded inline-block text-xs font-semibold dark:border-zinc-700 hover:text-pink-500 hover:bg-pink-50 hover:border-transparent  dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:hover:text-pink-300;
 }
-
-.button-square {
-  @apply h-9 w-9 border dark:border-zinc-700
-}
-
 .underline {
   @apply underline-offset-4 decoration-gray-600 decoration-1 dark:decoration-gray-300 hover:decoration-gray-950;
 }
@@ -121,11 +116,17 @@ details[open] > summary::marker {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  @apply font-medium font-sans dark:text-white;
+  @apply font-medium font-sans dark:text-white ;
+  a {
+    @apply hover:text-pink-500 dark:hover:text-pink-300;
+  }
 }
 .prose {
   h1, h2, h3, h4, h5, h6 {
     @apply font-medium font-sans dark:text-white;
+    a {
+      @apply hover:text-pink-500 dark:hover:text-pink-300;
+    }
   }
 }
 
@@ -139,7 +140,7 @@ a {
 }
 
 .prose a {
-  @apply underline hover:text-gray-500 hover:decoration-gray-500;
+  @apply underline hover:text-pink-500 hover:decoration-pink-500 dark:hover:text-pink-300 dark:hover:decoration-pink-300;
 }
 
 .not-prose a:where([class~="aside"]) {
@@ -157,7 +158,7 @@ figcaption {
 
 
 .aside {
-  @apply text-xs bg-gray-50 dark:bg-zinc-700 p-3 lg:w-1/3 float-right mb-3 lg:ml-3;
+  @apply text-xs bg-gray-50 dark:bg-zinc-700 dark:text-gray-300 p-3 lg:w-1/3 lg:float-right mb-3 lg:ml-3 rounded break-words;
 }
 
 .aside p {
@@ -174,20 +175,22 @@ figcaption {
 }
 
 .prose blockquote {
-  background-image: url( '/img/highlight.svg' );
-  background-repeat: no-repeat;
-  background-size: contain;
-
-  @apply not-italic md:w-52  border-0 m-0 p-0 mb-3 md:ml-7 text-pink-500 font-semibold ;
+  @apply not-italic md:w-48 text-xl border-0 m-0 p-0 mb-3 md:ml-7 text-pink-500 dark:text-pink-300 font-semibold xl:absolute md:float-right  xl:-right-60 2xl:w-60 2xl:-right-80;
   p {
     @apply m-0 p-0
   }
 }
 
+
 .prose blockquote:nth-of-type(even) {
-  @apply md:float-left 
-}
-.prose blockquote:nth-of-type(odd) {
-  @apply md:float-right 
+  @apply md:float-left xl:-left-64 2xl:-left-80 md:ml-0 md:mr-7
 }
 
+.prose code {
+  @apply bg-pink-50 dark:bg-pink-300/10 py-1 px-2 text-xs rounded text-pink-700 dark:text-pink-300 whitespace-nowrap
+}
+
+.prose :where(code):not(:where([class~="not-prose"],[class~="not-prose"] *))::before,
+.prose :where(code):not(:where([class~="not-prose"],[class~="not-prose"] *))::after {
+  content: "";
+}

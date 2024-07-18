@@ -1117,6 +1117,11 @@ video {
   margin-right: 0.75rem;
 }
 
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .my-10 {
   margin-top: 2.5rem;
   margin-bottom: 2.5rem;
@@ -1269,6 +1274,11 @@ video {
   width: 100%;
 }
 
+.max-w-fit {
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+}
+
 .flex-none {
   flex: none;
 }
@@ -1291,10 +1301,6 @@ video {
 
 .grid-cols-2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
-.grid-cols-3 {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .flex-col {
@@ -1385,13 +1391,14 @@ video {
   background-color: rgb(249 250 251 / var(--tw-bg-opacity));
 }
 
+.bg-pink-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(253 242 248 / var(--tw-bg-opacity));
+}
+
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.fill-amber-950 {
-  fill: #451a03;
 }
 
 .fill-gray-200 {
@@ -1406,12 +1413,20 @@ video {
   fill: #030712;
 }
 
+.fill-pink-700 {
+  fill: #be185d;
+}
+
 .fill-red-300 {
   fill: #fca5a5;
 }
 
-.stroke-gray-300 {
-  stroke: #d1d5db;
+.stroke-blue-400 {
+  stroke: #60a5fa;
+}
+
+.stroke-gray-950 {
+  stroke: #030712;
 }
 
 .p-0 {
@@ -1432,6 +1447,10 @@ video {
 
 .p-4 {
   padding: 1rem;
+}
+
+.p-5 {
+  padding: 1.25rem;
 }
 
 .px-2 {
@@ -1466,12 +1485,12 @@ video {
   padding-top: 5rem;
 }
 
-.text-center {
-  text-align: center;
-}
-
 .text-right {
   text-align: right;
+}
+
+.font-serif {
+  font-family: FreightText Pro Book, serif;
 }
 
 .text-2xl {
@@ -1537,6 +1556,11 @@ video {
 .text-gray-950 {
   --tw-text-opacity: 1;
   color: rgb(3 7 18 / var(--tw-text-opacity));
+}
+
+.text-pink-700 {
+  --tw-text-opacity: 1;
+  color: rgb(190 24 93 / var(--tw-text-opacity));
 }
 
 .no-underline {
@@ -1667,23 +1691,25 @@ img {
   line-height: 2.25rem;
 }
 
+.button:hover {
+  border-color: transparent;
+  --tw-bg-opacity: 1;
+  background-color: rgb(253 242 248 / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(236 72 153 / var(--tw-text-opacity));
+}
+
 @media (prefers-color-scheme: dark) {
   .button {
     --tw-border-opacity: 1;
     border-color: rgb(63 63 70 / var(--tw-border-opacity));
   }
-}
 
-.button-square {
-  height: 2.25rem;
-  width: 2.25rem;
-  border-width: 1px;
-}
-
-@media (prefers-color-scheme: dark) {
-  .button-square {
-    --tw-border-opacity: 1;
-    border-color: rgb(63 63 70 / var(--tw-border-opacity));
+  .button:hover {
+    border-color: transparent;
+    background-color: rgb(249 168 212 / 0.1);
+    --tw-text-opacity: 1;
+    color: rgb(249 168 212 / var(--tw-text-opacity));
   }
 }
 
@@ -1743,6 +1769,19 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+h1, h2, h3, h4, h5, h6 {
+  a:hover {
+    --tw-text-opacity: 1;
+    color: rgb(236 72 153 / var(--tw-text-opacity));
+  }
+  @media (prefers-color-scheme: dark) {
+    a:hover {
+      --tw-text-opacity: 1;
+      color: rgb(249 168 212 / var(--tw-text-opacity));
+    }
+  }
+}
+
 .prose {
   h1, h2, h3, h4, h5, h6 {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
@@ -1754,6 +1793,18 @@ h1, h2, h3, h4, h5, h6 {
     h1, h2, h3, h4, h5, h6 {
       --tw-text-opacity: 1;
       color: rgb(255 255 255 / var(--tw-text-opacity));
+    }
+  }
+  h1, h2, h3, h4, h5, h6 {
+    a:hover {
+      --tw-text-opacity: 1;
+      color: rgb(236 72 153 / var(--tw-text-opacity));
+    }
+    @media (prefers-color-scheme: dark) {
+      a:hover {
+        --tw-text-opacity: 1;
+        color: rgb(249 168 212 / var(--tw-text-opacity));
+      }
     }
   }
 }
@@ -1796,8 +1847,16 @@ h1, h2, h3, h4, h5, h6 {
 
 .prose a:hover {
   --tw-text-opacity: 1;
-  color: rgb(107 114 128 / var(--tw-text-opacity));
-  text-decoration-color: #6b7280;
+  color: rgb(236 72 153 / var(--tw-text-opacity));
+  text-decoration-color: #ec4899;
+}
+
+@media (prefers-color-scheme: dark) {
+  .prose a:hover {
+    --tw-text-opacity: 1;
+    color: rgb(249 168 212 / var(--tw-text-opacity));
+    text-decoration-color: #f9a8d4;
+  }
 }
 
 .not-prose a:where([class~="aside"]) {
@@ -1817,8 +1876,9 @@ figcaption {
 }
 
 .aside {
-  float: right;
   margin-bottom: 0.75rem;
+  overflow-wrap: break-word;
+  border-radius: 0.25rem;
   --tw-bg-opacity: 1;
   background-color: rgb(249 250 251 / var(--tw-bg-opacity));
   padding: 0.75rem;
@@ -1828,6 +1888,7 @@ figcaption {
 
 @media (min-width: 1024px) {
   .aside {
+    float: right;
     margin-left: 0.75rem;
     width: 33.333333%;
   }
@@ -1837,6 +1898,8 @@ figcaption {
   .aside {
     --tw-bg-opacity: 1;
     background-color: rgb(63 63 70 / var(--tw-bg-opacity));
+    --tw-text-opacity: 1;
+    color: rgb(209 213 219 / var(--tw-text-opacity));
   }
 }
 
@@ -1855,23 +1918,44 @@ figcaption {
 }
 
 .prose blockquote {
-  background-image: url( '/img/highlight.svg' );
-  background-repeat: no-repeat;
-  background-size: contain;
   margin: 0px;
   margin-bottom: 0.75rem;
   border-width: 0px;
   padding: 0px;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
   font-weight: 600;
   font-style: normal;
   --tw-text-opacity: 1;
-  color: rgb(236 72 153 / var(--tw-text-opacity))
+  color: rgb(236 72 153 / var(--tw-text-opacity));
 }
 
 @media (min-width: 768px) {
   .prose blockquote {
+    float: right;
     margin-left: 1.75rem;
-    width: 13rem;
+    width: 12rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .prose blockquote {
+    position: absolute;
+    right: -15rem;
+  }
+}
+
+@media (min-width: 1536px) {
+  .prose blockquote {
+    right: -20rem;
+    width: 15rem;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .prose blockquote {
+    --tw-text-opacity: 1;
+    color: rgb(249 168 212 / var(--tw-text-opacity));
   }
 }
 
@@ -1887,11 +1971,49 @@ figcaption {
 @media (min-width: 768px) {
   .prose blockquote:nth-of-type(even) {
     float: left;
+    margin-left: 0px;
+    margin-right: 1.75rem;
   }
+}
 
-  .prose blockquote:nth-of-type(odd) {
-    float: right;
+@media (min-width: 1280px) {
+  .prose blockquote:nth-of-type(even) {
+    left: -16rem;
   }
+}
+
+@media (min-width: 1536px) {
+  .prose blockquote:nth-of-type(even) {
+    left: -20rem;
+  }
+}
+
+.prose code {
+  white-space: nowrap;
+  border-radius: 0.25rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(253 242 248 / var(--tw-bg-opacity));
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  --tw-text-opacity: 1;
+  color: rgb(190 24 93 / var(--tw-text-opacity));
+}
+
+@media (prefers-color-scheme: dark) {
+  .prose code {
+    background-color: rgb(249 168 212 / 0.1);
+    --tw-text-opacity: 1;
+    color: rgb(249 168 212 / var(--tw-text-opacity));
+  }
+}
+
+.prose :where(code):not(:where([class~="not-prose"],[class~="not-prose"] *))::before,
+.prose :where(code):not(:where([class~="not-prose"],[class~="not-prose"] *))::after {
+  content: "";
 }
 
 @media (prefers-color-scheme: dark) {
@@ -1922,14 +2044,18 @@ figcaption {
   border-color: rgb(209 213 219 / var(--tw-border-opacity));
 }
 
-.hover\:bg-gray-100:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+.hover\:border-transparent:hover {
+  border-color: transparent;
 }
 
 .hover\:bg-gray-50:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(249 250 251 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-pink-50:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(253 242 248 / var(--tw-bg-opacity));
 }
 
 .group:nth-child(odd) .group-odd\:mr-4 {
@@ -1964,18 +2090,22 @@ figcaption {
   text-align: end;
 }
 
-.group:hover .group-hover\:rotate-3 {
-  --tw-rotate: 3deg;
+.group:hover .group-hover\:rotate-6 {
+  --tw-rotate: 6deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.group:hover .group-hover\:fill-gray-500 {
-  fill: #6b7280;
+.group:hover .group-hover\:fill-pink-500 {
+  fill: #ec4899;
 }
 
-.group:hover .group-hover\:text-gray-500 {
+.group:hover .group-hover\:stroke-pink-500 {
+  stroke: #ec4899;
+}
+
+.group:hover .group-hover\:text-pink-500 {
   --tw-text-opacity: 1;
-  color: rgb(107 114 128 / var(--tw-text-opacity));
+  color: rgb(236 72 153 / var(--tw-text-opacity));
 }
 
 @media (min-width: 768px) {
@@ -2001,8 +2131,8 @@ figcaption {
     display: flex;
   }
 
-  .md\:grid-cols-4 {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
+  .md\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .md\:py-0 {
@@ -2015,10 +2145,32 @@ figcaption {
   }
 }
 
+@media (min-width: 1024px) {
+  .lg\:w-3\/4 {
+    width: 75%;
+  }
+
+  .lg\:w-5\/6 {
+    width: 83.333333%;
+  }
+
+  .lg\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .lg\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
 @media (prefers-color-scheme: dark) {
   .dark\:border-zinc-700 {
     --tw-border-opacity: 1;
     border-color: rgb(63 63 70 / var(--tw-border-opacity));
+  }
+
+  .dark\:bg-pink-300\/10 {
+    background-color: rgb(249 168 212 / 0.1);
   }
 
   .dark\:bg-yellow-100\/10 {
@@ -2035,10 +2187,6 @@ figcaption {
     background-color: rgb(39 39 42 / var(--tw-bg-opacity));
   }
 
-  .dark\:fill-amber-100 {
-    fill: #fef3c7;
-  }
-
   .dark\:fill-gray-400 {
     fill: #9ca3af;
   }
@@ -2053,6 +2201,10 @@ figcaption {
 
   .dark\:fill-white\/60 {
     fill: rgb(255 255 255 / 0.6);
+  }
+
+  .dark\:stroke-white {
+    stroke: #fff;
   }
 
   .dark\:text-amber-100 {
@@ -2083,14 +2235,28 @@ figcaption {
     --tw-text-opacity: 0.5;
   }
 
-  .dark\:hover\:bg-zinc-700:hover {
-    --tw-bg-opacity: 1;
-    background-color: rgb(63 63 70 / var(--tw-bg-opacity));
+  .dark\:hover\:border-transparent:hover {
+    border-color: transparent;
   }
 
-  .hover\:dark\:bg-zinc-700:hover {
-    --tw-bg-opacity: 1;
-    background-color: rgb(63 63 70 / var(--tw-bg-opacity));
+  .dark\:hover\:bg-pink-300\/10:hover {
+    background-color: rgb(249 168 212 / 0.1);
+  }
+
+  .dark\:hover\:stroke-pink-200:hover {
+    stroke: #fbcfe8;
+  }
+
+  .group:hover .dark\:group-hover\:fill-pink-300 {
+    fill: #f9a8d4;
+  }
+
+  .group:hover .dark\:group-hover\:stroke-pink-300 {
+    stroke: #f9a8d4;
+  }
+
+  .group:hover .dark\:group-hover\:text-pink-300 {
+    --tw-text-opacity: 1;
+    color: rgb(249 168 212 / var(--tw-text-opacity));
   }
 }
-

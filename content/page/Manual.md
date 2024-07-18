@@ -1,28 +1,58 @@
 ---
 title: Manual
-section: page
-description: "This is my personal user manual, which helps you understand how you can best work with me"
+layout: manual
+description: "This user manual helps you understand how you can best work with me"
+sidenote: "I was inspired to make this page by [Jamie Tanna's manual](https://manual.jvt.me/). It is a part of the [Manual of Me](https://my.manualof.me/) movement."
 ---
+Heya, I'm Zinzy! As a Product Designer I'm currently employed by [Gerimedica](https://gerimedica.nl), an enterprise software provider in the Dutch healthcare space. I've been with them for a little over a year now, and consider this job to be a milestone in my career. I've always known I would one day venture into healthcare technology. I love its for its complexity, for the constraints of rules and regulations, and for the impact it can have on the working lives of busy people.
+
+<!-- > If I came with a warning label, it would say: imagine Ted Lasso and the Law of Two Feet have a love child that periodically throws glitter in your face.
 
 ### Hello, I'm Zinzy Waleson Geene
+ 
+### My role
 
-I'm a senior researcher and designer currently employed by Gerimedica, an enterprise software provider in the Dutch healthcare space. This page is inspired by [Jamie Tanna's manual](https://manual.jvt.me/) and [Manual of Me](https://my.manualof.me/) and seeks to help coworkers make the most of working with me. You may be interested to learn more [about](/about) me.
+I am a Product Designer, although some of our coworkers may call me a UX Designer, UX Researcher, or Interface Designer. The latter isn't my preferred job title, because it only covers part of what I do: I solve user problems through applied research and interaction and interface design.
 
-### If I came with a warning label, it would say
+### What's important to me
 
-If golden retriever energy and the Law of Two Feet had a love child that periodically throws glitter in your face.
+- `Strategy` I believe interface design alone can't accomplish greatness unless there's user-centered alignment across our entire company
+- `Collaboration` I see great value in having close, mutually challenging relationships. Haven't met me yet, let's have coffee!
+- `Inclusion` I'm a queer person of color and neurodivergent, and I appreciate work environments that give me autonomy to learn and deliver the way I know to do best, while making me feel part of the family
 
-### Here's what I do at work
+### My working hours
+I'm on the `Europe/Amsterdam` timezone
+{{< rawhtml >}}<span class="time" data-timestamp-text=",<BR>where it's currently {time}"></span>{{< /rawhtml >}}
 
-I'm a UX team-of-one operating alongside all scrum teams in our department. As the PO's sidekick, I do whatever is needed to ensure a smooth trajectory of product ideas, from discovery to production. My deliverables are feature design as well as broad-scope research projects that usually involves a lot of research, stakeholder management, and facilitation.
+{{< rawhtml >}}
+<div class="border">
+ddw
+</div>
+{{< /rawhtml >}}
 
 ### My availability
 
-I like an early start, so you can usually expect me to be at work anywhere between 07:30 and 18:00. I spend at least one full day at the office, as well as at least two mornings or afternoons. This way, I get to see as many people in person as possible. I enjoy a day off every other Monday.
+Working hours
+: I usually start and finish anywhere between 07:00 and 18:00
+
+Office time
+: I spend one full day at the office, as well as at least two mornings or afternoons. This way, I get to see as many people in person as possible.
+
+Time off
+: I work 36 hours, which means I have one day off every two weeks. Usually that's on Monday, but it may vary
 
 ### Structure of my day
 
-I prefer to not be engaged in daily standups unless I'm actually a member of a scrum team. If I do need to check in with one or more people, I prefer to do so between 09:00 and 10:00. This gives me time for deep work in the morning. I prefer a fixed time for lunch every day because I helps me unwind, and don't take lunch meetings as a rule. My one-on-one meetings last 30 minutes, and I generally will do my best to get out of group meetings that last longer than one hour.
+Check-ins
+: I prefer to skip daily standups unless teamwork requires it
+: If I do need to check in with one or more people, I prefer to do so between 08:00 and 10:00. This gives me time for deep work in the morning.
+
+Breaks
+: I reserve one hour for lunch between 12:00 and 1:00 p.m. I don't take meetings during this time.
+
+Meetings
+: My one-on-one meetings last 30 minutes
+: I generally will do my best to get out of group meetings that last longer than one hour.
 
 ### I do my very best work when
 
@@ -59,4 +89,4 @@ By asking me what I need. I struggle when people try to solve my problem, becaus
 
 ### I last updated this on
 
-January 25, 2024
+January 25, 2024 -->

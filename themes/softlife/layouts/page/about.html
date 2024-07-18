@@ -1,9 +1,17 @@
 {{ define "main" }} {{ partial "back_link.html" .}}
 
-<article class="">
-  <header class="h-entry prose prose-gray dark:prose-invert">
+<article class="h-entry">
+  <header class=" prose prose-gray dark:prose-invert">
     <p class="text-secondary mb-0 text-sm">{{ .Title }}</p>
-    <h2 class="p-name mb-2 mt-0 text-2xl">{{ .Description }}</h2>
+    <h2 class="p-name my-2 text-2xl">{{ .Description }}</h2>
+
+    <div class="name group flex place-content-center border max-w-fit transition-all hover:border-transparent hover:bg-pink-50 dark:hover:border-transparent dark:hover:bg-pink-300/10 cursor-pointer rounded-3xl">
+      <p class="text-gray-600 m-0 text-sm leading-7 ml-3 mr-1 group-hover:text-pink-500 dark:group-hover:text-pink-300">/ zɪn·zi: weɪl·sʌn gi:n /</p>
+      <span class="p-1 rounded-full inline-block ">
+        {{- partial "symbols/sound.html" . -}}
+      </span>
+    </div>
+
   </header>
 
   <section class="mt-20">
@@ -114,10 +122,10 @@
           >
         </a>
       </li>
-      <li class="group m-0 inline-block p-0">
+      <li class=" m-0 inline-block p-0">
         <a
-          href="/manual"
-          class="flex rounded border px-2 text-xs no-underline transition-all hover:border-transparent hover:bg-pink-50 dark:hover:border-transparent dark:hover:bg-pink-300/10"
+          href="/library"
+          class="flex cursor-not-allowed rounded border px-2 text-xs no-underline opacity-55"
         >
           <span
             class="mr-2 inline-block content-center leading-9 transition-all group-hover:rotate-6"
@@ -134,11 +142,11 @@
 
   <div
     id="about"
-    class="e-content h-entry prose prose-gray py-20 dark:prose-invert"
+    class="e-content prose prose-gray mt-20 dark:prose-invert"
   >
     {{ .Content }}
   </div>
 
-  {{ partial "backlinks.html" . }} {{- partial "thanks.html" . -}}
+  {{ partial "backlinks.html" . }} 
 </article>
 {{ end }}
