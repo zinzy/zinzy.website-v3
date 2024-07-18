@@ -1,6 +1,6 @@
 ---
 title: About
-description: "Hey, I'm Zinzy Waleson Geene"
+description: "Hey, my name is Zinzy Waleson Geene"
 layout: about
 ---
 
