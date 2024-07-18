@@ -20,7 +20,7 @@ Don't wear track suits, use slang, or do anything that makes people think you be
 
 Don't eat with your hands, because people will call you an animal. 
 
-This is the hypervigilance or a brain on racial trauma. They are daily choices I make to prevent myself from experiencing danger; some colossal and perceived, though the bulk of it real, ongoing and usually too small to count as what feels like a true argument for protest. 
+This is the hypervigilance of a brain on racial trauma. They are daily choices I make to prevent myself from experiencing danger; some colossal and perceived, though the bulk of it real, ongoing and usually too small to count as what feels like a true argument for protest. 
 
 ---
 
