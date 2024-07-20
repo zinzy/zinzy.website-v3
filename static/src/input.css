@@ -199,3 +199,19 @@ figcaption {
 mark {
   @apply bg-pink-100
 }
+
+#checklist ul {
+  @apply list-none m-0 p-0
+}
+
+#checklist .prose :where(.prose > ul > li > *:last-child):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  margin-bottom: 0;
+}
+
+#checklist ul li {
+  @apply flex items-center m-0 p-0
+}
+
+#checklist input[type="checkbox"] {
+  @apply appearance-none w-4 h-4 border-2 border-gray-300 rounded-sm bg-white m-0 p-0  shrink-0 checked:bg-pink-500 checked:border-0 mr-3
+} 

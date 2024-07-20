@@ -1,19 +1,13 @@
 {{ define "main" }} {{ partial "back_link.html" .}}
 
-<header class="prose prose-gray mb-20 dark:prose-invert">
-  <h2 class="mb-5">{{ .Title }}</h2>
-  <p class="text-secondary mb-7">
-    This website contains a large <a href="/feed">feed</a> of long-form
-    <a href="/posts">posts</a> and fleeting updates going back to the
-    mid-aughts. Some of them are thoughtful, others written in a hurry, left
-    fleeting in a folder. I keep them here to remind myself that life is
-    ever-evolving, as am I.
-  </p>
+<header class="prose prose-gray dark:prose-invert">
+  <p class="text-secondary mb-0 text-sm">{{ .Title }}</p>
+  <h2 class="p-name mb-2 mt-0 text-2xl">Fleeting thoughts, unfinished stories, comments, likes, and snapshots</h2>
 </header>
 
 {{ $feed := where (where .Site.RegularPages "Type" "ne" "notes" ) "Type" "ne"
 "page" }}
-<ul class="feed">
+<ul class="feed mt-20">
   {{ range $feed }}
   <li class="flex">
     <div class="mt-[2px] flex w-10 flex-none flex-col">

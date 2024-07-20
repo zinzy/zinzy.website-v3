@@ -1,0 +1,62 @@
+---
+title: Checklist
+share: true
+section: page
+layout: checklist
+description: "A checklist of website components to have as part of your site."
+---
+- [x] [Custom 404 page](/404.html) 
+- [ ] 88x31 button 
+- [ ] [/About](/about) 
+- [ ] ai.txt 
+- [ ] Activity feed
+- [ ] Architecture.md 
+- [ ] [Archives](/posts)
+- [ ] [Blog](/posts)
+- [ ] Blogroll 
+- [ ] /Carry page
+- [ ] Change Log
+- [ ] change-password 
+- [ ] Comments (for blog posts)
+- [ ] /Defaults page
+- [ ] Disclaimer 
+- [ ] dnt 
+- [ ] dnt-policy.txt 
+- [ ] Donation page 
+- [ ] Email link 
+- [ ] /Favorites page
+- [ ] [Feeds page](/follow)
+- [ ] Guestbook
+- [ ] [Home page](/)
+- [ ] [humans.txt](/humans.txt)
+- [ ] Ideas page
+- [ ] indieweb.txt 
+- [ ] Interests page
+- [ ] Library
+- [ ] License 
+- [ ] Light/Dark-mode toggle
+- [ ] Links to social media
+- [ ] /Nope 
+- [ ] Notes 
+- [ ] Now page 
+- [ ] “On This Day” button
+- [ ] PGP key 
+- [ ] Privacy policy 
+- [ ] Privacy.txt 
+- [ ] pubvendors.json 
+- [ ] “Random” / “Surprise me” button
+- [ ] Resume page
+- [ ] Roadmap page
+- [ ] robots.txt 
+- [ ] RSS feeds 
+- [ ] Search
+- [ ] security.txt 
+- [ ] Site Map 
+- [ ] Site Statistics
+- [ ] Style guide page
+- [ ] Tags
+- [ ] TIL page 
+- [ ] Uses page 
+- [ ] [Values page](/values)
+- [ ] Webfinger
+- [ ] Webring (Webring Enthusiasts) or IndieWebRing 

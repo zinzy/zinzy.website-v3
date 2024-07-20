@@ -1,0 +1,51 @@
+{{ define "main" }} {{ partial "back_link.html" .}}
+
+<header class="prose prose-gray dark:prose-invert">
+  <p class="text-secondary mb-0 text-sm">Library</p>
+  <h2 class="p-name mb-2 mt-0 text-2xl">An overview of things I have read, watched, listened to, or attended</h2>
+</header>
+
+<div
+class="my-14 flex rounded bg-pink-50 p-3 text-xs text-pink-700 dark:bg-pink-300/10 dark:text-white"
+>
+<span class="mr-2 inline-block content-center md:leading-9"
+  >{{- partial "symbols/alert.html" . -}}</span
+>
+<span class="inline-block"
+  >This is a work in progress</span
+>
+</div>
+
+
+{{ range (where .Site.RegularPages "Type" "in" (slice "library")).GroupByDate "2006" }}
+ 
+<ul class="feed mt-20 divide-y">
+  <h3 class="mb-2">{{ .Key }}</h3>
+  {{ range .Pages }}
+  <li class="py-2 block">
+
+    {{ if .Content }} 
+    <a href="{{ .Permalink }}" class="flex">
+      <span class="grow">
+        <span class="block font-medium">{{ .Title }}</span>
+        <span class="block text-sm text-secondary">{{ .Params.maker }}</span>
+      </span>
+      <span class="leading-7 flex-none justify-end text-xs text-secondary">{{ .Params.medium }}</span>
+    </a>
+    {{ else }}
+<span class="flex">
+    <span class="grow">
+      <span class="block font-medium">{{ .Title }}</span>
+      <span class="block text-sm text-secondary">{{ .Params.maker }}</span>
+    </span>
+    <span class="leading-7 flex-none justify-end text-xs text-secondary">{{ .Params.medium }}</span>
+</span>
+    {{ end }}
+
+  </li>
+  {{- end -}}
+</ul>
+{{ end }}
+
+
+{{ end }}
