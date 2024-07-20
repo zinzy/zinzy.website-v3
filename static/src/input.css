@@ -215,3 +215,7 @@ mark {
 #checklist input[type="checkbox"] {
   @apply appearance-none w-4 h-4 border-2 border-gray-300 rounded-sm bg-white m-0 p-0  shrink-0 checked:bg-pink-500 checked:border-0 mr-3
 } 
+
+.photos li img {
+  @apply mt-5;
+}
