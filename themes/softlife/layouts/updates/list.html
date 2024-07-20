@@ -2,14 +2,14 @@
 
 <header class="prose prose-gray dark:prose-invert">
   <p class="text-secondary mb-0 text-sm">{{ .Title }}</p>
-  <h2 class="p-name mb-2 mt-0 text-2xl">Fleeting thoughts, unfinished stories, comments, likes, and snapshots</h2>
+  <h2 class="p-name mb-2 mt-0 text-2xl">An overview of time-stamped content on this website</h2>
 </header>
 
 {{ $feed := where (where .Site.RegularPages "Type" "ne" "notes" ) "Type" "ne"
 "page" }}
 <ul class="feed mt-20">
   {{ range $feed }}
-  <li class="flex">
+  <li class="flex mb-5">
     <div class="mt-[2px] flex w-10 flex-none flex-col">
       <div class="">
         {{ if .Params.photo }} {{ partial "post_type_photo.html" . }} {{ else if
@@ -32,7 +32,7 @@
           }}</time
         ></a
       >
-      <article class="prose prose-gray dark:prose-invert">
+      <article class="">
         {{ if .Params.photo }}
         <figure class="mb-5">
           <img src="{{ .Params.photo }}" alt="{{ .Params.alt }}" />
@@ -42,6 +42,8 @@
         </figure>
 
         {{ end }} {{ if .Params.replyTo }}
+        <div class="prose prose-gray dark:prose-invert">
+
         <p class="u-in-reply-to mt-0">
           Replied to
           <a
@@ -54,7 +56,10 @@
             {{.Params.replyTo}} {{ end }}
           </a>
         </p>
+        </div> 
         {{ end }} {{ if .Params.likeOf }}
+        <div class="prose prose-gray dark:prose-invert">
+
         <p class="mt-0">
           Liked
           <a
@@ -64,13 +69,14 @@
             >{{.Params.likeOf}}</a
           >
         </p>
-        {{ end }} {{ if .Title }} {{.Summary}}
-
-        <div class="mb-7 mt-3">
+        </div> 
+        {{ end }} {{ if .Title }}
+      
+        <div class="">
           <a href="{{ .Permalink }}" class="button">Continue reading</a>
         </div>
         {{else}}
-        <content> {{ .Content }} </content>
+        <content class="prose prose-gray dark:prose-invert"> {{ .Content }} </content>
         {{end}}
       </article>
     </div>
