@@ -45,7 +45,7 @@
       </div>
     </div>
     <div class="lg:w-2/5 mt-5 lg:mt-0">
-      <ul class="m-0 p-0 border divide-y text-xs rounded">
+      <ul class="m-0 p-0 border divide-y dark:divide-zinc-600 text-xs rounded">
         {{ range $.Site.Data.manual.hours }}
         <li class="">
           <span class="flex p-2 justify-between">
@@ -65,7 +65,7 @@
   <p>As a designer, my priority is to work in a way that doesn't impact the speed of development. This work usually takes me up to three hours, which means I can reserve the rest of the day for research, deep work, and meetings.</p>
 
   <div
-    class="mb-14 flex rounded bg-pink-50 p-3 text-xs text-pink-700 dark:bg-pink-300/10 dark:text-white"
+    class="mb-14 flex rounded bg-pink-50 p-3 text-xs text-pink-700 dark:bg-zinc-700 dark:text-white"
   >
     <span class="mr-2 inline-block content-center md:leading-9"
       >{{- partial "symbols/alert.html" . -}}</span
@@ -80,8 +80,8 @@
   <h3 class="text-xl font-medium mb-2 mt-0">I'm at my best when:</h3>
   <ul class="grid grid-cols-3 gap-4 text-sm my-5">
     {{ range $.Site.Data.manual.conditions }}
-    <li class="bg-pink-50 place-content-center p-3 text-center rounded">
-      <span class="font-medium block">{{ .header }}</span>
+    <li class="bg-pink-50 dark:bg-zinc-700 place-content-center p-3 text-center rounded">
+      <span class="font-medium block dark:text-white">{{ .header }}</span>
       <span class="block text-secondary text-xs">{{ .content }}</span>
     </li>
     {{ end }}
@@ -102,13 +102,13 @@
     </ul>
   </div> 
   <ul class="grid md:grid-cols-2 gap-4 text-sm mt-5 list-none"> 
-    <li class="bg-pink-50 place-content-center p-3 text-center rounded">
-      <span class="font-medium block">One-on-one meetings</span>
-      <span class="block text-secondary text-xs">If it's just you and me, I reserve 30 minutes for an in-person or remote conversation. Let's make magic!</span>
+    <li class="bg-pink-50 dark:bg-zinc-700 place-content-center p-3 text-center rounded">
+      <span class="font-medium block dark:text-white">One-on-one meetings</span>
+      <span class="block text-secondary text-xs ">If it's just you and me, I reserve 30 minutes for an in-person or remote conversation. Let's make magic!</span>
     </li> 
-    <li class="bg-pink-50 place-content-center p-3 text-center rounded">
-      <span class="font-medium block">Group meetings</span>
-      <span class="block text-secondary text-xs">I love group meetings that last no longer than an hour, and that stop once the agenda has been fulfilled.</span>
+    <li class="bg-pink-50 dark:bg-zinc-700 place-content-center p-3 text-center rounded">
+      <span class="font-medium block dark:text-white">Group meetings</span>
+      <span class="block text-secondary text-xs ">I love group meetings that last no longer than an hour, and that stop once the agenda has been fulfilled.</span>
     </li> 
   </ul>
 </section>

@@ -2088,7 +2088,8 @@ figcaption {
 
 @media (prefers-color-scheme: dark) {
   .prose code {
-    background-color: rgb(249 168 212 / 0.1);
+    --tw-bg-opacity: 1;
+    background-color: rgb(63 63 70 / var(--tw-bg-opacity));
     --tw-text-opacity: 1;
     color: rgb(249 168 212 / var(--tw-text-opacity));
   }
@@ -2307,6 +2308,11 @@ mark {
 }
 
 @media (prefers-color-scheme: dark) {
+  .dark\:divide-zinc-600 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgb(82 82 91 / var(--tw-divide-opacity));
+  }
+
   .dark\:bg-pink-300\/10 {
     background-color: rgb(249 168 212 / 0.1);
   }

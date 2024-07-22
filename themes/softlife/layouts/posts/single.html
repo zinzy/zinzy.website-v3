@@ -11,11 +11,12 @@
       <a class="u-url" href="{{ .Permalink }}">{{ .Title }}</a>
     </h2>
   </header>
+ 
 
   {{ if gt .Site.Params.oldPost .Date.Year }}
-
+ 
   <div
-    class="mb-14 flex rounded bg-pink-50 p-3 text-xs text-pink-700 dark:bg-pink-300/10 dark:text-white"
+    class="mb-14 flex rounded bg-pink-50 p-3 text-xs text-pink-700 dark:bg-zinc-700 dark:text-white"
   >
     <span class="mr-2 inline-block content-center md:leading-9"
       >{{- partial "symbols/alert.html" . -}}</span

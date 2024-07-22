@@ -27,6 +27,7 @@ description: "A checklist of website components to have as part of your site."
 - [ ] /Favorites page
 - [ ] [Feeds page](/follow)
 - [ ] Guestbook
+- [ ] Hello page ([info](https://alastairjohnston.com/introducing-hello-pages/))
 - [ ] [Home page](/)
 - [ ] [humans.txt](/humans.txt)
 - [ ] Ideas page

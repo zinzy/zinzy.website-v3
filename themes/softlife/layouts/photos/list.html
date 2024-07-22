@@ -26,7 +26,9 @@ class="my-14 flex rounded bg-pink-50 p-3 text-xs text-pink-700 dark:bg-pink-300/
       <p class="text-secondary text-sm mb-5"><time>{{- (.Date | time.Format site.Params.theme_config.date_format_medium)
         }}</time
       > | {{ .Title }}</p>
-      {{ .Content }}
+      <div class="prose prose-gray dark:prose-invert">
+        {{ .Content }}
+      </div>
     </li>
     {{ end }}
   </ul>
