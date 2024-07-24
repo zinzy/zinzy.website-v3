@@ -1238,6 +1238,10 @@ video {
   margin-top: 2px;
 }
 
+.mr-3 {
+  margin-right: 0.75rem;
+}
+
 .block {
   display: block;
 }
@@ -1408,6 +1412,11 @@ video {
 
 .border {
   border-width: 1px;
+}
+
+.border-y {
+  border-top-width: 1px;
+  border-bottom-width: 1px;
 }
 
 .border-b {
@@ -1595,10 +1604,6 @@ video {
   font-weight: 600;
 }
 
-.lowercase {
-  text-transform: lowercase;
-}
-
 .leading-7 {
   line-height: 1.75rem;
 }
@@ -1657,6 +1662,10 @@ video {
 
 .opacity-55 {
   opacity: 0.55;
+}
+
+.opacity-60 {
+  opacity: 0.6;
 }
 
 .transition-all {
@@ -2150,6 +2159,30 @@ mark {
   margin-top: 1.25rem;
 }
 
+button.active {
+  background-color: white;
+}
+
+.active {
+  background-color: white;
+}
+
+.content {
+  display: none;
+}
+
+.content.active {
+  display: block;
+}
+
+.library li.active {
+  border-color: transparent;
+  --tw-bg-opacity: 1;
+  background-color: rgb(253 242 248 / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(236 72 153 / var(--tw-text-opacity));
+}
+
 @media (prefers-color-scheme: dark) {
   .dark\:prose-invert {
     --tw-prose-body: var(--tw-prose-invert-body);
@@ -2173,6 +2206,24 @@ mark {
   }
 }
 
+.first\:rounded-l:first-child {
+  border-top-left-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+
+.first\:border-l:first-child {
+  border-left-width: 1px;
+}
+
+.last\:rounded-r:last-child {
+  border-top-right-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+}
+
+.last\:border-r:last-child {
+  border-right-width: 1px;
+}
+
 .hover\:border-transparent:hover {
   border-color: transparent;
 }
@@ -2180,6 +2231,11 @@ mark {
 .hover\:bg-pink-50:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(253 242 248 / var(--tw-bg-opacity));
+}
+
+.hover\:text-pink-500:hover {
+  --tw-text-opacity: 1;
+  color: rgb(236 72 153 / var(--tw-text-opacity));
 }
 
 .group:nth-child(odd) .group-odd\:mr-4 {
@@ -2245,6 +2301,14 @@ mark {
     .md\:md\:-left-20 {
       left: -5rem;
     }
+  }
+
+  .md\:mt-0 {
+    margin-top: 0px;
+  }
+
+  .md\:block {
+    display: block;
   }
 
   .md\:inline-block {

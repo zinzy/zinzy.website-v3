@@ -25,11 +25,11 @@ description: "A checklist of website components to have as part of your site."
 - [ ] Donation page 
 - [ ] Email link 
 - [ ] /Favorites page
-- [ ] [Feeds page](/follow)
+- [x] [Feeds page](/follow)
 - [ ] Guestbook
-- [ ] Hello page ([info](https://alastairjohnston.com/introducing-hello-pages/))
-- [ ] [Home page](/)
-- [ ] [humans.txt](/humans.txt)
+- [x] [Hello page](/hello) ([info](https://alastairjohnston.com/introducing-hello-pages/))
+- [x] [Home page](/)
+- [x] [humans.txt](/humans.txt)
 - [ ] Ideas page
 - [ ] indieweb.txt 
 - [ ] Interests page
@@ -37,6 +37,7 @@ description: "A checklist of website components to have as part of your site."
 - [ ] License 
 - [ ] Light/Dark-mode toggle
 - [ ] Links to social media
+- [ ] Museum
 - [ ] /Nope 
 - [ ] Notes 
 - [ ] Now page 
@@ -58,6 +59,6 @@ description: "A checklist of website components to have as part of your site."
 - [ ] Tags
 - [ ] TIL page 
 - [ ] Uses page 
-- [ ] [Values page](/values)
+- [x] [Values page](/values)
 - [ ] Webfinger
 - [ ] Webring (Webring Enthusiasts) or IndieWebRing 

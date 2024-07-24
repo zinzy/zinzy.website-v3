@@ -219,3 +219,29 @@ mark {
 .photos li img {
   @apply mt-5;
 }
+
+
+
+
+  
+
+button.active {
+  background-color: white;
+}
+
+.active {
+  background-color: white;
+}
+ 
+
+.content {
+  display: none;
+}
+
+.content.active {
+  display: block;
+}
+
+.library li.active {
+  @apply bg-pink-50 border-transparent text-pink-500
+}
