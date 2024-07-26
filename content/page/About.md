@@ -16,7 +16,7 @@ I'm pleased you have reached my [world wide web homepage](/site). This is a home
 
 ### I'm a Product Designer of 17 years, specialized in making software for people at work.
 
-I taught myself to build websites in elementary school in the late nineties, and began working from my one-person design studio when I turned 18. I had entirely different plans for my future, but in the meantime, I've found a very satisfying home in Information Technology.
+I taught myself to build websites in elementary school [in the late nineties](/museum), and began working from my one-person design studio when I turned 18. I had entirely different plans for my future, but in the meantime, I've found a very satisfying home in Information Technology.
 
 I've worked as a designer, researcher, strategist, product manager, and design manager. Right now, I'm living the dream at [Gerimedica](https://gerimedica.nl). If you'd like to learn more about the type of work I'm doing at the moment, please visit [Work & Play](/work-and-play).
 
