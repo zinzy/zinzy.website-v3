@@ -12,15 +12,15 @@ This list was copied from [Mike Sass' _Website Component Checklist_](https://she
 - [x] [88x31 button](/site#banner)
 - [x] [/About page](/about)
 - [x] [AI manifesto](/ai)
-- [x] [ai.txt](/ai.txt)
+- [ ] ~~ai.txt~~
 - [x] [Activity feed](/updates)
-- [ ] Architecture.md
+- [ ] ~~Architecture.md~~
 - [x] [Archives page](/posts)
 - [x] [Blog page](/posts)
 - [ ] Blogroll
 - [ ] /Carry page
 - [ ] Change Log
-- [ ] change-password
+- [ ] ~~change-password~~
 - [ ] Comments (for blog posts)
 - [ ] /Defaults page
 - [ ] Disclaimer
@@ -34,7 +34,7 @@ This list was copied from [Mike Sass' _Website Component Checklist_](https://she
 - [x] [Hello page](/hello) ([info](https://alastairjohnston.com/introducing-hello-pages/))
 - [x] [Home page](/)
 - [x] [humans.txt](/humans.txt)
-- [ ] Ideas page
+- [x] [Ideas page](/ideas)
 - [ ] indieweb.txt
 - [x] [Interests page](/interests)
 - [ ] Library
