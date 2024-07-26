@@ -1,8 +1,21 @@
-{{ define "main" }}
-{{ partial "back_link.html" .}}
+{{ define "main" }} {{ partial "back_link.html" .}}
 
 <header class="">
-    <h2 class="text-gray-500 dark:text-white/50">{{ .Title }}</h2>
-    <p>This website contains a growing number of undated notes on all sorts of subjects. I tend to them, add resources, change my perspective, and let them develop over time. There is no index available of these notes. Instead, I'm happy to point you in the direction of a few starting points that you may enjoy.</p>
+  <p class="text-secondary mb-0 text-sm">{{ .Title }}</p>
+  <h2 class="p-name my-2 text-2xl">
+    This website contains a growing number of undated notes on all sorts of
+    subjects.
+  </h2>
 </header>
+
+<section class="prose prose-gray mt-20 dark:prose-invert">
+  <p>
+    This website contains a growing number of undated notes on all sorts of
+    subjects. I tend to them, add resources, change my perspective, and let them
+    develop over time. There is no index available of these notes. Instead, I'm
+    happy to point you in the direction of a few starting points that you may
+    enjoy.
+  </p>
+</section>
+
 {{ end }}

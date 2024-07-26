@@ -4,8 +4,6 @@
   "description": "A layout for Zinzy's website",
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.10",
-    "prettier": "^3.2.5",
-    "prettier-plugin-tailwindcss": "^0.5.11",
     "tailwindcss": "^3.4.0"
   },
   "scripts": {

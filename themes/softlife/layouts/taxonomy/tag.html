@@ -9,8 +9,8 @@
 
 <ul class="feed">
   {{ range (where .Data.Pages "Type" "ne" "notes" ) }}
-  <li class="flex">
-    <div class="mt-[2px] flex w-10 flex-none flex-col">
+  <li class="group flex">
+    <div class="mt-[4px] flex w-10 flex-none flex-col">
       <div class="">
         {{ if .Params.photo }} {{ partial "post_type_photo.html" . }} {{ else if
         .Params.replyTo }} {{ partial "post_type_reply.html" . }} {{ else if
@@ -18,22 +18,25 @@
         .Title }} {{ partial "post_type_post.html" . }} {{ else }} {{ partial
         "post_type_note.html" . }} {{ end }}
       </div>
-      <div class="ml-2.5 grow border-l">&nbsp;</div>
+      <div class="ml-2.5 grow border-l group-last:border-0">&nbsp;</div>
     </div>
     <div class="grow pb-5">
-      {{ if .Title }}
-      <h2><a href="{{ .Permalink }}">{{.Title}}</a></h2>
-      {{end}}
+      {{ if eq .Type "posts" }}
 
-      <a
-        href="{{ .Permalink }}"
-        class="mb-3 block text-secondary text-sm"
-        ><time class=""
+      <a href="{{ .Permalink }}" class="block">
+        <h2>{{.Title}}</h2>
+        <time class="text-secondary mb-3 block text-sm"
           >{{- (.Date | time.Format site.Params.theme_config.date_format_full)
           }}</time
-        ></a
-      >
-      <article class="prose prose-gray dark:prose-invert">
+        >
+        <content class="prose prose-gray dark:prose-invert">
+          {{ .Summary | markdownify }}
+        </content>
+      </a>
+
+      {{ end }} {{ if eq .Type "updates" }}
+
+      <div class="prose prose-gray dark:prose-invert">
         {{ if .Params.photo }}
         <p class="mb-5"><code>ALT</code> {{ .Params.alt }}</p>
         {{ end }} {{ if .Params.replyTo }}
@@ -59,12 +62,11 @@
             >{{.Params.likeOf}}</a
           >
         </p>
-        {{ end }} {{ if .Title }} {{.Summary}}
- 
-        {{ else if .Params.photo }} {{else}}
-        <content> {{ .Summary | markdownify }} </content>
-        {{end}}
-      </article>
+        {{ end }}
+
+        <content> {{ .Content }} </content>
+      </div>
+      {{ end }}
       <div class="mb-7 mt-3">
         <a href="{{ .Permalink }}" class="button">Continue reading</a>
       </div>

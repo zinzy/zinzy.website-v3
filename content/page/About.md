@@ -7,39 +7,39 @@ layout: about
 {{< rawhtml >}}
 
   <figure>
-    <img src="/img/zinzy.jpg" class="w-full" class="Two White men and a Black person smile at the camera with champagne glasses in their hand." />
-    <figcaption>Here I am in 2019 in between Robin (L) and Michar (R), celebrating the 25th birthday of the travel technology company that employed us. The pandemic was only months away. We were but children.</figcaption>
+    <img src="/img/zinzy.jpg" class="w-full" class="Two White men and a Black non-binary person in a lei smile at the camera with champagne glasses in their hand." />
+    <figcaption>Here I am in 2019 with Robin (L) and Michar (R), celebrating the 25th anniversary of the travel technology company that employed us. The pandemic was months away. We were but children.</figcaption>
   </figure>
 {{< /rawhtml >}}
 
-I'm pleased you have reached my world wide web homepage. This is a home for soft stances, lived experiences, and critical notes on the things I hold dear. No highlight reel, no likes, no follow button. You may [follow](/follow) me the old-fashioned way or, even better, [say hello](/hello).
+I'm pleased you have reached my [world wide web homepage](/site). This is a home for soft stances, lived experiences, and critical notes on the things I hold dear. No highlight reel, no likes, no follow button. Just my appreciation for the web, [my excessive curiousity](/im-neurodivergent), and the words I choose to make sense of it all.
 
-### I'm one of those privileged people who wake up feeling 8+.
+### I'm a Product Designer of 17 years, specialized in making software for people at work.
 
-I get to surround myself with people in whom I see myself, I live in a beautiful home, and my career is a hobby I do during office hours. If you meet me in person, you'll see I like to laugh a lot. It's not fake, either. I'm just really thankful to be where I am today. I didn't have the easiest of starts, and it shows in who I am and how I write. Life truly is like a box of chocolates.
+I taught myself to build websites in elementary school in the late nineties, and began working from my one-person design studio when I turned 18. I had entirely different plans for my future, but in the meantime, I've found a very satisfying home in Information Technology.
 
-### I live and work in Amsterdam's Indische Buurt
+I've worked as a designer, researcher, strategist, product manager, and design manager. Right now, I'm living the dream at [Gerimedica](https://gerimedica.nl). If you'd like to learn more about the type of work I'm doing at the moment, please visit [Work & Play](/work-and-play).
 
-For the past decade, I've shared my life with Anja, a high school English teacher. Last year, we welcomed home corgi Lemonade. We're a child-free family and couldn't be more pleased about it.
+I hold a B.A. in Linguistics & Literature from Utrecht University, and dropped out of Theological Seminary after a year of being the only queer Black person there. I think I'm still saving my Master's degree for Divinity School.
 
-### I'm of São Toméan and Dutch descent,
+### I practice gratitude, and seek to go to bed more content and smarter than I woke up.
 
-And come from a long line of loud, burgundian band geeks. I grew up in the narrow tail-end of the Netherlands, bike rides away from both Belgium and Germany. I only began to feel a sense of belonging when I moved to Amsterdam. Its ability to help me recognize myself in the people around me will never seize to be a requirement for my living arrangements.
+I'm one of those privileged people who wake up feeling 8+. I get to surround myself with people in whom I see myself, I live in a beautiful home, and my career is a hobby I do during office hours.
 
-### I have an academic background in linguistics and theology
+If you meet me in person, you'll see I like to laugh a lot. It's not fake, either. I'm just really thankful to be where I am today. I didn't have the easiest of starts, and it shows in who I am and how I write. Life _is_ like a box of chocolates.
 
-While I had great plans for myself academically, I have yet to decide how I'll spend my Master's degree becoming what I want to be when I grow up. I hold a degree in Literature and Linguistics from Utrecht University, and embarked on the VU University track to become a pastor.
+### I live and work in Amsterdam, where I share my life with Anja and Lemonade.
 
-Meanwhile, I had started a design practice in 2007 that, by now, is an enjoyable career in Information Technology. Academia has taught me most of what I know about reading and writing. It also taught me that everything is a text.
+Lemonade is a dog, but since we're a [child-free](/im-child-free) home I consider Lemonade my daughter. I kind of hate that about myself. If you've never met [Anja](https://anjawaleson.notion.site/Anja-Waleson-0182c8df804b4b12ab6e70b5b5795a55?pvs=74), you should. She's quite something.
 
-### Music has always played an important role in my life.
+I'm of São Toméan and Dutch descent, and come from a long line of loud, burgundian band geeks. I grew up in the narrow tail-end of the Netherlands, bike rides away from both Belgium and Germany.
 
-Like all my cousins and friends, I was enrolled in music classes from a very young age. Starting on the recorder, I eventually devoted myself to the trumpet, the oboe, and most other wind instruments found in your average local orchestra. In elementary school, I taught myself to play the guitar, which gave me access to a string of... string instruments. These days, you can often find me at the piano.
+Being a [Black](/tags/being-black), [lesbian](/tags/queerdom), [non-binary](/2021/03/25/call-me-she-but-not-woman/), [neurodivergent](/im-neurodivergent/) person with a history of [adverse childhood experiences](/2020/05/13/clobber/) hasn't always been an easy life path, but luckily I began to feel a sense of belonging when I moved to Amsterdam.
 
 ### I like chronicling my life in a diary
 
-In various forms and frequencies, I've been keeping a diary since I was a little kid. In a way, this website is very much a part of that. I'm an advocate for the IndieWeb, which is a snooty way of saying I think the Internet should be scattered, playful, experimental, personal, and cozy.
+In various forms and frequencies, I've been keeping a diary since I was a little kid. You may consider this website an extension of that. I'm an advocate for the [IndieWeb](/tags/indieweb/), which is a snooty way of saying I think the Internet should be scattered, playful, experimental, personal, and cozy.
 
 My Xhosa name was inspired by Nelson Mandela's daughter Zindziswa. If I had been a boy, you would've had to call me Stevie Wonder Waleson Geene.
 
-I've been sober since May 2018.
+I've been [sober](/2021/05/02/3-years-sober/) since May 2018.

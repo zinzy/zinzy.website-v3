@@ -1,6 +1,6 @@
 <nav role="navigation" aria-label="Main">
   <ul class="flex place-content-center gap-y-5">
-    <li class="mx-3" aria-label="Home">
+    <li class="mx-3 grid text-center" aria-label="Home">
       <a
         href="/"
         class="group grid h-10 w-10 content-center justify-center rounded-full hover:bg-pink-50 dark:hover:bg-pink-300/10"
@@ -30,25 +30,15 @@
         </span>
       </a>
     </li>
-    <li class="mx-3" aria-label="Work & play">
+    <li class="mx-3" aria-label="Sitemap">
       <a
-        href="/work-and-play"
+        href="/sitemap"
         class="group grid h-10 w-10 content-center justify-center rounded-full hover:bg-pink-50 dark:hover:bg-pink-300/10"
       >
         <span class="transition-all group-hover:rotate-6">
-          {{- partial "symbols/play.html" . -}}
+          {{- partial "symbols/site.html" . -}}
         </span>
       </a>
     </li>
-    <!-- <li class="mx-3" aria-label="Photos">
-      <a
-        href="/photos"
-        class="group grid h-10 w-10 content-center justify-center rounded-full hover:bg-pink-50 dark:hover:bg-pink-300/10"
-      >
-        <span class="transition-all group-hover:rotate-6">
-          {{- partial "symbols/photos.html" . -}}
-        </span>
-      </a>
-    </li> -->
   </ul>
 </nav>

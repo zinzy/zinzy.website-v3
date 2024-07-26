@@ -203,6 +203,7 @@
 </span>
       </a>
     </li>
+    
   </ul>
 </nav>
 </header>
@@ -210,7 +211,7 @@
                 <div class=""> 
 
 
-<article class="">
+<article class="h-entry">
   <header class="">
     <p class="text-secondary mb-0 text-sm">
       <time class="dt-published" datetime="2021-01-17 00:00:00 &#43;0000 UTC">
@@ -221,11 +222,12 @@
       <a class="u-url" href="https://zinzy.website/2021/01/17/week-2-home-office/">Week 2: Home office</a>
     </h2>
   </header>
+ 
 
   
-
+ 
   <div
-    class="mb-14 flex rounded bg-pink-50 p-3 text-xs text-pink-700 dark:bg-pink-300/10 dark:text-white"
+    class="mb-14 flex rounded bg-pink-50 p-3 text-xs text-pink-700 dark:bg-zinc-700 dark:text-white"
   >
     <span class="mr-2 inline-block content-center md:leading-9"
       ><svg
@@ -263,7 +265,7 @@
   </div>
   
   <content
-    class="e-content h-entry prose prose-gray relative dark:prose-invert"
+    class="e-content prose prose-gray relative dark:prose-invert"
   >
     
  
@@ -336,13 +338,22 @@
 </li>
 </ol>
 </div>
-</content><footer class="not-prose mt-14 rounded border text-sm">
+</content>
+
+  
+</article>
+
+
+
+ 
+                </div> 
+            </main><footer class="not-prose mt-14 rounded border text-sm">
   <div class="p-4">
     <div class="">
       <h4 class="mb-3">Thank you for being here</h4>
       <p class="text-secondary h-card mb-3">
         I'm
-        <a class="u-url" href="/">
+        <a class="u-url text-primary font-medium" href="/">
           <span class="p-name">
             <span class="p-given-name">Zinzy</span>
             <span class="p-family-name">Waleson Geene</span>,
@@ -357,7 +368,51 @@
       </p>
     </div>
     <ul class="m-0 list-none p-0">
-      <li class="group m-0 inline-block p-0">
+      <li class="group m-0 mr-3 inline-block p-0">
+        <a
+          href="/follow"
+          class="group flex rounded border px-2 text-xs no-underline transition-all hover:border-transparent hover:bg-pink-50 dark:hover:border-transparent dark:hover:bg-pink-300/10"
+        >
+          <span
+            class="mr-2 inline-block content-center leading-9 transition-all group-hover:rotate-6"
+            ><svg
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <mask
+    id="mask0_637_100"
+    style="mask-type: alpha"
+    maskUnits="userSpaceOnUse"
+    x="0"
+    y="0"
+    width="24"
+    height="24"
+  >
+    <rect
+      width="24"
+      height="24"
+      class="fill-gray-950 group-hover:fill-pink-500 dark:fill-white dark:group-hover:fill-pink-300"
+    />
+  </mask>
+  <g mask="url(#mask0_637_100)">
+    <path
+      d="M5.1155 20.5C4.67117 20.5 4.29083 20.3418 3.9745 20.0255C3.65817 19.7092 3.5 19.3288 3.5 18.8845C3.5 18.4403 3.65817 18.0601 3.9745 17.7437C4.29083 17.4274 4.67117 17.2692 5.1155 17.2692C5.55967 17.2692 5.93992 17.4274 6.25625 17.7437C6.57258 18.0601 6.73075 18.4403 6.73075 18.8845C6.73075 19.3288 6.57258 19.7092 6.25625 20.0255C5.93992 20.3418 5.55967 20.5 5.1155 20.5ZM18.3863 20.5C18.0608 20.5 17.7906 20.3778 17.5758 20.1335C17.3608 19.8892 17.2348 19.5997 17.198 19.2652C17.0532 17.6102 16.6365 16.0593 15.948 14.6125C15.2597 13.1657 14.3558 11.8827 13.2365 10.7635C12.1173 9.64416 10.8343 8.74033 9.3875 8.05199C7.94067 7.36349 6.38975 6.94683 4.73475 6.80199C4.40025 6.76483 4.11083 6.63808 3.8665 6.42174C3.62217 6.20558 3.5 5.93683 3.5 5.61549C3.5 5.28949 3.61633 5.02299 3.849 4.81599C4.08167 4.60916 4.35508 4.51924 4.66925 4.54624C6.65508 4.69107 8.51183 5.17024 10.2395 5.98374C11.967 6.79707 13.4917 7.86466 14.8135 9.18649C16.1353 10.5083 17.2029 12.033 18.0163 13.7605C18.8298 15.4882 19.3089 17.3449 19.4538 19.3307C19.4808 19.6449 19.3909 19.9183 19.1842 20.151C18.9777 20.3837 18.7118 20.5 18.3863 20.5ZM12.6155 20.5C12.3013 20.5 12.0343 20.3862 11.8145 20.1585C11.5947 19.931 11.4558 19.6602 11.398 19.3462C11.2737 18.4589 11.0193 17.639 10.6348 16.8865C10.2501 16.134 9.75517 15.4552 9.15 14.85C8.54483 14.2448 7.866 13.7499 7.1135 13.3652C6.361 12.9807 5.54108 12.7263 4.65375 12.602C4.33975 12.5442 4.069 12.4053 3.8415 12.1855C3.61383 11.9657 3.5 11.6992 3.5 11.3862C3.5 11.0607 3.61633 10.7932 3.849 10.5837C4.08167 10.3741 4.35508 10.293 4.66925 10.3405C5.85392 10.475 6.961 10.7955 7.9905 11.302C9.01983 11.8083 9.93517 12.4622 10.7365 13.2635C11.5378 14.0648 12.1917 14.9802 12.698 16.0095C13.2045 17.039 13.525 18.1461 13.6595 19.3307C13.707 19.6449 13.6254 19.9183 13.4148 20.151C13.2041 20.3837 12.9377 20.5 12.6155 20.5Z"
+      class="fill-gray-950 group-hover:fill-pink-500 dark:fill-white dark:group-hover:fill-pink-300"
+    />
+  </g>
+</svg>
+</span
+          >
+          <span
+            class="inline-block font-medium leading-9 group-hover:text-pink-500 dark:group-hover:text-pink-300"
+            >Follow</span
+          >
+        </a>
+      </li>
+      <li class="group m-0 mr-3 inline-block p-0">
         <a
           href="/hello"
           class="group flex rounded border px-2 text-xs no-underline transition-all hover:border-transparent hover:bg-pink-50 dark:hover:border-transparent dark:hover:bg-pink-300/10"
@@ -397,7 +452,7 @@
           >
         </a>
       </li>
-      <li class="group m-0 ml-3 inline-block p-0">
+      <li class="group m-0 mt-3 inline-block p-0 md:mt-0">
         <a
           href="https://ko-fi.com/zinzy"
           class="group flex rounded border px-2 text-xs transition-all hover:border-transparent hover:bg-pink-50 dark:hover:border-transparent dark:hover:bg-pink-300/10"
@@ -441,13 +496,7 @@
     </ul>
   </div>
 </footer>
-</article>
-
-
-
- 
-                </div> 
-            </main><footer class="">
+<footer class="mt-20">
   <div class="flex justify-center gap-x-10">
     <a href="https://xn--sr8hvo.ws/previous" class="button">←</a>
     <a href="#" class="button">↑</a>

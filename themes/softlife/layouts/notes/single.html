@@ -1,32 +1,32 @@
-{{ define "main" }}
-{{ partial "back_link.html" .}}
+{{ define "main" }} {{ partial "back_link.html" .}}
 
 <article class="h-entry prose prose-gray dark:prose-invert">
-    <header class="p-name mb-14">
-        <h2 class="p-name">{{ .Title }}</h2>
-    </header>
+  <header class="p-name mb-14">
+    <h2 class="p-name">{{ .Title }}</h2>
+  </header>
 
-    {{ if in .Params.tags "mentoring-guides" }}
-    <section class="prose prose-gray dark:prose-invert border p-3 mb-20 text-sm rounded">
-        <p>Hey! This is one of my <a href="/mentoring">mentoring guides</a>; short reflections on my experience in the UX industry. I'm unable to take on all mentoring requests I receive, but I hope this guide may help you take a next step.</p>
-    </section>
-    {{ end }} 
+  {{ if in .Params.tags "mentoring-guides" }}
+  <section
+    class="prose prose-gray mb-20 rounded border p-3 text-sm dark:prose-invert"
+  >
+    <p>
+      Hey! This is one of my <a href="/mentoring">mentoring guides</a>; short
+      reflections on my experience in the UX industry. I'm unable to take on all
+      mentoring requests I receive, but I hope this guide may help you take a
+      next step.
+    </p>
+  </section>
+  {{ end }} {{ if .Params.toc }}
+  <aside {{ if .Params.tocBorder }} class="toc" {{ end }}>
+    {{ .TableOfContents }}
+  </aside>
+  {{ end }}
 
-    {{ if .Params.toc }}
-        <aside {{ if .Params.tocBorder }} class="toc" {{ end }}>
-            {{ .TableOfContents }}
-        </aside>
-    {{ end }}
- 
-    <div class="e-content">
-        <!-- https://github.com/gohugoio/hugo/issues/3606#issuecomment-634092082 -->
-        <!-- {{ .Content | replaceRE "\\[\\[([^/]+)\\]\\]" "<a href=\"${1}.html\">$1</a>" |safeHTML }}  -->
+  <div class="e-content">
+    <!-- https://github.com/gohugoio/hugo/issues/3606#issuecomment-634092082 -->
+    <!-- {{ .Content | replaceRE "\\[\\[([^/]+)\\]\\]" "<a href=\"${1}.html\">$1</a>" |safeHTML }}  -->
 
-        {{- partial "content_wikified" . -}}
-    </div> 
+    {{- partial "content_wikified" . -}}
+  </div>
 </article>
-
-
-{{ partial "thanks.html" .}}
 {{ end }}
- 
