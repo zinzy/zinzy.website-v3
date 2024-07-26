@@ -5,12 +5,12 @@ section: posts
 draft: false
 title: Morning habits
 excerpt: ""
+categories:
+- Essays
 tags:
   - habits
   - self care
 ---
-
-
 One thing I appreciate is my growing ability to understand how small choices affect the quality of my day. I have a history of struggling with doing things that are good for me, and while I've always known that certain things have a more positive influence than others, I wasn't always able to execute on them.
 
 Lately, I've been tinkering with the way I organize my mornings. I've come to understand that, in order for me to have a good day, I need to incorporate, in this particular order:

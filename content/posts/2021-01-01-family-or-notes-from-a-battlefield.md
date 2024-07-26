@@ -5,10 +5,12 @@ draft: false
 title: Family, or notes from the battlefield
 excerpt: ""
 date: 2021-01-01
+categories:
+- Poetry
 tags:
   - catholicism
   - queerdom
-  - poem
+  - poetry
   - bible
   - Christmas
   - holidays

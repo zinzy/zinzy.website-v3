@@ -2,6 +2,8 @@
 title: "A job for me, part two: good enough"
 summary: "A late submission to April's IndieWeb Carnival, and thoughts on system-thinking in the product world"
 date: 2024-05-10 
+categories:
+- Essays
 tags:
 - career
 - ux

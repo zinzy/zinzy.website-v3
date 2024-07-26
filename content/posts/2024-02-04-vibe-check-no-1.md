@@ -3,6 +3,8 @@ title: Vibe check no. 1
 section: posts
 share: true
 date: 2024-02-04
+categories:
+- Essays
 tags:
   - vibechecks
   - Church

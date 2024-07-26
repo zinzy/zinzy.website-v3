@@ -6,13 +6,14 @@ title: That time we were the first to get Covid
 date: 2020-09-20
 faces:
   - Anja
+categories:
+- Essays
 tags:
   - milestones
   - pandemic
   - Anja
   - health
 ---
-
 Amsterdam's patient zero is a woman who just happens to have spent early 2020 in the north of Italy. She has a son who attends the high school which just happens to be Anja's place of employment. Anja is the first person I know to be infected with Covid 19. I am the second.
 
 Working in travel technology, my experience of the outbreak of Covid 19 was colored by coworkers wondering by the water cooler what all the fuss was about. The most vocal among them are Rotterdammers, a people known, if anything, for its no-nonsense approach to trouble.

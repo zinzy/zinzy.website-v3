@@ -3,6 +3,8 @@ title: "A moment with Omnifocus"
 summary: ""
 date: 2024-05-25
 draft: true
+categories:
+- Essays
 tags:
 - productivity
 - omnifocus

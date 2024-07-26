@@ -5,6 +5,8 @@ draft: false
 title: Meditating while Black
 excerpt: ""
 date: 2021-07-01
+categories:
+- Essays
 tags:
   - meditation
   - being Black

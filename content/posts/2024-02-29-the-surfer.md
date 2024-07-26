@@ -3,6 +3,8 @@ title: "The surfer"
 section: posts
 sidenote: "This essay participated in [the February edition of the IndieWeb Carnival](https://manuelmoreale.com/indieweb-carnival-digital-relationships), which was about digital relationships."
 date: 2024-02-29
+categories:
+- Essays
 tags:
   - indieweb-carnival
   - Mary

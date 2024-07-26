@@ -5,14 +5,14 @@ draft: false
 title: Indian Summer Christmas
 date: 2013-12-30
 excerpt: ""
+categories:
+- Essays
 tags:
   - Christmas
   - holidays
   - productivity
   - haarlem
 ---
-
-
 Christmas break is passing by me like it passes by an ambitious teenager. I greeted all the things I could do with great enthusiasm. Sadly, that feeling quickly turned into terror once I realised two weeks isn’t that long and I need to sleep.
 
 Productivity-wise, man can only fail under such conditions, this I know.

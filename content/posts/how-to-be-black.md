@@ -5,6 +5,8 @@ draft: true
 title: "2024, How to be Black: Week 0"
 date: 2023-12-25 11:00 +0200
 excerpt: ""
+categories:
+- Essays
 tags:
   - racism
   - documentaries

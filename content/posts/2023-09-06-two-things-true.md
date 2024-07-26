@@ -5,6 +5,8 @@ draft: false
 title: Two things true
 excerpt: ""
 date: 2023-09-06
+categories:
+- Essays
 tags:
   - storytelling
   - old friends

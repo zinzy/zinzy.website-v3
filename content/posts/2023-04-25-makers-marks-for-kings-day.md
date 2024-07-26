@@ -5,6 +5,8 @@ draft: false
 title: Maker's marks for King's Day
 date: 2023-04-25
 excerpt: ""
+categories:
+- Essays
 tags:
   - neighborhood
   - funny

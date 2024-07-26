@@ -5,6 +5,8 @@ draft: false
 title: Facts of week 42
 date: 2009-10-18
 excerpt: ""
+categories:
+- Weeknotes
 tags:
   - university
   - imposter syndrome

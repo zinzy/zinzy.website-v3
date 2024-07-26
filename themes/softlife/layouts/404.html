@@ -1,8 +1,9 @@
 {{ define "main" }} {{- partial "back_link.html" . -}}
 
-<article class="h-entry">
-  <header class="mb-10">
-    <h2 class="p-name">Sometimes I'll start a sentence, and I don't even...</h2>
+<div class="">
+  <header>
+    <p class="text-secondary mb-0 text-sm">404</p>
+    <h2 class="p-name mb-2 mt-0 text-2xl lg:w-2/3">Sometimes I'll start a sentence, and I don't even...</h2>
     <p class="text-secondary">
       I'm sorry that something has led you to this 404 page. What you were
       hoping to find does not exist (anymore). Please head back to the
@@ -10,26 +11,22 @@
     </p>
   </header>
 
-  <section>
-    <div class="text-secondary my-10">Most recently...</div>
-
+  <section class="mt-20">
+    <h3 class="text-xl font-medium">Or read one of these gems</h3>
     {{ $postsDefault := where .Site.RegularPages "Type" "posts" }}
-
-    <ul class="">
-      {{ range first 5 $postsDefault }}
-      <li class="-mx-3">
-        <a class="block rounded p-3 hover:bg-gray-50" href="{{ .Permalink }}">
-          <span class="block">{{ .Title }}</span>
-          <time class="text-secondary text-sm"
-            >{{- (.Date | time.Format site.Params.theme_config.date_format_full)
-            }}</time
+    <ul class="border-b mt-10">
+      {{ range first 10 $postsDefault }}
+      <li class="border-t py-3">
+        <a class="w-full content-center md:flex" href="{{ .Permalink }}">
+          <span class="grow font-medium">{{ .Title }}</span>
+          <time class="text-secondary flex-none text-sm"
+            >{{- (.Date | time.Format
+            site.Params.theme_config.date_format_medium) }}</time
           >
         </a>
       </li>
       {{ end }}
     </ul>
   </section>
-
-  {{ partial "backlinks.html" . }}
-</article>
+</div>
 {{ end }}

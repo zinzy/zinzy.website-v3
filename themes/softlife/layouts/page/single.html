@@ -12,7 +12,13 @@
   </aside>
   {{ end }}
 
-  <div class="e-content  prose prose-gray dark:prose-invert relative">{{ .Content }}</div>
+  <div class="e-content  prose prose-gray dark:prose-invert relative">
+    
+    {{ if .Params.sidenote }}
+  <div class="aside">{{ .Params.sidenote | markdownify }}</div>
+  {{ end }}
+
+    {{ .Content }}</div>
 
   {{ partial "backlinks.html" . }} 
 </article>

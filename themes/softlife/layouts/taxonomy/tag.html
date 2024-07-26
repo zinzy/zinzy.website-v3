@@ -3,10 +3,7 @@
 <header class="prose mb-20 dark:prose-invert">
   <h2>
     Things tagged
-    <span
-      class="ml-3 rounded bg-gray-100 p-1 px-2 text-gray-600 dark:bg-zinc-800 dark:text-white/50"
-      ># {{ .Title }}</span
-    >
+    <span class="">#{{ .Title }}</span>
   </h2>
 </header>
 
@@ -30,7 +27,7 @@
 
       <a
         href="{{ .Permalink }}"
-        class="mb-3 block text-gray-500 dark:text-white/50"
+        class="mb-3 block text-secondary text-sm"
         ><time class=""
           >{{- (.Date | time.Format site.Params.theme_config.date_format_full)
           }}</time
@@ -63,14 +60,14 @@
           >
         </p>
         {{ end }} {{ if .Title }} {{.Summary}}
-
-        <div class="mb-7 mt-3">
-          <a href="{{ .Permalink }}" class="button">Continue reading</a>
-        </div>
+ 
         {{ else if .Params.photo }} {{else}}
-        <content> {{ .Content }} </content>
+        <content> {{ .Summary | markdownify }} </content>
         {{end}}
       </article>
+      <div class="mb-7 mt-3">
+        <a href="{{ .Permalink }}" class="button">Continue reading</a>
+      </div>
     </div>
   </li>
   {{ end }}

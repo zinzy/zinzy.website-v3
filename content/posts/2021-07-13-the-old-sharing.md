@@ -5,6 +5,8 @@ section: posts
 draft: false
 title: The old sharing
 excerpt: ""
+categories:
+- Essays
 tags:
   - internet
   - indieweb

@@ -5,6 +5,8 @@ draft: false
 title: Sunday seeds
 date: 2013-12-22
 excerpt: ""
+categories:
+- Weeknotes
 tags:
   - weeknotes
   - restaurants
@@ -14,8 +16,6 @@ tags:
   - photographers
   - poets
 ---
-
-
 - If you ever happen to find yourself in the sleepy fishing town of IJmuiden: the fish, service, atmosphere, and cheesecake in the fish restaurant [De Meerplaats](http://www.meerplaats.nl/) are all very pleasant.
 - For my birthday, [Erica Bouma](http://www.zinnigverhaal.nl/) gave me _Jesus_ by rebel theologian Hans Küng. It’s a great and easy read — a recommendation for anybody interested in the history of Christianity.
 - [_The Son and the Stranger_](http://www.vpro.nl/speel.program.27507738.html) is a beautiful Dutch-language documentary about Daan, a man who, after studying Hebrew in university, converted to the ultra orthodox Jewish faith. Filmmaker Thomas Vroege attempts to understand his motives.

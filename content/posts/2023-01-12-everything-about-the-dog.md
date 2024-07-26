@@ -5,6 +5,8 @@ draft: false
 title: Everything about the dog
 date: 2023-01-12
 excerpt: ""
+categories:
+- Essays
 tags:
   - dogs
   - pets

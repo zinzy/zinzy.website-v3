@@ -4,6 +4,8 @@ section: posts
 draft: false
 title: Two weeks with a dog
 date: 2023-03-08
+categories:
+- Essays
 tags:
   - milestones
   - Lemonade

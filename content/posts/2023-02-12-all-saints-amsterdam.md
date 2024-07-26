@@ -4,6 +4,8 @@ section: posts
 draft: false
 title: All Saints Amsterdam
 date: 2023-02-12
+categories:
+- Essays
 tags:
   - religion
   - Amsterdam

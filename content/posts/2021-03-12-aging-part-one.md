@@ -5,12 +5,12 @@ section: posts
 draft: false
 title: "Aging: part one"
 excerpt: ""
+categories:
+- Essays
 tags:
   - childhood
   - pandemic
 ---
-
-
 When I was a child, no physical activity brought me more delight than inline skating. I had a wonderful pair of skates; silver, neon pink, and teal, snuggly fitting my feet. I felt limitless on those wheels, cruising all around the neighborhood, learning tricks in the grocery store parking lot, and distance skating past farms and fields.
 
 For the past five years, I've been telling myself that I should get a new pair of skates. There's a skate store around the block from my house, and whenever I'd pass it, I'd find myself right back in the best part of my childhood. For five years, though, I never got around to actually buying them.

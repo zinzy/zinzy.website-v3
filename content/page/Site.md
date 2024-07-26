@@ -1,27 +1,27 @@
 ---
-share: true
-section: page
 title: Site
 description: About this website
+sidenote: "Did you know I keep a [Checklist](/checklist) of components I'm hoping to add to this website?"
 ---
-
 I grew up on the Internet in a time when social media meant writing comments on other people's hand-built blogs. The sense of whimsy, coziness, and a beautiful lack of information overload are highs I have been chasing ever since.
 
-The Web 1.0 has instilled in me a deep appreciation for a small-scale, intimate, and friendly Internet made up of hand-crafted websites. This is one of them.
+The Web 1.0 has instilled in me a deep appreciation for a small-scale, intimate, and friendly Internet made up of hand-crafted websites. This is one of them. I’ve been yelling at Internet clouds since 1997.
 
-I’ve been yelling at Internet clouds since 1997.
+The most humbling response I've received to date comes from the wonderful [Simone Silverstroni](https://minutestomidnight.co.uk/), who said in his [_People & Blogs_ interview](https://manuelmoreale.com/pb-simone-silvestroni):
+
+"Zinzy Waleson Geene has a website that's a constant source of curiosity. She alters the look, changes typography, structure, navigation so often that following through RSS isn't enough. When I see a new post, I go check the website."
 
 {{< rawhtml >}}
-<a href="/img/banner.svg" target="_blank" rel="noopener noreferrer"><img src="/img/banner.svg" style="width: 80px; border-radius: 0;" class="rounded-none" alt=""></a>
+<a href="/img/banner.svg" target="_blank" id="banner" rel="noopener noreferrer"><img src="/img/banner.svg" style="width: 80px; border-radius: 0;" class="rounded-none" alt=""></a>
 {{< /rawhtml >}}
 
 ---
 
 ### "What do you do here?"
 
-As a designer, it may be a tad embarrassing if I _didn't_ have a personal website. Through our own websites, designers and engineers can demonstrate their craft. Still, this website doesn't exist at the mercy of my professional life.
+First and foremost: as a designer, I feel like I can't _not_ have a personal website. Even if it doesn't feature my portfolio projects, through its sheer existence, my website demonstrates I understand how to build a page and a brand. Still, this website doesn't exist at the mercy of my professional life.
 
-This is the only website I have; it details my personal interests as well as my professional endeavors. With it, I celebrate my curiosity, vulnerability, lack of awareness, and change of heart. As of the summer of 2024, this website is a text-only website.
+This is the only website I have; it details my personal interests as well as my professional endeavors. With it, I celebrate my curiosity, vulnerability, lack of awareness, and change of heart.
 
 ### "I thought you were a designer. Why does this site look so... unfinished?"
 

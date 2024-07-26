@@ -1,29 +1,24 @@
 {{ define "main" }} {{ partial "back_link.html" .}}
 
 <article class="h-entry">
-  <header class="prose prose-gray dark:prose-invert">
+  <header class=" prose prose-gray dark:prose-invert">
     <p class="text-secondary mb-0 text-sm">{{ .Title }}</p>
     <h2 class="p-name my-2 text-2xl">{{ .Description }}</h2>
 
-    <div
-      class="name group flex max-w-fit cursor-pointer place-content-center rounded-3xl border transition-all hover:border-transparent hover:bg-pink-50 dark:hover:border-transparent dark:hover:bg-pink-300/10"
-    >
-      <p
-        class="m-0 ml-3 mr-1 text-sm font-medium leading-7 text-gray-950 group-hover:text-pink-500 dark:text-white dark:group-hover:text-pink-300"
-      >
-        / zɪn·zi: weɪl·sʌn gi:n /
-      </p>
-      <span class="inline-block rounded-full p-1">
+    <div class="name group flex place-content-center border max-w-fit transition-all hover:border-transparent hover:bg-pink-50 dark:hover:border-transparent dark:hover:bg-pink-300/10 cursor-pointer rounded-3xl">
+      <p class="text-gray-600 dark:text-zinc-300 m-0 text-sm leading-7 ml-3 mr-1 group-hover:text-pink-500 dark:group-hover:text-pink-300">/ zɪn·zi: weɪl·sʌn gi:n /</p>
+      <span class="p-1 rounded-full inline-block ">
         {{- partial "symbols/sound.html" . -}}
       </span>
     </div>
+
   </header>
 
   <section class="mt-20">
     <p class="text-secondary mb-0 text-sm">What to explore</p>
 
     <ul
-      class="m-0 mt-5 grid list-none grid-cols-2 gap-4 p-0 md:grid-cols-3 lg:grid-cols-4"
+      class="m-0 mt-5 grid list-none grid-cols-3 gap-4 p-0"
     >
       <li class="group m-0 inline-block p-0">
         <a
@@ -36,11 +31,11 @@
           >
           <span
             class="inline-block font-medium leading-9 group-hover:text-pink-500 dark:group-hover:text-pink-300"
-            >Me</span
+            >About me</span
           >
         </a>
       </li>
-      <li class="group m-0 inline-block p-0">
+      <!-- <li class="group m-0 inline-block p-0">
         <a
           href="/values"
           class="flex rounded border px-2 text-xs no-underline transition-all hover:border-transparent hover:bg-pink-50 dark:hover:border-transparent dark:hover:bg-pink-300/10"
@@ -54,8 +49,8 @@
             >Values</span
           >
         </a>
-      </li>
-      <li class="group m-0 inline-block p-0">
+      </li> -->
+      <!-- <li class="group m-0 inline-block p-0">
         <a
           href="/now"
           class="flex rounded border px-2 text-xs no-underline transition-all hover:border-transparent hover:bg-pink-50 dark:hover:border-transparent dark:hover:bg-pink-300/10"
@@ -69,10 +64,10 @@
             >Now</span
           >
         </a>
-      </li>
+      </li> -->
       <li class="group m-0 inline-block p-0">
         <a
-          href="/site"
+          href="/sitemap"
           class="flex rounded border px-2 text-xs no-underline transition-all hover:border-transparent hover:bg-pink-50 dark:hover:border-transparent dark:hover:bg-pink-300/10"
         >
           <span
@@ -81,23 +76,23 @@
           >
           <span
             class="inline-block font-medium leading-9 group-hover:text-pink-500 dark:group-hover:text-pink-300"
-            >Site</span
+            >Sitemap</span
           >
         </a>
       </li>
-      <li class="group m-0 inline-block p-0">
+      <!-- <li class="group m-0 inline-block p-0">
         <a
           href="/library"
-          class="flex cursor-not-allowed rounded border px-2 text-xs no-underline opacity-55"
+          class="flex rounded border px-2 text-xs no-underline transition-all hover:border-transparent hover:bg-pink-50 dark:hover:border-transparent dark:hover:bg-pink-300/10"
         >
           <span
-            class="mr-2 inline-block cursor-not-allowed content-center leading-9 opacity-55"
+            class="mr-2 inline-block content-center leading-9 transition-all group-hover:rotate-6"
             >{{- partial "symbols/library.html" . -}}</span
           >
-          <span class="inline-block font-medium leading-9">Library</span>
+          <span class="inline-block font-medium leading-9 group-hover:text-pink-500 dark:group-hover:text-pink-300">Library</span>
         </a>
-      </li>
-      <li class="group m-0 inline-block p-0">
+      </li> -->
+      <!-- <li class="group m-0 inline-block p-0">
         <a
           href="/follow"
           class="flex rounded border px-2 text-xs no-underline transition-all hover:border-transparent hover:bg-pink-50 dark:hover:border-transparent dark:hover:bg-pink-300/10"
@@ -111,7 +106,7 @@
             >Follow</span
           >
         </a>
-      </li>
+      </li> -->
       <li class="group m-0 inline-block p-0">
         <a
           href="/hello"
@@ -127,7 +122,7 @@
           >
         </a>
       </li>
-      <li class="group m-0 inline-block p-0">
+      <!-- <li class="group m-0 inline-block p-0">
         <a
           href="/manual"
           class="flex rounded border px-2 text-xs no-underline transition-all hover:border-transparent hover:bg-pink-50 dark:hover:border-transparent dark:hover:bg-pink-300/10"
@@ -141,14 +136,17 @@
             >Manual</span
           >
         </a>
-      </li>
+      </li> -->
     </ul>
   </section>
 
-  <div id="about" class="e-content prose prose-gray mt-20 dark:prose-invert">
+  <div
+    id="about"
+    class="e-content prose prose-gray mt-20 dark:prose-invert"
+  >
     {{ .Content }}
   </div>
 
-  {{ partial "backlinks.html" . }}
+  {{ partial "backlinks.html" . }} 
 </article>
 {{ end }}

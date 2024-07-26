@@ -7,6 +7,8 @@ date: 2009-08-01
 edited: I love the opinions I had on the subject matter below back in 2009. Please know that my views have adapted along with what I've learnt about queer emancipation over the last thirteen years.
 faces:
   - Ex N
+categories:
+- Essays
 tags:
   - queerphobia
   - multiculturalism

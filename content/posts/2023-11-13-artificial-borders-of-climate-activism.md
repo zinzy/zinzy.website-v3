@@ -5,10 +5,12 @@ draft: false
 title: The artificial borders of climate activism
 date: 2023-11-13 10:16:15 +0200
 excerpt: ""
+categories:
+- Essays
 tags:
   - activism
-  - climate justice
-  - Israel-Hamas War
+  - climate-justice
+  - Israel-Hamas-War
   - intersectionality
   - solidarity
 ---

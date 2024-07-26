@@ -5,15 +5,15 @@ section: posts
 draft: false
 title: Films about White people
 excerpt: ""
+categories:
+- Poetry
 tags:
-  - poem
+  - poetry
   - being Black
   - racism
   - television
   - cinema
----
-
-  
+---  
 Sometimes I  
 feel that I am  
 a   

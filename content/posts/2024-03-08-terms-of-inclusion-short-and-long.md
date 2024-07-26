@@ -3,6 +3,8 @@ title: "Terms of inclusion, short and long"
 section: posts
 
 date: 2024-03-08
+categories:
+- Essays
 tags:
 - inclusion
 - expats

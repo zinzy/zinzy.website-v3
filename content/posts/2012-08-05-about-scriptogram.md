@@ -5,6 +5,8 @@ draft: false
 title: So, about this Scriptogr.am
 date: 2023-08-05 10:16:15 +0200
 excerpt: ""
+categories:
+- Essays
 tags:
   - Scriptogram
   - blogging

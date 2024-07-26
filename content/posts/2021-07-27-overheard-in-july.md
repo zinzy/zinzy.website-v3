@@ -5,6 +5,8 @@ draft: false
 title: Overheard in July
 excerpt: ""
 date: 2021-07-27
+categories:
+- Overheard
 tags:
   - overheard
   - pandemic

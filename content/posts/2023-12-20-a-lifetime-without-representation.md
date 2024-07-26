@@ -5,6 +5,8 @@ draft: false
 title: A lifetime without representation
 date: 2023-12-20
 excerpt: ""
+categories:
+- Essays
 tags:
   - website
   - IndieWeb

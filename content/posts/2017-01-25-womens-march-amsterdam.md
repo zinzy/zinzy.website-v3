@@ -6,6 +6,8 @@ title: Women's March Amsterdam
 date: 2017-01-25
 faces:
   - Anja
+categories:
+- Essays
 tags:
   - milestones
   - protest
@@ -13,8 +15,6 @@ tags:
   - politics
   - Amsterdam
 ---
-
-
 Proudly nasty, I joined Anja, my mother-in-law Sauci, and millions of others around the world last Saturday to attend the [Women's March](https://en.wikipedia.org/wiki/2017_Women%27s_March). Museum Square in Amsterdam was full of pussy hats, face paint, smiling faces, and righteous indignation.
 
 I don't often attend protests, not in the last place because I'm cautious about negative media outlets that often ridicule protesters, but I loved being a part of this day. I have no idea what's in store with this American presidency, but I imagine it can't be very positive. I feel fortunate to live in a place that lends itself well to such protests. It makes me feel less scared and less alone.

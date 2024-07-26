@@ -1,6 +1,8 @@
 ---
 title: "A job for me, part one"
 date: 2024-04-20
+categories:
+- Essays
 tags:
   - career
   - ux

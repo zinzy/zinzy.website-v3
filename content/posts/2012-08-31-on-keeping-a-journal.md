@@ -5,14 +5,14 @@ draft: false
 title: On keeping a journal
 excerpt: ""
 date: 2012-08-31
+categories:
+- Essays
 tags:
   - blogging
   - internet
   - photolog
   - meta
 ---
-
-
 The only journal I’ve ever been able to successfully keep is a photo journal. Not so much the one-book or one-website type, but more so a simply collection of visual anecdotes, encounters and experiences. My first website was called www.doyoulikemytightsweater.com. It was a HTML-based one-photo-per-page website that I updated very frequently. Ever since the domain expired and I got a little sick of getting pervy emails (I should have known), I had never owned a photo website that I loved so much.
 
 The problem with my offline photo journalling habit was that I could never enjoy looking at my photos. There were no visuals to support my Finder, and I loved seeing them come together when arranged in a certain way. So, for approximately five years I didn’t really look at any of the photographs I took. 

@@ -1,6 +1,8 @@
 ---
 title: "Accessibility on the small web"
 date: 2024-03-20
+categories:
+- Essays
 tags:
 - indieweb-carnival
 - accessibility 

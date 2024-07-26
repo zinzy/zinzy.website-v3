@@ -5,6 +5,8 @@ section: posts
 draft: false
 title: When Jesus sent out his Twelve
 excerpt: ""
+categories:
+- Reflections
 tags:
   - catholicism
   - queerdom

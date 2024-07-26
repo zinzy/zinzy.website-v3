@@ -8,6 +8,8 @@ excerpt: 'On May 2, 2018, as we got off the plane from Stockholm, I said calmly 
 faces:
   - Anja
   - Anneli
+categories:
+- Essays
 tags:
   - milestones
   - addiction

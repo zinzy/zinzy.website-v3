@@ -1,0 +1,2045 @@
+- medium: Read
+  description: "Articles, poems, essays, chapters, books I've read"
+  children:
+    - entry: "The Body Keeps the Score"
+      maker: "Bessel van der Kolk"
+      id: 9780143127741
+      review:
+      date:
+      rating:
+    - entry: "None of the Above"
+      maker: "Travis Alabanza"
+      category: "Non-fiction"
+      id: 1417887261
+      review:
+      date: 2024-07-20
+      rating: 7
+    - entry: "Saving Jesus from the Church"
+      maker: "Robin R. Meyers"
+      category: "Non-fiction"
+      id: 9780061568213
+      review:
+      date: 2024-01-25
+      rating: 8
+    - entry: "Africa is not a Country"
+      maker: "Dipo Faloyin"
+      category: "Non-fiction"
+      id: 9780393881530
+      review:
+      date: 2024-01-06
+      rating: 7
+    - entry: "In the wake: on Blackness and being"
+      maker: "Christina Elizabeth Sharpe"
+      category: "Non-fiction"
+      id: 9780822362944
+      review:
+      date: 2024-01-25
+      rating: 6
+    - entry: "Freedom Is a Constant Struggle"
+      maker: "Angela Y. Davis"
+      category: "Non-fiction"
+      id: 9781608465644
+      review:
+      date: 2024-01-07
+      rating: 6
+- medium: Watch
+  description: "Feature films, series, documentaries, videos I've watched"
+  children:
+    - entry: "Abbott Elementary"
+      maker: "Quinta Brunson"
+      category: "Series"
+      id: "tt14218830"
+      review:
+      date:
+      rating: "10"
+    - entry: "Downsizing"
+      maker: "Alexander Payne"
+      category: "Movie"
+      id: "tt1389072"
+      review:
+      date:
+      rating: "7"
+    - entry: "Kinds of Kindness"
+      maker: "Yorgos Lanthimos"
+      category: "Movie"
+      id: "tt22408160"
+      review:
+      date:
+      rating: "7"
+    - entry: "Incendies"
+      maker: "Denis Villeneuve"
+      category: "Movie"
+      id: "tt1255953"
+      review:
+      date:
+      rating: "9"
+    - entry: "Under Paris"
+      maker: "Xavier Gens"
+      category: "Movie"
+      id: "tt13964390"
+      review:
+      date:
+      rating: "6"
+    - entry: "Hounds of Love"
+      maker: "Ben Young"
+      category: "Movie"
+      id: "tt3896738"
+      review:
+      date:
+      rating: "8"
+    - entry: "Civil War"
+      maker: "Alex Garland"
+      category: "Movie"
+      id: "tt17279496"
+      review:
+      date:
+      rating: "7"
+    - entry: "Poor Things"
+      maker: "Yorgos Lanthimos"
+      category: "Movie"
+      id: "tt14230458"
+      review:
+      date:
+      rating: "7"
+    - entry: "Anatomy of a Fall"
+      maker: "Justine Triet"
+      category: "Movie"
+      id: "tt17009710"
+      review:
+      date:
+      rating: "8"
+    - entry: "The OA"
+      maker: ""
+      category: "Series"
+      id: "tt4635282"
+      review:
+      date:
+      rating: "9"
+    - entry: "Irreversible"
+      maker: "Gaspar Noé"
+      category: "Movie"
+      id: "tt0290673"
+      review:
+      date:
+      rating: "9"
+    - entry: "Never Rarely Sometimes Always"
+      maker: "Eliza Hittman"
+      category: "Movie"
+      id: "tt7772582"
+      review:
+      date:
+      rating: "7"
+    - entry: "Bundy and the Green River Killer"
+      maker: "Andrew Jones"
+      category: "Movie"
+      id: "tt8549254"
+      review:
+      date:
+      rating: "2"
+    - entry: "The Insurrectionist Next Door"
+      maker: "Alexandra Pelosi"
+      category: "Documentary"
+      id: "tt29466126"
+      review:
+      date:
+      rating: "9"
+    - entry: "Great Photo, Lovely Life"
+      maker: "Rachel Beth Anderson,Amanda Mustard"
+      category: "Documentary"
+      id: "tt11331792"
+      review:
+      date:
+      rating: "8"
+    - entry: "You Were Never Really Here"
+      maker: "Lynne Ramsay"
+      category: "Movie"
+      id: "tt5742374"
+      review:
+      date:
+      rating: "6"
+    - entry: "Godzilla Minus One"
+      maker: "Takashi Yamazaki"
+      category: "Movie"
+      id: "tt23289160"
+      review:
+      date:
+      rating: "10"
+    - entry: "The Master"
+      maker: "Paul Thomas Anderson"
+      category: "Movie"
+      id: "tt1560747"
+      review:
+      date:
+      rating: "7"
+    - entry: "Creep"
+      maker: "Patrick Brice"
+      category: "Movie"
+      id: "tt2428170"
+      review:
+      date:
+      rating: "8"
+    - entry: "It Follows"
+      maker: "David Robert Mitchell"
+      category: "Movie"
+      id: "tt3235888"
+      review:
+      date:
+      rating: "9"
+    - entry: "The Texas Chain Saw Massacre"
+      maker: "Tobe Hooper"
+      category: "Movie"
+      id: "tt0072271"
+      review:
+      date:
+      rating: "7"
+    - entry: "The House That Jack Built"
+      maker: "Lars von Trier"
+      category: "Movie"
+      id: "tt4003440"
+      review:
+      date:
+      rating: "7"
+    - entry: "I'm Thinking of Ending Things"
+      maker: "Charlie Kaufman"
+      category: "Movie"
+      id: "tt7939766"
+      review:
+      date:
+      rating: "7"
+    - entry: "Kids"
+      maker: "Larry Clark"
+      category: "Movie"
+      id: "tt0113540"
+      review:
+      date:
+      rating: "9"
+    - entry: "Gummo"
+      maker: "Harmony Korine"
+      category: "Movie"
+      id: "tt0119237"
+      review:
+      date:
+      rating: "8"
+    - entry: "Toy Story 3"
+      maker: "Lee Unkrich"
+      category: "Movie"
+      id: "tt0435761"
+      review:
+      date:
+      rating: "6"
+    - entry: "Braveheart"
+      maker: "Mel Gibson"
+      category: "Movie"
+      id: "tt0112573"
+      review:
+      date:
+      rating: "6"
+    - entry: "Just, Melvin: Just Evil"
+      maker: "James Ronald Whitney"
+      category: "Documentary"
+      id: "tt0240641"
+      review:
+      date:
+      rating: "8"
+    - entry: "Oppenheimer"
+      maker: "Christopher Nolan"
+      category: "Movie"
+      id: "tt15398776"
+      review:
+      date:
+      rating: "7"
+    - entry: "Panic Room"
+      maker: "David Fincher"
+      category: "Movie"
+      id: "tt0258000"
+      review:
+      date:
+      rating: "7"
+    - entry: "Hannibal"
+      maker: "Ridley Scott"
+      category: "Movie"
+      id: "tt0212985"
+      review:
+      date:
+      rating: "7"
+    - entry: "In the Aisles"
+      maker: "Thomas Stuber"
+      category: "Movie"
+      id: "tt6263618"
+      review:
+      date:
+      rating: "8"
+    - entry: "Cube"
+      maker: "Vincenzo Natali"
+      category: "Movie"
+      id: "tt0123755"
+      review:
+      date:
+      rating: "8"
+    - entry: "Past Lives"
+      maker: "Celine Song"
+      category: "Movie"
+      id: "tt13238346"
+      review:
+      date:
+      rating: "8"
+    - entry: "Toen we van de Duitsers verloren"
+      maker: "Guido van Driel"
+      category: "Movie"
+      id: "tt18816030"
+      review:
+      date:
+      rating: "8"
+    - entry: "The Fall"
+      maker: ""
+      category: "Series"
+      id: "tt2294189"
+      review:
+      date:
+      rating: "8"
+    - entry: "Talk to Me"
+      maker: "Danny Philippou,Michael Philippou"
+      category: "Movie"
+      id: "tt10638522"
+      review:
+      date:
+      rating: "7"
+    - entry: "The Humans"
+      maker: "Stephen Karam"
+      category: "Movie"
+      id: "tt10023286"
+      review:
+      date:
+      rating: "8"
+    - entry: "Barbie"
+      maker: "Greta Gerwig"
+      category: "Movie"
+      id: "tt1517268"
+      review:
+      date:
+      rating: "7"
+    - entry: "Meg 2: The Trench"
+      maker: "Ben Wheatley"
+      category: "Movie"
+      id: "tt9224104"
+      review:
+      date:
+      rating: "7"
+    - entry: "The Meg"
+      maker: "Jon Turteltaub"
+      category: "Movie"
+      id: "tt4779682"
+      review:
+      date:
+      rating: "7"
+    - entry: "Midsommar"
+      maker: "Ari Aster"
+      category: "Movie"
+      id: "tt8772262"
+      review:
+      date:
+      rating: "9"
+    - entry: "The Righteous Gemstones"
+      maker: ""
+      category: "Series"
+      id: "tt8634332"
+      review:
+      date:
+      rating: "8"
+    - entry: "The Help"
+      maker: "Tate Taylor"
+      category: "Movie"
+      id: "tt1454029"
+      review:
+      date:
+      rating: "5"
+    - entry: "Groundhog Day"
+      maker: "Harold Ramis"
+      category: "Movie"
+      id: "tt0107048"
+      review:
+      date:
+      rating: "6"
+    - entry: "The Exorcist"
+      maker: "William Friedkin"
+      category: "Movie"
+      id: "tt0070047"
+      review:
+      date:
+      rating: "10"
+    - entry: "Into the Wild"
+      maker: "Sean Penn"
+      category: "Movie"
+      id: "tt0758758"
+      review:
+      date:
+      rating: "7"
+    - entry: "Room"
+      maker: "Lenny Abrahamson"
+      category: "Movie"
+      id: "tt3170832"
+      review:
+      date:
+      rating: "7"
+    - entry: "Catch Me If You Can"
+      maker: "Steven Spielberg"
+      category: "Movie"
+      id: "tt0264464"
+      review:
+      date:
+      rating: "7"
+    - entry: "Trainspotting"
+      maker: "Danny Boyle"
+      category: "Movie"
+      id: "tt0117951"
+      review:
+      date:
+      rating: "7"
+    - entry: "Three Billboards Outside Ebbing, Missouri"
+      maker: "Martin McDonagh"
+      category: "Movie"
+      id: "tt5027774"
+      review:
+      date:
+      rating: "7"
+    - entry: "Prisoners"
+      maker: "Denis Villeneuve"
+      category: "Movie"
+      id: "tt1392214"
+      review:
+      date:
+      rating: "10"
+    - entry: "No Country for Old Men"
+      maker: "Ethan Coen,Joel Coen"
+      category: "Movie"
+      id: "tt0477348"
+      review:
+      date:
+      rating: "9"
+    - entry: "A Beautiful Mind"
+      maker: "Ron Howard"
+      category: "Movie"
+      id: "tt0268978"
+      review:
+      date:
+      rating: "8"
+    - entry: "Jurassic Park"
+      maker: "Steven Spielberg"
+      category: "Movie"
+      id: "tt0107290"
+      review:
+      date:
+      rating: "9"
+    - entry: "The Sixth Sense"
+      maker: "M. Night Shyamalan"
+      category: "Movie"
+      id: "tt0167404"
+      review:
+      date:
+      rating: "9"
+    - entry: "Shutter Island"
+      maker: "Martin Scorsese"
+      category: "Movie"
+      id: "tt1130884"
+      review:
+      date:
+      rating: "7"
+    - entry: "Green Book"
+      maker: "Peter Farrelly"
+      category: "Movie"
+      id: "tt6966692"
+      review:
+      date:
+      rating: "2"
+    - entry: "Hamilton"
+      maker: "Thomas Kail"
+      category: "Movie"
+      id: "tt8503618"
+      review:
+      date:
+      rating: "10"
+    - entry: "A Clockwork Orange"
+      maker: "Stanley Kubrick"
+      category: "Movie"
+      id: "tt0066921"
+      review:
+      date:
+      rating: "8"
+    - entry: "Amélie"
+      maker: "Jean-Pierre Jeunet"
+      category: "Movie"
+      id: "tt0211915"
+      review:
+      date:
+      rating: "10"
+    - entry: "Eternal Sunshine of the Spotless Mind"
+      maker: "Michel Gondry"
+      category: "Movie"
+      id: "tt0338013"
+      review:
+      date:
+      rating: "10"
+    - entry: "Requiem for a Dream"
+      maker: "Darren Aronofsky"
+      category: "Movie"
+      id: "tt0180093"
+      review:
+      date:
+      rating: "10"
+    - entry: "Toy Story"
+      maker: "John Lasseter"
+      category: "Movie"
+      id: "tt0114709"
+      review:
+      date:
+      rating: "10"
+    - entry: "Oldboy"
+      maker: "Park Chan-wook"
+      category: "Movie"
+      id: "tt0364569"
+      review:
+      date:
+      rating: "8"
+    - entry: "American Beauty"
+      maker: "Sam Mendes"
+      category: "Movie"
+      id: "tt0169547"
+      review:
+      date:
+      rating: "10"
+    - entry: "Apocalypse Now"
+      maker: "Francis Ford Coppola"
+      category: "Movie"
+      id: "tt0078788"
+      review:
+      date:
+      rating: "5"
+    - entry: "Memento"
+      maker: "Christopher Nolan"
+      category: "Movie"
+      id: "tt0209144"
+      review:
+      date:
+      rating: "8"
+    - entry: "The Prestige"
+      maker: "Christopher Nolan"
+      category: "Movie"
+      id: "tt0482571"
+      review:
+      date:
+      rating: "6"
+    - entry: "American History X"
+      maker: "Tony Kaye"
+      category: "Movie"
+      id: "tt0120586"
+      review:
+      date:
+      rating: "5"
+    - entry: "The Lion King"
+      maker: "Roger Allers,Rob Minkoff"
+      category: "Movie"
+      id: "tt0110357"
+      review:
+      date:
+      rating: "7"
+    - entry: "The Pianist"
+      maker: "Roman Polanski"
+      category: "Movie"
+      id: "tt0253474"
+      review:
+      date:
+      rating: "7"
+    - entry: "Psycho"
+      maker: "Alfred Hitchcock"
+      category: "Movie"
+      id: "tt0054215"
+      review:
+      date:
+      rating: "8"
+    - entry: "Spirited Away"
+      maker: "Hayao Miyazaki"
+      category: "Movie"
+      id: "tt0245429"
+      review:
+      date:
+      rating: "7"
+    - entry: "The Green Mile"
+      maker: "Frank Darabont"
+      category: "Movie"
+      id: "tt0120689"
+      review:
+      date:
+      rating: "4"
+    - entry: "City of God"
+      maker: "Fernando Meirelles,Kátia Lund"
+      category: "Movie"
+      id: "tt0317248"
+      review:
+      date:
+      rating: "7"
+    - entry: "Interstellar"
+      maker: "Christopher Nolan"
+      category: "Movie"
+      id: "tt0816692"
+      review:
+      date:
+      rating: "8"
+    - entry: "It's a Wonderful Life"
+      maker: "Frank Capra"
+      category: "Movie"
+      id: "tt0038650"
+      review:
+      date:
+      rating: "6"
+    - entry: "Se7en"
+      maker: "David Fincher"
+      category: "Movie"
+      id: "tt0114369"
+      review:
+      date:
+      rating: "9"
+    - entry: "One Flew Over the Cuckoo's Nest"
+      maker: "Milos Forman"
+      category: "Movie"
+      id: "tt0073486"
+      review:
+      date:
+      rating: "7"
+    - entry: "Goodfellas"
+      maker: "Martin Scorsese"
+      category: "Movie"
+      id: "tt0099685"
+      review:
+      date:
+      rating: "7"
+    - entry: "The Matrix"
+      maker: "Lana Wachowski,Lilly Wachowski"
+      category: "Movie"
+      id: "tt0133093"
+      review:
+      date:
+      rating: "7"
+    - entry: "Inception"
+      maker: "Christopher Nolan"
+      category: "Movie"
+      id: "tt1375666"
+      review:
+      date:
+      rating: "7"
+    - entry: "Fight Club"
+      maker: "David Fincher"
+      category: "Movie"
+      id: "tt0137523"
+      review:
+      date:
+      rating: "8"
+    - entry: "Forrest Gump"
+      maker: "Robert Zemeckis"
+      category: "Movie"
+      id: "tt0109830"
+      review:
+      date:
+      rating: "7"
+    - entry: "The Lord of the Rings: The Fellowship of the Ring"
+      maker: "Peter Jackson"
+      category: "Movie"
+      id: "tt0120737"
+      review:
+      date:
+      rating: "4"
+    - entry: "Schindler's List"
+      maker: "Steven Spielberg"
+      category: "Movie"
+      id: "tt0108052"
+      review:
+      date:
+      rating: "5"
+    - entry: "The Godfather"
+      maker: "Francis Ford Coppola"
+      category: "Movie"
+      id: "tt0068646"
+      review:
+      date:
+      rating: "6"
+    - entry: "The Shawshank Redemption"
+      maker: "Frank Darabont"
+      category: "Movie"
+      id: "tt0111161"
+      review:
+      date:
+      rating: "6"
+    - entry: "Asteroid City"
+      maker: "Wes Anderson"
+      category: "Movie"
+      id: "tt14230388"
+      review:
+      date:
+      rating: "7"
+    - entry: "The Lost Daughter"
+      maker: "Maggie Gyllenhaal"
+      category: "Movie"
+      id: "tt9100054"
+      review:
+      date:
+      rating: "8"
+    - entry: "Love According to Dalva"
+      maker: "Emmanuelle Nicot"
+      category: "Movie"
+      id: "tt19768016"
+      review:
+      date:
+      rating: "8"
+    - entry: "Queen & Slim"
+      maker: "Melina Matsoukas"
+      category: "Movie"
+      id: "tt8722346"
+      review:
+      date:
+      rating: "10"
+    - entry: "The Strange Thing About the Johnsons"
+      maker: "Ari Aster"
+      category: "Short"
+      id: "tt1772398"
+      review:
+      date:
+      rating: "9"
+    - entry: "Inventing Anna"
+      maker: ""
+      category: "Series"
+      id: "tt8740976"
+      review:
+      date:
+      rating: "7"
+    - entry: "Corpus Christi"
+      maker: "Jan Komasa"
+      category: "Movie"
+      id: "tt8649186"
+      review:
+      date:
+      rating: "8"
+    - entry: "Beau Is Afraid"
+      maker: "Ari Aster"
+      category: "Movie"
+      id: "tt13521006"
+      review:
+      date:
+      rating: "8"
+    - entry: "Where the Crawdads Sing"
+      maker: "Olivia Newman"
+      category: "Movie"
+      id: "tt9411972"
+      review:
+      date:
+      rating: "4"
+    - entry: "Taipei Suicide Story"
+      maker: "KEFF"
+      category: "Short"
+      id: "tt11232334"
+      review:
+      date:
+      rating: "9"
+    - entry: "Men"
+      maker: "Alex Garland"
+      category: "Movie"
+      id: "tt13841850"
+      review:
+      date:
+      rating: "6"
+    - entry: "Carrie"
+      maker: "Brian De Palma"
+      category: "Movie"
+      id: "tt0074285"
+      review:
+      date:
+      rating: "8"
+    - entry: "Best in Show"
+      maker: "Christopher Guest"
+      category: "Movie"
+      id: "tt0218839"
+      review:
+      date:
+      rating: "9"
+    - entry: "Top Gun: Maverick"
+      maker: "Joseph Kosinski"
+      category: "Movie"
+      id: "tt1745960"
+      review:
+      date:
+      rating: "8"
+    - entry: "Ali & Ava"
+      maker: "Clio Barnard"
+      category: "Movie"
+      id: "tt11559472"
+      review:
+      date:
+      rating: "10"
+    - entry: "CODA"
+      maker: "Sian Heder"
+      category: "Movie"
+      id: "tt10366460"
+      review:
+      date:
+      rating: "10"
+    - entry: "Pieces of Her"
+      maker: ""
+      category: "Series"
+      id: "tt9170236"
+      review:
+      date:
+      rating: "6"
+    - entry: "Megan Is Missing"
+      maker: "Michael Goi"
+      category: "Movie"
+      id: "tt1087461"
+      review:
+      date:
+      rating: "7"
+    - entry: "Wasp"
+      maker: "Andrea Arnold"
+      category: "Short"
+      id: "tt0388534"
+      review:
+      date:
+      rating: "9"
+    - entry: "Nuit et brouillard"
+      maker: "Alain Resnais"
+      category: "Documentary"
+      id: "tt0048434"
+      review:
+      date:
+      rating: "9"
+    - entry: "Waltz with Bashir"
+      maker: "Ari Folman"
+      category: "Documentary"
+      id: "tt1185616"
+      review:
+      date:
+      rating: "7"
+    - entry: "Everybody Knows"
+      maker: "Asghar Farhadi"
+      category: "Movie"
+      id: "tt4964788"
+      review:
+      date:
+      rating: "7"
+    - entry: "Synecdoche, New York"
+      maker: "Charlie Kaufman"
+      category: "Movie"
+      id: "tt0383028"
+      review:
+      date:
+      rating: "7"
+    - entry: "The Cat, the Reverend and the Slave"
+      maker: "Alain Della Negra,Kaori Kinoshita"
+      category: "Documentary"
+      id: "tt1629399"
+      review:
+      date:
+      rating: "7"
+    - entry: "Paranoid Park"
+      maker: "Gus Van Sant"
+      category: "Movie"
+      id: "tt0842929"
+      review:
+      date:
+      rating: "9"
+    - entry: "Godzilla vs. Kong"
+      maker: "Adam Wingard"
+      category: "Movie"
+      id: "tt5034838"
+      review:
+      date:
+      rating: "7"
+    - entry: "Don't Look Up"
+      maker: "Adam McKay"
+      category: "Movie"
+      id: "tt11286314"
+      review:
+      date:
+      rating: "7"
+    - entry: "Harold and Maude"
+      maker: "Hal Ashby"
+      category: "Movie"
+      id: "tt0067185"
+      review:
+      date:
+      rating: "9"
+    - entry: "Swan Song"
+      maker: "Benjamin Cleary"
+      category: "Movie"
+      id: "tt13207508"
+      review:
+      date:
+      rating: "10"
+    - entry: "Along Came a Spider"
+      maker: "Lee Tamahori"
+      category: "Movie"
+      id: "tt0164334"
+      review:
+      date:
+      rating: "6"
+    - entry: "The Night House"
+      maker: "David Bruckner"
+      category: "Movie"
+      id: "tt9731534"
+      review:
+      date:
+      rating: "8"
+    - entry: "The Unforgivable"
+      maker: "Nora Fingscheidt"
+      category: "Movie"
+      id: "tt11233960"
+      review:
+      date:
+      rating: "7"
+    - entry: "Titanic"
+      maker: "James Cameron"
+      category: "Movie"
+      id: "tt0120338"
+      review:
+      date:
+      rating: "10"
+    - entry: "The Descent"
+      maker: "Neil Marshall"
+      category: "Movie"
+      id: "tt0435625"
+      review:
+      date:
+      rating: "7"
+    - entry: "The Babadook"
+      maker: "Jennifer Kent"
+      category: "Movie"
+      id: "tt2321549"
+      review:
+      date:
+      rating: "7"
+    - entry: "Hereditary"
+      maker: "Ari Aster"
+      category: "Movie"
+      id: "tt7784604"
+      review:
+      date:
+      rating: "8"
+    - entry: "Us"
+      maker: "Jordan Peele"
+      category: "Movie"
+      id: "tt6857112"
+      review:
+      date:
+      rating: "10"
+    - entry: "Get Out"
+      maker: "Jordan Peele"
+      category: "Movie"
+      id: "tt5052448"
+      review:
+      date:
+      rating: "10"
+    - entry: "Pulp Fiction"
+      maker: "Quentin Tarantino"
+      category: "Movie"
+      id: "tt0110912"
+      review:
+      date:
+      rating: "7"
+    - entry: "The Farewell"
+      maker: "Lulu Wang"
+      category: "Movie"
+      id: "tt8637428"
+      review:
+      date:
+      rating: "8"
+    - entry: "Carol"
+      maker: "Todd Haynes"
+      category: "Movie"
+      id: "tt2402927"
+      review:
+      date:
+      rating: "7"
+    - entry: "I, Tonya"
+      maker: "Craig Gillespie"
+      category: "Movie"
+      id: "tt5580036"
+      review:
+      date:
+      rating: "8"
+    - entry: "Moonlight"
+      maker: "Barry Jenkins"
+      category: "Movie"
+      id: "tt4975722"
+      review:
+      date:
+      rating: "9"
+    - entry: "If Beale Street Could Talk"
+      maker: "Barry Jenkins"
+      category: "Movie"
+      id: "tt7125860"
+      review:
+      date:
+      rating: "9"
+    - entry: "Mother!"
+      maker: "Darren Aronofsky"
+      category: "Movie"
+      id: "tt5109784"
+      review:
+      date:
+      rating: "7"
+    - entry: "Knives Out"
+      maker: "Rian Johnson"
+      category: "Movie"
+      id: "tt8946378"
+      review:
+      date:
+      rating: "7"
+    - entry: "The Wolf of Wall Street"
+      maker: "Martin Scorsese"
+      category: "Movie"
+      id: "tt0993846"
+      review:
+      date:
+      rating: "8"
+    - entry: "Marriage Story"
+      maker: "Noah Baumbach"
+      category: "Movie"
+      id: "tt7653254"
+      review:
+      date:
+      rating: "6"
+    - entry: "Little Women"
+      maker: "Greta Gerwig"
+      category: "Movie"
+      id: "tt3281548"
+      review:
+      date:
+      rating: "6"
+    - entry: "Gone Girl"
+      maker: "David Fincher"
+      category: "Movie"
+      id: "tt2267998"
+      review:
+      date:
+      rating: "7"
+    - entry: "Call Me by Your Name"
+      maker: "Luca Guadagnino"
+      category: "Movie"
+      id: "tt5726616"
+      review:
+      date:
+      rating: "7"
+    - entry: "The Favourite"
+      maker: "Yorgos Lanthimos"
+      category: "Movie"
+      id: "tt5083738"
+      review:
+      date:
+      rating: "7"
+    - entry: "The Good Liar"
+      maker: "Bill Condon"
+      category: "Movie"
+      id: "tt5563334"
+      review:
+      date:
+      rating: "7"
+    - entry: "Fish Tank"
+      maker: "Andrea Arnold"
+      category: "Movie"
+      id: "tt1232776"
+      review:
+      date:
+      rating: "8"
+    - entry: "47 Meters Down: Uncaged"
+      maker: "Johannes Roberts"
+      category: "Movie"
+      id: "tt7329656"
+      review:
+      date:
+      rating: "4"
+    - entry: "Doctor Sleep"
+      maker: "Mike Flanagan"
+      category: "Movie"
+      id: "tt5606664"
+      review:
+      date:
+      rating: "5"
+    - entry: "Parasite"
+      maker: "Bong Joon Ho"
+      category: "Movie"
+      id: "tt6751668"
+      review:
+      date:
+      rating: "10"
+    - entry: "The Exorcism of Emily Rose"
+      maker: "Scott Derrickson"
+      category: "Movie"
+      id: "tt0404032"
+      review:
+      date:
+      rating: "6"
+    - entry: "Nr. 10"
+      maker: "Alex van Warmerdam"
+      category: "Movie"
+      id: "tt7174134"
+      review:
+      date:
+      rating: "8"
+    - entry: "The Man Who Sold His Skin"
+      maker: "Kaouther Ben Hania"
+      category: "Movie"
+      id: "tt10360862"
+      review:
+      date:
+      rating: "7"
+    - entry: "Money Heist"
+      maker: ""
+      category: "Series"
+      id: "tt6468322"
+      review:
+      date:
+      rating: "9"
+    - entry: "Pieces of a Woman"
+      maker: "Kornél Mundruczó"
+      category: "Movie"
+      id: "tt11161474"
+      review:
+      date:
+      rating: "7"
+    - entry: "Promising Young Woman"
+      maker: "Emerald Fennell"
+      category: "Movie"
+      id: "tt9620292"
+      review:
+      date:
+      rating: "8"
+    - entry: "Minari"
+      maker: "Lee Isaac Chung"
+      category: "Movie"
+      id: "tt10633456"
+      review:
+      date:
+      rating: "7"
+    - entry: "Sound of Metal"
+      maker: "Darius Marder"
+      category: "Movie"
+      id: "tt5363618"
+      review:
+      date:
+      rating: "8"
+    - entry: "Nomadland"
+      maker: "Chloé Zhao"
+      category: "Movie"
+      id: "tt9770150"
+      review:
+      date:
+      rating: "8"
+    - entry: "The Father"
+      maker: "Florian Zeller"
+      category: "Movie"
+      id: "tt10272386"
+      review:
+      date:
+      rating: "10"
+    - entry: "The Bourne Identity"
+      maker: "Doug Liman"
+      category: "Movie"
+      id: "tt0258463"
+      review:
+      date:
+      rating: "6"
+    - entry: "The Chair"
+      maker: ""
+      category: "Series"
+      id: "tt11834150"
+      review:
+      date:
+      rating: "9"
+    - entry: "Moonstruck"
+      maker: "Norman Jewison"
+      category: "Movie"
+      id: "tt0093565"
+      review:
+      date:
+      rating: "7"
+    - entry: "The Mauritanian"
+      maker: "Kevin Macdonald"
+      category: "Movie"
+      id: "tt4761112"
+      review:
+      date:
+      rating: "8"
+    - entry: "The World to Come"
+      maker: "Mona Fastvold"
+      category: "Movie"
+      id: "tt9738716"
+      review:
+      date:
+      rating: "7"
+    - entry: "Single White Female"
+      maker: "Barbet Schroeder"
+      category: "Movie"
+      id: "tt0105414"
+      review:
+      date:
+      rating: "8"
+    - entry: "Dolores Claiborne"
+      maker: "Taylor Hackford"
+      category: "Movie"
+      id: "tt0109642"
+      review:
+      date:
+      rating: "9"
+    - entry: "The Silence of the Lambs"
+      maker: "Jonathan Demme"
+      category: "Movie"
+      id: "tt0102926"
+      review:
+      date:
+      rating: "10"
+    - entry: "Django Unchained"
+      maker: "Quentin Tarantino"
+      category: "Movie"
+      id: "tt1853728"
+      review:
+      date:
+      rating: "7"
+    - entry: "The Truman Show"
+      maker: "Peter Weir"
+      category: "Movie"
+      id: "tt0120382"
+      review:
+      date:
+      rating: "10"
+    - entry: "The Great Gatsby"
+      maker: "Baz Luhrmann"
+      category: "Movie"
+      id: "tt1343092"
+      review:
+      date:
+      rating: "5"
+    - entry: "Still Walking"
+      maker: "Hirokazu Koreeda"
+      category: "Movie"
+      id: "tt1087578"
+      review:
+      date:
+      rating: "8"
+    - entry: "We're the Millers"
+      maker: "Rawson Marshall Thurber"
+      category: "Movie"
+      id: "tt1723121"
+      review:
+      date:
+      rating: "5"
+    - entry: "Shame"
+      maker: "Steve McQueen"
+      category: "Movie"
+      id: "tt1723811"
+      review:
+      date:
+      rating: "9"
+    - entry: "Magnolia"
+      maker: "Paul Thomas Anderson"
+      category: "Movie"
+      id: "tt0175880"
+      review:
+      date:
+      rating: "8"
+    - entry: "Downton Abbey"
+      maker: "Michael Engler"
+      category: "Movie"
+      id: "tt6398184"
+      review:
+      date:
+      rating: "7"
+    - entry: "The Dark Knight"
+      maker: "Christopher Nolan"
+      category: "Movie"
+      id: "tt0468569"
+      review:
+      date:
+      rating: "8"
+    - entry: "The Laundromat"
+      maker: "Steven Soderbergh"
+      category: "Movie"
+      id: "tt5865326"
+      review:
+      date:
+      rating: "6"
+    - entry: "The Lion King"
+      maker: "Jon Favreau"
+      category: "Movie"
+      id: "tt6105098"
+      review:
+      date:
+      rating: "6"
+    - entry: "Hannah Gadsby: Nanette"
+      maker: "Jon Olb,Madeleine Parry"
+      category: "Special"
+      id: "tt8465676"
+      review:
+      date:
+      rating: "10"
+    - entry: "Nashville"
+      maker: ""
+      category: "Series"
+      id: "tt2281375"
+      review:
+      date:
+      rating: "7"
+    - entry: "Dirty John"
+      maker: ""
+      category: "Series"
+      id: "tt7945720"
+      review:
+      date:
+      rating: "5"
+    - entry: "Happiness"
+      maker: "Todd Solondz"
+      category: "Movie"
+      id: "tt0147612"
+      review:
+      date:
+      rating: "10"
+    - entry: "Doubt"
+      maker: "John Patrick Shanley"
+      category: "Movie"
+      id: "tt0918927"
+      review:
+      date:
+      rating: "9"
+    - entry: "Arrival"
+      maker: "Denis Villeneuve"
+      category: "Movie"
+      id: "tt2543164"
+      review:
+      date:
+      rating: "9"
+    - entry: "Her"
+      maker: "Spike Jonze"
+      category: "Movie"
+      id: "tt1798709"
+      review:
+      date:
+      rating: "7"
+    - entry: "Joker"
+      maker: "Todd Phillips"
+      category: "Movie"
+      id: "tt7286456"
+      review:
+      date:
+      rating: "5"
+    - entry: "Amazing Grace"
+      maker: "Alan Elliott,Sydney Pollack"
+      category: "Documentary"
+      id: "tt4935462"
+      review:
+      date:
+      rating: "7"
+    - entry: "The Report"
+      maker: "Scott Z. Burns"
+      category: "Movie"
+      id: "tt8236336"
+      review:
+      date:
+      rating: "8"
+    - entry: "Jeepers Creepers"
+      maker: "Victor Salva"
+      category: "Movie"
+      id: "tt0263488"
+      review:
+      date:
+      rating: "3"
+    - entry: "The Omen"
+      maker: "Richard Donner"
+      category: "Movie"
+      id: "tt0075005"
+      review:
+      date:
+      rating: "8"
+    - entry: "The Blair Witch Project"
+      maker: "Daniel Myrick,Eduardo Sánchez"
+      category: "Movie"
+      id: "tt0185937"
+      review:
+      date:
+      rating: "9"
+    - entry: "Trick 'r Treat"
+      maker: "Michael Dougherty"
+      category: "Movie"
+      id: "tt0862856"
+      review:
+      date:
+      rating: "4"
+    - entry: "[Rec]²"
+      maker: "Jaume Balagueró, Paco Plaza"
+      category: "Movie"
+      id: "tt1245112"
+      review:
+      date:
+      rating: "6.5"
+    - entry: "Paranormal Activity"
+      maker: "Oren Peli"
+      category: "Movie"
+      id: "tt1179904"
+      review:
+      date:
+      rating: "8"
+    - entry: "V/H/S"
+      maker: "Matt Bettinelli-Olpin,David Bruckner,Tyler Gillett,Justin Martinez,Glenn McQuaid,Radio Silence,Joe Swanberg,Chad Villella,Ti West,Adam Wingard"
+      category: "Movie"
+      id: "tt2105044"
+      review:
+      date:
+      rating: "5"
+    - entry: "Lovely Molly"
+      maker: "Eduardo Sánchez"
+      category: "Movie"
+      id: "tt1707392"
+      review:
+      date:
+      rating: "5"
+    - entry: "The Pact"
+      maker: "Nicholas McCarthy"
+      category: "Movie"
+      id: "tt2040560"
+      review:
+      date:
+      rating: "6"
+    - entry: "Skew"
+      maker: "Sevé Schelenz"
+      category: "Movie"
+      id: "tt1808477"
+      review:
+      date:
+      rating: "8"
+    - entry: "The Bone Collector"
+      maker: "Phillip Noyce"
+      category: "Movie"
+      id: "tt0145681"
+      review:
+      date:
+      rating: "6"
+    - entry: "Scream"
+      maker: "Wes Craven"
+      category: "Movie"
+      id: "tt0117571"
+      review:
+      date:
+      rating: "7"
+    - entry: "Saw IV"
+      maker: "Darren Lynn Bousman"
+      category: "Movie"
+      id: "tt0890870"
+      review:
+      date:
+      rating: "6"
+    - entry: "Saw 3D"
+      maker: "Kevin Greutert"
+      category: "Movie"
+      id: "tt1477076"
+      review:
+      date:
+      rating: "6"
+    - entry: "Saw III"
+      maker: "Darren Lynn Bousman"
+      category: "Movie"
+      id: "tt0489270"
+      review:
+      date:
+      rating: "6"
+    - entry: "Saw"
+      maker: "James Wan"
+      category: "Movie"
+      id: "tt0387564"
+      review:
+      date:
+      rating: "8"
+    - entry: "Child's Play"
+      maker: "Tom Holland"
+      category: "Movie"
+      id: "tt0094862"
+      review:
+      date:
+      rating: "8"
+    - entry: "Gothika"
+      maker: "Mathieu Kassovitz"
+      category: "Movie"
+      id: "tt0348836"
+      review:
+      date:
+      rating: "7"
+    - entry: "Mirrors"
+      maker: "Alexandre Aja"
+      category: "Movie"
+      id: "tt0790686"
+      review:
+      date:
+      rating: "5"
+    - entry: "The Shining"
+      maker: "Stanley Kubrick"
+      category: "Movie"
+      id: "tt0081505"
+      review:
+      date:
+      rating: "10"
+    - entry: "Saw II"
+      maker: "Darren Lynn Bousman"
+      category: "Movie"
+      id: "tt0432348"
+      review:
+      date:
+      rating: "6"
+    - entry: "REC"
+      maker: "Jaume Balagueró,Paco Plaza"
+      category: "Movie"
+      id: "tt1038988"
+      review:
+      date:
+      rating: "8.5"
+    - entry: "The Grudge"
+      maker: "Takashi Shimizu"
+      category: "Movie"
+      id: "tt0391198"
+      review:
+      date:
+      rating: "4"
+    - entry: "The Ring"
+      maker: "Gore Verbinski"
+      category: "Movie"
+      id: "tt0298130"
+      review:
+      date:
+      rating: "7"
+    - entry: "Youth in Revolt"
+      maker: "Miguel Arteta"
+      category: "Movie"
+      id: "tt0403702"
+      review:
+      date:
+      rating: "6"
+    - entry: "Love Actually"
+      maker: "Richard Curtis"
+      category: "Movie"
+      id: "tt0314331"
+      review:
+      date:
+      rating: "8"
+    - entry: "The Proposal"
+      maker: "Anne Fletcher"
+      category: "Movie"
+      id: "tt1041829"
+      review:
+      date:
+      rating: "6"
+    - entry: "500 Days of Summer"
+      maker: "Marc Webb"
+      category: "Movie"
+      id: "tt1022603"
+      review:
+      date:
+      rating: "7"
+    - entry: "Philadelphia"
+      maker: "Jonathan Demme"
+      category: "Movie"
+      id: "tt0107818"
+      review:
+      date:
+      rating: "8"
+    - entry: "Definitely, Maybe"
+      maker: "Adam Brooks"
+      category: "Movie"
+      id: "tt0832266"
+      review:
+      date:
+      rating: "6"
+    - entry: "Office Space"
+      maker: "Mike Judge"
+      category: "Movie"
+      id: "tt0151804"
+      review:
+      date:
+      rating: "8"
+    - entry: "The Experiment"
+      maker: "Oliver Hirschbiegel"
+      category: "Movie"
+      id: "tt0250258"
+      review:
+      date:
+      rating: "7"
+    - entry: "Kiss Kiss Bang Bang"
+      maker: "Shane Black"
+      category: "Movie"
+      id: "tt0373469"
+      review:
+      date:
+      rating: "7"
+    - entry: "The Hangover Part II"
+      maker: "Todd Phillips"
+      category: "Movie"
+      id: "tt1411697"
+      review:
+      date:
+      rating: "5"
+    - entry: "My Sister's Keeper"
+      maker: "Nick Cassavetes"
+      category: "Movie"
+      id: "tt1078588"
+      review:
+      date:
+      rating: "6"
+    - entry: "Chloe"
+      maker: "Atom Egoyan"
+      category: "Movie"
+      id: "tt1352824"
+      review:
+      date:
+      rating: "6"
+    - entry: "As Good as It Gets"
+      maker: "James L. Brooks"
+      category: "Movie"
+      id: "tt0119822"
+      review:
+      date:
+      rating: "7"
+    - entry: "An Education"
+      maker: "Lone Scherfig"
+      category: "Movie"
+      id: "tt1174732"
+      review:
+      date:
+      rating: "6"
+    - entry: "The Kids Are All Right"
+      maker: "Lisa Cholodenko"
+      category: "Movie"
+      id: "tt0842926"
+      review:
+      date:
+      rating: "6"
+    - entry: "Storytelling"
+      maker: "Todd Solondz"
+      category: "Movie"
+      id: "tt0250081"
+      review:
+      date:
+      rating: "7"
+    - entry: "He's Just Not That Into You"
+      maker: "Ken Kwapis"
+      category: "Movie"
+      id: "tt1001508"
+      review:
+      date:
+      rating: "6"
+    - entry: "Juno"
+      maker: "Jason Reitman"
+      category: "Movie"
+      id: "tt0467406"
+      review:
+      date:
+      rating: "7"
+    - entry: "Splice"
+      maker: "Vincenzo Natali"
+      category: "Movie"
+      id: "tt1017460"
+      review:
+      date:
+      rating: "6"
+    - entry: "The Internship"
+      maker: "Shawn Levy"
+      category: "Movie"
+      id: "tt2234155"
+      review:
+      date:
+      rating: "6"
+    - entry: "I Am Sam"
+      maker: "Jessie Nelson"
+      category: "Movie"
+      id: "tt0277027"
+      review:
+      date:
+      rating: "8"
+    - entry: "Hannibal Rising"
+      maker: "Peter Webber"
+      category: "Movie"
+      id: "tt0367959"
+      review:
+      date:
+      rating: "6"
+    - entry: "Adventureland"
+      maker: "Greg Mottola"
+      category: "Movie"
+      id: "tt1091722"
+      review:
+      date:
+      rating: "6"
+    - entry: "Disturbia"
+      maker: "D.J. Caruso"
+      category: "Movie"
+      id: "tt0486822"
+      review:
+      date:
+      rating: "6"
+    - entry: "The Hangover"
+      maker: "Todd Phillips"
+      category: "Movie"
+      id: "tt1119646"
+      review:
+      date:
+      rating: "6"
+    - entry: "Ocean's Thirteen"
+      maker: "Steven Soderbergh"
+      category: "Movie"
+      id: "tt0496806"
+      review:
+      date:
+      rating: "7"
+    - entry: "Old School"
+      maker: "Todd Phillips"
+      category: "Movie"
+      id: "tt0302886"
+      review:
+      date:
+      rating: "6"
+    - entry: "Dan in Real Life"
+      maker: "Peter Hedges"
+      category: "Movie"
+      id: "tt0480242"
+      review:
+      date:
+      rating: "8"
+    - entry: "Mysterious Skin"
+      maker: "Gregg Araki"
+      category: "Movie"
+      id: "tt0370986"
+      review:
+      date:
+      rating: "8"
+    - entry: "The Big Lebowski"
+      maker: "Joel Coen,Ethan Coen"
+      category: "Movie"
+      id: "tt0118715"
+      review:
+      date:
+      rating: "8"
+    - entry: "The Switch"
+      maker: "Josh Gordon,Will Speck"
+      category: "Movie"
+      id: "tt0889573"
+      review:
+      date:
+      rating: "5"
+    - entry: "Babel"
+      maker: "Alejandro G. Iñárritu"
+      category: "Movie"
+      id: "tt0449467"
+      review:
+      date:
+      rating: "9"
+    - entry: "The Break-Up"
+      maker: "Peyton Reed"
+      category: "Movie"
+      id: "tt0452594"
+      review:
+      date:
+      rating: "5"
+    - entry: "Dead Poets Society"
+      maker: "Peter Weir"
+      category: "Movie"
+      id: "tt0097165"
+      review:
+      date:
+      rating: "8"
+    - entry: "The Bucket List"
+      maker: "Rob Reiner"
+      category: "Movie"
+      id: "tt0825232"
+      review:
+      date:
+      rating: "7"
+    - entry: "Hansel & Gretel: Witch Hunters"
+      maker: "Tommy Wirkola"
+      category: "Movie"
+      id: "tt1428538"
+      review:
+      date:
+      rating: "6"
+    - entry: "Hard Candy"
+      maker: "David Slade"
+      category: "Movie"
+      id: "tt0424136"
+      review:
+      date:
+      rating: "8"
+    - entry: "We Need to Talk About Kevin"
+      maker: "Lynne Ramsay"
+      category: "Movie"
+      id: "tt1242460"
+      review:
+      date:
+      rating: "9"
+    - entry: "Red Dragon"
+      maker: "Brett Ratner"
+      category: "Movie"
+      id: "tt0289765"
+      review:
+      date:
+      rating: "7"
+    - entry: "One Hour Photo"
+      maker: "Mark Romanek"
+      category: "Movie"
+      id: "tt0265459"
+      review:
+      date:
+      rating: "8"
+    - entry: "Notes on a Scandal"
+      maker: "Richard Eyre"
+      category: "Movie"
+      id: "tt0465551"
+      review:
+      date:
+      rating: "8"
+    - entry: "Crazy, Stupid, Love."
+      maker: "Glenn Ficarra,John Requa"
+      category: "Movie"
+      id: "tt1570728"
+      review:
+      date:
+      rating: "7"
+    - entry: "Little Miss Sunshine"
+      maker: "Jonathan Dayton,Valerie Faris"
+      category: "Movie"
+      id: "tt0449059"
+      review:
+      date:
+      rating: "8"
+    - entry: "Horrible Bosses"
+      maker: "Seth Gordon"
+      category: "Movie"
+      id: "tt1499658"
+      review:
+      date:
+      rating: "6"
+    - entry: "Taxi Driver"
+      maker: "Martin Scorsese"
+      category: "Movie"
+      id: "tt0075314"
+      review:
+      date:
+      rating: "8"
+    - entry: "Black Swan"
+      maker: "Darren Aronofsky"
+      category: "Movie"
+      id: "tt0947798"
+      review:
+      date:
+      rating: "8"
+    - entry: "Transamerica"
+      maker: "Duncan Tucker"
+      category: "Movie"
+      id: "tt0407265"
+      review:
+      date:
+      rating: "8"
+    - entry: "Chain Letter"
+      maker: "Deon Taylor"
+      category: "Movie"
+      id: "tt1148200"
+      review:
+      date:
+      rating: "5"
+    - entry: "The Hours"
+      maker: "Stephen Daldry"
+      category: "Movie"
+      id: "tt0274558"
+      review:
+      date:
+      rating: "8"
+    - entry: "American Psycho"
+      maker: "Mary Harron"
+      category: "Movie"
+      id: "tt0144084"
+      review:
+      date:
+      rating: "7"
+    - entry: "I Am Legend"
+      maker: "Francis Lawrence"
+      category: "Movie"
+      id: "tt0480249"
+      review:
+      date:
+      rating: "7"
+    - entry: "Melancholia"
+      maker: "Lars von Trier"
+      category: "Movie"
+      id: "tt1527186"
+      review:
+      date:
+      rating: "10"
+    - entry: "Martha Marcy May Marlene"
+      maker: "Sean Durkin"
+      category: "Movie"
+      id: "tt1441326"
+      review:
+      date:
+      rating: "8"
+- medium: Listen
+  description: "Music, songs, podcasts I enjoy"
+  children:
+    - entry: "On Being"
+      maker: ""
+      category: "Podcast"
+      id: 
+      review:
+      date:
+      rating:
+    - entry: "The Daily"
+      maker: ""
+      category: "Podcast"
+      id: 
+      review:
+      date:
+      rating:
+    - entry: "Today, Explained"
+      maker: ""
+      category: "Podcast"
+      id: 
+      review:
+      date:
+      rating:
+    - entry: "Radiolab"
+      maker: ""
+      category: "Podcast"
+      id: 
+      review:
+      date:
+      rating:
+    - entry: "This American Life"
+      maker: ""
+      category: "Podcast"
+      id: 
+      review:
+      date:
+      rating:
+    - entry: "99% Invisible"
+      maker: ""
+      category: "Podcast"
+      id: 
+      review:
+      date:
+      rating:
+    - entry: "DOCS"
+      maker: ""
+      category: "Podcast"
+      id: 
+      review:
+      date:
+      rating:
+    - entry: "Pray With our Feet"
+      maker: ""
+      category: "Podcast"
+      id: 
+      review:
+      date:
+      rating:
+    - entry: "FCBCNYC"
+      maker: ""
+      category: "Podcast"
+      id: 
+      review:
+      date:
+      rating:
+    - entry: "Forward Day by Day"
+      maker: ""
+      category: "Podcast"
+      id: 
+      review:
+      date:
+      rating:
+    - entry: "Cafeteria Christian"
+      maker: ""
+      category: "Podcast"
+      id: 
+      review:
+      date:
+      rating:
+    - entry: "The Tao of Christ"
+      maker: ""
+      category: "Podcast"
+      id: 
+      review:
+      date:
+      rating:
+    - entry: "Awkward Silences"
+      maker: ""
+      category: "Podcast"
+      id: 
+      review:
+      date:
+      rating:
+    - entry: "Internet History Podcast"
+      maker: ""
+      category: "Podcast"
+      id: 
+      review:
+      date:
+      rating:
+    - entry: "Your Undivided Attention"
+      maker: ""
+      category: "Podcast"
+      id: 
+      review:
+      date:
+      rating:
+    - entry: "Argos"
+      maker: ""
+      category: "Podcast"
+      id: 
+      review:
+      date:
+      rating: 
+    - entry: "The Ezra Klein Show"
+      maker: ""
+      category: "Podcast"
+      id: 
+      review:
+      date:
+      rating:
+    - entry: "Sword and Scale"
+      maker: ""
+      category: "Podcast"
+      id: 
+      review:
+      date:
+      rating:
+    - entry: "Hard Fork"
+      maker: ""
+      category: "Podcast"
+      id: 
+      review:
+      date:
+      rating:
+    - entry: "Where Should We Begin"
+      maker: ""
+      category: "Podcast"
+      id: 
+      review:
+      date:
+      rating:
+    - entry: "The New Yorker Radio Hour"
+      maker: ""
+      category: "Podcast"
+      id: 
+      review:
+      date:
+      rating:
+    - entry: "If/Then"
+      maker: ""
+      category: "Podcast"
+      id: 
+      review:
+      date:
+      rating:
+    - entry: "Radio Atlantic"
+      maker: ""
+      category: "Podcast"
+      id: 
+      review:
+      date:
+      rating:

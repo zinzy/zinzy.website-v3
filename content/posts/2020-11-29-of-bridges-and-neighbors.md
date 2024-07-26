@@ -5,14 +5,14 @@ draft: false
 title: Of bridges and neighbors
 date: 2020-11-29
 excerpt: When I first learned that ‘pontifex’, Pope Francis’ Twitter account, is Latin for ‘bridge builder’, I was entirely delighted. “How wonderful”, I thought, “that our institution sees the value in a Pope who builds bridges between the Church and the rest of humanity.”
+categories:
+- Reflections
 tags:
   - catholicism
   - queerdom
   - bible
   - religion
 ---
-
-
 When I first learned that ‘pontifex’, Pope Francis’ Twitter account, is Latin for ‘bridge builder’, I was entirely delighted. “How wonderful”, I thought, “that our institution sees the value in a Pope who builds bridges between the Church and the rest of humanity.”
 
 When I look at myself with kind eyes, I dare to see the ways in which I myself help build these bridges. As a queer facilitator, I’m part of the leadership team at Vine & Fig, a community for affirming LGBTQIA+ Catholics. When it comes to the bridge between us and the rest of the world, I focus most of my efforts on building not the bridge’s deck but its foundation. The part that contains the strong back and self love required to even begin thinking about making it to the deck, which is where all the difficult dialogues happen. You know, the ones about whether or not we’re inherently disordered and whether we should ever experience physical intimacy.

@@ -1,6 +1,8 @@
 ---
 title: "Dog whistles"
 date: 2024-04-15
+categories:
+- Essays
 tags:
 - bigotry
 - discrimination

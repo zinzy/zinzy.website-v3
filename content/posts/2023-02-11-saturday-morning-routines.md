@@ -5,6 +5,8 @@ draft: false
 title: Saturday morning routines
 date: 2023-02-11
 excerpt: ""
+categories:
+- Essays
 tags:
   - diaries
   - drawings

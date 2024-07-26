@@ -6,6 +6,8 @@ title: That was January 2023
 date: 2023-01-31
 excerpt: ""
 cta: How did you spend January? Was it dry, wet? Eventful? Boring?
+categories:
+- Essays
 tags:
   - work
   - monthnotes

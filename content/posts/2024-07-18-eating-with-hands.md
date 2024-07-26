@@ -4,6 +4,8 @@ summary: "They open their roti takeout, unfold their pancake, and start eating. 
 draft: false
 date: 2024-07-18
 sidenote: ""
+categories:
+- Essays
 tags:
   - food
   - ethnicity

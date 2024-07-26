@@ -5,6 +5,8 @@ draft: false
 title: Norway et al
 date: 2023-08-17
 excerpt: Our first proper holiday in four years
+categories:
+- Essays
 tags:
   - vacation
   - scandinavia

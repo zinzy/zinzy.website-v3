@@ -7,6 +7,8 @@ date: 2012-08-11
 excerpt: ""
 faces:
   - Paul
+categories:
+- Essays
 tags:
   - friends
   - society

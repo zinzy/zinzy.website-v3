@@ -3,6 +3,8 @@ title: "A job for me, part three: the confidence of a"
 summary: "The third and last part of a series on a mentoring conversation with a fellow designer"
 date: 2024-05-15
 draft: true
+categories:
+- Essays
 tags:
   - career
   - ux

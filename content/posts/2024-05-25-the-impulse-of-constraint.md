@@ -3,6 +3,8 @@ title: "The impulse of constraint"
 summary: "My submission for this month's Indieweb Carnival topic: creative environments"
 date: 2024-05-25
 draft: true
+categories:
+- Essays
 tags:
   - indieweb-carnival
 ---

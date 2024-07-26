@@ -5,6 +5,8 @@ draft: false
 title: Reading list
 date: 2012-08-10
 excerpt: ""
+categories:
+- Essays
 tags:
   - comics
   - reading

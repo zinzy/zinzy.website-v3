@@ -5,6 +5,8 @@ draft: false
 title: The game show
 date: 2023-01-18
 excerpt: ""
+categories:
+- Essays
 tags:
   - podcasts
   - language
