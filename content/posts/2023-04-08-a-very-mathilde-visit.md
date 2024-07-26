@@ -6,6 +6,8 @@ title: A very Mathilde visit
 date: 2023-04-08
 excerpt: Much like last year, I'm so excited for Mathilde to visit our house that I get a headache just thinking about it.
 hero: https://res.cloudinary.com/dbi2zounq/image/upload/v1680977826/zinzy.website/2023-04-08_tzpunl.jpg
+categories:
+- Essays
 tags:
   - friends
   - pets

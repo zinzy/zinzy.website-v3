@@ -5,6 +5,8 @@ draft: false
 title: Sneak preview
 date: 2023-01-15
 excerpt: ""
+categories:
+- Essays
 tags:
   - dogs
   - pets

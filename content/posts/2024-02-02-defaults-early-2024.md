@@ -4,6 +4,8 @@ description: Inspired by App Defaults, this is a list of the main tools I freque
 section: posts
 share: true
 date: 2024-02-02
+categories:
+- Essays
 tags:
   - app-defaults
   - software

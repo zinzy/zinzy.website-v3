@@ -5,6 +5,8 @@ draft: false
 title: Super-recognizer
 date: 2023-01-20
 excerpt: ""
+categories:
+- Essays
 tags:
   - memory
   - neurodivergence

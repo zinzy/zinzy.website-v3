@@ -6,6 +6,8 @@ title: Goodbye Airtrade, hello Leeruniek
 date: 2020-11-01
 faces:
   - Michar
+categories:
+- Essays
 tags:
   - milestones
   - work

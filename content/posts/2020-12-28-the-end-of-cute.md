@@ -5,14 +5,14 @@ section: posts
 draft: false
 title: The end of cute
 excerpt: ""
+categories:
+- Poetry
 tags:
   - queerdom
   - pandemic
-  - poem
+  - poetry
   - addiction
 ---
-
-
 I have a friend  
 who is so mad  
 at the pandemic  

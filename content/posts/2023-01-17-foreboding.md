@@ -5,6 +5,8 @@ draft: false
 title: Foreboding
 date: 2023-01-17
 excerpt: ""
+categories:
+- Essays
 tags:
   - life changes
 ---

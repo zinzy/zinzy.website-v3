@@ -1,6 +1,6 @@
 ---
 title: Community
-description: As a (queer) facilitator, I build intimate spaces for like-minded individuals
+description: I build intimate spaces for like-minded individuals
 layout: page
 ---
 {{< rawhtml >}}

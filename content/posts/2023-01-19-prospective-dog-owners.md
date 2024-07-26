@@ -5,6 +5,8 @@ draft: false
 title: Prospective dog owners
 date: 2023-01-19
 excerpt: ""
+categories:
+- Essays
 tags:
   - shorts
   - dogs

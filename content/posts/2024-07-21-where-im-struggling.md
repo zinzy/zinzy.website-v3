@@ -4,6 +4,8 @@ summary: ""
 draft: false
 date: 2024-07-21
 sidenote: ""
+categories:
+- Essays
 tags:
   - productivity
   - tools

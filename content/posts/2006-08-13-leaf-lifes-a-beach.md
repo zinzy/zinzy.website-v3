@@ -2,6 +2,8 @@
 title: "Leaf's 'Life's a Beach'"
 date: 2006-08-13
 draft: true
+categories:
+- Essays
 tags:
   - photography
   - album-cover

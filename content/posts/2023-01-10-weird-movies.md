@@ -5,6 +5,8 @@ draft: false
 title: Weird movies
 date: 2023-01-10
 excerpt: ""
+categories:
+- Essays
 tags:
   - cinema
   - weirdness

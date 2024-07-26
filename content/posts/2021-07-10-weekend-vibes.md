@@ -7,6 +7,8 @@ title: Weekend vibes
 excerpt: ""
 faces:
   - Anja
+categories:
+- Essays
 tags:
   - food
   - Amsterdam

@@ -5,6 +5,8 @@ draft: false
 title: Annual review at 36
 date: 2023-12-21
 excerpt: ""
+categories:
+- Essays
 tags:
   - annual review
   - lists

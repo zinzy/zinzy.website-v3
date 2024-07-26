@@ -5,6 +5,8 @@ draft: false
 title: The art of music theory
 date: 2023-01-14
 excerpt: ""
+categories:
+- Essays
 tags:
   - music
   - piano

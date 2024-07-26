@@ -5,6 +5,8 @@ draft: false
 title: ’Love Actually’, once again
 date: 2023-01-21
 excerpt: ""
+categories:
+- Essays
 tags:
   - cinema
   - reviews

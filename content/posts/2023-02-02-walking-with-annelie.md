@@ -5,6 +5,8 @@ draft: false
 title: Walking with Annelie
 date: 2023-02-02
 excerpt: ""
+categories:
+- Essays
 tags:
   - walking
   - parks

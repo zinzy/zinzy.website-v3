@@ -5,8 +5,10 @@ draft: false
 title: The blonde
 date: 2023-07-14
 excerpt: A poem about a runner
+categories:
+- Poetry
 tags:
-  - poem
+  - poetry
   - culture
   - standpoint
   - prejudice

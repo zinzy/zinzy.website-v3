@@ -5,6 +5,8 @@ draft: false
 title: We all live in a white submersible
 date: 2023-06-22
 excerpt: ""
+categories:
+- Essays
 tags:
   - news
   - lyric essay

@@ -5,6 +5,8 @@ draft: false
 title: Why doesn't the crosswalk work?
 date: 2023-01-23
 excerpt: ""
+categories:
+- Essays
 tags:
   - books
   - diversity and inclusion

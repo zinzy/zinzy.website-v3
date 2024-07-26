@@ -5,6 +5,8 @@ draft: false
 title: School supplies
 date: 2009-08-21
 excerpt: ""
+categories:
+- Essays
 tags:
   - university
   - office supplies

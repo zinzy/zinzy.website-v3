@@ -1,6 +1,8 @@
 ---
 title: "Introducing This I Do Know"
 date: 2024-04-06
+categories:
+- Essays
 tags:
   - imposter-syndrome
   - learners-mentality

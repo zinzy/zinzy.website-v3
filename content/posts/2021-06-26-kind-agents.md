@@ -8,6 +8,8 @@ date: 2021-06-26
 faces:
   - Anja
   - Evelyn
+categories:
+- Essays
 tags:
   - pandemic
   - friends

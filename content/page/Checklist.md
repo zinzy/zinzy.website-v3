@@ -3,13 +3,16 @@ title: Checklist
 share: true
 section: page
 layout: checklist
-description: "A checklist of website components to have as part of your site."
+description: "Website components I hope to have on my site"
 ---
+This list was copied from [Mike Sass' _Website Component Checklist_](https://shellsharks.com/notes/2023/08/15/website-component-checklist). I've added things I thought would be useful. 
+
 - [x] [Custom 404 page](/404.html) 
-- [ ] 88x31 button 
+- [x] [88x31 button](/site#banner) 
 - [ ] [/About](/about) 
+- [x] [AI manifesto](/ai)
 - [ ] ai.txt 
-- [ ] Activity feed
+- [x] [Activity feed](/updates)
 - [ ] Architecture.md 
 - [ ] [Archives](/posts)
 - [ ] [Blog](/posts)

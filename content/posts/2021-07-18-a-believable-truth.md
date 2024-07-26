@@ -7,6 +7,8 @@ date: 2021-07-18
 excerpt: ""
 faces:
   - Anja
+categories:
+- Essays
 tags:
   - Amsterdam
   - travel

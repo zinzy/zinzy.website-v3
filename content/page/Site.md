@@ -1,15 +1,18 @@
 ---
 title: Site
 description: About this website
+sidenote: "Did you know I keep a [Checklist](/checklist) of components I'm hoping to add to this website?"
 ---
 I grew up on the Internet in a time when social media meant writing comments on other people's hand-built blogs. The sense of whimsy, coziness, and a beautiful lack of information overload are highs I have been chasing ever since.
 
-The Web 1.0 has instilled in me a deep appreciation for a small-scale, intimate, and friendly Internet made up of hand-crafted websites. This is one of them. I’ve been yelling at Internet clouds since 1997. The most humbling response I've received to date comes from the wonderful [Simone Silverstroni](https://minutestomidnight.co.uk/), who said in his [_People & Blogs_ interview](https://manuelmoreale.com/pb-simone-silvestroni):
+The Web 1.0 has instilled in me a deep appreciation for a small-scale, intimate, and friendly Internet made up of hand-crafted websites. This is one of them. I’ve been yelling at Internet clouds since 1997.
+
+The most humbling response I've received to date comes from the wonderful [Simone Silverstroni](https://minutestomidnight.co.uk/), who said in his [_People & Blogs_ interview](https://manuelmoreale.com/pb-simone-silvestroni):
 
 "Zinzy Waleson Geene has a website that's a constant source of curiosity. She alters the look, changes typography, structure, navigation so often that following through RSS isn't enough. When I see a new post, I go check the website."
 
 {{< rawhtml >}}
-<a href="/img/banner.svg" target="_blank" rel="noopener noreferrer"><img src="/img/banner.svg" style="width: 80px; border-radius: 0;" class="rounded-none" alt=""></a>
+<a href="/img/banner.svg" target="_blank" id="banner" rel="noopener noreferrer"><img src="/img/banner.svg" style="width: 80px; border-radius: 0;" class="rounded-none" alt=""></a>
 {{< /rawhtml >}}
 
 ---

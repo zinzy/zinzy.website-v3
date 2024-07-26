@@ -5,6 +5,8 @@ draft: false
 title: Considerations
 date: 2009-09-27
 excerpt: ""
+categories:
+- Essays
 tags:
   - blogging
   - writing

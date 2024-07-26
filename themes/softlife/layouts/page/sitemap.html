@@ -1,0 +1,74 @@
+{{ define "main" }} {{ partial "back_link.html" .}}
+
+<article class="h-entry">
+  <header class=" prose prose-gray dark:prose-invert">
+    <p class="text-secondary mb-0 text-sm">{{ .Title }}</p>
+    <h2 class="p-name my-2 text-2xl">{{ .Description }}</h2>
+
+  </header>
+ 
+<!-- 
+  <div
+    class="e-content prose prose-gray mt-20 dark:prose-invert"
+  >
+    {{ .Content }}
+  </div> -->
+
+  <section class="mt-20">
+    <h3 class="text-xl font-medium">What I write</h3>
+    <ul class="mt-5">
+      {{range sort ($.Site.GetPage "taxonomyTerm" "categories").Pages  }}
+        <li class="group m-0 inline-block p-0 mr-3 mb-3">
+          <a
+            href="{{.Permalink}}"
+            class=" flex rounded border px-2 text-xs no-underline transition-all hover:border-transparent hover:bg-pink-50 dark:hover:border-transparent dark:hover:bg-pink-300/10 font-medium leading-7 group-hover:text-pink-500 dark:group-hover:text-pink-300"
+          >{{.Title}}
+          </a>
+        </li>
+      {{end}}
+    </ul> 
+  </section>
+
+
+  <section class="mt-20">
+    <h3 class="text-xl font-medium">Pages on this website</h3>
+
+    {{ $pages := where .Site.RegularPages "Type" "page" }}
+
+    <ul class="mt-5">
+      {{ range $pages }}
+      <li class="border-t py-3">
+        <a class="w-full" href="{{ .Permalink }}">
+          <span class="font-medium">{{ .Title }}</span>
+          <span class="text-secondary text-sm"
+            >{{ .Description }}</span
+          >
+        </a>
+      </li>
+      {{ end }}
+    </ul>
+  </section>
+
+  <section class="mt-20">
+    <h3 class="text-xl font-medium">Tags</h3>
+    <div>
+      <!-- Retrieved this snippet from https://discourse.gohugo.io/t/tag-cloud/6335 -->
+      {{ $tags := $.Site.Taxonomies.tags.ByCount }} 
+      <ul class="mt-5">
+        {{ $v1 := where $tags "Count" ">=" 2 }}
+        {{ $v2 := where $v1 "Term" "not in" (slice "hugo" "tags" "rss") }}
+        {{ range $v2 }}
+          {{ if .Term }}
+            {{ $tagURL := printf "tags/%s" .Term | relURL }}
+            <li class="group m-0 inline-block p-0 mr-3 mb-3">
+              <a href="{{ $tagURL }}" class=" flex rounded border px-2 text-xs no-underline transition-all hover:border-transparent hover:bg-pink-50 dark:hover:border-transparent dark:hover:bg-pink-300/10 font-medium leading-7 group-hover:text-pink-500 dark:group-hover:text-pink-300">{{ .Term }} <span class="inline-block ml-2 text-secondary">{{ .Count }}</span></a>
+            </li>
+          {{ end }}
+        {{ end }}
+      </ul> 
+      </div>
+  </section>
+
+  {{ partial "backlinks.html" . }} 
+</article>
+{{ end }}

@@ -5,6 +5,8 @@ draft: false
 title: "'The Whale' for scale"
 date: 2023-01-11
 excerpt: ""
+categories:
+- Essays
 tags:
   - cinema
   - fatphobia

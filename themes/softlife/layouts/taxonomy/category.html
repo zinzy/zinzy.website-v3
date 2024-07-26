@@ -2,8 +2,11 @@
 
 <header class="prose mb-20 dark:prose-invert">
   <h2>
-    Things tagged
-    <span class="">#{{ .Title }}</span>
+    {{ if eq .Title "Overheard" }} 
+      Things I've <span class="lowercase">{{.Title}}</span>
+    {{ else }}
+    {{ .Title }} I have written
+    {{ end }}
   </h2>
 </header>
 
@@ -27,7 +30,7 @@
 
       <a
         href="{{ .Permalink }}"
-        class="mb-3 block text-secondary text-sm"
+        class="mb-3 block text-gray-500 dark:text-white/50"
         ><time class=""
           >{{- (.Date | time.Format site.Params.theme_config.date_format_full)
           }}</time
@@ -62,7 +65,7 @@
         {{ end }} {{ if .Title }} {{.Summary}}
  
         {{ else if .Params.photo }} {{else}}
-        <content> {{ .Summary | markdownify }} </content>
+        <content> {{ .Summary |markdownify }} </content>
         {{end}}
       </article>
       <div class="mb-7 mt-3">

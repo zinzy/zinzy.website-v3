@@ -5,6 +5,8 @@ draft: false
 title: "`alt` text culture"
 date: 2023-01-13
 excerpt: ""
+categories:
+- Essays
 tags:
   - accessibility
   - alt text

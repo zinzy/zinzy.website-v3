@@ -3,6 +3,8 @@ title: "Proclamation"
 summary: "Whenever a person interviews me, because it always takes the form of an interview, about why I identify as a Christian despite, well, everything, I never quite know what to tell them. Whatever eloquence I ascribe to my person vanishes at the sound of all the words in the known universe failing to capture what it means when I say _I follow Jesus_. Cringe."
 draft: false
 date: 2024-05-19
+categories:
+- Essays
 tags:
   - spirituality
   - religion

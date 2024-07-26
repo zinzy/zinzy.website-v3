@@ -1,6 +1,8 @@
 ---
 title: "A year at work, 2024 edition"
 date: 2024-04-12
+categories:
+- Essays
 tags:
   - review
   - career
