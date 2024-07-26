@@ -4,6 +4,6 @@
 # [submodule "wiki"]
 # 	path = content/wiki
 # 	url = https://github.com/zinzy/wiki
-[submodule "bla"]
-	path = content/bla
+[submodule "notes"]
+	path = content/notes
 	url = https://github.com/zinzy/notes
