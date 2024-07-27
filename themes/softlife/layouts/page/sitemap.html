@@ -16,18 +16,18 @@
   <section class="mt-20">
     <h3 class="text-xl font-medium">What I write</h3>
     <ul class="mt-5">
-      <!-- <li class="group m-0 mb-3 mr-3 inline-block p-0">
+      <li class="group m-0 mb-3 mr-3 inline-block p-0">
         <a
-          href="/notes"
-          class="flex rounded border px-2 text-xs font-medium leading-7 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
-          >Notes
+          href="/shorts"
+          class="flex rounded border px-3 text-xs font-medium leading-8 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
+          >Shorts
         </a>
-      </li> -->
+      </li>
       {{range sort ($.Site.GetPage "taxonomyTerm" "categories").Pages }}
       <li class="group m-0 mb-3 mr-3 inline-block p-0">
         <a
           href="{{.Permalink}}"
-          class="flex rounded border px-2 text-xs font-medium leading-7 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
+          class="flex rounded border px-3 text-xs font-medium leading-8 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
           >{{.Title}}
         </a>
       </li>
@@ -65,7 +65,7 @@
         <li class="group m-0 mb-3 mr-3 inline-block p-0">
           <a
             href="{{ $tagURL }}"
-            class="flex rounded border px-2 text-xs font-medium leading-7 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
+            class="flex rounded border px-3 text-xs font-medium leading-8 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
             >{{ .Term }}
             <span class="text-secondary ml-2 inline-block"
               >{{ .Count }}</span

@@ -1,7 +1,7 @@
 ---
 title: "Work and play"
 layout: work
-description: I'm priviliged to be a designer, a mentor, and a community builder
+description: I'm a designer, a mentor, and a community builder
 ---
 
 I'm 17 years into a career in Information Technology. When I tell people I have an academic background in literary criticism and theology, it never fails to surprise them. For me, the analogies between reading a text, designing software, and designing shared spaces are myriad.

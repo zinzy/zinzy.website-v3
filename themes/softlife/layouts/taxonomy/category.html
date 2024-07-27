@@ -1,79 +1,18 @@
 {{ define "main" }} {{ partial "back_link.html" .}}
 
 <header class="prose mb-20 dark:prose-invert">
-  <h2>
+  <p class="text-secondary mb-0 text-sm">{{ .Title }}</p>
+  <h2 class="m-0 p-0">
     {{ if eq .Title "Overheard" }} Things I've
     <span class="lowercase">{{.Title}}</span>
-    {{ else }} {{ .Title }} I have written {{ end }}
+    {{ else if eq .Title "Today I wondered" }}
+      {{ .Title }}
+    {{ else }}
+    {{ .Title }} I have written
+    {{ end }}
   </h2>
 </header>
 
-<ul class="feed">
-  {{ range (where .Data.Pages "Type" "ne" "notes" ) }}
-  <li class="group flex">
-    <div class="mt-[4px] flex w-10 flex-none flex-col">
-      <div class="">
-        {{ if .Params.photo }} {{ partial "post_type_photo.html" . }} {{ else if
-        .Params.replyTo }} {{ partial "post_type_reply.html" . }} {{ else if
-        .Params.likeOf }} {{ partial "post_type_like.html" . }} {{ else if
-        .Title }} {{ partial "post_type_post.html" . }} {{ else }} {{ partial
-        "post_type_note.html" . }} {{ end }}
-      </div>
-      <div class="ml-2.5 grow border-l group-last:border-0">&nbsp;</div>
-    </div>
-    <div class="grow pb-5">
-      {{ if eq .Type "posts" }}
-
-      <a href="{{ .Permalink }}" class="block">
-        <h2>{{.Title}}</h2>
-        <time class="text-secondary mb-3 block text-sm"
-          >{{- (.Date | time.Format site.Params.theme_config.date_format_full)
-          }}</time
-        >
-        <content class="prose prose-gray dark:prose-invert">
-          {{ .Summary | markdownify }}
-        </content>
-      </a>
-
-      {{ end }} {{ if eq .Type "updates" }}
-
-      <div class="prose prose-gray dark:prose-invert">
-        {{ if .Params.photo }}
-        <p class="mb-5"><code>ALT</code> {{ .Params.alt }}</p>
-        {{ end }} {{ if .Params.replyTo }}
-        <p class="u-in-reply-to mt-0">
-          Replied to
-          <a
-            href="{{.Params.replyTo}}"
-            rel="in-reply-to"
-            class="u-in-reply-to text-url break-all"
-            target="_blank"
-          >
-            {{ if .Params.replyToName }} {{.Params.replyToName}} {{ else }}
-            {{.Params.replyTo}} {{ end }}
-          </a>
-        </p>
-        {{ end }} {{ if .Params.likeOf }}
-        <p class="mt-0">
-          Liked
-          <a
-            href="{{.Params.likeOf}}"
-            class="u-like-of text-url break-all"
-            target="_blank"
-            >{{.Params.likeOf}}</a
-          >
-        </p>
-        {{ end }}
-
-        <content> {{ .Content }} </content>
-      </div>
-      {{ end }}
-      <div class="mb-7 mt-3">
-        <a href="{{ .Permalink }}" class="button">Continue reading</a>
-      </div>
-    </div>
-  </li>
-  {{ end }}
-</ul>
+{{ partial "feed_all.html" .}}
 
 {{ end }}

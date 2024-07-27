@@ -1246,6 +1246,14 @@ video {
   margin-top: 4px;
 }
 
+.mt-\[6px\] {
+  margin-top: 6px;
+}
+
+.mt-\[0\] {
+  margin-top: 0;
+}
+
 .block {
   display: block;
 }
@@ -1276,6 +1284,10 @@ video {
 
 .h-5 {
   height: 1.25rem;
+}
+
+.h-11 {
+  height: 2.75rem;
 }
 
 .w-1\/3 {
@@ -1538,6 +1550,16 @@ video {
   padding-bottom: 1.25rem;
 }
 
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.py-\[6px\] {
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
 .pb-5 {
   padding-bottom: 1.25rem;
 }
@@ -1618,6 +1640,14 @@ video {
 
 .leading-relaxed {
   line-height: 1.625;
+}
+
+.leading-10 {
+  line-height: 2.5rem;
+}
+
+.leading-8 {
+  line-height: 2rem;
 }
 
 .text-amber-950 {
@@ -1824,7 +1854,7 @@ img {
     text-decoration-color: #d1d5db;
   }
 
-  [class*="border"], [class*="divide"] {
+  [class*="border"], hr {
     --tw-border-opacity: 1;
     border-color: rgb(63 63 70 / var(--tw-border-opacity));
   }
@@ -2244,6 +2274,10 @@ button.active {
 
 .last\:border-r:last-child {
   border-right-width: 1px;
+}
+
+.hover\:cursor-pointer:hover {
+  cursor: pointer;
 }
 
 .hover\:border-transparent:hover {

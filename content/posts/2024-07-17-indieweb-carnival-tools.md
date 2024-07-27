@@ -1,6 +1,6 @@
 ---
 title: "IndieWeb Carnival: Tools"
-summary: "..."
+summary: ""
 draft: false
 date: 2024-07-17
 sidenote: "[The July edition of the IndieWeb Carnival](https://jamesg.blog/2024/07/01/indieweb-carnival-tools/) is about tools. Host [James](https://jamesg.blog/) is interested in the relationship between tools and our creative practices."

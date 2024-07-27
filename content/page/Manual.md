@@ -1,7 +1,7 @@
 ---
 title: Manual
 layout: manual
-description: "This user manual helps you understand how you can best work with me"
+description: "How you can best work with me"
 sidenote: "I was inspired to make this page by [Jamie Tanna's manual](https://manual.jvt.me/). It is a part of the [Manual of Me](https://my.manualof.me/) movement."
 ---
 Heya, I'm Zinzy! As a Product Designer I'm currently employed by [Gerimedica](https://gerimedica.nl), an enterprise software provider in the Dutch healthcare space. I've been with them for a little over a year now, and consider this job to be a milestone in my career. I've always known I would one day venture into healthcare technology. I love its for its complexity, for the constraints of rules and regulations, and for the impact it can have on the working lives of busy people.

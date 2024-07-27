@@ -83,7 +83,7 @@ img {
   @apply underline-offset-4 decoration-gray-600 decoration-1 dark:decoration-gray-300 hover:decoration-gray-950;
 }
 
-[class*="border"], [class*="divide"] {
+[class*="border"], hr {
   @apply dark:border-zinc-700
 }
 

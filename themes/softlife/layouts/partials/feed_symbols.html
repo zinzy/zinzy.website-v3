@@ -1,0 +1,5 @@
+{{ if .Params.photo }} {{ partial "symbols/post_photo.html" . }} {{ else if
+    .Params.replyTo }} {{ partial "symbols/post_reply.html" . }} {{ else if
+    .Params.likeOf }} {{ partial "symbols/post_like.html" . }} {{ else if
+    .Title }} {{ partial "symbols/post_post.html" . }} {{ else }} {{ partial
+    "symbols/post_note.html" . }} {{ end }}
