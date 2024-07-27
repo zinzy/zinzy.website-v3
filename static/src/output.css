@@ -2191,6 +2191,14 @@ button.active {
   color: rgb(236 72 153 / var(--tw-text-opacity));
 }
 
+@media (prefers-color-scheme: dark) {
+  .library nav li.active {
+    background-color: rgb(249 168 212 / 0.1);
+    --tw-text-opacity: 1;
+    color: rgb(249 168 212 / var(--tw-text-opacity));
+  }
+}
+
 .prose content {
   p:first-of-type {
     margin-top: 0px;
@@ -2469,6 +2477,11 @@ button.active {
 
   .dark\:hover\:stroke-pink-200:hover {
     stroke: #fbcfe8;
+  }
+
+  .dark\:hover\:text-white:hover {
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
   }
 
   .group:hover .dark\:group-hover\:fill-pink-300 {
