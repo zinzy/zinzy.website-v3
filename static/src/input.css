@@ -83,7 +83,7 @@ img {
   @apply underline-offset-4 decoration-gray-600 decoration-1 dark:decoration-gray-300 hover:decoration-gray-950;
 }
 
-[class*="border"] {
+[class*="border"], [class*="divide"] {
   @apply dark:border-zinc-700
 }
 
@@ -222,7 +222,7 @@ mark {
 
 
 
-
+/* 
   
 
 button.active {
@@ -232,7 +232,7 @@ button.active {
 .active {
   background-color: white;
 }
- 
+  */
 
 .content {
   display: none;
@@ -242,10 +242,9 @@ button.active {
   display: block;
 }
 
-.library li.active {
+.library nav li.active {
   @apply bg-pink-50 border-transparent text-pink-500
 }
-
 
 .prose content {
   p:first-of-type {

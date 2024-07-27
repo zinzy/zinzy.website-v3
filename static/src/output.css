@@ -1327,10 +1327,6 @@ video {
   list-style-type: none;
 }
 
-.list-decimal {
-  list-style-type: decimal;
-}
-
 .grid-flow-col {
   grid-auto-flow: column;
 }
@@ -1828,7 +1824,7 @@ img {
     text-decoration-color: #d1d5db;
   }
 
-  [class*="border"] {
+  [class*="border"], [class*="divide"] {
     --tw-border-opacity: 1;
     border-color: rgb(63 63 70 / var(--tw-border-opacity));
   }
@@ -2167,6 +2163,9 @@ mark {
   margin-top: 1.25rem;
 }
 
+/* 
+  
+
 button.active {
   background-color: white;
 }
@@ -2174,6 +2173,7 @@ button.active {
 .active {
   background-color: white;
 }
+  */
 
 .content {
   display: none;
@@ -2183,7 +2183,7 @@ button.active {
   display: block;
 }
 
-.library li.active {
+.library nav li.active {
   border-color: transparent;
   --tw-bg-opacity: 1;
   background-color: rgb(253 242 248 / var(--tw-bg-opacity));
@@ -2381,6 +2381,11 @@ button.active {
   .dark\:divide-zinc-600 > :not([hidden]) ~ :not([hidden]) {
     --tw-divide-opacity: 1;
     border-color: rgb(82 82 91 / var(--tw-divide-opacity));
+  }
+
+  .dark\:divide-zinc-700 > :not([hidden]) ~ :not([hidden]) {
+    --tw-divide-opacity: 1;
+    border-color: rgb(63 63 70 / var(--tw-divide-opacity));
   }
 
   .dark\:bg-pink-300\/10 {
