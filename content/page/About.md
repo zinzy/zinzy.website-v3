@@ -5,7 +5,6 @@ layout: about
 ---
 
 {{< rawhtml >}}
-
   <figure>
     <img src="/img/zinzy.jpg" class="w-full" class="Two White men and a Black non-binary person in a lei smile at the camera with champagne glasses in their hand." />
     <figcaption>Here I am in 2019 with Robin (L) and Michar (R), celebrating the 25th anniversary of the travel technology company that employed us. The pandemic was months away. We were but children.</figcaption>
@@ -13,6 +12,8 @@ layout: about
 {{< /rawhtml >}}
 
 I'm pleased you have reached my [world wide web homepage](/site). This is a home for soft stances, lived experiences, and critical notes on the things I hold dear. No highlight reel, no likes, no follow button. Just my appreciation for the web, [my excessive curiousity](/im-neurodivergent), and the words I choose to make sense of it all.
+
+Before you dive in, you may be looking for a way to [say hello](/hello), [follow this site](/follow), or check out what I'm up to right [now](/now).
 
 ### I'm a Product Designer of 17 years, specialized in making software for people at work.
 
