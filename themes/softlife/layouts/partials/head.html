@@ -17,7 +17,6 @@
     type="application/rss+xml"
     href="{{.Site.BaseURL }}/posts/index.xml"
     title="{{ .Site.Title }}"
-    
   />
 
   <link rel="icon" type="image/svg+xml" href="https://emojicdn.elk.sh/👋🏽" />
@@ -43,10 +42,19 @@
   <link rel="micropub" href="https://zinzy.website/micropub/main" />
 
   <!-- Webmention -->
-  <link
+  <!-- <link
     rel="webmention"
     href="https://webmention.herokuapp.com/api/webmention"
+  /> -->
+
+  <!-- in HTML header -->
+  <link
+    rel="webmention"
+    href="https://webmention.io/zinzy.website/webmention"
   />
+
+  <!-- in HTML header -->
+  <script src="/src/js/webmention.min.js" async></script>
 
   {{ if .Params.mathjax }} {{ partial "mathjax.html" . }} {{ end }}
 </head>
