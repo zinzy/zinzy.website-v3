@@ -334,7 +334,7 @@ A more detailed example:
           const type = `<span class="${linkclass}">${linktext}</span>`;
   
           return `<li class="flex mt-5">
-            <span class=flex-none w-10">${image}</span>
+            <span class="flex-none w-10">${image}</span>
             <span class="grow">
               <span class="block font-medium">${link}</span>
               <span class="block text-secondary">${type}</span>
