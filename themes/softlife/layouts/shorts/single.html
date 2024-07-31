@@ -1,45 +1,98 @@
 {{ define "main" }} {{ partial "back_link.html" .}}
 
-<div class="">
-  <div class="mb-3">
-    <a href="/updates" class="">Updates</a> /
-    <time class="text-gray-500 dark:text-white/50"
-      >{{- (.Date | time.Format site.Params.theme_config.date_format_full)
-      }}</time
-    >
-  </div>
-  <article class="h-entry prose prose-gray dark:prose-invert">
-    {{ if .Params.photo }}
-    <figure class="mb-5">
-      <img src="{{ .Params.photo }}" alt="{{ .Params.alt }}" />
-      <figcaption class="text-secondary text-sm">{{ .Params.alt }}</figcaption>
-    </figure>
-    {{ else if .Params.replyTo }}
-    <p class="u-in-reply-to mt-0">
-      Replied to
-      <a
-        href="{{.Params.replyTo}}"
-        rel="in-reply-to"
-        class="u-in-reply-to text-url break-all"
-        target="_blank"
-      >
-        {{ if .Params.replyToName }} {{.Params.replyToName}} {{ else }}
-        {{.Params.replyTo}} {{ end }}
-      </a>
-    </p>
-    {{ else if .Params.likeOf }}
-    <p class="mt-0">
-      Liked
-      <a
-        href="{{.Params.likeOf}}"
-        class="u-like-of text-url break-all"
-        target="_blank"
-        >{{.Params.likeOf}}</a
-      >
-    </p>
-    {{ end }}
+<article class="h-entry">
+  <div class="grow pb-5">
+    {{ if eq .Type "posts" }}
 
-    <content> {{ .Content }} </content>
-  </article>
-</div>
+    <a href="{{ .Permalink }}" class="block">
+      <time class="text-secondary block text-sm"
+        >{{- (.Date | time.Format site.Params.theme_config.date_format_full)
+        }}</time
+      >
+      <h2 class="mb-3">{{.Title}}</h2>
+      <content class="prose prose-gray dark:prose-invert">
+        {{ .Summary | markdownify }}
+      </content>
+
+      <div class="mb-7 mt-3">
+        <a href="{{ .Permalink }}" class="button">Continue reading</a>
+      </div>
+    </a>
+
+    {{ else if eq .Type "shorts" }}
+    <a href="{{ .Permalink }}" class="block">
+      <time class="text-secondary block text-sm"
+        >{{- (.Date | time.Format site.Params.theme_config.date_format_full)
+        }}</time
+      >
+    </a>
+
+    <div class="prose prose-gray dark:prose-invert">
+      {{ if in .Params.categories "Today I wondered" }}
+      <p>Today I wondered:</p>
+      {{ else if .Params.rsvp }} {{ else if .Params.photo }}
+      <p class="mb-5"><code>ALT</code> {{ .Params.alt }}</p>
+      {{ end }} {{ if .Params.replyTo }} {{ if .Params.rsvp }}
+
+      <p>
+        {{ if eq .Params.rsvp "yes" }}<data class="p-rsvp" value="YES"
+          >Is going</data
+        >
+        to {{ else if eq .Params.rsvp "maybe" }}<data
+          class="p-rsvp"
+          value="Maybe"
+          >Might go</data
+        >
+        to {{ else if eq .Params.rsvp "no" }}<data class="p-rsvp" value="no"
+          >Unable to go</data
+        >
+        to {{ else if eq .Params.rsvp "interested" }}<data
+          class="p-rsvp"
+          value="interested"
+          >Is interested</data
+        >
+        in {{ end }}
+
+        <a
+          href="{{.Params.replyTo}}"
+          rel="in-reply-to"
+          class="u-in-reply-to text-url break-all"
+          target="_blank"
+        >
+          {{ if .Params.replyToName }} {{.Params.replyToName}} {{ else }}
+          {{.Params.replyTo}} {{ end }}
+        </a>
+      </p>
+
+      {{ else }}
+      <p class="u-in-reply-to mt-0">
+        Replied to
+        <a
+          href="{{.Params.replyTo}}"
+          rel="in-reply-to"
+          class="u-in-reply-to text-url break-all"
+          target="_blank"
+        >
+          {{ if .Params.replyToName }} {{.Params.replyToName}} {{ else }}
+          {{.Params.replyTo}} {{ end }}
+        </a>
+      </p>
+
+      {{ end }} {{ end }} {{ if .Params.likeOf }}
+      <p class="mt-0">
+        Liked
+        <a
+          href="{{.Params.likeOf}}"
+          class="u-like-of text-url break-all"
+          target="_blank"
+          >{{.Params.likeOf}}</a
+        >
+      </p>
+      {{ end }}
+
+      <content> {{ .Content }} </content>
+    </div>
+    {{ end }}
+  </div>
+</article>
 {{ end }}
