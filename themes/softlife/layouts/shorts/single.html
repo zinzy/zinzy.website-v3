@@ -13,6 +13,12 @@
         }}</time
       >
       <h2 class="mb-3">{{.Title}}</h2>
+
+      <div class="u-author h-card">
+        <img src="/img/zinzy.jpg" class="u-photo" />
+        <a href="/" class="u-url p-name">Zinzy Waleson Geene</a>
+      </div>
+
       <content class="prose prose-gray dark:prose-invert">
         {{ .Summary | markdownify }}
       </content>
@@ -23,6 +29,11 @@
     </a>
 
     {{ else if eq .Type "shorts" }}
+
+    <div class="u-author h-card hidden">
+      <img src="/img/avatar.png" class="u-photo" />
+      <a href="/" class="u-url p-name">Zinzy Waleson Geene</a>
+    </div>
     <a href="{{ .Permalink }}" class="block">
       <time
         class="text-secondary block text-sm dt-published"
@@ -96,7 +107,7 @@
       </p>
       {{ end }}
 
-      <content> {{ .Content }} </content>
+      <content class="e-content"> {{ .Content }} </content>
     </div>
     {{ end }}
   </div>

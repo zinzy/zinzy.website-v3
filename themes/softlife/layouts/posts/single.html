@@ -10,11 +10,15 @@
     <h2 class="p-name mt-0 text-2xl">
       <a class="u-url" href="{{ .Permalink }}">{{ .Title }}</a>
     </h2>
+
+    <div class="u-author h-card hidden">
+      <img src="/img/avatar.png" class="u-photo" />
+      <a href="/" class="u-url p-name">Zinzy Waleson Geene</a>
+    </div>
   </header>
- 
 
   {{ if gt .Site.Params.oldPost .Date.Year }}
- 
+
   <div
     class="mb-14 flex rounded bg-pink-50 p-3 text-xs text-pink-700 dark:bg-zinc-700 dark:text-white"
   >
@@ -28,15 +32,11 @@
     >
   </div>
   {{ end }}
-  <content
-    class="e-content prose prose-gray relative dark:prose-invert"
-  >
+  <content class="e-content prose prose-gray relative dark:prose-invert">
     {{ if .Params.sidenote }}
     <div class="aside">{{ .Params.sidenote | markdownify }}</div>
     {{ end }} {{- partial "content_wikified" . -}}
   </content>
-
-  
 </article>
 
 <!-- {{ partial "tags.html" .}} -->

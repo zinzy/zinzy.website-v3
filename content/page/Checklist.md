@@ -65,4 +65,6 @@ This list was copied from [Mike Sass' _Website Component Checklist_](https://she
 - [ ] Uses page
 - [x] [Values page](/values)
 - [ ] Webfinger
+- [ ] Webmention, send
+- [ ] Webmention, receive
 - [ ] Webring (Webring Enthusiasts) or IndieWebRing
