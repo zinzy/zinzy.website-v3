@@ -226,7 +226,7 @@ A more detailed example:
         `;
       } else {
         authorPhoto = `
-          <div class="h-10 w-10 bg-pink-50"></div>
+          <div class="h-8 w-8 rounded-full bg-pink-50 dark:bg-pink-300/10"></div>
         `;
       }
   
