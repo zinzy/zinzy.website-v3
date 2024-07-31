@@ -12,6 +12,7 @@
                     {{- block "main" . }}{{- end }}
                 </div> 
             </main>
+            {{- partial "webmentions.html" . -}}
             {{- partial "thanks.html" . -}}
 
             {{- partial "footer.html" . -}}
