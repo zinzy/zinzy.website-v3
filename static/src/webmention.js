@@ -218,6 +218,7 @@ A more detailed example:
         authorPhoto = `
           <img
             src="${entities(r.author.photo)}"
+            class="w-8"
             loading="lazy"
             decoding="async"
             alt="${who}"
@@ -226,7 +227,7 @@ A more detailed example:
       } else {
         authorPhoto = `
           <img
-            class="missing"
+            class="missing w-8"
             src="data:image/webp;base64,UklGRkoCAABXRUJQVlA4TD4CAAAvP8APAIV0WduUOLr/m/iqY6SokDJSMD5xYX23SQizRsVdZmIj/f6goYUbiOj/BED7MOPReuBNT3vBesSzIex+SeqMFFkjebFmzH3S7POxDSJ1yaCbCmMnS2R46cRMPyQLw4GBK4esdK60pYwsZakecUCl5zsHv/5cPH08nx9/7i6rEEVCg2hR8VSd30PxMZpVoJZQO6Dixgg6X5oKFCmlVHIDmmMFShWumAXgCuyqVN8hHff/k+9fj8+ei7BVjpxBmZCUJv+6DhWGZwWvs+UoLHFCKsPYpfJtIcEXBTopEEsKwedZUv4ku1FZErKULLyQwFGgnmTs2vBD5qu44xwnG9uyjgrFOd+KRVlXyQfwQlauydaU6AVI7OjKXLUEqNtxJBmQegNDZgV7lxxqYMOMrDyC1NdAGbdiH9Ij0skjG+oTyfO0lmjdgvoH8iIgreuBMRYLSH+R3sAztXgL+XfS7E2bmfo6gnS0TrpnzHT7kL+skj7PgHuBwv/zpN8LDLQg7zfJZLBubMKnyeh6ZGyfDEfc2LYpnlUtG7JqsSHq1WoASbUS4KVaLwB8be5mfsGMDwBcm5VxbuxWxx3nkFanB6lYqsqSkOGkKicoDvXsneR7BkKU7DtaEuT7+pxBGVwx+9gVyqf2pVA9sC2CsmjZ1RJqEJHS4Tj/pCcS0JoyBYOsB91Xjh3OFfQPQhvCAYyeLJlaOoFp0XNNuD0BC8exr8uPx7D1JWkwFdZIXmD3MOPReuDNzHjBesSzIbQD"
             alt="${who}$"
           >
@@ -330,17 +331,17 @@ A more detailed example:
             linkclass = "name";
             linktext = entities(c.name);
           } else if (c.content && c.content.text) {
-            linkclass = "text";
+            linkclass = "text prose prose-gray dark:prose-invert text-sm";
             linktext = extractComment(c);
           }
   
           const type = `<span class="${linkclass}">${linktext}</span>`;
   
-          return `<li class="flex">
-            <span class=flex-none">${image}</span>
+          return `<li class="flex mt-5">
+            <span class=flex-none content-center">${image}</span>
             <span class="grow">
-              <span class="block">${link}</span>
-              <span class="block">${type}</span>
+              <span class="block font-medium">${link}</span>
+              <span class="block text-secondary">${type}</span>
             </span>
             </li>`;
         })
