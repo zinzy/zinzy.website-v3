@@ -5,7 +5,10 @@
     {{ if eq .Type "posts" }}
 
     <a href="{{ .Permalink }}" class="block">
-      <time class="text-secondary block text-sm"
+      <time
+        class="text-secondary block text-sm dt-published"
+        datetime="{{- (.Date | time.Format site.Params.theme_config.date_format_full)
+      }}"
         >{{- (.Date | time.Format site.Params.theme_config.date_format_full)
         }}</time
       >
@@ -21,7 +24,10 @@
 
     {{ else if eq .Type "shorts" }}
     <a href="{{ .Permalink }}" class="block">
-      <time class="text-secondary block text-sm"
+      <time
+        class="text-secondary block text-sm dt-published"
+        datetime="{{- (.Date | time.Format site.Params.theme_config.date_format_full)
+      }}"
         >{{- (.Date | time.Format site.Params.theme_config.date_format_full)
         }}</time
       >
