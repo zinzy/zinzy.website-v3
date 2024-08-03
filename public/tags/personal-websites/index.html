@@ -18,7 +18,6 @@
     type="application/rss+xml"
     href="https://zinzy.website/posts/index.xml"
     title="Zinzy&#39;s website"
-    
   />
 
   <link rel="icon" type="image/svg+xml" href="https://emojicdn.elk.sh/👋🏽" />
@@ -40,10 +39,16 @@
   <link rel="micropub" href="https://zinzy.website/micropub/main" />
 
   
+  
+
+  
   <link
     rel="webmention"
-    href="https://webmention.herokuapp.com/api/webmention"
+    href="https://webmention.io/zinzy.website/webmention"
   />
+
+  
+  <script src="/src/webmention.js" async></script>
 
   
 </head>
@@ -129,43 +134,6 @@
 </span>
       </a>
     </li>
-    <li class="mx-3" aria-label="Writing">
-      <a
-        href="/posts"
-        class="group grid h-10 w-10 content-center justify-center rounded-full hover:bg-pink-50 dark:hover:bg-pink-300/10"
-      >
-        <span class="transition-all group-hover:rotate-6"><svg
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  fill="none"
-  xmlns="http://www.w3.org/2000/svg"
->
-  <mask
-    id="mask0_635_90"
-    style="mask-type: alpha"
-    maskUnits="userSpaceOnUse"
-    x="0"
-    y="0"
-    width="24"
-    height="24"
-  >
-    <rect
-      width="24"
-      height="24"
-      class="fill-gray-950 group-hover:fill-pink-500 dark:fill-white dark:group-hover:fill-pink-300"
-    />
-  </mask>
-  <g mask="url(#mask0_635_90)">
-    <path
-      d="M9 17.75H15C15.2128 17.75 15.391 17.6782 15.5345 17.5345C15.6782 17.391 15.75 17.2128 15.75 17C15.75 16.7872 15.6782 16.609 15.5345 16.4655C15.391 16.3218 15.2128 16.25 15 16.25H9C8.78717 16.25 8.609 16.3218 8.4655 16.4655C8.32183 16.609 8.25 16.7872 8.25 17C8.25 17.2128 8.32183 17.391 8.4655 17.5345C8.609 17.6782 8.78717 17.75 9 17.75ZM9 13.75H15C15.2128 13.75 15.391 13.6782 15.5345 13.5345C15.6782 13.391 15.75 13.2128 15.75 13C15.75 12.7872 15.6782 12.609 15.5345 12.4655C15.391 12.3218 15.2128 12.25 15 12.25H9C8.78717 12.25 8.609 12.3218 8.4655 12.4655C8.32183 12.609 8.25 12.7872 8.25 13C8.25 13.2128 8.32183 13.391 8.4655 13.5345C8.609 13.6782 8.78717 13.75 9 13.75ZM6.30775 21.5C5.80258 21.5 5.375 21.325 5.025 20.975C4.675 20.625 4.5 20.1974 4.5 19.6923V4.30775C4.5 3.80258 4.675 3.375 5.025 3.025C5.375 2.675 5.80258 2.5 6.30775 2.5H13.502C13.743 2.5 13.9748 2.54683 14.1973 2.6405C14.4196 2.734 14.6128 2.86283 14.777 3.027L18.973 7.223C19.1372 7.38717 19.266 7.58042 19.3595 7.80275C19.4532 8.02525 19.5 8.257 19.5 8.498V19.6923C19.5 20.1974 19.325 20.625 18.975 20.975C18.625 21.325 18.1974 21.5 17.6923 21.5H6.30775ZM13.5 7.596V4H6.30775C6.23075 4 6.16025 4.03208 6.09625 4.09625C6.03208 4.16025 6 4.23075 6 4.30775V19.6923C6 19.7693 6.03208 19.8398 6.09625 19.9038C6.16025 19.9679 6.23075 20 6.30775 20H17.6923C17.7693 20 17.8398 19.9679 17.9038 19.9038C17.9679 19.8398 18 19.7693 18 19.6923V8.5H14.404C14.1462 8.5 13.9311 8.41375 13.7587 8.24125C13.5862 8.06892 13.5 7.85383 13.5 7.596Z"
-      class="fill-gray-950 group-hover:fill-pink-500 dark:fill-white dark:group-hover:fill-pink-300"
-    />
-  </g>
-</svg>
-</span>
-      </a>
-    </li>
     <li class="mx-3" aria-label="Sitemap">
       <a
         href="/sitemap"
@@ -217,100 +185,146 @@
   </h2>
 </header>
 
+
+
 <ul class="feed">
-  
-  <li class="group flex">
-    <div class="mt-[4px] flex w-10 flex-none flex-col">
-      <div class="">
-         <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" class="fill-gray-600 dark:fill-gray-400"><path d="M276-394h408q11.07 0 18.53-7.41 7.47-7.4 7.47-18.38 0-10.98-7.47-18.59Q695.07-446 684-446H276q-11.07 0-18.53 7.41-7.47 7.4-7.47 18.38 0 10.98 7.47 18.59Q264.93-394 276-394Zm0-132h408q11.07 0 18.53-7.41 7.47-7.4 7.47-18.38 0-10.98-7.47-18.59Q695.07-578 684-578H276q-11.07 0-18.53 7.41-7.47 7.4-7.47 18.38 0 10.98 7.47 18.59Q264.93-526 276-526Zm0-132h408q11.07 0 18.53-7.41 7.47-7.4 7.47-18.38 0-10.98-7.47-18.59Q695.07-710 684-710H276q-11.07 0-18.53 7.41-7.47 7.4-7.47 18.38 0 10.98 7.47 18.59Q264.93-658 276-658Zm-95.69 398q-27.01 0-45.66-18.65Q116-297.3 116-324.31v-455.38q0-27.01 18.65-45.66Q153.3-844 180.31-844h599.38q27.01 0 45.66 18.65Q844-806.7 844-779.69v567.84q0 21.5-19.69 29.75-19.7 8.25-34.89-6.94L718.46-260H180.31ZM740-312l52 52.39v-520.08q0-4.62-3.85-8.46-3.84-3.85-8.46-3.85H180.31q-4.62 0-8.46 3.85-3.85 3.84-3.85 8.46v455.38q0 4.62 3.85 8.46 3.84 3.85 8.46 3.85H740Zm-572 0v-480 480Z"/></svg> 
+    
+    <li class="group flex">
+      <div class="mt-[0] flex w-10 flex-none flex-col">
+        <div class="">
+           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_648_128" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+<rect width="24" height="24" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask0_648_128)">
+<path d="M7 13.75H17C17.2128 13.75 17.391 13.6782 17.5345 13.5345C17.6782 13.391 17.75 13.2128 17.75 13C17.75 12.7872 17.6782 12.609 17.5345 12.4655C17.391 12.3218 17.2128 12.25 17 12.25H7C6.78717 12.25 6.609 12.3218 6.4655 12.4655C6.32183 12.609 6.25 12.7872 6.25 13C6.25 13.2128 6.32183 13.391 6.4655 13.5345C6.609 13.6782 6.78717 13.75 7 13.75ZM7 10.75H17C17.2128 10.75 17.391 10.6782 17.5345 10.5345C17.6782 10.391 17.75 10.2128 17.75 10C17.75 9.78717 17.6782 9.609 17.5345 9.4655C17.391 9.32183 17.2128 9.25 17 9.25H7C6.78717 9.25 6.609 9.32183 6.4655 9.4655C6.32183 9.609 6.25 9.78717 6.25 10C6.25 10.2128 6.32183 10.391 6.4655 10.5345C6.609 10.6782 6.78717 10.75 7 10.75ZM7 7.75H17C17.2128 7.75 17.391 7.67817 17.5345 7.5345C17.6782 7.391 17.75 7.21283 17.75 7C17.75 6.78717 17.6782 6.609 17.5345 6.4655C17.391 6.32183 17.2128 6.25 17 6.25H7C6.78717 6.25 6.609 6.32183 6.4655 6.4655C6.32183 6.609 6.25 6.78717 6.25 7C6.25 7.21283 6.32183 7.391 6.4655 7.5345C6.609 7.67817 6.78717 7.75 7 7.75ZM4.30775 17.5C3.80258 17.5 3.375 17.325 3.025 16.975C2.675 16.625 2.5 16.1974 2.5 15.6923V4.30775C2.5 3.80258 2.675 3.375 3.025 3.025C3.375 2.675 3.80258 2.5 4.30775 2.5H19.6923C20.1974 2.5 20.625 2.675 20.975 3.025C21.325 3.375 21.5 3.80258 21.5 4.30775V18.8538C21.5 19.2589 21.3151 19.5394 20.9452 19.6952C20.5752 19.8509 20.248 19.7864 19.9635 19.5018L17.9615 17.5H4.30775ZM18.6 16L20 17.3848V4.30775C20 4.23075 19.9679 4.16025 19.9038 4.09625C19.8398 4.03208 19.7693 4 19.6923 4H4.30775C4.23075 4 4.16025 4.03208 4.09625 4.09625C4.03208 4.16025 4 4.23075 4 4.30775V15.6923C4 15.7693 4.03208 15.8398 4.09625 15.9038C4.16025 15.9679 4.23075 16 4.30775 16H18.6Z" fill="#1C1B1F"/>
+</g>
+</svg>
+ 
+        </div>
+        <div class="ml-2.5 grow border-l group-last:border-0">&nbsp;</div>
       </div>
-      <div class="ml-2.5 grow border-l group-last:border-0">&nbsp;</div>
-    </div>
-    <div class="grow pb-5">
-       
-
-      <div class="prose prose-gray dark:prose-invert">
-         
-        <p class="u-in-reply-to mt-0">
-          Replied to
-          <a
-            href="https://barryfrost.com/2023/04/homepage"
-            rel="in-reply-to"
-            class="u-in-reply-to text-url break-all"
-            target="_blank"
+      <div class="grow pb-5">
+        
+        <a href="https://zinzy.website/2023-04-26-16-29-36/" class="block">
+          <time class="text-secondary block text-sm"
+            >Wednesday, April 26, 2023</time
           >
-             Barry Frost 
-          </a>
-        </p>
-         
-
-        <content> <p>Just noticed this UI change, Barry, I like it!</p>
- </content>
-      </div>
-      
-      <div class="mb-7 mt-3">
-        <a href="https://zinzy.website/2023-04-26-16-29-36/" class="button">Continue reading</a>
-      </div>
-    </div>
-  </li>
+        </a>
   
-  <li class="group flex">
-    <div class="mt-[4px] flex w-10 flex-none flex-col">
-      <div class="">
-         <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" class="fill-gray-600 dark:fill-gray-400"><path d="M276-394h408q11.07 0 18.53-7.41 7.47-7.4 7.47-18.38 0-10.98-7.47-18.59Q695.07-446 684-446H276q-11.07 0-18.53 7.41-7.47 7.4-7.47 18.38 0 10.98 7.47 18.59Q264.93-394 276-394Zm0-132h408q11.07 0 18.53-7.41 7.47-7.4 7.47-18.38 0-10.98-7.47-18.59Q695.07-578 684-578H276q-11.07 0-18.53 7.41-7.47 7.4-7.47 18.38 0 10.98 7.47 18.59Q264.93-526 276-526Zm0-132h408q11.07 0 18.53-7.41 7.47-7.4 7.47-18.38 0-10.98-7.47-18.59Q695.07-710 684-710H276q-11.07 0-18.53 7.41-7.47 7.4-7.47 18.38 0 10.98 7.47 18.59Q264.93-658 276-658Zm-95.69 398q-27.01 0-45.66-18.65Q116-297.3 116-324.31v-455.38q0-27.01 18.65-45.66Q153.3-844 180.31-844h599.38q27.01 0 45.66 18.65Q844-806.7 844-779.69v567.84q0 21.5-19.69 29.75-19.7 8.25-34.89-6.94L718.46-260H180.31ZM740-312l52 52.39v-520.08q0-4.62-3.85-8.46-3.84-3.85-8.46-3.85H180.31q-4.62 0-8.46 3.85-3.85 3.84-3.85 8.46v455.38q0 4.62 3.85 8.46 3.84 3.85 8.46 3.85H740Zm-572 0v-480 480Z"/></svg> 
-      </div>
-      <div class="ml-2.5 grow border-l group-last:border-0">&nbsp;</div>
-    </div>
-    <div class="grow pb-5">
-       
+        <div class="prose prose-gray dark:prose-invert">
+          
+          
 
-      <div class="prose prose-gray dark:prose-invert">
-         
-        <p class="u-in-reply-to mt-0">
-          Replied to
-          <a
-            href="https://jamesg.blog/2023/04/13/exploring-personal-websites/"
-            rel="in-reply-to"
-            class="u-in-reply-to text-url break-all"
-            target="_blank"
+            
+            <p class="u-in-reply-to mt-0">
+              Replied to
+              <a
+                href="https://barryfrost.com/2023/04/homepage"
+                rel="in-reply-to"
+                class="u-in-reply-to text-url break-all"
+                target="_blank"
+              >
+                 Barry Frost 
+              </a>
+            </p>
+
+          
+
+          
+          
+          
+          
+  
+          <content> <p>Just noticed this UI change, Barry, I like it!</p>
+ </content>
+          
+        </div>
+        
+      </div>
+    </li>
+    
+    <li class="group flex">
+      <div class="mt-[0] flex w-10 flex-none flex-col">
+        <div class="">
+           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_648_128" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+<rect width="24" height="24" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask0_648_128)">
+<path d="M7 13.75H17C17.2128 13.75 17.391 13.6782 17.5345 13.5345C17.6782 13.391 17.75 13.2128 17.75 13C17.75 12.7872 17.6782 12.609 17.5345 12.4655C17.391 12.3218 17.2128 12.25 17 12.25H7C6.78717 12.25 6.609 12.3218 6.4655 12.4655C6.32183 12.609 6.25 12.7872 6.25 13C6.25 13.2128 6.32183 13.391 6.4655 13.5345C6.609 13.6782 6.78717 13.75 7 13.75ZM7 10.75H17C17.2128 10.75 17.391 10.6782 17.5345 10.5345C17.6782 10.391 17.75 10.2128 17.75 10C17.75 9.78717 17.6782 9.609 17.5345 9.4655C17.391 9.32183 17.2128 9.25 17 9.25H7C6.78717 9.25 6.609 9.32183 6.4655 9.4655C6.32183 9.609 6.25 9.78717 6.25 10C6.25 10.2128 6.32183 10.391 6.4655 10.5345C6.609 10.6782 6.78717 10.75 7 10.75ZM7 7.75H17C17.2128 7.75 17.391 7.67817 17.5345 7.5345C17.6782 7.391 17.75 7.21283 17.75 7C17.75 6.78717 17.6782 6.609 17.5345 6.4655C17.391 6.32183 17.2128 6.25 17 6.25H7C6.78717 6.25 6.609 6.32183 6.4655 6.4655C6.32183 6.609 6.25 6.78717 6.25 7C6.25 7.21283 6.32183 7.391 6.4655 7.5345C6.609 7.67817 6.78717 7.75 7 7.75ZM4.30775 17.5C3.80258 17.5 3.375 17.325 3.025 16.975C2.675 16.625 2.5 16.1974 2.5 15.6923V4.30775C2.5 3.80258 2.675 3.375 3.025 3.025C3.375 2.675 3.80258 2.5 4.30775 2.5H19.6923C20.1974 2.5 20.625 2.675 20.975 3.025C21.325 3.375 21.5 3.80258 21.5 4.30775V18.8538C21.5 19.2589 21.3151 19.5394 20.9452 19.6952C20.5752 19.8509 20.248 19.7864 19.9635 19.5018L17.9615 17.5H4.30775ZM18.6 16L20 17.3848V4.30775C20 4.23075 19.9679 4.16025 19.9038 4.09625C19.8398 4.03208 19.7693 4 19.6923 4H4.30775C4.23075 4 4.16025 4.03208 4.09625 4.09625C4.03208 4.16025 4 4.23075 4 4.30775V15.6923C4 15.7693 4.03208 15.8398 4.09625 15.9038C4.16025 15.9679 4.23075 16 4.30775 16H18.6Z" fill="#1C1B1F"/>
+</g>
+</svg>
+ 
+        </div>
+        <div class="ml-2.5 grow border-l group-last:border-0">&nbsp;</div>
+      </div>
+      <div class="grow pb-5">
+        
+        <a href="https://zinzy.website/2023-04-26-12-53-00/" class="block">
+          <time class="text-secondary block text-sm"
+            >Wednesday, April 26, 2023</time
           >
-             James 
-          </a>
-        </p>
-         
-
-        <content> <p>Earlier this week I found myself in line at a coffee place giving my friend a very passionate speech in response to her question &ldquo;why would anyone have a website?&rdquo;. I always marvel at people who don&rsquo;t share this sentiment with us, James. Nice to meet you!</p>
- </content>
-      </div>
-      
-      <div class="mb-7 mt-3">
-        <a href="https://zinzy.website/2023-04-26-12-53-00/" class="button">Continue reading</a>
-      </div>
-    </div>
-  </li>
+        </a>
   
-</ul>
+        <div class="prose prose-gray dark:prose-invert">
+          
+          
+
+            
+            <p class="u-in-reply-to mt-0">
+              Replied to
+              <a
+                href="https://jamesg.blog/2023/04/13/exploring-personal-websites/"
+                rel="in-reply-to"
+                class="u-in-reply-to text-url break-all"
+                target="_blank"
+              >
+                 James 
+              </a>
+            </p>
+
+          
+
+          
+          
+          
+          
+  
+          <content> <p>Earlier this week I found myself in line at a coffee place giving my friend a very passionate speech in response to her question &ldquo;why would anyone have a website?&rdquo;. I always marvel at people who don&rsquo;t share this sentiment with us, James. Nice to meet you!</p>
+ </content>
+          
+        </div>
+        
+      </div>
+    </li>
+    
+  </ul>
 
 
                 </div> 
-            </main><footer class="not-prose mt-14 rounded border text-sm">
+            </main><div id="webmentions" class="text-sm pt-5 border-t"></div>
+<footer class="not-prose mt-14 rounded border text-sm">
   <div class="p-4">
     <div class="">
       <h4 class="mb-3 text-lg font-medium">Thank you for being here</h4>
       <p class="text-secondary h-card mb-3">
-        I'm
-        <a class="u-url text-primary font-medium" href="/">
-          <span class="p-name">
+        My name is
+        <a class="u-url p-name text-primary font-medium" href="/">
+          <span class="">
             <span class="p-given-name">Zinzy</span>
-            <span class="p-family-name">Waleson Geene</span>,
+            <span class="p-family-name">Waleson Geene</span>
           </span></a
         >
-        a <span class="p-category">Product Designer</span> from
+        and I'm a <span class="p-category">Product Designer</span> from
         <span class="p-locality">Amsterdam</span>
-        <span class="p-note">making software for people at work</span>. This
-        website is a place for soft stances, lived experiences, and critical
-        notes on the things I hold dear. If you like what you see here, reach
-        out to say so, or consider buying me coffee.
+        <span class="p-note">designing software for people at work</span> (<a
+          href="/about"
+          class="text-primary font-medium"
+          >More about me</a
+        >). This website is a place for soft stances, lived experiences, and
+        critical notes on the things I hold dear. If you like what you see here,
+        reach out to say so, or consider buying me coffee.
       </p>
     </div>
     <ul class="m-0 list-none p-0">

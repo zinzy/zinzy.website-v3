@@ -18,7 +18,6 @@
     type="application/rss+xml"
     href="https://zinzy.website/posts/index.xml"
     title="Zinzy&#39;s website"
-    
   />
 
   <link rel="icon" type="image/svg+xml" href="https://emojicdn.elk.sh/👋🏽" />
@@ -40,10 +39,16 @@
   <link rel="micropub" href="https://zinzy.website/micropub/main" />
 
   
+  
+
+  
   <link
     rel="webmention"
-    href="https://webmention.herokuapp.com/api/webmention"
+    href="https://webmention.io/zinzy.website/webmention"
   />
+
+  
+  <script src="/src/webmention.js" async></script>
 
   
 </head>
@@ -129,43 +134,6 @@
 </span>
       </a>
     </li>
-    <li class="mx-3" aria-label="Writing">
-      <a
-        href="/posts"
-        class="group grid h-10 w-10 content-center justify-center rounded-full hover:bg-pink-50 dark:hover:bg-pink-300/10"
-      >
-        <span class="transition-all group-hover:rotate-6"><svg
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  fill="none"
-  xmlns="http://www.w3.org/2000/svg"
->
-  <mask
-    id="mask0_635_90"
-    style="mask-type: alpha"
-    maskUnits="userSpaceOnUse"
-    x="0"
-    y="0"
-    width="24"
-    height="24"
-  >
-    <rect
-      width="24"
-      height="24"
-      class="fill-gray-950 group-hover:fill-pink-500 dark:fill-white dark:group-hover:fill-pink-300"
-    />
-  </mask>
-  <g mask="url(#mask0_635_90)">
-    <path
-      d="M9 17.75H15C15.2128 17.75 15.391 17.6782 15.5345 17.5345C15.6782 17.391 15.75 17.2128 15.75 17C15.75 16.7872 15.6782 16.609 15.5345 16.4655C15.391 16.3218 15.2128 16.25 15 16.25H9C8.78717 16.25 8.609 16.3218 8.4655 16.4655C8.32183 16.609 8.25 16.7872 8.25 17C8.25 17.2128 8.32183 17.391 8.4655 17.5345C8.609 17.6782 8.78717 17.75 9 17.75ZM9 13.75H15C15.2128 13.75 15.391 13.6782 15.5345 13.5345C15.6782 13.391 15.75 13.2128 15.75 13C15.75 12.7872 15.6782 12.609 15.5345 12.4655C15.391 12.3218 15.2128 12.25 15 12.25H9C8.78717 12.25 8.609 12.3218 8.4655 12.4655C8.32183 12.609 8.25 12.7872 8.25 13C8.25 13.2128 8.32183 13.391 8.4655 13.5345C8.609 13.6782 8.78717 13.75 9 13.75ZM6.30775 21.5C5.80258 21.5 5.375 21.325 5.025 20.975C4.675 20.625 4.5 20.1974 4.5 19.6923V4.30775C4.5 3.80258 4.675 3.375 5.025 3.025C5.375 2.675 5.80258 2.5 6.30775 2.5H13.502C13.743 2.5 13.9748 2.54683 14.1973 2.6405C14.4196 2.734 14.6128 2.86283 14.777 3.027L18.973 7.223C19.1372 7.38717 19.266 7.58042 19.3595 7.80275C19.4532 8.02525 19.5 8.257 19.5 8.498V19.6923C19.5 20.1974 19.325 20.625 18.975 20.975C18.625 21.325 18.1974 21.5 17.6923 21.5H6.30775ZM13.5 7.596V4H6.30775C6.23075 4 6.16025 4.03208 6.09625 4.09625C6.03208 4.16025 6 4.23075 6 4.30775V19.6923C6 19.7693 6.03208 19.8398 6.09625 19.9038C6.16025 19.9679 6.23075 20 6.30775 20H17.6923C17.7693 20 17.8398 19.9679 17.9038 19.9038C17.9679 19.8398 18 19.7693 18 19.6923V8.5H14.404C14.1462 8.5 13.9311 8.41375 13.7587 8.24125C13.5862 8.06892 13.5 7.85383 13.5 7.596Z"
-      class="fill-gray-950 group-hover:fill-pink-500 dark:fill-white dark:group-hover:fill-pink-300"
-    />
-  </g>
-</svg>
-</span>
-      </a>
-    </li>
     <li class="mx-3" aria-label="Sitemap">
       <a
         href="/sitemap"
@@ -217,22 +185,40 @@
   </h2>
 </header>
 
+
+
 <ul class="feed">
-  
-  <li class="group flex">
-    <div class="mt-[4px] flex w-10 flex-none flex-col">
-      <div class="">
-         <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" class="fill-gray-600 dark:fill-gray-400"><path d="M190.29-278.62q-11.04 0-18.66-7.41-7.63-7.42-7.63-18.39 0-10.96 7.47-18.58 7.47-7.61 18.5-7.61h339.74q11.04 0 18.66 7.41 7.63 7.42 7.63 18.39 0 10.96-7.47 18.58-7.47 7.61-18.5 7.61H190.29ZM190-454q-11.05 0-18.52-7.42-7.48-7.42-7.48-18.38 0-10.97 7.48-18.58Q178.95-506 190-506h580q11.05 0 18.52 7.42 7.48 7.42 7.48 18.38 0 10.97-7.48 18.58Q781.05-454 770-454H190Zm0-175.39q-11.05 0-18.52-7.41-7.48-7.42-7.48-18.39 0-10.96 7.48-18.58 7.47-7.61 18.52-7.61h580q11.05 0 18.52 7.41 7.48 7.42 7.48 18.39 0 10.96-7.48 18.58-7.47 7.61-18.52 7.61H190Z"/></svg> 
+    
+    <li class="group flex">
+      <div class="mt-[0] flex w-10 flex-none flex-col">
+        <div class="">
+           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_648_47" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+<rect width="24" height="24" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask0_648_47)">
+<path d="M4.25 17.6345C4.0375 17.6345 3.85942 17.5626 3.71575 17.4188C3.57192 17.2751 3.5 17.0969 3.5 16.8843C3.5 16.6718 3.57192 16.4937 3.71575 16.35C3.85942 16.2065 4.0375 16.1348 4.25 16.1348H13.75C13.9625 16.1348 14.1406 16.2066 14.2843 16.3503C14.4281 16.4941 14.5 16.6723 14.5 16.885C14.5 17.0975 14.4281 17.2756 14.2843 17.4193C14.1406 17.5628 13.9625 17.6345 13.75 17.6345H4.25ZM4.25 12.75C4.0375 12.75 3.85942 12.6781 3.71575 12.5343C3.57192 12.3904 3.5 12.2123 3.5 11.9998C3.5 11.7871 3.57192 11.609 3.71575 11.4655C3.85942 11.3218 4.0375 11.25 4.25 11.25H19.75C19.9625 11.25 20.1406 11.3219 20.2843 11.4658C20.4281 11.6096 20.5 11.7878 20.5 12.0003C20.5 12.2129 20.4281 12.391 20.2843 12.5345C20.1406 12.6782 19.9625 12.75 19.75 12.75H4.25ZM4.25 7.86526C4.0375 7.86526 3.85942 7.79343 3.71575 7.64976C3.57192 7.50593 3.5 7.32768 3.5 7.11501C3.5 6.90251 3.57192 6.72443 3.71575 6.58076C3.85942 6.43726 4.0375 6.36551 4.25 6.36551H19.75C19.9625 6.36551 20.1406 6.43743 20.2843 6.58126C20.4281 6.72493 20.5 6.90309 20.5 7.11576C20.5 7.32826 20.4281 7.50634 20.2843 7.65001C20.1406 7.79351 19.9625 7.86526 19.75 7.86526H4.25Z" fill="#1C1B1F"/>
+</g>
+</svg>
+ 
+        </div>
+        <div class="ml-2.5 grow border-l group-last:border-0">&nbsp;</div>
       </div>
-      <div class="ml-2.5 grow border-l group-last:border-0">&nbsp;</div>
-    </div>
-    <div class="grow pb-5">
-       
-
-      <div class="prose prose-gray dark:prose-invert">
+      <div class="grow pb-5">
+        
+        <a href="https://zinzy.website/2023-02-03-09-53-26/" class="block">
+          <time class="text-secondary block text-sm"
+            >Friday, February 3, 2023</time
+          >
+        </a>
+  
+        <div class="prose prose-gray dark:prose-invert">
           
-
-        <content> <p>If you still needed convincing that I&rsquo;m Grandma Tech at home, struggling to use even the most straightforward of functionalities, please be aware that I was today years old when I learned that, five years ago, 
+          
+          
+          
+  
+          <content> <p>If you still needed convincing that I&rsquo;m Grandma Tech at home, struggling to use even the most straightforward of functionalities, please be aware that I was today years old when I learned that, five years ago, 
 
 
 
@@ -245,36 +231,38 @@
 
 <a href="https://textexpander.com/blog/textexpander-tip-try-our-ios-keyboard-and-one-tap-text-snippet-keys" target="_blank" rel="noopener" class=" after:content-[' ↗'] ">TextExpander released a custom iOS keyboard</a> that would&rsquo;ve solved so many of my mundane problems, and all I was doing was asking myself &ldquo;why am I even paying for that app anymore?&rdquo;</p>
  </content>
+          
+        </div>
+        
       </div>
-      
-      <div class="mb-7 mt-3">
-        <a href="https://zinzy.website/2023-02-03-09-53-26/" class="button">Continue reading</a>
-      </div>
-    </div>
-  </li>
-  
-</ul>
+    </li>
+    
+  </ul>
 
 
                 </div> 
-            </main><footer class="not-prose mt-14 rounded border text-sm">
+            </main><div id="webmentions" class="text-sm pt-5 border-t"></div>
+<footer class="not-prose mt-14 rounded border text-sm">
   <div class="p-4">
     <div class="">
       <h4 class="mb-3 text-lg font-medium">Thank you for being here</h4>
       <p class="text-secondary h-card mb-3">
-        I'm
-        <a class="u-url text-primary font-medium" href="/">
-          <span class="p-name">
+        My name is
+        <a class="u-url p-name text-primary font-medium" href="/">
+          <span class="">
             <span class="p-given-name">Zinzy</span>
-            <span class="p-family-name">Waleson Geene</span>,
+            <span class="p-family-name">Waleson Geene</span>
           </span></a
         >
-        a <span class="p-category">Product Designer</span> from
+        and I'm a <span class="p-category">Product Designer</span> from
         <span class="p-locality">Amsterdam</span>
-        <span class="p-note">making software for people at work</span>. This
-        website is a place for soft stances, lived experiences, and critical
-        notes on the things I hold dear. If you like what you see here, reach
-        out to say so, or consider buying me coffee.
+        <span class="p-note">designing software for people at work</span> (<a
+          href="/about"
+          class="text-primary font-medium"
+          >More about me</a
+        >). This website is a place for soft stances, lived experiences, and
+        critical notes on the things I hold dear. If you like what you see here,
+        reach out to say so, or consider buying me coffee.
       </p>
     </div>
     <ul class="m-0 list-none p-0">
