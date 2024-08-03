@@ -54,7 +54,7 @@ This list was copied from [Mike Sass' _Website Component Checklist_](https://she
 - [ ] Resume page
 - [ ] Roadmap page
 - [ ] robots.txt
-- [ ] RSS feeds
+- [x] [RSS feeds](https://zinzy.website/index.xml)
 - [ ] Search
 - [ ] security.txt
 - [ ] Site Map

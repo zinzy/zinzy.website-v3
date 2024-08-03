@@ -65,8 +65,12 @@
           url: https://chronosaur.us/
     - name: "(Personal) sites I like"
       children:
+        - property: About Ideas Now
+          url: https://aboutideasnow.com/
         - property: Aaron Swartz
           url: http://www.aaronsw.com/
+        - property: Lindy Learn
+          url: https://lindylearn.io/
         - property: Alessia Bellisario
           url: https://aless.co
         - property: Alison Wilder
