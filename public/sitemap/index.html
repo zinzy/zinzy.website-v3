@@ -18,7 +18,6 @@
     type="application/rss+xml"
     href="https://zinzy.website/posts/index.xml"
     title="Zinzy&#39;s website"
-    
   />
 
   <link rel="icon" type="image/svg+xml" href="https://emojicdn.elk.sh/👋🏽" />
@@ -40,10 +39,16 @@
   <link rel="micropub" href="https://zinzy.website/micropub/main" />
 
   
+  
+
+  
   <link
     rel="webmention"
-    href="https://webmention.herokuapp.com/api/webmention"
+    href="https://webmention.io/zinzy.website/webmention"
   />
+
+  
+  <script src="/src/webmention.js" async></script>
 
   
 </head>
@@ -129,43 +134,6 @@
 </span>
       </a>
     </li>
-    <li class="mx-3" aria-label="Writing">
-      <a
-        href="/posts"
-        class="group grid h-10 w-10 content-center justify-center rounded-full hover:bg-pink-50 dark:hover:bg-pink-300/10"
-      >
-        <span class="transition-all group-hover:rotate-6"><svg
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  fill="none"
-  xmlns="http://www.w3.org/2000/svg"
->
-  <mask
-    id="mask0_635_90"
-    style="mask-type: alpha"
-    maskUnits="userSpaceOnUse"
-    x="0"
-    y="0"
-    width="24"
-    height="24"
-  >
-    <rect
-      width="24"
-      height="24"
-      class="fill-gray-950 group-hover:fill-pink-500 dark:fill-white dark:group-hover:fill-pink-300"
-    />
-  </mask>
-  <g mask="url(#mask0_635_90)">
-    <path
-      d="M9 17.75H15C15.2128 17.75 15.391 17.6782 15.5345 17.5345C15.6782 17.391 15.75 17.2128 15.75 17C15.75 16.7872 15.6782 16.609 15.5345 16.4655C15.391 16.3218 15.2128 16.25 15 16.25H9C8.78717 16.25 8.609 16.3218 8.4655 16.4655C8.32183 16.609 8.25 16.7872 8.25 17C8.25 17.2128 8.32183 17.391 8.4655 17.5345C8.609 17.6782 8.78717 17.75 9 17.75ZM9 13.75H15C15.2128 13.75 15.391 13.6782 15.5345 13.5345C15.6782 13.391 15.75 13.2128 15.75 13C15.75 12.7872 15.6782 12.609 15.5345 12.4655C15.391 12.3218 15.2128 12.25 15 12.25H9C8.78717 12.25 8.609 12.3218 8.4655 12.4655C8.32183 12.609 8.25 12.7872 8.25 13C8.25 13.2128 8.32183 13.391 8.4655 13.5345C8.609 13.6782 8.78717 13.75 9 13.75ZM6.30775 21.5C5.80258 21.5 5.375 21.325 5.025 20.975C4.675 20.625 4.5 20.1974 4.5 19.6923V4.30775C4.5 3.80258 4.675 3.375 5.025 3.025C5.375 2.675 5.80258 2.5 6.30775 2.5H13.502C13.743 2.5 13.9748 2.54683 14.1973 2.6405C14.4196 2.734 14.6128 2.86283 14.777 3.027L18.973 7.223C19.1372 7.38717 19.266 7.58042 19.3595 7.80275C19.4532 8.02525 19.5 8.257 19.5 8.498V19.6923C19.5 20.1974 19.325 20.625 18.975 20.975C18.625 21.325 18.1974 21.5 17.6923 21.5H6.30775ZM13.5 7.596V4H6.30775C6.23075 4 6.16025 4.03208 6.09625 4.09625C6.03208 4.16025 6 4.23075 6 4.30775V19.6923C6 19.7693 6.03208 19.8398 6.09625 19.9038C6.16025 19.9679 6.23075 20 6.30775 20H17.6923C17.7693 20 17.8398 19.9679 17.9038 19.9038C17.9679 19.8398 18 19.7693 18 19.6923V8.5H14.404C14.1462 8.5 13.9311 8.41375 13.7587 8.24125C13.5862 8.06892 13.5 7.85383 13.5 7.596Z"
-      class="fill-gray-950 group-hover:fill-pink-500 dark:fill-white dark:group-hover:fill-pink-300"
-    />
-  </g>
-</svg>
-</span>
-      </a>
-    </li>
     <li class="mx-3" aria-label="Sitemap">
       <a
         href="/sitemap"
@@ -221,12 +189,10 @@
   <section class="mt-20">
     <h3 class="text-xl font-medium">What I write</h3>
     <ul class="mt-5">
-      
-      
       <li class="group m-0 mb-3 mr-3 inline-block p-0">
         <a
-          href="https://zinzy.website/categories/shorts/"
-          class="flex rounded border px-2 text-xs font-medium leading-7 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
+          href="/shorts"
+          class="flex rounded-full border px-3 leading-7 text-xs font-medium no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
           >Shorts
         </a>
       </li>
@@ -234,7 +200,7 @@
       <li class="group m-0 mb-3 mr-3 inline-block p-0">
         <a
           href="https://zinzy.website/categories/essays/"
-          class="flex rounded border px-2 text-xs font-medium leading-7 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
+          class="flex rounded-full border px-3 leading-7 text-xs font-medium no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
           >Essays
         </a>
       </li>
@@ -242,7 +208,7 @@
       <li class="group m-0 mb-3 mr-3 inline-block p-0">
         <a
           href="https://zinzy.website/categories/weeknotes/"
-          class="flex rounded border px-2 text-xs font-medium leading-7 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
+          class="flex rounded-full border px-3 leading-7 text-xs font-medium no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
           >Weeknotes
         </a>
       </li>
@@ -250,7 +216,7 @@
       <li class="group m-0 mb-3 mr-3 inline-block p-0">
         <a
           href="https://zinzy.website/categories/sermons/"
-          class="flex rounded border px-2 text-xs font-medium leading-7 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
+          class="flex rounded-full border px-3 leading-7 text-xs font-medium no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
           >Sermons
         </a>
       </li>
@@ -258,7 +224,7 @@
       <li class="group m-0 mb-3 mr-3 inline-block p-0">
         <a
           href="https://zinzy.website/categories/poetry/"
-          class="flex rounded border px-2 text-xs font-medium leading-7 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
+          class="flex rounded-full border px-3 leading-7 text-xs font-medium no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
           >Poetry
         </a>
       </li>
@@ -266,7 +232,7 @@
       <li class="group m-0 mb-3 mr-3 inline-block p-0">
         <a
           href="https://zinzy.website/categories/overheard/"
-          class="flex rounded border px-2 text-xs font-medium leading-7 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
+          class="flex rounded-full border px-3 leading-7 text-xs font-medium no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
           >Overheard
         </a>
       </li>
@@ -274,7 +240,7 @@
       <li class="group m-0 mb-3 mr-3 inline-block p-0">
         <a
           href="https://zinzy.website/categories/reflections/"
-          class="flex rounded border px-2 text-xs font-medium leading-7 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
+          class="flex rounded-full border px-3 leading-7 text-xs font-medium no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
           >Reflections
         </a>
       </li>
@@ -339,6 +305,13 @@
       </li>
       
       <li class="border-t py-3">
+        <a class="w-full" href="https://zinzy.website/ideas/">
+          <span class="font-medium">Ideas</span>
+          <span class="text-secondary text-sm">Things I want to do or have</span>
+        </a>
+      </li>
+      
+      <li class="border-t py-3">
         <a class="w-full" href="https://zinzy.website/interests/">
           <span class="font-medium">Interests</span>
           <span class="text-secondary text-sm">What I&#39;m into</span>
@@ -355,7 +328,7 @@
       <li class="border-t py-3">
         <a class="w-full" href="https://zinzy.website/manual/">
           <span class="font-medium">Manual</span>
-          <span class="text-secondary text-sm">This user manual helps you understand how you can best work with me</span>
+          <span class="text-secondary text-sm">How you can best work with me</span>
         </a>
       </li>
       
@@ -377,6 +350,13 @@
         <a class="w-full" href="https://zinzy.website/nope/">
           <span class="font-medium">Nope</span>
           <span class="text-secondary text-sm">A list of things I don&#39;t like, want to do or experience</span>
+        </a>
+      </li>
+      
+      <li class="border-t py-3">
+        <a class="w-full" href="https://zinzy.website/resume/">
+          <span class="font-medium">Resume</span>
+          <span class="text-secondary text-sm">My professional experience</span>
         </a>
       </li>
       
@@ -411,7 +391,7 @@
       <li class="border-t py-3">
         <a class="w-full" href="https://zinzy.website/work-and-play/">
           <span class="font-medium">Work and play</span>
-          <span class="text-secondary text-sm">I&#39;m priviliged to be a designer, a mentor, and a community builder</span>
+          <span class="text-secondary text-sm">I&#39;m a designer, a mentor, and a community builder</span>
         </a>
       </li>
       
@@ -428,7 +408,7 @@
         <li class="group m-0 mb-3 mr-3 inline-block p-0">
           <a
             href="/tags/weeknotes"
-            class="flex rounded border px-2 text-xs font-medium leading-7 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
+            class="flex rounded-full border px-3 leading-7 text-xs font-medium leading-8 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
             >weeknotes
             <span class="text-secondary ml-2 inline-block"
               >24</span
@@ -439,7 +419,7 @@
         <li class="group m-0 mb-3 mr-3 inline-block p-0">
           <a
             href="/tags/indieweb"
-            class="flex rounded border px-2 text-xs font-medium leading-7 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
+            class="flex rounded-full border px-3 leading-7 text-xs font-medium leading-8 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
             >indieweb
             <span class="text-secondary ml-2 inline-block"
               >15</span
@@ -449,8 +429,19 @@
            
         <li class="group m-0 mb-3 mr-3 inline-block p-0">
           <a
+            href="/tags/queerdom"
+            class="flex rounded-full border px-3 leading-7 text-xs font-medium leading-8 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
+            >queerdom
+            <span class="text-secondary ml-2 inline-block"
+              >14</span
+            ></a
+          >
+        </li>
+           
+        <li class="group m-0 mb-3 mr-3 inline-block p-0">
+          <a
             href="/tags/television"
-            class="flex rounded border px-2 text-xs font-medium leading-7 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
+            class="flex rounded-full border px-3 leading-7 text-xs font-medium leading-8 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
             >television
             <span class="text-secondary ml-2 inline-block"
               >14</span
@@ -461,7 +452,7 @@
         <li class="group m-0 mb-3 mr-3 inline-block p-0">
           <a
             href="/tags/amsterdam"
-            class="flex rounded border px-2 text-xs font-medium leading-7 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
+            class="flex rounded-full border px-3 leading-7 text-xs font-medium leading-8 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
             >amsterdam
             <span class="text-secondary ml-2 inline-block"
               >13</span
@@ -471,19 +462,8 @@
            
         <li class="group m-0 mb-3 mr-3 inline-block p-0">
           <a
-            href="/tags/queerdom"
-            class="flex rounded border px-2 text-xs font-medium leading-7 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
-            >queerdom
-            <span class="text-secondary ml-2 inline-block"
-              >13</span
-            ></a
-          >
-        </li>
-           
-        <li class="group m-0 mb-3 mr-3 inline-block p-0">
-          <a
             href="/tags/friends"
-            class="flex rounded border px-2 text-xs font-medium leading-7 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
+            class="flex rounded-full border px-3 leading-7 text-xs font-medium leading-8 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
             >friends
             <span class="text-secondary ml-2 inline-block"
               >12</span
@@ -494,7 +474,7 @@
         <li class="group m-0 mb-3 mr-3 inline-block p-0">
           <a
             href="/tags/pets"
-            class="flex rounded border px-2 text-xs font-medium leading-7 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
+            class="flex rounded-full border px-3 leading-7 text-xs font-medium leading-8 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
             >pets
             <span class="text-secondary ml-2 inline-block"
               >11</span
@@ -505,7 +485,7 @@
         <li class="group m-0 mb-3 mr-3 inline-block p-0">
           <a
             href="/tags/religion"
-            class="flex rounded border px-2 text-xs font-medium leading-7 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
+            class="flex rounded-full border px-3 leading-7 text-xs font-medium leading-8 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
             >religion
             <span class="text-secondary ml-2 inline-block"
               >11</span
@@ -516,7 +496,7 @@
         <li class="group m-0 mb-3 mr-3 inline-block p-0">
           <a
             href="/tags/being-black"
-            class="flex rounded border px-2 text-xs font-medium leading-7 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
+            class="flex rounded-full border px-3 leading-7 text-xs font-medium leading-8 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
             >being-black
             <span class="text-secondary ml-2 inline-block"
               >10</span
@@ -527,7 +507,7 @@
         <li class="group m-0 mb-3 mr-3 inline-block p-0">
           <a
             href="/tags/anja"
-            class="flex rounded border px-2 text-xs font-medium leading-7 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
+            class="flex rounded-full border px-3 leading-7 text-xs font-medium leading-8 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
             >anja
             <span class="text-secondary ml-2 inline-block"
               >9</span
@@ -538,7 +518,7 @@
         <li class="group m-0 mb-3 mr-3 inline-block p-0">
           <a
             href="/tags/food"
-            class="flex rounded border px-2 text-xs font-medium leading-7 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
+            class="flex rounded-full border px-3 leading-7 text-xs font-medium leading-8 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
             >food
             <span class="text-secondary ml-2 inline-block"
               >9</span
@@ -549,7 +529,7 @@
         <li class="group m-0 mb-3 mr-3 inline-block p-0">
           <a
             href="/tags/pandemic"
-            class="flex rounded border px-2 text-xs font-medium leading-7 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
+            class="flex rounded-full border px-3 leading-7 text-xs font-medium leading-8 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
             >pandemic
             <span class="text-secondary ml-2 inline-block"
               >9</span
@@ -560,7 +540,7 @@
         <li class="group m-0 mb-3 mr-3 inline-block p-0">
           <a
             href="/tags/catholicism"
-            class="flex rounded border px-2 text-xs font-medium leading-7 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
+            class="flex rounded-full border px-3 leading-7 text-xs font-medium leading-8 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
             >catholicism
             <span class="text-secondary ml-2 inline-block"
               >8</span
@@ -571,7 +551,7 @@
         <li class="group m-0 mb-3 mr-3 inline-block p-0">
           <a
             href="/tags/cinema"
-            class="flex rounded border px-2 text-xs font-medium leading-7 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
+            class="flex rounded-full border px-3 leading-7 text-xs font-medium leading-8 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
             >cinema
             <span class="text-secondary ml-2 inline-block"
               >8</span
@@ -582,7 +562,7 @@
         <li class="group m-0 mb-3 mr-3 inline-block p-0">
           <a
             href="/tags/design"
-            class="flex rounded border px-2 text-xs font-medium leading-7 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
+            class="flex rounded-full border px-3 leading-7 text-xs font-medium leading-8 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
             >design
             <span class="text-secondary ml-2 inline-block"
               >8</span
@@ -593,7 +573,7 @@
         <li class="group m-0 mb-3 mr-3 inline-block p-0">
           <a
             href="/tags/internet-friends"
-            class="flex rounded border px-2 text-xs font-medium leading-7 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
+            class="flex rounded-full border px-3 leading-7 text-xs font-medium leading-8 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
             >internet-friends
             <span class="text-secondary ml-2 inline-block"
               >8</span
@@ -604,7 +584,7 @@
         <li class="group m-0 mb-3 mr-3 inline-block p-0">
           <a
             href="/tags/music"
-            class="flex rounded border px-2 text-xs font-medium leading-7 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
+            class="flex rounded-full border px-3 leading-7 text-xs font-medium leading-8 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
             >music
             <span class="text-secondary ml-2 inline-block"
               >8</span
@@ -615,7 +595,7 @@
         <li class="group m-0 mb-3 mr-3 inline-block p-0">
           <a
             href="/tags/reading"
-            class="flex rounded border px-2 text-xs font-medium leading-7 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
+            class="flex rounded-full border px-3 leading-7 text-xs font-medium leading-8 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
             >reading
             <span class="text-secondary ml-2 inline-block"
               >8</span
@@ -626,7 +606,7 @@
         <li class="group m-0 mb-3 mr-3 inline-block p-0">
           <a
             href="/tags/work"
-            class="flex rounded border px-2 text-xs font-medium leading-7 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
+            class="flex rounded-full border px-3 leading-7 text-xs font-medium leading-8 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
             >work
             <span class="text-secondary ml-2 inline-block"
               >8</span
@@ -637,7 +617,7 @@
         <li class="group m-0 mb-3 mr-3 inline-block p-0">
           <a
             href="/tags/bible"
-            class="flex rounded border px-2 text-xs font-medium leading-7 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
+            class="flex rounded-full border px-3 leading-7 text-xs font-medium leading-8 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
             >bible
             <span class="text-secondary ml-2 inline-block"
               >7</span
@@ -648,7 +628,7 @@
         <li class="group m-0 mb-3 mr-3 inline-block p-0">
           <a
             href="/tags/dogs"
-            class="flex rounded border px-2 text-xs font-medium leading-7 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
+            class="flex rounded-full border px-3 leading-7 text-xs font-medium leading-8 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
             >dogs
             <span class="text-secondary ml-2 inline-block"
               >7</span
@@ -659,7 +639,7 @@
         <li class="group m-0 mb-3 mr-3 inline-block p-0">
           <a
             href="/tags/racism"
-            class="flex rounded border px-2 text-xs font-medium leading-7 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
+            class="flex rounded-full border px-3 leading-7 text-xs font-medium leading-8 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
             >racism
             <span class="text-secondary ml-2 inline-block"
               >7</span
@@ -670,7 +650,7 @@
         <li class="group m-0 mb-3 mr-3 inline-block p-0">
           <a
             href="/tags/career"
-            class="flex rounded border px-2 text-xs font-medium leading-7 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
+            class="flex rounded-full border px-3 leading-7 text-xs font-medium leading-8 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
             >career
             <span class="text-secondary ml-2 inline-block"
               >6</span
@@ -681,7 +661,7 @@
         <li class="group m-0 mb-3 mr-3 inline-block p-0">
           <a
             href="/tags/poetry"
-            class="flex rounded border px-2 text-xs font-medium leading-7 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
+            class="flex rounded-full border px-3 leading-7 text-xs font-medium leading-8 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
             >poetry
             <span class="text-secondary ml-2 inline-block"
               >6</span
@@ -692,7 +672,7 @@
         <li class="group m-0 mb-3 mr-3 inline-block p-0">
           <a
             href="/tags/productivity"
-            class="flex rounded border px-2 text-xs font-medium leading-7 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
+            class="flex rounded-full border px-3 leading-7 text-xs font-medium leading-8 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
             >productivity
             <span class="text-secondary ml-2 inline-block"
               >6</span
@@ -703,7 +683,7 @@
         <li class="group m-0 mb-3 mr-3 inline-block p-0">
           <a
             href="/tags/ux"
-            class="flex rounded border px-2 text-xs font-medium leading-7 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
+            class="flex rounded-full border px-3 leading-7 text-xs font-medium leading-8 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
             >ux
             <span class="text-secondary ml-2 inline-block"
               >6</span
@@ -714,7 +694,7 @@
         <li class="group m-0 mb-3 mr-3 inline-block p-0">
           <a
             href="/tags/diversity-and-inclusion"
-            class="flex rounded border px-2 text-xs font-medium leading-7 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
+            class="flex rounded-full border px-3 leading-7 text-xs font-medium leading-8 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
             >diversity-and-inclusion
             <span class="text-secondary ml-2 inline-block"
               >5</span
@@ -725,7 +705,7 @@
         <li class="group m-0 mb-3 mr-3 inline-block p-0">
           <a
             href="/tags/holidays"
-            class="flex rounded border px-2 text-xs font-medium leading-7 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
+            class="flex rounded-full border px-3 leading-7 text-xs font-medium leading-8 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
             >holidays
             <span class="text-secondary ml-2 inline-block"
               >5</span
@@ -736,7 +716,7 @@
         <li class="group m-0 mb-3 mr-3 inline-block p-0">
           <a
             href="/tags/indieweb-carnival"
-            class="flex rounded border px-2 text-xs font-medium leading-7 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
+            class="flex rounded-full border px-3 leading-7 text-xs font-medium leading-8 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
             >indieweb-carnival
             <span class="text-secondary ml-2 inline-block"
               >5</span
@@ -747,7 +727,7 @@
         <li class="group m-0 mb-3 mr-3 inline-block p-0">
           <a
             href="/tags/language"
-            class="flex rounded border px-2 text-xs font-medium leading-7 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
+            class="flex rounded-full border px-3 leading-7 text-xs font-medium leading-8 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
             >language
             <span class="text-secondary ml-2 inline-block"
               >5</span
@@ -758,7 +738,7 @@
         <li class="group m-0 mb-3 mr-3 inline-block p-0">
           <a
             href="/tags/lemonade"
-            class="flex rounded border px-2 text-xs font-medium leading-7 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
+            class="flex rounded-full border px-3 leading-7 text-xs font-medium leading-8 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
             >lemonade
             <span class="text-secondary ml-2 inline-block"
               >5</span
@@ -769,7 +749,7 @@
         <li class="group m-0 mb-3 mr-3 inline-block p-0">
           <a
             href="/tags/mentoring"
-            class="flex rounded border px-2 text-xs font-medium leading-7 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
+            class="flex rounded-full border px-3 leading-7 text-xs font-medium leading-8 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
             >mentoring
             <span class="text-secondary ml-2 inline-block"
               >5</span
@@ -780,7 +760,7 @@
         <li class="group m-0 mb-3 mr-3 inline-block p-0">
           <a
             href="/tags/milestones"
-            class="flex rounded border px-2 text-xs font-medium leading-7 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
+            class="flex rounded-full border px-3 leading-7 text-xs font-medium leading-8 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
             >milestones
             <span class="text-secondary ml-2 inline-block"
               >5</span
@@ -791,7 +771,7 @@
         <li class="group m-0 mb-3 mr-3 inline-block p-0">
           <a
             href="/tags/neighborhood"
-            class="flex rounded border px-2 text-xs font-medium leading-7 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
+            class="flex rounded-full border px-3 leading-7 text-xs font-medium leading-8 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
             >neighborhood
             <span class="text-secondary ml-2 inline-block"
               >5</span
@@ -802,7 +782,7 @@
         <li class="group m-0 mb-3 mr-3 inline-block p-0">
           <a
             href="/tags/neurodivergence"
-            class="flex rounded border px-2 text-xs font-medium leading-7 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
+            class="flex rounded-full border px-3 leading-7 text-xs font-medium leading-8 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
             >neurodivergence
             <span class="text-secondary ml-2 inline-block"
               >5</span
@@ -813,7 +793,7 @@
         <li class="group m-0 mb-3 mr-3 inline-block p-0">
           <a
             href="/tags/blogging"
-            class="flex rounded border px-2 text-xs font-medium leading-7 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
+            class="flex rounded-full border px-3 leading-7 text-xs font-medium leading-8 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
             >blogging
             <span class="text-secondary ml-2 inline-block"
               >4</span
@@ -823,8 +803,19 @@
            
         <li class="group m-0 mb-3 mr-3 inline-block p-0">
           <a
+            href="/tags/childhood"
+            class="flex rounded-full border px-3 leading-7 text-xs font-medium leading-8 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
+            >childhood
+            <span class="text-secondary ml-2 inline-block"
+              >4</span
+            ></a
+          >
+        </li>
+           
+        <li class="group m-0 mb-3 mr-3 inline-block p-0">
+          <a
             href="/tags/internet"
-            class="flex rounded border px-2 text-xs font-medium leading-7 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
+            class="flex rounded-full border px-3 leading-7 text-xs font-medium leading-8 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
             >internet
             <span class="text-secondary ml-2 inline-block"
               >4</span
@@ -835,7 +826,7 @@
         <li class="group m-0 mb-3 mr-3 inline-block p-0">
           <a
             href="/tags/learning"
-            class="flex rounded border px-2 text-xs font-medium leading-7 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
+            class="flex rounded-full border px-3 leading-7 text-xs font-medium leading-8 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
             >learning
             <span class="text-secondary ml-2 inline-block"
               >4</span
@@ -846,7 +837,7 @@
         <li class="group m-0 mb-3 mr-3 inline-block p-0">
           <a
             href="/tags/life-changes"
-            class="flex rounded border px-2 text-xs font-medium leading-7 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
+            class="flex rounded-full border px-3 leading-7 text-xs font-medium leading-8 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
             >life-changes
             <span class="text-secondary ml-2 inline-block"
               >4</span
@@ -856,8 +847,19 @@
            
         <li class="group m-0 mb-3 mr-3 inline-block p-0">
           <a
+            href="/tags/mental-health"
+            class="flex rounded-full border px-3 leading-7 text-xs font-medium leading-8 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
+            >mental-health
+            <span class="text-secondary ml-2 inline-block"
+              >4</span
+            ></a
+          >
+        </li>
+           
+        <li class="group m-0 mb-3 mr-3 inline-block p-0">
+          <a
             href="/tags/meta"
-            class="flex rounded border px-2 text-xs font-medium leading-7 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
+            class="flex rounded-full border px-3 leading-7 text-xs font-medium leading-8 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
             >meta
             <span class="text-secondary ml-2 inline-block"
               >4</span
@@ -868,7 +870,7 @@
         <li class="group m-0 mb-3 mr-3 inline-block p-0">
           <a
             href="/tags/travel"
-            class="flex rounded border px-2 text-xs font-medium leading-7 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
+            class="flex rounded-full border px-3 leading-7 text-xs font-medium leading-8 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
             >travel
             <span class="text-secondary ml-2 inline-block"
               >4</span
@@ -879,7 +881,7 @@
         <li class="group m-0 mb-3 mr-3 inline-block p-0">
           <a
             href="/tags/babies"
-            class="flex rounded border px-2 text-xs font-medium leading-7 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
+            class="flex rounded-full border px-3 leading-7 text-xs font-medium leading-8 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
             >babies
             <span class="text-secondary ml-2 inline-block"
               >3</span
@@ -890,7 +892,7 @@
         <li class="group m-0 mb-3 mr-3 inline-block p-0">
           <a
             href="/tags/bible-study"
-            class="flex rounded border px-2 text-xs font-medium leading-7 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
+            class="flex rounded-full border px-3 leading-7 text-xs font-medium leading-8 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
             >bible-study
             <span class="text-secondary ml-2 inline-block"
               >3</span
@@ -901,7 +903,7 @@
         <li class="group m-0 mb-3 mr-3 inline-block p-0">
           <a
             href="/tags/birthday"
-            class="flex rounded border px-2 text-xs font-medium leading-7 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
+            class="flex rounded-full border px-3 leading-7 text-xs font-medium leading-8 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
             >birthday
             <span class="text-secondary ml-2 inline-block"
               >3</span
@@ -911,19 +913,8 @@
            
         <li class="group m-0 mb-3 mr-3 inline-block p-0">
           <a
-            href="/tags/childhood"
-            class="flex rounded border px-2 text-xs font-medium leading-7 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
-            >childhood
-            <span class="text-secondary ml-2 inline-block"
-              >3</span
-            ></a
-          >
-        </li>
-           
-        <li class="group m-0 mb-3 mr-3 inline-block p-0">
-          <a
             href="/tags/christmas"
-            class="flex rounded border px-2 text-xs font-medium leading-7 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
+            class="flex rounded-full border px-3 leading-7 text-xs font-medium leading-8 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
             >christmas
             <span class="text-secondary ml-2 inline-block"
               >3</span
@@ -934,7 +925,7 @@
         <li class="group m-0 mb-3 mr-3 inline-block p-0">
           <a
             href="/tags/church"
-            class="flex rounded border px-2 text-xs font-medium leading-7 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
+            class="flex rounded-full border px-3 leading-7 text-xs font-medium leading-8 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
             >church
             <span class="text-secondary ml-2 inline-block"
               >3</span
@@ -945,7 +936,7 @@
         <li class="group m-0 mb-3 mr-3 inline-block p-0">
           <a
             href="/tags/community"
-            class="flex rounded border px-2 text-xs font-medium leading-7 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
+            class="flex rounded-full border px-3 leading-7 text-xs font-medium leading-8 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
             >community
             <span class="text-secondary ml-2 inline-block"
               >3</span
@@ -956,7 +947,7 @@
         <li class="group m-0 mb-3 mr-3 inline-block p-0">
           <a
             href="/tags/discrimination"
-            class="flex rounded border px-2 text-xs font-medium leading-7 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
+            class="flex rounded-full border px-3 leading-7 text-xs font-medium leading-8 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
             >discrimination
             <span class="text-secondary ml-2 inline-block"
               >3</span
@@ -967,7 +958,7 @@
         <li class="group m-0 mb-3 mr-3 inline-block p-0">
           <a
             href="/tags/expats"
-            class="flex rounded border px-2 text-xs font-medium leading-7 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
+            class="flex rounded-full border px-3 leading-7 text-xs font-medium leading-8 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
             >expats
             <span class="text-secondary ml-2 inline-block"
               >3</span
@@ -978,7 +969,7 @@
         <li class="group m-0 mb-3 mr-3 inline-block p-0">
           <a
             href="/tags/friendship"
-            class="flex rounded border px-2 text-xs font-medium leading-7 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
+            class="flex rounded-full border px-3 leading-7 text-xs font-medium leading-8 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
             >friendship
             <span class="text-secondary ml-2 inline-block"
               >3</span
@@ -989,7 +980,7 @@
         <li class="group m-0 mb-3 mr-3 inline-block p-0">
           <a
             href="/tags/horror"
-            class="flex rounded border px-2 text-xs font-medium leading-7 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
+            class="flex rounded-full border px-3 leading-7 text-xs font-medium leading-8 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
             >horror
             <span class="text-secondary ml-2 inline-block"
               >3</span
@@ -1000,7 +991,7 @@
         <li class="group m-0 mb-3 mr-3 inline-block p-0">
           <a
             href="/tags/inclusion"
-            class="flex rounded border px-2 text-xs font-medium leading-7 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
+            class="flex rounded-full border px-3 leading-7 text-xs font-medium leading-8 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
             >inclusion
             <span class="text-secondary ml-2 inline-block"
               >3</span
@@ -1011,7 +1002,7 @@
         <li class="group m-0 mb-3 mr-3 inline-block p-0">
           <a
             href="/tags/lists"
-            class="flex rounded border px-2 text-xs font-medium leading-7 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
+            class="flex rounded-full border px-3 leading-7 text-xs font-medium leading-8 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
             >lists
             <span class="text-secondary ml-2 inline-block"
               >3</span
@@ -1021,19 +1012,8 @@
            
         <li class="group m-0 mb-3 mr-3 inline-block p-0">
           <a
-            href="/tags/mental-health"
-            class="flex rounded border px-2 text-xs font-medium leading-7 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
-            >mental-health
-            <span class="text-secondary ml-2 inline-block"
-              >3</span
-            ></a
-          >
-        </li>
-           
-        <li class="group m-0 mb-3 mr-3 inline-block p-0">
-          <a
             href="/tags/office-supplies"
-            class="flex rounded border px-2 text-xs font-medium leading-7 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
+            class="flex rounded-full border px-3 leading-7 text-xs font-medium leading-8 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
             >office-supplies
             <span class="text-secondary ml-2 inline-block"
               >3</span
@@ -1044,7 +1024,7 @@
         <li class="group m-0 mb-3 mr-3 inline-block p-0">
           <a
             href="/tags/overheard"
-            class="flex rounded border px-2 text-xs font-medium leading-7 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
+            class="flex rounded-full border px-3 leading-7 text-xs font-medium leading-8 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
             >overheard
             <span class="text-secondary ml-2 inline-block"
               >3</span
@@ -1055,7 +1035,7 @@
         <li class="group m-0 mb-3 mr-3 inline-block p-0">
           <a
             href="/tags/parks"
-            class="flex rounded border px-2 text-xs font-medium leading-7 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
+            class="flex rounded-full border px-3 leading-7 text-xs font-medium leading-8 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
             >parks
             <span class="text-secondary ml-2 inline-block"
               >3</span
@@ -1066,7 +1046,7 @@
         <li class="group m-0 mb-3 mr-3 inline-block p-0">
           <a
             href="/tags/piano"
-            class="flex rounded border px-2 text-xs font-medium leading-7 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
+            class="flex rounded-full border px-3 leading-7 text-xs font-medium leading-8 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
             >piano
             <span class="text-secondary ml-2 inline-block"
               >3</span
@@ -1077,7 +1057,7 @@
         <li class="group m-0 mb-3 mr-3 inline-block p-0">
           <a
             href="/tags/recovery"
-            class="flex rounded border px-2 text-xs font-medium leading-7 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
+            class="flex rounded-full border px-3 leading-7 text-xs font-medium leading-8 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
             >recovery
             <span class="text-secondary ml-2 inline-block"
               >3</span
@@ -1088,7 +1068,7 @@
         <li class="group m-0 mb-3 mr-3 inline-block p-0">
           <a
             href="/tags/tools"
-            class="flex rounded border px-2 text-xs font-medium leading-7 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
+            class="flex rounded-full border px-3 leading-7 text-xs font-medium leading-8 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
             >tools
             <span class="text-secondary ml-2 inline-block"
               >3</span
@@ -1099,7 +1079,7 @@
         <li class="group m-0 mb-3 mr-3 inline-block p-0">
           <a
             href="/tags/university"
-            class="flex rounded border px-2 text-xs font-medium leading-7 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
+            class="flex rounded-full border px-3 leading-7 text-xs font-medium leading-8 no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
             >university
             <span class="text-secondary ml-2 inline-block"
               >3</span
@@ -1115,24 +1095,30 @@
 </article>
 
                 </div> 
-            </main><footer class="not-prose mt-14 rounded border text-sm">
+            </main>
+
+            <div id="webmentions" class="text-sm pt-5 border-t"></div>
+<footer class="not-prose mt-14 rounded border text-sm">
   <div class="p-4">
     <div class="">
       <h4 class="mb-3 text-lg font-medium">Thank you for being here</h4>
       <p class="text-secondary h-card mb-3">
-        I'm
-        <a class="u-url text-primary font-medium" href="/">
-          <span class="p-name">
+        My name is
+        <a class="u-url p-name text-primary font-medium" href="/">
+          <span class="">
             <span class="p-given-name">Zinzy</span>
-            <span class="p-family-name">Waleson Geene</span>,
+            <span class="p-family-name">Waleson Geene</span>
           </span></a
         >
-        a <span class="p-category">Product Designer</span> from
+        and I'm a <span class="p-category">Product Designer</span> from
         <span class="p-locality">Amsterdam</span>
-        <span class="p-note">making software for people at work</span>. This
-        website is a place for soft stances, lived experiences, and critical
-        notes on the things I hold dear. If you like what you see here, reach
-        out to say so, or consider buying me coffee.
+        <span class="p-note">designing software for people at work</span> (<a
+          href="/about"
+          class="text-primary font-medium"
+          >More about me</a
+        >). This website is a place for soft stances, lived experiences, and
+        critical notes on the things I hold dear. If you like what you see here,
+        reach out to say so, or consider buying me coffee.
       </p>
     </div>
     <ul class="m-0 list-none p-0">

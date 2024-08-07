@@ -18,7 +18,6 @@
     type="application/rss+xml"
     href="https://zinzy.website/posts/index.xml"
     title="Zinzy&#39;s website"
-    
   />
 
   <link rel="icon" type="image/svg+xml" href="https://emojicdn.elk.sh/👋🏽" />
@@ -40,10 +39,16 @@
   <link rel="micropub" href="https://zinzy.website/micropub/main" />
 
   
+  
+
+  
   <link
     rel="webmention"
-    href="https://webmention.herokuapp.com/api/webmention"
+    href="https://webmention.io/zinzy.website/webmention"
   />
+
+  
+  <script src="/src/webmention.js" async></script>
 
   
 </head>
@@ -129,43 +134,6 @@
 </span>
       </a>
     </li>
-    <li class="mx-3" aria-label="Writing">
-      <a
-        href="/posts"
-        class="group grid h-10 w-10 content-center justify-center rounded-full hover:bg-pink-50 dark:hover:bg-pink-300/10"
-      >
-        <span class="transition-all group-hover:rotate-6"><svg
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  fill="none"
-  xmlns="http://www.w3.org/2000/svg"
->
-  <mask
-    id="mask0_635_90"
-    style="mask-type: alpha"
-    maskUnits="userSpaceOnUse"
-    x="0"
-    y="0"
-    width="24"
-    height="24"
-  >
-    <rect
-      width="24"
-      height="24"
-      class="fill-gray-950 group-hover:fill-pink-500 dark:fill-white dark:group-hover:fill-pink-300"
-    />
-  </mask>
-  <g mask="url(#mask0_635_90)">
-    <path
-      d="M9 17.75H15C15.2128 17.75 15.391 17.6782 15.5345 17.5345C15.6782 17.391 15.75 17.2128 15.75 17C15.75 16.7872 15.6782 16.609 15.5345 16.4655C15.391 16.3218 15.2128 16.25 15 16.25H9C8.78717 16.25 8.609 16.3218 8.4655 16.4655C8.32183 16.609 8.25 16.7872 8.25 17C8.25 17.2128 8.32183 17.391 8.4655 17.5345C8.609 17.6782 8.78717 17.75 9 17.75ZM9 13.75H15C15.2128 13.75 15.391 13.6782 15.5345 13.5345C15.6782 13.391 15.75 13.2128 15.75 13C15.75 12.7872 15.6782 12.609 15.5345 12.4655C15.391 12.3218 15.2128 12.25 15 12.25H9C8.78717 12.25 8.609 12.3218 8.4655 12.4655C8.32183 12.609 8.25 12.7872 8.25 13C8.25 13.2128 8.32183 13.391 8.4655 13.5345C8.609 13.6782 8.78717 13.75 9 13.75ZM6.30775 21.5C5.80258 21.5 5.375 21.325 5.025 20.975C4.675 20.625 4.5 20.1974 4.5 19.6923V4.30775C4.5 3.80258 4.675 3.375 5.025 3.025C5.375 2.675 5.80258 2.5 6.30775 2.5H13.502C13.743 2.5 13.9748 2.54683 14.1973 2.6405C14.4196 2.734 14.6128 2.86283 14.777 3.027L18.973 7.223C19.1372 7.38717 19.266 7.58042 19.3595 7.80275C19.4532 8.02525 19.5 8.257 19.5 8.498V19.6923C19.5 20.1974 19.325 20.625 18.975 20.975C18.625 21.325 18.1974 21.5 17.6923 21.5H6.30775ZM13.5 7.596V4H6.30775C6.23075 4 6.16025 4.03208 6.09625 4.09625C6.03208 4.16025 6 4.23075 6 4.30775V19.6923C6 19.7693 6.03208 19.8398 6.09625 19.9038C6.16025 19.9679 6.23075 20 6.30775 20H17.6923C17.7693 20 17.8398 19.9679 17.9038 19.9038C17.9679 19.8398 18 19.7693 18 19.6923V8.5H14.404C14.1462 8.5 13.9311 8.41375 13.7587 8.24125C13.5862 8.06892 13.5 7.85383 13.5 7.596Z"
-      class="fill-gray-950 group-hover:fill-pink-500 dark:fill-white dark:group-hover:fill-pink-300"
-    />
-  </g>
-</svg>
-</span>
-      </a>
-    </li>
     <li class="mx-3" aria-label="Sitemap">
       <a
         href="/sitemap"
@@ -218,26 +186,27 @@
 <div class="prose prose-gray dark:prose-invert relative"><p>I love art and storytelling, and enjoy keeping a record of what makes it into my subconscious. I believe that narratives have a major impact on the way our world takes shape. Some of the items below link to reflections and reviews.</p>
 </div>
 
-
 <div class="library">
-  <ul class="flex text-xs font-medium rounded mt-20">
-    
-      <li data-id="Read" class="border-y tab-button inline-block grow text-center py-2 cursor-pointer first:rounded-l last:rounded-r hover:bg-pink-50 first:border-l last:border-r hover:border-transparent hover:text-pink-500">Read</li>
-    
-      <li data-id="Watch" class="border-y tab-button inline-block grow text-center py-2 cursor-pointer first:rounded-l last:rounded-r hover:bg-pink-50 first:border-l last:border-r hover:border-transparent hover:text-pink-500">Watch</li>
-    
-      <li data-id="Listen" class="border-y tab-button inline-block grow text-center py-2 cursor-pointer first:rounded-l last:rounded-r hover:bg-pink-50 first:border-l last:border-r hover:border-transparent hover:text-pink-500">Listen</li>
-    
-  </ul>
+  <nav>
+    <ul class="flex text-xs font-medium rounded mt-20">
+      
+        <li data-id="Read" class="border-y tab-button inline-block grow text-center py-2 cursor-pointer first:rounded-l last:rounded-r hover:bg-pink-50 first:border-l last:border-r hover:border-transparent hover:text-pink-500 dark:text-white dark:hover:bg-pink-300/10 dark:hover:text-white">Read</li>
+      
+        <li data-id="Watch" class="border-y tab-button inline-block grow text-center py-2 cursor-pointer first:rounded-l last:rounded-r hover:bg-pink-50 first:border-l last:border-r hover:border-transparent hover:text-pink-500 dark:text-white dark:hover:bg-pink-300/10 dark:hover:text-white">Watch</li>
+      
+        <li data-id="Listen" class="border-y tab-button inline-block grow text-center py-2 cursor-pointer first:rounded-l last:rounded-r hover:bg-pink-50 first:border-l last:border-r hover:border-transparent hover:text-pink-500 dark:text-white dark:hover:bg-pink-300/10 dark:hover:text-white">Listen</li>
+      
+    </ul>
+  </nav>
   <div class=""> 
     
       <div data-id="Read" class="content mt-10 text-sm"  id="Read">
         
-        <ul class="border-t divide-y">
+        <ul class="divide-y dark:divide-zinc-700">
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Africa is not a Country</span>
+              <span class="block font-medium dark:text-white">Africa is not a Country</span>
               <span class="block text-secondary">Dipo Faloyin</span>
             </span>
             <span class="text-right text-secondary">
@@ -247,7 +216,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Freedom Is a Constant Struggle</span>
+              <span class="block font-medium dark:text-white">Freedom Is a Constant Struggle</span>
               <span class="block text-secondary">Angela Y. Davis</span>
             </span>
             <span class="text-right text-secondary">
@@ -257,7 +226,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">In the wake: on Blackness and being</span>
+              <span class="block font-medium dark:text-white">In the wake: on Blackness and being</span>
               <span class="block text-secondary">Christina Elizabeth Sharpe</span>
             </span>
             <span class="text-right text-secondary">
@@ -267,7 +236,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">None of the Above</span>
+              <span class="block font-medium dark:text-white">None of the Above</span>
               <span class="block text-secondary">Travis Alabanza</span>
             </span>
             <span class="text-right text-secondary">
@@ -277,7 +246,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Saving Jesus from the Church</span>
+              <span class="block font-medium dark:text-white">Saving Jesus from the Church</span>
               <span class="block text-secondary">Robin R. Meyers</span>
             </span>
             <span class="text-right text-secondary">
@@ -287,7 +256,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">The Body Keeps the Score</span>
+              <span class="block font-medium dark:text-white">The Body Keeps the Score</span>
               <span class="block text-secondary">Bessel van der Kolk</span>
             </span>
             <span class="text-right text-secondary">
@@ -300,11 +269,11 @@
     
       <div data-id="Watch" class="content mt-10 text-sm"  id="Watch">
         
-        <ul class="border-t divide-y">
+        <ul class="divide-y dark:divide-zinc-700">
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">[Rec]²</span>
+              <span class="block font-medium dark:text-white">[Rec]²</span>
               <span class="block text-secondary">Jaume Balagueró, Paco Plaza</span>
             </span>
             <span class="text-right text-secondary">
@@ -314,7 +283,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">47 Meters Down: Uncaged</span>
+              <span class="block font-medium dark:text-white">47 Meters Down: Uncaged</span>
               <span class="block text-secondary">Johannes Roberts</span>
             </span>
             <span class="text-right text-secondary">
@@ -324,7 +293,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">500 Days of Summer</span>
+              <span class="block font-medium dark:text-white">500 Days of Summer</span>
               <span class="block text-secondary">Marc Webb</span>
             </span>
             <span class="text-right text-secondary">
@@ -334,7 +303,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">A Beautiful Mind</span>
+              <span class="block font-medium dark:text-white">A Beautiful Mind</span>
               <span class="block text-secondary">Ron Howard</span>
             </span>
             <span class="text-right text-secondary">
@@ -344,7 +313,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">A Clockwork Orange</span>
+              <span class="block font-medium dark:text-white">A Clockwork Orange</span>
               <span class="block text-secondary">Stanley Kubrick</span>
             </span>
             <span class="text-right text-secondary">
@@ -354,7 +323,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Abbott Elementary</span>
+              <span class="block font-medium dark:text-white">Abbott Elementary</span>
               <span class="block text-secondary">Quinta Brunson</span>
             </span>
             <span class="text-right text-secondary">
@@ -364,7 +333,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Adventureland</span>
+              <span class="block font-medium dark:text-white">Adventureland</span>
               <span class="block text-secondary">Greg Mottola</span>
             </span>
             <span class="text-right text-secondary">
@@ -374,7 +343,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Ali &amp; Ava</span>
+              <span class="block font-medium dark:text-white">Ali &amp; Ava</span>
               <span class="block text-secondary">Clio Barnard</span>
             </span>
             <span class="text-right text-secondary">
@@ -384,7 +353,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Along Came a Spider</span>
+              <span class="block font-medium dark:text-white">Along Came a Spider</span>
               <span class="block text-secondary">Lee Tamahori</span>
             </span>
             <span class="text-right text-secondary">
@@ -394,7 +363,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Amazing Grace</span>
+              <span class="block font-medium dark:text-white">Amazing Grace</span>
               <span class="block text-secondary">Alan Elliott,Sydney Pollack</span>
             </span>
             <span class="text-right text-secondary">
@@ -404,7 +373,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Amélie</span>
+              <span class="block font-medium dark:text-white">Amélie</span>
               <span class="block text-secondary">Jean-Pierre Jeunet</span>
             </span>
             <span class="text-right text-secondary">
@@ -414,7 +383,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">American Beauty</span>
+              <span class="block font-medium dark:text-white">American Beauty</span>
               <span class="block text-secondary">Sam Mendes</span>
             </span>
             <span class="text-right text-secondary">
@@ -424,7 +393,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">American History X</span>
+              <span class="block font-medium dark:text-white">American History X</span>
               <span class="block text-secondary">Tony Kaye</span>
             </span>
             <span class="text-right text-secondary">
@@ -434,7 +403,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">American Psycho</span>
+              <span class="block font-medium dark:text-white">American Psycho</span>
               <span class="block text-secondary">Mary Harron</span>
             </span>
             <span class="text-right text-secondary">
@@ -444,7 +413,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">An Education</span>
+              <span class="block font-medium dark:text-white">An Education</span>
               <span class="block text-secondary">Lone Scherfig</span>
             </span>
             <span class="text-right text-secondary">
@@ -454,7 +423,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Anatomy of a Fall</span>
+              <span class="block font-medium dark:text-white">Anatomy of a Fall</span>
               <span class="block text-secondary">Justine Triet</span>
             </span>
             <span class="text-right text-secondary">
@@ -464,7 +433,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Apocalypse Now</span>
+              <span class="block font-medium dark:text-white">Apocalypse Now</span>
               <span class="block text-secondary">Francis Ford Coppola</span>
             </span>
             <span class="text-right text-secondary">
@@ -474,7 +443,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Arrival</span>
+              <span class="block font-medium dark:text-white">Arrival</span>
               <span class="block text-secondary">Denis Villeneuve</span>
             </span>
             <span class="text-right text-secondary">
@@ -484,7 +453,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">As Good as It Gets</span>
+              <span class="block font-medium dark:text-white">As Good as It Gets</span>
               <span class="block text-secondary">James L. Brooks</span>
             </span>
             <span class="text-right text-secondary">
@@ -494,7 +463,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Asteroid City</span>
+              <span class="block font-medium dark:text-white">Asteroid City</span>
               <span class="block text-secondary">Wes Anderson</span>
             </span>
             <span class="text-right text-secondary">
@@ -504,7 +473,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Babel</span>
+              <span class="block font-medium dark:text-white">Babel</span>
               <span class="block text-secondary">Alejandro G. Iñárritu</span>
             </span>
             <span class="text-right text-secondary">
@@ -514,7 +483,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Barbie</span>
+              <span class="block font-medium dark:text-white">Barbie</span>
               <span class="block text-secondary">Greta Gerwig</span>
             </span>
             <span class="text-right text-secondary">
@@ -524,7 +493,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Beau Is Afraid</span>
+              <span class="block font-medium dark:text-white">Beau Is Afraid</span>
               <span class="block text-secondary">Ari Aster</span>
             </span>
             <span class="text-right text-secondary">
@@ -534,7 +503,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Best in Show</span>
+              <span class="block font-medium dark:text-white">Best in Show</span>
               <span class="block text-secondary">Christopher Guest</span>
             </span>
             <span class="text-right text-secondary">
@@ -544,7 +513,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Black Swan</span>
+              <span class="block font-medium dark:text-white">Black Swan</span>
               <span class="block text-secondary">Darren Aronofsky</span>
             </span>
             <span class="text-right text-secondary">
@@ -554,7 +523,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Braveheart</span>
+              <span class="block font-medium dark:text-white">Braveheart</span>
               <span class="block text-secondary">Mel Gibson</span>
             </span>
             <span class="text-right text-secondary">
@@ -564,7 +533,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Bundy and the Green River Killer</span>
+              <span class="block font-medium dark:text-white">Bundy and the Green River Killer</span>
               <span class="block text-secondary">Andrew Jones</span>
             </span>
             <span class="text-right text-secondary">
@@ -574,7 +543,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Call Me by Your Name</span>
+              <span class="block font-medium dark:text-white">Call Me by Your Name</span>
               <span class="block text-secondary">Luca Guadagnino</span>
             </span>
             <span class="text-right text-secondary">
@@ -584,7 +553,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Carol</span>
+              <span class="block font-medium dark:text-white">Carol</span>
               <span class="block text-secondary">Todd Haynes</span>
             </span>
             <span class="text-right text-secondary">
@@ -594,7 +563,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Carrie</span>
+              <span class="block font-medium dark:text-white">Carrie</span>
               <span class="block text-secondary">Brian De Palma</span>
             </span>
             <span class="text-right text-secondary">
@@ -604,7 +573,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Catch Me If You Can</span>
+              <span class="block font-medium dark:text-white">Catch Me If You Can</span>
               <span class="block text-secondary">Steven Spielberg</span>
             </span>
             <span class="text-right text-secondary">
@@ -614,7 +583,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Chain Letter</span>
+              <span class="block font-medium dark:text-white">Chain Letter</span>
               <span class="block text-secondary">Deon Taylor</span>
             </span>
             <span class="text-right text-secondary">
@@ -624,7 +593,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Child&#39;s Play</span>
+              <span class="block font-medium dark:text-white">Child&#39;s Play</span>
               <span class="block text-secondary">Tom Holland</span>
             </span>
             <span class="text-right text-secondary">
@@ -634,7 +603,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Chloe</span>
+              <span class="block font-medium dark:text-white">Chloe</span>
               <span class="block text-secondary">Atom Egoyan</span>
             </span>
             <span class="text-right text-secondary">
@@ -644,7 +613,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">City of God</span>
+              <span class="block font-medium dark:text-white">City of God</span>
               <span class="block text-secondary">Fernando Meirelles,Kátia Lund</span>
             </span>
             <span class="text-right text-secondary">
@@ -654,7 +623,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Civil War</span>
+              <span class="block font-medium dark:text-white">Civil War</span>
               <span class="block text-secondary">Alex Garland</span>
             </span>
             <span class="text-right text-secondary">
@@ -664,7 +633,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">CODA</span>
+              <span class="block font-medium dark:text-white">CODA</span>
               <span class="block text-secondary">Sian Heder</span>
             </span>
             <span class="text-right text-secondary">
@@ -674,7 +643,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Corpus Christi</span>
+              <span class="block font-medium dark:text-white">Corpus Christi</span>
               <span class="block text-secondary">Jan Komasa</span>
             </span>
             <span class="text-right text-secondary">
@@ -684,7 +653,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Crazy, Stupid, Love.</span>
+              <span class="block font-medium dark:text-white">Crazy, Stupid, Love.</span>
               <span class="block text-secondary">Glenn Ficarra,John Requa</span>
             </span>
             <span class="text-right text-secondary">
@@ -694,7 +663,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Creep</span>
+              <span class="block font-medium dark:text-white">Creep</span>
               <span class="block text-secondary">Patrick Brice</span>
             </span>
             <span class="text-right text-secondary">
@@ -704,7 +673,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Cube</span>
+              <span class="block font-medium dark:text-white">Cube</span>
               <span class="block text-secondary">Vincenzo Natali</span>
             </span>
             <span class="text-right text-secondary">
@@ -714,7 +683,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Dan in Real Life</span>
+              <span class="block font-medium dark:text-white">Dan in Real Life</span>
               <span class="block text-secondary">Peter Hedges</span>
             </span>
             <span class="text-right text-secondary">
@@ -724,7 +693,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Dead Poets Society</span>
+              <span class="block font-medium dark:text-white">Dead Poets Society</span>
               <span class="block text-secondary">Peter Weir</span>
             </span>
             <span class="text-right text-secondary">
@@ -734,7 +703,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Definitely, Maybe</span>
+              <span class="block font-medium dark:text-white">Definitely, Maybe</span>
               <span class="block text-secondary">Adam Brooks</span>
             </span>
             <span class="text-right text-secondary">
@@ -744,7 +713,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Dirty John</span>
+              <span class="block font-medium dark:text-white">Dirty John</span>
               <span class="block text-secondary"></span>
             </span>
             <span class="text-right text-secondary">
@@ -754,7 +723,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Disturbia</span>
+              <span class="block font-medium dark:text-white">Disturbia</span>
               <span class="block text-secondary">D.J. Caruso</span>
             </span>
             <span class="text-right text-secondary">
@@ -764,7 +733,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Django Unchained</span>
+              <span class="block font-medium dark:text-white">Django Unchained</span>
               <span class="block text-secondary">Quentin Tarantino</span>
             </span>
             <span class="text-right text-secondary">
@@ -774,7 +743,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Doctor Sleep</span>
+              <span class="block font-medium dark:text-white">Doctor Sleep</span>
               <span class="block text-secondary">Mike Flanagan</span>
             </span>
             <span class="text-right text-secondary">
@@ -784,7 +753,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Dolores Claiborne</span>
+              <span class="block font-medium dark:text-white">Dolores Claiborne</span>
               <span class="block text-secondary">Taylor Hackford</span>
             </span>
             <span class="text-right text-secondary">
@@ -794,7 +763,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Don&#39;t Look Up</span>
+              <span class="block font-medium dark:text-white">Don&#39;t Look Up</span>
               <span class="block text-secondary">Adam McKay</span>
             </span>
             <span class="text-right text-secondary">
@@ -804,7 +773,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Doubt</span>
+              <span class="block font-medium dark:text-white">Doubt</span>
               <span class="block text-secondary">John Patrick Shanley</span>
             </span>
             <span class="text-right text-secondary">
@@ -814,7 +783,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Downsizing</span>
+              <span class="block font-medium dark:text-white">Downsizing</span>
               <span class="block text-secondary">Alexander Payne</span>
             </span>
             <span class="text-right text-secondary">
@@ -824,7 +793,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Downton Abbey</span>
+              <span class="block font-medium dark:text-white">Downton Abbey</span>
               <span class="block text-secondary">Michael Engler</span>
             </span>
             <span class="text-right text-secondary">
@@ -834,7 +803,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Eternal Sunshine of the Spotless Mind</span>
+              <span class="block font-medium dark:text-white">Eternal Sunshine of the Spotless Mind</span>
               <span class="block text-secondary">Michel Gondry</span>
             </span>
             <span class="text-right text-secondary">
@@ -844,7 +813,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Everybody Knows</span>
+              <span class="block font-medium dark:text-white">Everybody Knows</span>
               <span class="block text-secondary">Asghar Farhadi</span>
             </span>
             <span class="text-right text-secondary">
@@ -854,7 +823,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Fight Club</span>
+              <span class="block font-medium dark:text-white">Fight Club</span>
               <span class="block text-secondary">David Fincher</span>
             </span>
             <span class="text-right text-secondary">
@@ -864,7 +833,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Fish Tank</span>
+              <span class="block font-medium dark:text-white">Fish Tank</span>
               <span class="block text-secondary">Andrea Arnold</span>
             </span>
             <span class="text-right text-secondary">
@@ -874,7 +843,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Forrest Gump</span>
+              <span class="block font-medium dark:text-white">Forrest Gump</span>
               <span class="block text-secondary">Robert Zemeckis</span>
             </span>
             <span class="text-right text-secondary">
@@ -884,7 +853,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Get Out</span>
+              <span class="block font-medium dark:text-white">Get Out</span>
               <span class="block text-secondary">Jordan Peele</span>
             </span>
             <span class="text-right text-secondary">
@@ -894,7 +863,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Godzilla Minus One</span>
+              <span class="block font-medium dark:text-white">Godzilla Minus One</span>
               <span class="block text-secondary">Takashi Yamazaki</span>
             </span>
             <span class="text-right text-secondary">
@@ -904,7 +873,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Godzilla vs. Kong</span>
+              <span class="block font-medium dark:text-white">Godzilla vs. Kong</span>
               <span class="block text-secondary">Adam Wingard</span>
             </span>
             <span class="text-right text-secondary">
@@ -914,7 +883,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Gone Girl</span>
+              <span class="block font-medium dark:text-white">Gone Girl</span>
               <span class="block text-secondary">David Fincher</span>
             </span>
             <span class="text-right text-secondary">
@@ -924,7 +893,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Goodfellas</span>
+              <span class="block font-medium dark:text-white">Goodfellas</span>
               <span class="block text-secondary">Martin Scorsese</span>
             </span>
             <span class="text-right text-secondary">
@@ -934,7 +903,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Gothika</span>
+              <span class="block font-medium dark:text-white">Gothika</span>
               <span class="block text-secondary">Mathieu Kassovitz</span>
             </span>
             <span class="text-right text-secondary">
@@ -944,7 +913,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Great Photo, Lovely Life</span>
+              <span class="block font-medium dark:text-white">Great Photo, Lovely Life</span>
               <span class="block text-secondary">Rachel Beth Anderson,Amanda Mustard</span>
             </span>
             <span class="text-right text-secondary">
@@ -954,7 +923,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Green Book</span>
+              <span class="block font-medium dark:text-white">Green Book</span>
               <span class="block text-secondary">Peter Farrelly</span>
             </span>
             <span class="text-right text-secondary">
@@ -964,7 +933,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Groundhog Day</span>
+              <span class="block font-medium dark:text-white">Groundhog Day</span>
               <span class="block text-secondary">Harold Ramis</span>
             </span>
             <span class="text-right text-secondary">
@@ -974,7 +943,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Gummo</span>
+              <span class="block font-medium dark:text-white">Gummo</span>
               <span class="block text-secondary">Harmony Korine</span>
             </span>
             <span class="text-right text-secondary">
@@ -984,7 +953,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Hamilton</span>
+              <span class="block font-medium dark:text-white">Hamilton</span>
               <span class="block text-secondary">Thomas Kail</span>
             </span>
             <span class="text-right text-secondary">
@@ -994,7 +963,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Hannah Gadsby: Nanette</span>
+              <span class="block font-medium dark:text-white">Hannah Gadsby: Nanette</span>
               <span class="block text-secondary">Jon Olb,Madeleine Parry</span>
             </span>
             <span class="text-right text-secondary">
@@ -1004,7 +973,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Hannibal</span>
+              <span class="block font-medium dark:text-white">Hannibal</span>
               <span class="block text-secondary">Ridley Scott</span>
             </span>
             <span class="text-right text-secondary">
@@ -1014,7 +983,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Hannibal Rising</span>
+              <span class="block font-medium dark:text-white">Hannibal Rising</span>
               <span class="block text-secondary">Peter Webber</span>
             </span>
             <span class="text-right text-secondary">
@@ -1024,7 +993,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Hansel &amp; Gretel: Witch Hunters</span>
+              <span class="block font-medium dark:text-white">Hansel &amp; Gretel: Witch Hunters</span>
               <span class="block text-secondary">Tommy Wirkola</span>
             </span>
             <span class="text-right text-secondary">
@@ -1034,7 +1003,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Happiness</span>
+              <span class="block font-medium dark:text-white">Happiness</span>
               <span class="block text-secondary">Todd Solondz</span>
             </span>
             <span class="text-right text-secondary">
@@ -1044,7 +1013,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Hard Candy</span>
+              <span class="block font-medium dark:text-white">Hard Candy</span>
               <span class="block text-secondary">David Slade</span>
             </span>
             <span class="text-right text-secondary">
@@ -1054,7 +1023,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Harold and Maude</span>
+              <span class="block font-medium dark:text-white">Harold and Maude</span>
               <span class="block text-secondary">Hal Ashby</span>
             </span>
             <span class="text-right text-secondary">
@@ -1064,7 +1033,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">He&#39;s Just Not That Into You</span>
+              <span class="block font-medium dark:text-white">He&#39;s Just Not That Into You</span>
               <span class="block text-secondary">Ken Kwapis</span>
             </span>
             <span class="text-right text-secondary">
@@ -1074,7 +1043,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Her</span>
+              <span class="block font-medium dark:text-white">Her</span>
               <span class="block text-secondary">Spike Jonze</span>
             </span>
             <span class="text-right text-secondary">
@@ -1084,7 +1053,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Hereditary</span>
+              <span class="block font-medium dark:text-white">Hereditary</span>
               <span class="block text-secondary">Ari Aster</span>
             </span>
             <span class="text-right text-secondary">
@@ -1094,7 +1063,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Horrible Bosses</span>
+              <span class="block font-medium dark:text-white">Horrible Bosses</span>
               <span class="block text-secondary">Seth Gordon</span>
             </span>
             <span class="text-right text-secondary">
@@ -1104,7 +1073,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Hounds of Love</span>
+              <span class="block font-medium dark:text-white">Hounds of Love</span>
               <span class="block text-secondary">Ben Young</span>
             </span>
             <span class="text-right text-secondary">
@@ -1114,7 +1083,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">I Am Legend</span>
+              <span class="block font-medium dark:text-white">I Am Legend</span>
               <span class="block text-secondary">Francis Lawrence</span>
             </span>
             <span class="text-right text-secondary">
@@ -1124,7 +1093,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">I Am Sam</span>
+              <span class="block font-medium dark:text-white">I Am Sam</span>
               <span class="block text-secondary">Jessie Nelson</span>
             </span>
             <span class="text-right text-secondary">
@@ -1134,7 +1103,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">I, Tonya</span>
+              <span class="block font-medium dark:text-white">I, Tonya</span>
               <span class="block text-secondary">Craig Gillespie</span>
             </span>
             <span class="text-right text-secondary">
@@ -1144,7 +1113,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">I&#39;m Thinking of Ending Things</span>
+              <span class="block font-medium dark:text-white">I&#39;m Thinking of Ending Things</span>
               <span class="block text-secondary">Charlie Kaufman</span>
             </span>
             <span class="text-right text-secondary">
@@ -1154,7 +1123,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">If Beale Street Could Talk</span>
+              <span class="block font-medium dark:text-white">If Beale Street Could Talk</span>
               <span class="block text-secondary">Barry Jenkins</span>
             </span>
             <span class="text-right text-secondary">
@@ -1164,7 +1133,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">In the Aisles</span>
+              <span class="block font-medium dark:text-white">In the Aisles</span>
               <span class="block text-secondary">Thomas Stuber</span>
             </span>
             <span class="text-right text-secondary">
@@ -1174,7 +1143,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Incendies</span>
+              <span class="block font-medium dark:text-white">Incendies</span>
               <span class="block text-secondary">Denis Villeneuve</span>
             </span>
             <span class="text-right text-secondary">
@@ -1184,7 +1153,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Inception</span>
+              <span class="block font-medium dark:text-white">Inception</span>
               <span class="block text-secondary">Christopher Nolan</span>
             </span>
             <span class="text-right text-secondary">
@@ -1194,7 +1163,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Interstellar</span>
+              <span class="block font-medium dark:text-white">Interstellar</span>
               <span class="block text-secondary">Christopher Nolan</span>
             </span>
             <span class="text-right text-secondary">
@@ -1204,7 +1173,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Into the Wild</span>
+              <span class="block font-medium dark:text-white">Into the Wild</span>
               <span class="block text-secondary">Sean Penn</span>
             </span>
             <span class="text-right text-secondary">
@@ -1214,7 +1183,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Inventing Anna</span>
+              <span class="block font-medium dark:text-white">Inventing Anna</span>
               <span class="block text-secondary"></span>
             </span>
             <span class="text-right text-secondary">
@@ -1224,7 +1193,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Irreversible</span>
+              <span class="block font-medium dark:text-white">Irreversible</span>
               <span class="block text-secondary">Gaspar Noé</span>
             </span>
             <span class="text-right text-secondary">
@@ -1234,7 +1203,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">It Follows</span>
+              <span class="block font-medium dark:text-white">It Follows</span>
               <span class="block text-secondary">David Robert Mitchell</span>
             </span>
             <span class="text-right text-secondary">
@@ -1244,7 +1213,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">It&#39;s a Wonderful Life</span>
+              <span class="block font-medium dark:text-white">It&#39;s a Wonderful Life</span>
               <span class="block text-secondary">Frank Capra</span>
             </span>
             <span class="text-right text-secondary">
@@ -1254,7 +1223,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Jeepers Creepers</span>
+              <span class="block font-medium dark:text-white">Jeepers Creepers</span>
               <span class="block text-secondary">Victor Salva</span>
             </span>
             <span class="text-right text-secondary">
@@ -1264,7 +1233,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Joker</span>
+              <span class="block font-medium dark:text-white">Joker</span>
               <span class="block text-secondary">Todd Phillips</span>
             </span>
             <span class="text-right text-secondary">
@@ -1274,7 +1243,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Juno</span>
+              <span class="block font-medium dark:text-white">Juno</span>
               <span class="block text-secondary">Jason Reitman</span>
             </span>
             <span class="text-right text-secondary">
@@ -1284,7 +1253,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Jurassic Park</span>
+              <span class="block font-medium dark:text-white">Jurassic Park</span>
               <span class="block text-secondary">Steven Spielberg</span>
             </span>
             <span class="text-right text-secondary">
@@ -1294,7 +1263,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Just, Melvin: Just Evil</span>
+              <span class="block font-medium dark:text-white">Just, Melvin: Just Evil</span>
               <span class="block text-secondary">James Ronald Whitney</span>
             </span>
             <span class="text-right text-secondary">
@@ -1304,7 +1273,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Kids</span>
+              <span class="block font-medium dark:text-white">Kids</span>
               <span class="block text-secondary">Larry Clark</span>
             </span>
             <span class="text-right text-secondary">
@@ -1314,7 +1283,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Kinds of Kindness</span>
+              <span class="block font-medium dark:text-white">Kinds of Kindness</span>
               <span class="block text-secondary">Yorgos Lanthimos</span>
             </span>
             <span class="text-right text-secondary">
@@ -1324,7 +1293,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Kiss Kiss Bang Bang</span>
+              <span class="block font-medium dark:text-white">Kiss Kiss Bang Bang</span>
               <span class="block text-secondary">Shane Black</span>
             </span>
             <span class="text-right text-secondary">
@@ -1334,7 +1303,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Knives Out</span>
+              <span class="block font-medium dark:text-white">Knives Out</span>
               <span class="block text-secondary">Rian Johnson</span>
             </span>
             <span class="text-right text-secondary">
@@ -1344,7 +1313,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Little Miss Sunshine</span>
+              <span class="block font-medium dark:text-white">Little Miss Sunshine</span>
               <span class="block text-secondary">Jonathan Dayton,Valerie Faris</span>
             </span>
             <span class="text-right text-secondary">
@@ -1354,7 +1323,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Little Women</span>
+              <span class="block font-medium dark:text-white">Little Women</span>
               <span class="block text-secondary">Greta Gerwig</span>
             </span>
             <span class="text-right text-secondary">
@@ -1364,7 +1333,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Love According to Dalva</span>
+              <span class="block font-medium dark:text-white">Love According to Dalva</span>
               <span class="block text-secondary">Emmanuelle Nicot</span>
             </span>
             <span class="text-right text-secondary">
@@ -1374,7 +1343,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Love Actually</span>
+              <span class="block font-medium dark:text-white">Love Actually</span>
               <span class="block text-secondary">Richard Curtis</span>
             </span>
             <span class="text-right text-secondary">
@@ -1384,7 +1353,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Lovely Molly</span>
+              <span class="block font-medium dark:text-white">Lovely Molly</span>
               <span class="block text-secondary">Eduardo Sánchez</span>
             </span>
             <span class="text-right text-secondary">
@@ -1394,7 +1363,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Magnolia</span>
+              <span class="block font-medium dark:text-white">Magnolia</span>
               <span class="block text-secondary">Paul Thomas Anderson</span>
             </span>
             <span class="text-right text-secondary">
@@ -1404,7 +1373,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Marriage Story</span>
+              <span class="block font-medium dark:text-white">Marriage Story</span>
               <span class="block text-secondary">Noah Baumbach</span>
             </span>
             <span class="text-right text-secondary">
@@ -1414,7 +1383,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Martha Marcy May Marlene</span>
+              <span class="block font-medium dark:text-white">Martha Marcy May Marlene</span>
               <span class="block text-secondary">Sean Durkin</span>
             </span>
             <span class="text-right text-secondary">
@@ -1424,7 +1393,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Meg 2: The Trench</span>
+              <span class="block font-medium dark:text-white">Meg 2: The Trench</span>
               <span class="block text-secondary">Ben Wheatley</span>
             </span>
             <span class="text-right text-secondary">
@@ -1434,7 +1403,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Megan Is Missing</span>
+              <span class="block font-medium dark:text-white">Megan Is Missing</span>
               <span class="block text-secondary">Michael Goi</span>
             </span>
             <span class="text-right text-secondary">
@@ -1444,7 +1413,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Melancholia</span>
+              <span class="block font-medium dark:text-white">Melancholia</span>
               <span class="block text-secondary">Lars von Trier</span>
             </span>
             <span class="text-right text-secondary">
@@ -1454,7 +1423,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Memento</span>
+              <span class="block font-medium dark:text-white">Memento</span>
               <span class="block text-secondary">Christopher Nolan</span>
             </span>
             <span class="text-right text-secondary">
@@ -1464,7 +1433,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Men</span>
+              <span class="block font-medium dark:text-white">Men</span>
               <span class="block text-secondary">Alex Garland</span>
             </span>
             <span class="text-right text-secondary">
@@ -1474,7 +1443,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Midsommar</span>
+              <span class="block font-medium dark:text-white">Midsommar</span>
               <span class="block text-secondary">Ari Aster</span>
             </span>
             <span class="text-right text-secondary">
@@ -1484,7 +1453,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Minari</span>
+              <span class="block font-medium dark:text-white">Minari</span>
               <span class="block text-secondary">Lee Isaac Chung</span>
             </span>
             <span class="text-right text-secondary">
@@ -1494,7 +1463,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Mirrors</span>
+              <span class="block font-medium dark:text-white">Mirrors</span>
               <span class="block text-secondary">Alexandre Aja</span>
             </span>
             <span class="text-right text-secondary">
@@ -1504,7 +1473,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Money Heist</span>
+              <span class="block font-medium dark:text-white">Money Heist</span>
               <span class="block text-secondary"></span>
             </span>
             <span class="text-right text-secondary">
@@ -1514,7 +1483,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Moonlight</span>
+              <span class="block font-medium dark:text-white">Moonlight</span>
               <span class="block text-secondary">Barry Jenkins</span>
             </span>
             <span class="text-right text-secondary">
@@ -1524,7 +1493,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Moonstruck</span>
+              <span class="block font-medium dark:text-white">Moonstruck</span>
               <span class="block text-secondary">Norman Jewison</span>
             </span>
             <span class="text-right text-secondary">
@@ -1534,7 +1503,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Mother!</span>
+              <span class="block font-medium dark:text-white">Mother!</span>
               <span class="block text-secondary">Darren Aronofsky</span>
             </span>
             <span class="text-right text-secondary">
@@ -1544,7 +1513,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">My Sister&#39;s Keeper</span>
+              <span class="block font-medium dark:text-white">My Sister&#39;s Keeper</span>
               <span class="block text-secondary">Nick Cassavetes</span>
             </span>
             <span class="text-right text-secondary">
@@ -1554,7 +1523,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Mysterious Skin</span>
+              <span class="block font-medium dark:text-white">Mysterious Skin</span>
               <span class="block text-secondary">Gregg Araki</span>
             </span>
             <span class="text-right text-secondary">
@@ -1564,7 +1533,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Nashville</span>
+              <span class="block font-medium dark:text-white">Nashville</span>
               <span class="block text-secondary"></span>
             </span>
             <span class="text-right text-secondary">
@@ -1574,7 +1543,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Never Rarely Sometimes Always</span>
+              <span class="block font-medium dark:text-white">Never Rarely Sometimes Always</span>
               <span class="block text-secondary">Eliza Hittman</span>
             </span>
             <span class="text-right text-secondary">
@@ -1584,7 +1553,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">No Country for Old Men</span>
+              <span class="block font-medium dark:text-white">No Country for Old Men</span>
               <span class="block text-secondary">Ethan Coen,Joel Coen</span>
             </span>
             <span class="text-right text-secondary">
@@ -1594,7 +1563,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Nomadland</span>
+              <span class="block font-medium dark:text-white">Nomadland</span>
               <span class="block text-secondary">Chloé Zhao</span>
             </span>
             <span class="text-right text-secondary">
@@ -1604,7 +1573,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Notes on a Scandal</span>
+              <span class="block font-medium dark:text-white">Notes on a Scandal</span>
               <span class="block text-secondary">Richard Eyre</span>
             </span>
             <span class="text-right text-secondary">
@@ -1614,7 +1583,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Nr. 10</span>
+              <span class="block font-medium dark:text-white">Nr. 10</span>
               <span class="block text-secondary">Alex van Warmerdam</span>
             </span>
             <span class="text-right text-secondary">
@@ -1624,7 +1593,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Nuit et brouillard</span>
+              <span class="block font-medium dark:text-white">Nuit et brouillard</span>
               <span class="block text-secondary">Alain Resnais</span>
             </span>
             <span class="text-right text-secondary">
@@ -1634,7 +1603,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Ocean&#39;s Thirteen</span>
+              <span class="block font-medium dark:text-white">Ocean&#39;s Thirteen</span>
               <span class="block text-secondary">Steven Soderbergh</span>
             </span>
             <span class="text-right text-secondary">
@@ -1644,7 +1613,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Office Space</span>
+              <span class="block font-medium dark:text-white">Office Space</span>
               <span class="block text-secondary">Mike Judge</span>
             </span>
             <span class="text-right text-secondary">
@@ -1654,7 +1623,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Old School</span>
+              <span class="block font-medium dark:text-white">Old School</span>
               <span class="block text-secondary">Todd Phillips</span>
             </span>
             <span class="text-right text-secondary">
@@ -1664,7 +1633,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Oldboy</span>
+              <span class="block font-medium dark:text-white">Oldboy</span>
               <span class="block text-secondary">Park Chan-wook</span>
             </span>
             <span class="text-right text-secondary">
@@ -1674,7 +1643,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">One Flew Over the Cuckoo&#39;s Nest</span>
+              <span class="block font-medium dark:text-white">One Flew Over the Cuckoo&#39;s Nest</span>
               <span class="block text-secondary">Milos Forman</span>
             </span>
             <span class="text-right text-secondary">
@@ -1684,7 +1653,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">One Hour Photo</span>
+              <span class="block font-medium dark:text-white">One Hour Photo</span>
               <span class="block text-secondary">Mark Romanek</span>
             </span>
             <span class="text-right text-secondary">
@@ -1694,7 +1663,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Oppenheimer</span>
+              <span class="block font-medium dark:text-white">Oppenheimer</span>
               <span class="block text-secondary">Christopher Nolan</span>
             </span>
             <span class="text-right text-secondary">
@@ -1704,7 +1673,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Panic Room</span>
+              <span class="block font-medium dark:text-white">Panic Room</span>
               <span class="block text-secondary">David Fincher</span>
             </span>
             <span class="text-right text-secondary">
@@ -1714,7 +1683,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Paranoid Park</span>
+              <span class="block font-medium dark:text-white">Paranoid Park</span>
               <span class="block text-secondary">Gus Van Sant</span>
             </span>
             <span class="text-right text-secondary">
@@ -1724,7 +1693,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Paranormal Activity</span>
+              <span class="block font-medium dark:text-white">Paranormal Activity</span>
               <span class="block text-secondary">Oren Peli</span>
             </span>
             <span class="text-right text-secondary">
@@ -1734,7 +1703,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Parasite</span>
+              <span class="block font-medium dark:text-white">Parasite</span>
               <span class="block text-secondary">Bong Joon Ho</span>
             </span>
             <span class="text-right text-secondary">
@@ -1744,7 +1713,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Past Lives</span>
+              <span class="block font-medium dark:text-white">Past Lives</span>
               <span class="block text-secondary">Celine Song</span>
             </span>
             <span class="text-right text-secondary">
@@ -1754,7 +1723,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Philadelphia</span>
+              <span class="block font-medium dark:text-white">Philadelphia</span>
               <span class="block text-secondary">Jonathan Demme</span>
             </span>
             <span class="text-right text-secondary">
@@ -1764,7 +1733,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Pieces of a Woman</span>
+              <span class="block font-medium dark:text-white">Pieces of a Woman</span>
               <span class="block text-secondary">Kornél Mundruczó</span>
             </span>
             <span class="text-right text-secondary">
@@ -1774,7 +1743,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Pieces of Her</span>
+              <span class="block font-medium dark:text-white">Pieces of Her</span>
               <span class="block text-secondary"></span>
             </span>
             <span class="text-right text-secondary">
@@ -1784,7 +1753,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Poor Things</span>
+              <span class="block font-medium dark:text-white">Poor Things</span>
               <span class="block text-secondary">Yorgos Lanthimos</span>
             </span>
             <span class="text-right text-secondary">
@@ -1794,7 +1763,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Prisoners</span>
+              <span class="block font-medium dark:text-white">Prisoners</span>
               <span class="block text-secondary">Denis Villeneuve</span>
             </span>
             <span class="text-right text-secondary">
@@ -1804,7 +1773,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Promising Young Woman</span>
+              <span class="block font-medium dark:text-white">Promising Young Woman</span>
               <span class="block text-secondary">Emerald Fennell</span>
             </span>
             <span class="text-right text-secondary">
@@ -1814,7 +1783,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Psycho</span>
+              <span class="block font-medium dark:text-white">Psycho</span>
               <span class="block text-secondary">Alfred Hitchcock</span>
             </span>
             <span class="text-right text-secondary">
@@ -1824,7 +1793,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Pulp Fiction</span>
+              <span class="block font-medium dark:text-white">Pulp Fiction</span>
               <span class="block text-secondary">Quentin Tarantino</span>
             </span>
             <span class="text-right text-secondary">
@@ -1834,7 +1803,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Queen &amp; Slim</span>
+              <span class="block font-medium dark:text-white">Queen &amp; Slim</span>
               <span class="block text-secondary">Melina Matsoukas</span>
             </span>
             <span class="text-right text-secondary">
@@ -1844,7 +1813,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">REC</span>
+              <span class="block font-medium dark:text-white">REC</span>
               <span class="block text-secondary">Jaume Balagueró,Paco Plaza</span>
             </span>
             <span class="text-right text-secondary">
@@ -1854,7 +1823,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Red Dragon</span>
+              <span class="block font-medium dark:text-white">Red Dragon</span>
               <span class="block text-secondary">Brett Ratner</span>
             </span>
             <span class="text-right text-secondary">
@@ -1864,7 +1833,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Requiem for a Dream</span>
+              <span class="block font-medium dark:text-white">Requiem for a Dream</span>
               <span class="block text-secondary">Darren Aronofsky</span>
             </span>
             <span class="text-right text-secondary">
@@ -1874,7 +1843,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Room</span>
+              <span class="block font-medium dark:text-white">Room</span>
               <span class="block text-secondary">Lenny Abrahamson</span>
             </span>
             <span class="text-right text-secondary">
@@ -1884,7 +1853,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Saw</span>
+              <span class="block font-medium dark:text-white">Saw</span>
               <span class="block text-secondary">James Wan</span>
             </span>
             <span class="text-right text-secondary">
@@ -1894,7 +1863,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Saw 3D</span>
+              <span class="block font-medium dark:text-white">Saw 3D</span>
               <span class="block text-secondary">Kevin Greutert</span>
             </span>
             <span class="text-right text-secondary">
@@ -1904,7 +1873,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Saw II</span>
+              <span class="block font-medium dark:text-white">Saw II</span>
               <span class="block text-secondary">Darren Lynn Bousman</span>
             </span>
             <span class="text-right text-secondary">
@@ -1914,7 +1883,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Saw III</span>
+              <span class="block font-medium dark:text-white">Saw III</span>
               <span class="block text-secondary">Darren Lynn Bousman</span>
             </span>
             <span class="text-right text-secondary">
@@ -1924,7 +1893,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Saw IV</span>
+              <span class="block font-medium dark:text-white">Saw IV</span>
               <span class="block text-secondary">Darren Lynn Bousman</span>
             </span>
             <span class="text-right text-secondary">
@@ -1934,7 +1903,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Schindler&#39;s List</span>
+              <span class="block font-medium dark:text-white">Schindler&#39;s List</span>
               <span class="block text-secondary">Steven Spielberg</span>
             </span>
             <span class="text-right text-secondary">
@@ -1944,7 +1913,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Scream</span>
+              <span class="block font-medium dark:text-white">Scream</span>
               <span class="block text-secondary">Wes Craven</span>
             </span>
             <span class="text-right text-secondary">
@@ -1954,7 +1923,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Se7en</span>
+              <span class="block font-medium dark:text-white">Se7en</span>
               <span class="block text-secondary">David Fincher</span>
             </span>
             <span class="text-right text-secondary">
@@ -1964,7 +1933,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Shame</span>
+              <span class="block font-medium dark:text-white">Shame</span>
               <span class="block text-secondary">Steve McQueen</span>
             </span>
             <span class="text-right text-secondary">
@@ -1974,7 +1943,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Shutter Island</span>
+              <span class="block font-medium dark:text-white">Shutter Island</span>
               <span class="block text-secondary">Martin Scorsese</span>
             </span>
             <span class="text-right text-secondary">
@@ -1984,7 +1953,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Single White Female</span>
+              <span class="block font-medium dark:text-white">Single White Female</span>
               <span class="block text-secondary">Barbet Schroeder</span>
             </span>
             <span class="text-right text-secondary">
@@ -1994,7 +1963,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Skew</span>
+              <span class="block font-medium dark:text-white">Skew</span>
               <span class="block text-secondary">Sevé Schelenz</span>
             </span>
             <span class="text-right text-secondary">
@@ -2004,7 +1973,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Sound of Metal</span>
+              <span class="block font-medium dark:text-white">Sound of Metal</span>
               <span class="block text-secondary">Darius Marder</span>
             </span>
             <span class="text-right text-secondary">
@@ -2014,7 +1983,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Spirited Away</span>
+              <span class="block font-medium dark:text-white">Spirited Away</span>
               <span class="block text-secondary">Hayao Miyazaki</span>
             </span>
             <span class="text-right text-secondary">
@@ -2024,7 +1993,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Splice</span>
+              <span class="block font-medium dark:text-white">Splice</span>
               <span class="block text-secondary">Vincenzo Natali</span>
             </span>
             <span class="text-right text-secondary">
@@ -2034,7 +2003,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Still Walking</span>
+              <span class="block font-medium dark:text-white">Still Walking</span>
               <span class="block text-secondary">Hirokazu Koreeda</span>
             </span>
             <span class="text-right text-secondary">
@@ -2044,7 +2013,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Storytelling</span>
+              <span class="block font-medium dark:text-white">Storytelling</span>
               <span class="block text-secondary">Todd Solondz</span>
             </span>
             <span class="text-right text-secondary">
@@ -2054,7 +2023,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Swan Song</span>
+              <span class="block font-medium dark:text-white">Swan Song</span>
               <span class="block text-secondary">Benjamin Cleary</span>
             </span>
             <span class="text-right text-secondary">
@@ -2064,7 +2033,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Synecdoche, New York</span>
+              <span class="block font-medium dark:text-white">Synecdoche, New York</span>
               <span class="block text-secondary">Charlie Kaufman</span>
             </span>
             <span class="text-right text-secondary">
@@ -2074,7 +2043,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Taipei Suicide Story</span>
+              <span class="block font-medium dark:text-white">Taipei Suicide Story</span>
               <span class="block text-secondary">KEFF</span>
             </span>
             <span class="text-right text-secondary">
@@ -2084,7 +2053,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Talk to Me</span>
+              <span class="block font-medium dark:text-white">Talk to Me</span>
               <span class="block text-secondary">Danny Philippou,Michael Philippou</span>
             </span>
             <span class="text-right text-secondary">
@@ -2094,7 +2063,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Taxi Driver</span>
+              <span class="block font-medium dark:text-white">Taxi Driver</span>
               <span class="block text-secondary">Martin Scorsese</span>
             </span>
             <span class="text-right text-secondary">
@@ -2104,7 +2073,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">The Babadook</span>
+              <span class="block font-medium dark:text-white">The Babadook</span>
               <span class="block text-secondary">Jennifer Kent</span>
             </span>
             <span class="text-right text-secondary">
@@ -2114,7 +2083,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">The Big Lebowski</span>
+              <span class="block font-medium dark:text-white">The Big Lebowski</span>
               <span class="block text-secondary">Joel Coen,Ethan Coen</span>
             </span>
             <span class="text-right text-secondary">
@@ -2124,7 +2093,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">The Blair Witch Project</span>
+              <span class="block font-medium dark:text-white">The Blair Witch Project</span>
               <span class="block text-secondary">Daniel Myrick,Eduardo Sánchez</span>
             </span>
             <span class="text-right text-secondary">
@@ -2134,7 +2103,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">The Bone Collector</span>
+              <span class="block font-medium dark:text-white">The Bone Collector</span>
               <span class="block text-secondary">Phillip Noyce</span>
             </span>
             <span class="text-right text-secondary">
@@ -2144,7 +2113,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">The Bourne Identity</span>
+              <span class="block font-medium dark:text-white">The Bourne Identity</span>
               <span class="block text-secondary">Doug Liman</span>
             </span>
             <span class="text-right text-secondary">
@@ -2154,7 +2123,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">The Break-Up</span>
+              <span class="block font-medium dark:text-white">The Break-Up</span>
               <span class="block text-secondary">Peyton Reed</span>
             </span>
             <span class="text-right text-secondary">
@@ -2164,7 +2133,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">The Bucket List</span>
+              <span class="block font-medium dark:text-white">The Bucket List</span>
               <span class="block text-secondary">Rob Reiner</span>
             </span>
             <span class="text-right text-secondary">
@@ -2174,7 +2143,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">The Cat, the Reverend and the Slave</span>
+              <span class="block font-medium dark:text-white">The Cat, the Reverend and the Slave</span>
               <span class="block text-secondary">Alain Della Negra,Kaori Kinoshita</span>
             </span>
             <span class="text-right text-secondary">
@@ -2184,7 +2153,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">The Chair</span>
+              <span class="block font-medium dark:text-white">The Chair</span>
               <span class="block text-secondary"></span>
             </span>
             <span class="text-right text-secondary">
@@ -2194,7 +2163,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">The Dark Knight</span>
+              <span class="block font-medium dark:text-white">The Dark Knight</span>
               <span class="block text-secondary">Christopher Nolan</span>
             </span>
             <span class="text-right text-secondary">
@@ -2204,7 +2173,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">The Descent</span>
+              <span class="block font-medium dark:text-white">The Descent</span>
               <span class="block text-secondary">Neil Marshall</span>
             </span>
             <span class="text-right text-secondary">
@@ -2214,7 +2183,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">The Exorcism of Emily Rose</span>
+              <span class="block font-medium dark:text-white">The Exorcism of Emily Rose</span>
               <span class="block text-secondary">Scott Derrickson</span>
             </span>
             <span class="text-right text-secondary">
@@ -2224,7 +2193,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">The Exorcist</span>
+              <span class="block font-medium dark:text-white">The Exorcist</span>
               <span class="block text-secondary">William Friedkin</span>
             </span>
             <span class="text-right text-secondary">
@@ -2234,7 +2203,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">The Experiment</span>
+              <span class="block font-medium dark:text-white">The Experiment</span>
               <span class="block text-secondary">Oliver Hirschbiegel</span>
             </span>
             <span class="text-right text-secondary">
@@ -2244,7 +2213,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">The Fall</span>
+              <span class="block font-medium dark:text-white">The Fall</span>
               <span class="block text-secondary"></span>
             </span>
             <span class="text-right text-secondary">
@@ -2254,7 +2223,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">The Farewell</span>
+              <span class="block font-medium dark:text-white">The Farewell</span>
               <span class="block text-secondary">Lulu Wang</span>
             </span>
             <span class="text-right text-secondary">
@@ -2264,7 +2233,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">The Father</span>
+              <span class="block font-medium dark:text-white">The Father</span>
               <span class="block text-secondary">Florian Zeller</span>
             </span>
             <span class="text-right text-secondary">
@@ -2274,7 +2243,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">The Favourite</span>
+              <span class="block font-medium dark:text-white">The Favourite</span>
               <span class="block text-secondary">Yorgos Lanthimos</span>
             </span>
             <span class="text-right text-secondary">
@@ -2284,7 +2253,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">The Godfather</span>
+              <span class="block font-medium dark:text-white">The Godfather</span>
               <span class="block text-secondary">Francis Ford Coppola</span>
             </span>
             <span class="text-right text-secondary">
@@ -2294,7 +2263,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">The Good Liar</span>
+              <span class="block font-medium dark:text-white">The Good Liar</span>
               <span class="block text-secondary">Bill Condon</span>
             </span>
             <span class="text-right text-secondary">
@@ -2304,7 +2273,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">The Great Gatsby</span>
+              <span class="block font-medium dark:text-white">The Great Gatsby</span>
               <span class="block text-secondary">Baz Luhrmann</span>
             </span>
             <span class="text-right text-secondary">
@@ -2314,7 +2283,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">The Green Mile</span>
+              <span class="block font-medium dark:text-white">The Green Mile</span>
               <span class="block text-secondary">Frank Darabont</span>
             </span>
             <span class="text-right text-secondary">
@@ -2324,7 +2293,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">The Grudge</span>
+              <span class="block font-medium dark:text-white">The Grudge</span>
               <span class="block text-secondary">Takashi Shimizu</span>
             </span>
             <span class="text-right text-secondary">
@@ -2334,7 +2303,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">The Hangover</span>
+              <span class="block font-medium dark:text-white">The Hangover</span>
               <span class="block text-secondary">Todd Phillips</span>
             </span>
             <span class="text-right text-secondary">
@@ -2344,7 +2313,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">The Hangover Part II</span>
+              <span class="block font-medium dark:text-white">The Hangover Part II</span>
               <span class="block text-secondary">Todd Phillips</span>
             </span>
             <span class="text-right text-secondary">
@@ -2354,7 +2323,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">The Help</span>
+              <span class="block font-medium dark:text-white">The Help</span>
               <span class="block text-secondary">Tate Taylor</span>
             </span>
             <span class="text-right text-secondary">
@@ -2364,7 +2333,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">The Hours</span>
+              <span class="block font-medium dark:text-white">The Hours</span>
               <span class="block text-secondary">Stephen Daldry</span>
             </span>
             <span class="text-right text-secondary">
@@ -2374,7 +2343,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">The House That Jack Built</span>
+              <span class="block font-medium dark:text-white">The House That Jack Built</span>
               <span class="block text-secondary">Lars von Trier</span>
             </span>
             <span class="text-right text-secondary">
@@ -2384,7 +2353,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">The Humans</span>
+              <span class="block font-medium dark:text-white">The Humans</span>
               <span class="block text-secondary">Stephen Karam</span>
             </span>
             <span class="text-right text-secondary">
@@ -2394,7 +2363,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">The Insurrectionist Next Door</span>
+              <span class="block font-medium dark:text-white">The Insurrectionist Next Door</span>
               <span class="block text-secondary">Alexandra Pelosi</span>
             </span>
             <span class="text-right text-secondary">
@@ -2404,7 +2373,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">The Internship</span>
+              <span class="block font-medium dark:text-white">The Internship</span>
               <span class="block text-secondary">Shawn Levy</span>
             </span>
             <span class="text-right text-secondary">
@@ -2414,7 +2383,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">The Kids Are All Right</span>
+              <span class="block font-medium dark:text-white">The Kids Are All Right</span>
               <span class="block text-secondary">Lisa Cholodenko</span>
             </span>
             <span class="text-right text-secondary">
@@ -2424,7 +2393,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">The Laundromat</span>
+              <span class="block font-medium dark:text-white">The Laundromat</span>
               <span class="block text-secondary">Steven Soderbergh</span>
             </span>
             <span class="text-right text-secondary">
@@ -2434,7 +2403,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">The Lion King</span>
+              <span class="block font-medium dark:text-white">The Lion King</span>
               <span class="block text-secondary">Roger Allers,Rob Minkoff</span>
             </span>
             <span class="text-right text-secondary">
@@ -2444,7 +2413,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">The Lion King</span>
+              <span class="block font-medium dark:text-white">The Lion King</span>
               <span class="block text-secondary">Jon Favreau</span>
             </span>
             <span class="text-right text-secondary">
@@ -2454,7 +2423,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">The Lord of the Rings: The Fellowship of the Ring</span>
+              <span class="block font-medium dark:text-white">The Lord of the Rings: The Fellowship of the Ring</span>
               <span class="block text-secondary">Peter Jackson</span>
             </span>
             <span class="text-right text-secondary">
@@ -2464,7 +2433,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">The Lost Daughter</span>
+              <span class="block font-medium dark:text-white">The Lost Daughter</span>
               <span class="block text-secondary">Maggie Gyllenhaal</span>
             </span>
             <span class="text-right text-secondary">
@@ -2474,7 +2443,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">The Man Who Sold His Skin</span>
+              <span class="block font-medium dark:text-white">The Man Who Sold His Skin</span>
               <span class="block text-secondary">Kaouther Ben Hania</span>
             </span>
             <span class="text-right text-secondary">
@@ -2484,7 +2453,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">The Master</span>
+              <span class="block font-medium dark:text-white">The Master</span>
               <span class="block text-secondary">Paul Thomas Anderson</span>
             </span>
             <span class="text-right text-secondary">
@@ -2494,7 +2463,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">The Matrix</span>
+              <span class="block font-medium dark:text-white">The Matrix</span>
               <span class="block text-secondary">Lana Wachowski,Lilly Wachowski</span>
             </span>
             <span class="text-right text-secondary">
@@ -2504,7 +2473,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">The Mauritanian</span>
+              <span class="block font-medium dark:text-white">The Mauritanian</span>
               <span class="block text-secondary">Kevin Macdonald</span>
             </span>
             <span class="text-right text-secondary">
@@ -2514,7 +2483,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">The Meg</span>
+              <span class="block font-medium dark:text-white">The Meg</span>
               <span class="block text-secondary">Jon Turteltaub</span>
             </span>
             <span class="text-right text-secondary">
@@ -2524,7 +2493,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">The Night House</span>
+              <span class="block font-medium dark:text-white">The Night House</span>
               <span class="block text-secondary">David Bruckner</span>
             </span>
             <span class="text-right text-secondary">
@@ -2534,7 +2503,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">The OA</span>
+              <span class="block font-medium dark:text-white">The OA</span>
               <span class="block text-secondary"></span>
             </span>
             <span class="text-right text-secondary">
@@ -2544,7 +2513,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">The Omen</span>
+              <span class="block font-medium dark:text-white">The Omen</span>
               <span class="block text-secondary">Richard Donner</span>
             </span>
             <span class="text-right text-secondary">
@@ -2554,7 +2523,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">The Pact</span>
+              <span class="block font-medium dark:text-white">The Pact</span>
               <span class="block text-secondary">Nicholas McCarthy</span>
             </span>
             <span class="text-right text-secondary">
@@ -2564,7 +2533,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">The Pianist</span>
+              <span class="block font-medium dark:text-white">The Pianist</span>
               <span class="block text-secondary">Roman Polanski</span>
             </span>
             <span class="text-right text-secondary">
@@ -2574,7 +2543,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">The Prestige</span>
+              <span class="block font-medium dark:text-white">The Prestige</span>
               <span class="block text-secondary">Christopher Nolan</span>
             </span>
             <span class="text-right text-secondary">
@@ -2584,7 +2553,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">The Proposal</span>
+              <span class="block font-medium dark:text-white">The Proposal</span>
               <span class="block text-secondary">Anne Fletcher</span>
             </span>
             <span class="text-right text-secondary">
@@ -2594,7 +2563,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">The Report</span>
+              <span class="block font-medium dark:text-white">The Report</span>
               <span class="block text-secondary">Scott Z. Burns</span>
             </span>
             <span class="text-right text-secondary">
@@ -2604,7 +2573,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">The Righteous Gemstones</span>
+              <span class="block font-medium dark:text-white">The Righteous Gemstones</span>
               <span class="block text-secondary"></span>
             </span>
             <span class="text-right text-secondary">
@@ -2614,7 +2583,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">The Ring</span>
+              <span class="block font-medium dark:text-white">The Ring</span>
               <span class="block text-secondary">Gore Verbinski</span>
             </span>
             <span class="text-right text-secondary">
@@ -2624,7 +2593,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">The Shawshank Redemption</span>
+              <span class="block font-medium dark:text-white">The Shawshank Redemption</span>
               <span class="block text-secondary">Frank Darabont</span>
             </span>
             <span class="text-right text-secondary">
@@ -2634,7 +2603,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">The Shining</span>
+              <span class="block font-medium dark:text-white">The Shining</span>
               <span class="block text-secondary">Stanley Kubrick</span>
             </span>
             <span class="text-right text-secondary">
@@ -2644,7 +2613,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">The Silence of the Lambs</span>
+              <span class="block font-medium dark:text-white">The Silence of the Lambs</span>
               <span class="block text-secondary">Jonathan Demme</span>
             </span>
             <span class="text-right text-secondary">
@@ -2654,7 +2623,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">The Sixth Sense</span>
+              <span class="block font-medium dark:text-white">The Sixth Sense</span>
               <span class="block text-secondary">M. Night Shyamalan</span>
             </span>
             <span class="text-right text-secondary">
@@ -2664,7 +2633,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">The Strange Thing About the Johnsons</span>
+              <span class="block font-medium dark:text-white">The Strange Thing About the Johnsons</span>
               <span class="block text-secondary">Ari Aster</span>
             </span>
             <span class="text-right text-secondary">
@@ -2674,7 +2643,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">The Switch</span>
+              <span class="block font-medium dark:text-white">The Switch</span>
               <span class="block text-secondary">Josh Gordon,Will Speck</span>
             </span>
             <span class="text-right text-secondary">
@@ -2684,7 +2653,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">The Texas Chain Saw Massacre</span>
+              <span class="block font-medium dark:text-white">The Texas Chain Saw Massacre</span>
               <span class="block text-secondary">Tobe Hooper</span>
             </span>
             <span class="text-right text-secondary">
@@ -2694,7 +2663,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">The Truman Show</span>
+              <span class="block font-medium dark:text-white">The Truman Show</span>
               <span class="block text-secondary">Peter Weir</span>
             </span>
             <span class="text-right text-secondary">
@@ -2704,7 +2673,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">The Unforgivable</span>
+              <span class="block font-medium dark:text-white">The Unforgivable</span>
               <span class="block text-secondary">Nora Fingscheidt</span>
             </span>
             <span class="text-right text-secondary">
@@ -2714,7 +2683,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">The Wolf of Wall Street</span>
+              <span class="block font-medium dark:text-white">The Wolf of Wall Street</span>
               <span class="block text-secondary">Martin Scorsese</span>
             </span>
             <span class="text-right text-secondary">
@@ -2724,7 +2693,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">The World to Come</span>
+              <span class="block font-medium dark:text-white">The World to Come</span>
               <span class="block text-secondary">Mona Fastvold</span>
             </span>
             <span class="text-right text-secondary">
@@ -2734,7 +2703,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Three Billboards Outside Ebbing, Missouri</span>
+              <span class="block font-medium dark:text-white">Three Billboards Outside Ebbing, Missouri</span>
               <span class="block text-secondary">Martin McDonagh</span>
             </span>
             <span class="text-right text-secondary">
@@ -2744,7 +2713,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Titanic</span>
+              <span class="block font-medium dark:text-white">Titanic</span>
               <span class="block text-secondary">James Cameron</span>
             </span>
             <span class="text-right text-secondary">
@@ -2754,7 +2723,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Toen we van de Duitsers verloren</span>
+              <span class="block font-medium dark:text-white">Toen we van de Duitsers verloren</span>
               <span class="block text-secondary">Guido van Driel</span>
             </span>
             <span class="text-right text-secondary">
@@ -2764,7 +2733,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Top Gun: Maverick</span>
+              <span class="block font-medium dark:text-white">Top Gun: Maverick</span>
               <span class="block text-secondary">Joseph Kosinski</span>
             </span>
             <span class="text-right text-secondary">
@@ -2774,7 +2743,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Toy Story</span>
+              <span class="block font-medium dark:text-white">Toy Story</span>
               <span class="block text-secondary">John Lasseter</span>
             </span>
             <span class="text-right text-secondary">
@@ -2784,7 +2753,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Toy Story 3</span>
+              <span class="block font-medium dark:text-white">Toy Story 3</span>
               <span class="block text-secondary">Lee Unkrich</span>
             </span>
             <span class="text-right text-secondary">
@@ -2794,7 +2763,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Trainspotting</span>
+              <span class="block font-medium dark:text-white">Trainspotting</span>
               <span class="block text-secondary">Danny Boyle</span>
             </span>
             <span class="text-right text-secondary">
@@ -2804,7 +2773,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Transamerica</span>
+              <span class="block font-medium dark:text-white">Transamerica</span>
               <span class="block text-secondary">Duncan Tucker</span>
             </span>
             <span class="text-right text-secondary">
@@ -2814,7 +2783,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Trick &#39;r Treat</span>
+              <span class="block font-medium dark:text-white">Trick &#39;r Treat</span>
               <span class="block text-secondary">Michael Dougherty</span>
             </span>
             <span class="text-right text-secondary">
@@ -2824,7 +2793,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Under Paris</span>
+              <span class="block font-medium dark:text-white">Under Paris</span>
               <span class="block text-secondary">Xavier Gens</span>
             </span>
             <span class="text-right text-secondary">
@@ -2834,7 +2803,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Us</span>
+              <span class="block font-medium dark:text-white">Us</span>
               <span class="block text-secondary">Jordan Peele</span>
             </span>
             <span class="text-right text-secondary">
@@ -2844,7 +2813,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">V/H/S</span>
+              <span class="block font-medium dark:text-white">V/H/S</span>
               <span class="block text-secondary">Matt Bettinelli-Olpin,David Bruckner,Tyler Gillett,Justin Martinez,Glenn McQuaid,Radio Silence,Joe Swanberg,Chad Villella,Ti West,Adam Wingard</span>
             </span>
             <span class="text-right text-secondary">
@@ -2854,7 +2823,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Waltz with Bashir</span>
+              <span class="block font-medium dark:text-white">Waltz with Bashir</span>
               <span class="block text-secondary">Ari Folman</span>
             </span>
             <span class="text-right text-secondary">
@@ -2864,7 +2833,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Wasp</span>
+              <span class="block font-medium dark:text-white">Wasp</span>
               <span class="block text-secondary">Andrea Arnold</span>
             </span>
             <span class="text-right text-secondary">
@@ -2874,7 +2843,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">We Need to Talk About Kevin</span>
+              <span class="block font-medium dark:text-white">We Need to Talk About Kevin</span>
               <span class="block text-secondary">Lynne Ramsay</span>
             </span>
             <span class="text-right text-secondary">
@@ -2884,7 +2853,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">We&#39;re the Millers</span>
+              <span class="block font-medium dark:text-white">We&#39;re the Millers</span>
               <span class="block text-secondary">Rawson Marshall Thurber</span>
             </span>
             <span class="text-right text-secondary">
@@ -2894,7 +2863,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Where the Crawdads Sing</span>
+              <span class="block font-medium dark:text-white">Where the Crawdads Sing</span>
               <span class="block text-secondary">Olivia Newman</span>
             </span>
             <span class="text-right text-secondary">
@@ -2904,7 +2873,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">You Were Never Really Here</span>
+              <span class="block font-medium dark:text-white">You Were Never Really Here</span>
               <span class="block text-secondary">Lynne Ramsay</span>
             </span>
             <span class="text-right text-secondary">
@@ -2914,7 +2883,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Youth in Revolt</span>
+              <span class="block font-medium dark:text-white">Youth in Revolt</span>
               <span class="block text-secondary">Miguel Arteta</span>
             </span>
             <span class="text-right text-secondary">
@@ -2927,11 +2896,11 @@
     
       <div data-id="Listen" class="content mt-10 text-sm"  id="Listen">
         
-        <ul class="border-t divide-y">
+        <ul class="divide-y dark:divide-zinc-700">
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">99% Invisible</span>
+              <span class="block font-medium dark:text-white">99% Invisible</span>
               <span class="block text-secondary"></span>
             </span>
             <span class="text-right text-secondary">
@@ -2941,7 +2910,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Argos</span>
+              <span class="block font-medium dark:text-white">Argos</span>
               <span class="block text-secondary"></span>
             </span>
             <span class="text-right text-secondary">
@@ -2951,7 +2920,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Awkward Silences</span>
+              <span class="block font-medium dark:text-white">Awkward Silences</span>
               <span class="block text-secondary"></span>
             </span>
             <span class="text-right text-secondary">
@@ -2961,7 +2930,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Cafeteria Christian</span>
+              <span class="block font-medium dark:text-white">Cafeteria Christian</span>
               <span class="block text-secondary"></span>
             </span>
             <span class="text-right text-secondary">
@@ -2971,7 +2940,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">DOCS</span>
+              <span class="block font-medium dark:text-white">DOCS</span>
               <span class="block text-secondary"></span>
             </span>
             <span class="text-right text-secondary">
@@ -2981,7 +2950,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">FCBCNYC</span>
+              <span class="block font-medium dark:text-white">FCBCNYC</span>
               <span class="block text-secondary"></span>
             </span>
             <span class="text-right text-secondary">
@@ -2991,7 +2960,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Forward Day by Day</span>
+              <span class="block font-medium dark:text-white">Forward Day by Day</span>
               <span class="block text-secondary"></span>
             </span>
             <span class="text-right text-secondary">
@@ -3001,7 +2970,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Hard Fork</span>
+              <span class="block font-medium dark:text-white">Hard Fork</span>
               <span class="block text-secondary"></span>
             </span>
             <span class="text-right text-secondary">
@@ -3011,7 +2980,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">If/Then</span>
+              <span class="block font-medium dark:text-white">If/Then</span>
               <span class="block text-secondary"></span>
             </span>
             <span class="text-right text-secondary">
@@ -3021,7 +2990,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Internet History Podcast</span>
+              <span class="block font-medium dark:text-white">Internet History Podcast</span>
               <span class="block text-secondary"></span>
             </span>
             <span class="text-right text-secondary">
@@ -3031,7 +3000,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">On Being</span>
+              <span class="block font-medium dark:text-white">On Being</span>
               <span class="block text-secondary"></span>
             </span>
             <span class="text-right text-secondary">
@@ -3041,7 +3010,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Pray With our Feet</span>
+              <span class="block font-medium dark:text-white">Pray With our Feet</span>
               <span class="block text-secondary"></span>
             </span>
             <span class="text-right text-secondary">
@@ -3051,7 +3020,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Radio Atlantic</span>
+              <span class="block font-medium dark:text-white">Radio Atlantic</span>
               <span class="block text-secondary"></span>
             </span>
             <span class="text-right text-secondary">
@@ -3061,7 +3030,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Radiolab</span>
+              <span class="block font-medium dark:text-white">Radiolab</span>
               <span class="block text-secondary"></span>
             </span>
             <span class="text-right text-secondary">
@@ -3071,7 +3040,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Sword and Scale</span>
+              <span class="block font-medium dark:text-white">Sword and Scale</span>
               <span class="block text-secondary"></span>
             </span>
             <span class="text-right text-secondary">
@@ -3081,7 +3050,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">The Daily</span>
+              <span class="block font-medium dark:text-white">The Daily</span>
               <span class="block text-secondary"></span>
             </span>
             <span class="text-right text-secondary">
@@ -3091,7 +3060,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">The Ezra Klein Show</span>
+              <span class="block font-medium dark:text-white">The Ezra Klein Show</span>
               <span class="block text-secondary"></span>
             </span>
             <span class="text-right text-secondary">
@@ -3101,7 +3070,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">The New Yorker Radio Hour</span>
+              <span class="block font-medium dark:text-white">The New Yorker Radio Hour</span>
               <span class="block text-secondary"></span>
             </span>
             <span class="text-right text-secondary">
@@ -3111,7 +3080,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">The Tao of Christ</span>
+              <span class="block font-medium dark:text-white">The Tao of Christ</span>
               <span class="block text-secondary"></span>
             </span>
             <span class="text-right text-secondary">
@@ -3121,7 +3090,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">This American Life</span>
+              <span class="block font-medium dark:text-white">This American Life</span>
               <span class="block text-secondary"></span>
             </span>
             <span class="text-right text-secondary">
@@ -3131,7 +3100,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Today, Explained</span>
+              <span class="block font-medium dark:text-white">Today, Explained</span>
               <span class="block text-secondary"></span>
             </span>
             <span class="text-right text-secondary">
@@ -3141,7 +3110,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Where Should We Begin</span>
+              <span class="block font-medium dark:text-white">Where Should We Begin</span>
               <span class="block text-secondary"></span>
             </span>
             <span class="text-right text-secondary">
@@ -3151,7 +3120,7 @@
           
           <li class="py-2 flex justify-between opacity-60">
             <span class="grow">
-              <span class="block font-medium">Your Undivided Attention</span>
+              <span class="block font-medium dark:text-white">Your Undivided Attention</span>
               <span class="block text-secondary"></span>
             </span>
             <span class="text-right text-secondary">
@@ -3170,24 +3139,30 @@
 
 
                 </div> 
-            </main><footer class="not-prose mt-14 rounded border text-sm">
+            </main>
+
+            <div id="webmentions" class="text-sm pt-5 border-t"></div>
+<footer class="not-prose mt-14 rounded border text-sm">
   <div class="p-4">
     <div class="">
       <h4 class="mb-3 text-lg font-medium">Thank you for being here</h4>
       <p class="text-secondary h-card mb-3">
-        I'm
-        <a class="u-url text-primary font-medium" href="/">
-          <span class="p-name">
+        My name is
+        <a class="u-url p-name text-primary font-medium" href="/">
+          <span class="">
             <span class="p-given-name">Zinzy</span>
-            <span class="p-family-name">Waleson Geene</span>,
+            <span class="p-family-name">Waleson Geene</span>
           </span></a
         >
-        a <span class="p-category">Product Designer</span> from
+        and I'm a <span class="p-category">Product Designer</span> from
         <span class="p-locality">Amsterdam</span>
-        <span class="p-note">making software for people at work</span>. This
-        website is a place for soft stances, lived experiences, and critical
-        notes on the things I hold dear. If you like what you see here, reach
-        out to say so, or consider buying me coffee.
+        <span class="p-note">designing software for people at work</span> (<a
+          href="/about"
+          class="text-primary font-medium"
+          >More about me</a
+        >). This website is a place for soft stances, lived experiences, and
+        critical notes on the things I hold dear. If you like what you see here,
+        reach out to say so, or consider buying me coffee.
       </p>
     </div>
     <ul class="m-0 list-none p-0">

@@ -12,7 +12,11 @@
                     {{- block "main" . }}{{- end }}
                 </div> 
             </main>
+
+            {{ if not .IsHome }}
             {{- partial "webmentions.html" . -}}
+            {{ end }}
+            
             {{- partial "thanks.html" . -}}
 
             {{- partial "footer.html" . -}}
