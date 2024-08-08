@@ -3,9 +3,9 @@ title: I'm neurodivergent
 connection: neurodivergence
 ---
 
-Like many other people in the world, I fall under the neurodivergent umbrella. I know there are various ways of looking at what falls under it and what doesn't, and that, too, goes for the label with which I come. I don't enjoy using the label itself but I'll use it once because avoiding it completely would seem just as weird: I am gifted.
+Like many other people in the world, I fall under the neurodivergent umbrella. I know there are various ways of looking at what falls under it and what doesn't, and that, too, goes for the label with which I come. I don't enjoy using the label itself but I'll use it once because avoiding it completely would seem just as weird: I am "gifted".
 
-I haven't had many effective conversations on the topic when using this word, except for when meeting people who also don't like using when referring to themselves. I've experienced that it carries perceived feelings of grandeur, an expected inability to not know. Nothing could be further from the truth.
+I haven't had many effective conversations on the topic when using this word, except for when meeting people who also don't like using when referring to themselves. I've experienced that it carries perceived feelings of grandeur, an expected inability to not understand. Nothing could be further from the truth.
 
 Getting to where I'm comfortable enough publishing this page has been a long journey. I've been misdiagnosed a dozen times, and have spent my childhood surrounded by people so dumbfounded by my comments and choices that I heard "you're insane" at many a family gathering. Now, in my mid-thirties, I'm well aware of how unspecial that is for people like myself.
 
