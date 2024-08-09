@@ -5,14 +5,7 @@
     <p class="text-secondary mb-0 text-sm">{{ .Title }}</p>
     <h2 class="p-name my-2 text-2xl">{{ .Description }}</h2>
   </header>
-
-  <!-- 
-  <div
-    class="e-content prose prose-gray mt-20 dark:prose-invert"
-  >
-    {{ .Content }}
-  </div> -->
-
+  
   <section class="mt-20">
     <h3 class="text-xl font-medium">What I write</h3>
     <ul class="mt-5">
@@ -36,7 +29,7 @@
   </section>
 
   <section class="mt-20">
-    <h3 class="text-xl font-medium">Pages on this website</h3>
+    <h3 class="text-xl font-medium">Also on this website</h3>
 
     {{ $pages := where .Site.RegularPages "Type" "page" }}
 
@@ -51,6 +44,30 @@
       {{ end }}
     </ul>
   </section>
+
+  
+  <section class="mt-20">
+    <h3 class="text-xl font-medium">What I consume</h3>
+    <ul class="mt-5">
+      <li class="group m-0 mb-3 mr-3 inline-block p-0">
+        <a
+          href="/shorts"
+          class="flex rounded-full border px-3 leading-7 text-xs font-medium no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
+          >Shorts
+        </a>
+      </li>
+      {{range sort ($.Site.GetPage "taxonomyTerm" "categories").Pages }}
+      <li class="group m-0 mb-3 mr-3 inline-block p-0">
+        <a
+          href="{{.Permalink}}"
+          class="flex rounded-full border px-3 leading-7 text-xs font-medium no-underline transition-all hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
+          >{{.Title}}
+        </a>
+      </li>
+      {{end}}
+    </ul>
+  </section>
+
 
   <section class="mt-20">
     <h3 class="text-xl font-medium">Topics</h3>

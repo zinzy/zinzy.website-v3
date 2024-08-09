@@ -9,11 +9,27 @@
 
 <div class="library">
   <nav>
-    <ul class="flex text-xs font-medium rounded mt-20">
+    <ul class="m-0 mt-5 grid list-none grid-cols-2 gap-4 p-0 lg:grid-cols-3">
       {{ range $.Site.Data.library }}
-        <li data-id="{{ .medium }}" class="border-y tab-button inline-block grow text-center py-2 cursor-pointer first:rounded-l last:rounded-r hover:bg-pink-50 first:border-l last:border-r hover:border-transparent hover:text-pink-500 dark:text-white dark:hover:bg-pink-300/10 dark:hover:text-white">{{ .medium }}</li>
+        <li data-id="{{ .medium }}" class="group m-0 inline-block p-0">
+          
+        <span
+        class="flex rounded border px-2 text-xs no-underline transition-all hover:border-transparent hover:bg-pink-50 dark:hover:border-transparent dark:hover:bg-pink-300/10"
+      >
+        <span
+          class="mr-2 inline-block content-center leading-9 transition-all group-hover:rotate-6"
+          >{{- partial "symbols/community.html" . -}}</span
+        >
+        <span
+          class="inline-block font-medium leading-9 group-hover:text-pink-500 dark:group-hover:text-pink-300"
+          >{{ .medium }}</span
+        >
+      </span>
+      </li>
       {{ end }}
     </ul>
+
+
   </nav>
   <div class=""> 
     {{ range $.Site.Data.library }}
