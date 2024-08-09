@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-<section class="mt-20">
+<section class="mt-10 md:mt-20">
   {{ $feed := where .Site.RegularPages "Type" "posts" }}
   {{ $sortedfeed := $feed.ByDate.Reverse  }}
   {{ $paginator := .Paginate $sortedfeed 7 }}

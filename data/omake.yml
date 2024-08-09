@@ -213,6 +213,8 @@
           url: https://chronosaur.us/
     - name: "(Personal) sites I like"
       children:
+        - property: Ben Barbersmith
+          url: https://barbersmith.com/
         - property: Aaron Swartz
           url: http://www.aaronsw.com/
         - property: Alessia Bellisario

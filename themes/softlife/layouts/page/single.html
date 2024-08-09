@@ -6,19 +6,18 @@
     <h2 class="p-name mb-2 mt-0 text-2xl">{{ .Description }}</h2>
   </header>
 
-  {{ if .Params.toc }}
+  <!-- {{ if .Params.toc }}
   <aside {{ if .Params.tocBorder }} class="toc" {{ end }}>
     {{ .TableOfContents }}
   </aside>
-  {{ end }}
+  {{ end }} -->
 
   <div class="e-content  prose prose-gray dark:prose-invert relative">
-    
     {{ if .Params.sidenote }}
   <div class="aside">{{ .Params.sidenote | markdownify }}</div>
   {{ end }}
 
-    {{ .Content }}</div>
+  {{ .Content }}</div>
 
   {{ partial "backlinks.html" . }} 
 </article>

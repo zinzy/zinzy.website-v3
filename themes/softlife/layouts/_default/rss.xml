@@ -58,9 +58,10 @@
     {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
     {{- end }}
 
-    {{ $postsDefault := where .Site.RegularPages "Type" "posts" }}
+    {{ $postsDefault := where .Site.RegularPages "Type" "posts"}}
     {{- range $postsDefault }}
-    <item>
+      {{ if .Title }}
+      <item>
       <title>{{ .Title }}</title>
       <link>{{ .Permalink }}</link>
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
@@ -68,6 +69,8 @@
       <guid>{{ .Permalink }}</guid>
       <description>{{ .Summary | html }}</description>
     </item>
+      {{else}}
+      {{end}}
     {{- end }}
   </channel>
 </rss>

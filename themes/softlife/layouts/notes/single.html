@@ -30,13 +30,16 @@
   </div>
 </article>
 
-<footer class="border-t mt-20 pt-20"> 
+<footer class=""> 
 
 
-  <section class="prose prose-gray dark:prose-invert text-sm text-secondary">
+  {{- $references := .Params.references -}}
+  
+  {{ if $references }}
+
+  <section class="my-20 prose prose-gray dark:prose-invert text-sm text-secondary">
     <h3 class="text-xl font-medium">References and further reading</h3>
-
-    {{- $references := .Params.references -}}
+ 
     <ul class="mt-10">
       {{- range $references  -}}
       <li>{{ . | markdownify }}</li>
@@ -44,11 +47,13 @@
     </ul>
   </section>
 
+  {{ end }}
+
   <section class="mt-20">
 
   {{ $connection := .Params.connection }}
+  {{ if $connection }}
   <h3 class="text-xl font-medium">More on {{ $connection }}</h3>
-
   <ul class="mt-10 feed text-sm">
   {{ range .Site.Pages }} 
     {{ if in .Params.tags $connection }}
@@ -129,7 +134,8 @@
   </li>
     {{ end }}  
   {{ end }}
-</ul>
+  </ul>
+  {{end}}
   </section>
 
 

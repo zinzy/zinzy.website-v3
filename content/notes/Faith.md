@@ -1,7 +1,6 @@
 ---
-title: I'm a Christian
+title: Faith
 share: true
-section: notes
 ---
 
 Here's one fact that never fails to bring shock, surprise, confusion, or mild disdain into my conversations: I'm an active congregant of a Christian fellowship, and I do my best to follow Jesus. What's more, I'm actually on the church board. I suppose the emotions this fact elicits stem from the understanding people have of me as a queer person of color who seems, at least to some degree, level-headed.

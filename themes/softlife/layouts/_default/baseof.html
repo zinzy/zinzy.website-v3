@@ -4,11 +4,11 @@
     <div id="top" class="hidden"></div>
     <body class="antialiased bg-zinc-50 dark:bg-zinc-900" a="{{ $.Site.Params.theme_config.appearance | default "auto" }}">
         
-        <div class="bg-white dark:bg-zinc-800/30">
+        <div class="bg-white dark:bg-zinc-800/30 pt-5 px-5 md:p-0">
             {{- partial "header.html" . -}}
     
             {{ if .IsHome }}
-            <section class="py-20 container">
+            <section class="py-10 md:py-20 container">
                 <div class="prose prose-gray dark:prose-invert">
                     <p>You've reached zinzy.website, a home for soft stances, lived experiences, and critical notes on the things I hold dear. No highlight reel, no likes, no follow button. Just my appreciation for the web, my excessive curiousity, and the words I choose to make sense of it all.</p>
                 </div> 
@@ -52,7 +52,7 @@
 
 
         <div class="container"> 
-            <main class="my-20" aria-label="Content">
+            <main class="my-10 md:my-20 px-5 md:p-0" aria-label="Content">
                 <div class="">
                     {{- block "main" . }}{{- end }}
                 </div> 
@@ -76,7 +76,7 @@
                     </span>
                 </a>
             </li>
-            <li class="u-photo"><img src="/img/avatar/png" alt="Portrait of Zinzy Waleson Geene"></li>
+            <li class="u-photo"><img src="/img/avatar.png" alt="Portrait of Zinzy Waleson Geene"></li>
             <li class="p-nickname">Zinzatron</li>
             <li class="p-org">Gerimedica</li>
             <li class="p-job-title">Senior Product Designer</li>

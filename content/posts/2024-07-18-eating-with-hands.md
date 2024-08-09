@@ -22,13 +22,9 @@ Don't eat with your hands, because people will call you an animal.
 
 This is the hypervigilance of a brain on racial trauma. They are daily choices I make to prevent myself from experiencing danger; some colossal and perceived, though the bulk of it real, ongoing and usually too small to count as what feels like a true argument for protest. 
 
----
-
 On Saturday, I'm going to be the plus one at The Black Archives Bijlmer Book Club, where we'll be discussing *None of the Above*. It's a beautiful and *good* book that confronts the reader with questions of genre, of inclusion, of otherness, and of the intersection of Blackness, queerdom, and poverty. 
 
 The Book Club team is best described in one word: intentional. They are impressively well-organized, and think deeply about this text and the ones they have read in the four seasons of working on this project. We came together on Tuesday to cross some Ts and dot some Is. 
-
----
 
 Wally, the Club's founder, calls ahead to take our food order. *Roti chicken*, I say, feeling silly for barely knowing what that actually entails. 
 
@@ -39,8 +35,6 @@ In the meantime Meredith and I chat away about our days, being Black at the offi
 This is my first time actually *being at* The Black Archives. It's a rich tapestry of writing of a wide variety of genres. Periodicals, books on music, (auto)biographies, books on racism, depictions of racist cultural artifacts.
 
 Anja has been wanting to go with me for years, but every time she tries I find a way not to. For some reason, looking trauma in the face in a public venue on a casual Saturday while trying not to cry-and-never-stop is not my idea of a good pastime. 
-
----
 
 But now that I'm here things feel so different. Here I am, sharing a meal with two Black people who have seemingly mastered the skill of being unapologetic about their heritage. 
 

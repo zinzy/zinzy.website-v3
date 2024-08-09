@@ -3,24 +3,16 @@ title: Site
 description: About this website
 sidenote: "Did you know I keep a [Checklist](/checklist) of components I'm hoping to add to this website?"
 ---
-I grew up on the Internet in a time when social media meant writing comments on other people's hand-built blogs. The sense of whimsy, coziness, and a beautiful lack of information overload are highs I have been chasing ever since.
+I grew up on the Internet in a time when social media meant writing comments on other people's hand-built blogs. No "hey guys welcome back to my vlog", no Instagram highlight reels. The sense of whimsy, coziness, and a beautiful lack of information overload are highs I have been chasing ever since.
 
 The Web 1.0 has instilled in me a deep appreciation for a small-scale, intimate, and friendly Internet made up of hand-crafted websites. This is one of them. I’ve been yelling at Internet clouds since 1997.
 
-The most humbling response I've received to date comes from the wonderful [Simone Silverstroni](https://minutestomidnight.co.uk/), who said in his [_People & Blogs_ interview](https://manuelmoreale.com/pb-simone-silvestroni):
+I generally don't know people visit this space unless they tell me. The most humbling response I've received about my website to date comes from the wonderful [Simone Silverstroni](https://minutestomidnight.co.uk/), who said in his [_People & Blogs_ interview](https://manuelmoreale.com/pb-simone-silvestroni):
 
-"Zinzy Waleson Geene has a website that's a constant source of curiosity. She alters the look, changes typography, structure, navigation so often that following through RSS isn't enough. When I see a new post, I go check the website."
-
-{{< rawhtml >}}
-<a href="/img/banner.svg" target="_blank" id="banner" rel="noopener noreferrer"><img src="/img/banner.svg" style="width: 80px; border-radius: 0;" class="rounded-none" alt=""></a>
-{{< /rawhtml >}}
-
----
+> "Zinzy Waleson Geene has a website that's a constant source of curiosity. She alters the look, changes typography, structure, navigation so often that following through RSS isn't enough. When I see a new post, I go check the website."
 
 ### Follow
-You can subscribe to my posts via RSS. [Read more about feeds and RSS](https://aboutfeeds.com/). I personally enjoy using Readwise's [Reader app](https://readwise.io/read) for my RSS needs. Just add [zinzy.website/index.xml](https://zinzy.website/index.xml) to your reader of choice, and enjoy Zinzy's website from anywhere.
-
----
+You can subscribe to my posts via RSS. [Read more about feeds and RSS](https://aboutfeeds.com/). I personally enjoy using Readwise's [Reader app](https://readwise.io/read) for my RSS needs. Just add [zinzy.website/index.xml](https://zinzy.website/index.xml) to your reader of choice, and enjoy Zinzy's website from anywhere. (At this time, the feed only features longer, titled entries.)
 
 ### "What do you do here?"
 
@@ -31,8 +23,6 @@ This is the only website I have; it details my personal interests as well as my 
 ### "I thought you were a designer. Why does this site look so... unfinished?"
 
 I don't know when you're reading this, but chances are that, when you do, this website looks unusual in one way or another. At work, my days are made up of decisions that benefit both the people who use my creations and the people who pay me to make them. On this website, all bets are off. I happen to love the way plain text looks against a simple canvas. Let's call it ~~minimalism~~ boring.
-
----
 
 ### Site details
 
@@ -65,3 +55,9 @@ Unless otherwise stated, as per [CC BY-NC-SA 4.0](http://creativecommons.org/lic
 ### Privacy
 
 I respect your digital sovereignty. I do not track your personal data nor the journey you take on this website or any others. While I do my best to minimize this, please remember that, while [I don't track you, others might](https://www.zylstra.org/blog/2020/01/i-dont-track-you-here-but-others-might/).
+
+
+{{< rawhtml >}}
+<a href="/img/banner.svg" target="_blank" id="banner" rel="noopener noreferrer"><img src="/img/banner.svg" style="width: 80px; border-radius: 0;" class="rounded-none" alt=""></a>
+{{< /rawhtml >}}
+
