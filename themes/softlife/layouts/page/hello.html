@@ -17,9 +17,9 @@
   >
     <div class="grid grid-cols-2 gap-4">
       <div class="">
-        <label for="formName" class="font-medium">Name</label>
+        <label for="formName" class="font-medium dark:text-white">Name</label>
         <input
-          class="mt-2 block w-full rounded border p-3"
+          class="mt-2 block w-full rounded border p-3 dark:bg-zinc-800 dark:border-none"
           type="text"
           name="Name"
           id="formName"
@@ -27,9 +27,9 @@
         />
       </div>
       <div class="">
-        <label class="font-medium" for="formEmail">Email</label>
+        <label class="font-medium dark:text-white" for="formEmail">Email</label>
         <input
-          class="mt-2 block w-full rounded border p-3"
+          class="mt-2 block w-full rounded border p-3 dark:bg-zinc-800 dark:border-none"
           type="email"
           name="Email"
           id="formEmail"
@@ -39,9 +39,9 @@
     </div>
 
     <div class="mt-5">
-      <label class="font-medium" for="formMessage">Message</label>
+      <label class="font-medium dark:text-white" for="formMessage">Message</label>
       <textarea
-        class="mt-2 block w-full rounded border p-3"
+        class="mt-2 block w-full rounded border p-3 dark:bg-zinc-800 dark:border-none"
         type="text"
         name="Message"
         id="formMessage"
@@ -53,7 +53,7 @@
     <!-- add hidden Honeypot input to prevent spams -->
     <input type="hidden" name="_gotcha" style="display: none !important" />
     <div class="mt-5 text-right">
-      <button type="submit" name="Submit" class="button block md:inline-block">
+      <button type="submit" name="Submit" class="button block md:inline-block dark:bg-zinc-300/10 dark:border-none dark:text-white">
         Send →
       </button>
     </div>

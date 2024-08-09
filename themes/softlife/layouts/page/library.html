@@ -7,7 +7,13 @@
 
 <div class="prose prose-gray dark:prose-invert relative">{{ .Content }}</div>
 
-<div class="library">
+<div
+class="mt-10 rounded bg-zinc-100 p-3 text-xs leading-relaxed text-gray-600 dark:bg-zinc-800 dark:text-zinc-300"
+>
+This library appears to be under near constant construction. Check back later for the goodies, babe.
+</div>
+
+<div class="hidden library">
   <nav>
     <ul class="m-0 mt-5 grid list-none grid-cols-2 gap-4 p-0 lg:grid-cols-3">
       {{ range $.Site.Data.library }}

@@ -17,6 +17,11 @@ The most humbling response I've received to date comes from the wonderful [Simon
 
 ---
 
+### Follow
+You can subscribe to my posts via RSS. [Read more about feeds and RSS](https://aboutfeeds.com/). I personally enjoy using Readwise's [Reader app](https://readwise.io/read) for my RSS needs. Just add [zinzy.website/index.xml](https://zinzy.website/index.xml) to your reader of choice, and enjoy Zinzy's website from anywhere.
+
+---
+
 ### "What do you do here?"
 
 First and foremost: as a designer, I feel like I can't _not_ have a personal website. Even if it doesn't feature my portfolio projects, through its sheer existence, my website demonstrates I understand how to build a page and a brand. Still, this website doesn't exist at the mercy of my professional life.

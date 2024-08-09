@@ -17,7 +17,8 @@ refLinksNotFoundURL = "/"
 [taxonomies]
   category = 'categories'
   tag = 'tags'
- 
+  year = 'years'
+  month = 'months'
 
 [params]
   title = "Zinzy's website"
@@ -40,6 +41,11 @@ refLinksNotFoundURL = "/"
   page = "/:slug/"
   notes = "/:slug/"
   photos = "/:slug/"
+  year = "/:year"
+  month = "/:month"
+
+
+
 [outputs]
   home = ['html', 'rss']
   section = ['html', 'rss']

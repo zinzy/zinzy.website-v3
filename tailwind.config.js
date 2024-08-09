@@ -21,7 +21,7 @@ module.exports = {
     fontFamily: {
       sans: ['system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'sans-serif'],
       serif: ['FreightText Pro Book', 'serif'],
-      mono: ['Andalé Mono', 'monospace'],
+      mono: ['SF Mono', 'monospace'],
     }, 
     extend: {
 			animation: {

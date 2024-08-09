@@ -8,13 +8,11 @@ categories:
 - Essays
 tags:
   - food
-  - ethnicity
   - heritage
-  - the-black-archives
-  - being-black
+  - The Black Archives
+  - being Black
   - racism
   - trauma
-  - hypervigilance
 ---
 There are many things I'm scared to do as a Black person. The pathways that hold the reasons why have been visited and revisited so many times that, by now, I barely remember why I do some of the things I do. 
 

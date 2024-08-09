@@ -2,7 +2,7 @@
 
 <ul class="feed text-sm">
     {{ range .Data.Pages  }}
-    <li class="mb-5 border p-3 rounded flex hover:border-gray-300">
+    <li class="mb-5 border p-3 rounded-xl flex hover:border-gray-300">
  
         <span class="flex-none w-10">
           {{ partial "feed_symbols.html" .}}
@@ -41,10 +41,10 @@
                 <a
                   href="{{.Params.replyTo}}"
                   rel="in-reply-to"
-                  class="u-in-reply-to text-url break-all"
+                  class="u-in-reply-to text-url break-all font-medium underline"
                   target="_blank"
                 >
-                  {{ if .Params.replyToName }} {{.Params.replyToName}} {{ else }}
+                  {{ if .Params.replyToName }} {{.Params.replyToName | markdownify }} {{ else }}
                   {{.Params.replyTo}} {{ end }}
                 </a>
               </p>
@@ -62,7 +62,7 @@
             </p>
             {{ end }}
           {{ if not .Params.title }}
-            <p class="">{{ .Content }}</p>
+          <content class="prose prose-gray relative dark:prose-invert text-sm">{{ .Content }}</content>
           {{ else }}
           <h4>{{ .Params.title }}</h4>
           {{ end }}

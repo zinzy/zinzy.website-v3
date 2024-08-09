@@ -23,7 +23,7 @@
 
 
 body, html {
-  font-size: 18px;  
+  font-size: 16px;  
   @media screen and (min-width: 992px) {
     /* font-size: 22px;   */
   } 
@@ -49,12 +49,6 @@ body {
 }
 .text-secondary {
   @apply text-gray-500 dark:text-zinc-400;
-}
-
-article {
-  header {
-    @apply mb-14
-  }
 }
 
 figure figcaption {
@@ -84,7 +78,7 @@ img {
 }
 
 [class*="border"], hr {
-  @apply dark:border-zinc-700
+  @apply dark:border-zinc-700;
 }
 
 
@@ -97,7 +91,7 @@ img {
 
 .prose :where(a):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
   text-decoration: none; 
-  font-weight: 500;
+  font-weight: 400;
 }
 
 details > summary::marker {
@@ -116,16 +110,16 @@ details[open] > summary::marker {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  @apply font-medium font-sans dark:text-white ;
+  @apply font-medium font-sans;
   a {
-    @apply hover:text-pink-500 dark:hover:text-pink-300;
+    @apply font-medium font-sans;
   }
 }
 .prose {
   h1, h2, h3, h4, h5, h6 {
-    @apply font-medium font-sans dark:text-white;
+    @apply font-medium font-sans;
     a {
-      @apply hover:text-pink-500 dark:hover:text-pink-300;
+      @apply font-medium font-sans;
     }
   }
 }
@@ -187,7 +181,7 @@ figcaption {
 }
 
 .prose code {
-  @apply bg-pink-50 dark:bg-zinc-700 py-1 px-2 text-xs rounded text-pink-700 dark:text-pink-300 whitespace-nowrap
+  @apply bg-zinc-100 dark:bg-zinc-700 py-1 px-2 text-xs rounded text-zinc-700 dark:text-zinc-300 whitespace-nowrap
 }
 
 .prose :where(code):not(:where([class~="not-prose"],[class~="not-prose"] *))::before,
@@ -250,4 +244,20 @@ button.active {
   p:first-of-type {
     @apply mt-0
   }
+}
+
+.pagination {
+  @apply flex w-full;
+}
+
+.pagination li {
+  @apply grow hover:dark:bg-zinc-800/50 rounded;
+  /* @apply first:rounded-l last:rounded-r; */
+  &.active {
+    @apply bg-white border rounded dark:bg-zinc-800 dark:border-none;
+  }
+}
+
+.page-link {
+  @apply block w-full py-3
 }

@@ -9,8 +9,8 @@ categories:
 tags:
   - productivity
   - tools
-  - interaction-design
-  - user-problems
+  - design
+  - user problems
 ---
 The procrastinating part of me celebrates these words.
 
