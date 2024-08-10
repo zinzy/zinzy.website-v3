@@ -3,7 +3,7 @@
 <article class="h-entry">
   <header class="">
     <p class="text-secondary mb-0 text-sm">{{ .Title }}</p>
-    <h2 class="p-name mb-2 mt-0 text-2xl">{{ .Description }}</h2>
+    <h2 class="p-name mt-5 mb-4 text-2xl">{{ .Description }}</h2>
   </header>
 
   <!-- {{ if .Params.toc }}
@@ -12,7 +12,7 @@
   </aside>
   {{ end }} -->
 
-  <div class="e-content  prose prose-gray dark:prose-invert relative">
+  <div class="e-content prose prose-gray dark:prose-invert relative">
     {{ if .Params.sidenote }}
   <div class="aside">{{ .Params.sidenote | markdownify }}</div>
   {{ end }}

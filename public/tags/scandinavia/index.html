@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us" class="scroll-smooth"><head>
+<html lang="en-us" class="scroll-smooth min-h-full"><head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -33,12 +33,9 @@
 
   
   <link rel="authorization_endpoint" href="https://indieauth.com/auth" />
-  <link rel="token_endpoint" href="https://tokens.indieauth.com/token" />
+  <link rel="token_endpoint" href="https://tokens.indieauth.com/token" /> 
+  <link rel="micropub" href="https://micropub-zinzy.netlify.app/micropub" />
 
-  <link rel="microsub" href="https://aperture.p3k.io/microsub/596" />
-  <link rel="micropub" href="https://zinzy.website/micropub/main" />
-
-  
   
 
   
@@ -53,10 +50,9 @@
   
 </head>
 <div id="top" class="hidden"></div>
-    <body class="antialiased bg-zinc-50 dark:bg-zinc-800" a="auto">
+    <body class="min-h-full antialiased bg-zinc-50 dark:bg-zinc-900" a="auto">
         
-
-        <div class="bg-white"><header class=" p-3 text-sm">
+        <div class="bg-white dark:bg-zinc-800/30 pt-5 px-5 md:p-0"><header class=" p-3 text-sm">
     
     
     <nav>
@@ -73,101 +69,125 @@
 
 
         <div class="container"> 
-            <main class="my-20" aria-label="Content">
+            <main class="my-10 md:my-20 px-5 md:p-0" aria-label="Content">
                 <div class=""> 
 
 
 <header class="prose mb-20 dark:prose-invert">
   <h2>
-    Things tagged
-    <span class="">#scandinavia</span>
+    Things about 
+    <span class="">scandinavia</span>
   </h2>
 </header>
 
 
 
-<ul class="feed text-sm">
-    
-    <li class="mb-5 border p-3 rounded-xl flex hover:border-gray-300">
- 
-        <span class="flex-none w-10">
-           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<mask id="mask0_648_127" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
-<rect width="24" height="24" fill="#D9D9D9"/>
-</mask>
-<g mask="url(#mask0_648_127)">
-<path d="M7 16.75H12C12.2128 16.75 12.391 16.6782 12.5345 16.5345C12.6782 16.391 12.75 16.2128 12.75 16C12.75 15.7872 12.6782 15.609 12.5345 15.4655C12.391 15.3218 12.2128 15.25 12 15.25H7C6.78717 15.25 6.609 15.3218 6.4655 15.4655C6.32183 15.609 6.25 15.7872 6.25 16C6.25 16.2128 6.32183 16.391 6.4655 16.5345C6.609 16.6782 6.78717 16.75 7 16.75ZM17 7.25C16.7872 7.25 16.609 7.32183 16.4655 7.4655C16.3218 7.609 16.25 7.78717 16.25 8V16C16.25 16.2128 16.3218 16.391 16.4655 16.5345C16.609 16.6782 16.7872 16.75 17 16.75C17.2128 16.75 17.391 16.6782 17.5345 16.5345C17.6782 16.391 17.75 16.2128 17.75 16V8C17.75 7.78717 17.6782 7.609 17.5345 7.4655C17.391 7.32183 17.2128 7.25 17 7.25ZM7 12.75H12C12.2128 12.75 12.391 12.6782 12.5345 12.5345C12.6782 12.391 12.75 12.2128 12.75 12C12.75 11.7872 12.6782 11.609 12.5345 11.4655C12.391 11.3218 12.2128 11.25 12 11.25H7C6.78717 11.25 6.609 11.3218 6.4655 11.4655C6.32183 11.609 6.25 11.7872 6.25 12C6.25 12.2128 6.32183 12.391 6.4655 12.5345C6.609 12.6782 6.78717 12.75 7 12.75ZM7 8.75H12C12.2128 8.75 12.391 8.67817 12.5345 8.5345C12.6782 8.391 12.75 8.21283 12.75 8C12.75 7.78717 12.6782 7.609 12.5345 7.4655C12.391 7.32183 12.2128 7.25 12 7.25H7C6.78717 7.25 6.609 7.32183 6.4655 7.4655C6.32183 7.609 6.25 7.78717 6.25 8C6.25 8.21283 6.32183 8.391 6.4655 8.5345C6.609 8.67817 6.78717 8.75 7 8.75ZM4.30775 20.5C3.80258 20.5 3.375 20.325 3.025 19.975C2.675 19.625 2.5 19.1974 2.5 18.6923V5.30775C2.5 4.80258 2.675 4.375 3.025 4.025C3.375 3.675 3.80258 3.5 4.30775 3.5H19.6923C20.1974 3.5 20.625 3.675 20.975 4.025C21.325 4.375 21.5 4.80258 21.5 5.30775V18.6923C21.5 19.1974 21.325 19.625 20.975 19.975C20.625 20.325 20.1974 20.5 19.6923 20.5H4.30775ZM4.30775 19H19.6923C19.7693 19 19.8398 18.9679 19.9038 18.9038C19.9679 18.8398 20 18.7693 20 18.6923V5.30775C20 5.23075 19.9679 5.16025 19.9038 5.09625C19.8398 5.03208 19.7693 5 19.6923 5H4.30775C4.23075 5 4.16025 5.03208 4.09625 5.09625C4.03208 5.16025 4 5.23075 4 5.30775V18.6923C4 18.7693 4.03208 18.8398 4.09625 18.9038C4.16025 18.9679 4.23075 19 4.30775 19Z" fill="#1C1B1F"/>
-</g>
-</svg>
- 
-        </span>
-        <span class="grow">
+<section class="mt-20">
+  
+  
+  
+  
 
-          
-          
-          
-          
-          <h4>Norway et al</h4>
-          
+  <article class="mb-20"> 
+      <time class="dt-published text-secondary font-medium uppercase text-xs mb-5 block" datetime="2023-08-17 00:00:00 &#43;0000 UTC">
+        <a href="https://zinzy.website/2023/08/17/norway-et-al/">Thursday, August 17, 2023 — 12:00 AM</a>
+      </time> 
+       
+      
+        <h2 class="text-2xl mt-0 mb-3"><a href="https://zinzy.website/2023/08/17/norway-et-al/">Norway et al</a></h2>
+        
 
+        <div class="prose prose-gray dark:prose-invert">
+        After two weeks in Scandinavia, it&rsquo;s clear: we are both too Dutch for proper recycling. Secretly hoarding our trash to avoid a reprimanding from our AirBnb host as he hovers over his six-compartment recycling bin, we continue our trip from rural Sweden to Copenhagen looking for a public recycling station. <a href="https://zinzy.website/2023/08/17/norway-et-al/">(Continue)</a>
+        </div>
+           
+    <div class="mt-5">
+       
+  <ul class="inline-block text-xs p-0 m-0">
     
-          <p class="text-secondary mb-0 mt-2 text-xs">
-            <a href="https://zinzy.website/2023/08/17/norway-et-al/"> <time class="dt-published" datetime="2023-08-17 00:00:00 &#43;0000 UTC">
-              Thursday, August 17, 2023
-            </time></a>
-          </p>
-        </span> 
-    </li>
-    
-  </ul>
+      <li class="inline-block m-0 p-0 bg-zinc-100 font-medium 00 dark:bg-zinc-800 mr-1 mb-2 px-2 py-1 rounded">
+        <a href="https://zinzy.website/tags/vacation/" class="no-underline text-gray-600 dark:text-zinc-300">vacation</a>
+      </li>
+      <li class="inline-block m-0 p-0 bg-zinc-100 font-medium 00 dark:bg-zinc-800 mr-1 mb-2 px-2 py-1 rounded">
+        <a href="https://zinzy.website/tags/scandinavia/" class="no-underline text-gray-600 dark:text-zinc-300">scandinavia</a>
+      </li>
+      <li class="inline-block m-0 p-0 bg-zinc-100 font-medium 00 dark:bg-zinc-800 mr-1 mb-2 px-2 py-1 rounded">
+        <a href="https://zinzy.website/tags/europe/" class="no-underline text-gray-600 dark:text-zinc-300">europe</a>
+      </li>
+      <li class="inline-block m-0 p-0 bg-zinc-100 font-medium 00 dark:bg-zinc-800 mr-1 mb-2 px-2 py-1 rounded">
+        <a href="https://zinzy.website/tags/travel/" class="no-underline text-gray-600 dark:text-zinc-300">travel</a>
+      </li></ul>
+  
+ 
+    </div>
+  </article>
+   
+  
+
+
+
+
+
+
+
+
+
+
+ 
+
+</section>
 
 
                 </div> 
             </main>
 
-            <div id="webmentions" class="text-sm pt-5 border-t"></div>
+            <div id="webmentions" class="text-sm pt-5"></div>
 
             
             
  
-        </div><footer class="mt-20 bg-white flex justify-between content-center p-3 text-sm">
-  <div><a href="/site">About this site</a></div>
-  <div class="flex gap-x-10">
-    <a href="https://xn--sr8hvo.ws/previous" >←</a>
-    <a href="#" >↑</a>
-    <a href="https://xn--sr8hvo.ws/next" >→</a>
+        </div><footer class=" bg-white  dark:bg-zinc-800/30 grid grid-flow-col justify-stretch p-3 text-sm">
+  <div class="grid grid-cols-3">
+    <div class="py-2"><a href="/site">About this site</a></div>
+    <div class="flex justify-evenly">
+      <a href="https://xn--sr8hvo.ws/previous" class="p-2">←</a>
+      <a href="#" class="p-2">↑</a>
+      <a href="https://xn--sr8hvo.ws/next" class="p-2">→</a>
+    </div>
+    <div class="pt-2">
+      <div class="webring-xxiivv grid justify-end">
+        <a
+          href="https://webring.xxiivv.com/#zinzy"
+          target="_blank"
+          rel="noopener"
+          class=""
+          aria-label="xxiivv webring"
+        >
+          <svg
+            class="h-5 w-5"
+            viewBox="0 0 33 30"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g clip-path="url(#clip0_2_7)">
+              <path
+                d="M23.9283 23C24.9891 21.1625 25.2766 18.9789 24.7275 16.9294C24.1783 14.88 22.8375 13.1326 21 12.0717C19.1625 11.0109 16.9789 10.7234 14.9294 11.2726C12.88 11.8217 11.1326 13.1625 10.0717 15L3.40507 26.5471M10.0717 23C10.597 23.9098 11.2964 24.7073 12.1299 25.3469C12.9633 25.9864 13.9146 26.4555 14.9294 26.7275C15.9442 26.9994 17.0026 27.0687 18.0442 26.9316C19.0858 26.7945 20.0902 26.4536 21 25.9283C21.9098 25.403 22.7073 24.7036 23.3469 23.8702C23.9864 23.0367 24.4555 22.0854 24.7275 21.0706C24.9994 20.0558 25.0687 18.9974 24.9316 17.9558C24.7945 16.9142 24.4536 15.9098 23.9283 15L17.2616 3.45294M17 11C14.8783 11 12.8434 11.8429 11.3431 13.3432C9.84286 14.8434 9 16.8783 9 19C9 21.1217 9.84286 23.1566 11.3431 24.6569C12.8434 26.1572 14.8783 27 17 27H30.3333"
+                class="stroke-gray-950 group-hover:stroke-zinc-500 dark:stroke-white dark:hover:stroke-zinc-200 dark:group-hover:stroke-zinc-300"
+                stroke-width="4"
+                stroke-linecap="square"
+              />
+            </g>
+            <defs>
+              <clipPath id="clip0_2_7">
+                <rect width="33" height="30" />
+              </clipPath>
+            </defs>
+          </svg>
+        </a>
+      </div>
+    </div>
   </div>
-
-<div class="webring-xxiivv">
-  <a
-    href="https://webring.xxiivv.com/#zinzy"
-    target="_blank"
-    rel="noopener"
-    class="group mx-auto inline-block flex max-w-fit no-underline"
-    aria-label="xxiivv webring"
-  >
-    <svg
-      class="h-5 w-5"
-      viewBox="0 0 33 30"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <g clip-path="url(#clip0_2_7)">
-        <path
-          d="M23.9283 23C24.9891 21.1625 25.2766 18.9789 24.7275 16.9294C24.1783 14.88 22.8375 13.1326 21 12.0717C19.1625 11.0109 16.9789 10.7234 14.9294 11.2726C12.88 11.8217 11.1326 13.1625 10.0717 15L3.40507 26.5471M10.0717 23C10.597 23.9098 11.2964 24.7073 12.1299 25.3469C12.9633 25.9864 13.9146 26.4555 14.9294 26.7275C15.9442 26.9994 17.0026 27.0687 18.0442 26.9316C19.0858 26.7945 20.0902 26.4536 21 25.9283C21.9098 25.403 22.7073 24.7036 23.3469 23.8702C23.9864 23.0367 24.4555 22.0854 24.7275 21.0706C24.9994 20.0558 25.0687 18.9974 24.9316 17.9558C24.7945 16.9142 24.4536 15.9098 23.9283 15L17.2616 3.45294M17 11C14.8783 11 12.8434 11.8429 11.3431 13.3432C9.84286 14.8434 9 16.8783 9 19C9 21.1217 9.84286 23.1566 11.3431 24.6569C12.8434 26.1572 14.8783 27 17 27H30.3333"
-          class="stroke-gray-950 group-hover:stroke-zinc-500 dark:stroke-white dark:hover:stroke-zinc-200 dark:group-hover:stroke-zinc-300"
-          stroke-width="4"
-          stroke-linecap="square"
-        />
-      </g>
-      <defs>
-        <clipPath id="clip0_2_7">
-          <rect width="33" height="30" />
-        </clipPath>
-      </defs>
-    </svg>
-  </a>
-</div>
+  
 </footer>
 
 <ul class="h-card hidden">
@@ -179,7 +199,7 @@
                     </span>
                 </a>
             </li>
-            <li class="u-photo"><img src="/img/avatar/png" alt="Portrait of Zinzy Waleson Geene"></li>
+            <li class="u-photo"><img src="/img/avatar.png" alt="Portrait of Zinzy Waleson Geene"></li>
             <li class="p-nickname">Zinzatron</li>
             <li class="p-org">Gerimedica</li>
             <li class="p-job-title">Senior Product Designer</li>

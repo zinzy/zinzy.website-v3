@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us" class="scroll-smooth"><head>
+<html lang="en-us" class="scroll-smooth min-h-full"><head>
 	<meta name="generator" content="Hugo 0.121.1">
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -34,12 +34,9 @@
 
   
   <link rel="authorization_endpoint" href="https://indieauth.com/auth" />
-  <link rel="token_endpoint" href="https://tokens.indieauth.com/token" />
+  <link rel="token_endpoint" href="https://tokens.indieauth.com/token" /> 
+  <link rel="micropub" href="https://micropub-zinzy.netlify.app/micropub" />
 
-  <link rel="microsub" href="https://aperture.p3k.io/microsub/596" />
-  <link rel="micropub" href="https://zinzy.website/micropub/main" />
-
-  
   
 
   
@@ -54,10 +51,9 @@
   
 </head>
 <div id="top" class="hidden"></div>
-    <body class="antialiased bg-zinc-50 dark:bg-zinc-800" a="auto">
+    <body class="min-h-full antialiased bg-zinc-50 dark:bg-zinc-900" a="auto">
         
-
-        <div class="bg-white"><header class=" p-3 text-sm">
+        <div class="bg-white dark:bg-zinc-800/30 pt-5 px-5 md:p-0"><header class=" p-3 text-sm">
     
     
     <nav>
@@ -69,59 +65,15 @@
     </nav>
 </header>
 
-            <section class="py-20 container">
+            <section class="py-10 md:py-20 container">
                 <div class="prose prose-gray dark:prose-invert">
                     <p>You've reached zinzy.website, a home for soft stances, lived experiences, and critical notes on the things I hold dear. No highlight reel, no likes, no follow button. Just my appreciation for the web, my excessive curiousity, and the words I choose to make sense of it all.</p>
                 </div> 
                 <ul class="m-0 mt-5 list-none p-0">
                   <li class="group m-0 mr-3 inline-block p-0">
                     <a
-                      href="/follow"
-                      class="group flex rounded border px-2 text-xs no-underline transition-all hover:border-transparent hover:bg-zinc-50 dark:hover:border-transparent dark:hover:bg-zinc-300/10"
-                    >
-                      <span
-                        class="mr-2 inline-block content-center leading-9 transition-all group-hover:rotate-6"
-                        ><svg
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  fill="none"
-  xmlns="http://www.w3.org/2000/svg"
->
-  <mask
-    id="mask0_637_100"
-    style="mask-type: alpha"
-    maskUnits="userSpaceOnUse"
-    x="0"
-    y="0"
-    width="24"
-    height="24"
-  >
-    <rect
-      width="24"
-      height="24"
-      class="fill-gray-950 group-hover:fill-zinc-500 dark:fill-white dark:group-hover:fill-zinc-300"
-    />
-  </mask>
-  <g mask="url(#mask0_637_100)">
-    <path
-      d="M5.1155 20.5C4.67117 20.5 4.29083 20.3418 3.9745 20.0255C3.65817 19.7092 3.5 19.3288 3.5 18.8845C3.5 18.4403 3.65817 18.0601 3.9745 17.7437C4.29083 17.4274 4.67117 17.2692 5.1155 17.2692C5.55967 17.2692 5.93992 17.4274 6.25625 17.7437C6.57258 18.0601 6.73075 18.4403 6.73075 18.8845C6.73075 19.3288 6.57258 19.7092 6.25625 20.0255C5.93992 20.3418 5.55967 20.5 5.1155 20.5ZM18.3863 20.5C18.0608 20.5 17.7906 20.3778 17.5758 20.1335C17.3608 19.8892 17.2348 19.5997 17.198 19.2652C17.0532 17.6102 16.6365 16.0593 15.948 14.6125C15.2597 13.1657 14.3558 11.8827 13.2365 10.7635C12.1173 9.64416 10.8343 8.74033 9.3875 8.05199C7.94067 7.36349 6.38975 6.94683 4.73475 6.80199C4.40025 6.76483 4.11083 6.63808 3.8665 6.42174C3.62217 6.20558 3.5 5.93683 3.5 5.61549C3.5 5.28949 3.61633 5.02299 3.849 4.81599C4.08167 4.60916 4.35508 4.51924 4.66925 4.54624C6.65508 4.69107 8.51183 5.17024 10.2395 5.98374C11.967 6.79707 13.4917 7.86466 14.8135 9.18649C16.1353 10.5083 17.2029 12.033 18.0163 13.7605C18.8298 15.4882 19.3089 17.3449 19.4538 19.3307C19.4808 19.6449 19.3909 19.9183 19.1842 20.151C18.9777 20.3837 18.7118 20.5 18.3863 20.5ZM12.6155 20.5C12.3013 20.5 12.0343 20.3862 11.8145 20.1585C11.5947 19.931 11.4558 19.6602 11.398 19.3462C11.2737 18.4589 11.0193 17.639 10.6348 16.8865C10.2501 16.134 9.75517 15.4552 9.15 14.85C8.54483 14.2448 7.866 13.7499 7.1135 13.3652C6.361 12.9807 5.54108 12.7263 4.65375 12.602C4.33975 12.5442 4.069 12.4053 3.8415 12.1855C3.61383 11.9657 3.5 11.6992 3.5 11.3862C3.5 11.0607 3.61633 10.7932 3.849 10.5837C4.08167 10.3741 4.35508 10.293 4.66925 10.3405C5.85392 10.475 6.961 10.7955 7.9905 11.302C9.01983 11.8083 9.93517 12.4622 10.7365 13.2635C11.5378 14.0648 12.1917 14.9802 12.698 16.0095C13.2045 17.039 13.525 18.1461 13.6595 19.3307C13.707 19.6449 13.6254 19.9183 13.4148 20.151C13.2041 20.3837 12.9377 20.5 12.6155 20.5Z"
-      class="fill-gray-950 group-hover:fill-zinc-500 dark:fill-white dark:group-hover:fill-zinc-300"
-    />
-  </g>
-</svg>
-</span
-                      >
-                      <span
-                        class="inline-block font-medium leading-9 group-hover:text-zinc-500 dark:group-hover:text-zinc-300"
-                        >Follow</span
-                      >
-                    </a>
-                  </li>
-                  <li class="group m-0 mr-3 inline-block p-0">
-                    <a
                       href="/hello"
-                      class="group flex rounded border px-2 text-xs no-underline transition-all hover:border-transparent hover:bg-zinc-50 dark:hover:border-transparent dark:hover:bg-zinc-300/10"
+                      class="group flex rounded border px-2 text-xs no-underline transition-all hover:border-transparent hover:bg-zinc-100 dark:hover:border-transparent dark:hover:bg-zinc-300/10"
                     >
                       <span
                         class="mr-2 inline-block content-center leading-9 transition-all group-hover:rotate-6"
@@ -161,7 +113,7 @@
                   <li class="group m-0 mt-3 inline-block p-0 md:mt-0">
                     <a
                       href="https://ko-fi.com/zinzy"
-                      class="group flex rounded border px-2 text-xs transition-all hover:border-transparent hover:bg-zinc-50 dark:hover:border-transparent dark:hover:bg-zinc-300/10"
+                      class="group flex rounded border px-2 text-xs transition-all hover:border-transparent hover:bg-zinc-100 dark:hover:border-transparent dark:hover:bg-zinc-300/10"
                       target="_blank"
                     >
                       <span
@@ -207,64 +159,261 @@
 
 
         <div class="container"> 
-            <main class="my-20" aria-label="Content">
+            <main class="my-10 md:my-20 px-5 md:p-0" aria-label="Content">
                 <div class="">
 
+<section class="mt-10 md:mt-20">
 
+  
+  
+  
+
+  
+  
+  
+  
+
+  <article class="mb-20"> 
+      <time class="dt-published text-secondary font-medium uppercase text-xs mb-5 block" datetime="2023-03-26 14:55:25 &#43;0100 &#43;0100">
+        <a href="https://zinzy.website/2023-03-26-14-55-22/">Sunday, March 26, 2023 — 02:55 PM</a>
+      </time> 
+       
+
+
+        <div class="prose prose-gray dark:prose-invert">
+
+          </div>
+
+
+        <div class="prose prose-gray dark:prose-invert"><p>Archiving my previous Now entry from December 13, 2022.</p>
+<ul>
+<li>In Amsterdam simultaneously enjoying and dreading the cold</li>
+<li>At Leeruniek thoroughly enjoying solving design and mentoring challenges</li>
+<li>Preparing for our 
+
+
+
+
+
+
+  
+  
+  
+
+<a href="https://lemonade.waleson.us" target="_blank" rel="noopener" class=" after:content-[' ↗'] ">corgi puppy</a></li>
+<li>Invested in my yoga and meditation practice</li>
+<li>Teaching myself, once and for all, to play the piano</li>
+</ul>
+</div>
+       
+    <div class="mt-5">
+       
+  <ul class="inline-block text-xs p-0 m-0">
+    
+      <li class="inline-block m-0 p-0 bg-zinc-100 font-medium 00 dark:bg-zinc-800 mr-1 mb-2 px-2 py-1 rounded">
+        <a href="https://zinzy.website/tags/" class="no-underline text-gray-600 dark:text-zinc-300"></a>
+      </li></ul>
+  
  
-
-<section class="mt-20">
-  
-
-  
-
-  
+    </div>
+  </article>
 
   
 
   <article class="mb-20"> 
-      <time class="dt-published text-secondary font-medium uppercase text-xs mb-5 block" datetime="2023-03-16 00:00:00 &#43;0000 UTC">
-        <a href="https://zinzy.website/2023/03/16/a-phone-call-with-an-old-friend/">Thursday, March 16, 2023</a>
-      </time>
+      <time class="dt-published text-secondary font-medium uppercase text-xs mb-5 block" datetime="2023-03-26 00:00:00 &#43;0000 UTC">
+        <a href="https://zinzy.website/2023/03/26/week-11-meeting-patrick/">Sunday, March 26, 2023 — 12:00 AM</a>
+      </time> 
        
       
-        <h2 class="text-2xl mt-0 mb-3"><a href="https://zinzy.website/2023/03/16/a-phone-call-with-an-old-friend/">A phone call with an old friend</a></h2>
+        <h2 class="text-2xl mt-0 mb-3"><a href="https://zinzy.website/2023/03/26/week-11-meeting-patrick/">Week 11: Meeting Patrick</a></h2>
         
-        <div class="prose prose-gray dark:prose-invert">Happiness today is the ease with which the nun gives me his phone number. Paul is an old friend, or really an old friend of my ex, and we haven&rsquo;t spoken in eight years. <a href="https://zinzy.website/2023/03/16/a-phone-call-with-an-old-friend/">(Continue)</a></div>
+
+        <div class="prose prose-gray dark:prose-invert">
+        I got to meet one of my Internet heroes this week: Patrick Rhone and his family were on a Europe trip, and I was lucky enough to catch the planning stage on his blog right in time to extend an invitation. <a href="https://zinzy.website/2023/03/26/week-11-meeting-patrick/">(Continue)</a>
+        </div>
            
     <div class="mt-5">
        
   <ul class="inline-block text-xs p-0 m-0">
     
-      <li class="inline-block m-0 p-0 bg-gray-200 font-medium mr-1 mb-2 px-2 py-1 rounded">
-        <a href="https://zinzy.website/tags/friends/" class="no-underline">friends</a>
+      <li class="inline-block m-0 p-0 bg-zinc-100 font-medium 00 dark:bg-zinc-800 mr-1 mb-2 px-2 py-1 rounded">
+        <a href="https://zinzy.website/tags/weeknotes/" class="no-underline text-gray-600 dark:text-zinc-300">weeknotes</a>
       </li>
-      <li class="inline-block m-0 p-0 bg-gray-200 font-medium mr-1 mb-2 px-2 py-1 rounded">
-        <a href="https://zinzy.website/tags/phone-calls/" class="no-underline">phone calls</a>
+      <li class="inline-block m-0 p-0 bg-zinc-100 font-medium 00 dark:bg-zinc-800 mr-1 mb-2 px-2 py-1 rounded">
+        <a href="https://zinzy.website/tags/internet-friends/" class="no-underline text-gray-600 dark:text-zinc-300">internet friends</a>
       </li>
-      <li class="inline-block m-0 p-0 bg-gray-200 font-medium mr-1 mb-2 px-2 py-1 rounded">
-        <a href="https://zinzy.website/tags/happiness/" class="no-underline">happiness</a>
+      <li class="inline-block m-0 p-0 bg-zinc-100 font-medium 00 dark:bg-zinc-800 mr-1 mb-2 px-2 py-1 rounded">
+        <a href="https://zinzy.website/tags/lemonade/" class="no-underline text-gray-600 dark:text-zinc-300">Lemonade</a>
       </li>
-      <li class="inline-block m-0 p-0 bg-gray-200 font-medium mr-1 mb-2 px-2 py-1 rounded">
-        <a href="https://zinzy.website/tags/catholicism/" class="no-underline">catholicism</a>
+      <li class="inline-block m-0 p-0 bg-zinc-100 font-medium 00 dark:bg-zinc-800 mr-1 mb-2 px-2 py-1 rounded">
+        <a href="https://zinzy.website/tags/pets/" class="no-underline text-gray-600 dark:text-zinc-300">pets</a>
       </li>
-      <li class="inline-block m-0 p-0 bg-gray-200 font-medium mr-1 mb-2 px-2 py-1 rounded">
-        <a href="https://zinzy.website/tags/christianity/" class="no-underline">Christianity</a>
+      <li class="inline-block m-0 p-0 bg-zinc-100 font-medium 00 dark:bg-zinc-800 mr-1 mb-2 px-2 py-1 rounded">
+        <a href="https://zinzy.website/tags/television/" class="no-underline text-gray-600 dark:text-zinc-300">television</a>
+      </li>
+      <li class="inline-block m-0 p-0 bg-zinc-100 font-medium 00 dark:bg-zinc-800 mr-1 mb-2 px-2 py-1 rounded">
+        <a href="https://zinzy.website/tags/spring/" class="no-underline text-gray-600 dark:text-zinc-300">spring</a>
       </li></ul>
   
  
     </div>
-  </article> 
+  </article>
+
+  
+
+  <article class="mb-20"> 
+      <time class="dt-published text-secondary font-medium uppercase text-xs mb-5 block" datetime="2023-03-17 19:54:24 &#43;0100 CET">
+        <a href="https://zinzy.website/2023-03-17-19-54-24/">Friday, March 17, 2023 — 07:54 PM</a>
+      </time> 
+       
+
+
+        <div class="prose prose-gray dark:prose-invert">
+
+          
+          
+            
+            <p class="u-in-reply-to mt-0 mb-3">
+              Replied to
+              <a
+                href="https://micro.popagandhi.com/2023/03/17/a-singapore-story.html"
+                rel="in-reply-to"
+                class="u-in-reply-to text-url break-all font-normal underline"
+                target="_blank"
+              >
+                 Adrianna Tan 
+              </a>
+            </p>
+          
+          
+          </div>
+
+
+        <div class="prose prose-gray dark:prose-invert"><p>Isn&rsquo;t it so that, if a cog in the wheel doesn’t work, the entire thing falls apart? What a beautiful reflection, Adrianna. I’m glad I read it today.</p>
+</div>
+       
+    <div class="mt-5">
+       
+  <ul class="inline-block text-xs p-0 m-0">
+    
+      <li class="inline-block m-0 p-0 bg-zinc-100 font-medium 00 dark:bg-zinc-800 mr-1 mb-2 px-2 py-1 rounded">
+        <a href="https://zinzy.website/tags/expats/" class="no-underline text-gray-600 dark:text-zinc-300">expats</a>
+      </li>
+      <li class="inline-block m-0 p-0 bg-zinc-100 font-medium 00 dark:bg-zinc-800 mr-1 mb-2 px-2 py-1 rounded">
+        <a href="https://zinzy.website/tags/qpocs/" class="no-underline text-gray-600 dark:text-zinc-300">qpocs</a>
+      </li>
+      <li class="inline-block m-0 p-0 bg-zinc-100 font-medium 00 dark:bg-zinc-800 mr-1 mb-2 px-2 py-1 rounded">
+        <a href="https://zinzy.website/tags/slices-of-life/" class="no-underline text-gray-600 dark:text-zinc-300">slices of life</a>
+      </li></ul>
+  
+ 
+    </div>
+  </article>
+
+  
+
+  <article class="mb-20"> 
+      <time class="dt-published text-secondary font-medium uppercase text-xs mb-5 block" datetime="2023-03-17 10:24:39 &#43;0100 CET">
+        <a href="https://zinzy.website/2023-03-17-10-24-39/">Friday, March 17, 2023 — 10:24 AM</a>
+      </time> 
+       
+
+
+        <div class="prose prose-gray dark:prose-invert">
+
+          
+          
+            
+            <p class="u-in-reply-to mt-0 mb-3">
+              Replied to
+              <a
+                href="https://www.thisdaysportion.com/posts/stick-with-webmentions-to-create-small-networks/"
+                rel="in-reply-to"
+                class="u-in-reply-to text-url break-all font-normal underline"
+                target="_blank"
+              >
+                 Leon Paternoster 
+              </a>
+            </p>
+          
+          
+          </div>
+
+
+        <div class="prose prose-gray dark:prose-invert"><p>This is precisely what I love about webmentions, the return to the cozy web!</p>
+</div>
+       
+    <div class="mt-5">
+       
+  <ul class="inline-block text-xs p-0 m-0">
+    
+      <li class="inline-block m-0 p-0 bg-zinc-100 font-medium 00 dark:bg-zinc-800 mr-1 mb-2 px-2 py-1 rounded">
+        <a href="https://zinzy.website/tags/indieweb/" class="no-underline text-gray-600 dark:text-zinc-300">indieweb</a>
+      </li>
+      <li class="inline-block m-0 p-0 bg-zinc-100 font-medium 00 dark:bg-zinc-800 mr-1 mb-2 px-2 py-1 rounded">
+        <a href="https://zinzy.website/tags/internet-friends/" class="no-underline text-gray-600 dark:text-zinc-300">internet friends</a>
+      </li>
+      <li class="inline-block m-0 p-0 bg-zinc-100 font-medium 00 dark:bg-zinc-800 mr-1 mb-2 px-2 py-1 rounded">
+        <a href="https://zinzy.website/tags/webmention/" class="no-underline text-gray-600 dark:text-zinc-300">webmention</a>
+      </li></ul>
+  
+ 
+    </div>
+  </article>
+
+  
+
+  <article class="mb-20"> 
+      <time class="dt-published text-secondary font-medium uppercase text-xs mb-5 block" datetime="2023-03-16 00:00:00 &#43;0000 UTC">
+        <a href="https://zinzy.website/2023/03/16/a-phone-call-with-an-old-friend/">Thursday, March 16, 2023 — 12:00 AM</a>
+      </time> 
+       
+      
+        <h2 class="text-2xl mt-0 mb-3"><a href="https://zinzy.website/2023/03/16/a-phone-call-with-an-old-friend/">A phone call with an old friend</a></h2>
+        
+
+        <div class="prose prose-gray dark:prose-invert">
+        Happiness today is the ease with which the nun gives me his phone number. Paul is an old friend, or really an old friend of my ex, and we haven&rsquo;t spoken in eight years. <a href="https://zinzy.website/2023/03/16/a-phone-call-with-an-old-friend/">(Continue)</a>
+        </div>
+           
+    <div class="mt-5">
+       
+  <ul class="inline-block text-xs p-0 m-0">
+    
+      <li class="inline-block m-0 p-0 bg-zinc-100 font-medium 00 dark:bg-zinc-800 mr-1 mb-2 px-2 py-1 rounded">
+        <a href="https://zinzy.website/tags/friends/" class="no-underline text-gray-600 dark:text-zinc-300">friends</a>
+      </li>
+      <li class="inline-block m-0 p-0 bg-zinc-100 font-medium 00 dark:bg-zinc-800 mr-1 mb-2 px-2 py-1 rounded">
+        <a href="https://zinzy.website/tags/phone-calls/" class="no-underline text-gray-600 dark:text-zinc-300">phone calls</a>
+      </li>
+      <li class="inline-block m-0 p-0 bg-zinc-100 font-medium 00 dark:bg-zinc-800 mr-1 mb-2 px-2 py-1 rounded">
+        <a href="https://zinzy.website/tags/happiness/" class="no-underline text-gray-600 dark:text-zinc-300">happiness</a>
+      </li>
+      <li class="inline-block m-0 p-0 bg-zinc-100 font-medium 00 dark:bg-zinc-800 mr-1 mb-2 px-2 py-1 rounded">
+        <a href="https://zinzy.website/tags/catholicism/" class="no-underline text-gray-600 dark:text-zinc-300">catholicism</a>
+      </li>
+      <li class="inline-block m-0 p-0 bg-zinc-100 font-medium 00 dark:bg-zinc-800 mr-1 mb-2 px-2 py-1 rounded">
+        <a href="https://zinzy.website/tags/christianity/" class="no-underline text-gray-600 dark:text-zinc-300">Christianity</a>
+      </li></ul>
+  
+ 
+    </div>
+  </article>
+
   
 
   <article class="mb-20"> 
       <time class="dt-published text-secondary font-medium uppercase text-xs mb-5 block" datetime="2023-03-12 12:57:42 &#43;0100 CET">
-        <a href="https://zinzy.website/2023/03/12/">Sunday, March 12, 2023</a>
-      </time>
+        <a href="https://zinzy.website/2023-03-12-12-57-42/">Sunday, March 12, 2023 — 12:57 PM</a>
+      </time> 
        
 
+
+        <div class="prose prose-gray dark:prose-invert">
+
           
-          <p class="mt-0">
+          <p class="mt-0 ">
             Liked
             <a
               href="https://www.nytimes.com/2023/03/11/arts/television/brett-goldstein-ted-lasso-hercules.html"
@@ -273,7 +422,7 @@
               >https://www.nytimes.com/2023/03/11/arts/television/brett-goldstein-ted-lasso-hercules.html</a
             >
           </p>
-          
+          </div>
 
 
         <div class="prose prose-gray dark:prose-invert"></div>
@@ -282,25 +431,29 @@
        
   <ul class="inline-block text-xs p-0 m-0">
     
-      <li class="inline-block m-0 p-0 bg-gray-200 font-medium mr-1 mb-2 px-2 py-1 rounded">
-        <a href="https://zinzy.website/tags/television/" class="no-underline">television</a>
+      <li class="inline-block m-0 p-0 bg-zinc-100 font-medium 00 dark:bg-zinc-800 mr-1 mb-2 px-2 py-1 rounded">
+        <a href="https://zinzy.website/tags/television/" class="no-underline text-gray-600 dark:text-zinc-300">television</a>
       </li>
-      <li class="inline-block m-0 p-0 bg-gray-200 font-medium mr-1 mb-2 px-2 py-1 rounded">
-        <a href="https://zinzy.website/tags/interviews/" class="no-underline">interviews</a>
+      <li class="inline-block m-0 p-0 bg-zinc-100 font-medium 00 dark:bg-zinc-800 mr-1 mb-2 px-2 py-1 rounded">
+        <a href="https://zinzy.website/tags/interviews/" class="no-underline text-gray-600 dark:text-zinc-300">interviews</a>
       </li></ul>
   
  
     </div>
-  </article> 
+  </article>
+
   
 
   <article class="mb-20"> 
       <time class="dt-published text-secondary font-medium uppercase text-xs mb-5 block" datetime="2023-03-12 07:35:06 &#43;0100 CET">
-        <a href="https://zinzy.website/2023/03/12/">Sunday, March 12, 2023</a>
-      </time>
+        <a href="https://zinzy.website/2023-03-12-07-35-06/">Sunday, March 12, 2023 — 07:35 AM</a>
+      </time> 
        
 
-          
+
+        <div class="prose prose-gray dark:prose-invert">
+
+          </div>
 
 
         <div class="prose prose-gray dark:prose-invert"><p>We&rsquo;ve begun rewatching <em>Succession</em> again to prepare for its fourth and final season. If you haven&rsquo;t watched it yet, it is a pure Shakespearean spectacle worth every second. Never before had I seen a work of fiction in which every single character is an antagonist.</p>
@@ -310,167 +463,14 @@
        
   <ul class="inline-block text-xs p-0 m-0">
     
-      <li class="inline-block m-0 p-0 bg-gray-200 font-medium mr-1 mb-2 px-2 py-1 rounded">
-        <a href="https://zinzy.website/tags/television/" class="no-underline">television</a>
+      <li class="inline-block m-0 p-0 bg-zinc-100 font-medium 00 dark:bg-zinc-800 mr-1 mb-2 px-2 py-1 rounded">
+        <a href="https://zinzy.website/tags/television/" class="no-underline text-gray-600 dark:text-zinc-300">television</a>
       </li></ul>
   
  
     </div>
-  </article> 
-  
+  </article>
 
-  <article class="mb-20"> 
-      <time class="dt-published text-secondary font-medium uppercase text-xs mb-5 block" datetime="2023-03-12 00:00:00 &#43;0000 UTC">
-        <a href="https://zinzy.website/2023/03/12/week-10-outings/">Sunday, March 12, 2023</a>
-      </time>
-       
-      
-        <h2 class="text-2xl mt-0 mb-3"><a href="https://zinzy.website/2023/03/12/week-10-outings/">Week 10: Outings</a></h2>
-        
-        <div class="prose prose-gray dark:prose-invert">It snowed a few times this week and I was as baffled as I always am to see it happening in March. <a href="https://zinzy.website/2023/03/12/week-10-outings/">(Continue)</a></div>
-           
-    <div class="mt-5">
-       
-  <ul class="inline-block text-xs p-0 m-0">
-    
-      <li class="inline-block m-0 p-0 bg-gray-200 font-medium mr-1 mb-2 px-2 py-1 rounded">
-        <a href="https://zinzy.website/tags/weeknotes/" class="no-underline">weeknotes</a>
-      </li>
-      <li class="inline-block m-0 p-0 bg-gray-200 font-medium mr-1 mb-2 px-2 py-1 rounded">
-        <a href="https://zinzy.website/tags/television/" class="no-underline">television</a>
-      </li>
-      <li class="inline-block m-0 p-0 bg-gray-200 font-medium mr-1 mb-2 px-2 py-1 rounded">
-        <a href="https://zinzy.website/tags/lemonade/" class="no-underline">Lemonade</a>
-      </li>
-      <li class="inline-block m-0 p-0 bg-gray-200 font-medium mr-1 mb-2 px-2 py-1 rounded">
-        <a href="https://zinzy.website/tags/dogs/" class="no-underline">dogs</a>
-      </li>
-      <li class="inline-block m-0 p-0 bg-gray-200 font-medium mr-1 mb-2 px-2 py-1 rounded">
-        <a href="https://zinzy.website/tags/pets/" class="no-underline">pets</a>
-      </li>
-      <li class="inline-block m-0 p-0 bg-gray-200 font-medium mr-1 mb-2 px-2 py-1 rounded">
-        <a href="https://zinzy.website/tags/anja/" class="no-underline">Anja</a>
-      </li>
-      <li class="inline-block m-0 p-0 bg-gray-200 font-medium mr-1 mb-2 px-2 py-1 rounded">
-        <a href="https://zinzy.website/tags/annelie/" class="no-underline">Annelie</a>
-      </li>
-      <li class="inline-block m-0 p-0 bg-gray-200 font-medium mr-1 mb-2 px-2 py-1 rounded">
-        <a href="https://zinzy.website/tags/church/" class="no-underline">church</a>
-      </li>
-      <li class="inline-block m-0 p-0 bg-gray-200 font-medium mr-1 mb-2 px-2 py-1 rounded">
-        <a href="https://zinzy.website/tags/ceramics/" class="no-underline">ceramics</a>
-      </li></ul>
-  
- 
-    </div>
-  </article> 
-  
-
-  <article class="mb-20"> 
-      <time class="dt-published text-secondary font-medium uppercase text-xs mb-5 block" datetime="2023-03-10 09:44:15 &#43;0100 CET">
-        <a href="https://zinzy.website/2023/03/10/">Friday, March 10, 2023</a>
-      </time>
-       
-
-          
-          
-            
-            <p class="u-in-reply-to mt-0 mb-3">
-              Replied to
-              <a
-                href="https://tech.lgbt/@selfcare@botsin.space/109997600986296468"
-                rel="in-reply-to"
-                class="u-in-reply-to text-url break-all font-normal underline"
-                target="_blank"
-              >
-                 selfcare.tech 
-              </a>
-            </p>
-          
-          
-          
-
-
-        <div class="prose prose-gray dark:prose-invert"><ol>
-<li>Continue a seemingly unending cycle of laundry</li>
-<li>Write in my diary</li>
-<li>Bake challah</li>
-</ol>
-</div>
-       
-    <div class="mt-5">
-       
-  <ul class="inline-block text-xs p-0 m-0">
-    
-      <li class="inline-block m-0 p-0 bg-gray-200 font-medium mr-1 mb-2 px-2 py-1 rounded">
-        <a href="https://zinzy.website/tags/self-care/" class="no-underline">self care</a>
-      </li>
-      <li class="inline-block m-0 p-0 bg-gray-200 font-medium mr-1 mb-2 px-2 py-1 rounded">
-        <a href="https://zinzy.website/tags/productivity/" class="no-underline">productivity</a>
-      </li></ul>
-  
- 
-    </div>
-  </article> 
-  
-
-  <article class="mb-20"> 
-      <time class="dt-published text-secondary font-medium uppercase text-xs mb-5 block" datetime="2023-03-10 09:03:06 &#43;0100 CET">
-        <a href="https://zinzy.website/2023/03/10/">Friday, March 10, 2023</a>
-      </time>
-       
-
-          
-
-
-        <div class="prose prose-gray dark:prose-invert"><p>I&rsquo;m not sure what it says about me that I find it annoying when people don&rsquo;t recognize that my puppy is a corgi.</p>
-</div>
-       
-    <div class="mt-5">
-       
-  <ul class="inline-block text-xs p-0 m-0">
-    
-      <li class="inline-block m-0 p-0 bg-gray-200 font-medium mr-1 mb-2 px-2 py-1 rounded">
-        <a href="https://zinzy.website/tags/lemonade/" class="no-underline">Lemonade</a>
-      </li>
-      <li class="inline-block m-0 p-0 bg-gray-200 font-medium mr-1 mb-2 px-2 py-1 rounded">
-        <a href="https://zinzy.website/tags/pets/" class="no-underline">pets</a>
-      </li></ul>
-  
- 
-    </div>
-  </article> 
-  
-
-  <article class="mb-20"> 
-      <time class="dt-published text-secondary font-medium uppercase text-xs mb-5 block" datetime="2023-03-10 08:54:16 &#43;0100 CET">
-        <a href="https://zinzy.website/2023/03/10/">Friday, March 10, 2023</a>
-      </time>
-       
-
-          
-
-
-        <div class="prose prose-gray dark:prose-invert"><p>Today might be the day I finally bake a challah for shabbos again.</p>
-</div>
-       
-    <div class="mt-5">
-       
-  <ul class="inline-block text-xs p-0 m-0">
-    
-      <li class="inline-block m-0 p-0 bg-gray-200 font-medium mr-1 mb-2 px-2 py-1 rounded">
-        <a href="https://zinzy.website/tags/challah/" class="no-underline">challah</a>
-      </li>
-      <li class="inline-block m-0 p-0 bg-gray-200 font-medium mr-1 mb-2 px-2 py-1 rounded">
-        <a href="https://zinzy.website/tags/baking/" class="no-underline">baking</a>
-      </li>
-      <li class="inline-block m-0 p-0 bg-gray-200 font-medium mr-1 mb-2 px-2 py-1 rounded">
-        <a href="https://zinzy.website/tags/shabbos/" class="no-underline">shabbos</a>
-      </li></ul>
-  
- 
-    </div>
-  </article> 
   
 
 
@@ -485,7 +485,7 @@
  
 
 <div class="w-full text-xs font-medium text-center">
-  <ul class="pagination">
+  <ul class="pagination gap-4">
     
     
       <li class="">
@@ -947,6 +947,19 @@
        
          
     
+      
+      
+      
+        
+        
+        
+          
+        
+      
+      
+       
+         
+    
    
     
     <li class="">
@@ -958,7 +971,7 @@
     
     
     <li class="">
-      <a class="page-link" href="/page/31/">
+      <a class="page-link" href="/page/32/">
   Last
       </a>
     </li>
@@ -976,44 +989,48 @@
             
             
  
-        </div><footer class="mt-20 bg-white flex justify-between content-center p-3 text-sm">
-  <div><a href="/site">About this site</a></div>
-  <div class="flex gap-x-10">
-    <a href="https://xn--sr8hvo.ws/previous" >←</a>
-    <a href="#" >↑</a>
-    <a href="https://xn--sr8hvo.ws/next" >→</a>
+        </div><footer class=" bg-white  dark:bg-zinc-800/30 grid grid-flow-col justify-stretch p-3 text-sm">
+  <div class="grid grid-cols-3">
+    <div class="py-2"><a href="/site">About this site</a></div>
+    <div class="flex justify-evenly">
+      <a href="https://xn--sr8hvo.ws/previous" class="p-2">←</a>
+      <a href="#" class="p-2">↑</a>
+      <a href="https://xn--sr8hvo.ws/next" class="p-2">→</a>
+    </div>
+    <div class="pt-2">
+      <div class="webring-xxiivv grid justify-end">
+        <a
+          href="https://webring.xxiivv.com/#zinzy"
+          target="_blank"
+          rel="noopener"
+          class=""
+          aria-label="xxiivv webring"
+        >
+          <svg
+            class="h-5 w-5"
+            viewBox="0 0 33 30"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g clip-path="url(#clip0_2_7)">
+              <path
+                d="M23.9283 23C24.9891 21.1625 25.2766 18.9789 24.7275 16.9294C24.1783 14.88 22.8375 13.1326 21 12.0717C19.1625 11.0109 16.9789 10.7234 14.9294 11.2726C12.88 11.8217 11.1326 13.1625 10.0717 15L3.40507 26.5471M10.0717 23C10.597 23.9098 11.2964 24.7073 12.1299 25.3469C12.9633 25.9864 13.9146 26.4555 14.9294 26.7275C15.9442 26.9994 17.0026 27.0687 18.0442 26.9316C19.0858 26.7945 20.0902 26.4536 21 25.9283C21.9098 25.403 22.7073 24.7036 23.3469 23.8702C23.9864 23.0367 24.4555 22.0854 24.7275 21.0706C24.9994 20.0558 25.0687 18.9974 24.9316 17.9558C24.7945 16.9142 24.4536 15.9098 23.9283 15L17.2616 3.45294M17 11C14.8783 11 12.8434 11.8429 11.3431 13.3432C9.84286 14.8434 9 16.8783 9 19C9 21.1217 9.84286 23.1566 11.3431 24.6569C12.8434 26.1572 14.8783 27 17 27H30.3333"
+                class="stroke-gray-950 group-hover:stroke-zinc-500 dark:stroke-white dark:hover:stroke-zinc-200 dark:group-hover:stroke-zinc-300"
+                stroke-width="4"
+                stroke-linecap="square"
+              />
+            </g>
+            <defs>
+              <clipPath id="clip0_2_7">
+                <rect width="33" height="30" />
+              </clipPath>
+            </defs>
+          </svg>
+        </a>
+      </div>
+    </div>
   </div>
-
-<div class="webring-xxiivv">
-  <a
-    href="https://webring.xxiivv.com/#zinzy"
-    target="_blank"
-    rel="noopener"
-    class="group mx-auto inline-block flex max-w-fit no-underline"
-    aria-label="xxiivv webring"
-  >
-    <svg
-      class="h-5 w-5"
-      viewBox="0 0 33 30"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <g clip-path="url(#clip0_2_7)">
-        <path
-          d="M23.9283 23C24.9891 21.1625 25.2766 18.9789 24.7275 16.9294C24.1783 14.88 22.8375 13.1326 21 12.0717C19.1625 11.0109 16.9789 10.7234 14.9294 11.2726C12.88 11.8217 11.1326 13.1625 10.0717 15L3.40507 26.5471M10.0717 23C10.597 23.9098 11.2964 24.7073 12.1299 25.3469C12.9633 25.9864 13.9146 26.4555 14.9294 26.7275C15.9442 26.9994 17.0026 27.0687 18.0442 26.9316C19.0858 26.7945 20.0902 26.4536 21 25.9283C21.9098 25.403 22.7073 24.7036 23.3469 23.8702C23.9864 23.0367 24.4555 22.0854 24.7275 21.0706C24.9994 20.0558 25.0687 18.9974 24.9316 17.9558C24.7945 16.9142 24.4536 15.9098 23.9283 15L17.2616 3.45294M17 11C14.8783 11 12.8434 11.8429 11.3431 13.3432C9.84286 14.8434 9 16.8783 9 19C9 21.1217 9.84286 23.1566 11.3431 24.6569C12.8434 26.1572 14.8783 27 17 27H30.3333"
-          class="stroke-gray-950 group-hover:stroke-zinc-500 dark:stroke-white dark:hover:stroke-zinc-200 dark:group-hover:stroke-zinc-300"
-          stroke-width="4"
-          stroke-linecap="square"
-        />
-      </g>
-      <defs>
-        <clipPath id="clip0_2_7">
-          <rect width="33" height="30" />
-        </clipPath>
-      </defs>
-    </svg>
-  </a>
-</div>
+  
 </footer>
 
 <ul class="h-card hidden">
@@ -1025,7 +1042,7 @@
                     </span>
                 </a>
             </li>
-            <li class="u-photo"><img src="/img/avatar/png" alt="Portrait of Zinzy Waleson Geene"></li>
+            <li class="u-photo"><img src="/img/avatar.png" alt="Portrait of Zinzy Waleson Geene"></li>
             <li class="p-nickname">Zinzatron</li>
             <li class="p-org">Gerimedica</li>
             <li class="p-job-title">Senior Product Designer</li>

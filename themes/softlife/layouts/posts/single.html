@@ -2,11 +2,10 @@
 
 <article class="min-h-full h-entry">
   <header class="">
-
-    <time class="dt-published text-secondary font-medium uppercase text-xs mb-5 block" datetime="{{ .Date }}">
+    <time class="dt-published text-secondary font-medium uppercase text-xs block" datetime="{{ .Date }}">
       <a href="{{ .Permalink }}">{{ .Date | time.Format site.Params.theme_config.date_format_full }}</a>
     </time> 
-      <h2 class="p-name text-2xl mt-0 mb-3"><a class="u-url" href="{{ .Permalink }}">{{ .Title }}</a></h2>
+      <h2 class="p-name text-2xl mt-5 mb-4"><a class="u-url" href="{{ .Permalink }}">{{ .Title }}</a></h2>
 
 
     <div class="u-author h-card hidden">

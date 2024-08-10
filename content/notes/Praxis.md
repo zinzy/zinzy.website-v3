@@ -1,5 +1,6 @@
 ---
-title: Faith
+title: Praxis
+description: "Through actions, I explore and confirm what I believe is true"
 share: true
 ---
 

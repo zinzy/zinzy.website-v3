@@ -1,0 +1,50 @@
+- medium: Books
+  description: "..."
+  children:
+    - title: "The Body Keeps the Score"
+      author: "Bessel van der Kolk"
+      id: 9780143127741
+      review:
+      year: 
+      date:
+      rating:
+    - title: "None of the Above"
+      author: "Travis Alabanza"
+      category: "Non-fiction"
+      id: 1417887261
+      review:
+      year: 
+      date: 2024-07-20
+      rating: 7
+    - title: "Saving Jesus from the Church"
+      author: "Robin R. Meyers"
+      category: "Non-fiction"
+      id: 9780061568213
+      review:
+      year: 
+      date: 2024-01-25
+      rating: 8
+    - title: "Africa is not a Country"
+      author: "Dipo Faloyin"
+      category: "Non-fiction"
+      id: 9780393881530
+      review:
+      year: 
+      date: 2024-01-06
+      rating: 7
+    - title: "In the wake: on Blackness and being"
+      author: "Christina Elizabeth Sharpe"
+      category: "Non-fiction"
+      id: 9780822362944
+      review:
+      year: 
+      date: 2024-01-25
+      rating: 6
+    - title: "Freedom Is a Constant Struggle"
+      author: "Angela Y. Davis"
+      category: "Non-fiction"
+      id: 9781608465644
+      review:
+      year: 
+      date: 2024-01-07
+      rating: 6

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us" class="scroll-smooth"><head>
+<html lang="en-us" class="scroll-smooth min-h-full"><head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -33,12 +33,9 @@
 
   
   <link rel="authorization_endpoint" href="https://indieauth.com/auth" />
-  <link rel="token_endpoint" href="https://tokens.indieauth.com/token" />
+  <link rel="token_endpoint" href="https://tokens.indieauth.com/token" /> 
+  <link rel="micropub" href="https://micropub-zinzy.netlify.app/micropub" />
 
-  <link rel="microsub" href="https://aperture.p3k.io/microsub/596" />
-  <link rel="micropub" href="https://zinzy.website/micropub/main" />
-
-  
   
 
   
@@ -53,22 +50,26 @@
   
 </head>
 <div id="top" class="hidden"></div>
-    <body class="antialiased bg-gray-50 dark:bg-zinc-800" a="auto">
+    <body class="min-h-full antialiased bg-zinc-50 dark:bg-zinc-900" a="auto">
         
- 
-
-        <div class="container"><header class="mt-10 pb-10 border-b">
+        <div class="bg-white dark:bg-zinc-800/30 pt-5 px-5 md:p-0"><header class=" p-3 text-sm">
     
-    <h1>Human</h1>
-    <p>Stationed in Amsterdam</p>
-    <nav class="mt-5">
+    
+    <nav>
         <ul>
-            <li class="inline-block mr-3"><a href="/">Latest</a></li>
-            <li class="inline-block mr-3"><a href="/sitemap">Start</a></li> 
+            <li class="inline-block mr-3"><a href="/">Home</a></li>
+            <li class="inline-block mr-3"><a href="/about">About</a></li> 
+            <li class="inline-block mr-3"><a href="/now">Now</a></li> 
         </ul>
     </nav>
 </header>
-<main class="my-10" aria-label="Content">
+
+        </div>
+  
+
+
+        <div class="container"> 
+            <main class="my-10 md:my-20 px-5 md:p-0" aria-label="Content">
                 <div class=""> 
 
 
@@ -83,8 +84,8 @@
     <a href="https://zinzy.website/2024-03-09-13-52-20/" class="block">
       <time
         class="text-secondary block text-sm dt-published"
-        datetime="Saturday, March 9, 2024"
-        >Saturday, March 9, 2024</time
+        datetime="Saturday, March 9, 2024 — 01:52 PM"
+        >Saturday, March 9, 2024 — 01:52 PM</time
       >
     </a>
 
@@ -101,197 +102,77 @@
                 </div> 
             </main>
 
-            <div id="webmentions" class="text-sm pt-5 border-t"></div>
-<footer class="not-prose mt-14 rounded border text-sm">
-  <div class="p-4">
-    <div class="">
-      <h4 class="mb-3 text-lg font-medium">Thank you for being here</h4>
-      <p class="text-secondary h-card mb-3">
-        My name is
-        <a class="u-url p-name text-primary font-medium" href="/">
-          <span class="">
-            <span class="p-given-name">Zinzy</span>
-            <span class="p-family-name">Waleson Geene</span>
-          </span></a
-        >
-          and I'm a happy human living and working in <span class="p-locality">Amsterdam</span>. 
-          <span class="hidden">I'm a <span class="p-category">Product Designer</span>  <span class="p-note">designing software for people at work</span>.</span> <a
-          href="/about"
-          class="text-primary font-medium"
-          >Learn more about me</a
-        >. This website is a place for soft stances, lived experiences, and
-        critical notes on the things I hold dear. If you like what you see here,
-        reach out to say so, or consider buying me coffee.
-      </p>
+            <div id="webmentions" class="text-sm pt-5"></div>
+
+            
+            
+ 
+        </div><footer class=" bg-white  dark:bg-zinc-800/30 grid grid-flow-col justify-stretch p-3 text-sm">
+  <div class="grid grid-cols-3">
+    <div class="py-2"><a href="/site">About this site</a></div>
+    <div class="flex justify-evenly">
+      <a href="https://xn--sr8hvo.ws/previous" class="p-2">←</a>
+      <a href="#" class="p-2">↑</a>
+      <a href="https://xn--sr8hvo.ws/next" class="p-2">→</a>
     </div>
-    <ul class="m-0 list-none p-0">
-      <li class="group m-0 mr-3 inline-block p-0">
+    <div class="pt-2">
+      <div class="webring-xxiivv grid justify-end">
         <a
-          href="/follow"
-          class="group flex rounded border px-2 text-xs no-underline transition-all hover:border-transparent hover:bg-pink-50 dark:hover:border-transparent dark:hover:bg-pink-300/10"
-        >
-          <span
-            class="mr-2 inline-block content-center leading-9 transition-all group-hover:rotate-6"
-            ><svg
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  fill="none"
-  xmlns="http://www.w3.org/2000/svg"
->
-  <mask
-    id="mask0_637_100"
-    style="mask-type: alpha"
-    maskUnits="userSpaceOnUse"
-    x="0"
-    y="0"
-    width="24"
-    height="24"
-  >
-    <rect
-      width="24"
-      height="24"
-      class="fill-gray-950 group-hover:fill-pink-500 dark:fill-white dark:group-hover:fill-pink-300"
-    />
-  </mask>
-  <g mask="url(#mask0_637_100)">
-    <path
-      d="M5.1155 20.5C4.67117 20.5 4.29083 20.3418 3.9745 20.0255C3.65817 19.7092 3.5 19.3288 3.5 18.8845C3.5 18.4403 3.65817 18.0601 3.9745 17.7437C4.29083 17.4274 4.67117 17.2692 5.1155 17.2692C5.55967 17.2692 5.93992 17.4274 6.25625 17.7437C6.57258 18.0601 6.73075 18.4403 6.73075 18.8845C6.73075 19.3288 6.57258 19.7092 6.25625 20.0255C5.93992 20.3418 5.55967 20.5 5.1155 20.5ZM18.3863 20.5C18.0608 20.5 17.7906 20.3778 17.5758 20.1335C17.3608 19.8892 17.2348 19.5997 17.198 19.2652C17.0532 17.6102 16.6365 16.0593 15.948 14.6125C15.2597 13.1657 14.3558 11.8827 13.2365 10.7635C12.1173 9.64416 10.8343 8.74033 9.3875 8.05199C7.94067 7.36349 6.38975 6.94683 4.73475 6.80199C4.40025 6.76483 4.11083 6.63808 3.8665 6.42174C3.62217 6.20558 3.5 5.93683 3.5 5.61549C3.5 5.28949 3.61633 5.02299 3.849 4.81599C4.08167 4.60916 4.35508 4.51924 4.66925 4.54624C6.65508 4.69107 8.51183 5.17024 10.2395 5.98374C11.967 6.79707 13.4917 7.86466 14.8135 9.18649C16.1353 10.5083 17.2029 12.033 18.0163 13.7605C18.8298 15.4882 19.3089 17.3449 19.4538 19.3307C19.4808 19.6449 19.3909 19.9183 19.1842 20.151C18.9777 20.3837 18.7118 20.5 18.3863 20.5ZM12.6155 20.5C12.3013 20.5 12.0343 20.3862 11.8145 20.1585C11.5947 19.931 11.4558 19.6602 11.398 19.3462C11.2737 18.4589 11.0193 17.639 10.6348 16.8865C10.2501 16.134 9.75517 15.4552 9.15 14.85C8.54483 14.2448 7.866 13.7499 7.1135 13.3652C6.361 12.9807 5.54108 12.7263 4.65375 12.602C4.33975 12.5442 4.069 12.4053 3.8415 12.1855C3.61383 11.9657 3.5 11.6992 3.5 11.3862C3.5 11.0607 3.61633 10.7932 3.849 10.5837C4.08167 10.3741 4.35508 10.293 4.66925 10.3405C5.85392 10.475 6.961 10.7955 7.9905 11.302C9.01983 11.8083 9.93517 12.4622 10.7365 13.2635C11.5378 14.0648 12.1917 14.9802 12.698 16.0095C13.2045 17.039 13.525 18.1461 13.6595 19.3307C13.707 19.6449 13.6254 19.9183 13.4148 20.151C13.2041 20.3837 12.9377 20.5 12.6155 20.5Z"
-      class="fill-gray-950 group-hover:fill-pink-500 dark:fill-white dark:group-hover:fill-pink-300"
-    />
-  </g>
-</svg>
-</span
-          >
-          <span
-            class="inline-block font-medium leading-9 group-hover:text-pink-500 dark:group-hover:text-pink-300"
-            >Follow</span
-          >
-        </a>
-      </li>
-      <li class="group m-0 mr-3 inline-block p-0">
-        <a
-          href="/hello"
-          class="group flex rounded border px-2 text-xs no-underline transition-all hover:border-transparent hover:bg-pink-50 dark:hover:border-transparent dark:hover:bg-pink-300/10"
-        >
-          <span
-            class="mr-2 inline-block content-center leading-9 transition-all group-hover:rotate-6"
-            ><svg
-  width="20"
-  height="20"
-  viewBox="0 0 20 20"
-  fill="none"
-  xmlns="http://www.w3.org/2000/svg"
->
-  <mask
-    id="mask0_630_52"
-    style="mask-type: alpha"
-    maskUnits="userSpaceOnUse"
-    x="0"
-    y="0"
-    width="20"
-    height="20"
-  >
-    <rect width="20" height="20" fill="red" />
-  </mask>
-  <g mask="url(#mask0_630_52)">
-    <path
-      d="M3.58979 16.25C3.16882 16.25 2.8125 16.1042 2.52083 15.8125C2.22917 15.5208 2.08333 15.1645 2.08333 14.7435V5.25646C2.08333 4.83549 2.22917 4.47917 2.52083 4.1875C2.8125 3.89583 3.16882 3.75 3.58979 3.75H16.4102C16.8312 3.75 17.1875 3.89583 17.4792 4.1875C17.7708 4.47917 17.9167 4.83549 17.9167 5.25646V14.7435C17.9167 15.1645 17.7708 15.5208 17.4792 15.8125C17.1875 16.1042 16.8312 16.25 16.4102 16.25H3.58979ZM16.6667 6.20187L10.4054 10.21C10.3414 10.2462 10.2751 10.2748 10.2067 10.2956C10.1383 10.3165 10.0694 10.3269 10 10.3269C9.93056 10.3269 9.86167 10.3165 9.79333 10.2956C9.72486 10.2748 9.65861 10.2462 9.59458 10.21L3.33333 6.20187V14.7435C3.33333 14.8184 3.35736 14.8799 3.40542 14.9279C3.45347 14.976 3.51493 15 3.58979 15H16.4102C16.4851 15 16.5465 14.976 16.5946 14.9279C16.6426 14.8799 16.6667 14.8184 16.6667 14.7435V6.20187ZM10 9.16667L16.5385 5H3.46146L10 9.16667ZM3.33333 6.39417V5.44146V5.46625V5.43979V6.39417Z"
-      class="fill-gray-950 group-hover:fill-pink-500 dark:fill-white dark:group-hover:fill-pink-300"
-    />
-  </g>
-</svg>
-</span
-          >
-          <span
-            class="inline-block font-medium leading-9 group-hover:text-pink-500 dark:group-hover:text-pink-300"
-            >Say hello</span
-          >
-        </a>
-      </li>
-      <li class="group m-0 mt-3 inline-block p-0 md:mt-0">
-        <a
-          href="https://ko-fi.com/zinzy"
-          class="group flex rounded border px-2 text-xs transition-all hover:border-transparent hover:bg-pink-50 dark:hover:border-transparent dark:hover:bg-pink-300/10"
+          href="https://webring.xxiivv.com/#zinzy"
           target="_blank"
+          rel="noopener"
+          class=""
+          aria-label="xxiivv webring"
         >
-          <span
-            class="mr-2 inline-block content-center leading-9 transition-all group-hover:rotate-6"
-            ><svg
-  width="20"
-  height="20"
-  viewBox="0 0 20 20"
-  fill="none"
-  xmlns="http://www.w3.org/2000/svg"
->
-  <mask
-    id="mask0_629_15"
-    style="mask-type: alpha"
-    maskUnits="userSpaceOnUse"
-    x="0"
-    y="0"
-    width="20"
-    height="20"
-  >
-    <rect width="20" height="20" class="fill-red-300 dark:fill-white" />
-  </mask>
-  <g mask="url(#mask0_629_15)">
-    <path
-      d="M4.375 17.0833C4.19792 17.0833 4.04951 17.0234 3.92979 16.9035C3.80993 16.7837 3.75 16.6352 3.75 16.4581C3.75 16.2809 3.80993 16.1325 3.92979 16.0129C4.04951 15.8932 4.19792 15.8333 4.375 15.8333H15.625C15.8021 15.8333 15.9505 15.8933 16.0702 16.0131C16.1901 16.133 16.25 16.2815 16.25 16.4585C16.25 16.6358 16.1901 16.7842 16.0702 16.9038C15.9505 17.0235 15.8021 17.0833 15.625 17.0833H4.375ZM6.72271 13.846C5.90229 13.846 5.20174 13.5597 4.62104 12.9871C4.04035 12.4145 3.75 11.7233 3.75 10.9135V4.18271C3.75 3.83119 3.87312 3.5323 4.11937 3.28605C4.36562 3.0398 4.66451 2.91667 5.01604 2.91667H16.3781C16.8012 2.91667 17.1634 3.06382 17.4648 3.35813C17.766 3.65257 17.9167 4.01021 17.9167 4.43105V6.61063C17.9167 7.03146 17.766 7.3891 17.4648 7.68355C17.1634 7.97785 16.8012 8.12501 16.3781 8.12501H14.7115V10.9135C14.7115 11.7233 14.4212 12.4145 13.8406 12.9871C13.2599 13.5597 12.5593 13.846 11.7388 13.846H6.72271ZM6.72271 12.5963H11.7388C12.2125 12.5963 12.6181 12.4311 12.9554 12.1008C13.2928 11.7707 13.4615 11.3738 13.4615 10.9102V4.16667H5V10.9133C5 11.3771 5.16868 11.7735 5.50604 12.1025C5.8434 12.4317 6.24896 12.5963 6.72271 12.5963ZM14.7115 6.87501H16.3781C16.4583 6.87501 16.5264 6.84966 16.5825 6.79896C16.6386 6.74813 16.6667 6.68535 16.6667 6.61063V4.43105C16.6667 4.35632 16.6386 4.29355 16.5825 4.24271C16.5264 4.19202 16.4583 4.16667 16.3781 4.16667H14.7115V6.87501ZM6.72271 12.5963H5H13.4615H6.72271Z"
-      class="fill-gray-950 group-hover:fill-pink-500 dark:fill-white dark:group-hover:fill-pink-300"
-    />
-  </g>
-</svg>
-</span
+          <svg
+            class="h-5 w-5"
+            viewBox="0 0 33 30"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
           >
-          <span
-            class="inline-block font-medium leading-9 group-hover:text-pink-500 dark:group-hover:text-pink-300"
-            >Buy me coffee</span
-          >
+            <g clip-path="url(#clip0_2_7)">
+              <path
+                d="M23.9283 23C24.9891 21.1625 25.2766 18.9789 24.7275 16.9294C24.1783 14.88 22.8375 13.1326 21 12.0717C19.1625 11.0109 16.9789 10.7234 14.9294 11.2726C12.88 11.8217 11.1326 13.1625 10.0717 15L3.40507 26.5471M10.0717 23C10.597 23.9098 11.2964 24.7073 12.1299 25.3469C12.9633 25.9864 13.9146 26.4555 14.9294 26.7275C15.9442 26.9994 17.0026 27.0687 18.0442 26.9316C19.0858 26.7945 20.0902 26.4536 21 25.9283C21.9098 25.403 22.7073 24.7036 23.3469 23.8702C23.9864 23.0367 24.4555 22.0854 24.7275 21.0706C24.9994 20.0558 25.0687 18.9974 24.9316 17.9558C24.7945 16.9142 24.4536 15.9098 23.9283 15L17.2616 3.45294M17 11C14.8783 11 12.8434 11.8429 11.3431 13.3432C9.84286 14.8434 9 16.8783 9 19C9 21.1217 9.84286 23.1566 11.3431 24.6569C12.8434 26.1572 14.8783 27 17 27H30.3333"
+                class="stroke-gray-950 group-hover:stroke-zinc-500 dark:stroke-white dark:hover:stroke-zinc-200 dark:group-hover:stroke-zinc-300"
+                stroke-width="4"
+                stroke-linecap="square"
+              />
+            </g>
+            <defs>
+              <clipPath id="clip0_2_7">
+                <rect width="33" height="30" />
+              </clipPath>
+            </defs>
+          </svg>
         </a>
-      </li>
-    </ul>
+      </div>
+    </div>
   </div>
-</footer>
-<footer class="mt-20">
-  <div class="flex justify-center gap-x-10">
-    <a href="https://xn--sr8hvo.ws/previous" class="button">←</a>
-    <a href="#" class="button">↑</a>
-    <a href="https://xn--sr8hvo.ws/next" class="button">→</a>
-  </div>
+  
 </footer>
 
-<div class="webring-xxiivv pt-20">
-  <a
-    href="https://webring.xxiivv.com/#zinzy"
-    target="_blank"
-    rel="noopener"
-    class="group mx-auto inline-block flex max-w-fit place-content-center p-5 no-underline"
-    aria-label="xxiivv webring"
-  >
-    <svg
-      class="h-5 w-5"
-      viewBox="0 0 33 30"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <g clip-path="url(#clip0_2_7)">
-        <path
-          d="M23.9283 23C24.9891 21.1625 25.2766 18.9789 24.7275 16.9294C24.1783 14.88 22.8375 13.1326 21 12.0717C19.1625 11.0109 16.9789 10.7234 14.9294 11.2726C12.88 11.8217 11.1326 13.1625 10.0717 15L3.40507 26.5471M10.0717 23C10.597 23.9098 11.2964 24.7073 12.1299 25.3469C12.9633 25.9864 13.9146 26.4555 14.9294 26.7275C15.9442 26.9994 17.0026 27.0687 18.0442 26.9316C19.0858 26.7945 20.0902 26.4536 21 25.9283C21.9098 25.403 22.7073 24.7036 23.3469 23.8702C23.9864 23.0367 24.4555 22.0854 24.7275 21.0706C24.9994 20.0558 25.0687 18.9974 24.9316 17.9558C24.7945 16.9142 24.4536 15.9098 23.9283 15L17.2616 3.45294M17 11C14.8783 11 12.8434 11.8429 11.3431 13.3432C9.84286 14.8434 9 16.8783 9 19C9 21.1217 9.84286 23.1566 11.3431 24.6569C12.8434 26.1572 14.8783 27 17 27H30.3333"
-          class="stroke-gray-950 group-hover:stroke-pink-500 dark:stroke-white dark:hover:stroke-pink-200 dark:group-hover:stroke-pink-300"
-          stroke-width="4"
-          stroke-linecap="square"
-        />
-      </g>
-      <defs>
-        <clipPath id="clip0_2_7">
-          <rect width="33" height="30" />
-        </clipPath>
-      </defs>
-    </svg>
-  </a>
-</div>
-</div>
+<ul class="h-card hidden">
+            <li class="p-name">
+                <a class="u-url u-uid text-primary font-medium" href="/">
+                    <span class="">
+                      <span class="p-given-name">Zinzy</span>
+                      <span class="p-family-name">Waleson Geene</span>
+                    </span>
+                </a>
+            </li>
+            <li class="u-photo"><img src="/img/avatar.png" alt="Portrait of Zinzy Waleson Geene"></li>
+            <li class="p-nickname">Zinzatron</li>
+            <li class="p-org">Gerimedica</li>
+            <li class="p-job-title">Senior Product Designer</li>
+            <li class="p-role">Enterprise SaaS designer of healthcare software</li>
+            <li class="p-locality">Amsterdam</li>
+            <li class="p-region">North Holland</li>
+            <li class="p-country-name">The Netherlands</li>
+            <li class="p-note">Advocate for the small, open, indie, cozy web</li>
+            <li class="p-category">Designer</li>
+            <li class="p-gender-identity">Non-binary</li>
+            <li class="u-sound">ZIN-zee WHALE-son GHEE-n</li>
+        </ul>
   
         <script src="/src/site.js"></script>
     </body>

@@ -3,6 +3,8 @@ title: Site
 description: About this website
 sidenote: "Did you know I keep a [Checklist](/checklist) of components I'm hoping to add to this website?"
 ---
+I'm pleased you have reached my [world wide web homepage](/site). This is a home for soft stances, lived experiences, and critical notes on the things I hold dear. No highlight reel, no likes, no follow button. Just my appreciation for the web, [my excessive curiousity](/im-neurodivergent), and the words I choose to make sense of it all.
+
 I grew up on the Internet in a time when social media meant writing comments on other people's hand-built blogs. No "hey guys welcome back to my vlog", no Instagram highlight reels. The sense of whimsy, coziness, and a beautiful lack of information overload are highs I have been chasing ever since.
 
 The Web 1.0 has instilled in me a deep appreciation for a small-scale, intimate, and friendly Internet made up of hand-crafted websites. This is one of them. I’ve been yelling at Internet clouds since 1997.

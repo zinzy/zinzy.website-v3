@@ -1,5 +1,6 @@
 ---
 title: I'm neurodivergent
+description: "It's not a big deal, I'm just happy I know"
 connection: neurodivergence
 references:
 - "Bruchez, E. (2023, April). [What is giftedness](https://www.yourglitterbrain.com/what-is-giftedness). YourGlitterBrain.com. Retrieved July 26, 2024."
