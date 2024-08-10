@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="{{ $.Site.LanguageCode }}" class="scroll-smooth">
+<html lang="{{ $.Site.LanguageCode }}" class="scroll-smooth min-h-full">
     {{- partial "head.html" . -}}
     <div id="top" class="hidden"></div>
-    <body class="antialiased bg-zinc-50 dark:bg-zinc-900" a="{{ $.Site.Params.theme_config.appearance | default "auto" }}">
+    <body class="min-h-full antialiased bg-zinc-50 dark:bg-zinc-900" a="{{ $.Site.Params.theme_config.appearance | default "auto" }}">
         
         <div class="bg-white dark:bg-zinc-800/30 pt-5 px-5 md:p-0">
             {{- partial "header.html" . -}}

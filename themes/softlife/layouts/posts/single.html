@@ -1,6 +1,6 @@
 {{ define "main" }} {{ partial "back_link.html" .}}
 
-<article class="h-entry">
+<article class="min-h-full h-entry">
   <header class="">
 
     <time class="dt-published text-secondary font-medium uppercase text-xs mb-5 block" datetime="{{ .Date }}">
@@ -30,7 +30,7 @@
     >
   </div>
   {{ end }}
-  <content class="e-content prose prose-gray relative dark:prose-invert">
+  <content class="min-h-full e-content prose prose-gray relative dark:prose-invert">
     {{ if .Params.sidenote }}
     <div class="aside">{{ .Params.sidenote | markdownify }}</div>
     {{ end }} {{- partial "content_wikified" . -}}

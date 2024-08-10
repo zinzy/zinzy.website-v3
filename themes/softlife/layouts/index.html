@@ -1,7 +1,12 @@
 {{ define "main" }}
 
 <section class="mt-10 md:mt-20">
-  {{ $feed := where .Site.RegularPages "Type" "posts" }}
+
+  {{ $posts := where .Site.RegularPages "Type" "posts"  }}
+  {{ $shorts := where .Site.RegularPages "Type" "shorts"  }}
+  {{ $filtered := union $posts $shorts }}
+
+  {{ $feed := $filtered }}
   {{ $sortedfeed := $feed.ByDate.Reverse  }}
   {{ $paginator := .Paginate $sortedfeed 7 }}
   {{ range $paginator.Pages }}
