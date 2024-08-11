@@ -1,21 +1,25 @@
 {{ define "main" }} {{ partial "back_link.html" .}}
 
-<header class="prose mb-20 dark:prose-invert">
-  <h2>
-    Things about 
-    <span class="">{{ .Title }}</span>
-  </h2>
-</header>
-
-<!-- {{ partial "feed_all.html" .}} -->
-
-<section class="mt-20">
-  {{ $feed := where .Data.Pages "Type" "posts" }}
-  {{ $sortedfeed := $feed.ByDate.Reverse  }}
-  {{ $paginator := .Paginate $sortedfeed 7 }}
-  {{ range $paginator.Pages }}
-
-  <article class="mb-20"> 
+<div class="container">
+  <header class="prose mb-20 dark:prose-invert">
+    <h2>
+      Things about 
+      <span class="">{{ .Title }}</span>
+    </h2>
+  </header>
+  
+  <!-- {{ partial "feed_all.html" .}} -->
+  
+  <section class="mt-20">
+    {{ $posts := where .Data.Pages "Type" "posts"  }}
+    {{ $shorts := where .Data.Pages "Type" "shorts"  }}
+    {{ $filtered := union $posts $shorts }}
+    {{ $feed := $filtered }}
+    {{ $sortedfeed := $feed.ByDate.Reverse  }}
+    {{ $paginator := .Paginate $sortedfeed 7 }}
+    {{ range $paginator.Pages }}
+  
+    <article class="mb-20"> 
       <time class="dt-published text-secondary font-medium uppercase text-xs mb-5 block" datetime="{{ .Date }}">
         <a href="{{ .Permalink }}">{{ .Date | time.Format site.Params.theme_config.date_format_full }}</a>
       </time> 
@@ -79,18 +83,17 @@
             >
           </p>
           {{ end }}</div>
-
-
         <div class="prose prose-gray dark:prose-invert">{{ .Content }}</div>
       {{ end }} 
     <div class="mt-5">
       {{ partial "tags.html" .}}
     </div>
   </article>
-   
-  {{ end }}
-
-{{ partial "pagination.html" . }}
-</section>
+     
+    {{ end }}
+  
+  {{ partial "pagination.html" . }}
+  </section>
+</div>
 
 {{ end }}

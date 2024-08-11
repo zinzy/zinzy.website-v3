@@ -1,6 +1,5 @@
 ---
-title: "Work and play"
-layout: work
+title: "Work"
 description: I'm a designer, a mentor, and a community builder
 ---
 

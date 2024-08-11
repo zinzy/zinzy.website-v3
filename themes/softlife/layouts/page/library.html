@@ -1,63 +1,36 @@
 {{ define "main" }} {{ partial "back_link.html" .}}
 
-<header class="prose prose-gray dark:prose-invert">
+<header class="prose prose-gray dark:prose-invert container">
   <p class="text-secondary mb-0 text-sm">Library</p>
   <h2 class="p-name mb-2 mt-0 text-2xl">An overview of things I have read, watched, listened to, or attended</h2>
 </header>
 
-<div class="prose prose-gray dark:prose-invert relative">{{ .Content }}</div>
-
-<div
-class="mt-10 rounded bg-zinc-100 p-3 text-xs leading-relaxed text-gray-600 dark:bg-zinc-800 dark:text-zinc-300"
->
-This library appears to be under near constant construction. Check back later for the goodies, babe.
-</div>
-
-<div class="hidden library">
-  <nav>
-    <ul class="m-0 mt-5 grid list-none grid-cols-2 gap-4 p-0 lg:grid-cols-3">
-      {{ range $.Site.Data.library }}
-        <li data-id="{{ .medium }}" class="group m-0 inline-block p-0">
-          
-        <span
-        class="flex rounded border px-2 text-xs no-underline transition-all hover:border-transparent hover:bg-pink-50 dark:hover:border-transparent dark:hover:bg-pink-300/10"
-      >
-        <span
-          class="mr-2 inline-block content-center leading-9 transition-all group-hover:rotate-6"
-          >{{- partial "symbols/community.html" . -}}</span
-        >
-        <span
-          class="inline-block font-medium leading-9 group-hover:text-pink-500 dark:group-hover:text-pink-300"
-          >{{ .medium }}</span
-        >
-      </span>
-      </li>
-      {{ end }}
-    </ul>
-
-
-  </nav>
-  <div class=""> 
-    {{ range $.Site.Data.library }}
-      <div data-id="{{ .medium }}" class="content mt-10 text-sm"  id="{{ .medium }}">
-        <!-- <h3 class="text-secondary font-normal">{{ .medium }}</h3> -->
-        <ul class="divide-y dark:divide-zinc-700">
-          {{ range sort .children "entry" "asc" }}
-          <li class="py-2 flex justify-between opacity-60">
-            <span class="grow">
-              <span class="block font-medium dark:text-white">{{ .entry }}</span>
-              <span class="block text-secondary">{{ .maker }}</span>
-            </span>
-            <span class="text-right text-secondary">
-              {{ .category }}
-            </span>
-          </li>
+<section class="mt-20 max-w-screen-xl mx-auto px-5">
+  <ul class="grid grid-cols-2 gap-4 md:grid-cols-4 md:grid-cols-6">
+    {{ range $.Site.Data.library.written }}
+    {{ range sort .children "entry" "asc" }}
+    <li class=" ">
+      <div class="mb-2"><img src="{{ .cover }}" class="object-cover h-72 w-52" alt=""></div>
+      <div>{{ .title }}</div>
+      <!-- <div>{{ .author }}</div>
+      <div>{{ .id }}</div>
+      <div>{{ .year }}</div>
+      <div>{{ .date }}</div>
+      <div>{{ .rating }}</div> 
+      <div>{{ if .review }}
+        <ul>
+          {{ range .review }} 
+            <li>{{ . }}</li>
           {{ end }}
         </ul>
-      </div>
-    {{ end }} 
-  </div>
-</div>
+        {{ end}}
+      </div> -->
+    </li>
+    {{ end }}
+    {{ end }}
+  </ul>
+
+</section>
 
  
 
