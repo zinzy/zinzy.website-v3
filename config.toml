@@ -37,6 +37,7 @@ refLinksNotFoundURL = "/"
 
 [permalinks]
   posts = "/:year/:month/:day/:title/"
+  library = "/:filename/"
   shorts = "/:filename/"
   page = "/:slug/"
   notes = "/:slug/"
