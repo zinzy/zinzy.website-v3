@@ -58,7 +58,7 @@
     {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
     {{- end }}
 
-    {{ $postsDefault := where .Site.RegularPages "Type" "posts" }}
+    {{ $postsDefault := where .Site.RegularPages "Type" "posts"}}
     {{- range $postsDefault }}
       {{ if .Title }}
       <item>

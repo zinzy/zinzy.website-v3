@@ -65,13 +65,15 @@
           {{ end }}
           
           {{ else if .Params.likeOf }}
-          <p class="mt-0 ">
+          <p class="mt-0 mb-5">
             Liked
             <a
               href="{{.Params.likeOf}}"
               class="u-like-of text-url break-all  font-normal underline"
               target="_blank"
-              >{{.Params.likeOf}}</a
+              >
+              {{ if .Params.likeOfName }} {{.Params.likeOfName | markdownify}} {{ else }}
+              {{.Params.likeOf}} {{ end }}</a
             >
           </p>
           {{ end }}</div>

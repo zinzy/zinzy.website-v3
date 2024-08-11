@@ -1,8 +1,9 @@
 ---
 title: Follow
 share: true
-section: page
 description: How to stay up to date
 ---
+zinzy.website is regularly updated with essays, fleeting notes, among other things. The best way to receive such updates is to subscribe to one of my RSS feeds. [Read more about feeds and RSS](https://aboutfeeds.com/). I personally enjoy using Readwise's [Reader app](https://readwise.io/read) for my RSS needs.
 
-You can subscribe to my posts via RSS. [Read more about feeds and RSS](https://aboutfeeds.com/). I personally enjoy using Readwise's [Reader app](https://readwise.io/read) for my RSS needs. Just add [zinzy.website/index.xml](https://zinzy.website/index.xml) to your reader of choice, and enjoy Zinzy's website from anywhere.
+- [Posts feed](https://zinzy.website/index.xml): long-form posts
+- [Shorts feed](https://zinzy.website/shorts/index.xml): fleeting notes
