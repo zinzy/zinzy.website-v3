@@ -9,8 +9,8 @@
 {{ $upper_limit := (sub $paginator.TotalPages $adjacent_links) }}
  
 {{ if gt $paginator.TotalPages 1 }}
-<div class="w-full text-xs font-medium text-center">
-  <ul class="pagination gap-4">
+<div class="text-xs font-medium text-center">
+  <ul class="pagination flex gap-3">
     <!-- First page. -->
     {{ if ne $paginator.PageNumber 1 }}
       <li class="">

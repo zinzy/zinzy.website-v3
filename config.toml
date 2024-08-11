@@ -44,11 +44,10 @@ refLinksNotFoundURL = "/"
   year = "/:year"
   month = "/:month"
 
-
-
 [outputs]
   home = ['html', 'rss']
   section = ['html', 'rss']
+  
 paginate = 6
 
 [menu]

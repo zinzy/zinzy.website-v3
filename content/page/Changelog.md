@@ -4,10 +4,9 @@ draft: true
 section: page
 description: ""
 ---
+### August 11, 2024
+- Added an RSS feed for [shorts](/shorts/index.xml). 
 
-Testing:
-- [last week](2024-01-21-week-3.md)
-- [True Detective (2014-)](True%20Detective%20(2014-).md)
 ### January 31, 2024
 - Adjusted menu spacing for smaller screens
 ### January 28, 2024

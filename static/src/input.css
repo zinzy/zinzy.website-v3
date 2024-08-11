@@ -233,19 +233,22 @@ button.active {
 }
 
 .pagination {
-  @apply flex w-full;
+  /* @apply flex w-full; */
+  @apply flex justify-center
 }
 
 .pagination li {
-  @apply grow hover:dark:bg-zinc-800/50 rounded;
-  /* @apply first:rounded-l last:rounded-r; */
+  a {
+    @apply inline-block h-8 w-8 leading-8 text-center;
+  }
   &.active {
-    @apply bg-white border rounded dark:bg-zinc-800 dark:border-none;
+    a {
+      @apply bg-white border rounded;
+    }
   }
 }
 
 .page-link {
-  @apply block w-full py-3
 }
 
 
