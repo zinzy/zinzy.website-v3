@@ -32,7 +32,7 @@ I don't know when you're reading this, but chances are that, when you do, this w
 - [Yellow Lab Tools](https://yellowlab.tools/result/got2ipv3ap) gives this site a 100/100 global score
 - It produces [0.00g of CO2](https://www.websitecarbon.com/website/zinzy-website/), is [hosted green](https://www.thegreenwebfoundation.org/green-web-check/?url=https%3A%2F%2Fzinzy.website) and has been designed to minimise the energy consumption and CO2 emissions that result from navigating the Internet
 - It is written by a [human, not AI](https://notbyai.fyi/)
-- It's a [motherfucking website](https://motherfuckingwebsite.com/), [a room](https://a-website-is-a-room.net/), [a home](https://nicochilla.com/my-website-as-a-home/); one [designed to last](https://jeffhuang.com/designed_to_last/)
+- It's a [simple](https://anthonyhobday.com/books/simpledesign/) [motherfucking website](https://motherfuckingwebsite.com/), [a room](https://a-website-is-a-room.net/), [a home](https://nicochilla.com/my-website-as-a-home/); one [designed to last](https://jeffhuang.com/designed_to_last/)
 - It follows [brutalist web design principles](https://brutalist-web.design/)
 - And steers clear of how we [experience the web today](https://how-i-experience-web-today.com/)
 
