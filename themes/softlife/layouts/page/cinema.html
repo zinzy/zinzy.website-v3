@@ -1,0 +1,95 @@
+{{ define "main" }} {{ partial "back_link.html" .}}
+
+
+
+<header class="prose prose-gray dark:prose-invert container">
+  <p class="text-secondary mb-0 text-sm">Cinema</p>
+  <h2 class="p-name mb-2 mt-0 text-2xl">An overview of the texts that have inspired me over the years.</h2>
+</header>
+
+
+{{ $library := where .Site.RegularPages "Type" "library" }} 
+{{ $paginator := .Paginate $library 20 }}
+
+{{ range $paginator.Pages }}
+  {{ if strings.Contains .File "cinema" }}
+  {{ .Title }}
+  {{ end }}
+{{ end }}
+
+
+
+<section class="mt-20">
+  <div class="prose prose-gray dark:prose-invert container">
+    <h2 class="text-xl">Cinema</h2>
+    <p>I try to make it to the theatre at least once a week.</p>
+  </div>
+  <div class="max-w-screen-xl mx-auto px-5 mt-20">
+    {{ $library := where .Site.RegularPages "Type" "library" }} 
+    {{ $path := .Path }}
+    <div class="w-full grid grid-cols-2 gap-4 text-sm">
+      {{ range $library }}
+        {{ if strings.Contains .File "cinema" }}
+      <div class="flex p-5 border rounded bg-white">
+        <div class="mb-3 flex-none w-20">
+          <img src="{{ .Params.cover}}" class="object-cover w-20 h-52 rounded hover:object-scale-down hover:transition-all">
+        </div>
+        <div class="grow">
+          <div class="pl-5">
+            <div>{{ .Title }}</div>
+          <div class="text-secondary text-sm">{{ .Params.director }}</div>
+          <div>
+            {{ $taxonomy := "tags" }} {{ with .Param $taxonomy }}
+          <ul class="inline-block text-xs p-0 m-0 mt-5">
+            {{ range $index, $tag := . }}
+              {{ with $.Site.GetPage (printf "/%s/%s" $taxonomy (urlize $tag) ) -}}
+              
+              <li class="inline-block m-0 p-0 bg-zinc-100 font-medium 00 dark:bg-zinc-800 mr-1 mb-2 px-2 py-1 rounded">
+                <a href="{{ .Permalink }}" class="no-underline text-gray-600 dark:text-zinc-300">{{ $tag }}</a>
+              </li>
+              {{- end -}}
+            {{- end -}}
+          </ul>
+          {{ end }}
+          </div>
+          </div>
+        </div>
+      </div>
+      {{else }}
+      {{ end }}
+      {{ end }}
+    </ul>
+  </div> 
+</section>
+
+ 
+<!-- 
+
+
+<div class="">
+  <header>
+    <p class="text-secondary mb-0 text-sm">{{ .Title }}</p>
+    <h2 class="p-name mb-2 mt-0 text-2xl">
+      I am a fervent diarist, and this archive exists to remind myself that life
+      is ever-evolving, as am I.
+    </h2>
+  </header>
+
+  <section class="mt-20">
+    {{ $postsDefault := where .Site.RegularPages "Type" "posts" }}
+    <ul class="border-b">
+      {{ range $postsDefault }}
+      <li class="border-t py-3">
+        <a class="w-full content-center md:flex" href="{{ .Permalink }}">
+          <span class="grow font-medium">{{ .Title }}</span>
+          <time class="text-secondary flex-none text-sm"
+            >{{- (.Date | time.Format
+            site.Params.theme_config.date_format_medium) }}</time
+          >
+        </a>
+      </li>
+      {{ end }}
+    </ul>
+  </section> -->
+</div>
+{{ end }}

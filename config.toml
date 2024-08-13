@@ -17,7 +17,8 @@ refLinksNotFoundURL = "/"
 [taxonomies]
   category = 'categories'
   tag = 'tags'
- 
+  year = 'years'
+  month = 'months'
 
 [params]
   title = "Zinzy's website"
@@ -36,13 +37,19 @@ refLinksNotFoundURL = "/"
 
 [permalinks]
   posts = "/:year/:month/:day/:title/"
+  library = "/:filename/"
+  cinema = "library/cinema/:filename/"
   shorts = "/:filename/"
   page = "/:slug/"
   notes = "/:slug/"
   photos = "/:slug/"
+  year = "/:year"
+  month = "/:month"
+
 [outputs]
   home = ['html', 'rss']
   section = ['html', 'rss']
+  
 paginate = 6
 
 [menu]

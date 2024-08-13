@@ -9,11 +9,11 @@
 {{ $upper_limit := (sub $paginator.TotalPages $adjacent_links) }}
  
 {{ if gt $paginator.TotalPages 1 }}
-<div class="w-full  text-gray-500 dark:text-white/50">
-  <ul class="grid grid-flow-col justify-stretch">
+<div class="text-xs font-medium text-center">
+  <ul class="pagination flex gap-3">
     <!-- First page. -->
     {{ if ne $paginator.PageNumber 1 }}
-      <li class="page-item">
+      <li class="">
         <a class="page-link" href="{{ $paginator.First.URL }}">
       First
         </a>
@@ -21,7 +21,7 @@
     {{ end }}
     <!-- Previous page. -->
     {{ if $paginator.HasPrev }}
-      <li class="page-item">
+      <li class="">
         <a class="page-link" href="{{ $paginator.Prev.URL }}" rel="next">
           ←
         </a>
@@ -58,7 +58,7 @@
       {{ end }}
       <!-- Output page numbers. --> 
         {{ if eq ($.Scratch.Get "page_number_flag") true }}
-        <li class="page-item{{ if eq . $paginator }} active{{ end }}">
+        <li class=" {{ if eq . $paginator }} active{{ end }}">
             <a class="page-link" href="{{ .URL }}" >
             {{ .PageNumber }}
             </a>
@@ -67,7 +67,7 @@
     {{ end }}
    <!-- Next page. -->
     {{ if $paginator.HasNext }}
-    <li class="page-item">
+    <li class="">
       <a class="page-link" href="{{ $paginator.Next.URL }}" >
         →
       </a>
@@ -75,7 +75,7 @@
     {{ end }}
     <!-- Last page. -->
     {{ if ne $paginator.PageNumber $paginator.TotalPages }}
-    <li class="page-item">
+    <li class="">
       <a class="page-link" href="{{ $paginator.Last.URL }}">
   Last
       </a>

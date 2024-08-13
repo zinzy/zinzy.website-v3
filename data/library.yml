@@ -1,4 +1,4 @@
-- medium: Read
+- medium: Texts
   description: "Articles, poems, essays, chapters, books I've read"
   children:
     - entry: "The Body Keeps the Score"
@@ -42,7 +42,7 @@
       review:
       date: 2024-01-07
       rating: 6
-- medium: Watch
+- medium: Cinema and TV
   description: "Feature films, series, documentaries, videos I've watched"
   children:
     - entry: "Abbott Elementary"
@@ -1879,7 +1879,7 @@
       review:
       date:
       rating: "8"
-- medium: Listen
+- medium: Podcasts
   description: "Music, songs, podcasts I enjoy"
   children:
     - entry: "On Being"

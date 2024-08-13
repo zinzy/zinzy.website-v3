@@ -1,46 +1,63 @@
 ---
 title: About
-description: "Hey, my name is Zinzy Waleson Geene"
-layout: about
+description: "Heya, I'm Zinzy Waleson Geene, and I"
+---
+- Love random encounters, so [say hello](/hello)
+- Am a [human](/biography) living and working in Amsterdam
+- Live with [unrelenting curiosity and intensity](/im-neurodivergent)
+- Have been [yelling at Internet clouds](/site) since 1997
+- Am a linguist by trade, a seminary dropout by choice, a [designer](/work) by profession, a [mentor](/mentoring) by chance, a [bad developer](https://github.com/zinzy) by the grace of God, and a [community builder](/community) by moonlight
+- Am an advocate for the IndieWeb, which is to say for an Internet that values the small, the cozy, the open, and the individual 
+- Do my best to spend most of my time engaged in [interests](/interests) and things that align with my [values](/values)
+- Am enthusiastic about the power and workings of storytelling in its many forms
+- Think [what I do](/praxis) is more important than what I believe
+- I'm a life-long amateur musician 
+- Have been [sober](/2021/05/02/3-years-sober/) since May 2018
+
 ---
 
+### How do I pronounce your name?
+
 {{< rawhtml >}}
-  <figure>
-    <img src="/img/zinzy.jpg" class="w-full" class="Two White men and a Black non-binary person in a lei smile at the camera with champagne glasses in their hand." />
-    <figcaption>Here I am in 2019 with Robin (L) and Michar (R), celebrating the 25th anniversary of the travel technology company that employed us. The pandemic was months away. We were but children.</figcaption>
-  </figure>
+<div
+  class="name group flex max-w-fit cursor-pointer place-content-center rounded border transition-all hover:border-transparent hover:bg-zinc-50 dark:hover:border-transparent dark:hover:bg-zinc-300/10"
+>
+  <p
+    class="m-0 ml-3 mr-1 text-sm leading-7 text-gray-600 group-hover:text-pink-white dark:text-zinc-300 dark:group-hover:text-zinc-300"
+  >
+    / zɪn·zi: weɪl·sʌn gi:n /
+  </p>
+  <span class="inline-block rounded-full p-1">
+    <svg
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <mask
+    id="mask0_641_2"
+    style="mask-type: alpha"
+    maskUnits="userSpaceOnUse"
+    x="0"
+    y="0"
+    width="24"
+    height="24"
+  >
+    <rect
+      width="24"
+      height="24"
+      class="fill-gray-600 group-hover:fill-zinc-500 dark:fill-white dark:group-hover:fill-zinc-300"
+    />
+  </mask>
+  <g mask="url(#mask0_641_2)">
+    <path
+      d="M18.8462 11.975C18.8462 10.6 18.4778 9.34516 17.741 8.21049C17.0042 7.07566 16.0162 6.22666 14.777 5.66349C14.5847 5.57249 14.443 5.43657 14.352 5.25574C14.261 5.07507 14.2498 4.89074 14.3185 4.70274C14.401 4.50224 14.5442 4.36291 14.748 4.28474C14.9518 4.20641 15.1583 4.21282 15.3673 4.30399C16.8749 4.98849 18.0817 6.01849 18.9875 7.39399C19.8932 8.76932 20.346 10.2962 20.346 11.9747C20.346 13.6531 19.8932 15.1801 18.9875 16.5557C18.0817 17.9314 16.8749 18.9615 15.3673 19.646C15.1583 19.7372 14.9518 19.7436 14.748 19.6652C14.5442 19.5871 14.401 19.4477 14.3185 19.2472C14.2498 19.0592 14.261 18.8749 14.352 18.6942C14.443 18.5134 14.5847 18.3775 14.777 18.2865C16.0162 17.7233 17.0042 16.8743 17.741 15.7395C18.4778 14.6048 18.8462 13.35 18.8462 11.975ZM7.3655 14.5H4.55775C4.30158 14.5 4.08692 14.4133 3.91375 14.24C3.74058 14.0668 3.654 13.8522 3.654 13.596V10.404C3.654 10.1478 3.74058 9.93316 3.91375 9.75999C4.08692 9.58666 4.30158 9.49999 4.55775 9.49999H7.3655L10.3578 6.50774C10.5974 6.26807 10.8733 6.21399 11.1855 6.34549C11.4977 6.47699 11.6537 6.71182 11.6537 7.04999V16.95C11.6537 17.2882 11.4977 17.523 11.1855 17.6545C10.8733 17.786 10.5974 17.7319 10.3578 17.4922L7.3655 14.5ZM16.1538 12.001C16.1538 12.6248 16.0243 13.2152 15.7653 13.7722C15.5064 14.3292 15.1574 14.7975 14.7183 15.177C14.5766 15.2718 14.4278 15.2814 14.272 15.2057C14.1163 15.1301 14.0385 15.0051 14.0385 14.8307V9.11924C14.0385 8.94491 14.1163 8.81991 14.272 8.74424C14.4278 8.66857 14.5766 8.67766 14.7183 8.77149C15.1574 9.16232 15.5064 9.64232 15.7653 10.2115C16.0243 10.7808 16.1538 11.3773 16.1538 12.001ZM10.1537 8.84999L8.00375 11H5.15375V13H8.00375L10.1537 15.15V8.84999Z"
+      class="fill-gray-950 group-hover:fill-zinc-500 dark:fill-white dark:group-hover:fill-zinc-300"
+    />
+  </g>
+</svg>
+
+  </span>
+</div>
 {{< /rawhtml >}}
-
-I'm pleased you have reached my [world wide web homepage](/site). This is a home for soft stances, lived experiences, and critical notes on the things I hold dear. No highlight reel, no likes, no follow button. Just my appreciation for the web, [my excessive curiousity](/im-neurodivergent), and the words I choose to make sense of it all.
-
-Before you dive in, you may be looking for a way to [say hello](/hello), [follow this site](/follow), or check out what I'm up to right [now](/now).
-
-### I'm a Product Designer of 17 years, specialized in making software for people at work.
-
-I taught myself to build websites in elementary school [in the late nineties](/museum), and began working from my one-person design studio when I turned 18. I had entirely different plans for my future, but in the meantime, I've found a very satisfying home in Information Technology.
-
-I've worked as a designer, researcher, strategist, product manager, and design manager. Right now, I'm living the dream at [Gerimedica](https://gerimedica.nl). If you'd like to learn more about the type of work I'm doing at the moment, please visit [Work & Play](/work-and-play).
-
-I hold a B.A. in Linguistics & Literature from Utrecht University, and dropped out of Theological Seminary after a year of being the only queer Black person there. I think I'm still saving my Master's degree for Divinity School.
-
-### I practice gratitude, and seek to go to bed more content and smarter than I woke up.
-
-I'm one of those privileged people who wake up feeling 8+. I get to surround myself with people in whom I see myself, I live in a beautiful home, and my career is a hobby I do during office hours.
-
-If you meet me in person, you'll see I like to laugh a lot. It's not fake, either. I'm just really thankful to be where I am today. I didn't have the easiest of starts, and it shows in who I am and how I write. Life _is_ like a box of chocolates.
-
-### I live and work in Amsterdam, where I share my life with Anja and Lemonade.
-
-Lemonade is a dog, but since we're a [child-free](/im-child-free) home I consider Lemonade my daughter. I kind of hate that about myself. If you've never met [Anja](https://anjawaleson.notion.site/Anja-Waleson-0182c8df804b4b12ab6e70b5b5795a55?pvs=74), you should. She's quite something.
-
-I'm of São Toméan and Dutch descent, and come from a long line of loud, burgundian band geeks. I grew up in the narrow tail-end of the Netherlands, bike rides away from both Belgium and Germany.
-
-Being a [Black](/tags/being-black), [lesbian](/tags/queerdom), [non-binary](/2021/03/25/call-me-she-but-not-woman/), [neurodivergent](/im-neurodivergent/) person with a history of [adverse childhood experiences](/2020/05/13/clobber/) hasn't always been an easy life path, but luckily I began to feel a sense of belonging when I moved to Amsterdam.
-
-### I like chronicling my life in a diary
-
-In various forms and frequencies, I've been keeping a diary since I was a little kid. You may consider this website an extension of that. I'm an advocate for the [IndieWeb](/tags/indieweb/), which is a snooty way of saying I think the Internet should be scattered, playful, experimental, personal, and cozy.
-
-My Xhosa name was inspired by Nelson Mandela's daughter Zindziswa. If I had been a boy, you would've had to call me Stevie Wonder Waleson Geene.
-
-I've been [sober](/2021/05/02/3-years-sober/) since May 2018.

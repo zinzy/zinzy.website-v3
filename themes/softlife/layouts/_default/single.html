@@ -1,24 +1,126 @@
 {{ define "main" }}
 {{ partial "back_link.html" .}}
 
-<article class="prose prose-gray dark:prose-invert">
  
-        <p class="post-meta">
-            <time class="" datetime="{{ .Date }}">
-                {{ .Date | time.Format site.Params.theme_config.date_format }}
-            </time>
-        </p> 
-    <h1>{{ .Title }}</h1>
+<div class="container">
+    <article class="h-entry">
+ 
+        <header class=""> 
+            <p class="text-secondary font-medium uppercase text-xs mb-5">
+                {{ if or (eq .Section "posts") (eq .Section "shorts") }}
+                    <time class="dt-published text-secondary font-medium uppercase text-xs block" datetime="{{ .Date }}">
+                    <a href="{{ .Permalink }}">{{ .Date | time.Format site.Params.theme_config.date_format_full }}</a>
+                    </time> 
+                {{ else }}
+                    {{ .Params.title }}
+                {{ end }}
+            </p> 
 
-    {{ if .Params.toc }}
-        <aside {{ if .Params.tocBorder }} class="toc" {{ end }}>
-            {{ .TableOfContents }}
-        </aside>
-    {{ end }}
+            {{ if .Params.title }} 
+                <h2 class="p-name text-2xl mb-5">
+                    <a class="u-url" href="{{ .Permalink }}">
+                        {{ if eq .Section "posts" }}
+                            {{ .Params.title }}
+                        {{ else }}
+                            {{ .Params.description }}
+                        {{ end }}
+                    </a>
+                </h2> 
+            {{ end }}
+        
+            <div class="u-author h-card hidden">
+              <img src="/img/avatar.png" class="u-photo" />
+              <a href="/" class="u-url p-name">Zinzy Waleson Geene</a>
+            </div>
+          </header>
 
-    {{ .Content }}
 
+            {{ if or (eq .Section "posts") (eq .Section "shorts") }}
+                {{ if gt .Site.Params.oldPost .Date.Year }}
+  
+                <div
+                    class="mb-10 flex rounded bg-zinc-100 p-3 text-xs text-zinc-700 dark:bg-zinc-700 dark:text-white"
+                >
+                    <span class="mr-2 inline-block content-center md:leading-9"
+                    >{{- partial "symbols/alert.html" . -}}</span
+                    >
+                    <span class="inline-block"
+                    >I published this piece quite a while ago. Though I enjoy the art of
+                    public record-keeping, you should know it may no longer reflect my
+                    views.</span
+                    >
+                </div>
+          {{ end }}
+          {{ end }}
+        
+        {{ if .Params.toc }}
+            <aside {{ if .Params.tocBorder }} class="toc" {{ end }}>
+                {{ .TableOfContents }}
+            </aside>
+        {{ end }}
+        
+        <content class="e-content prose prose-gray dark:prose-invert">
+        {{ if .Params.replyTo }}
+        {{ if .Params.rsvp }}
+          <p>
+            {{ if eq .Params.rsvp "yes" }}<data class="p-rsvp" value="YES">Is going</data> to 
+            {{ else if eq .Params.rsvp "maybe" }}<data class="p-rsvp" value="Maybe">Might go</data> to 
+            {{ else if eq .Params.rsvp "no" }}<data class="p-rsvp" value="no">Unable to go</data> to 
+            {{ else if eq .Params.rsvp "interested" }}<data class="p-rsvp" value="interested">Is interested</data> in 
+            {{ end }}
 
-    
-</article>
+            <a
+            href="{{.Params.replyTo}}"
+            rel="in-reply-to"
+            class="u-in-reply-to text-url break-all font-normal underline"
+            target="_blank"
+            >
+            {{ if .Params.replyToName }} {{.Params.replyToName}} {{ else }}
+            {{.Params.replyTo}} {{ end }}
+            </a>
+          </p>
+
+          {{ else }}
+          
+          <p class="u-in-reply-to mt-0 mb-5">
+            Replied to
+            <a
+              href="{{.Params.replyTo}}"
+              rel="in-reply-to"
+              class="u-in-reply-to text-url break-all font-normal underline"
+              target="_blank"
+            >
+              {{ if .Params.replyToName }} {{.Params.replyToName | markdownify }} {{ else }}
+              {{.Params.replyTo}} {{ end }}
+            </a>
+          </p>
+        {{ end }}
+        
+        {{ else if .Params.likeOf }}
+        <p class="mt-0 mb-5 h-cite u-like-of">
+          Liked
+          <a
+            href="{{.Params.likeOf}}"
+            class="text-url break-all font-normal underline"
+            target="_blank"
+            > {{ if .Params.likeOfName }} {{.Params.likeOfName | markdownify}} {{ else }}
+            {{.Params.likeOf}} {{ end }}
+            </a
+          >
+        </p>
+        {{ end }} 
+        {{ if .Params.sidenote }}
+        <div class="aside">{{ .Params.sidenote | markdownify }}</div>
+        {{ end }} {{- partial "content_wikified" . -}}
+      </content>
+        </article>
+        <footer>
+            <div class="mt-5">{{ partial "tags.html" .}}</div>
+
+            <div class="mt-20 pt-20 border-t text-sm text-secondary">
+                <p class="mb-5">Hello! You just read something on zinzy.website. I love connecting with people over the Internet, and invite you to share your thoughts with me via a <a href="https://indieweb.org/Webmention" target="_blank" rel="noopener noreferrer">webmention</a>. If that's not your thing, not to worry; there are plenty of other ways to <a href="/hello">say hello</a> to me.</p>
+                <p>This content is licensed CC BY-NC-SA 4.0 2005-2024 <a href="/">Zinzy Waleson Geene</a> (<a href="https://tech.lgbt/@zinzy" target="_blank" class="underline">@zinzy@tech.lgbt</a>). I don't track you, though others might. Language models played no part in the writing on this website.</p>
+            </div>
+        </footer>
+</div>
 {{ end }}

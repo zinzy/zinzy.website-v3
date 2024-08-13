@@ -7,10 +7,11 @@ sidenote: "[The July edition of the IndieWeb Carnival](https://jamesg.blog/2024/
 categories:
 - Essays
 tags:
-  - indieweb-carnival
+  - IndieWeb
+  - IndieWeb Carnival
   - tools
   - Filofax
-  - office-supplies
+  - office supplies
 ---
 
 Remember Flickr, and the way we self-published visual sneak peeks into our lives on that website, in the mid-zeroes? If we wanted a filter in our photo, we had to Photoshop it in there ourselves. We tagged our uploads, but merely to archive our materials. Our profiles all contained a link to our personal blog.

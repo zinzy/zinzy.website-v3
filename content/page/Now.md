@@ -1,16 +1,8 @@
 ---
 title: Now
-layout: now
-date: 2024-05-01
 description: What I'm up to at this point in my life
 ---
-
-{{< rawhtml >}}
-
-  <figure>
-    <img src="/img/zinzy-at-work.jpg" class="w-full" class="A Black person at the office smiling at the camera while doodling on a flipchart" />
-  </figure>
-{{< /rawhtml >}}
+![A Black person at the office smiling at the camera while doodling on a flipchart](/img/zinzy-at-work.jpg)
 
 Here I am at the [Gerimedica](https://gerimedica.nl) office, posing for an employer branding photoshoot. I usually don't use that whiteboard to draw anything, but that _is_ my desk in the background, and that smile is genuine. I gave a great talk at our periodic company update, and I feel I'm doing good work that helps the company reach its goals. It's a good day. The days have been good.
 
@@ -23,3 +15,5 @@ Here I am at the [Gerimedica](https://gerimedica.nl) office, posing for an emplo
 - Working out again and loving it
 - Making music in my spare time, and moving slowly as I set up my personal space for recording and writing
 - Trying to bring my ideas and experiences into my writing more
+
+_This update was published on May 1, 2024_
