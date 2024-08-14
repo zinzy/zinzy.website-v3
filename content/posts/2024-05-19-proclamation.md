@@ -4,14 +4,14 @@ summary: "Whenever a person interviews me, because it always takes the form of a
 draft: false
 date: 2024-05-19
 categories:
-- Essays
+  - Essays
 tags:
   - spirituality
   - religion
   - friends
   - bible-study
   - mark
-  - question-mark
+  - question mark
 ---
 
 "Go into all the world and proclaim the good news to the whole creation. — [Mark 16:15](https://www.biblegateway.com/passage/?search=Mark+16%3A15&version=NRSVA)

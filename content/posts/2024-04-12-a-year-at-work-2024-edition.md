@@ -2,15 +2,15 @@
 title: "A year at work, 2024 edition"
 date: 2024-04-12
 categories:
-- Essays
+  - Essays
 tags:
   - review
   - career
   - Gerimedica
   - UX
-  - professional-development
-  - learners-mentality
-  - how-i-work
+  - professional development
+  - learners mentality
+  - how I work
 ---
 
 In a fortnight, I'll be celebrating one year of employment at Gerimedica, the healthcare technology provider I was keen to join last spring. Coincidentally, I'm working on one of my professional development goals right now: turn coworker feedback into concrete goals for the second quarter. It seems a fitting moment to reflect on the past year as a whole.
@@ -54,10 +54,9 @@ I pause and think about that often.
 
 He's the only person at our company who lived in a waterfall kind of world. I've never met a leaner engineer in my life. Collaborating with him, the R&D team, and our various Scrum teams is helping me look more clearly at all the times in my career when the statement "we're agile" became a whole new type of waterfall in itself.
 
-<!-- 
+<!--
 ![](https://res.cloudinary.com/dbi2zounq/image/upload/v1712929891/1696945984679_z1sqmz.jpg)
 ![](https://res.cloudinary.com/dbi2zounq/image/upload/v1712929890/1684850435276_zz6lbf.jpg) -->
-
 
 ### The value of feedback
 

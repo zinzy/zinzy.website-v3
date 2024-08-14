@@ -1,21 +1,22 @@
 ---
 title: "A job for me, part two: good enough"
 summary: "A late submission to April's IndieWeb Carnival, and thoughts on system-thinking in the product world"
-date: 2024-05-10 
+date: 2024-05-10
 categories:
-- Essays
+  - Essays
 tags:
-- career
-- ux
-- mentoring
-- work
-- design
-- neurodivergence
-- system-thinking
-- indieweb-carnival
-- series
+  - career
+  - ux
+  - mentoring
+  - work
+  - design
+  - neurodivergence
+  - system thinking
+  - IndieWeb Carnival
+  - series
 ---
-This is my very, very late submission to [April's IndieWeb Carnival topic](https://risingthumb.xyz/Writing/Blog/IndieWeb_Carnival_of_April). It's also [part two of a reflection](/2024/04/20/a-job-for-me-part-one/) on a conversation I had with a neurodivergent designer from Denmark. She asked me: how can I be promoted to the all-star Core Team at work, the one that works across products and teams? 
+
+This is my very, very late submission to [April's IndieWeb Carnival topic](https://risingthumb.xyz/Writing/Blog/IndieWeb_Carnival_of_April). It's also [part two of a reflection](/2024/04/20/a-job-for-me-part-one/) on a conversation I had with a neurodivergent designer from Denmark. She asked me: how can I be promoted to the all-star Core Team at work, the one that works across products and teams?
 
 Here I am.
 
@@ -35,7 +36,7 @@ Us "neurospicies" must deal with an inevitability in the way the tech industry o
 
 That's a perfectly healthy way of looking at human skills, but we should remember that this way is very neurotypical. Neurotypical individuals may demonstrate a correlation between their system thinking abilities and their years of experience. For neurodivergent people, the ability to think systemically can be a very ineffective growth indicator that leaves us feeling unsatisfied in our jobs.
 
-Go find yourself a smaller company, one in need of a  generalist designer who can work across all products, offering research, visual design, facilitation skills, interaction design, and whatever else is required. Not because you think you're the cat's meow, but because there's no other way for you to _think_.
+Go find yourself a smaller company, one in need of a generalist designer who can work across all products, offering research, visual design, facilitation skills, interaction design, and whatever else is required. Not because you think you're the cat's meow, but because there's no other way for you to _think_.
 
 [^1]: I pretend in no way that neurodivergence is a monolith and that I can speak for all people in this domain
 [^2]: Elizabeth Filips has a lovely video on analogical thinking that deals with the study technique of ["flattening"](https://www.youtube.com/watch?v=PjyMdQptGYI)

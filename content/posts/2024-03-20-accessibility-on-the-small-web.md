@@ -2,15 +2,16 @@
 title: "Accessibility on the small web"
 date: 2024-03-20
 categories:
-- Essays
+  - Essays
 tags:
-- indieweb-carnival
-- accessibility 
-- small-web
-- questions
-- design
-- inclusion
+  - IndieWeb Carnival
+  - accessibility
+  - small web
+  - questions
+  - design
+  - inclusion
 ---
+
 [The March edition of the IndieWeb Carnival](https://blog.basementcommunity.com/accessibility-in-the-personal-web/) is about accessibility on the small web. The host, [orchids](https://blog.basementcommunity.com/), touches on a note-worthy design pattern found in this fine corner of the Internet: that of artsy, personal websites that emulate technology of old, particularly the early days of Internet. The fair question orchids poses is: how does this design pattern affect people with particular accessibility needs?
 
 Here I am.
@@ -19,7 +20,7 @@ Here I am.
 
 I always say that I like returning from church with more questions than I brought in. The same is true for this month's prompt.
 
-As a User Experience designer of digital products and software, my 17 years in the industry tells me accessibility is hot these days. Back in the day, before we ever even began to make things that were *responsive*, I hardly ever thought about the concerns and needs of people living with blindness, color blindness, deafness, or another disability.[^1] Now, and rightfully so, many of us raise an eyebrow when we encounter online spaces that do not take into account such needs. The revolution and evolution of activism is wearing off on us, luckily.
+As a User Experience designer of digital products and software, my 17 years in the industry tells me accessibility is hot these days. Back in the day, before we ever even began to make things that were _responsive_, I hardly ever thought about the concerns and needs of people living with blindness, color blindness, deafness, or another disability.[^1] Now, and rightfully so, many of us raise an eyebrow when we encounter online spaces that do not take into account such needs. The revolution and evolution of activism is wearing off on us, luckily.
 
 In my line of work, the chances of encountering users who have considerable accessibility needs are very slim, smaller than if I were working in a business-to-consumer environment. Because of this, I like to pay attention to accessibility in my personal endeavors. It's my way of better understanding what design today constitutes, and I suppose I'm simply a person who enjoys inclusion. Y'all means all.
 
