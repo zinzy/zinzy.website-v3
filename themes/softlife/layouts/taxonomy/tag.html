@@ -21,10 +21,12 @@
         class="dt-published text-secondary font-medium uppercase text-xs mb-5 block"
         datetime="{{ .Date }}"
       >
-        <a href="{{ .Permalink }}"
-          >{{ .Date | time.Format site.Params.theme_config.date_format_full
-          }}</a
-        >
+        <a href="{{ .Permalink }}">
+          {{ if .Params.title }} {{ .Date | time.Format
+          site.Params.theme_config.date_format_date }} {{ else }} {{ .Date |
+          time.Format site.Params.theme_config.date_format_date_time }} {{ end
+          }}
+        </a>
       </time>
       {{ if .Params.title }}
 

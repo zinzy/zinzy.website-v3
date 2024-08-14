@@ -72,7 +72,8 @@
       <p class="text-secondary mb-0 mt-2 text-xs">
         <a href="{{ .Permalink}}">
           <time class="dt-published" datetime="{{ .Date }}">
-            {{ .Date | time.Format site.Params.theme_config.date_format_full }}
+            {{ .Date | time.Format
+            site.Params.theme_config.date_format_date_time }}
           </time></a
         >
       </p>
