@@ -6,10 +6,10 @@ title: Dear Nienke, you should have a website
 date: 2023-04-26
 excerpt: ""
 categories:
-- Essays
+  - Essays
 tags:
   - friends
-  - indieweb
+  - IndieWeb
   - personal archiving
   - letters
 ---

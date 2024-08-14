@@ -3,9 +3,16 @@
 <div class="">
   <header class="prose mb-20 dark:prose-invert">
     <h2>
-      Things about
+      Everything about
       <span class="">{{ .Title }}</span>
     </h2>
+
+    {{ if .Content }}
+    <div class="mb-20 pb-20 border-b">{{ .Content }}</div>
+    {{ end }}
+
+    <!-- <div>{{ .Name }}</div>
+    <div>{{ .Params.kind }}</div> -->
   </header>
 
   <!-- {{ partial "feed_all.html" .}} -->
