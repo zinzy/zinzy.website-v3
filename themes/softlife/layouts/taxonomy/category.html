@@ -1,19 +1,16 @@
 {{ define "main" }} {{ partial "back_link.html" .}}
 
-<div class="container">
+<div class="">
   <header class="prose prose-gray dark:prose-invert mb-10">
     <p class="text-secondary mb-0 text-sm">{{ .Title }}</p>
     <h2 class="m-0 p-0">
       {{ if eq .Title "Overheard" }} Things I've
       <span class="lowercase">{{.Title}}</span>
-      {{ else if eq .Title "Today I wondered" }}
-        {{ .Title }}
-      {{ else }}
-      {{ .Title }} I have written
-      {{ end }}
+      {{ else if eq .Title "Today I wondered" }} {{ .Title }} {{ else }} {{
+      .Title }} I have written {{ end }}
     </h2>
   </header>
-  
+
   {{ partial "feed_all.html" .}}
 </div>
 

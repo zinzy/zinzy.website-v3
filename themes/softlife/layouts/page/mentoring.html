@@ -1,16 +1,16 @@
 {{ define "main" }} {{ partial "back_link.html" .}}
 
-<div class="container">
+<div class="">
   <article class="h-entry">
     <header class="">
       <p class="text-secondary mb-0 text-sm">{{ .Title }}</p>
       <h2 class="p-name mt-5 mb-4 text-2xl">{{ .Description }}</h2>
     </header>
-  
+
     <content class="h-entry prose prose-gray dark:prose-invert">
       {{ .Content }}
     </content>
-  
+
     <ul class="m-0 mt-12 list-none p-0">
       {{ range sort $.Site.Data.mentoring "name" }}
       <li class="group mb-10 text-xs">
@@ -19,7 +19,7 @@
         >
           {{ .quote }}
         </p>
-  
+
         <p class="mt-3 flex group-even:justify-end">
           <a
             href="{{ .url }}"
