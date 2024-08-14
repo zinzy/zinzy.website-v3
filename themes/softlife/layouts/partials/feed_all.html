@@ -1,79 +1,82 @@
-
-
 <ul class="feed text-sm">
-    {{ range .Data.Pages  }}
-    <li class="mb-5 border p-3 rounded-xl flex hover:border-gray-300">
- 
-        <span class="flex-none w-10">
-          {{ partial "feed_symbols.html" .}}
-        </span>
-        <span class="grow">
+  {{ range .Data.Pages }}
+  <li class="mb-5 border p-3 rounded-xl flex hover:border-gray-300">
+    <span class="flex-none w-10"> {{ partial "feed_symbols.html" .}} </span>
+    <span class="grow">
+      {{ if in .Params.categories "Today I wondered" }}
+      <p>Today I wondered:</p>
+      {{ else if .Params.rsvp }} {{ end }} {{ if .Params.replyTo }} {{ if
+      .Params.rsvp }}
+      <p>
+        {{ if eq .Params.rsvp "yes" }}<data class="p-rsvp" value="YES"
+          >Is going</data
+        >
+        to {{ else if eq .Params.rsvp "maybe" }}<data
+          class="p-rsvp"
+          value="Maybe"
+          >Might go</data
+        >
+        to {{ else if eq .Params.rsvp "no" }}<data class="p-rsvp" value="no"
+          >Unable to go</data
+        >
+        to {{ else if eq .Params.rsvp "interested" }}<data
+          class="p-rsvp"
+          value="interested"
+          >Is interested</data
+        >
+        in {{ end }}
 
-          {{ if in .Params.categories "Today I wondered" }}
-            <p>Today I wondered:</p>
-          {{ else if .Params.rsvp }}
-          {{ end }}
-          
-          {{ if .Params.replyTo }}
-            {{ if .Params.rsvp }}
-              <p>
-                {{ if eq .Params.rsvp "yes" }}<data class="p-rsvp" value="YES">Is going</data> to 
-                {{ else if eq .Params.rsvp "maybe" }}<data class="p-rsvp" value="Maybe">Might go</data> to 
-                {{ else if eq .Params.rsvp "no" }}<data class="p-rsvp" value="no">Unable to go</data> to 
-                {{ else if eq .Params.rsvp "interested" }}<data class="p-rsvp" value="interested">Is interested</data> in 
-                {{ end }}
-  
-                <a
-                href="{{.Params.replyTo}}"
-                rel="in-reply-to"
-                class="u-in-reply-to text-url break-all"
-                target="_blank"
-                >
-                {{ if .Params.replyToName }} {{.Params.replyToName}} {{ else }}
-                {{.Params.replyTo}} {{ end }}
-                </a>
-              </p>
-  
-              {{ else }}
-              
-              <p class="u-in-reply-to mt-0 mb-3">
-                Replied to
-                <a
-                  href="{{.Params.replyTo}}"
-                  rel="in-reply-to"
-                  class="u-in-reply-to text-url break-all font-medium underline"
-                  target="_blank"
-                >
-                  {{ if .Params.replyToName }} {{.Params.replyToName | markdownify }} {{ else }}
-                  {{.Params.replyTo}} {{ end }}
-                </a>
-              </p>
-            {{ end }}
-            
-            {{ else if .Params.likeOf }}
-            <p class="mt-0">
-              Liked
-              <a
-                href="{{.Params.likeOf}}"
-                class="u-like-of text-url break-all"
-                target="_blank"
-                >{{.Params.likeOf}}</a
-              >
-            </p>
-            {{ end }}
-          {{ if not .Params.title }}
-          <content class="prose prose-gray relative dark:prose-invert text-sm">{{ .Content }}</content>
-          {{ else }}
-          <h4>{{ .Params.title }}</h4>
-          {{ end }}
+        <a
+          href="{{.Params.replyTo}}"
+          rel="in-reply-to"
+          class="u-in-reply-to text-url break-all"
+          target="_blank"
+        >
+          {{ if .Params.replyToName }} {{.Params.replyToName}} {{ else }}
+          {{.Params.replyTo}} {{ end }}
+        </a>
+      </p>
 
-    
-          <p class="text-secondary mb-0 mt-2 text-xs">
-            <a href="{{ .Permalink}}"> <time class="dt-published" datetime="{{ .Date }}">
-              {{ .Date | time.Format site.Params.theme_config.date_format_full }}
-            </time></a>
-          </p>
-        </span> 
-    </li>
-    {{ end }}
-  </ul>
+      {{ else }}
+
+      <p class="u-in-reply-to mt-0 mb-3">
+        Replied to
+        <a
+          href="{{.Params.replyTo}}"
+          rel="in-reply-to"
+          class="u-in-reply-to text-url break-all font-medium underline"
+          target="_blank"
+        >
+          {{ if .Params.replyToName }} {{.Params.replyToName | markdownify }} {{
+          else }} {{.Params.replyTo}} {{ end }}
+        </a>
+      </p>
+      {{ end }} {{ else if .Params.likeOf }}
+      <p class="mt-0">
+        Liked
+        <a
+          href="{{.Params.likeOf}}"
+          class="u-like-of text-url break-all"
+          target="_blank"
+          >{{.Params.likeOf}}</a
+        >
+      </p>
+      {{ end }} {{ if not .Params.title }}
+      <content class="prose prose-gray relative dark:prose-invert text-sm"
+        >{{ .Content }}</content
+      >
+      {{ else }}
+      <h4>{{ .Params.title }}</h4>
+      {{ end }}
+
+      <p class="text-secondary mb-0 mt-2 text-xs">
+        <a href="{{ .Permalink}}">
+          <time class="dt-published" datetime="{{ .Date }}">
+            {{ .Date | time.Format site.Params.theme_config.date_format_full }}
+          </time></a
+        >
+      </p>
+    </span>
+  </li>
+  {{ end }}
+</ul>
