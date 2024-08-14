@@ -8,10 +8,9 @@
 </header>
 
 
-{{ $library := where .Site.RegularPages "Type" "library" }} 
-{{ $paginator := .Paginate $library 20 }}
+{{ $library := where .Site.RegularPages "Type" "library" }}  
 
-{{ range $paginator.Pages }}
+{{ range $library }}
   {{ if strings.Contains .File "cinema" }}
   {{ .Title }}
   {{ end }}
