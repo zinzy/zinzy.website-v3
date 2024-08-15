@@ -1,0 +1,13 @@
+{{ define "main" }} {{ partial "back_link.html" .}} {{ $postsDefault := where
+.Site.RegularPages "Type" "posts" }}
+<ul class="border-b">
+  {{ range .Site.RegularPages }}
+  <li class="border-t py-3">
+    <a class="w-full content-center md:flex" href="{{ .Permalink }}">
+      <span class="grow font-medium">{{ .Title }}</span>
+    </a>
+  </li>
+  {{ end }}
+</ul>
+
+{{ end }}

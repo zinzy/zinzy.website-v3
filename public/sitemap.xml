@@ -455,9 +455,6 @@
     <loc>https://zinzy.website/tags/work-environment/</loc>
     <lastmod>2024-03-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://zinzy.website/tags/mary/</loc>
-    <lastmod>2024-02-29T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://zinzy.website/tags/chosen-family/</loc>
     <lastmod>2024-02-29T00:00:00+00:00</lastmod>
   </url><url>
@@ -465,6 +462,9 @@
     <lastmod>2024-02-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://zinzy.website/tags/friendship/</loc>
+    <lastmod>2024-02-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zinzy.website/tags/mary/</loc>
     <lastmod>2024-02-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://zinzy.website/2024/02/29/the-surfer/</loc>
@@ -1280,9 +1280,6 @@
     <loc>https://zinzy.website/tags/internet/</loc>
     <lastmod>2023-03-05T07:41:54+01:00</lastmod>
   </url><url>
-    <loc>https://zinzy.website/2023-03-04-18-43-13/</loc>
-    <lastmod>2023-03-04T18:43:17+01:00</lastmod>
-  </url><url>
     <loc>https://zinzy.website/2023-03-04-12-31-29/</loc>
     <lastmod>2023-03-04T12:31:29+01:00</lastmod>
   </url><url>
@@ -1709,109 +1706,115 @@
     <loc>https://zinzy.website/tags/queerphobia/</loc>
     <lastmod>2009-08-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://zinzy.website/rec-2-2009/</loc>
+    <loc>https://zinzy.website/library/cinema/rec-2-2009/</loc>
   </url><url>
-    <loc>https://zinzy.website/127-hours-2011/</loc>
+    <loc>https://zinzy.website/library/cinema/127-hours-2011/</loc>
   </url><url>
-    <loc>https://zinzy.website/47-meters-down-uncaged-2019/</loc>
+    <loc>https://zinzy.website/playlists/2015/</loc>
   </url><url>
-    <loc>https://zinzy.website/500-days-of-summer-2009/</loc>
+    <loc>https://zinzy.website/library/cinema/47-meters-down-uncaged-2019/</loc>
   </url><url>
-    <loc>https://zinzy.website/a-beautiful-mind-2002/</loc>
+    <loc>https://zinzy.website/library/cinema/500-days-of-summer-2009/</loc>
   </url><url>
-    <loc>https://zinzy.website/a-clockwork-orange-1972/</loc>
+    <loc>https://zinzy.website/library/cinema/a-beautiful-mind-2002/</loc>
   </url><url>
-    <loc>https://zinzy.website/a-nightmare-on-elm-street-1984/</loc>
+    <loc>https://zinzy.website/library/cinema/a-clockwork-orange-1972/</loc>
+  </url><url>
+    <loc>https://zinzy.website/library/cinema/a-nightmare-on-elm-street-1984/</loc>
   </url><url>
     <loc>https://zinzy.website/about/</loc>
   </url><url>
-    <loc>https://zinzy.website/adventureland-2009/</loc>
+    <loc>https://zinzy.website/library/cinema/adventureland-2009/</loc>
   </url><url>
     <loc>https://zinzy.website/tags/affirmative/</loc>
   </url><url>
-    <loc>https://zinzy.website/africa-is-not-a-country-2022/</loc>
+    <loc>https://zinzy.website/library/books/africa-is-not-a-country-2022/</loc>
   </url><url>
     <loc>https://zinzy.website/ai/</loc>
   </url><url>
-    <loc>https://zinzy.website/ali--ava-2022/</loc>
+    <loc>https://zinzy.website/library/cinema/ali-and-ava-2022/</loc>
   </url><url>
-    <loc>https://zinzy.website/ali-ava-2022/</loc>
+    <loc>https://zinzy.website/library/cinema/alien-1979/</loc>
   </url><url>
-    <loc>https://zinzy.website/alien-1979/</loc>
+    <loc>https://zinzy.website/library/cinema/along-came-a-spider-2001/</loc>
   </url><url>
-    <loc>https://zinzy.website/along-came-a-spider-2001/</loc>
+    <loc>https://zinzy.website/library/cinema/amazing-grace-2019/</loc>
   </url><url>
-    <loc>https://zinzy.website/amazing-grace-2019/</loc>
+    <loc>https://zinzy.website/library/cinema/am-lie-2002/</loc>
   </url><url>
-    <loc>https://zinzy.website/am-lie-2002/</loc>
+    <loc>https://zinzy.website/library/cinema/am%C3%A9lie-2002/</loc>
   </url><url>
-    <loc>https://zinzy.website/am%C3%A9lie-2002/</loc>
+    <loc>https://zinzy.website/library/cinema/american-beauty-1999/</loc>
   </url><url>
-    <loc>https://zinzy.website/american-beauty-1999/</loc>
+    <loc>https://zinzy.website/library/cinema/american-fiction-2023/</loc>
   </url><url>
-    <loc>https://zinzy.website/american-fiction-2023/</loc>
+    <loc>https://zinzy.website/library/cinema/american-history-x-1998/</loc>
   </url><url>
-    <loc>https://zinzy.website/american-history-x-1998/</loc>
-  </url><url>
-    <loc>https://zinzy.website/american-psycho-2000/</loc>
+    <loc>https://zinzy.website/library/cinema/american-psycho-2000/</loc>
   </url><url>
     <loc>https://zinzy.website/tags/amusing/</loc>
   </url><url>
-    <loc>https://zinzy.website/an-education-2010/</loc>
+    <loc>https://zinzy.website/library/cinema/an-education-2010/</loc>
   </url><url>
-    <loc>https://zinzy.website/anatomy-of-a-fall-2024/</loc>
+    <loc>https://zinzy.website/library/cinema/anatomy-of-a-fall-2024/</loc>
   </url><url>
-    <loc>https://zinzy.website/apocalypse-now-1979/</loc>
+    <loc>https://zinzy.website/library/cinema/apocalypse-now-1979/</loc>
   </url><url>
-    <loc>https://zinzy.website/are-you-there-god-it-s-me-margaret--2023/</loc>
+    <loc>https://zinzy.website/library/cinema/are-you-there-god-it-s-me-margaret--2023/</loc>
   </url><url>
-    <loc>https://zinzy.website/are-you-there-god-its-me-margaret-2023/</loc>
+    <loc>https://zinzy.website/library/cinema/are-you-there-god-its-me-margaret-2023/</loc>
   </url><url>
-    <loc>https://zinzy.website/arrival-2016/</loc>
+    <loc>https://zinzy.website/library/cinema/arrival-2016/</loc>
   </url><url>
-    <loc>https://zinzy.website/as-good-as-it-gets-1997/</loc>
+    <loc>https://zinzy.website/library/cinema/as-good-as-it-gets-1997/</loc>
   </url><url>
-    <loc>https://zinzy.website/asteroid-city-2023/</loc>
+    <loc>https://zinzy.website/library/cinema/asteroid-city-2023/</loc>
   </url><url>
-    <loc>https://zinzy.website/babel-2006/</loc>
+    <loc>https://zinzy.website/library/cinema/babel-2006/</loc>
   </url><url>
-    <loc>https://zinzy.website/barbie-2023/</loc>
+    <loc>https://zinzy.website/library/cinema/barbie-2023/</loc>
   </url><url>
-    <loc>https://zinzy.website/beau-is-afraid-2023/</loc>
+    <loc>https://zinzy.website/library/cinema/beau-is-afraid-2023/</loc>
   </url><url>
-    <loc>https://zinzy.website/best-in-show-2000/</loc>
+    <loc>https://zinzy.website/tags/beautiful/</loc>
+  </url><url>
+    <loc>https://zinzy.website/library/cinema/best-in-show-2000/</loc>
   </url><url>
     <loc>https://zinzy.website/biography/</loc>
   </url><url>
-    <loc>https://zinzy.website/black-swan-2010/</loc>
+    <loc>https://zinzy.website/library/cinema/black-swan-2010/</loc>
   </url><url>
-    <loc>https://zinzy.website/braveheart-1995/</loc>
+    <loc>https://zinzy.website/books/</loc>
   </url><url>
-    <loc>https://zinzy.website/bundy-and-the-green-river-killer-2019/</loc>
+    <loc>https://zinzy.website/library/cinema/braveheart-1995/</loc>
   </url><url>
-    <loc>https://zinzy.website/call-me-by-your-name-2018/</loc>
+    <loc>https://zinzy.website/library/cinema/bundy-and-the-green-river-killer-2019/</loc>
   </url><url>
-    <loc>https://zinzy.website/carol-2016/</loc>
+    <loc>https://zinzy.website/library/cinema/call-me-by-your-name-2018/</loc>
   </url><url>
-    <loc>https://zinzy.website/carrie-1976/</loc>
+    <loc>https://zinzy.website/library/cinema/carol-2016/</loc>
   </url><url>
-    <loc>https://zinzy.website/catch-me-if-you-can-2002/</loc>
+    <loc>https://zinzy.website/library/cinema/carrie-1976/</loc>
   </url><url>
-    <loc>https://zinzy.website/chain-letter-2010/</loc>
+    <loc>https://zinzy.website/library/cinema/catch-me-if-you-can-2002/</loc>
+  </url><url>
+    <loc>https://zinzy.website/library/cinema/chain-letter-2010/</loc>
   </url><url>
     <loc>https://zinzy.website/checklist/</loc>
   </url><url>
-    <loc>https://zinzy.website/child-s-play-1988/</loc>
+    <loc>https://zinzy.website/library/cinema/child-s-play-1988/</loc>
   </url><url>
-    <loc>https://zinzy.website/chloe-2010/</loc>
+    <loc>https://zinzy.website/library/cinema/chloe-2010/</loc>
   </url><url>
     <loc>https://zinzy.website/library/cinema/</loc>
   </url><url>
-    <loc>https://zinzy.website/city-of-god-2004/</loc>
+    <loc>https://zinzy.website/cinema/</loc>
   </url><url>
-    <loc>https://zinzy.website/civil-war-2024/</loc>
+    <loc>https://zinzy.website/library/cinema/city-of-god-2004/</loc>
   </url><url>
-    <loc>https://zinzy.website/coda-2021/</loc>
+    <loc>https://zinzy.website/library/cinema/civil-war-2024/</loc>
+  </url><url>
+    <loc>https://zinzy.website/library/cinema/coda-2021/</loc>
   </url><url>
     <loc>https://zinzy.website/tags/comforting/</loc>
   </url><url>
@@ -1819,592 +1822,612 @@
   </url><url>
     <loc>https://zinzy.website/tags/confronting/</loc>
   </url><url>
-    <loc>https://zinzy.website/corpus-christi-2020/</loc>
+    <loc>https://zinzy.website/library/cinema/corpus-christi-2020/</loc>
   </url><url>
-    <loc>https://zinzy.website/crazy-stupid-love--2011/</loc>
+    <loc>https://zinzy.website/library/cinema/crazy-stupid-love--2011/</loc>
   </url><url>
-    <loc>https://zinzy.website/creep-2015/</loc>
+    <loc>https://zinzy.website/library/cinema/creep-2015/</loc>
   </url><url>
-    <loc>https://zinzy.website/cube-1997/</loc>
+    <loc>https://zinzy.website/library/cinema/cube-1997/</loc>
   </url><url>
-    <loc>https://zinzy.website/dammi-2024/</loc>
+    <loc>https://zinzy.website/library/cinema/dammi-2024/</loc>
   </url><url>
-    <loc>https://zinzy.website/dan-in-real-life-2007/</loc>
+    <loc>https://zinzy.website/library/cinema/dan-in-real-life-2007/</loc>
   </url><url>
-    <loc>https://zinzy.website/dead-poets-society-1989/</loc>
+    <loc>https://zinzy.website/library/cinema/dead-poets-society-1989/</loc>
   </url><url>
-    <loc>https://zinzy.website/definitely-maybe-2008/</loc>
+    <loc>https://zinzy.website/library/cinema/definitely-maybe-2008/</loc>
   </url><url>
-    <loc>https://zinzy.website/dirty-john-2018/</loc>
+    <loc>https://zinzy.website/library/cinema/dirty-john-2018/</loc>
   </url><url>
-    <loc>https://zinzy.website/disturbia-2007/</loc>
+    <loc>https://zinzy.website/library/cinema/disturbia-2007/</loc>
   </url><url>
-    <loc>https://zinzy.website/django-unchained-2012/</loc>
+    <loc>https://zinzy.website/library/cinema/django-unchained-2012/</loc>
   </url><url>
-    <loc>https://zinzy.website/doctor-sleep-2019/</loc>
+    <loc>https://zinzy.website/library/cinema/doctor-sleep-2019/</loc>
   </url><url>
-    <loc>https://zinzy.website/dolores-claiborne-1995/</loc>
+    <loc>https://zinzy.website/library/cinema/dolores-claiborne-1995/</loc>
   </url><url>
-    <loc>https://zinzy.website/don-t-look-up-2021/</loc>
+    <loc>https://zinzy.website/library/cinema/don-t-look-up-2021/</loc>
   </url><url>
-    <loc>https://zinzy.website/dont-look-up-2021/</loc>
+    <loc>https://zinzy.website/library/cinema/dont-look-up-2021/</loc>
   </url><url>
-    <loc>https://zinzy.website/doubt-2008/</loc>
+    <loc>https://zinzy.website/library/cinema/doubt-2008/</loc>
   </url><url>
-    <loc>https://zinzy.website/downsizing-2017/</loc>
+    <loc>https://zinzy.website/library/cinema/downsizing-2017/</loc>
   </url><url>
-    <loc>https://zinzy.website/downton-abbey-2019/</loc>
+    <loc>https://zinzy.website/library/cinema/downton-abbey-2019/</loc>
   </url><url>
     <loc>https://zinzy.website/tags/educational/</loc>
   </url><url>
-    <loc>https://zinzy.website/eternal-sunshine-of-the-spotless-mind-2004/</loc>
+    <loc>https://zinzy.website/library/cinema/eternal-sunshine-of-the-spotless-mind-2004/</loc>
   </url><url>
-    <loc>https://zinzy.website/everybody-knows-2019/</loc>
+    <loc>https://zinzy.website/library/cinema/everybody-knows-2019/</loc>
   </url><url>
-    <loc>https://zinzy.website/fight-club-1999/</loc>
+    <loc>https://zinzy.website/tags/excellent/</loc>
   </url><url>
-    <loc>https://zinzy.website/fish-tank-2009/</loc>
+    <loc>https://zinzy.website/faces/</loc>
+  </url><url>
+    <loc>https://zinzy.website/library/cinema/fight-club-1999/</loc>
+  </url><url>
+    <loc>https://zinzy.website/library/cinema/fish-tank-2009/</loc>
   </url><url>
     <loc>https://zinzy.website/follow/</loc>
   </url><url>
-    <loc>https://zinzy.website/forrest-gump-1994/</loc>
+    <loc>https://zinzy.website/library/cinema/forrest-gump-1994/</loc>
   </url><url>
-    <loc>https://zinzy.website/freedom-is-a-constant-struggle-2016/</loc>
+    <loc>https://zinzy.website/library/books/freedom-is-a-constant-struggle-2016/</loc>
   </url><url>
-    <loc>https://zinzy.website/get-out-2017/</loc>
+    <loc>https://zinzy.website/library/cinema/get-out-2017/</loc>
   </url><url>
-    <loc>https://zinzy.website/godzilla-minus-one-2023/</loc>
+    <loc>https://zinzy.website/library/cinema/godzilla-minus-one-2023/</loc>
   </url><url>
-    <loc>https://zinzy.website/godzilla-vs-kong-2021/</loc>
+    <loc>https://zinzy.website/library/cinema/godzilla-vs-kong-2021/</loc>
   </url><url>
-    <loc>https://zinzy.website/gone-girl-2014/</loc>
+    <loc>https://zinzy.website/library/cinema/gone-girl-2014/</loc>
   </url><url>
-    <loc>https://zinzy.website/goodfellas-1990/</loc>
+    <loc>https://zinzy.website/library/cinema/goodfellas-1990/</loc>
   </url><url>
-    <loc>https://zinzy.website/gothika-2003/</loc>
+    <loc>https://zinzy.website/library/cinema/gothika-2003/</loc>
   </url><url>
-    <loc>https://zinzy.website/great-photo-lovely-life-2023/</loc>
+    <loc>https://zinzy.website/library/cinema/great-photo-lovely-life-2023/</loc>
   </url><url>
-    <loc>https://zinzy.website/green-book-2018/</loc>
+    <loc>https://zinzy.website/library/cinema/green-book-2018/</loc>
   </url><url>
-    <loc>https://zinzy.website/groundhog-day-1993/</loc>
+    <loc>https://zinzy.website/library/cinema/groundhog-day-1993/</loc>
   </url><url>
-    <loc>https://zinzy.website/gummo-1997/</loc>
+    <loc>https://zinzy.website/library/cinema/gummo-1997/</loc>
   </url><url>
-    <loc>https://zinzy.website/hamilton-2020/</loc>
+    <loc>https://zinzy.website/library/cinema/hamilton-2020/</loc>
   </url><url>
-    <loc>https://zinzy.website/hannah-gadsby-nanette-2018/</loc>
+    <loc>https://zinzy.website/library/cinema/hannah-gadsby-nanette-2018/</loc>
   </url><url>
-    <loc>https://zinzy.website/hannibal-2001/</loc>
+    <loc>https://zinzy.website/library/cinema/hannibal-2001/</loc>
   </url><url>
-    <loc>https://zinzy.website/hannibal-rising-2007/</loc>
+    <loc>https://zinzy.website/library/cinema/hannibal-rising-2007/</loc>
   </url><url>
-    <loc>https://zinzy.website/hansel-gretel-witch-hunters-2013/</loc>
+    <loc>https://zinzy.website/library/cinema/hansel-gretel-witch-hunters-2013/</loc>
   </url><url>
-    <loc>https://zinzy.website/happiness-1998/</loc>
+    <loc>https://zinzy.website/library/cinema/happiness-1998/</loc>
   </url><url>
-    <loc>https://zinzy.website/hard-candy-2006/</loc>
+    <loc>https://zinzy.website/library/cinema/hard-candy-2006/</loc>
   </url><url>
-    <loc>https://zinzy.website/harold-and-maude-1971/</loc>
+    <loc>https://zinzy.website/library/cinema/harold-and-maude-1971/</loc>
   </url><url>
-    <loc>https://zinzy.website/he-s-just-not-that-into-you-2009/</loc>
+    <loc>https://zinzy.website/library/cinema/he-s-just-not-that-into-you-2009/</loc>
   </url><url>
     <loc>https://zinzy.website/hello/</loc>
   </url><url>
-    <loc>https://zinzy.website/her-2014/</loc>
+    <loc>https://zinzy.website/library/cinema/her-2014/</loc>
   </url><url>
-    <loc>https://zinzy.website/hereditary-2018/</loc>
+    <loc>https://zinzy.website/library/cinema/hereditary-2018/</loc>
   </url><url>
-    <loc>https://zinzy.website/horrible-bosses-2011/</loc>
+    <loc>https://zinzy.website/library/cinema/horrible-bosses-2011/</loc>
   </url><url>
-    <loc>https://zinzy.website/hounds-of-love-2017/</loc>
+    <loc>https://zinzy.website/library/cinema/hounds-of-love-2017/</loc>
   </url><url>
     <loc>https://zinzy.website/how-do-i-enter-the-dutch-ux-job-market/</loc>
   </url><url>
-    <loc>https://zinzy.website/i-am-legend-2007/</loc>
+    <loc>https://zinzy.website/library/cinema/i-am-legend-2007/</loc>
   </url><url>
-    <loc>https://zinzy.website/i-am-sam-2002/</loc>
+    <loc>https://zinzy.website/library/cinema/i-am-sam-2002/</loc>
   </url><url>
-    <loc>https://zinzy.website/i-tonya-2018/</loc>
+    <loc>https://zinzy.website/library/cinema/i-tonya-2018/</loc>
   </url><url>
     <loc>https://zinzy.website/im-child-free/</loc>
   </url><url>
     <loc>https://zinzy.website/im-neurodivergent/</loc>
   </url><url>
-    <loc>https://zinzy.website/i-m-thinking-of-ending-things-2020/</loc>
+    <loc>https://zinzy.website/library/cinema/i-m-thinking-of-ending-things-2020/</loc>
   </url><url>
-    <loc>https://zinzy.website/im-thinking-of-ending-things-2020/</loc>
+    <loc>https://zinzy.website/library/cinema/im-thinking-of-ending-things-2020/</loc>
   </url><url>
     <loc>https://zinzy.website/ideas/</loc>
   </url><url>
-    <loc>https://zinzy.website/if-beale-street-could-talk-2018/</loc>
+    <loc>https://zinzy.website/library/cinema/if-beale-street-could-talk-2018/</loc>
   </url><url>
     <loc>https://zinzy.website/tags/illuminating/</loc>
   </url><url>
-    <loc>https://zinzy.website/in-the-aisles-2019/</loc>
+    <loc>https://zinzy.website/library/cinema/in-the-aisles-2019/</loc>
   </url><url>
-    <loc>https://zinzy.website/in-the-wake-2016/</loc>
+    <loc>https://zinzy.website/library/books/in-the-wake-2016/</loc>
   </url><url>
-    <loc>https://zinzy.website/incendies-2011/</loc>
+    <loc>https://zinzy.website/library/cinema/incendies-2011/</loc>
   </url><url>
-    <loc>https://zinzy.website/inception-2010/</loc>
+    <loc>https://zinzy.website/library/cinema/inception-2010/</loc>
   </url><url>
-    <loc>https://zinzy.website/inside-out-2015/</loc>
+    <loc>https://zinzy.website/library/cinema/inside-out-2015/</loc>
   </url><url>
     <loc>https://zinzy.website/tags/instructional/</loc>
   </url><url>
     <loc>https://zinzy.website/interests/</loc>
   </url><url>
-    <loc>https://zinzy.website/interstellar-2014/</loc>
+    <loc>https://zinzy.website/library/cinema/interstellar-2014/</loc>
   </url><url>
-    <loc>https://zinzy.website/into-the-wild-2007/</loc>
+    <loc>https://zinzy.website/library/cinema/into-the-wild-2007/</loc>
   </url><url>
-    <loc>https://zinzy.website/inventing-anna-2022/</loc>
+    <loc>https://zinzy.website/library/cinema/inventing-anna-2022/</loc>
   </url><url>
-    <loc>https://zinzy.website/irreversible-2002/</loc>
+    <loc>https://zinzy.website/tags/inviting/</loc>
   </url><url>
-    <loc>https://zinzy.website/it-2017/</loc>
+    <loc>https://zinzy.website/library/cinema/irreversible-2002/</loc>
   </url><url>
-    <loc>https://zinzy.website/it-follows-2015/</loc>
+    <loc>https://zinzy.website/library/cinema/it-2017/</loc>
   </url><url>
-    <loc>https://zinzy.website/it-s-a-wonderful-life-1947/</loc>
+    <loc>https://zinzy.website/library/cinema/it-follows-2015/</loc>
   </url><url>
-    <loc>https://zinzy.website/its-a-wonderful-life-1947/</loc>
+    <loc>https://zinzy.website/library/cinema/it-s-a-wonderful-life-1947/</loc>
   </url><url>
-    <loc>https://zinzy.website/jaws-1975/</loc>
+    <loc>https://zinzy.website/library/cinema/its-a-wonderful-life-1947/</loc>
   </url><url>
-    <loc>https://zinzy.website/jeepers-creepers-2001/</loc>
+    <loc>https://zinzy.website/library/cinema/jaws-1975/</loc>
   </url><url>
-    <loc>https://zinzy.website/joker-2019/</loc>
+    <loc>https://zinzy.website/library/cinema/jeepers-creepers-2001/</loc>
   </url><url>
-    <loc>https://zinzy.website/juno-2007/</loc>
+    <loc>https://zinzy.website/library/cinema/joker-2019/</loc>
   </url><url>
-    <loc>https://zinzy.website/jurassic-park-1993/</loc>
+    <loc>https://zinzy.website/library/cinema/juno-2007/</loc>
   </url><url>
-    <loc>https://zinzy.website/just-melvin-just-evil-2000/</loc>
+    <loc>https://zinzy.website/library/cinema/jurassic-park-1993/</loc>
   </url><url>
-    <loc>https://zinzy.website/kids-1995/</loc>
+    <loc>https://zinzy.website/library/cinema/just-melvin-just-evil-2000/</loc>
   </url><url>
-    <loc>https://zinzy.website/kill-bill-vol-1-2003/</loc>
+    <loc>https://zinzy.website/library/cinema/kids-1995/</loc>
   </url><url>
-    <loc>https://zinzy.website/kinds-of-kindness-2024/</loc>
+    <loc>https://zinzy.website/library/cinema/kill-bill-vol-1-2003/</loc>
   </url><url>
-    <loc>https://zinzy.website/kiss-kiss-bang-bang-2005/</loc>
+    <loc>https://zinzy.website/library/cinema/kinds-of-kindness-2024/</loc>
   </url><url>
-    <loc>https://zinzy.website/knives-out-2019/</loc>
+    <loc>https://zinzy.website/library/cinema/kiss-kiss-bang-bang-2005/</loc>
+  </url><url>
+    <loc>https://zinzy.website/library/cinema/knives-out-2019/</loc>
   </url><url>
     <loc>https://zinzy.website/library/</loc>
   </url><url>
-    <loc>https://zinzy.website/little-miss-sunshine-2006/</loc>
+    <loc>https://zinzy.website/tags/lingering/</loc>
   </url><url>
-    <loc>https://zinzy.website/little-women-2019/</loc>
+    <loc>https://zinzy.website/library/cinema/little-miss-sunshine-2006/</loc>
   </url><url>
-    <loc>https://zinzy.website/love-according-to-dalva-2023/</loc>
+    <loc>https://zinzy.website/library/cinema/little-women-2019/</loc>
   </url><url>
-    <loc>https://zinzy.website/love-actually-2003/</loc>
+    <loc>https://zinzy.website/library/cinema/love-according-to-dalva-2023/</loc>
   </url><url>
-    <loc>https://zinzy.website/lovely-molly-2012/</loc>
+    <loc>https://zinzy.website/library/cinema/love-actually-2003/</loc>
+  </url><url>
+    <loc>https://zinzy.website/library/cinema/lovely-molly-2012/</loc>
   </url><url>
     <loc>https://zinzy.website/tags/lyrical/</loc>
   </url><url>
-    <loc>https://zinzy.website/magnolia-2000/</loc>
+    <loc>https://zinzy.website/library/cinema/magnolia-2000/</loc>
   </url><url>
     <loc>https://zinzy.website/manual/</loc>
   </url><url>
-    <loc>https://zinzy.website/marriage-story-2019/</loc>
+    <loc>https://zinzy.website/library/cinema/marriage-story-2019/</loc>
   </url><url>
-    <loc>https://zinzy.website/martha-marcy-may-marlene-2011/</loc>
+    <loc>https://zinzy.website/library/cinema/martha-marcy-may-marlene-2011/</loc>
   </url><url>
-    <loc>https://zinzy.website/maxxxine-2024/</loc>
+    <loc>https://zinzy.website/library/cinema/maxxxine-2024/</loc>
   </url><url>
-    <loc>https://zinzy.website/meg-2-the-trench-2023/</loc>
+    <loc>https://zinzy.website/library/cinema/meg-2-the-trench-2023/</loc>
   </url><url>
-    <loc>https://zinzy.website/megan-is-missing-2011/</loc>
+    <loc>https://zinzy.website/library/cinema/megan-is-missing-2011/</loc>
   </url><url>
-    <loc>https://zinzy.website/melancholia-2011/</loc>
+    <loc>https://zinzy.website/library/cinema/melancholia-2011/</loc>
   </url><url>
-    <loc>https://zinzy.website/memento-2001/</loc>
+    <loc>https://zinzy.website/library/cinema/memento-2001/</loc>
   </url><url>
-    <loc>https://zinzy.website/men-2022/</loc>
+    <loc>https://zinzy.website/library/cinema/men-2022/</loc>
   </url><url>
     <loc>https://zinzy.website/mentoring/</loc>
   </url><url>
     <loc>https://zinzy.website/tags/mentoring-guides/</loc>
   </url><url>
-    <loc>https://zinzy.website/midsommar-2019/</loc>
+    <loc>https://zinzy.website/library/cinema/midsommar-2019/</loc>
   </url><url>
-    <loc>https://zinzy.website/minari-2021/</loc>
+    <loc>https://zinzy.website/library/cinema/minari-2021/</loc>
   </url><url>
-    <loc>https://zinzy.website/mirrors-2008/</loc>
+    <loc>https://zinzy.website/library/cinema/mirrors-2008/</loc>
   </url><url>
-    <loc>https://zinzy.website/money-heist-2017/</loc>
+    <loc>https://zinzy.website/library/cinema/money-heist-2017/</loc>
   </url><url>
     <loc>https://zinzy.website/months/</loc>
   </url><url>
-    <loc>https://zinzy.website/moonlight-2016/</loc>
+    <loc>https://zinzy.website/library/cinema/moonlight-2016/</loc>
   </url><url>
-    <loc>https://zinzy.website/moonstruck-1988/</loc>
+    <loc>https://zinzy.website/library/cinema/moonstruck-1988/</loc>
   </url><url>
-    <loc>https://zinzy.website/mother--2017/</loc>
+    <loc>https://zinzy.website/library/cinema/mother--2017/</loc>
   </url><url>
-    <loc>https://zinzy.website/mother-2017/</loc>
+    <loc>https://zinzy.website/library/cinema/mother-2017/</loc>
   </url><url>
     <loc>https://zinzy.website/museum/</loc>
   </url><url>
-    <loc>https://zinzy.website/my-sister-s-keeper-2009/</loc>
+    <loc>https://zinzy.website/library/cinema/my-sister-s-keeper-2009/</loc>
   </url><url>
-    <loc>https://zinzy.website/mysterious-skin-2005/</loc>
+    <loc>https://zinzy.website/library/cinema/mysterious-skin-2005/</loc>
   </url><url>
-    <loc>https://zinzy.website/nashville-2012/</loc>
+    <loc>https://zinzy.website/library/cinema/nashville-2012/</loc>
   </url><url>
-    <loc>https://zinzy.website/never-rarely-sometimes-always-2020/</loc>
+    <loc>https://zinzy.website/library/cinema/never-rarely-sometimes-always-2020/</loc>
   </url><url>
-    <loc>https://zinzy.website/night-and-fog-1956/</loc>
+    <loc>https://zinzy.website/library/cinema/night-and-fog-1956/</loc>
   </url><url>
-    <loc>https://zinzy.website/no-country-for-old-men-2007/</loc>
+    <loc>https://zinzy.website/library/cinema/no-country-for-old-men-2007/</loc>
   </url><url>
-    <loc>https://zinzy.website/nomadland-2021/</loc>
+    <loc>https://zinzy.website/library/cinema/nomadland-2021/</loc>
   </url><url>
-    <loc>https://zinzy.website/none-of-the-above-2023/</loc>
+    <loc>https://zinzy.website/library/books/none-of-the-above-2023/</loc>
   </url><url>
     <loc>https://zinzy.website/nope/</loc>
   </url><url>
     <loc>https://zinzy.website/notes/</loc>
   </url><url>
-    <loc>https://zinzy.website/notes-on-a-scandal-2007/</loc>
+    <loc>https://zinzy.website/library/cinema/notes-on-a-scandal-2007/</loc>
   </url><url>
     <loc>https://zinzy.website/now/</loc>
   </url><url>
-    <loc>https://zinzy.website/nr-10-2022/</loc>
+    <loc>https://zinzy.website/library/cinema/nr-10-2022/</loc>
   </url><url>
-    <loc>https://zinzy.website/ocean-s-thirteen-2007/</loc>
+    <loc>https://zinzy.website/library/cinema/ocean-s-thirteen-2007/</loc>
   </url><url>
-    <loc>https://zinzy.website/office-space-1999/</loc>
+    <loc>https://zinzy.website/library/cinema/office-space-1999/</loc>
   </url><url>
-    <loc>https://zinzy.website/old-school-2003/</loc>
+    <loc>https://zinzy.website/library/cinema/old-school-2003/</loc>
   </url><url>
-    <loc>https://zinzy.website/oldboy-2003/</loc>
+    <loc>https://zinzy.website/library/cinema/oldboy-2003/</loc>
   </url><url>
-    <loc>https://zinzy.website/one-flew-over-the-cuckoo-s-nest-1975/</loc>
+    <loc>https://zinzy.website/library/cinema/one-flew-over-the-cuckoo-s-nest-1975/</loc>
   </url><url>
-    <loc>https://zinzy.website/one-flew-over-the-cuckoos-nest-1975/</loc>
+    <loc>https://zinzy.website/library/cinema/one-flew-over-the-cuckoos-nest-1975/</loc>
   </url><url>
-    <loc>https://zinzy.website/one-hour-photo-2002/</loc>
+    <loc>https://zinzy.website/library/cinema/one-hour-photo-2002/</loc>
   </url><url>
-    <loc>https://zinzy.website/oppenheimer-2023/</loc>
+    <loc>https://zinzy.website/library/cinema/oppenheimer-2023/</loc>
   </url><url>
     <loc>https://zinzy.website/page/</loc>
   </url><url>
-    <loc>https://zinzy.website/panic-room-2002/</loc>
+    <loc>https://zinzy.website/library/cinema/panic-room-2002/</loc>
   </url><url>
-    <loc>https://zinzy.website/paranoid-park-2007/</loc>
+    <loc>https://zinzy.website/library/cinema/paranoid-park-2007/</loc>
   </url><url>
-    <loc>https://zinzy.website/paranormal-activity-2009/</loc>
+    <loc>https://zinzy.website/library/cinema/paranormal-activity-2009/</loc>
   </url><url>
-    <loc>https://zinzy.website/parasite-2019/</loc>
+    <loc>https://zinzy.website/library/cinema/parasite-2019/</loc>
   </url><url>
-    <loc>https://zinzy.website/paris-texas-1984/</loc>
+    <loc>https://zinzy.website/library/cinema/paris-texas-1984/</loc>
   </url><url>
-    <loc>https://zinzy.website/past-lives-2023/</loc>
+    <loc>https://zinzy.website/library/cinema/past-lives-2023/</loc>
   </url><url>
-    <loc>https://zinzy.website/philadelphia-1994/</loc>
+    <loc>https://zinzy.website/library/cinema/philadelphia-1994/</loc>
   </url><url>
-    <loc>https://zinzy.website/pieces-of-a-woman-2021/</loc>
+    <loc>https://zinzy.website/library/cinema/pieces-of-a-woman-2021/</loc>
   </url><url>
-    <loc>https://zinzy.website/pieces-of-her-2022/</loc>
+    <loc>https://zinzy.website/library/cinema/pieces-of-her-2022/</loc>
   </url><url>
-    <loc>https://zinzy.website/poor-things-2024/</loc>
+    <loc>https://zinzy.website/playlists/</loc>
+  </url><url>
+    <loc>https://zinzy.website/library/cinema/poor-things-2024/</loc>
   </url><url>
     <loc>https://zinzy.website/tags/portfolio/</loc>
   </url><url>
     <loc>https://zinzy.website/praxis/</loc>
   </url><url>
-    <loc>https://zinzy.website/prisoners-2013/</loc>
+    <loc>https://zinzy.website/library/cinema/prisoners-2013/</loc>
   </url><url>
-    <loc>https://zinzy.website/promising-young-woman-2020/</loc>
+    <loc>https://zinzy.website/library/cinema/promising-young-woman-2020/</loc>
   </url><url>
-    <loc>https://zinzy.website/psycho-1960/</loc>
+    <loc>https://zinzy.website/library/cinema/psycho-1960/</loc>
   </url><url>
-    <loc>https://zinzy.website/pulp-fiction-1994/</loc>
+    <loc>https://zinzy.website/library/cinema/pulp-fiction-1994/</loc>
   </url><url>
-    <loc>https://zinzy.website/queen--slim-2019/</loc>
+    <loc>https://zinzy.website/library/cinema/queen--slim-2019/</loc>
   </url><url>
-    <loc>https://zinzy.website/queen-slim-2019/</loc>
+    <loc>https://zinzy.website/library/cinema/queen-slim-2019/</loc>
   </url><url>
-    <loc>https://zinzy.website/ratatouille-2007/</loc>
+    <loc>https://zinzy.website/library/cinema/ratatouille-2007/</loc>
   </url><url>
     <loc>https://zinzy.website/reading-your-rainforest-mind/</loc>
   </url><url>
-    <loc>https://zinzy.website/rec-2007/</loc>
+    <loc>https://zinzy.website/tags/real/</loc>
   </url><url>
-    <loc>https://zinzy.website/red-dragon-2002/</loc>
+    <loc>https://zinzy.website/library/cinema/rec-2007/</loc>
   </url><url>
-    <loc>https://zinzy.website/requiem-for-a-dream-2000/</loc>
+    <loc>https://zinzy.website/library/cinema/red-dragon-2002/</loc>
+  </url><url>
+    <loc>https://zinzy.website/library/cinema/requiem-for-a-dream-2000/</loc>
   </url><url>
     <loc>https://zinzy.website/resume/</loc>
   </url><url>
-    <loc>https://zinzy.website/room-2016/</loc>
+    <loc>https://zinzy.website/tags/riveting/</loc>
   </url><url>
-    <loc>https://zinzy.website/rosemary-s-baby-1968/</loc>
+    <loc>https://zinzy.website/library/cinema/room-2016/</loc>
   </url><url>
-    <loc>https://zinzy.website/rosemarys-baby-1968/</loc>
+    <loc>https://zinzy.website/library/cinema/rosemary-s-baby-1968/</loc>
   </url><url>
-    <loc>https://zinzy.website/saving-jesus-from-the-church-2009/</loc>
+    <loc>https://zinzy.website/library/cinema/rosemarys-baby-1968/</loc>
   </url><url>
-    <loc>https://zinzy.website/saw-2004/</loc>
+    <loc>https://zinzy.website/library/books/saving-jesus-from-the-church-2009/</loc>
   </url><url>
-    <loc>https://zinzy.website/saw-3d-2010/</loc>
+    <loc>https://zinzy.website/library/cinema/saw-2004/</loc>
   </url><url>
-    <loc>https://zinzy.website/saw-ii-2005/</loc>
+    <loc>https://zinzy.website/library/cinema/saw-3d-2010/</loc>
   </url><url>
-    <loc>https://zinzy.website/saw-iii-2006/</loc>
+    <loc>https://zinzy.website/library/cinema/saw-ii-2005/</loc>
   </url><url>
-    <loc>https://zinzy.website/saw-iv-2007/</loc>
+    <loc>https://zinzy.website/library/cinema/saw-iii-2006/</loc>
+  </url><url>
+    <loc>https://zinzy.website/library/cinema/saw-iv-2007/</loc>
   </url><url>
     <loc>https://zinzy.website/tags/scatter-brained/</loc>
   </url><url>
-    <loc>https://zinzy.website/schindler-s-list-1994/</loc>
+    <loc>https://zinzy.website/library/cinema/schindler-s-list-1994/</loc>
   </url><url>
-    <loc>https://zinzy.website/schindlers-list-1994/</loc>
+    <loc>https://zinzy.website/library/cinema/schindlers-list-1994/</loc>
   </url><url>
-    <loc>https://zinzy.website/scream-1996/</loc>
+    <loc>https://zinzy.website/library/cinema/scream-1996/</loc>
   </url><url>
-    <loc>https://zinzy.website/se7en-1995/</loc>
+    <loc>https://zinzy.website/library/cinema/se7en-1995/</loc>
   </url><url>
-    <loc>https://zinzy.website/shame-2012/</loc>
+    <loc>https://zinzy.website/library/cinema/shame-2012/</loc>
   </url><url>
     <loc>https://zinzy.website/should-i-apply-without-a-portfolio/</loc>
   </url><url>
-    <loc>https://zinzy.website/shutter-island-2010/</loc>
+    <loc>https://zinzy.website/library/cinema/shutter-island-2010/</loc>
   </url><url>
-    <loc>https://zinzy.website/single-white-female-1992/</loc>
+    <loc>https://zinzy.website/library/cinema/single-white-female-1992/</loc>
   </url><url>
     <loc>https://zinzy.website/site/</loc>
   </url><url>
-    <loc>https://zinzy.website/skew-2011/</loc>
+    <loc>https://zinzy.website/library/cinema/skew-2011/</loc>
   </url><url>
     <loc>https://zinzy.website/tags/smart/</loc>
   </url><url>
-    <loc>https://zinzy.website/sound-of-metal-2020/</loc>
+    <loc>https://zinzy.website/tags/soft/</loc>
   </url><url>
-    <loc>https://zinzy.website/spirited-away-2003/</loc>
+    <loc>https://zinzy.website/library/cinema/sound-of-metal-2020/</loc>
   </url><url>
-    <loc>https://zinzy.website/splice-2010/</loc>
+    <loc>https://zinzy.website/library/cinema/spirited-away-2003/</loc>
   </url><url>
-    <loc>https://zinzy.website/still-walking-2008/</loc>
+    <loc>https://zinzy.website/library/cinema/splice-2010/</loc>
   </url><url>
-    <loc>https://zinzy.website/storytelling-2001/</loc>
+    <loc>https://zinzy.website/library/cinema/still-walking-2008/</loc>
+  </url><url>
+    <loc>https://zinzy.website/library/cinema/storytelling-2001/</loc>
+  </url><url>
+    <loc>https://zinzy.website/tags/strong/</loc>
   </url><url>
     <loc>https://zinzy.website/tags/subversive/</loc>
   </url><url>
-    <loc>https://zinzy.website/swan-song-2021/</loc>
+    <loc>https://zinzy.website/library/cinema/swan-song-2021/</loc>
   </url><url>
-    <loc>https://zinzy.website/synecdoche-new-york-2009/</loc>
+    <loc>https://zinzy.website/library/cinema/synecdoche-new-york-2009/</loc>
   </url><url>
-    <loc>https://zinzy.website/taipei-suicide-story-2021/</loc>
+    <loc>https://zinzy.website/library/cinema/taipei-suicide-story-2021/</loc>
   </url><url>
-    <loc>https://zinzy.website/talk-to-me-2023/</loc>
+    <loc>https://zinzy.website/library/cinema/talk-to-me-2023/</loc>
   </url><url>
-    <loc>https://zinzy.website/taxi-driver-1976/</loc>
+    <loc>https://zinzy.website/library/cinema/taxi-driver-1976/</loc>
   </url><url>
-    <loc>https://zinzy.website/the-babadook-2014/</loc>
+    <loc>https://zinzy.website/library/cinema/the-babadook-2014/</loc>
   </url><url>
-    <loc>https://zinzy.website/the-big-lebowski-1998/</loc>
+    <loc>https://zinzy.website/library/cinema/the-big-lebowski-1998/</loc>
   </url><url>
-    <loc>https://zinzy.website/the-blair-witch-project-1999/</loc>
+    <loc>https://zinzy.website/library/cinema/the-blair-witch-project-1999/</loc>
   </url><url>
-    <loc>https://zinzy.website/the-body-keeps-the-score-2015/</loc>
+    <loc>https://zinzy.website/library/books/the-body-keeps-the-score-2015/</loc>
   </url><url>
-    <loc>https://zinzy.website/the-bone-collector-1999/</loc>
+    <loc>https://zinzy.website/library/cinema/the-bone-collector-1999/</loc>
   </url><url>
-    <loc>https://zinzy.website/the-bourne-identity-2002/</loc>
+    <loc>https://zinzy.website/library/cinema/the-bourne-identity-2002/</loc>
   </url><url>
-    <loc>https://zinzy.website/the-break-up-2006/</loc>
+    <loc>https://zinzy.website/library/cinema/the-break-up-2006/</loc>
   </url><url>
-    <loc>https://zinzy.website/the-bucket-list-2008/</loc>
+    <loc>https://zinzy.website/library/cinema/the-bucket-list-2008/</loc>
   </url><url>
-    <loc>https://zinzy.website/the-cat-the-reverend-and-the-slave-2010/</loc>
+    <loc>https://zinzy.website/library/cinema/the-cat-the-reverend-and-the-slave-2010/</loc>
   </url><url>
-    <loc>https://zinzy.website/the-chair-2021/</loc>
+    <loc>https://zinzy.website/library/cinema/the-chair-2021/</loc>
   </url><url>
-    <loc>https://zinzy.website/the-conjuring-2013/</loc>
+    <loc>https://zinzy.website/library/cinema/the-conjuring-2013/</loc>
   </url><url>
-    <loc>https://zinzy.website/the-dark-knight-2008/</loc>
+    <loc>https://zinzy.website/library/cinema/the-dark-knight-2008/</loc>
   </url><url>
-    <loc>https://zinzy.website/the-descent-2006/</loc>
+    <loc>https://zinzy.website/library/cinema/the-descent-2006/</loc>
   </url><url>
-    <loc>https://zinzy.website/the-exorcism-of-emily-rose-2005/</loc>
+    <loc>https://zinzy.website/library/cinema/the-exorcism-of-emily-rose-2005/</loc>
   </url><url>
-    <loc>https://zinzy.website/the-exorcist-1973/</loc>
+    <loc>https://zinzy.website/library/cinema/the-exorcist-1973/</loc>
   </url><url>
-    <loc>https://zinzy.website/the-experiment-2001/</loc>
+    <loc>https://zinzy.website/library/cinema/the-experiment-2001/</loc>
   </url><url>
-    <loc>https://zinzy.website/the-fall-2013/</loc>
+    <loc>https://zinzy.website/library/cinema/the-fall-2013/</loc>
   </url><url>
-    <loc>https://zinzy.website/the-farewell-2019/</loc>
+    <loc>https://zinzy.website/library/cinema/the-farewell-2019/</loc>
   </url><url>
-    <loc>https://zinzy.website/the-father-2021/</loc>
+    <loc>https://zinzy.website/library/cinema/the-father-2021/</loc>
   </url><url>
-    <loc>https://zinzy.website/the-favourite-2018/</loc>
+    <loc>https://zinzy.website/library/cinema/the-favourite-2018/</loc>
   </url><url>
-    <loc>https://zinzy.website/the-godfather-1972/</loc>
+    <loc>https://zinzy.website/library/cinema/the-godfather-1972/</loc>
   </url><url>
-    <loc>https://zinzy.website/the-good-liar-2019/</loc>
+    <loc>https://zinzy.website/library/cinema/the-good-liar-2019/</loc>
   </url><url>
-    <loc>https://zinzy.website/the-great-gatsby-2013/</loc>
+    <loc>https://zinzy.website/library/cinema/the-great-gatsby-2013/</loc>
   </url><url>
-    <loc>https://zinzy.website/the-green-mile-1999/</loc>
+    <loc>https://zinzy.website/library/cinema/the-green-mile-1999/</loc>
   </url><url>
-    <loc>https://zinzy.website/the-grudge-2004/</loc>
+    <loc>https://zinzy.website/library/cinema/the-grudge-2004/</loc>
   </url><url>
-    <loc>https://zinzy.website/the-hangover-2009/</loc>
+    <loc>https://zinzy.website/library/cinema/the-hangover-2009/</loc>
   </url><url>
-    <loc>https://zinzy.website/the-hangover-part-ii-2011/</loc>
+    <loc>https://zinzy.website/library/cinema/the-hangover-part-ii-2011/</loc>
   </url><url>
-    <loc>https://zinzy.website/the-help-2011/</loc>
+    <loc>https://zinzy.website/library/cinema/the-help-2011/</loc>
   </url><url>
-    <loc>https://zinzy.website/the-hours-2003/</loc>
+    <loc>https://zinzy.website/library/cinema/the-hours-2003/</loc>
   </url><url>
-    <loc>https://zinzy.website/the-house-that-jack-built-2018/</loc>
+    <loc>https://zinzy.website/library/cinema/the-house-that-jack-built-2018/</loc>
   </url><url>
-    <loc>https://zinzy.website/the-humans-2021/</loc>
+    <loc>https://zinzy.website/library/cinema/the-humans-2021/</loc>
   </url><url>
-    <loc>https://zinzy.website/the-insurrectionist-next-door-2023/</loc>
+    <loc>https://zinzy.website/library/cinema/the-insurrectionist-next-door-2023/</loc>
   </url><url>
-    <loc>https://zinzy.website/the-internship-2013/</loc>
+    <loc>https://zinzy.website/library/cinema/the-internship-2013/</loc>
   </url><url>
-    <loc>https://zinzy.website/the-kids-are-all-right-2010/</loc>
+    <loc>https://zinzy.website/library/cinema/the-kids-are-all-right-2010/</loc>
   </url><url>
-    <loc>https://zinzy.website/the-laundromat-2019/</loc>
+    <loc>https://zinzy.website/library/cinema/the-laundromat-2019/</loc>
   </url><url>
-    <loc>https://zinzy.website/the-lion-king-1994/</loc>
+    <loc>https://zinzy.website/library/cinema/the-lion-king-1994/</loc>
   </url><url>
-    <loc>https://zinzy.website/the-lion-king-2019/</loc>
+    <loc>https://zinzy.website/library/cinema/the-lion-king-2019/</loc>
   </url><url>
-    <loc>https://zinzy.website/the-lord-of-the-rings-the-fellowship-of-the-ring-2001/</loc>
+    <loc>https://zinzy.website/library/cinema/the-lord-of-the-rings-the-fellowship-of-the-ring-2001/</loc>
   </url><url>
-    <loc>https://zinzy.website/the-lost-daughter-2021/</loc>
+    <loc>https://zinzy.website/library/cinema/the-lost-daughter-2021/</loc>
   </url><url>
-    <loc>https://zinzy.website/the-man-who-sold-his-skin-2021/</loc>
+    <loc>https://zinzy.website/library/cinema/the-man-who-sold-his-skin-2021/</loc>
   </url><url>
-    <loc>https://zinzy.website/the-master-2012/</loc>
+    <loc>https://zinzy.website/library/cinema/the-master-2012/</loc>
   </url><url>
-    <loc>https://zinzy.website/the-matrix-1999/</loc>
+    <loc>https://zinzy.website/library/cinema/the-matrix-1999/</loc>
   </url><url>
-    <loc>https://zinzy.website/the-mauritanian-2021/</loc>
+    <loc>https://zinzy.website/library/cinema/the-mauritanian-2021/</loc>
   </url><url>
-    <loc>https://zinzy.website/the-meg-2018/</loc>
+    <loc>https://zinzy.website/library/cinema/the-meg-2018/</loc>
   </url><url>
-    <loc>https://zinzy.website/the-night-house-2021/</loc>
+    <loc>https://zinzy.website/library/cinema/the-night-house-2021/</loc>
   </url><url>
-    <loc>https://zinzy.website/the-oa-2016/</loc>
+    <loc>https://zinzy.website/library/cinema/the-oa-2016/</loc>
   </url><url>
-    <loc>https://zinzy.website/the-omen-1976/</loc>
+    <loc>https://zinzy.website/library/cinema/the-omen-1976/</loc>
   </url><url>
-    <loc>https://zinzy.website/the-others-2001/</loc>
+    <loc>https://zinzy.website/library/cinema/the-others-2001/</loc>
   </url><url>
-    <loc>https://zinzy.website/the-pact-2012/</loc>
+    <loc>https://zinzy.website/library/cinema/the-pact-2012/</loc>
   </url><url>
-    <loc>https://zinzy.website/the-pianist-2003/</loc>
+    <loc>https://zinzy.website/library/cinema/the-pianist-2003/</loc>
   </url><url>
-    <loc>https://zinzy.website/the-poughkeepsie-tapes-2007/</loc>
+    <loc>https://zinzy.website/library/cinema/the-poughkeepsie-tapes-2007/</loc>
   </url><url>
-    <loc>https://zinzy.website/the-prestige-2006/</loc>
+    <loc>https://zinzy.website/library/cinema/the-prestige-2006/</loc>
   </url><url>
-    <loc>https://zinzy.website/the-proposal-2009/</loc>
+    <loc>https://zinzy.website/library/cinema/the-proposal-2009/</loc>
   </url><url>
-    <loc>https://zinzy.website/the-report-2019/</loc>
+    <loc>https://zinzy.website/library/cinema/the-report-2019/</loc>
   </url><url>
     <loc>https://zinzy.website/the-rest-is-commentary/</loc>
   </url><url>
-    <loc>https://zinzy.website/the-righteous-gemstones-2019/</loc>
+    <loc>https://zinzy.website/library/cinema/the-righteous-gemstones-2019/</loc>
   </url><url>
-    <loc>https://zinzy.website/the-ring-2002/</loc>
+    <loc>https://zinzy.website/library/cinema/the-ring-2002/</loc>
   </url><url>
-    <loc>https://zinzy.website/the-shawshank-redemption-1994/</loc>
+    <loc>https://zinzy.website/library/cinema/the-shawshank-redemption-1994/</loc>
   </url><url>
-    <loc>https://zinzy.website/the-shining-1980/</loc>
+    <loc>https://zinzy.website/library/cinema/the-shining-1980/</loc>
   </url><url>
-    <loc>https://zinzy.website/the-silence-of-the-lambs-1991/</loc>
+    <loc>https://zinzy.website/library/cinema/the-silence-of-the-lambs-1991/</loc>
   </url><url>
-    <loc>https://zinzy.website/the-sixth-sense-1999/</loc>
+    <loc>https://zinzy.website/library/cinema/the-sixth-sense-1999/</loc>
   </url><url>
-    <loc>https://zinzy.website/the-sound-of-music-1965/</loc>
+    <loc>https://zinzy.website/library/cinema/the-sound-of-music-1965/</loc>
   </url><url>
-    <loc>https://zinzy.website/the-strange-thing-about-the-johnsons-2011/</loc>
+    <loc>https://zinzy.website/library/cinema/the-strange-thing-about-the-johnsons-2011/</loc>
   </url><url>
-    <loc>https://zinzy.website/the-switch-2010/</loc>
+    <loc>https://zinzy.website/library/cinema/the-switch-2010/</loc>
   </url><url>
-    <loc>https://zinzy.website/the-texas-chain-saw-massacre-1974/</loc>
+    <loc>https://zinzy.website/library/cinema/the-texas-chain-saw-massacre-1974/</loc>
   </url><url>
-    <loc>https://zinzy.website/the-truman-show-1998/</loc>
+    <loc>https://zinzy.website/library/cinema/the-truman-show-1998/</loc>
   </url><url>
-    <loc>https://zinzy.website/the-tunnel-2011/</loc>
+    <loc>https://zinzy.website/library/cinema/the-tunnel-2011/</loc>
   </url><url>
-    <loc>https://zinzy.website/the-unforgivable-2021/</loc>
+    <loc>https://zinzy.website/library/cinema/the-unforgivable-2021/</loc>
   </url><url>
-    <loc>https://zinzy.website/the-wizard-of-oz-1939/</loc>
+    <loc>https://zinzy.website/library/cinema/the-wizard-of-oz-1939/</loc>
   </url><url>
-    <loc>https://zinzy.website/the-wolf-of-wall-street-2013/</loc>
+    <loc>https://zinzy.website/library/cinema/the-wolf-of-wall-street-2013/</loc>
   </url><url>
-    <loc>https://zinzy.website/the-world-to-come-2021/</loc>
+    <loc>https://zinzy.website/library/cinema/the-world-to-come-2021/</loc>
   </url><url>
-    <loc>https://zinzy.website/three-billboards-outside-ebbing-missouri-2017/</loc>
+    <loc>https://zinzy.website/library/cinema/three-billboards-outside-ebbing-missouri-2017/</loc>
   </url><url>
-    <loc>https://zinzy.website/titanic-1997/</loc>
+    <loc>https://zinzy.website/library/cinema/titanic-1997/</loc>
   </url><url>
-    <loc>https://zinzy.website/toen-we-van-de-duitsers-verloren-2023/</loc>
+    <loc>https://zinzy.website/library/cinema/toen-we-van-de-duitsers-verloren-2023/</loc>
   </url><url>
     <loc>https://zinzy.website/tools-do-not-matter/</loc>
   </url><url>
-    <loc>https://zinzy.website/top-gun-maverick-2022/</loc>
+    <loc>https://zinzy.website/library/cinema/top-gun-maverick-2022/</loc>
   </url><url>
-    <loc>https://zinzy.website/toy-story-1995/</loc>
+    <loc>https://zinzy.website/library/cinema/toy-story-1995/</loc>
   </url><url>
-    <loc>https://zinzy.website/toy-story-3-2010/</loc>
+    <loc>https://zinzy.website/library/cinema/toy-story-3-2010/</loc>
   </url><url>
-    <loc>https://zinzy.website/trainspotting-1996/</loc>
+    <loc>https://zinzy.website/library/cinema/trainspotting-1996/</loc>
   </url><url>
-    <loc>https://zinzy.website/transamerica-2006/</loc>
+    <loc>https://zinzy.website/library/cinema/transamerica-2006/</loc>
   </url><url>
     <loc>https://zinzy.website/tags/transformative/</loc>
   </url><url>
-    <loc>https://zinzy.website/trick-r-treat-2015/</loc>
+    <loc>https://zinzy.website/library/cinema/trick-r-treat-2015/</loc>
   </url><url>
     <loc>https://zinzy.website/tags/uncomfortable/</loc>
   </url><url>
-    <loc>https://zinzy.website/under-paris-2024/</loc>
+    <loc>https://zinzy.website/library/cinema/under-paris-2024/</loc>
   </url><url>
-    <loc>https://zinzy.website/us-2019/</loc>
+    <loc>https://zinzy.website/tags/unique/</loc>
+  </url><url>
+    <loc>https://zinzy.website/library/cinema/us-2019/</loc>
   </url><url>
     <loc>https://zinzy.website/uses/</loc>
   </url><url>
-    <loc>https://zinzy.website/v-h-s-2012/</loc>
+    <loc>https://zinzy.website/library/cinema/v-h-s-2012/</loc>
   </url><url>
     <loc>https://zinzy.website/values/</loc>
   </url><url>
-    <loc>https://zinzy.website/waltz-with-bashir-2008/</loc>
+    <loc>https://zinzy.website/library/cinema/waltz-with-bashir-2008/</loc>
   </url><url>
-    <loc>https://zinzy.website/wasp-2004/</loc>
+    <loc>https://zinzy.website/library/cinema/wasp-2004/</loc>
   </url><url>
-    <loc>https://zinzy.website/we-need-to-talk-about-kevin-2011/</loc>
+    <loc>https://zinzy.website/library/cinema/we-need-to-talk-about-kevin-2011/</loc>
   </url><url>
-    <loc>https://zinzy.website/we-re-the-millers-2013/</loc>
+    <loc>https://zinzy.website/library/cinema/we-re-the-millers-2013/</loc>
   </url><url>
-    <loc>https://zinzy.website/were-the-millers-2013/</loc>
+    <loc>https://zinzy.website/library/cinema/were-the-millers-2013/</loc>
   </url><url>
-    <loc>https://zinzy.website/what-we-do-in-the-shadows-2015/</loc>
+    <loc>https://zinzy.website/library/cinema/what-we-do-in-the-shadows-2015/</loc>
   </url><url>
-    <loc>https://zinzy.website/where-the-crawdads-sing-2022/</loc>
+    <loc>https://zinzy.website/library/cinema/where-the-crawdads-sing-2022/</loc>
   </url><url>
     <loc>https://zinzy.website/work/</loc>
   </url><url>
-    <loc>https://zinzy.website/x-2022/</loc>
+    <loc>https://zinzy.website/library/cinema/x-2022/</loc>
   </url><url>
     <loc>https://zinzy.website/years/</loc>
   </url><url>
-    <loc>https://zinzy.website/you-were-never-really-here-2018/</loc>
+    <loc>https://zinzy.website/library/cinema/you-were-never-really-here-2018/</loc>
   </url><url>
-    <loc>https://zinzy.website/youth-in-revolt-2010/</loc>
+    <loc>https://zinzy.website/library/cinema/youth-in-revolt-2010/</loc>
   </url>
 </urlset>

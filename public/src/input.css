@@ -267,3 +267,11 @@ button.active {
 
 
 
+
+
+.list-comma li {
+  display: inline;
+  &:not(:last-child):after {
+    content: ",";
+  }
+}

@@ -9,26 +9,31 @@
   </p>
 </section>
 
+{{ (site.GetPage "tags").Params.kind }}
+
 <section class="mt-10">
   <h3 class="text-secondary font-medium uppercase text-xs mb-5 block">
     Topics
   </h3>
+
   <div>
     <!-- Retrieved this snippet from https://discourse.gohugo.io/t/tag-cloud/6335 -->
     {{ $tags := $.Site.Taxonomies.tags.ByCount }} {{ $v1 := where $tags "Count"
     ">=" 3 }} {{ $v2 := where $v1 "Term" "not in" (slice "hugo" "tags" "rss") }}
 
     <ul class="text-xs p-0 m-0">
-      {{ range first 15 $v2 }} {{ if .Term }} {{ $tagURL := printf "tags/%s"
+      {{ range first 9 $v2 }} {{ if .Term }} {{ $tagURL := printf "tags/%s"
       .Term | relURL }}
       <li
-        class="inline-block m-0 p-0 bg-zinc-100 font-medium 00 dark:bg-zinc-800 mr-1 mb-2 px-2 py-1 rounded"
+        class="inline-block m-0 p-0 bg-zinc-100 font-medium dark:bg-zinc-800 mr-1 mb-2 px-2 py-1 rounded"
       >
         <a
           href="{{ $tagURL }}"
           class="no-underline text-gray-600 dark:text-zinc-300"
           >{{ .Term }}
-          <span class="text-secondary ml-2 inline-block">{{ .Count }}</span></a
+          <span class="text-gray-400/70 ml-2 inline-block"
+            >{{ .Count }}</span
+          ></a
         >
       </li>
       {{ end }} {{ end }}
