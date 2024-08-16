@@ -1,0 +1,52 @@
+{{ define "main" }} {{ partial "back_link.html" .}}
+
+<div class="container">
+  <article class="h-entry">
+    <header class="">
+      <time
+        class="dt-published text-secondary font-medium uppercase text-xs block"
+        datetime="{{ .Date }}"
+      >
+        <a href="{{ .Permalink }}"
+          >{{ .Date | time.Format site.Params.theme_config.date_format_date_time
+          }}</a
+        >
+      </time>
+      <h2 class="p-name text-2xl mt-5 mb-4">
+        <a class="u-url" href="{{ .Permalink }}">{{ .Title }}</a>
+      </h2>
+
+      <div class="u-author h-card hidden">
+        <img src="/img/avatar.png" class="u-photo" />
+        <a href="/" class="u-url p-name">Zinzy Waleson Geene</a>
+      </div>
+    </header>
+
+    {{ if gt .Site.Params.oldPost .Date.Year }}
+
+    <div
+      class="mb-10 flex rounded bg-zinc-100 p-3 text-xs text-zinc-700 dark:bg-zinc-700 dark:text-white"
+    >
+      <span class="mr-2 inline-block content-center md:leading-9"
+        >{{- partial "symbols/alert.html" . -}}</span
+      >
+      <span class="inline-block"
+        >I published this piece quite a while ago. Though I enjoy the art of
+        public record-keeping, you should know it may no longer reflect my
+        views.</span
+      >
+    </div>
+    {{ end }}
+    <content
+      class="min-h-full e-content prose prose-gray relative dark:prose-invert"
+    >
+      {{ if .Params.sidenote }}
+      <div class="aside">{{ .Params.sidenote | markdownify }}</div>
+      {{ end }} {{- partial "content_wikified" . -}}
+    </content>
+  </article>
+
+  <div class="mt-5">{{ partial "tags.html" .}}</div>
+</div>
+
+{{ partial "backlinks.html" . }} {{ end }}
