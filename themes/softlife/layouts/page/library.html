@@ -3,8 +3,8 @@
 
 
 <header class="prose prose-gray dark:prose-invert">
-  <p class="text-secondary mb-0 text-sm">Library</p>
-  <h2 class="p-name mb-2 mt-0 text-2xl">I frequently revisit the books, films, series, and music I love. This area keeps me track of all of it.</h2>
+  <p class="text-secondary mb-0 text-sm">{{ .Title }}</p>
+  <h2 class="p-name mb-2 mt-0 text-2xl">{{ .Description }}</h2>
 </header>
 
 <section class="mt-20">
@@ -101,9 +101,11 @@
       <li class="shadow-subtle border p-3 rounded-xl bg-white text-center">
         <div class="relative">
           <img src="{{ .Params.cover}}" class="rounded">
-          <div class="absolute top-0 left-0 h-full font-medium text-white w-full content-center">{{ .Title }}</div>
+          <div class="absolute top-0 left-0 h-full font-medium text-white w-full content-center px-3">{{ .Title }}</div>
         </div>
-        <div class="mt-3 text-secondary text-xs">{{.Params.range}}</div>
+        <div class="mt-3 text-secondary text-xs">
+          {{.Params.start}} {{ if .Params.end }} - {{ .Params.end }} {{ end }}
+        </div>
       </li>
       {{ end }}
     </ul>

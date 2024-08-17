@@ -1107,12 +1107,12 @@ video {
   position: relative;
 }
 
-.top-0 {
-  top: 0px;
-}
-
 .left-0 {
   left: 0px;
+}
+
+.top-0 {
+  top: 0px;
 }
 
 .m-0 {
@@ -1325,6 +1325,10 @@ video {
   width: 100%;
 }
 
+.w-12 {
+  width: 3rem;
+}
+
 .max-w-fit {
   max-width: -moz-fit-content;
   max-width: fit-content;
@@ -1372,10 +1376,6 @@ video {
 
 .content-center {
   align-content: center;
-}
-
-.content-stretch {
-  align-content: stretch;
 }
 
 .items-stretch {
@@ -1520,16 +1520,6 @@ video {
   background-color: rgb(250 250 250 / 0.5);
 }
 
-.bg-orange-300 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(253 186 116 / var(--tw-bg-opacity));
-}
-
-.bg-yellow-300 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(253 224 71 / var(--tw-bg-opacity));
-}
-
 .fill-gray-200 {
   fill: #e5e7eb;
 }
@@ -1546,16 +1536,12 @@ video {
   fill: #fca5a5;
 }
 
-.fill-zinc-700 {
-  fill: #3f3f46;
-}
-
-.fill-red-400 {
-  fill: #f87171;
-}
-
 .fill-zinc-400 {
   fill: #a1a1aa;
+}
+
+.fill-zinc-700 {
+  fill: #3f3f46;
 }
 
 .stroke-blue-400 {
@@ -1662,6 +1648,10 @@ video {
 
 .pt-5 {
   padding-top: 1.25rem;
+}
+
+.pr-3 {
+  padding-right: 0.75rem;
 }
 
 .text-center {
@@ -1785,14 +1775,14 @@ video {
   color: rgb(190 24 93 / var(--tw-text-opacity));
 }
 
-.text-zinc-700 {
-  --tw-text-opacity: 1;
-  color: rgb(63 63 70 / var(--tw-text-opacity));
-}
-
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-zinc-700 {
+  --tw-text-opacity: 1;
+  color: rgb(63 63 70 / var(--tw-text-opacity));
 }
 
 .underline {
@@ -2381,6 +2371,10 @@ button.active {
   }
 }
 
+.last\:border-none:last-child {
+  border-style: none;
+}
+
 .hover\:-translate-y-1:hover {
   --tw-translate-y: -0.25rem;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -2434,10 +2428,6 @@ button.active {
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
-}
-
-.hover\:delay-300:hover {
-  transition-delay: 300ms;
 }
 
 .hover\:delay-100:hover {
