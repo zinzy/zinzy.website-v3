@@ -29,24 +29,40 @@ function settime() {
   settime()
   
   
-  function relativeDate(date) {
-    const now = new Date()
-    const diff = now - date
-    const hour = 1000 * 60 * 60
-    const day = hour * 24
-    const week = day * 7
-    const rtf = new Intl.RelativeTimeFormat('en', { style: 'narrow' })
-  
-    if (diff < hour) {
-      return rtf.format(-Math.floor(diff / 60000), 'minute')
-    } else if (diff < day) {
-      return rtf.format(-Math.floor(diff / hour), 'hour')
-    } else if (diff < week) {
-      return rtf.format(-Math.floor(diff / day), 'day')
-    } else {
-      return
+  document.addEventListener("DOMContentLoaded", function() {
+    function timeSincePublished(publishedDate) {
+        const now = new Date();
+        const published = new Date(publishedDate);
+        const timeDifference = now - published;
+
+        const seconds = Math.floor(timeDifference / 1000);
+        const minutes = Math.floor(seconds / 60);
+        const hours = Math.floor(minutes / 60);
+        const days = Math.floor(hours / 24);
+        const months = Math.floor(days / 30);
+        const years = Math.floor(days / 365);
+
+        if (years > 0) {
+            return years + (years === 1 ? " year" : " years") + " ago";
+        } else if (months > 0) {
+            return months + (months === 1 ? " month" : " months") + " ago";
+        } else if (days > 0) {
+            return days + (days === 1 ? " day" : " days") + " ago";
+        } else if (hours > 0) {
+            return hours + (hours === 1 ? " hour" : " hours") + " ago";
+        } else if (minutes > 0) {
+            return minutes + (minutes === 1 ? " minute" : " minutes") + " ago";
+        } else {
+            return seconds + (seconds === 1 ? " second" : " seconds") + " ago";
+        }
     }
-  }
+
+    const publishedDate = document.getElementById("time-since-published").getAttribute("data-published");
+    const timeSince = timeSincePublished(publishedDate);
+    document.getElementById("time-since-published").innerText = timeSince;
+});
+
+
 
   const audio = new Audio("/src/pronunciation.mp3");
   const buttons = document.querySelectorAll(".name");

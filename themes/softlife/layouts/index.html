@@ -16,10 +16,24 @@
     Topics
   </h3>
 
-  <div>
-    <!-- Retrieved this snippet from https://discourse.gohugo.io/t/tag-cloud/6335 -->
-    {{ $tags := $.Site.Taxonomies.tags.ByCount }} {{ $v1 := where $tags "Count"
-    ">=" 3 }} {{ $v2 := where $v1 "Term" "not in" (slice "hugo" "tags" "rss") }}
+  <ul class="p-0 m-0">
+    {{ $siteTags := .Site.Taxonomies.tags.ByCount }} {{ range first 9 $siteTags
+    }}
+    <li class="mr-1 mb-3 inline-block">
+      <a
+        href="{{ .Page.Permalink }}"
+        class="bg-zinc-100 font-medium dark:bg-zinc-800px-2 p-2 rounded no-underline text-gray-600 dark:text-zinc-300 text-xs"
+        >{{ .Page.Title }}
+        <span class="text-gray-400/70 ml-2 inline-block">{{ .Count }}</span></a
+      >
+    </li>
+    {{ end }}
+  </ul>
+
+  <!-- Retrieved this snippet from https://discourse.gohugo.io/t/tag-cloud/6335 -->
+  <!-- {{ $tags := $.Site.Taxonomies.tags.ByCount }} {{ $v1 := where $tags "Count"
+    ">=" 3 }} {{ $v2 := where $v1 "Term" "not in" (slice "weeknotes" "friends"
+    "pets" "rss") }}
 
     <ul class="text-xs p-0 m-0">
       {{ range first 9 $v2 }} {{ if .Term }} {{ $tagURL := printf "tags/%s"
@@ -37,8 +51,7 @@
         >
       </li>
       {{ end }} {{ end }}
-    </ul>
-  </div>
+    </ul>  -->
 </section>
 
 <section class="mt-10 md:mt-20">

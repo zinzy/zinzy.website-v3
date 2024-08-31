@@ -1,33 +1,19 @@
 ---
 title: About
-description: "Heya, I'm Zinzy Waleson Geene, and I"
+description: "Heya, I'm Zinzy Waleson Geene"
 ---
-- Love random encounters, so [say hello](/hello)
-- Am a [human](/biography) living and working in Amsterdam
-- Live with [unrelenting curiosity and intensity](/im-neurodivergent)
-- Have been [yelling at Internet clouds](/site) since 1997
-- Am a linguist by trade, a seminary dropout by choice, a [designer](/work) by profession, a [mentor](/mentoring) by chance, a [bad developer](https://github.com/zinzy) by the grace of God, and a [community builder](/community) by moonlight
-- Am an advocate for the IndieWeb, which is to say for an Internet that values the small, the cozy, the open, and the individual 
-- Do my best to spend most of my time engaged in [interests](/interests) and things that align with my [values](/values)
-- Am enthusiastic about the power and workings of storytelling in its many forms
-- Think [what I do](/praxis) is more important than what I believe
-- I'm a life-long amateur musician 
-- Have been [sober](/2021/05/02/3-years-sober/) since May 2018
-
----
-
-### How do I pronounce your name?
 
 {{< rawhtml >}}
+
 <div
-  class="name group flex max-w-fit cursor-pointer place-content-center rounded border transition-all hover:border-transparent hover:bg-zinc-50 dark:hover:border-transparent dark:hover:bg-zinc-300/10"
+  class="name group flex max-w-fit cursor-pointer place-content-center rounded-2xl px-3 border transition-all hover:border-transparent hover:bg-zinc-50 dark:hover:border-transparent dark:hover:bg-zinc-300/10"
 >
   <p
     class="m-0 ml-3 mr-1 text-sm leading-7 text-gray-600 group-hover:text-pink-white dark:text-zinc-300 dark:group-hover:text-zinc-300"
   >
     / zɪn·zi: weɪl·sʌn gi:n /
   </p>
-  <span class="inline-block rounded-full p-1">
+  <span class="inline-block rounded-full pt-1">
     <svg
   width="24"
   height="24"
@@ -61,3 +47,13 @@ description: "Heya, I'm Zinzy Waleson Geene, and I"
   </span>
 </div>
 {{< /rawhtml >}}
+
+---
+
+I share [my life](/biography) with [Anja](https://anjawaleson.notion.site/Anja-Waleson-0182c8df804b4b12ab6e70b5b5795a55) and [Lemonade](/2024-08-11-15-21-22/) in Amsterdam.
+
+[You can get in contact with me here](/hello).
+
+I live with [unrelenting curiosity and intensity](/im-neurodivergent), and have been [yelling at Internet clouds](/museum) since 1997. I'm a linguist by trade, a seminary dropout by choice, a [designer](/work) by profession, a [mentor](/mentoring) by proclivity, a [bad developer](https://github.com/zinzy) by the grace of God, and a [community builder](/community) by moonlight.
+
+[This website](/site) captures my interest in the IndieWeb, which is to say for in Internet that cherishes the small, the cozy, the open, and the individual. In reading it, you may learn about my [interests](/interests), [values](/values), and [praxis](/praxis).

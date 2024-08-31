@@ -1,13 +1,40 @@
-{{ define "main" }} {{ partial "back_link.html" .}} {{ $postsDefault := where
-.Site.RegularPages "Type" "posts" }}
-<ul class="border-b">
-  {{ range .Site.RegularPages }}
-  <li class="border-t py-3">
-    <a class="w-full content-center md:flex" href="{{ .Permalink }}">
-      <span class="grow font-medium">{{ .Title }}</span>
-    </a>
-  </li>
-  {{ end }}
-</ul>
+{{ define "main" }} {{ partial "back_link.html" .}}
 
+<div class="">
+  <header class="prose prose-gray dark:prose-invert">
+    <p class="text-secondary mb-0 text-sm">{{ .Title }}</p>
+    <h2 class="p-name mb-2 mt-0 text-2xl">{{ .Description }}</h2>
+    {{ .Content }}
+  </header>
+
+  <section class="mt-20">
+    {{ $library := where .Site.RegularPages "Type" "books" }} {{ $path := .Path
+    }}
+    <ul class="w-full grid md:grid-cols-2 md:gap-4">
+      {{ range first 4 $library }}
+      <li class="shadow-subtle border p-3 rounded-xl bg-white">
+        <div class="flex">
+          <div class="w-1/5">
+            <img src="{{ .Params.cover}}" class="rounded w-16" />
+          </div>
+          <div class="w-4/5 text-xs h-full content-center">
+            <div class="pl-3">
+              <div class="font-medium mb-1">{{ .Title }}</div>
+              <!-- <div class="text-secondary">{{ .Params.author }}</div> -->
+              <ul class="text-secondary list-comma">
+                {{ range .Params.tags }}
+                <li>{{. }}</li>
+                {{end}}
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="">
+          <div class="mt-5 text-">{{ partial "tags.html" .}}</div>
+        </div> -->
+      </li>
+      {{ end }}
+    </ul>
+  </section>
+</div>
 {{ end }}

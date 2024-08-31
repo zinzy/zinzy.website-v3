@@ -17,7 +17,11 @@
     {{ $path := .Path }}
     <ul class="w-full grid md:grid-cols-2 md:gap-4">
       {{ range first 4 $library }}
-      <li class="shadow-subtle border p-3 rounded-xl bg-white">
+      <li class="">
+        <a
+          href="{{ .Permalink }}"
+          class="shadow-subtle border p-3 rounded-xl bg-white text-center block"
+        >
         <div class="flex">
           <div class="w-1/5">
             <img src="{{ .Params.cover}}" class="rounded w-16">
@@ -33,15 +37,13 @@
             </div>
           </div>
         </div>
-        <!-- <div class="">
-          <div class="mt-5 text-">{{ partial "tags.html" .}}</div>
-        </div> -->
+        </a>
       </li>
       {{ end }}
     </ul>
 
     <div class="mt-10 text-center">
-      <a href="/books" class="bg-white text-xs font-medium border py-2 px-3 rounded-full hover:bg-zinc-50">See all books</a>
+      <a href="/library/books" class="bg-white text-xs font-medium border py-2 px-3 rounded-full hover:bg-zinc-50">See all books</a>
     </div>
   </div> 
 </section>

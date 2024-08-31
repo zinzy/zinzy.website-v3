@@ -1,0 +1,28 @@
+{{ define "main" }} {{ partial "back_link.html" .}}
+
+<header class="prose prose-gray dark:prose-invert container">
+  <p class="text-secondary mb-0 text-sm">{{ .Title }}</p>
+  <h2 class="p-name mb-2 mt-0 text-2xl">{{ .Description }}</h2>
+</header>
+
+<section class="mt-20">
+  {{ .Content }}
+</section>
+
+<section class="mt-20">
+  <ul class="w-full grid grid-cols-2 gap-4 text-sm">
+    {{ range .Params.items }}
+    <li class="p-3 border">
+      <a href="{{ .link }}" target="_blank" rel="noopener noreferrer">
+        {{ .content | markdownify }}
+      </a>
+    </li>
+    {{end}}
+  </ul>
+</section>
+
+
+
+
+</div>
+{{ end }}
