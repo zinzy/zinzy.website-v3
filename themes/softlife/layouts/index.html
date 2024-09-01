@@ -11,6 +11,8 @@
 
 {{ (site.GetPage "tags").Params.kind }}
 
+
+<!--
 <section class="mt-10">
   <h3 class="text-secondary font-medium uppercase text-xs mb-5 block">
     Topics
@@ -29,6 +31,7 @@
     </li>
     {{ end }}
   </ul>
+  -->
 
   <!-- Retrieved this snippet from https://discourse.gohugo.io/t/tag-cloud/6335 -->
   <!-- {{ $tags := $.Site.Taxonomies.tags.ByCount }} {{ $v1 := where $tags "Count"
@@ -51,8 +54,12 @@
         >
       </li>
       {{ end }} {{ end }}
-    </ul>  -->
+    </ul> 
 </section>
+
+
+-->
+
 
 <section class="mt-10 md:mt-20">
   {{ $posts := where .Site.RegularPages "Type" "posts" }} {{ $shorts := where
