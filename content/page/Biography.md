@@ -3,6 +3,7 @@ title: Biography
 description: "Zinzy: the Lifetime movie "
 layout: page
 ---
+
 I'm a life-long student, an Internet diarist, an amateur musician, a loving partner and dog mother, and subversively privileged human. A professional albeit boring tagline would be:
 
 [Senior Product Designer](/work) of 17 years who deploys skills in research, design, strategy, and leadership to demonstrate that taking care of users is good for business.
@@ -10,13 +11,14 @@ I'm a life-long student, an Internet diarist, an amateur musician, a loving part
 I like to think there's more to life than that.
 
 {{< rawhtml >}}
+
   <figure>
     <img src="/img/zinzy.jpg" class="w-full" class="Two White men and a Black non-binary person in a lei smile at the camera with champagne glasses in their hand." />
     <figcaption>Here I am in 2019 with Robin (L) and Michar (R), celebrating the 25th anniversary of the travel technology company that employed us. The pandemic was months away. We were but children.</figcaption>
   </figure>
 {{< /rawhtml >}}
 
-Before you dive in, you may be looking for a way to [say hello](/hello), [follow this site](/site#follow), or check out what I'm up to right [now](/now).
+Before you dive in, you may be looking for a way to [say hello](/hello), [follow this site](/colophon#follow), or check out what I'm up to right [now](/now).
 
 ### I'm specialized in making software for people at work.
 

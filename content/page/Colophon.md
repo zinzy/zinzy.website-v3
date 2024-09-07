@@ -3,7 +3,8 @@ title: Site
 description: About this website
 sidenote: "Did you know I keep a [Checklist](/checklist) of components I'm hoping to add to this website?"
 ---
-I'm pleased you have reached my [world wide web homepage](/site). This is a home for soft stances, lived experiences, and critical notes on the things I hold dear. No highlight reel, no likes, no follow button. Just my appreciation for the web, [my excessive curiousity](/im-neurodivergent), and the words I choose to make sense of it all.
+
+I'm pleased you have reached my [world wide web homepage](/colophon). This is a home for soft stances, lived experiences, and critical notes on the things I hold dear. No highlight reel, no likes, no follow button. Just my appreciation for the web, [my excessive curiousity](/im-neurodivergent), and the words I choose to make sense of it all.
 
 I grew up on the Internet in a time when social media meant writing comments on other people's hand-built blogs. No "hey guys welcome back to my vlog", no Instagram highlight reels. The sense of whimsy, coziness, and a beautiful lack of information overload are highs I have been chasing ever since.
 
@@ -14,6 +15,7 @@ I generally don't know people visit this space unless they tell me. The most hum
 > "Zinzy Waleson Geene has a website that's a constant source of curiosity. She alters the look, changes typography, structure, navigation so often that following through RSS isn't enough. When I see a new post, I go check the website."
 
 ### Follow
+
 You can subscribe to my posts via RSS. [Read more about feeds and RSS](https://aboutfeeds.com/). I personally enjoy using Readwise's [Reader app](https://readwise.io/read) for my RSS needs. Just add [zinzy.website/index.xml](https://zinzy.website/index.xml) to your reader of choice, and enjoy Zinzy's website from anywhere. (At this time, the feed only features longer, titled entries.)
 
 ### "What do you do here?"
@@ -58,8 +60,6 @@ Unless otherwise stated, as per [CC BY-NC-SA 4.0](http://creativecommons.org/lic
 
 I respect your digital sovereignty. I do not track your personal data nor the journey you take on this website or any others. While I do my best to minimize this, please remember that, while [I don't track you, others might](https://www.zylstra.org/blog/2020/01/i-dont-track-you-here-but-others-might/).
 
-
 {{< rawhtml >}}
 <a href="/img/banner.svg" target="_blank" id="banner" rel="noopener noreferrer"><img src="/img/banner.svg" style="width: 80px; border-radius: 0;" class="rounded-none" alt=""></a>
 {{< /rawhtml >}}
-

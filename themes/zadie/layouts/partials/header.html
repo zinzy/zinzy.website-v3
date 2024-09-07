@@ -56,7 +56,6 @@
   </div>
 </header> -->
 
-
 <header class="flex p-4">
   <div class="grow">
     <h1><a href="/">Zinzy</a></h1>
@@ -65,14 +64,11 @@
     <nav class="">
       <ul>
         {{ range .Site.Menus.main }}
-         <li class="inline-block ml-3 ">
+        <li class="inline-block ml-3">
           <a href="{{ .URL }}" class="">{{ .Name }}</a>
-         </li>
+        </li>
         {{ end }}
-       </ul>
+      </ul>
     </nav>
   </div>
 </header>
-
-
- 

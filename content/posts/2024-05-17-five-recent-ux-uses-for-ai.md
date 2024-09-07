@@ -93,6 +93,6 @@ Talking to a chatbot is like casual cognitive behavioral training, with the adde
 
 ### What's next?
 
-As you know, [no sentence on this website is written by AI](/site) and it will stay that way. I'm curious to see what interactive challenges I may run into in maintaining this line. As of a few days ago, I type `⌘ + ↓` and ChatGPT pops up to help. Using and abusing it as a linguistic search engine, I wonder: when will there be a time when I accidentally copy a response into an personal essay?
+As you know, [no sentence on this website is written by AI](/colophon) and it will stay that way. I'm curious to see what interactive challenges I may run into in maintaining this line. As of a few days ago, I type `⌘ + ↓` and ChatGPT pops up to help. Using and abusing it as a linguistic search engine, I wonder: when will there be a time when I accidentally copy a response into an personal essay?
 
 As for work? It seems like everybody and their grandmothers can't stop blogging, tweeting, LinkedIn posting, or podcasting about this very question. I don't enjoy predicting the future in that way. I simply see value in honing the soft skills that enable me to learn new hard ones.

@@ -1,6 +1,7 @@
 ---
 title: Now
 description: What I'm up to at this point in my life
+summary: "I am excited for the school year to start."
 ---
 
 ![A Black person at the office smiling at the camera while doodling on a flipchart](/img/zinzy-at-work.jpg)

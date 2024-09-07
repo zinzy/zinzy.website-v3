@@ -49,6 +49,16 @@ body {
 }
 .text-secondary {
   @apply text-gray-500 dark:text-zinc-400;
+  a {
+    @apply text-zinc-500 dark:text-zinc-400 decoration-zinc-500 dark:decoration-zinc-400;
+  }
+}
+
+.text-link {
+  color: blue;
+  text-decoration: underline;
+  text-decoration-color: blue;
+  text-underline-offset: 2px;
 }
 
 figure figcaption {
@@ -71,14 +81,14 @@ img {
 
 
 .button {
-  @apply border px-3 h-9 leading-9 rounded inline-block text-xs font-semibold dark:border-zinc-700 hover:text-pink-500 hover:bg-pink-50 hover:border-transparent  dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:hover:text-pink-300;
+  @apply border px-3 h-9 leading-9 rounded inline-block text-sm font-semibold dark:border-zinc-700 hover:text-blue-500 hover:bg-blue-50 hover:border-transparent  dark:hover:border-transparent dark:hover:bg-blue-300/10 dark:hover:text-blue-300;
 }
 .underline {
-  @apply underline-offset-4 decoration-gray-600 decoration-1 dark:decoration-gray-300 hover:decoration-gray-950;
+  @apply underline-offset-2 decoration-gray-600 decoration-1 dark:decoration-gray-300 hover:decoration-gray-950;
 }
 
 [class*="border"], hr {
-  @apply dark:border-zinc-700;
+  @apply border-zinc-100 dark:border-zinc-700;
 }
 
 
@@ -134,7 +144,7 @@ a {
 }
 
 .prose a {
-  @apply underline hover:text-pink-500 hover:decoration-pink-500 dark:hover:text-pink-300 dark:hover:decoration-pink-300;
+  @apply underline hover:text-blue-500 hover:decoration-blue-500 dark:hover:text-blue-300 dark:hover:decoration-blue-300;
 }
 
 .not-prose a:where([class~="aside"]) {
@@ -177,7 +187,7 @@ figcaption {
 
 
 mark {
-  @apply bg-pink-100
+  @apply bg-blue-100
 }
 
 #checklist ul {
@@ -193,7 +203,7 @@ mark {
 }
 
 #checklist input[type="checkbox"] {
-  @apply appearance-none w-4 h-4 border-2 border-gray-300 rounded-sm bg-white m-0 p-0  shrink-0 checked:bg-pink-500 checked:border-0 mr-3
+  @apply appearance-none w-4 h-4 border-2 border-gray-300 rounded-sm bg-white m-0 p-0  shrink-0 checked:bg-blue-500 checked:border-0 mr-3
 } 
 
 .photos li img {
@@ -223,7 +233,7 @@ button.active {
 }
 
 .library nav li.active {
-  @apply bg-pink-50 border-transparent text-pink-500 dark:text-pink-300 dark:bg-pink-300/10
+  @apply bg-blue-50 border-transparent text-blue-500 dark:text-blue-300 dark:bg-blue-300/10
 }
 
 .prose content {
@@ -274,4 +284,16 @@ button.active {
   &:not(:last-child):after {
     content: ",";
   }
+}
+
+.playing {
+  rect, path {
+    @apply fill-red-600
+  }
+}
+
+.rainbow {
+  /* max-width: 200px; */
+  height: 3px;
+  background: linear-gradient(90deg, rgba(255, 0, 0, 1) 0%, rgba(255, 154, 0, 1) 10%, rgba(208, 222, 33, 1) 20%, rgba(79, 220, 74, 1) 30%, rgba(63, 218, 216, 1) 40%, rgba(47, 201, 226, 1) 50%, rgb(0, 119, 255) 60%, rgba(95, 21, 242, 1) 70%, rgba(186, 12, 248, 1) 80%, rgba(251, 7, 217, 1) 90%, rgba(255, 0, 0, 1) 100%);
 }

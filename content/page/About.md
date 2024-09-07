@@ -3,57 +3,12 @@ title: About
 description: "Heya, I'm Zinzy Waleson Geene"
 ---
 
-{{< rawhtml >}}
-
-<div
-  class="name group flex max-w-fit cursor-pointer place-content-center rounded-2xl px-3 border transition-all hover:border-transparent hover:bg-zinc-50 dark:hover:border-transparent dark:hover:bg-zinc-300/10"
->
-  <p
-    class="m-0 ml-3 mr-1 text-sm leading-7 text-gray-600 group-hover:text-pink-white dark:text-zinc-300 dark:group-hover:text-zinc-300"
-  >
-    / zɪn·zi: weɪl·sʌn gi:n /
-  </p>
-  <span class="inline-block rounded-full pt-1">
-    <svg
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  fill="none"
-  xmlns="http://www.w3.org/2000/svg"
->
-  <mask
-    id="mask0_641_2"
-    style="mask-type: alpha"
-    maskUnits="userSpaceOnUse"
-    x="0"
-    y="0"
-    width="24"
-    height="24"
-  >
-    <rect
-      width="24"
-      height="24"
-      class="fill-gray-600 group-hover:fill-zinc-500 dark:fill-white dark:group-hover:fill-zinc-300"
-    />
-  </mask>
-  <g mask="url(#mask0_641_2)">
-    <path
-      d="M18.8462 11.975C18.8462 10.6 18.4778 9.34516 17.741 8.21049C17.0042 7.07566 16.0162 6.22666 14.777 5.66349C14.5847 5.57249 14.443 5.43657 14.352 5.25574C14.261 5.07507 14.2498 4.89074 14.3185 4.70274C14.401 4.50224 14.5442 4.36291 14.748 4.28474C14.9518 4.20641 15.1583 4.21282 15.3673 4.30399C16.8749 4.98849 18.0817 6.01849 18.9875 7.39399C19.8932 8.76932 20.346 10.2962 20.346 11.9747C20.346 13.6531 19.8932 15.1801 18.9875 16.5557C18.0817 17.9314 16.8749 18.9615 15.3673 19.646C15.1583 19.7372 14.9518 19.7436 14.748 19.6652C14.5442 19.5871 14.401 19.4477 14.3185 19.2472C14.2498 19.0592 14.261 18.8749 14.352 18.6942C14.443 18.5134 14.5847 18.3775 14.777 18.2865C16.0162 17.7233 17.0042 16.8743 17.741 15.7395C18.4778 14.6048 18.8462 13.35 18.8462 11.975ZM7.3655 14.5H4.55775C4.30158 14.5 4.08692 14.4133 3.91375 14.24C3.74058 14.0668 3.654 13.8522 3.654 13.596V10.404C3.654 10.1478 3.74058 9.93316 3.91375 9.75999C4.08692 9.58666 4.30158 9.49999 4.55775 9.49999H7.3655L10.3578 6.50774C10.5974 6.26807 10.8733 6.21399 11.1855 6.34549C11.4977 6.47699 11.6537 6.71182 11.6537 7.04999V16.95C11.6537 17.2882 11.4977 17.523 11.1855 17.6545C10.8733 17.786 10.5974 17.7319 10.3578 17.4922L7.3655 14.5ZM16.1538 12.001C16.1538 12.6248 16.0243 13.2152 15.7653 13.7722C15.5064 14.3292 15.1574 14.7975 14.7183 15.177C14.5766 15.2718 14.4278 15.2814 14.272 15.2057C14.1163 15.1301 14.0385 15.0051 14.0385 14.8307V9.11924C14.0385 8.94491 14.1163 8.81991 14.272 8.74424C14.4278 8.66857 14.5766 8.67766 14.7183 8.77149C15.1574 9.16232 15.5064 9.64232 15.7653 10.2115C16.0243 10.7808 16.1538 11.3773 16.1538 12.001ZM10.1537 8.84999L8.00375 11H5.15375V13H8.00375L10.1537 15.15V8.84999Z"
-      class="fill-gray-950 group-hover:fill-zinc-500 dark:fill-white dark:group-hover:fill-zinc-300"
-    />
-  </g>
-</svg>
-
-  </span>
-</div>
-{{< /rawhtml >}}
-
----
-
 I share [my life](/biography) with [Anja](https://anjawaleson.notion.site/Anja-Waleson-0182c8df804b4b12ab6e70b5b5795a55) and [Lemonade](/2024-08-11-15-21-22/) in Amsterdam.
 
 [You can get in contact with me here](/hello).
 
 I live with [unrelenting curiosity and intensity](/im-neurodivergent), and have been [yelling at Internet clouds](/museum) since 1997. I'm a linguist by trade, a seminary dropout by choice, a [designer](/work) by profession, a [mentor](/mentoring) by proclivity, a [bad developer](https://github.com/zinzy) by the grace of God, and a [community builder](/community) by moonlight.
 
-[This website](/site) captures my interest in the IndieWeb, which is to say for in Internet that cherishes the small, the cozy, the open, and the individual. In reading it, you may learn about my [interests](/interests), [values](/values), and [praxis](/praxis).
+[This website](/colophon) captures my interest in the IndieWeb, which is to say for in Internet that cherishes the small, the cozy, the open, and the individual. In reading it, you may learn about my [interests](/interests), [values](/values), and [praxis](/praxis).
+
+If you'd like to show your appreciation, you may [buy me coffee](https://ko-fi.com/zinzy). If you don't know what to gift me for my birthday, try my [Goodreads wishlist](https://www.goodreads.com/review/list/23204424?shelf=wishlist).

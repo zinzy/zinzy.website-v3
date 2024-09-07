@@ -9,7 +9,7 @@ description: "Website components I hope to have on my site"
 This list was copied from [Mike Sass' _Website Component Checklist_](https://shellsharks.com/notes/2023/08/15/website-component-checklist). I've added things I thought would be useful.
 
 - [x] [Custom 404 page](/404.html)
-- [x] [88x31 button](/site#banner)
+- [x] [88x31 button](/colophon#banner)
 - [x] [/About page](/about)
 - [x] [AI manifesto](/ai)
 - [ ] ~~ai.txt~~
