@@ -1,5 +1,5 @@
 ---
-title: Site
+title: Colophon
 description: About this website
 sidenote: "Did you know I keep a [Checklist](/checklist) of components I'm hoping to add to this website?"
 ---
