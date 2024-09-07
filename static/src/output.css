@@ -1888,9 +1888,10 @@ body {
 }
 
 .text-link {
-  color: blue;
-  text-decoration: underline;
-  text-decoration-color: blue;
+  --tw-text-opacity: 1;
+  color: rgb(37 99 235 / var(--tw-text-opacity));
+  text-decoration-line: underline;
+  text-decoration-color: #2563eb;
   text-underline-offset: 2px;
 }
 
@@ -1964,19 +1965,7 @@ img {
 }
 
 .underline {
-  text-decoration-color: #4b5563;
-  text-decoration-thickness: 1px;
   text-underline-offset: 2px;
-}
-
-.underline:hover {
-  text-decoration-color: #030712;
-}
-
-@media (prefers-color-scheme: dark) {
-  .underline {
-    text-decoration-color: #d1d5db;
-  }
 }
 
 [class*="border"], hr {
@@ -2017,11 +2006,27 @@ details[open] > summary::marker {
 h1, h2, h3, h4, h5, h6 {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: 500;
+}
+
+@media (prefers-color-scheme: dark) {
+  h1, h2, h3, h4, h5, h6 {
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
   a {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   }
   a {
     font-weight: 500;
+  }
+  @media (prefers-color-scheme: dark) {
+    a {
+      --tw-text-opacity: 1;
+      color: rgb(255 255 255 / var(--tw-text-opacity));
+    }
   }
 }
 
@@ -2063,19 +2068,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .prose a {
   text-decoration-line: underline;
-  text-decoration-color: #4b5563;
-  text-decoration-thickness: 1px;
   text-underline-offset: 2px;
-}
-
-.prose a:hover {
-  text-decoration-color: #030712;
-}
-
-@media (prefers-color-scheme: dark) {
-  .prose a {
-    text-decoration-color: #d1d5db;
-  }
 }
 
 .prose a:hover {
