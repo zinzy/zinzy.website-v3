@@ -3,10 +3,9 @@ title: Now
 description: What I'm up to at this point in my life
 summary: "I am excited for the school year to start."
 ---
+![A selfie of two people smiling at the camera while holding coffee on a sunny terrace](/img/photos/2024-09-08.jpg)
 
-![A Black person at the office smiling at the camera while doodling on a flipchart](/img/zinzy-at-work.jpg)
-
-Here I am at the [Gerimedica](https://gerimedica.nl) office, posing for an employer branding photoshoot. I use my iPad for drawing more than I do this flipchart, but that _is_ our lovely IT department in the background, and that smile is genuine. It's a good day.
+Here I am with Anja outside Badeta, a local coffee place. We visited het dad in de Bijlmer this morning, and just finished biking back to Indische Buurt. I love riding my bike with her. This is one of our micro dates: a little pocket of quiet time for coffee or ice cream. It's a good day.
 
 ### Work is slow but sweet
 
@@ -26,4 +25,4 @@ Things are slowly picking up again after the Summer break. On Sunday, [All Saint
 
 I am stoked that I've successfully established a workout routine. Personal health challenges make it notoriously difficult for me to work out in a way that's healthy and sustainable, and after five months of taking it more slowly than I ever nightmared I could, I find myself embracing early morning workouts that really set the tone for the rest of the day. #Proud.
 
-_This update was published on August 31, 2024._
+_This update was published on September 8, 2024._
