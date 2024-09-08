@@ -1,5 +1,5 @@
 {{ define "main" }} {{ partial "back_link.html" .}} {{ $shorts := where
-.Site.RegularPages "Type" "shorts" }} {{ $notes := where .Site.RegularPages
+.Site.RegularPages "Type" "shorts" }} {{ $notes := where $shorts
 ".Params.photo" "=" nil }}
 
 <header class="mb-10 md:mb-20">
