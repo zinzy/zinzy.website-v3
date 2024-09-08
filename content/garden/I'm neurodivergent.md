@@ -25,3 +25,4 @@ In recent years, I have come to use the term "neurodivergent" to describe, when 
 - **I learn fast, I get bored fast.** I love skill acquisition in music, linguistics, creative fine-motor activities, and logic, and I love reading and research. I get bored easily if I can't learn or contribute.
 - **I live with intensity**, which affects the speed at which I do things, which in turns impacts how I navigate relationships, how I handle tasks, and how I connect with the world around me. "You talk too fast", "Well, the world is too slow" is a monotonous exchange in which I engage at least twice a week.
 - **I'm intrinsically motivated**. It's great when I want to get something done, but not great when I don't.
+- **I love to learn, I hate to practice:** I find it difficult to sit with the discomfort of having to repeat desired behavior to the point where giving up is easier.

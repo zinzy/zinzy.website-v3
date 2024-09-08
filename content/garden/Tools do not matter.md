@@ -1,9 +1,9 @@
 ---
 title: Tools do not matter
+description: "When a tool stops working (for me), I make sure I still have access to the things I made with it"
 share: true
 ---
-
-In my journey as a human with a personal computer, and more specifically as somebody who performs [Knowledge work](Knowledge%20work.md), I've developed a somewhat platform- and application-agnostic approach to computing. When I consider using a particular app or platform, I pay close attention to how it will let me work with the things I create. This has helped me keep my writing organized since 2005.
+In my journey as a human with a personal computer, and more specifically as somebody who performs knowledge work, I've developed a somewhat platform- and application-agnostic approach to computing. When I consider using a particular app or platform, I pay close attention to how it will let me work with the things I create. This has helped me keep my writing organized since 2005.
 
 Like everybody else I have tool preferences. I prefer Spark over other email apps, I currently enjoy Obsidian more than other note-taking apps, and I will choose Mac OS X over any other operating system. Still, central to my choices is that I don't want any long-term engagement with products that force me to limit my relationship with my data.
 
