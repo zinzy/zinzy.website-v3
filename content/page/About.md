@@ -2,6 +2,7 @@
 title: About
 description: "Heya, I'm Zinzy Waleson Geene"
 ---
+I’m a person living and working in Amsterdam. I call myself: generalist, Afropean, queer, Episcopalian, designer, facilitator, community builder, photographer, writer, neurodivergent. I work as a principal designer at a healthcare technology company. It’s a pretty sweet gig.
 
 I share [my life](/biography) with [Anja](https://anjawaleson.notion.site/Anja-Waleson-0182c8df804b4b12ab6e70b5b5795a55) and [Lemonade](/2024-08-11-15-21-22/) in Amsterdam.
 

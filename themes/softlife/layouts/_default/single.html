@@ -6,7 +6,7 @@
       <p class="text-secondary text-sm mb-5">
         {{ if or (eq .Section "posts") (eq .Section "shorts") }}
         <time
-          class="dt-published text-secondary text-sm block"
+          class="dt-published text-xs uppercase text-secondary font-normal block"
           datetime="{{ .Date }}"
         >
           <a href="{{ .Permalink }}"
@@ -14,23 +14,23 @@
             site.Params.theme_config.date_format_date_time }}</a
           >
         </time>
-        {{ else }} {{ .Params.title }} {{ end }}
+        {{ else }}{{ end }}
       </p>
 
       {{ if .Params.photo }}
 
-      <img
+    
+      <div class="mb-5">
+        <img
         src="{{ .Params.photo }}"
         alt="Photo for {{ .Title }}"
-        class="mb-5"
+        class=""
       />
+      </div>
 
       {{ end }} {{ if .Params.title }}
       <h2 class="p-name text-2xl mb-5">
-        <a class="u-url" href="{{ .Permalink }}">
-          {{ if eq .Section "posts" }} {{ .Params.title }} {{ else }} {{
-          .Params.description }} {{ end }}
-        </a>
+        <a class="u-url" href="{{ .Permalink }}">{{ .Params.title }}</a>
       </h2>
       {{ end }}
 

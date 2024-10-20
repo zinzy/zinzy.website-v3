@@ -2,17 +2,17 @@
 <html lang="{{ $.Site.LanguageCode }}" class="scroll-smooth min-h-full">
     {{- partial "head.html" . -}}
     <div id="top" class="hidden"></div>
-    <body class="p-5 pb-10 md:py-20 min-h-full antialiased bg-zinc-50/40 dark:bg-zinc-900" a="{{ $.Site.Params.theme_config.appearance | default "auto" }}">
+    <body class="pb-20 min-h-full antialiased bg-zinc-50/40 dark:bg-zinc-900" a="{{ $.Site.Params.theme_config.appearance | default "auto" }}">
          
 
 
 
 
-        <div class="container"> 
+        <div class="container my-20"> 
 
           {{- partial "header.html" . -}}
     
-            <main class="my-16" aria-label="Content">
+            <main class="my-20" aria-label="Content">
                 <div class="">
                     {{- block "main" . }}{{- end }}
                 </div> 

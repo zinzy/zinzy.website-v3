@@ -1,17 +1,41 @@
 {{ define "main" }} {{ partial "back_link.html" .}}
 
 <div class="">
-  <header>
+  <!-- <header>
     <p class="text-secondary mb-0 text-sm">{{ .Title }}</p>
     <h2 class="p-name mb-2 mt-0 text-2xl">
       I am a fervent diarist, and this archive exists to remind myself that life
       is ever-evolving, as am I.
     </h2>
-  </header>
+  </header> -->
 
   <section class="mt-20">
-    {{ $postsDefault := where .Site.RegularPages "Type" "posts" }}
+    <!-- {{ $postsDefault := where .Site.RegularPages "Type" "posts" }} -->
+    {{ range (where .Site.RegularPages "Type" "in" (slice "posts")).GroupByDate "2006" }}
+
+
+    <ul class="">
+
+      <li class="mt-10">
+        <h3 class="mb-5">{{ .Key }}</h3>
+        <ul class="border">
+          {{ range .Pages }}
+          <li class="border-b last:border-none p-2">
+            <!-- <span class="date">{{ .Date.Format (.Site.Params.dateFormat | default "January 2, 2006" ) }}</span> -->
+            <a class="border-none" href="{{ .Params.externalLink | default .RelPermalink }}">{{ .Title }}</a>
+          </li>
+          {{- end -}}
+        </ul>
+      </li>
+    </ul>
+
+    {{ end }}
+<!-- 
     <ul class="border-b">
+
+
+
+      
       {{ range $postsDefault }}
       <li class="border-t py-3">
         <a class="w-full content-center md:flex" href="{{ .Permalink }}">
@@ -23,7 +47,7 @@
         </a>
       </li>
       {{ end }}
-    </ul>
+    </ul> -->
   </section>
 </div>
 {{ end }}

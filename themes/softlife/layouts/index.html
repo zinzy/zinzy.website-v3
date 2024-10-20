@@ -1,285 +1,31 @@
 {{ define "main" }}
 
-<!-- 
-
-PAGE STRATEGY
-
-  PURPOSE
-  - "What type of website is this?"
-  - "Who makes this?"
-  - "What type of content is on this website?"
-
--->
-
 {{ $posts := where .Site.RegularPages "Type" "posts" }} {{ $cameraroll := where
 .Site.RegularPages ".Params.photo" "!=" nil }} {{ $notes := where
 .Site.RegularPages ".Params.photo" "=" nil }}
 
+{{ $paginator := .Paginate (where .Site.RegularPages ".Params.photo" "!=" nil)  4 }}
+
 <section class="prose prose-gray dark:prose-invert">
-  <p>
-    Thank you for visiting. This is a home for soft stances, lived experiences,
-    and critical notes on the things I hold dear. I have been yelling at
-    Internet clouds since 1997.
-  </p>
+  {{ .Content }}
 </section>
 
-<section class="mt-16">
-  <div class="flex gap-x-3 mb-5">
-    <h2 class="font-medium">Camera roll</h2>
-    <a href="/camera-roll" class="text-xs mt-[5px] text-link">View all</a>
-  </div>
-
-  <ul class="grid grid-cols-4 gap-x-3 my-3">
-    {{ range first 4 $cameraroll }}
-    <li>
-      <img
+<section class="mt-20">
+  <ul class="">
+    {{ range $paginator.Pages }}
+    <li class="mb-20">
+      <a href="{{ .Permalink }}">
+        <img
         src="{{ .Params.photo }}"
         alt="Photo for {{ .Title }}"
-        class="aspect-square object-cover"
+        class=""
       />
-    </li>
-    {{ end }}
-  </ul>
-</section>
-
-<section class="mt-16">
-  <div class="flex gap-x-3 mb-5">
-    <h2 class="font-medium">Notes</h2>
-    <a href="/notes" class="text-xs mt-[5px] text-link">View all</a>
-  </div>
-
-  <ul class="">
-    {{ range first 1 $notes }}
-    <li>
-      <p class="my-5">
-        <a href="{{ .Permalink }}">
-          <time
-            class="dt-published text-sm text-secondary"
-            data-published="{{ .Date }}"
-            >{{ .Date | time.Format
-            site.Params.theme_config.date_format_date_time }}
-          </time>
-        </a>
-      </p>
-      {{ if .Params.title }} {{ else }}
-
-      <div class="prose prose-gray dark:prose-invert">
-        {{ if .Params.replyTo }} {{ if .Params.rsvp }}
-        <p>
-          {{ if eq .Params.rsvp "yes" }}<data class="p-rsvp" value="YES"
-            >Is going</data
-          >
-          to {{ else if eq .Params.rsvp "maybe" }}<data
-            class="p-rsvp"
-            value="Maybe"
-            >Might go</data
-          >
-          to {{ else if eq .Params.rsvp "no" }}<data class="p-rsvp" value="no"
-            >Unable to go</data
-          >
-          to {{ else if eq .Params.rsvp "interested" }}<data
-            class="p-rsvp"
-            value="interested"
-            >Is interested</data
-          >
-          in {{ end }}
-
-          <a
-            href="{{.Params.replyTo}}"
-            rel="in-reply-to"
-            class="u-in-reply-to text-url break-all font-normal underline"
-            target="_blank"
-          >
-            {{ if .Params.replyToName }} {{.Params.replyToName}} {{ else }}
-            {{.Params.replyTo}} {{ end }}
-          </a>
-        </p>
-
-        {{ else }}
-
-        <p class="u-in-reply-to mt-0 mb-3">
-          Replied to
-          <a
-            href="{{.Params.replyTo}}"
-            rel="in-reply-to"
-            class="u-in-reply-to text-url break-all font-normal underline"
-            target="_blank"
-          >
-            {{ if .Params.replyToName }} {{.Params.replyToName | markdownify }}
-            {{ else }} {{.Params.replyTo}} {{ end }}
-          </a>
-        </p>
-        {{ end }} {{ else if .Params.likeOf }}
-        <p class="mt-0 mb-5">
-          Liked
-          <a
-            href="{{.Params.likeOf}}"
-            class="u-like-of text-url break-all font-normal underline"
-            target="_blank"
-          >
-            {{ if .Params.likeOfName }} {{.Params.likeOfName | markdownify}} {{
-            else }} {{.Params.likeOf}} {{ end }}</a
-          >
-        </p>
-        {{ end }}
-      </div>
-
-      <div class="prose prose-gray dark:prose-invert">{{ .Content }}</div>
-      {{ end }}
-      <div class="mt-5">{{ partial "tags.html" .}}</div>
-    </li>
-    {{ end }}
-  </ul>
-</section>
-
-<section class="mt-16">
-  <div class="flex gap-x-3 my-5">
-    <h2 class="font-medium">Writing</h2>
-    <a href="/posts" class="text-xs mt-[5px] text-link">View all</a>
-  </div>
-
-  {{ range first 1 $posts }}
-  <h3 class="text-2xl m-0 p-0">
-    <a href="{{ .Permalink }}">{{ .Params.title }}</a>
-  </h3>
-  <p class="mb-5">
-    <a href="{{ .Permalink }}">
-      <time
-        class="dt-published text-sm text-secondary"
-        data-published="{{ .Date }}"
-        >{{ .Date | time.Format site.Params.theme_config.date_format_date_time
-        }}
-      </time>
-    </a>
-  </p>
-
-  <div class="prose prose-gray dark:prose-invert">
-    {{ .Summary }} <a href="{{ .Permalink }}">(Continue)</a>
-  </div>
-  {{ end }}
-</section>
-
-<!-- 
-
-{{ $posts := where .Site.RegularPages "Type" "posts" }}
-
-<section class="prose prose-gray dark:prose-invert my-20">
-  <h2>Hello, I'm Zinzy. Thank you for being here. This is a home for soft stances, lived experiences, and
-    critical notes on the things I hold dear.
-  </p>
-</section>
-
-
-<section>
-  <div class="prose prose-gray dark:prose-invert my-20">
-    <h2>Camera roll</h2> 
-
-    {{ with .Params.photo }}
-      yes
-  {{ end }}
-
-
-  </div>
-</section>
-
-
-<section class="">
-  {{ $posts := where .Site.RegularPages "Type" "posts" }} {{ $shorts := where
-  .Site.RegularPages "Type" "shorts" }} {{ $filtered := union $posts $shorts }}
-  {{ $feed := $filtered }} {{ $sortedfeed := $feed.ByDate.Reverse }} {{
-  $paginator := .Paginate $sortedfeed 3 }} {{ range first 1 $sortedfeed }} {{ if
-  .IsHome }} {{ end }}
-
-  <article class="mt-20">
-    <time
-      class="dt-published text-secondary font-medium uppercase text-xs mb-5 block"
-      datetime="{{ .Date }}"
-    >
-      <a href="{{ .Permalink }}">
-        {{ if .Params.title }} {{ .Date | time.Format
-        site.Params.theme_config.date_format_date }} {{ else }} {{ .Date |
-        time.Format site.Params.theme_config.date_format_date_time }} {{ end }}
       </a>
-    </time>
-    {{ if .Params.title }}
-
-    <h2 class="text-2xl mt-0 mb-3">
-      <a href="{{ .Permalink }}">{{ .Params.title }}</a>
-    </h2>
-
-    <div class="prose prose-gray dark:prose-invert">
-      {{ .Summary }} <a href="{{ .Permalink }}">(Continue)</a>
-    </div>
-    {{ else }}
-
-    <div class="prose prose-gray dark:prose-invert">
-      {{ if .Params.replyTo }} {{ if .Params.rsvp }}
-      <p>
-        {{ if eq .Params.rsvp "yes" }}<data class="p-rsvp" value="YES"
-          >Is going</data
-        >
-        to {{ else if eq .Params.rsvp "maybe" }}<data
-          class="p-rsvp"
-          value="Maybe"
-          >Might go</data
-        >
-        to {{ else if eq .Params.rsvp "no" }}<data class="p-rsvp" value="no"
-          >Unable to go</data
-        >
-        to {{ else if eq .Params.rsvp "interested" }}<data
-          class="p-rsvp"
-          value="interested"
-          >Is interested</data
-        >
-        in {{ end }}
-
-        <a
-          href="{{.Params.replyTo}}"
-          rel="in-reply-to"
-          class="u-in-reply-to text-url break-all font-normal underline"
-          target="_blank"
-        >
-          {{ if .Params.replyToName }} {{.Params.replyToName}} {{ else }}
-          {{.Params.replyTo}} {{ end }}
-        </a>
-      </p>
-
-      {{ else }}
-
-      <p class="u-in-reply-to mt-0 mb-3">
-        Replied to
-        <a
-          href="{{.Params.replyTo}}"
-          rel="in-reply-to"
-          class="u-in-reply-to text-url break-all font-normal underline"
-          target="_blank"
-        >
-          {{ if .Params.replyToName }} {{.Params.replyToName | markdownify }} {{
-          else }} {{.Params.replyTo}} {{ end }}
-        </a>
-      </p>
-      {{ end }} {{ else if .Params.likeOf }}
-      <p class="mt-0 mb-5">
-        Liked
-        <a
-          href="{{.Params.likeOf}}"
-          class="u-like-of text-url break-all font-normal underline"
-          target="_blank"
-        >
-          {{ if .Params.likeOfName }} {{.Params.likeOfName | markdownify}} {{
-          else }} {{.Params.likeOf}} {{ end }}</a
-        >
-      </p>
-      {{ end }}
-    </div>
-
-    <div class="prose prose-gray dark:prose-invert">{{ .Content }}</div>
+    </li>
     {{ end }}
-    <div class="mt-5">{{ partial "tags.html" .}}</div>
-  </article>
-  {{ end }}
+  </ul>
+</section>
 
-  <div class="mt-16"><a href="/feed" class="font-medium uppercase text-xs border p-3 rounde-full hover:bg-white">Dive into my feed</a></div>
-</section> -->
+{{ partial "pagination.html" . }}
 
 {{ end }}
