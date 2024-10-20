@@ -1199,6 +1199,10 @@ video {
   margin-left: 0.5rem;
 }
 
+.ml-3 {
+  margin-left: 0.75rem;
+}
+
 .mr-1 {
   margin-right: 0.25rem;
 }
@@ -1249,10 +1253,6 @@ video {
 
 .mt-5 {
   margin-top: 1.25rem;
-}
-
-.ml-3 {
-  margin-left: 0.75rem;
 }
 
 .block {
@@ -1541,10 +1541,6 @@ video {
   fill: #3f3f46;
 }
 
-.stroke-zinc-400 {
-  stroke: #a1a1aa;
-}
-
 .stroke-gray-950 {
   stroke: #030712;
 }
@@ -1781,6 +1777,13 @@ body, html {
   font-size: 16px;
   @media screen and (min-width:1200px) {
     font-size:
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
   }
 }
 
