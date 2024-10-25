@@ -29,3 +29,10 @@ a {
 h1, h2, h3, h4, h5, h6 {
   @apply font-normal !important;
 }
+
+time {
+  @apply text-xs uppercase font-normal block
+}
+
+
+/* text-xs uppercase text-secondary font-normal block */

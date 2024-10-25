@@ -3,10 +3,9 @@
 <div class="">
   <article class="h-entry">
     <header class="">
-      <p class="text-secondary text-sm mb-5">
         {{ if or (eq .Section "posts") (eq .Section "shorts") }}
         <time
-          class="dt-published text-xs uppercase text-secondary font-normal block"
+          class="dt-published text-secondary mb-5"
           datetime="{{ .Date }}"
         >
           <a href="{{ .Permalink }}"
@@ -15,7 +14,6 @@
           >
         </time>
         {{ else }}{{ end }}
-      </p>
 
       {{ if .Params.photo }}
 
@@ -29,7 +27,7 @@
       </div>
 
       {{ end }} {{ if .Params.title }}
-      <h2 class="p-name text-2xl mb-5">
+      <h2 class="p-name text-2xl mb-10 md:mb-20">
         <a class="u-url" href="{{ .Permalink }}">{{ .Params.title }}</a>
       </h2>
       {{ end }}
@@ -124,5 +122,6 @@
       {{ end }} {{- partial "content_wikified" . -}}
     </content>
   </article>
+  <div class="mt-5">{{ partial "tags.html" .}}</div>
 </div>
 {{ end }}

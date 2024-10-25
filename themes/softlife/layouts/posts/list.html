@@ -1,13 +1,9 @@
 {{ define "main" }} {{ partial "back_link.html" .}}
 
 <div class="">
-  <!-- <header>
-    <p class="text-secondary mb-0 text-sm">{{ .Title }}</p>
-    <h2 class="p-name mb-2 mt-0 text-2xl">
-      I am a fervent diarist, and this archive exists to remind myself that life
-      is ever-evolving, as am I.
-    </h2>
-  </header> -->
+  <header class="mb-10 md:mb-20">
+    <h2 class="text-2xl mb-5">{{ .Title }}</h2>
+  </header>
 
   <section class="mt-20">
     <!-- {{ $postsDefault := where .Site.RegularPages "Type" "posts" }} -->

@@ -3,8 +3,7 @@
 ".Params.photo" "=" nil }}
 
 <header class="mb-10 md:mb-20">
-  <p class="text-secondary text-sm mb-5">{{ .Title }}</p>
-  <h2 class="text-2xl mb-5">{{ .Description }}</h2>
+  <h2 class="text-2xl mb-5">{{ .Title }}</h2>
 </header>
 
 <section class="mt-16">
@@ -14,7 +13,7 @@
       <p class="mb-5">
         <a href="{{ .Permalink }}">
           <time
-            class="dt-published text-sm text-secondary"
+            class="dt-published text-secondary mb-5"
             data-published="{{ .Date }}"
             >{{ .Date | time.Format
             site.Params.theme_config.date_format_date_time }}
