@@ -1,7 +1,7 @@
 ---
 title: "People & Blogs interview"
 description: ""
-date: 2024-10-25 10:20:04 +0200
+date: 2024-10-27 10:20:04 +0200
 draft: true
 tags:
   - interview
@@ -60,11 +60,11 @@ I use CSS framework [Tailwind](https://tailwindcss.com/) for styling purposes; n
 
 ### Given your experience, if you were to start a blog today, would you do anything differently?
 
-I'll answer this by telling you about my most important Internet-related values and sharing how I acquired them.
+I'll answer this by telling you about my most important Internet-related values and how I acquired them.
 
 - [Tools do not matter](https://www.zinzy.website/tools-do-not-matter/): still disgruntled over all the writing I lost before I began properly backing things up in 2005, I believe strongly in the value of a simple computer folder with a set of text files. If I were to start today, I'd move heaven and earth to maintain that folder as my single source of truth.
 - [Own your data](https://indieweb.org/own_your_data): aside from the data we owned but lost, there's the data we never really owned to begin with. The easier it is to transport data from one portal to the other, the more relevant the archive we build over time. If I were to start today, I'd do my best to publish things on my website, and (manually) syndicate to Hyves, MySpace, Facebook, Google Plus, Instagram, TikTok, or whatever platform was there to make us feel suboptimal about our choices.
-- [To be yourself is all that you can do](https://www.youtube.com/watch?v=WC5FdFlUcl0): I can't verbalize the cringe I feel at all the pretentious paths down which I walked in my time on the Internet. That time I called myself a "digital story architect" is a mere example. If I were to start today, I'd attempt to hold myself to a much more authentic standard.
+- [To be yourself is all that you can do](https://www.youtube.com/watch?v=WC5FdFlUcl0): I can't verbalize the cringe I feel at all the pretentious paths down which I walked in my time on the Internet. That time I called myself a "digital story architect" is but an example. If I were to start today, I'd attempt to hold myself to a much more authentic standard.
 - No numbers: At work, I'm the founder of the Data Ninjas, a club promoting data-driven product development. On my website, I reject metrics as much as possible. I don't employ cookies, display likes, or engagement metrics of any nature. I don't know you've been on my website unless you tell me.
 
 
@@ -78,7 +78,7 @@ I'm a visual thinker (my partner calls me a [super recognizer](https://www.super
 
 One thing that makes me [not like other girls](https://www.youtube.com/shorts/nfaMkooj7M0) is that I have a bad day if the [Wayback Machine](https://web.archive.org/) is [down](https://www.theverge.com/2024/10/9/24266419/internet-archive-ddos-attack-pop-up-message). Sure, it's awesome that [Kottke](https://kottke.org/) is still around making "fine hypertext products since 1998", but remember [those blue lines from 2013](https://web.archive.org/web/20130429132441/https://kottke.org/)?! And remember that very naughty [1095-day photo project](https://web.archive.org/web/20060701221236/http://1095.naughtyjames.com/) that Naughty James completed in 2006? Whatever happened to *that* guy?! And what about [Heather Champ's blog](https://web.archive.org/web/20050828231939/http://www.hchamp.com/), with those Polaroids that were the last known to man at the time? When I think of it, the fact that [some genius](https://en.wikipedia.org/wiki/Brewster_Kahle) thought to archive the internet as early as he did, I'm overcome with gratitude and humility. 
 
-Okay, so the previous paragraph made me so nostalgic that "who do you think I should be interviewing next" only elicits a disappointing response. I miss [Aaron Swarts](http://www.aaronsw.com/). I want to know what he'd think about the Internet today, what he'd be writing about, what his website would look like. (Isn't is sad that the link under his name doesn't even have `https`? Where does time go?) I miss [Dooce](https://dooce.com/) and the candor, wit, and vulnerability with which she welcomed the Internet. I struggle with how I learned so much about her, and how I'll still never know what she was thinking and feeling in her last moments in the world. 
+Okay, so the previous paragraph made me so nostalgic that "who do you think I should be interviewing next" only elicits a disappointing response. I miss [Aaron Swarts](http://www.aaronsw.com/). I want to know what he'd think about the Internet today, what he'd be writing about, what his website would look like. (Isn't is sad that the link under his name doesn't even have `https` yet? Where does time go?) I miss [Dooce](https://dooce.com/) and the candor, wit, and vulnerability with which she welcomed the Internet. I struggle with how I learned so much about her, and how I'll still never know what she was thinking and feeling in her last moments in the world. 
 
 On a happier note, I want to hear from [Patrick Rhone](https://www.patrickrhone.net/), [Derek Powazek](https://powazek.com/), from [Maggie Mason](https://mightygirl.com/). The bloggers from before responsiveness. People who were publishing slices of their lives so that we can publish slices of our lives. What's it like to *still* have a personal website today? Do you miss the good old days? How has your website changed over time? How has the Internet changed for you?
 
