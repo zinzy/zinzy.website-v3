@@ -1816,7 +1816,9 @@ time {
   text-transform: uppercase;
 }
 
-/* text-xs uppercase text-secondary font-normal block */
+.footnotes hr {
+  display: none;
+}
 
 @media (prefers-color-scheme: dark) {
   .dark\:prose-invert {

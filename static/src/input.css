@@ -34,5 +34,6 @@ time {
   @apply text-xs uppercase font-normal block
 }
 
-
-/* text-xs uppercase text-secondary font-normal block */
+.footnotes hr {
+  display: none;
+}
