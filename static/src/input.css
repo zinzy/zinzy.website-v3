@@ -41,5 +41,6 @@ p {
   }
 }
 
-
-/* text-xs uppercase text-secondary font-normal block */
+.footnotes hr {
+  display: none;
+}
