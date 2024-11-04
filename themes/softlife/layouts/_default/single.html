@@ -8,7 +8,7 @@
           class="dt-published text-secondary mb-5"
           datetime="{{ .Date }}"
         >
-          <a href="{{ .Permalink }}"
+          <a href="{{ .Permalink }}" class="text-gray-500"
             >{{ .Date | time.Format
             site.Params.theme_config.date_format_date_time }}</a
           >
@@ -27,7 +27,7 @@
       </div>
 
       {{ end }} {{ if .Params.title }}
-      <h2 class="p-name text-2xl mb-10 md:mb-20">
+      <h2 class="p-name text-2xl mb-10 md:mb-20 mt-5">
         <a class="u-url" href="{{ .Permalink }}">{{ .Params.title }}</a>
       </h2>
       {{ end }}
@@ -122,6 +122,6 @@
       {{ end }} {{- partial "content_wikified" . -}}
     </content>
   </article>
-  <div class="mt-5">{{ partial "tags.html" .}}</div>
+  <div class="mt-10 md:mt-20">{{ partial "tags.html" .}}</div>
 </div>
 {{ end }}

@@ -4,10 +4,10 @@
 
 
 body, html {
-  font-size: 16px;  
-  @media screen and (min-width:1200px) {
+  /* font-size: 16px;   */
+  /* @media screen and (min-width:1200px) {
     font-size:
-  }
+  } */
 }
 
 body {
@@ -18,20 +18,27 @@ body {
   max-width:550px;
 }
 
-.disabled {
-  opacity: .3;
-}
+
 
 a {
-  @apply no-underline !important;
+  @apply no-underline font-normal !important;
+  &:hover {
+    @apply underline underline-offset-2 !important;
+  }
 }
 
 h1, h2, h3, h4, h5, h6 {
   @apply font-normal !important;
 }
 
+
 time {
-  @apply text-xs uppercase font-normal block
+}
+
+p {
+  a {
+    @apply underline underline-offset-2 !important;
+  }
 }
 
 

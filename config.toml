@@ -49,6 +49,10 @@ refLinksNotFoundURL = "/"
 [outputs]
   home = ['html', 'rss']
   section = ['html', 'rss']
+
+[services]
+  [services.rss]
+    limit = 4
   
 paginate = 3
 

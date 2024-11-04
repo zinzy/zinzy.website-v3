@@ -2,7 +2,6 @@
 title: "IndieWeb Carnival: Rituals"
 description: ""
 date: 2024-08-31 07:33:04 +0200
-sidenote: "[The August edition of the IndieWeb Carnival](https://tangiblelife.net/indieweb-carnival-rituals) is about rituals. Host [Steve](https://tangiblelife.net) is interested in how they shape us, how they've changed over time, and whether we like them or not."
 tags:
   - IndieWeb Carnival
   - IndieWeb
@@ -13,8 +12,11 @@ tags:
   - mental health
   - emotional neglect
 ---
+_[The August edition of the IndieWeb Carnival](https://tangiblelife.net/indieweb-carnival-rituals) is about rituals. Host [Steve](https://tangiblelife.net) is interested in how they shape us, how they've changed over time, and whether we like them or not._
 
 I love a ritual. The word alone ladens the room in my head with the sultry air I expect from a monastery. It gives me Caravaggesque sunlight, high contrast, beaming its way to a church floor, illuminating austere dust particles on the way there. You can take the Catholic child out of the heartland, but... It's safe to say the word "ritual" is single-handedly responsible for 70 per cent of my Etsy rosary purchases.
+
+<!--more-->
 
 In a much more realistic sense, I've long felt disappointment about some of the rituals that have _actually_ established themselves to be a part of my life. The way I mindlessly cycle through the same three news publications when I'm bored, even when I proudly claim to not be interested in the news at all. The way I stop eating breakfast if I'm stressed about work. The way I perpetually alternate [how and where I write](/2024/07/17/indieweb-carnival-tools/) and take care of my responsibilities. How I struggle to indulge in hobbies that go beyond "working on my personal site", which, really, is just work without the consequences.
 

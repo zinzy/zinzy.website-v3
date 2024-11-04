@@ -1,10 +1,10 @@
 {{ define "main" }}
 
-{{ $posts := where .Site.RegularPages "Type" "posts" }} {{ $cameraroll := where
-.Site.RegularPages ".Params.photo" "!=" nil }} {{ $notes := where
-.Site.RegularPages ".Params.photo" "=" nil }}
+{{ $posts := where .Site.RegularPages "Type" "posts" }}
+{{ $cameraroll := where .Site.RegularPages ".Params.photo" "!=" nil }}
+{{ $notes := where .Site.RegularPages ".Params.photo" "=" nil }}
 
-{{ $paginator := .Paginate (where .Site.RegularPages ".Params.photo" "!=" nil)  4 }}
+{{ $paginator := .Paginate (where .Site.RegularPages "Type" "posts")  7 }}
 
 <section class="prose prose-gray dark:prose-invert">
   {{ .Content }}
@@ -13,14 +13,32 @@
 <section class="mt-20">
   <ul class="">
     {{ range $paginator.Pages }}
-    <li class="mb-20">
-      <a href="{{ .Permalink }}">
-        <img
-        src="{{ .Params.photo }}"
-        alt="Photo for {{ .Title }}"
-        class=""
-      />
-      </a>
+    <li class="mb-20 prose prose-gray dark:prose-invert">
+      <time
+          class="dt-published "
+          datetime="{{ .Date }}"
+        >
+          <a href="{{ .Permalink }}" class="text-gray-500"
+            >{{ .Date | time.Format
+            site.Params.theme_config.date_format_medium }}</a
+          >
+        </time>
+      <h2 class="my-5">
+        <a href="{{ .Permalink }}">{{ .Title }}
+        </a>
+      </h2>
+
+      {{ if .Title }} 
+      {{ .Content | strings.Truncate 450 }}
+      {{ else }}
+      {{ .Content }}
+      {{ end }}
+
+    
+
+      <div class="mb-5">
+        {{ partial "tags.html" .}}
+      </div>
     </li>
     {{ end }}
   </ul>

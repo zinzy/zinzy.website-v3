@@ -38,16 +38,16 @@
 {{- else }}
 {{- $pages = $pctx.Pages }}
 {{- end }}
-{{- $limit := .Site.Config.Services.RSS.Limit }}
+{{- $limit := 4 }}
 {{- if ge $limit 1 }}
-{{- $pages = $pages | first $limit }}
+{{- $pages = $pages | first 10 }}
 {{- end }}
 {{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>{{ if eq .Title .Site.Title }}{{ .Site.Title }}{{ else }}{{ with .Title }}{{ . }} on {{ end }}{{ .Site.Title }}{{ end }}</title>
     <link>{{ .Permalink }}</link>
-    <description>Recent posts {{ if ne .Title .Site.Title }}{{ with .Title }}in {{ . }} {{ end }}{{ end }}on {{ .Site.Title }}</description>
+    <description>Recent posts on {{ .Site.Title }}</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>{{ site.LanguageCode }}</language>{{ with $authorEmail }}
     <managingEditor>{{.}}{{ with $authorName }} ({{ . }}){{ end }}</managingEditor>{{ end }}{{ with $authorEmail }}
@@ -60,16 +60,25 @@
 
     {{ $postsDefault := where .Site.RegularPages "Type" "posts" }}
     {{- range $postsDefault }}
+
       {{ if .Title }}
       <item>
-      <title>{{ .Title }}</title>
-      <link>{{ .Permalink }}</link>
-      <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
-      {{- with $authorEmail }}<author>{{ . }}{{ with $authorName }} ({{ . }}){{ end }}</author>{{ end }}
-      <guid>{{ .Permalink }}</guid>
-      <description>{{ .Summary | html }}</description>
-    </item>
+        <title>{{ .Title }}</title>
+        <link>{{ .Permalink }}</link>
+        <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
+        {{- with $authorEmail }}<author>{{ . }}{{ with $authorName }} ({{ . }}){{ end }}</author>{{ end }}
+        <guid>{{ .Permalink }}</guid>
+        <description>{{ .Summary | html }}</description>
+      </item>
       {{else}}
+      <item>
+        <title>{{ .Permalink }}</title>
+        <link>{{ .Permalink }}</link>
+        <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
+        {{- with $authorEmail }}<author>{{ . }}{{ with $authorName }} ({{ . }}){{ end }}</author>{{ end }}
+        <guid>{{ .Permalink }}</guid>
+        <description>{{ .Content | html }}</description>
+      </item>
       {{end}}
     {{- end }}
   </channel>
