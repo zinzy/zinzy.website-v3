@@ -1,36 +1,32 @@
 ---
 title: Colophon
 description: About this website
-sidenote: "Did you know I keep a [Checklist](/checklist) of components I'm hoping to add to this website?"
 ---
 
-I'm pleased you have reached my [world wide web homepage](/colophon). This is a home for soft stances, lived experiences, and critical notes on the things I hold dear. No highlight reel, no likes, no follow button. Just my appreciation for the web, [my excessive curiousity](/im-neurodivergent), and the words I choose to make sense of it all.
+This is a personal website.
 
 I grew up on the Internet in a time when social media meant writing comments on other people's hand-built blogs. No "hey guys welcome back to my vlog", no Instagram highlight reels. The sense of whimsy, coziness, and a beautiful lack of information overload are highs I have been chasing ever since.
 
 The Web 1.0 has instilled in me a deep appreciation for a small-scale, intimate, and friendly Internet made up of hand-crafted websites. This is one of them. I’ve been yelling at Internet clouds since 1997.
 
-I generally don't know people visit this space unless they tell me. The most humbling response I've received about my website to date comes from the wonderful [Simone Silverstroni](https://minutestomidnight.co.uk/), who said in his [_People & Blogs_ interview](https://manuelmoreale.com/pb-simone-silvestroni):
+> Zinzy Waleson Geene has a website that's a constant source of curiosity. She alters the look, changes typography, structure, navigation so often that following through RSS isn't enough. When I see a new post, I go check the website.
 
-> "Zinzy Waleson Geene has a website that's a constant source of curiosity. She alters the look, changes typography, structure, navigation so often that following through RSS isn't enough. When I see a new post, I go check the website."
+I generally don't know people visit this space unless they tell me. The most humbling response I've received about my website to date comes from the wonderful [Simone Silverstroni](https://minutestomidnight.co.uk/), who shared the above quote in his [_People & Blogs_ interview](https://manuelmoreale.com/pb-simone-silvestroni).
 
 ### Follow
 
-You can subscribe to my posts via RSS. [Read more about feeds and RSS](https://aboutfeeds.com/). I personally enjoy using Readwise's [Reader app](https://readwise.io/read) for my RSS needs. Just add [zinzy.website/index.xml](https://zinzy.website/index.xml) to your reader of choice, and enjoy Zinzy's website from anywhere. (At this time, the feed only features longer, titled entries.)
+You can subscribe to my posts via RSS. [Read more about feeds and RSS](https://aboutfeeds.com/). I personally enjoy using Readwise's [Reader app](https://readwise.io/read) for my RSS needs. Just add [zinzy.website/index.xml](https://zinzy.website/index.xml) to your reader of choice, and enjoy Zinzy's website from anywhere.
 
 ### "What do you do here?"
 
-First and foremost: as a designer, I feel like I can't _not_ have a personal website. Even if it doesn't feature my portfolio projects, through its sheer existence, my website demonstrates I understand how to build a page and a brand. Still, this website doesn't exist at the mercy of my professional life.
-
-This is the only website I have; it details my personal interests as well as my professional endeavors. With it, I celebrate my curiosity, vulnerability, lack of awareness, and change of heart.
+First and foremost: as a designer, I feel like I can't _not_ have a personal website. Even if it doesn't feature my portfolio projects, through its sheer existence, my website demonstrates I understand how to build a page and a "personal brand". This is the only website I have; it details my personal interests as well as my professional endeavors. With it, I celebrate my curiosity, vulnerability, lack of awareness, and change of heart.
 
 ### "I thought you were a designer. Why does this site look so... unfinished?"
 
-I don't know when you're reading this, but chances are that, when you do, this website looks unusual in one way or another. At work, my days are made up of decisions that benefit both the people who use my creations and the people who pay me to make them. On this website, all bets are off. I happen to love the way plain text looks against a simple canvas. Let's call it ~~minimalism~~ boring.
+I don't know when you're reading this, but chances are that, when you do, this website looks unusual in one way or another. At work, my days are made up of decisions that benefit both the people who use my creations and the people who pay me to make them. On this website, all bets are off. I happen to love the way plain text looks against a plain canvas. Let's call it ~~minimalism~~ boring.
 
 ### Site details
 
-- This website is a proud member of the [250kb club](https://250kb.club/zinzy-website/)
 - [Yellow Lab Tools](https://yellowlab.tools/result/got2ipv3ap) gives this site a 100/100 global score
 - It produces [0.00g of CO2](https://www.websitecarbon.com/website/zinzy-website/), is [hosted green](https://www.thegreenwebfoundation.org/green-web-check/?url=https%3A%2F%2Fzinzy.website) and has been designed to minimise the energy consumption and CO2 emissions that result from navigating the Internet
 - It is written by a [human, not AI](https://notbyai.fyi/)
@@ -43,8 +39,6 @@ I don't know when you're reading this, but chances are that, when you do, this w
 - After almost a decade with Jekyll, I recently migrated this website to the static site generator [Hugo](https://gohugo.io/). I like [HTML energy](https://html.energy/), but I also like conserving my writing across many different technologies, apps, and frameworks. Static site generators let me write in [Markdown](https://www.markdownguide.org/), and keep all of it in a single folder.
 - It lives in a private repo on [Github](https://github.com/zinzy), and is deployed via [Netlify](https://www.netlify.com/)
 - It makes use of [Tailwind](https://tailwindcss.com/), browser-native typography, and little else
-- I write my private and public notes in a single folder on my computer, and collect publicly available notes in a Github repo
-- Currently, the software I use for writing is Obsidian, and I update the notes repo using [Obsidian Github Publisher](https://github.com/ObsidianPublisher/obsidian-github-publisher)
 - It uses [h-card and h-entry IndieWeb standards](https://spec.indieweb.org/)
 
 ### Copyright
@@ -59,7 +53,3 @@ Unless otherwise stated, as per [CC BY-NC-SA 4.0](http://creativecommons.org/lic
 ### Privacy
 
 I respect your digital sovereignty. I do not track your personal data nor the journey you take on this website or any others. While I do my best to minimize this, please remember that, while [I don't track you, others might](https://www.zylstra.org/blog/2020/01/i-dont-track-you-here-but-others-might/).
-
-{{< rawhtml >}}
-<a href="/img/banner.svg" target="_blank" id="banner" rel="noopener noreferrer"><img src="/img/banner.svg" style="width: 80px; border-radius: 0;" class="rounded-none" alt=""></a>
-{{< /rawhtml >}}

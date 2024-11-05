@@ -1068,10 +1068,10 @@ video {
   --tw-prose-bold: #030712;
   --tw-prose-counters: #030712;
   --tw-prose-bullets: #030712;
-  --tw-prose-hr: #030712;
+  --tw-prose-hr: #d1d5db;
   --tw-prose-quotes: #030712;
   --tw-prose-quote-borders: #030712;
-  --tw-prose-captions: #030712;
+  --tw-prose-captions: #6b7280;
   --tw-prose-kbd: #111827;
   --tw-prose-kbd-shadows: 17 24 39;
   --tw-prose-code: #030712;
@@ -1192,10 +1192,6 @@ video {
 
 .ml-2 {
   margin-left: 0.5rem;
-}
-
-.ml-3 {
-  margin-left: 0.75rem;
 }
 
 .mr-1 {
@@ -1809,7 +1805,7 @@ h1, h2, h3, h4, h5, h6 {
 time {
 }
 
-p {
+p, .prose ul {
   a {
     text-decoration-line: underline !important;
   }
@@ -1818,8 +1814,86 @@ p {
   }
 }
 
+time a {
+  text-decoration-line: none !important;
+}
+
 .footnotes hr {
   display: none;
+}
+
+figcaption {
+  --tw-text-opacity: 1;
+  color: rgb(107 114 128 / var(--tw-text-opacity));
+}
+
+@media (prefers-color-scheme: dark) {
+  figcaption {
+    --tw-text-opacity: 1;
+    color: rgb(212 212 216 / var(--tw-text-opacity));
+  }
+}
+
+figcaption a {
+  --tw-text-opacity: 1;
+  color: rgb(107 114 128 / var(--tw-text-opacity));
+  text-decoration-line: underline;
+}
+
+@media (prefers-color-scheme: dark) {
+  figcaption a {
+    --tw-text-opacity: 1;
+    color: rgb(212 212 216 / var(--tw-text-opacity));
+  }
+}
+
+.tags a {
+  margin-right: 0.25rem;
+  margin-bottom: 0.5rem;
+  border-radius: 0.25rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(244 244 245 / var(--tw-bg-opacity));
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  font-weight: 400;
+  --tw-text-opacity: 1;
+  color: rgb(75 85 99 / var(--tw-text-opacity));
+  text-decoration-line: none;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.tags a:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(228 228 231 / var(--tw-bg-opacity));
+  text-decoration-line: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  .tags a {
+    --tw-bg-opacity: 1;
+    background-color: rgb(39 39 42 / var(--tw-bg-opacity));
+    --tw-text-opacity: 1;
+    color: rgb(212 212 216 / var(--tw-text-opacity));
+  }
+
+  .tags a:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgb(63 63 70 / var(--tw-bg-opacity));
+  }
+}
+
+.tags a:hover {
+  text-decoration-line: none !important;
+}
+
+.tags li {
+  margin: 0px;
+  display: inline-block;
+  padding: 0px;
 }
 
 @media (prefers-color-scheme: dark) {

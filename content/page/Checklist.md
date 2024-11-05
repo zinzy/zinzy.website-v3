@@ -1,7 +1,6 @@
 ---
 title: Checklist
-share: true
-section: page
+draft: true
 layout: checklist
 description: "Website components I hope to have on my site"
 ---

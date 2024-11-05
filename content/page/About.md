@@ -2,14 +2,23 @@
 title: About
 description: "Heya, I'm Zinzy Waleson Geene"
 ---
-I’m a person living and working in Amsterdam. I call myself: generalist, Afropean, queer, Episcopalian, designer, facilitator, community builder, photographer, writer, neurodivergent. I work as a principal designer at a healthcare technology company. It’s a pretty sweet gig.
 
-I share [my life](/biography) with [Anja](https://anjawaleson.notion.site/Anja-Waleson-0182c8df804b4b12ab6e70b5b5795a55) and [Lemonade](/2024-08-11-15-21-22/) in Amsterdam.
+{{< rawhtml >}}
 
-[You can get in contact with me here](/hello).
+<figure>
+<img src="/img/zinzy-at-tbab.jpg" alt="An Afropean person with a headwrap sitting between bookshelves, holding a book titled 'None of the Above">
+<figcaption>Me in July 2024 as a plus one at <a href="https://www.theblackarchives.nl/tbabookclub.html?lang=en" target="_blank">The Black Archives' Book Club</a></figcaption>
+</figure>
 
-I live with [unrelenting curiosity and intensity](/im-neurodivergent), and have been [yelling at Internet clouds](/museum) since 1997. I'm a linguist by trade, a seminary dropout by choice, a [designer](/work) by profession, a [mentor](/mentoring) by proclivity, a [bad developer](https://github.com/zinzy) by the grace of God, and a [community builder](/community) by moonlight.
+{{< /rawhtml >}}
 
-[This website](/colophon) captures my interest in the IndieWeb, which is to say for in Internet that cherishes the small, the cozy, the open, and the individual. In reading it, you may learn about my [interests](/interests), [values](/values), and [praxis](/praxis).
+Heya, I'm Zinzy Waleson Geene, and I...
 
-If you'd like to show your appreciation, you may [buy me coffee](https://ko-fi.com/zinzy). If you don't know what to gift me for my birthday, try my [Goodreads wishlist](https://www.goodreads.com/review/list/23204424?shelf=wishlist).
+- am a [person](/biography) living and working in [Amsterdam](/amsterdam), where I share my life with [Anja](https://anjawaleson.notion.site/Anja-Waleson-0182c8df804b4b12ab6e70b5b5795a55) and our corgi [Lemonade](/2024-08-11-15-21-22/)
+- have been yelling at Internet clouds [since 1997](/museum)
+- am interested in ontology, spiritual discernment, [the silly archive](https://www.trikster.net/1/halberstam/1.html), and
+- make a living as a [designer](/work) working in healthcare technology
+- spend my free time making music, writing, and taking photographs
+- [practice](/praxis) listening to Jesus as if he meant what he said, comforting my afflictions and afflicting my comfort at [All Saints Amsterdam](https://allsaintsamsterdam.church/)
+- am Afropean, queer, and [neurodivergent](/im-neurodivergent)
+- love spontaneous emails, so [say hello](/hello)

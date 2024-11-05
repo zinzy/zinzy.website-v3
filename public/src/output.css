@@ -1068,10 +1068,10 @@ video {
   --tw-prose-bold: #030712;
   --tw-prose-counters: #030712;
   --tw-prose-bullets: #030712;
-  --tw-prose-hr: #030712;
+  --tw-prose-hr: #d1d5db;
   --tw-prose-quotes: #030712;
   --tw-prose-quote-borders: #030712;
-  --tw-prose-captions: #030712;
+  --tw-prose-captions: #6b7280;
   --tw-prose-kbd: #111827;
   --tw-prose-kbd-shadows: 17 24 39;
   --tw-prose-code: #030712;
@@ -1134,11 +1134,6 @@ video {
   margin-right: auto;
 }
 
-.my-10 {
-  margin-top: 2.5rem;
-  margin-bottom: 2.5rem;
-}
-
 .my-2 {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
@@ -1197,10 +1192,6 @@ video {
 
 .ml-2 {
   margin-left: 0.5rem;
-}
-
-.ml-3 {
-  margin-left: 0.75rem;
 }
 
 .mr-1 {
@@ -1814,7 +1805,7 @@ h1, h2, h3, h4, h5, h6 {
 time {
 }
 
-p {
+p, ul {
   a {
     text-decoration-line: underline !important;
   }
@@ -1823,7 +1814,42 @@ p {
   }
 }
 
-/* text-xs uppercase text-secondary font-normal block */
+time a {
+  text-decoration-line: none !important;
+}
+
+.footnotes hr {
+  display: none;
+}
+
+figcaption {
+  --tw-text-opacity: 1;
+  color: rgb(107 114 128 / var(--tw-text-opacity));
+}
+
+@media (prefers-color-scheme: dark) {
+  figcaption {
+    --tw-text-opacity: 1;
+    color: rgb(212 212 216 / var(--tw-text-opacity));
+  }
+}
+
+figcaption a {
+  --tw-text-opacity: 1;
+  color: rgb(107 114 128 / var(--tw-text-opacity));
+  text-decoration-line: underline;
+}
+
+@media (prefers-color-scheme: dark) {
+  figcaption a {
+    --tw-text-opacity: 1;
+    color: rgb(212 212 216 / var(--tw-text-opacity));
+  }
+}
+
+.tags a {
+  text-decoration-line: none;
+}
 
 @media (prefers-color-scheme: dark) {
   .dark\:prose-invert {
@@ -1955,11 +1981,6 @@ p {
     .md\:md\:-left-20 {
       left: -5rem;
     }
-  }
-
-  .md\:my-20 {
-    margin-top: 5rem;
-    margin-bottom: 5rem;
   }
 
   .md\:mb-20 {

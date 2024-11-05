@@ -35,12 +35,28 @@ h1, h2, h3, h4, h5, h6 {
 time {
 }
 
-p {
+p, ul {
   a {
     @apply underline underline-offset-2 !important;
   }
 }
 
+time a {
+  @apply no-underline !important
+}
+
 .footnotes hr {
   display: none;
+}
+
+figcaption {
+  @apply text-gray-500 dark:text-zinc-300
+}
+
+figcaption a {
+  @apply text-gray-500 dark:text-zinc-300 underline
+}
+
+.tags a {
+  @apply no-underline
 }

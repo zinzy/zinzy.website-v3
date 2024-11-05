@@ -1,49 +1,93 @@
-{{ define "main" }}
+{{ define "main" }} {{ $posts := where .Site.RegularPages "Type" "posts" }} {{
+$cameraroll := where .Site.RegularPages ".Params.photo" "!=" nil }} {{ $notes :=
+where .Site.RegularPages ".Params.photo" "=" nil }} {{ $paginator := .Paginate
+(where .Site.RegularPages "Type" "posts") 7 }}
 
-{{ $posts := where .Site.RegularPages "Type" "posts" }}
-{{ $cameraroll := where .Site.RegularPages ".Params.photo" "!=" nil }}
-{{ $notes := where .Site.RegularPages ".Params.photo" "=" nil }}
-
-{{ $paginator := .Paginate (where .Site.RegularPages "Type" "posts")  7 }}
-
-<section class="prose prose-gray dark:prose-invert">
-  {{ .Content }}
-</section>
+<section class="prose prose-gray dark:prose-invert">{{ .Content }}</section>
 
 <section class="mt-20">
   <ul class="">
     {{ range $paginator.Pages }}
-    <li class="mb-20 prose prose-gray dark:prose-invert">
-      <time
-          class="dt-published "
-          datetime="{{ .Date }}"
-        >
+    <li class="mb-20">
+      <div class="prose prose-gray dark:prose-invert">
+        <time class="dt-published" datetime="{{ .Date }}">
           <a href="{{ .Permalink }}" class="text-gray-500"
-            >{{ .Date | time.Format
-            site.Params.theme_config.date_format_medium }}</a
+            >{{ .Date | time.Format site.Params.theme_config.date_format_medium
+            }}</a
           >
         </time>
-      <h2 class="my-5">
-        <a href="{{ .Permalink }}">{{ .Title }}
-        </a>
-      </h2>
+        <h2 class="my-5">
+          <a href="{{ .Permalink }}">{{ .Title }} </a>
+        </h2>
 
-      {{ if .Title }} 
-      {{ .Content | strings.Truncate 450 }}
-      {{ else }}
-      {{ .Content }}
-      {{ end }}
+        <div class="mb-5">
+          {{ if .Params.replyTo }} {{ if .Params.rsvp }}
+          <p>
+            {{ if eq .Params.rsvp "yes" }}<data class="p-rsvp" value="YES"
+              >Is going</data
+            >
+            to {{ else if eq .Params.rsvp "maybe" }}<data
+              class="p-rsvp"
+              value="Maybe"
+              >Might go</data
+            >
+            to {{ else if eq .Params.rsvp "no" }}<data class="p-rsvp" value="no"
+              >Unable to go</data
+            >
+            to {{ else if eq .Params.rsvp "interested" }}<data
+              class="p-rsvp"
+              value="interested"
+              >Is interested</data
+            >
+            in {{ end }}
 
-    
+            <a
+              href="{{.Params.replyTo}}"
+              rel="in-reply-to"
+              class="u-in-reply-to text-url break-all font-normal underline"
+              target="_blank"
+            >
+              {{ if .Params.replyToName }} {{.Params.replyToName}} {{ else }}
+              {{.Params.replyTo}} {{ end }}
+            </a>
+          </p>
 
-      <div class="mb-5">
-        {{ partial "tags.html" .}}
+          {{ else }}
+
+          <p class="u-in-reply-to mt-0 mb-5">
+            Replied to
+            <a
+              href="{{.Params.replyTo}}"
+              rel="in-reply-to"
+              class="u-in-reply-to text-url break-all font-normal underline"
+              target="_blank"
+            >
+              {{ if .Params.replyToName }} {{.Params.replyToName | markdownify
+              }} {{ else }} {{.Params.replyTo}} {{ end }}
+            </a>
+          </p>
+          {{ end }} {{ else if .Params.likeOf }}
+          <p class="mt-0 mb-5 h-cite u-like-of">
+            Liked
+            <a
+              href="{{.Params.likeOf}}"
+              class="text-url break-all font-normal underline"
+              target="_blank"
+            >
+              {{ if .Params.likeOfName }} {{.Params.likeOfName | markdownify}}
+              {{ else }} {{.Params.likeOf}} {{ end }}
+            </a>
+          </p>
+          {{ end }}
+        </div>
+
+        {{ if .Title }} {{ .Content | strings.Truncate 450 }} {{ else }} {{
+        .Content }} {{ end }}
       </div>
+      <div class="mt-5">{{ partial "tags.html" .}}</div>
     </li>
     {{ end }}
   </ul>
 </section>
 
-{{ partial "pagination.html" . }}
-
-{{ end }}
+{{ partial "pagination.html" . }} {{ end }}

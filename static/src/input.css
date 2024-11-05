@@ -35,12 +35,36 @@ h1, h2, h3, h4, h5, h6 {
 time {
 }
 
-p {
+p, .prose ul {
   a {
     @apply underline underline-offset-2 !important;
   }
 }
 
+time a {
+  @apply no-underline !important
+}
+
 .footnotes hr {
   display: none;
+}
+
+figcaption {
+  @apply text-gray-500 dark:text-zinc-300
+}
+
+figcaption a {
+  @apply text-gray-500 dark:text-zinc-300 underline
+}
+
+.tags a {
+  @apply no-underline text-gray-600 dark:text-zinc-300 hover:no-underline bg-zinc-100 font-normal dark:bg-zinc-800 mr-1 mb-2 px-2 py-1 rounded hover:bg-zinc-200 hover:dark:bg-zinc-700 transition-all
+}
+
+.tags a:hover {
+  @apply no-underline !important;
+}
+
+.tags li {
+  @apply inline-block m-0 p-0 
 }

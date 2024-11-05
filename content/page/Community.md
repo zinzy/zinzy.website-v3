@@ -2,7 +2,9 @@
 title: Community
 description: I build intimate spaces for like-minded individuals
 layout: page
+draft: true
 ---
+
 {{< rawhtml >}}
 
   <figure>
@@ -18,6 +20,7 @@ I dedicate some of my spare time to making the type of communities I'd want to b
 This is a small Christian fellowship that first began gathering monthly to celebrate the Eucharist. Since then, it has become a mission church as part of the Episcopal Church in Europe. I serve on the Bishop's Committee as a communications director.
 
 ### [Regenbooghuis ↗](https://www.instagram.com/regenbooghuisamsterdam/)
+
 Opening in the Autumn of 2024, the Rainbow House seeks to be a place for marginalized members of the queer community. I'm one of the eight members of the inaugural program council, which will help craft sustainable programming seeking to connect and elevate our beautiful and diverse Amsterdam community.
 
 ### Queer Salon
