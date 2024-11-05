@@ -14,7 +14,7 @@ description: "Heya, I'm Zinzy Waleson Geene"
 
 Heya, I'm Zinzy Waleson Geene, and I...
 
-- am a [person](/biography) living and working in [Amsterdam](/amsterdam), where I share my life with [Anja](https://anjawaleson.notion.site/Anja-Waleson-0182c8df804b4b12ab6e70b5b5795a55) and our corgi [Lemonade](/2024-08-11-15-21-22/)
+- am a [person](/biography) living and working in Amsterdam, where I share my life with [Anja](https://anjawaleson.notion.site/Anja-Waleson-0182c8df804b4b12ab6e70b5b5795a55) and our corgi [Lemonade](/2024-08-11-15-21-22/)
 - have been yelling at Internet clouds [since 1997](/museum)
 - am interested in ontology, spiritual discernment, [the silly archive](https://www.trikster.net/1/halberstam/1.html), and
 - make a living as a [designer](/work) working in healthcare technology
