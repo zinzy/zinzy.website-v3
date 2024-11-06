@@ -2,7 +2,7 @@
   {{ if .Paginator.HasPrev }}
     <a href="{{ .Paginator.Prev.URL }}" class="text-gray-500">←</a>
   {{ else }}
-    <span class="disabled">←</span>
+    <span class="text-gray-400">←</span>
   {{ end }}
 
   <span>{{ .Paginator.PageNumber }} of {{ .Paginator.TotalPages }}</span>
@@ -10,6 +10,6 @@
   {{ if .Paginator.HasNext }}
     <a href="{{ .Paginator.Next.URL }}" class="text-gray-500">→</a>
   {{ else }}
-    <span class="disabled">→</span>
+    <span class="text-gray-400">→</span>
   {{ end }}
 </div>

@@ -18,17 +18,17 @@
   <!-- {{ partial "feed_all.html" .}} -->
 
   <section class="mt-20">
-    {{ $posts := where .Data.Pages "Type" "posts" }} {{ $shorts := where
-    .Data.Pages "Type" "shorts" }} {{ $filtered := union $posts $shorts }} {{
+    {{ $posts := where .Data.Pages "Type" "posts" }} {{ $micro := where
+    .Data.Pages "Type" "micro" }} {{ $filtered := union $posts $micro }} {{
     $feed := $filtered }} {{ $sortedfeed := $feed.ByDate.Reverse }} {{
     $paginator := .Paginate $sortedfeed 7 }} {{ range $paginator.Pages }}
 
     <article class="mb-20">
       <time
-        class="dt-published text-secondary font-medium uppercase text-xs mb-5 block"
+        class="dt-published mb-5"
         datetime="{{ .Date }}"
       >
-        <a href="{{ .Permalink }}">
+        <a href="{{ .Permalink }}" class="text-gray-500">
           {{ if .Params.title }} {{ .Date | time.Format
           site.Params.theme_config.date_format_date }} {{ else }} {{ .Date |
           time.Format site.Params.theme_config.date_format_date_time }} {{ end

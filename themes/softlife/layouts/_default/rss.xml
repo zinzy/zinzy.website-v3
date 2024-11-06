@@ -45,7 +45,7 @@
 {{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ if eq .Title .Site.Title }}{{ .Site.Title }}{{ else }}{{ with .Title }}{{ . }} on {{ end }}{{ .Site.Title }}{{ end }}</title>
+    <title>RSS feed for {{ .Site.Title }}</title>
     <link>{{ .Permalink }}</link>
     <description>Recent posts on {{ .Site.Title }}</description>
     <generator>Hugo -- gohugo.io</generator>
@@ -58,8 +58,9 @@
     {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
     {{- end }}
 
-    {{ $postsDefault := where .Site.RegularPages "Type" "posts" }}
-    {{- range $postsDefault }}
+
+    {{ $allEntries := (where .Site.RegularPages "Type" "in" (slice "posts" "micro")) }}
+    {{- range $allEntries }}
 
       {{ if .Title }}
       <item>
@@ -72,7 +73,7 @@
       </item>
       {{else}}
       <item>
-        <title>{{ .Permalink }}</title>
+        <title>No title</title>
         <link>{{ .Permalink }}</link>
         <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
         {{- with $authorEmail }}<author>{{ . }}{{ with $authorName }} ({{ . }}){{ end }}</author>{{ end }}

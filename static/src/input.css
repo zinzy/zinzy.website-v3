@@ -66,5 +66,5 @@ figcaption a {
 }
 
 .tags li {
-  @apply inline-block m-0 p-0 
+  @apply inline-block m-0 p-0 mb-3
 }

@@ -1,7 +1,9 @@
-{{ define "main" }} {{ $posts := where .Site.RegularPages "Type" "posts" }} {{
-$cameraroll := where .Site.RegularPages ".Params.photo" "!=" nil }} {{ $notes :=
-where .Site.RegularPages ".Params.photo" "=" nil }} {{ $paginator := .Paginate
-(where .Site.RegularPages "Type" "posts") 7 }}
+{{ define "main" }} 
+
+{{ $allEntries := (where .Site.RegularPages "Type" "in" (slice "posts" "micro")) }}
+{{ $sortedEntries := sort $allEntries "Date" "desc" }}
+{{ $paginator := .Paginate $sortedEntries 7 }}
+
 
 <section class="prose prose-gray dark:prose-invert">{{ .Content }}</section>
 
@@ -81,7 +83,7 @@ where .Site.RegularPages ".Params.photo" "=" nil }} {{ $paginator := .Paginate
           {{ end }}
         </div>
 
-        {{ if .Title }} {{ .Content | strings.Truncate 450 }} {{ else }} {{
+        {{ if .Title }} {{ .Content | strings.Truncate 250 }} {{ else }} {{
         .Content }} {{ end }}
       </div>
       <div class="mt-5">{{ partial "tags.html" .}}</div>
