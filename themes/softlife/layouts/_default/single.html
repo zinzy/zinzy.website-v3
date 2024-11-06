@@ -3,8 +3,8 @@
 <div class="">
   <article class="h-entry">
     <header class="">
-      {{ if or (eq .Section "posts") (eq .Section "shorts") }}
-      <time class="dt-published text-secondary mb-5" datetime="{{ .Date }}">
+      {{ if or (eq .Section "posts") (eq .Section "micro") }}
+      <time class="dt-published mb-5" datetime="{{ .Date }}">
         <a href="{{ .Permalink }}" class="text-gray-500"
           >{{ .Date | time.Format site.Params.theme_config.date_format_date_time
           }}</a
