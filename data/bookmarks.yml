@@ -41,7 +41,7 @@
     - property: Karen L.
       url: https://chronosaur.us/
     - property: Chris Shaw
-      url: uncountable.uk
+      url: https://uncountable.uk
     - property: Ben Barbersmith
       url: https://barbersmith.com/
     - property: Aaron Swartz
@@ -388,6 +388,8 @@
       url: https://justinmiller.io/
     - property: V.H. Belvadi
       url: https://vhbelvadi.com/ 
+    - property: Jordan Gonen
+      url: https://www.jordangonen.com/
 - name: "Other websites I like"
   children:
     - property: Low-tech Magazine

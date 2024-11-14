@@ -8,142 +8,31 @@
 </header>
 
 <section class="mt-20">
-  <div class="prose prose-gray dark:prose-invert">
-    <h2 class="text-xl">Books</h2>
-    <p>A decade after graduation, I'm still a recovering Modern Lit student. I'm doing my best in 2024 to read more. Here are a few recent reads.</p>
-  </div>
-  <div class="mt-10">
-    {{ $library := where .Site.RegularPages "Type" "books" }} 
-    {{ $path := .Path }}
-    <ul class="w-full grid md:grid-cols-2 md:gap-4">
-      {{ range first 4 $library }}
-      <li class="">
-        <a
-          href="{{ .Permalink }}"
-          class="shadow-subtle border p-3 rounded-xl bg-white text-center block"
-        >
-        <div class="flex">
-          <div class="w-1/5">
-            <img src="{{ .Params.cover}}" class="rounded w-16">
-          </div>
-          <div class="w-4/5 text-xs h-full content-center">
-            <div class="pl-3">
-              <div class="font-medium mb-1">{{ .Title }}</div> 
-              <!-- <div class="text-secondary">{{ .Params.author }}</div> -->
-              <ul class="text-secondary list-comma">
-                {{ range .Params.tags }}
-                <li>{{. }}</li>
-                {{end}}</ul>
-            </div>
-          </div>
-        </div>
-        </a>
-      </li>
-      {{ end }}
-    </ul>
+  <ul class="">
+    {{ range $.Site.Data.library }}
+    <li class="mt-10 block">
+      <h3 class="mb-5">{{ .medium }}</h3>
+      <ul class="">
+        {{ range .children }}
+        <li class="">
+          <a href="{{ .url }}" target="_blank" rel="noopener noreferrer">
+            {{ .entry }} ({{.published}})
 
-    <div class="mt-10 text-center">
-      <a href="/library/books" class="bg-white text-xs font-medium border py-2 px-3 rounded-full hover:bg-zinc-50">See all books</a>
-    </div>
-  </div> 
+            {{ if .review }}
+
+              {{ range .review }}
+                {{.}}
+
+
+            {{ end }}
+            {{ end }}
+          </a>
+        </li>
+        {{ end }}
+      </ul>
+      </li>
+  {{ end }}
+  </ul>
 </section>
 
-<section class="mt-20">
-  <div class="prose prose-gray dark:prose-invert">
-    <h2 class="text-xl">Films</h2>
-    <p>I love film in its wide variety of genres, and frequently visit Amsterdam's local theatres. Here are a few of my alltime favorites.</p>
-  </div>
-  <div class="mt-10">
-    {{ $library := where .Site.RegularPages "Type" "films" }} 
-    {{ $featured_films := where $library "Params.featured" true }}
-    {{ $path := .Path }}
-    <ul class="w-full grid grid-cols-2 lg:grid-cols-3 md:gap-4">
-      {{ range first 4 $featured_films }}
-      <li class="shadow-subtle border p-3 rounded-xl bg-white text-center">
-        <div class="">
-          <div class="">
-            <img src="{{ .Params.cover}}" class="rounded object-cover w-48 h-52">
-          </div>
-          <div class=" text-xs h-full content-center mt-3">
-            <div class="">
-              <div class="font-medium mb-1">{{ .Title }}</div> 
-              <!-- <div class="text-secondary">{{ .Params.author }}</div> -->
-              <ul class="text-secondary list-comma">
-                {{ range .Params.tags }}
-                <li>{{. }}</li>
-                {{end}}</ul>
-            </div>
-          </div>
-        </div>
-        <!-- <div class="">
-          <div class="mt-5 text-">{{ partial "tags.html" .}}</div>
-        </div> -->
-      </li>
-      {{ end }}
-    </ul>
-
-    <div class="mt-10 text-center">
-      <a href="/books" class="bg-white text-xs font-medium border py-2 px-3 rounded-full hover:bg-zinc-50">See all films</a>
-    </div>
-  </div> 
-</section>
- 
-
-<section class="mt-20">
-  <div class="prose prose-gray dark:prose-invert">
-    <h2 class="text-xl">Playlists</h2>
-    <p>I keep monthly and annual playlists to record the music that scores my life. Every few years, as my listening patterns slightly change, I create <em>eras</em> playlists. You can learn more about them below.</p>
-  </div>
-  <div class="mt-10">
-    {{ $playlists := where .Site.RegularPages "Type" "playlists" }} 
-    {{ $featured_playlists := where $playlists "Params.featured" true }}
-    {{ $path := .Path }}
-    <ul class="w-full grid md:grid-cols-2 lg:grid-cols-3 md:gap-4">
-      {{ range first 4 $featured_playlists }}
-      <li class="shadow-subtle border p-3 rounded-xl bg-white text-center">
-        <div class="relative">
-          <img src="{{ .Params.cover}}" class="rounded">
-          <div class="absolute top-0 left-0 h-full font-medium text-white w-full content-center px-3">{{ .Title }}</div>
-        </div>
-        <div class="mt-3 text-secondary text-xs">
-          {{.Params.start}} {{ if .Params.end }} - {{ .Params.end }} {{ end }}
-        </div>
-      </li>
-      {{ end }}
-    </ul>
-
-    <div class="mt-10 text-center">
-      <a href="/library/playlists" class="bg-white text-xs font-medium border py-2 px-3 rounded-full hover:bg-zinc-50">See all playlists</a>
-    </div>
-  </div> 
-</section>
-<!-- 
-
-
-<div class="">
-  <header>
-    <p class="text-secondary mb-0 text-sm">{{ .Title }}</p>
-    <h2 class="p-name mb-2 mt-0 text-2xl">
-      I am a fervent diarist, and this archive exists to remind myself that life
-      is ever-evolving, as am I.
-    </h2>
-  </header>
-
-  <section class="mt-20">
-    {{ $postsDefault := where .Site.RegularPages "Type" "posts" }}
-    <ul class="border-b">
-      {{ range $postsDefault }}
-      <li class="border-t py-3">
-        <a class="w-full content-center md:flex" href="{{ .Permalink }}">
-          <span class="grow font-medium">{{ .Title }}</span>
-          <time class="text-secondary flex-none text-sm"
-            >{{- (.Date | time.Format
-            site.Params.theme_config.date_format_medium) }}</time
-          >
-        </a>
-      </li>
-      {{ end }}
-    </ul>
-  </section> -->
-</div>
 {{ end }}

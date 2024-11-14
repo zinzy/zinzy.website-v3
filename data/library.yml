@@ -7,6 +7,7 @@
       review:
       date:
       rating:
+      published: 2014
     - entry: "None of the Above"
       maker: "Travis Alabanza"
       category: "Non-fiction"
@@ -14,6 +15,7 @@
       review:
       date: 2024-07-20
       rating: 7
+      published: 2022
     - entry: "Saving Jesus from the Church"
       maker: "Robin R. Meyers"
       category: "Non-fiction"
@@ -21,6 +23,7 @@
       review:
       date: 2024-01-25
       rating: 8
+      published: 2009
     - entry: "Africa is not a Country"
       maker: "Dipo Faloyin"
       category: "Non-fiction"
@@ -28,13 +31,15 @@
       review:
       date: 2024-01-06
       rating: 7
-    - entry: "In the wake: on Blackness and being"
+      published: 2022
+    - entry: "In the Wake: On Blackness and Being"
       maker: "Christina Elizabeth Sharpe"
       category: "Non-fiction"
       id: 9780822362944
       review:
       date: 2024-01-25
       rating: 6
+      published: 2016
     - entry: "Freedom Is a Constant Struggle"
       maker: "Angela Y. Davis"
       category: "Non-fiction"
@@ -42,16 +47,9 @@
       review:
       date: 2024-01-07
       rating: 6
-- medium: Cinema and TV
-  description: "Feature films, series, documentaries, videos I've watched"
+      published: 2016
+- medium: Cinema
   children:
-    - entry: "Abbott Elementary"
-      maker: "Quinta Brunson"
-      category: "Series"
-      id: "tt14218830"
-      review:
-      date:
-      rating: "10"
     - entry: "Downsizing"
       maker: "Alexander Payne"
       category: "Movie"
@@ -73,6 +71,22 @@
       review:
       date:
       rating: "9"
+- medium: Television
+  children:
+    - entry: "Disclaimer"
+      maker: "Alfonso Cuarón"
+      id: "tt16294384"
+      review:
+      - /2024-11-10-10-42-33
+      date: 2024-11-08
+      rating: "7" 
+    - entry: "Abbott Elementary"
+      maker: "Quinta Brunson"
+      category: "Series"
+      id: "tt14218830"
+      review:
+      date:
+      rating: "10" 
     - entry: "Under Paris"
       maker: "Xavier Gens"
       category: "Movie"
@@ -1879,167 +1893,3 @@
       review:
       date:
       rating: "8"
-- medium: Podcasts
-  description: "Music, songs, podcasts I enjoy"
-  children:
-    - entry: "On Being"
-      maker: ""
-      category: "Podcast"
-      id: 
-      review:
-      date:
-      rating:
-    - entry: "The Daily"
-      maker: ""
-      category: "Podcast"
-      id: 
-      review:
-      date:
-      rating:
-    - entry: "Today, Explained"
-      maker: ""
-      category: "Podcast"
-      id: 
-      review:
-      date:
-      rating:
-    - entry: "Radiolab"
-      maker: ""
-      category: "Podcast"
-      id: 
-      review:
-      date:
-      rating:
-    - entry: "This American Life"
-      maker: ""
-      category: "Podcast"
-      id: 
-      review:
-      date:
-      rating:
-    - entry: "99% Invisible"
-      maker: ""
-      category: "Podcast"
-      id: 
-      review:
-      date:
-      rating:
-    - entry: "DOCS"
-      maker: ""
-      category: "Podcast"
-      id: 
-      review:
-      date:
-      rating:
-    - entry: "Pray With our Feet"
-      maker: ""
-      category: "Podcast"
-      id: 
-      review:
-      date:
-      rating:
-    - entry: "FCBCNYC"
-      maker: ""
-      category: "Podcast"
-      id: 
-      review:
-      date:
-      rating:
-    - entry: "Forward Day by Day"
-      maker: ""
-      category: "Podcast"
-      id: 
-      review:
-      date:
-      rating:
-    - entry: "Cafeteria Christian"
-      maker: ""
-      category: "Podcast"
-      id: 
-      review:
-      date:
-      rating:
-    - entry: "The Tao of Christ"
-      maker: ""
-      category: "Podcast"
-      id: 
-      review:
-      date:
-      rating:
-    - entry: "Awkward Silences"
-      maker: ""
-      category: "Podcast"
-      id: 
-      review:
-      date:
-      rating:
-    - entry: "Internet History Podcast"
-      maker: ""
-      category: "Podcast"
-      id: 
-      review:
-      date:
-      rating:
-    - entry: "Your Undivided Attention"
-      maker: ""
-      category: "Podcast"
-      id: 
-      review:
-      date:
-      rating:
-    - entry: "Argos"
-      maker: ""
-      category: "Podcast"
-      id: 
-      review:
-      date:
-      rating: 
-    - entry: "The Ezra Klein Show"
-      maker: ""
-      category: "Podcast"
-      id: 
-      review:
-      date:
-      rating:
-    - entry: "Sword and Scale"
-      maker: ""
-      category: "Podcast"
-      id: 
-      review:
-      date:
-      rating:
-    - entry: "Hard Fork"
-      maker: ""
-      category: "Podcast"
-      id: 
-      review:
-      date:
-      rating:
-    - entry: "Where Should We Begin"
-      maker: ""
-      category: "Podcast"
-      id: 
-      review:
-      date:
-      rating:
-    - entry: "The New Yorker Radio Hour"
-      maker: ""
-      category: "Podcast"
-      id: 
-      review:
-      date:
-      rating:
-    - entry: "If/Then"
-      maker: ""
-      category: "Podcast"
-      id: 
-      review:
-      date:
-      rating:
-    - entry: "Radio Atlantic"
-      maker: ""
-      category: "Podcast"
-      id: 
-      review:
-      date:
-      rating:

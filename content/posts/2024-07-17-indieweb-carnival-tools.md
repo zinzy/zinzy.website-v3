@@ -3,7 +3,6 @@ title: "IndieWeb Carnival: Tools"
 summary: ""
 draft: false
 date: 2024-07-17
-sidenote: "[The July edition of the IndieWeb Carnival](https://jamesg.blog/2024/07/01/indieweb-carnival-tools/) is about tools. Host [James](https://jamesg.blog/) is interested in the relationship between tools and our creative practices."
 categories:
   - Essays
 tags:
@@ -13,6 +12,7 @@ tags:
   - Filofax
   - office supplies
 ---
+_[The July edition of the IndieWeb Carnival](https://jamesg.blog/2024/07/01/indieweb-carnival-tools/) is about tools. Host [James](https://jamesg.blog/) is interested in the relationship between tools and our creative practices._
 
 Remember Flickr, and the way we self-published visual sneak peeks into our lives on that website, in the mid-zeroes? If we wanted a filter in our photo, we had to Photoshop it in there ourselves. We tagged our uploads, but merely to archive our materials. Our profiles all contained a link to our personal blog.
 
