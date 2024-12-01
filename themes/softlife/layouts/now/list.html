@@ -1,0 +1,53 @@
+{{ define "main" }} {{ partial "back_link.html" .}}
+
+<div class="">
+  <header class="mb-10 md:mb-20 prose prose-gray dark:prose-invert">
+    <h2 class="text-2xl mb-5">Now</h2>
+    {{ .Content }}
+  </header>
+
+  <section class="mt-20">
+    <!-- {{ $postsDefault := where .Site.RegularPages "Type" "posts" }} -->
+    {{ range (where .Site.RegularPages "Type" "now") }}
+
+   <ul>
+    <li class="mb-20">
+      <time class="text-2xl mb-7 block" datetime="{{ .Date }}">
+        <a href="{{ .Permalink }}" class=""
+          >{{ .Date | time.Format site.Params.theme_config.date_format_medium
+          }}</a
+        >
+      </time>
+
+      <content class="prose prose-gray dark:prose-invert">
+        {{ .Content }}
+      </content>
+    
+    </li>
+   </ul>
+  
+
+
+
+    {{ end }}
+<!-- 
+    <ul class="border-b">
+
+
+
+      
+      {{ range $postsDefault }}
+      <li class="border-t py-3">
+        <a class="w-full content-center md:flex" href="{{ .Permalink }}">
+          <span class="grow font-medium">{{ .Title }}</span>
+          <time class="text-secondary flex-none text-sm"
+            >{{- (.Date | time.Format
+            site.Params.theme_config.date_format_medium) }}</time
+          >
+        </a>
+      </li>
+      {{ end }}
+    </ul> -->
+  </section>
+</div>
+{{ end }}

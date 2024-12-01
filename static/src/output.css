@@ -1099,6 +1099,10 @@ video {
   --tw-prose-invert-td-borders: #27272a;
 }
 
+.static {
+  position: static;
+}
+
 .absolute {
   position: absolute;
 }
@@ -1244,6 +1248,14 @@ video {
 
 .mt-5 {
   margin-top: 1.25rem;
+}
+
+.mb-7 {
+  margin-bottom: 1.75rem;
+}
+
+.mt-7 {
+  margin-top: 1.75rem;
 }
 
 .block {
@@ -1792,6 +1804,10 @@ a {
   &:hover {
     text-underline-offset: 2px !important;
   }
+}
+
+strong a {
+  font-weight: 600 !important;
 }
 
 h1, h2, h3, h4, h5, h6 {

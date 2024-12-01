@@ -1,6 +1,6 @@
 {{ $taxonomy := "tags" }} {{ with .Param $taxonomy }}
 
-<ul class="tags inline-block text-xs p-0 m-0">
+<ul class="tags inline-block text-xs p-0 mt-0">
   {{ range $index, $tag := . }} {{ with $.Site.GetPage (printf "/%s/%s"
   $taxonomy (urlize $tag) ) -}}
 

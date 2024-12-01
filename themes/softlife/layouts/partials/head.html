@@ -9,7 +9,16 @@
   />
 
   <title>
-    {{ if not .IsHome }} {{ .Title }} {{ else }} {{ $.Site.Title }} {{ end }}
+
+    {{ if not .IsHome }} 
+    
+      {{ .Title }} 
+    
+    {{ else }}
+
+      {{ $.Site.Title }} 
+    
+    {{ end }}
   </title>
 
   <link
