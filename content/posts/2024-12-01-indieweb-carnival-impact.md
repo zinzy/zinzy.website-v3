@@ -1,7 +1,7 @@
 ---
 title: "IndieWeb Carnival: Impact"
 description: ""
-draft: true
+draft: false
 date: 2024-12-01 10:15:04 +0200
 tags:
   - IndieWeb
