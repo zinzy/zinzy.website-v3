@@ -4,7 +4,7 @@
 
 
 body, html {
-  /* font-size: 16px;   */
+  font-size: 14px;  
   /* @media screen and (min-width:1200px) {
     font-size:
   } */
@@ -15,36 +15,38 @@ body {
 }
 
 .container {
-  max-width:550px;
-}
-
-
-
-a {
-  @apply no-underline font-normal !important;
-  &:hover {
-    @apply underline underline-offset-2 !important;
-  }
+  max-width:500px;
 }
 
 strong a {
   @apply font-semibold !important;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  @apply font-normal !important;
+.prose a {
+  @apply font-normal;
 }
 
 
-time {
-}
-
-p, .prose ul {
+h2, h3, h4, h5, h6 {
+  @apply font-semibold !important;
   a {
-    @apply underline underline-offset-2 !important;
+    @apply font-normal no-underline;
   }
 }
 
+header ul li a {
+  @apply underline;
+}
+
+.prose {
+  h2, h3, h4, h5, h6 {
+    @apply font-normal !important;
+    a {
+      @apply font-normal no-underline;
+    }
+  }
+}
+ 
 time a {
   @apply no-underline !important
 }
@@ -54,15 +56,15 @@ time a {
 }
 
 figcaption {
-  @apply text-gray-500 dark:text-zinc-300
+  @apply text-neutral-500 dark:text-neutral-300
 }
 
 figcaption a {
-  @apply text-gray-500 dark:text-zinc-300 underline
+  @apply text-neutral-500 dark:text-neutral-300 underline
 }
 
 .tags a {
-  @apply no-underline text-gray-600 dark:text-zinc-300 hover:no-underline bg-zinc-100 font-normal dark:bg-zinc-800 mr-1 mb-2 px-2 py-1 rounded hover:bg-zinc-200 hover:dark:bg-zinc-700 transition-all
+  @apply uppercase no-underline text-neutral-600 dark:text-neutral-300 hover:no-underline bg-neutral-200 font-medium dark:bg-neutral-800 mr-1 mb-2 px-2 py-1 rounded hover:bg-neutral-300/30 hover:dark:bg-neutral-700 transition-all text-xs;
 }
 
 .tags a:hover {

@@ -20,13 +20,6 @@ body {
 
 
 
-a {
-  @apply no-underline font-normal !important;
-  &:hover {
-    @apply underline underline-offset-2 !important;
-  }
-}
-
 strong a {
   @apply font-semibold !important;
 }
@@ -39,11 +32,6 @@ h1, h2, h3, h4, h5, h6 {
 time {
 }
 
-p, .prose ul {
-  a {
-    @apply underline underline-offset-2 !important;
-  }
-}
 
 time a {
   @apply no-underline !important

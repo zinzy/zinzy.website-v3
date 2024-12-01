@@ -1,5 +1,5 @@
 ---
-title: Explore
+title: Start
 description: ""
 ---
 This website is conceptualized as a scavenger hunt of sorts. There are many nooks and crannies, some of which are listed or linked to.

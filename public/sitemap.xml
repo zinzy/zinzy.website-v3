@@ -2,10 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://zinzy.website/2024/11/29/11/53/05/</loc>
-    <lastmod>2024-11-29T11:53:05+01:00</lastmod>
-  </url><url>
     <loc>https://zinzy.website/</loc>
+    <lastmod>2024-12-01T13:15:01+02:00</lastmod>
+  </url><url>
+    <loc>https://zinzy.website/posts/</loc>
+    <lastmod>2024-12-01T13:15:01+02:00</lastmod>
+  </url><url>
+    <loc>https://zinzy.website/tags/</loc>
+    <lastmod>2024-12-01T13:15:01+02:00</lastmod>
+  </url><url>
+    <loc>https://zinzy.website/2024/12/01/week-48-two-feet/</loc>
+    <lastmod>2024-12-01T13:15:01+02:00</lastmod>
+  </url><url>
+    <loc>https://zinzy.website/tags/weeknotes/</loc>
+    <lastmod>2024-12-01T13:15:01+02:00</lastmod>
+  </url><url>
+    <loc>https://zinzy.website/tags/glitter/</loc>
+    <lastmod>2024-12-01T10:15:04+02:00</lastmod>
+  </url><url>
+    <loc>https://zinzy.website/tags/impact/</loc>
+    <lastmod>2024-12-01T10:15:04+02:00</lastmod>
+  </url><url>
+    <loc>https://zinzy.website/tags/indieweb/</loc>
+    <lastmod>2024-12-01T10:15:04+02:00</lastmod>
+  </url><url>
+    <loc>https://zinzy.website/tags/indieweb-carnival/</loc>
+    <lastmod>2024-12-01T10:15:04+02:00</lastmod>
+  </url><url>
+    <loc>https://zinzy.website/2024/12/01/indieweb-carnival-impact/</loc>
+    <lastmod>2024-12-01T10:15:04+02:00</lastmod>
+  </url><url>
+    <loc>https://zinzy.website/tags/personality/</loc>
+    <lastmod>2024-12-01T10:15:04+02:00</lastmod>
+  </url><url>
+    <loc>https://zinzy.website/tags/poem/</loc>
+    <lastmod>2024-12-01T10:15:04+02:00</lastmod>
+  </url><url>
+    <loc>https://zinzy.website/2024/11/29/11/53/05/</loc>
     <lastmod>2024-11-29T11:53:05+01:00</lastmod>
   </url><url>
     <loc>https://zinzy.website/micro/</loc>
@@ -17,19 +50,7 @@
     <loc>https://zinzy.website/tags/hosting/</loc>
     <lastmod>2024-11-28T17:15:04+02:00</lastmod>
   </url><url>
-    <loc>https://zinzy.website/tags/indieweb/</loc>
-    <lastmod>2024-11-28T17:15:04+02:00</lastmod>
-  </url><url>
-    <loc>https://zinzy.website/tags/indieweb-carnival/</loc>
-    <lastmod>2024-11-28T17:15:04+02:00</lastmod>
-  </url><url>
     <loc>https://zinzy.website/2024/11/28/indieweb-carnival-december-2024-belief/</loc>
-    <lastmod>2024-11-28T17:15:04+02:00</lastmod>
-  </url><url>
-    <loc>https://zinzy.website/posts/</loc>
-    <lastmod>2024-11-28T17:15:04+02:00</lastmod>
-  </url><url>
-    <loc>https://zinzy.website/tags/</loc>
     <lastmod>2024-11-28T17:15:04+02:00</lastmod>
   </url><url>
     <loc>https://zinzy.website/2024/11/27/12/51/14/</loc>
@@ -48,9 +69,6 @@
     <lastmod>2024-11-17T08:14:06+01:00</lastmod>
   </url><url>
     <loc>https://zinzy.website/2024/11/17/week-46-raw-dogging/</loc>
-    <lastmod>2024-11-17T08:14:06+01:00</lastmod>
-  </url><url>
-    <loc>https://zinzy.website/tags/weeknotes/</loc>
     <lastmod>2024-11-17T08:14:06+01:00</lastmod>
   </url><url>
     <loc>https://zinzy.website/tags/youtube/</loc>
@@ -2292,6 +2310,8 @@
   </url><url>
     <loc>https://zinzy.website/library/films/minari-2021/</loc>
   </url><url>
+    <loc>https://zinzy.website/miracle-morning/</loc>
+  </url><url>
     <loc>https://zinzy.website/library/films/mirrors-2008/</loc>
   </url><url>
     <loc>https://zinzy.website/library/films/money-heist-2017/</loc>
@@ -2329,8 +2349,6 @@
     <loc>https://zinzy.website/notes/</loc>
   </url><url>
     <loc>https://zinzy.website/library/films/notes-on-a-scandal-2007/</loc>
-  </url><url>
-    <loc>https://zinzy.website/now/</loc>
   </url><url>
     <loc>https://zinzy.website/library/films/nr-10-2022/</loc>
   </url><url>
@@ -2393,8 +2411,6 @@
     <loc>https://zinzy.website/library/films/queen-slim-2019/</loc>
   </url><url>
     <loc>https://zinzy.website/library/films/ratatouille-2007/</loc>
-  </url><url>
-    <loc>https://zinzy.website/reading-your-rainforest-mind/</loc>
   </url><url>
     <loc>https://zinzy.website/tags/real/</loc>
   </url><url>
