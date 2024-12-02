@@ -24,11 +24,8 @@
     $paginator := .Paginate $sortedfeed 7 }} {{ range $paginator.Pages }}
 
     <article class="mb-20">
-      <time
-        class="dt-published mb-5"
-        datetime="{{ .Date }}"
-      >
-        <a href="{{ .Permalink }}" class="text-gray-500">
+      <time class="dt-published mb-5" datetime="{{ .Date }}">
+        <a href="{{ .Permalink }}">
           {{ if .Params.title }} {{ .Date | time.Format
           site.Params.theme_config.date_format_date }} {{ else }} {{ .Date |
           time.Format site.Params.theme_config.date_format_date_time }} {{ end

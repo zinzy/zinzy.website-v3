@@ -1,12 +1,13 @@
 ---
 title: Biography
 description: "Zinzy: the Lifetime movie "
+draft: true
 layout: page
 ---
 
 I'm a life-long student, an Internet diarist, an amateur musician, a loving partner and dog mother, and subversively privileged human. A professional albeit boring tagline would be:
 
-[Senior Product Designer](/work) of 17 years who deploys skills in research, design, strategy, and leadership to demonstrate that taking care of users is good for business.
+[Senior Product Designer](/work/) of 17 years who deploys skills in research, design, strategy, and leadership to demonstrate that taking care of users is good for business.
 
 I like to think there's more to life than that.
 
@@ -18,13 +19,13 @@ I like to think there's more to life than that.
   </figure>
 {{< /rawhtml >}}
 
-Before you dive in, you may be looking for a way to [say hello](/hello), [follow this site](/colophon#follow), or check out what I'm up to right [now](/now).
+Before you dive in, you may be looking for a way to [say hello](/hello/), [follow this site](/colophon/#follow), or check out what I'm up to right [now](/now/).
 
 ### I'm specialized in making software for people at work.
 
-I taught myself to build websites in elementary school [in the late nineties](/museum), and began working from my one-person design studio when I turned 18. I had entirely different plans for my future, but in the meantime, I've found a very satisfying home in Information Technology.
+I taught myself to build websites in elementary school [in the late nineties](/museum/), and began working from my one-person design studio when I turned 18. I had entirely different plans for my future, but in the meantime, I've found a very satisfying home in Information Technology.
 
-I've worked as a designer, researcher, strategist, product manager, and design manager. Right now, I'm living the dream at [Gerimedica](https://gerimedica.nl). If you'd like to learn more about the type of work I'm doing at the moment, please visit [Work](/work).
+I've worked as a designer, researcher, strategist, product manager, and design manager. Right now, I'm living the dream at [Gerimedica](https://gerimedica.nl). If you'd like to learn more about the type of work I'm doing at the moment, please visit [Work](/work/).
 
 I hold a B.A. in Linguistics & Literature from Utrecht University, and dropped out of Theological Seminary after a year of being the only queer Black person there. I think I'm still saving my Master's degree for Divinity School.
 
@@ -36,7 +37,7 @@ If you meet me in person, you'll see I like to laugh a lot. It's not fake, eithe
 
 ### I live and work in Amsterdam, where I share my life with Anja and Lemonade.
 
-Lemonade is a dog, but since we're a [child-free](/im-child-free) home I consider Lemonade my daughter. I kind of hate that about myself. If you've never met [Anja](https://anjawaleson.notion.site/Anja-Waleson-0182c8df804b4b12ab6e70b5b5795a55?pvs=74), you should. She's quite something.
+Lemonade is a dog, but since we're a [child-free](/im-child-free/) home I consider Lemonade my daughter. I kind of hate that about myself. If you've never met [Anja](https://anjawaleson.notion.site/Anja-Waleson-0182c8df804b4b12ab6e70b5b5795a55?pvs=74), you should. She's quite something.
 
 I'm of São Toméan and Dutch descent, and come from a long line of loud, burgundian band geeks. I grew up in the narrow tail-end of the Netherlands, bike rides away from both Belgium and Germany.
 

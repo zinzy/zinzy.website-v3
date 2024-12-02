@@ -1,9 +1,6 @@
-{{ define "main" }} 
-
-{{ $allEntries := (where .Site.RegularPages "Type" "in" (slice "posts" "micro")) }}
-{{ $sortedEntries := sort $allEntries "Date" "desc" }}
-{{ $paginator := .Paginate $sortedEntries 7 }}
-
+{{ define "main" }} {{ $allEntries := (where .Site.RegularPages "Type" "in"
+(slice "posts" "micro")) }} {{ $sortedEntries := sort $allEntries "Date" "desc"
+}} {{ $paginator := .Paginate $sortedEntries 7 }}
 
 <section class="prose prose-gray dark:prose-invert">{{ .Content }}</section>
 
@@ -15,95 +12,91 @@
         <header class="mb-5">
           {{ if or (eq .Section "posts") (eq .Section "micro") }}
           <time class="dt-published mb-5" datetime="{{ .Date }}">
-            <a href="{{ .Permalink }}" class="text-gray-500"
-              >{{ .Date | time.Format site.Params.theme_config.date_format_date_time
-              }}</a
+            <a href="{{ .Permalink }}"
+              >{{ .Date | time.Format
+              site.Params.theme_config.date_format_date_time }}</a
             >
           </time>
-          {{ else }}{{ end }} 
-          {{ if .Params.title }}
+          {{ else }}{{ end }} {{ if .Params.title }}
           <h2 class="p-name text-2xl">
             <a class="u-url" href="{{ .Permalink }}">{{ .Params.title }}</a>
           </h2>
           {{ end }}
-    
+
           <div class="u-author h-card hidden">
             <img src="/img/avatar.png" class="u-photo" />
             <a href="/" class="u-url p-name">Zinzy Waleson Geene</a>
           </div>
         </header>
 
-        
-    <content class="e-content prose prose-gray dark:prose-invert">
-      <div class="mt-5">
-        {{ if .Params.replyTo }} {{ if .Params.rsvp }}
-        <p>
-          {{ if eq .Params.rsvp "yes" }}<data class="p-rsvp" value="YES"
-            >Is going</data
-          >
-          to {{ else if eq .Params.rsvp "maybe" }}<data
-            class="p-rsvp"
-            value="Maybe"
-            >Might go</data
-          >
-          to {{ else if eq .Params.rsvp "no" }}<data class="p-rsvp" value="no"
-            >Unable to go</data
-          >
-          to {{ else if eq .Params.rsvp "interested" }}<data
-            class="p-rsvp"
-            value="interested"
-            >Is interested</data
-          >
-          in {{ end }}
+        <content class="e-content prose prose-gray dark:prose-invert">
+          <div class="mt-5">
+            {{ if .Params.replyTo }} {{ if .Params.rsvp }}
+            <p>
+              {{ if eq .Params.rsvp "yes" }}<data class="p-rsvp" value="YES"
+                >Is going</data
+              >
+              to {{ else if eq .Params.rsvp "maybe" }}<data
+                class="p-rsvp"
+                value="Maybe"
+                >Might go</data
+              >
+              to {{ else if eq .Params.rsvp "no" }}<data
+                class="p-rsvp"
+                value="no"
+                >Unable to go</data
+              >
+              to {{ else if eq .Params.rsvp "interested" }}<data
+                class="p-rsvp"
+                value="interested"
+                >Is interested</data
+              >
+              in {{ end }}
 
-          <a
-            href="{{.Params.replyTo}}"
-            rel="in-reply-to"
-            class="u-in-reply-to text-url break-all font-normal underline"
-            target="_blank"
-          >
-            {{ if .Params.replyToName }} {{.Params.replyToName}} {{ else }}
-            {{.Params.replyTo}} {{ end }}
-          </a>
-        </p>
+              <a
+                href="{{.Params.replyTo}}"
+                rel="in-reply-to"
+                class="u-in-reply-to text-url break-all font-normal underline"
+                target="_blank"
+              >
+                {{ if .Params.replyToName }} {{.Params.replyToName}} {{ else }}
+                {{.Params.replyTo}} {{ end }}
+              </a>
+            </p>
 
-        {{ else }}
+            {{ else }}
 
-        <p class="u-in-reply-to mt-0 mb-5">
-          Replied to
-          <a
-            href="{{.Params.replyTo}}"
-            rel="in-reply-to"
-            class="u-in-reply-to text-url break-all font-normal underline"
-            target="_blank"
-          >
-            {{ if .Params.replyToName }} {{.Params.replyToName | markdownify }}
-            {{ else }} {{.Params.replyTo}} {{ end }}
-          </a>
-        </p>
-        {{ end }} {{ else if .Params.likeOf }}
-        <p class="mt-0 mb-5 h-cite u-like-of">
-          Liked
-          <a
-            href="{{.Params.likeOf}}"
-            class="text-url break-all font-normal underline"
-            target="_blank"
-          >
-            {{ if .Params.likeOfName }} {{.Params.likeOfName | markdownify}} {{
-            else }} {{.Params.likeOf}} {{ end }}
-          </a>
-        </p>
-        {{ end }}
-      </div>
-      {{ if .Params.sidenote }}
-      <div class="aside">{{ .Params.sidenote | markdownify }}</div>
-      {{ end }} 
-      
-      {{ if .Title }} {{ .Content | strings.Truncate 210 }} {{ else }} {{
-        .Content }} {{ end }}
-    </content>
-
-     
+            <p class="u-in-reply-to mt-0 mb-5">
+              Replied to
+              <a
+                href="{{.Params.replyTo}}"
+                rel="in-reply-to"
+                class="u-in-reply-to text-url break-all font-normal underline"
+                target="_blank"
+              >
+                {{ if .Params.replyToName }} {{.Params.replyToName | markdownify
+                }} {{ else }} {{.Params.replyTo}} {{ end }}
+              </a>
+            </p>
+            {{ end }} {{ else if .Params.likeOf }}
+            <p class="mt-0 mb-5 h-cite u-like-of">
+              Liked
+              <a
+                href="{{.Params.likeOf}}"
+                class="text-url break-all font-normal underline"
+                target="_blank"
+              >
+                {{ if .Params.likeOfName }} {{.Params.likeOfName | markdownify}}
+                {{ else }} {{.Params.likeOf}} {{ end }}
+              </a>
+            </p>
+            {{ end }}
+          </div>
+          {{ if .Params.sidenote }}
+          <div class="aside">{{ .Params.sidenote | markdownify }}</div>
+          {{ end }} {{ if .Title }} {{ .Content | strings.Truncate 210 }} {{
+          else }} {{ .Content }} {{ end }}
+        </content>
       </div>
       <div class="mt-5">{{ partial "tags.html" .}}</div>
     </li>

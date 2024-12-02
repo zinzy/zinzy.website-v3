@@ -2,20 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://zinzy.website/tags/boxing/</loc>
+    <lastmod>2024-12-01T15:56:01+02:00</lastmod>
+  </url><url>
+    <loc>https://zinzy.website/tags/cover/</loc>
+    <lastmod>2024-12-01T15:56:01+02:00</lastmod>
+  </url><url>
     <loc>https://zinzy.website/</loc>
-    <lastmod>2024-12-01T13:15:01+02:00</lastmod>
+    <lastmod>2024-12-01T15:56:01+02:00</lastmod>
+  </url><url>
+    <loc>https://zinzy.website/tags/intentionality/</loc>
+    <lastmod>2024-12-01T15:56:01+02:00</lastmod>
   </url><url>
     <loc>https://zinzy.website/posts/</loc>
-    <lastmod>2024-12-01T13:15:01+02:00</lastmod>
+    <lastmod>2024-12-01T15:56:01+02:00</lastmod>
+  </url><url>
+    <loc>https://zinzy.website/tags/prayer-book/</loc>
+    <lastmod>2024-12-01T15:56:01+02:00</lastmod>
   </url><url>
     <loc>https://zinzy.website/tags/</loc>
-    <lastmod>2024-12-01T13:15:01+02:00</lastmod>
+    <lastmod>2024-12-01T15:56:01+02:00</lastmod>
   </url><url>
     <loc>https://zinzy.website/2024/12/01/week-48-two-feet/</loc>
-    <lastmod>2024-12-01T13:15:01+02:00</lastmod>
+    <lastmod>2024-12-01T15:56:01+02:00</lastmod>
   </url><url>
     <loc>https://zinzy.website/tags/weeknotes/</loc>
-    <lastmod>2024-12-01T13:15:01+02:00</lastmod>
+    <lastmod>2024-12-01T15:56:01+02:00</lastmod>
   </url><url>
     <loc>https://zinzy.website/tags/glitter/</loc>
     <lastmod>2024-12-01T10:15:04+02:00</lastmod>
@@ -2122,13 +2134,13 @@
   </url><url>
     <loc>https://zinzy.website/tags/excellent/</loc>
   </url><url>
-    <loc>https://zinzy.website/explore/</loc>
-  </url><url>
     <loc>https://zinzy.website/library/films/fight-club-1999/</loc>
   </url><url>
     <loc>https://zinzy.website/films/</loc>
   </url><url>
     <loc>https://zinzy.website/library/films/fish-tank-2009/</loc>
+  </url><url>
+    <loc>https://zinzy.website/follow/</loc>
   </url><url>
     <loc>https://zinzy.website/library/playlists/era-1996-2001/</loc>
   </url><url>
@@ -2471,6 +2483,8 @@
     <loc>https://zinzy.website/library/films/spirited-away-2003/</loc>
   </url><url>
     <loc>https://zinzy.website/library/films/splice-2010/</loc>
+  </url><url>
+    <loc>https://zinzy.website/start/</loc>
   </url><url>
     <loc>https://zinzy.website/library/films/still-walking-2008/</loc>
   </url><url>

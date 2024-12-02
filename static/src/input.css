@@ -2,9 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-
-body, html {
-  font-size: 14px;  
+body,
+html {
+  font-size: 14px;
   /* @media screen and (min-width:1200px) {
     font-size:
   } */
@@ -15,7 +15,7 @@ body {
 }
 
 .container {
-  max-width:500px;
+  max-width: 500px;
 }
 
 strong a {
@@ -26,29 +26,60 @@ strong a {
   @apply font-normal;
 }
 
+.prose
+  :where(blockquote p:first-of-type):not(
+    :where([class~="not-prose"], [class~="not-prose"] *)
+  )::before,
+.prose
+  :where(blockquote p:first-of-type):not(
+    :where([class~="not-prose"], [class~="not-prose"] *)
+  )::after {
+  content: "";
+}
 
-h2, h3, h4, h5, h6 {
-  @apply font-semibold !important;
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-normal !important;
   a {
     @apply font-normal no-underline;
   }
+}
+
+img {
+  @apply rounded;
 }
 
 header ul li a {
   @apply underline;
 }
 
+div[class*="border"] {
+  @apply border-neutral-200 dark:border-neutral-800;
+}
+
+a[target="_blank"]::after {
+  @apply content-['↗'] align-super;
+  font-size: 50%;
+}
+
 .prose {
-  h2, h3, h4, h5, h6 {
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     @apply font-normal !important;
     a {
       @apply font-normal no-underline;
     }
   }
 }
- 
+
 time a {
-  @apply no-underline !important
+  @apply text-neutral-500 dark:text-neutral-400 no-underline;
 }
 
 .footnotes hr {
@@ -56,11 +87,11 @@ time a {
 }
 
 figcaption {
-  @apply text-neutral-500 dark:text-neutral-300
+  @apply text-neutral-500 dark:text-neutral-300;
 }
 
 figcaption a {
-  @apply text-neutral-500 dark:text-neutral-300 underline
+  @apply text-neutral-500 dark:text-neutral-300 underline;
 }
 
 .tags a {
@@ -72,5 +103,5 @@ figcaption a {
 }
 
 .tags li {
-  @apply inline-block m-0 p-0 mb-3
+  @apply inline-block m-0 p-0 mb-3;
 }

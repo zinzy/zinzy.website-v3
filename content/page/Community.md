@@ -13,7 +13,7 @@ draft: true
   </figure>
 {{< /rawhtml >}}
 
-I dedicate some of my spare time to making the type of communities I'd want to be a part of. Being [who I am](/about), the most valuable lesson I've learnt so far is that it's important to see oneself in others. Being involved in making these communities helps me feel more confident about the person I am.
+I dedicate some of my spare time to making the type of communities I'd want to be a part of. Being [who I am](/about/), the most valuable lesson I've learnt so far is that it's important to see oneself in others. Being involved in making these communities helps me feel more confident about the person I am.
 
 ### [All Saints Amsterdam ↗](https://allsaintsamsterdam.church/)
 

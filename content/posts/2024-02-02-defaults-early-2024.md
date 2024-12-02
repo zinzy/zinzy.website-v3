@@ -1,11 +1,9 @@
 ---
 title: "Defaults: early 2024 edition"
-description: Inspired by App Defaults, this is a list of the main tools I frequently use these days.
+sidenote: Things change, so does my opinion. It turns out I like the idea of a status [/uses](/uses) page better.
 section: posts
 share: true
 date: 2024-02-02
-categories:
-  - Essays
 tags:
   - app defaults
   - software

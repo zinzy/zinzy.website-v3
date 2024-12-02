@@ -2,7 +2,7 @@
 <html lang="{{ $.Site.LanguageCode }}" class="scroll-smooth min-h-full">
     {{- partial "head.html" . -}}
     <div id="top" class="hidden"></div>
-    <body class="p-5 py-10 md:py-20 min-h-full antialiased bg-slate-50 dark:bg-zinc-900" a="{{ $.Site.Params.theme_config.appearance | default "auto" }}">
+    <body class="p-5 py-10 md:py-20 min-h-full antialiased bg-neutral-50 dark:bg-neutral-900" a="{{ $.Site.Params.theme_config.appearance | default "auto" }}">
          
 
 
@@ -10,13 +10,14 @@
 
         <div class="container"> 
 
-          {{- partial "header.html" . -}}
-    
+          {{- partial "header.html" . -}} 
+
             <main class="my-20" aria-label="Content">
                 <div class="">
                     {{- block "main" . }}{{- end }}
                 </div> 
             </main>
+ 
 
             {{ if not .IsHome }}
             {{- partial "webmentions.html" . -}}
