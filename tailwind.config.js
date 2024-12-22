@@ -19,8 +19,8 @@ module.exports = {
       },
     },
     fontFamily: {
-      sans: [ 'Inter', 'system-ui', '-apple-system', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', 'Noto Sans', 'sans-serif', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'],
-      serif: ['FreightText Pro Book', 'serif'],
+      sans: [ 'Inter','ui-rounded', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', 'sans-serif', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol' ],
+      serif: ['Georgia', 'serif'],
       mono: ['SF Mono', 'monospace'],
     }, 
     extend: {
@@ -52,7 +52,7 @@ module.exports = {
             '--tw-prose-hr': theme('colors.gray[300]'),
             '--tw-prose-quotes': theme('colors.gray[950]'),
             '--tw-prose-quote-borders': theme('colors.gray[950]'),
-            '--tw-prose-captions': theme('colors.gray[500]'),
+            '--tw-prose-captions': theme('colors.gray[950]'),
             '--tw-prose-code': theme('colors.gray[950]'),
             '--tw-prose-pre-code': theme('colors.gray[950]'),
             '--tw-prose-pre-bg': theme('colors.gray[950]'),
@@ -69,7 +69,7 @@ module.exports = {
             '--tw-prose-invert-hr': theme('colors.neutral[600]'),
             '--tw-prose-invert-quotes': theme('colors.neutral[300]'),
             '--tw-prose-invert-quote-borders': theme('colors.neutral[700]'),
-            '--tw-prose-invert-captions': theme('colors.neutral[400]'),
+            '--tw-prose-invert-captions': theme('colors.white'),
             '--tw-prose-invert-code': theme('colors.white'),
             '--tw-prose-invert-pre-code': theme('colors.neutral[300]'),
             '--tw-prose-invert-pre-bg': 'rgb(0 0 0 / 50%)',

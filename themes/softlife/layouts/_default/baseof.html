@@ -2,17 +2,14 @@
 <html lang="{{ $.Site.LanguageCode }}" class="scroll-smooth min-h-full">
     {{- partial "head.html" . -}}
     <div id="top" class="hidden"></div>
-    <body class="p-5 py-10 md:py-20 min-h-full antialiased bg-neutral-50 dark:bg-neutral-900" a="{{ $.Site.Params.theme_config.appearance | default "auto" }}">
+    <body class="p-5 min-h-full bg-stone-100 dark:bg-neutral-950" a="{{ $.Site.Params.theme_config.appearance | default "auto" }}">
          
 
-
-
+        {{- partial "header.html" . -}} 
 
         <div class="container"> 
 
-          {{- partial "header.html" . -}} 
-
-            <main class="my-20" aria-label="Content">
+            <main class="" aria-label="Content">
                 <div class="">
                     {{- block "main" . }}{{- end }}
                 </div> 
@@ -22,10 +19,12 @@
             {{ if not .IsHome }}
             {{- partial "webmentions.html" . -}}
             {{ end }}
-        
-            {{- partial "footer.html" . -}}
+         
  
         </div> 
+
+
+        {{- partial "footer.html" . -}}
 
         <ul class="h-card hidden">
             <li class="p-name">

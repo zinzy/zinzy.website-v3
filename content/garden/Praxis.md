@@ -3,6 +3,9 @@ title: Praxis
 description: "Through actions, I explore and confirm what I believe is true"
 share: true
 ---
+There's no hate like Christian love. Follow me as I work to reclaim a term I've come to avoid.
+
+
 
 Here's one fact that never fails to bring shock, surprise, confusion, or mild disdain into my conversations: I'm an active congregant of [All Saints](https://allsaintsamsterdam.church/), a Christian fellowship in Amsterdam, and I do my best to ~~follow~~ learn from Jesus. I'm even on the church board. I suppose the emotions this elicits stem from the understanding people have of me as a queer person of color who seems, at least to some degree, level-headed.
 

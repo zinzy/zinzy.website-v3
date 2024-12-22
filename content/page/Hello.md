@@ -20,55 +20,54 @@ If you'd like to show your appreciation, you may [buy me coffee](https://ko-fi.c
 ---
 
 {{< rawhtml >}}
+<form
+action="https://getform.io/f/724d9a8c-269b-43c7-ad66-4b966655b03b"
+method="POST"
+id="form"
+>
+<div class="grid grid-cols-2 gap-4">
+  <div class="">
+    <label for="formName" class=" dark:text-white">Name</label>
+    <input
+      class="mt-2 block w-full rounded border p-3 placeholder:text-neutral-500 dark:text-white dark:bg-neutral-800 dark:border-none"
+      type="text"
+      name="Name"
+      id="formName"
+      placeholder="Joey Doe"
+    />
+  </div>
+  <div class="">
+    <label class=" dark:text-white" for="formEmail">Email</label>
+    <input
+      class="mt-2 block w-full rounded border p-3 dark:bg-neutral-800 dark:border-none placeholder:text-neutral-500 dark:text-white"
+      type="email"
+      name="Email"
+      id="formEmail"
+      placeholder="email@domain.com"
+    />
+  </div>
+</div>
 
- <form
-    action="https://getform.io/f/724d9a8c-269b-43c7-ad66-4b966655b03b"
-    method="POST"
-    id="form"
-  >
-    <div class="grid grid-cols-2 gap-4">
-      <div class="">
-        <label for="formName" class="font-medium dark:text-white">Name</label>
-        <input
-          class="mt-2 block w-full rounded border p-3 dark:bg-zinc-800 dark:border-none"
-          type="text"
-          name="Name"
-          id="formName"
-          placeholder="Joey Doe"
-        />
-      </div>
-      <div class="">
-        <label class="font-medium dark:text-white" for="formEmail">Email</label>
-        <input
-          class="mt-2 block w-full rounded border p-3 dark:bg-zinc-800 dark:border-none"
-          type="email"
-          name="Email"
-          id="formEmail"
-          placeholder="email@domain.com"
-        />
-      </div>
-    </div>
+<div class="mt-5">
+  <label class=" dark:text-white" for="formMessage">Message</label>
+  <textarea
+    class="mt-2 block w-full rounded border p-3 dark:bg-neutral-800 placeholder:text-neutral-500 dark:border-none dark:text-white"
+    type="text"
+    name="Message"
+    id="formMessage"
+    rows="10"
+    placeholder="What would you like to share?"
+  ></textarea>
+</div>
 
-    <div class="mt-5">
-      <label class="font-medium dark:text-white" for="formMessage">Message</label>
-      <textarea
-        class="mt-2 block w-full rounded border p-3 dark:bg-zinc-800 dark:border-none"
-        type="text"
-        name="Message"
-        id="formMessage"
-        rows="10"
-        placeholder="What would you like to share?"
-      ></textarea>
-    </div>
+<!-- add hidden Honeypot input to prevent spams -->
+<input type="hidden" name="_gotcha" style="display: none !important" />
+<div class="mt-5 text-right">
+  <button type="submit" name="Submit" class="button">
+    Send →
+  </button>
+</div>
 
-    <!-- add hidden Honeypot input to prevent spams -->
-    <input type="hidden" name="_gotcha" style="display: none !important" />
-    <div class="mt-5 text-right">
-      <button type="submit" name="Submit" class="button block md:inline-block dark:bg-zinc-300/10 dark:border-none dark:text-white">
-        Send →
-      </button>
-    </div>
-
-  </form>
+</form>
 
 {{< /rawhtml >}}
