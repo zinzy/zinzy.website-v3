@@ -2,91 +2,56 @@
 @tailwind components;
 @tailwind utilities;
 
-body,
-html {
-  font-size: 14px;
-  /* @media screen and (min-width:1200px) {
-    font-size:
-  } */
-}
+
 
 body {
-  @apply dark:text-white;
+  font-size: 16px;
 }
 
 .container {
   max-width: 500px;
+  @apply mx-auto my-20 md:my-28 lg:my-40 p-0;
 }
 
-strong a {
-  @apply font-semibold !important;
+.log li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 
-.prose a {
-  @apply font-normal;
-}
-
-h2,
-h3,
-h4,
-h5,
-h6 {
-  @apply font-semibold !important;
-  a {
-    @apply font-normal no-underline;
-  }
-}
-
-header ul li a {
-  @apply underline;
-}
-
-div[class*="border"] {
-  @apply border-neutral-200 dark:border-neutral-800;
-}
-
-a[target="_blank"]::after {
-  @apply content-['↗'] align-super;
-  font-size: 50%;
+a, .prose :where(a):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  @apply font-normal dark:text-white;
 }
 
 .prose {
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    @apply font-normal !important;
-    a {
-      @apply font-normal no-underline;
-    }
-  }
+  font-size: 16px;
 }
 
-time a {
-  @apply text-neutral-500 dark:text-neutral-400 no-underline !important;
+h2, h3, h4, h5, h6, 
+.prose h2, .prose h3, .prose h4, .prose h5, .prose h6 {
+  @apply font-normal dark:text-white;
 }
 
-.footnotes hr {
-  display: none;
+
+.prose blockquote {
+  @apply border-none p-0 m-0;
 }
 
-figcaption {
-  @apply text-neutral-500 dark:text-neutral-300;
+.prose blockquote p {
+  @apply text-2xl not-italic p-0 m-0 font-normal;
 }
 
-figcaption a {
-  @apply text-neutral-500 dark:text-neutral-300 underline;
+.prose
+  :where(blockquote p:first-of-type):not(
+    :where([class~="not-prose"], [class~="not-prose"] *)
+  )::before,
+.prose
+  :where(blockquote p:first-of-type):not(
+    :where([class~="not-prose"], [class~="not-prose"] *)
+  )::after {
+  content: "";
 }
 
-.tags a {
-  @apply uppercase no-underline text-neutral-600 dark:text-neutral-300 hover:no-underline bg-neutral-200 font-medium dark:bg-neutral-800 mr-1 mb-2 px-2 py-1 rounded hover:bg-neutral-300/30 hover:dark:bg-neutral-700 transition-all text-xs;
-}
-
-.tags a:hover {
-  @apply no-underline !important;
-}
-
-.tags li {
-  @apply inline-block m-0 p-0 mb-3;
+.button {
+  @apply px-3 py-1 bg-stone-200 dark:bg-white rounded;
 }

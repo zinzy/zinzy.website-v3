@@ -19,7 +19,8 @@ module.exports = {
       },
     },
     fontFamily: {
-      sans: [ 'Inter','ui-rounded', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', 'sans-serif', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol' ],
+      // sans: [ 'Inter','ui-rounded', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', 'sans-serif', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol' ],
+      sans: [ 'Helvetica Neue', 'Arial', 'sans-serif' ],
       serif: ['Georgia', 'serif'],
       mono: ['SF Mono', 'monospace'],
     }, 

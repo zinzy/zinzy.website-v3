@@ -9,9 +9,9 @@ I grew up on the Internet in a time when social media meant writing comments on 
 
 The Web 1.0 has instilled in me a deep appreciation for a small-scale, intimate, and friendly Internet made up of hand-crafted websites. This is one of them. I’ve been yelling at Internet clouds since 1997.
 
-> Zinzy Waleson Geene has a website that's a constant source of curiosity. She alters the look, changes typography, structure, navigation so often that following through RSS isn't enough. When I see a new post, I go check the website.
+I generally don't know people visit this space unless they tell me. The most humbling response I've received about my website to date comes from the wonderful [Simone Silverstroni](https://minutestomidnight.co.uk/), who shared the following quote in his [_People & Blogs_ interview](https://manuelmoreale.com/pb-simone-silvestroni):
 
-I generally don't know people visit this space unless they tell me. The most humbling response I've received about my website to date comes from the wonderful [Simone Silverstroni](https://minutestomidnight.co.uk/), who shared the above quote in his [_People & Blogs_ interview](https://manuelmoreale.com/pb-simone-silvestroni).
+"Zinzy Waleson Geene has a website that's a constant source of curiosity. She alters the look, changes typography, structure, navigation so often that following through RSS isn't enough. When I see a new post, I go check the website."
 
 ### Follow
 
@@ -53,3 +53,14 @@ Unless otherwise stated, as per [CC BY-NC-SA 4.0](http://creativecommons.org/lic
 ### Privacy
 
 I respect your digital sovereignty. I do not track your personal data nor the journey you take on this website or any others. While I do my best to minimize this, please remember that, while [I don't track you, others might](https://www.zylstra.org/blog/2020/01/i-dont-track-you-here-but-others-might/).
+
+### If you know, you know (Thanks, [Ken](https://ken.fyi/about#if-you-know-you-know))
+
+- [IndieWeb Webring](https://xn--sr8hvo.ws) ([previous](https://xn--sr8hvo.ws/previous), [next](https://xn--sr8hvo.ws/next))
+- [The Big List of Personal Websites](http://biglist.terraaeon.com/)
+- [Dead Simple Sites](https://deadsimplesites.com/)
+- [Gossip's Web](https://gossipsweb.net/)
+- [XXIIVV Webring](https://webring.xxiivv.com/#zinzy)
+- [The Forest](https://theforest.link/)
+- [_People and Blogs_ interview with Manuel Moreale](https://manuelmoreale.com/pb-zinzy)
+

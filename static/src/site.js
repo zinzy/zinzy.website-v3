@@ -124,3 +124,10 @@ const dateString = dateElement.getAttribute('data-date');
 
 // Convert to relative date and update the span content
 dateElement.textContent = timeAgo(dateString);
+
+
+fetch('https://api.github.com/repos/zinzy/zinzy.website-v3/commits?per_page=1')
+  .then(res => res.json())
+  .then(res => {
+    document.getElementById('message').innerHTML = res[0].commit.message
+  })

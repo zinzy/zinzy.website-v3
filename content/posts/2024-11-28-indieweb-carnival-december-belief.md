@@ -25,6 +25,6 @@ It's an open theme, one that I hope will inspire you to share whatever pops into
 3. Send it to me on or before December 31, 2024
 4. Use the email address zinzy {at} pm {.} me and the subject "IndieWeb Carnival on Belief"
 
-As always, I need some time to digest this theme myself. A link to my post will appear on this page. I'll publish a round-up post of submissions on January 1, 2025.
+As always, I need some time to digest this theme myself. ~~A link to my post will appear on this page. I'll publish a round-up post of submissions on January 1, 2025.~~ I was able to quickly jot down some thoughts of my own while [compiling the list](/2024/12/24/rounding-up-indieweb-carnival-december/) of submissions right before I went in for a week-long hospital stay.
 
 Thank you in advance for participating. I'm looking forward to learning from your perspective!
