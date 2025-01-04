@@ -14,7 +14,7 @@
       <div class="">
         <header class="mb-5">
           {{ if or (eq .Section "posts") (eq .Section "micro") }}
-          <time class="dt-published block mb-5" datetime="{{ .Date }}">
+          <time class="font-normal dt-published block mb-5" datetime="{{ .Date }}">
             <a href="{{ .Permalink }}"
               >{{ .Date | time.Format
               site.Params.theme_config.date_format_medium }}</a
@@ -101,7 +101,7 @@
           else }} {{ .Content }} {{ end }}
         </content>
       </div>
-      <div class="mt-5">{{ partial "tags.html" .}}</div>
+      <!-- <div class="mt-5">{{ partial "tags.html" .}}</div> -->
     </li>
     {{ end }}
   </ul>

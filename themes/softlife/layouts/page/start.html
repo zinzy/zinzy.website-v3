@@ -70,7 +70,7 @@
           {{ $url := (index $value.Pages 0).Date.Format "2006" | urlize }}
           <li class="flex">
             <a href="/{{ $url }}" class="text-secondary">{{ .Key }}</a>
-            <span class="mx-3 text-gray-300 dark:text-zinc-600">/</span>
+            <span class="mx-3 text-neutral-300 dark:text-zinc-600">/</span>
           
             <ul class="grid grid-cols-12 gap-1 grow">
               {{ range $value.GroupByDate "01" "$value" "asc" }}

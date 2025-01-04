@@ -109,11 +109,11 @@
   </article>
   <div class="my-20">{{ partial "tags.html" .}}</div>
 
-  <div class="my-20">
+  <!-- <div class="my-20">
     {{ $re := .RelPermalink }} {{ $backlinks := slice }} {{ range
     .Site.RegularPages }} {{ if and (findRE $re .RawContent) }} {{ $backlinks =
     $backlinks | append . }} {{ end }} {{ end }} {{ if gt (len $backlinks) 0 }}
-    <h3 class="font-normal text-xl mb-5">Linking to this page</h3>
+    <h3 class="font-medium text-xl mb-5">Linking to this page</h3>
     <div class="backlinks prose prose-gray dark:prose-invert">
       <ul class="">
         {{ range $backlinks }} {{ if not .IsHome }}
@@ -127,11 +127,8 @@
       </ul>
     </div>
     {{ else }}
-    <!-- <aside>
-      <h4>No notes link to this note</h4>
-    </aside> -->
     {{ end }}
-  </div>
+  </div> -->
 
   <div class="my-20 border-t pt-5 flex justify-between">
     <p>Comments? <a href="/hello" class="underline">Say hello</a></p>

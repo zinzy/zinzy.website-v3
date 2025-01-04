@@ -44,7 +44,7 @@
               {{ with $.Site.GetPage (printf "/%s/%s" $taxonomy (urlize $tag) ) -}}
               
               <li class="inline-block m-0 p-0 bg-zinc-100 font-medium 00 dark:bg-zinc-800 mr-1 mb-2 px-2 py-1 rounded">
-                <a href="{{ .Permalink }}" class="no-underline text-gray-600 dark:text-zinc-300">{{ $tag }}</a>
+                <a href="{{ .Permalink }}" class="no-underline text-neutral-600 dark:text-zinc-300">{{ $tag }}</a>
               </li>
               {{- end -}}
             {{- end -}}
