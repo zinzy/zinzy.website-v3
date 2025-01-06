@@ -4,8 +4,8 @@
   {{ range $index, $tag := . }} {{ with $.Site.GetPage (printf "/%s/%s"
   $taxonomy (urlize $tag) ) -}}
 
-  <li class="inline-block mr-3">
-    <a href="{{ .Permalink }}" class="underline">{{ $tag }}</a>
+  <li class="inline-block first:before:content-[''] before:content-['•']">
+    <a href="{{ .Permalink }}" class="no-underline">{{ $tag }}</a>
   </li>
   {{- end -}} {{- end -}}
 </ul>

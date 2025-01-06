@@ -1967,6 +1967,26 @@ time, time a {
   }
 }
 
+.before\:ml-3::before {
+  content: var(--tw-content);
+  margin-left: 0.75rem;
+}
+
+.before\:content-\[\'\2022\'\]::before {
+  --tw-content: '•';
+  content: var(--tw-content);
+}
+
+.first\:before\:content-\[\'\2022\'\]:first-child::before {
+  --tw-content: '•';
+  content: var(--tw-content);
+}
+
+.first\:before\:content-\[\'\'\]:first-child::before {
+  --tw-content: '';
+  content: var(--tw-content);
+}
+
 .last\:border-none:last-child {
   border-style: none;
 }
