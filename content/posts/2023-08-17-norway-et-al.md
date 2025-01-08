@@ -8,11 +8,7 @@ excerpt: Our first proper holiday in four years
 categories:
 - Essays
 tags:
-  - vacation
-  - scandinavia
-  - europe
   - travel
-faces:
   - Anja
   - Lemonade
 ---

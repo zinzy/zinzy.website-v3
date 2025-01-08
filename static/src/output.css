@@ -1061,7 +1061,7 @@ video {
 }
 
 .prose-gray {
-  --tw-prose-body: #0a0a0a;
+  --tw-prose-body: #030712;
   --tw-prose-headings: #030712;
   --tw-prose-lead: #030712;
   --tw-prose-links: #030712;
@@ -1117,6 +1117,11 @@ video {
 
 .m-0 {
   margin: 0px;
+}
+
+.-mx-60 {
+  margin-left: -15rem;
+  margin-right: -15rem;
 }
 
 .-mx-8 {
@@ -1604,6 +1609,11 @@ video {
   padding-bottom: 0.25rem;
 }
 
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
@@ -1624,6 +1634,10 @@ video {
 
 .pl-5 {
   padding-left: 1.25rem;
+}
+
+.pr-5 {
+  padding-right: 1.25rem;
 }
 
 .pt-20 {
@@ -1818,6 +1832,18 @@ body {
   font-size: 18px;
 }
 
+.text-secondary {
+  --tw-text-opacity: 1;
+  color: rgb(115 115 115 / var(--tw-text-opacity));
+}
+
+@media (prefers-color-scheme: dark) {
+  .text-secondary {
+    --tw-text-opacity: 1;
+    color: rgb(212 212 212 / var(--tw-text-opacity));
+  }
+}
+
 .container {
   max-width: 500px;
   margin-left: auto;
@@ -1967,19 +1993,36 @@ time, time a {
   }
 }
 
-.before\:ml-3::before {
-  content: var(--tw-content);
-  margin-left: 0.75rem;
-}
-
 .before\:content-\[\'\2022\'\]::before {
   --tw-content: '•';
   content: var(--tw-content);
 }
 
-.first\:before\:content-\[\'\2022\'\]:first-child::before {
-  --tw-content: '•';
+.after\:mx-3::after {
   content: var(--tw-content);
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
+}
+
+.after\:mx-2::after {
+  content: var(--tw-content);
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.after\:text-gray-300::after {
+  content: var(--tw-content);
+  --tw-text-opacity: 1;
+  color: rgb(209 213 219 / var(--tw-text-opacity));
+}
+
+.after\:content-\[\'\/\'\]::after {
+  --tw-content: '/';
+  content: var(--tw-content);
+}
+
+.first\:border-none:first-child {
+  border-style: none;
 }
 
 .first\:before\:content-\[\'\'\]:first-child::before {
@@ -1989,6 +2032,11 @@ time, time a {
 
 .last\:border-none:last-child {
   border-style: none;
+}
+
+.last\:after\:content-\[\'\'\]:last-child::after {
+  --tw-content: '';
+  content: var(--tw-content);
 }
 
 .hover\:border-neutral-300:hover {
@@ -2130,6 +2178,11 @@ time, time a {
 }
 
 @media (min-width: 1024px) {
+  .lg\:-mx-60 {
+    margin-left: -15rem;
+    margin-right: -15rem;
+  }
+
   .lg\:mt-0 {
     margin-top: 0px;
   }

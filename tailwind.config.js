@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  mode: 'jit',
   content: [
     "./content/*.md", 
     "./src/**/*.{html,js}",
@@ -42,7 +43,7 @@ module.exports = {
         },
         gray: {
           css: { 
-            '--tw-prose-body': theme('colors.neutral[950]'),
+            '--tw-prose-body': theme('colors.gray[950]'),
             '--tw-prose-headings': theme('colors.gray[950]'),
             '--tw-prose-lead': theme('colors.gray[950]'),
             '--tw-prose-links': theme('colors.gray[950]'),

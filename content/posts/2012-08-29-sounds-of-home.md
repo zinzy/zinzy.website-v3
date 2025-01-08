@@ -8,8 +8,6 @@ excerpt: Yesterday, as I swiped through my digital September issue of Wired, I c
 categories:
 - Essays
 tags:
-  - sound
-  - likes
   - archiving
 ---
 

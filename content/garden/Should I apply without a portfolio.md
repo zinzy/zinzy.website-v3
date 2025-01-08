@@ -2,11 +2,10 @@
 title: Should I apply without a portfolio
 share: true
 tags:
-  - mentoring-guides
+  - work
   - ux
+  - design
   - mentoring
-  - career
-  - portfolio
 ---
 
 No. 

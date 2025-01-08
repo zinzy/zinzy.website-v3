@@ -1,19 +1,14 @@
 ---
 title: "Present in action, without speculation"
 summary: "My pastors have a way with words. Bible study on Thursday, and we use every pronoun but _he_ reading Mark 6:1-13. *She's just a carpenter — Mary’s girl. Who does she think she is?* Give me a second, let me hear that again."
-draft: false
 date: 2024-07-06
-categories:
-- Essays
 tags:
-- Omek
-- community
-- bicultural
+- communities
 - bible study
-- kinfolk
 - being Black
 - heritage
-- learning Portuguese
+- language
+- hosting
 ---
 My pastors have a way with words. Bible study on Thursday, and we use every pronoun but _he_ reading Mark 6:1-13. *She's just a carpenter — Mary’s girl. We’ve known her since she was a kid. (...) Who does she think she is?* Give me a second, let me hear that again. 
 

@@ -5,13 +5,8 @@ draft: false
 title: A phone call with an old friend
 date: 2023-03-16
 excerpt: Happiness today is the ease with which the nun gives me his phone number. Paul is an old friend, or really an old friend of my ex, and we haven't spoken in eight years.
-categories:
-- Essays
 tags:
   - friends
-  - phone calls
-  - happiness
-  - catholicism
   - Christianity
 ---
 

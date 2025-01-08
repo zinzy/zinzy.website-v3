@@ -9,8 +9,6 @@ categories:
 - Essays
 tags:
   - cinema
-  - weirdness
-  - brutalism
 ---
 
 

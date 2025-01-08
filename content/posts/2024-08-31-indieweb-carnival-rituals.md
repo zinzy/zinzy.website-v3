@@ -4,13 +4,8 @@ description: ""
 date: 2024-08-31 07:33:04 +0200
 tags:
   - IndieWeb Carnival
-  - IndieWeb
   - rituals
-  - habits
-  - kindness
-  - the Other
   - mental health
-  - emotional neglect
 ---
 _[The August edition of the IndieWeb Carnival](https://tangiblelife.net/indieweb-carnival-rituals) is about rituals. Host [Steve](https://tangiblelife.net) is interested in how they shape us, how they've changed over time, and whether we like them or not._
 

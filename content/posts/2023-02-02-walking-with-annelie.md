@@ -8,12 +8,10 @@ excerpt: ""
 categories:
 - Essays
 tags:
-  - walking
   - parks
   - coffee
   - pandemic
   - friends
-  - winter
   - productivity
   - neurodivergence
 ---

@@ -5,7 +5,7 @@ draft: true
 tags:
   - typography
   - Holocaust
-  - museum
+  - museums
   - antisemitism
   - propaganda
 ---

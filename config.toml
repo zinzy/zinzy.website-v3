@@ -46,6 +46,7 @@ refLinksNotFoundURL = "/"
   garden = "/:slug/"
   year = "/:year"
   month = "/:month"
+  archive = "/archive/:year/:month/"
 
 [outputs]
   home = ['html', 'rss']

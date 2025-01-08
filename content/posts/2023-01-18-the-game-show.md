@@ -11,7 +11,6 @@ tags:
   - podcasts
   - language
   - being Black
-  - being southern
   - diversity and inclusion
 ---
 

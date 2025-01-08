@@ -12,7 +12,7 @@ tags:
   - alt text
   - design
   - work
-  - internet
+  - Internet
   - diversity and inclusion
   - language
 ---

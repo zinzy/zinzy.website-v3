@@ -9,10 +9,7 @@ categories:
 - Essays
 tags:
   - annual review
-  - lists
-  - questions
-  - community
-  - birthday
+  - communities
 ---
 
 

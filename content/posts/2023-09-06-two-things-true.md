@@ -1,18 +1,9 @@
 ---
-share: true
-section: posts
-draft: false
 title: Two things true
 excerpt: ""
 date: 2023-09-06
-categories:
-- Essays
 tags:
-  - storytelling
-  - old friends
-  - dating
   - mental health
-  - self-esteem
   - expats
 ---
 
@@ -30,7 +21,7 @@ As he was telling this story, my entire body lit up. Partially turned on, but pr
 
 Two things can be true at once, and for a moment, my experience of myself felt finely in balance. The universe can hold me as the asshole I see in myself, but also as the person whose butterfly wings can make a small change.
 
-I spent the rest of the evening meeting kind strangers. White cis gay men who wanted to join the queer meetup I run, where my friend and I met. Kinfolk, effortlessly introduced as we blew [Cat whisper](Cat%20whisper.md)s at each other.
+I spent the rest of the evening meeting kind strangers. White cis gay men who wanted to join the queer meetup I run, where my friend and I met. Kinfolk, effortlessly introduced as we blew cat whispers at each other.
 
 My friend looked stunning. An impeccable sense of style, a smile larger than the world, a citizenship bigger than we'd ever ask of him. I knew he was suspended mid-air in all sorts of areas of his life, but, looking at him, I suspected he had arrived somewhere long before any of us ever would.
 

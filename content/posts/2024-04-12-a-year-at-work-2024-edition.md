@@ -1,16 +1,11 @@
 ---
 title: "A year at work, 2024 edition"
 date: 2024-04-12
-categories:
-  - Essays
 tags:
-  - review
-  - career
-  - Gerimedica
-  - UX
-  - professional development
+  - annual review
+  - work
+  - ux
   - learners mentality
-  - how I work
 ---
 
 In a fortnight, I'll be celebrating one year of employment at Gerimedica, the healthcare technology provider I was keen to join last spring. Coincidentally, I'm working on one of my professional development goals right now: turn coworker feedback into concrete goals for the second quarter. It seems a fitting moment to reflect on the past year as a whole.

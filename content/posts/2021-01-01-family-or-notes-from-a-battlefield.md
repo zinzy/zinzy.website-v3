@@ -8,17 +8,15 @@ date: 2021-01-01
 categories:
 - Poetry
 tags:
-  - catholicism
+  - Catholicism
   - queerdom
-  - poetry
+  - poems
   - bible
   - Christmas
   - holidays
   - anti-lgbt
-  - religion
+  - Christianity
 ---
-
-
 As soon as she hands you the gift  
 you know it’s another one  
 “Trans Life Survivors”  

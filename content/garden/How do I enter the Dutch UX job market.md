@@ -2,10 +2,9 @@
 title: How do I enter the Dutch UX job market
 share: true
 tags:
-  - mentoring-guides
+  - work
   - ux
   - mentoring
-  - career
 ---
 
 I'm a Dutch native and have held employment with Dutch companies from the moment I was allowed to work. While I do I have 17 years of experience in the Dutch UX market, there may be mentors better suited to help you navigate your leap to the Netherlands.

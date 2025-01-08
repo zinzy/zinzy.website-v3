@@ -6,12 +6,9 @@ date: 2024-05-19
 categories:
   - Essays
 tags:
-  - spirituality
   - religion
   - friends
-  - bible-study
-  - mark
-  - question mark
+  - Bible
 ---
 
 "Go into all the world and proclaim the good news to the whole creation. — [Mark 16:15](https://www.biblegateway.com/passage/?search=Mark+16%3A15&version=NRSVA)

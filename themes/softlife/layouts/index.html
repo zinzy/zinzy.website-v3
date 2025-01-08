@@ -97,8 +97,8 @@
           </div>
           {{ if .Params.sidenote }}
           <div class="aside">{{ .Params.sidenote | markdownify }}</div>
-          {{ end }} {{ if .Title }} {{ .Content | strings.Truncate 210 }} {{
-          else }} {{ .Content }} {{ end }}
+          {{ end }} {{ if .Title }} {{ .Content | strings.Truncate 350 }} <a href="{{ .Permalink }}" class="underline">(Continue)</a> {{
+          else }} {{ .Content }}  {{ end }}
         </content>
       </div>
       <!-- <div class="mt-5">{{ partial "tags.html" .}}</div> -->

@@ -14,7 +14,7 @@ tags:
   - travel
   - reading
   - birthday
-  - catholicism
+  - Catholicism
   - religion
 ---
 

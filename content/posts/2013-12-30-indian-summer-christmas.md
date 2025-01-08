@@ -8,10 +8,9 @@ excerpt: ""
 categories:
 - Essays
 tags:
-  - Christmas
   - holidays
   - productivity
-  - haarlem
+  - Haarlem
 ---
 Christmas break is passing by me like it passes by an ambitious teenager. I greeted all the things I could do with great enthusiasm. Sadly, that feeling quickly turned into terror once I realised two weeks isn’t that long and I need to sleep.
 

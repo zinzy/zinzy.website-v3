@@ -8,14 +8,11 @@
     </h2>
 
     {{ if .Content }}
-    <div class="mb-20 pb-20 border-b">{{ .Content }}</div>
+      <div class="prose prose-gray dark:prose-invert">{{ .Content }}</div>
     {{ end }}
 
-    <!-- <div>{{ .Name }}</div>
-    <div>{{ .Params.kind }}</div> -->
-  </header>
 
-  <!-- {{ partial "feed_all.html" .}} -->
+  </header>
 
   <section class="mt-20">
     {{ $posts := where .Data.Pages "Type" "posts" }} {{ $micro := where
@@ -24,20 +21,23 @@
     $paginator := .Paginate $sortedfeed 7 }} {{ range $paginator.Pages }}
 
     <article class="mb-20">
-      <time class="dt-published mb-5" datetime="{{ .Date }}">
-        <a href="{{ .Permalink }}">
-          {{ if .Params.title }} {{ .Date | time.Format
-          site.Params.theme_config.date_format_date }} {{ else }} {{ .Date |
-          time.Format site.Params.theme_config.date_format_date_time }} {{ end
-          }}
-        </a>
-      </time>
-      {{ if .Params.title }}
 
-      <h2 class="text-2xl mt-0 mb-3">
-        <a href="{{ .Permalink }}">{{ .Params.title }}</a>
-      </h2>
+      <header class="mb-5">
+        <time class="dt-published" datetime="{{ .Date }}">
+          <a href="{{ .Permalink }}">
+            {{ .Date |
+              time.Format site.Params.theme_config.date_format_medium }}
+          </a>
+        </time>
+        {{ if .Params.title }} 
+        <h2 class="text-2xl">
+          <a href="{{ .Permalink }}">{{ .Params.title }}</a>
+        </h2>
+        {{ end }}
 
+      </header> 
+
+      {{ if .Params.title }} 
       <div class="prose prose-gray dark:prose-invert">
         {{ .Summary }} <a href="{{ .Permalink }}">(Continue)</a>
       </div>
@@ -103,7 +103,6 @@
       </div>
       <div class="prose prose-gray dark:prose-invert">{{ .Content }}</div>
       {{ end }}
-      <div class="mt-5">{{ partial "tags.html" .}}</div>
     </article>
 
     {{ end }} {{ partial "pagination.html" . }}

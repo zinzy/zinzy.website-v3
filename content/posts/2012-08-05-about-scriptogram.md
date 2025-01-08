@@ -8,13 +8,10 @@ excerpt: ""
 categories:
 - Essays
 tags:
-  - Scriptogram
-  - blogging
-  - Web 2.0
-  - tooling
+  - this site
+  - writing
+  - tools
 ---
-
-
 I am notorious for never grasping how many people know how much about what. To save myself from any further embarrassment I won't spend my time here telling you what the app is about. The team does that nicely over here. I do think I have something to say about what Scriptogr.am came exactly at the right time for me.
 
 As we more further down the line of Web 2.0 and slowly into the abyss that is Web 3.0, I feel the definitions of web design are evolving greatly. I remember back in the day when it was just one website out of fifty that looked really beautiful, and how I would spend many hours on the site just being surrounded by all the pretty. Now, as more and more distinct design trends are emerging, looking pretty isn't the main goal anymore. It has become a criterium. And most websites I know meet that criterium in one way or another. Now that the eyes have what they need, the user wants for the website to be up to speed with their brain.

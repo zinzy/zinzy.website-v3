@@ -8,7 +8,7 @@ excerpt: When I first learned that ‘pontifex’, Pope Francis’ Twitter accou
 categories:
 - Reflections
 tags:
-  - catholicism
+  - Catholicism
   - queerdom
   - bible
   - religion

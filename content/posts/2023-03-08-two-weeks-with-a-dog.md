@@ -9,7 +9,7 @@ categories:
 tags:
   - milestones
   - Lemonade
-  - dogs
+  - animals
   - pets
 ---
 

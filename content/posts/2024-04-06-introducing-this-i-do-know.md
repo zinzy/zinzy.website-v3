@@ -4,11 +4,7 @@ date: 2024-04-06
 categories:
   - Essays
 tags:
-  - imposter-syndrome
   - learners mentality
-  - growth-mindset
-  - movement
-  - this I do know
 ---
 
 Isn't it one of God's cruelest jokes, Manuele, our ability to feel imposter syndrome? When I read [your post](https://manuelmoreale.com/why-i-don-t-write-dev-posts) — late, obviously, because RSS feeds and I will never quite be best friends — I was struck by your openness on the matter. You feel like you don't know shit. Samesies! I suppose most of us suffer from imposter syndrome every now and then, even the famous ones to whom we compare ourselves:

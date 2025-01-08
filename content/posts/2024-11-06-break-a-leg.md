@@ -4,7 +4,7 @@ description: ""
 draft: true
 date: 2024-11-06 08:15:04 +0200
 tags:
-  - injury
+  - broken ankle
   - mindfulness
   - slow
 ---

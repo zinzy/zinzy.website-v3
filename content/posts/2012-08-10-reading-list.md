@@ -10,7 +10,6 @@ categories:
 tags:
   - comics
   - reading
-  - media
 ---
 
 

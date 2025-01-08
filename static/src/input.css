@@ -25,6 +25,10 @@ body {
 
 }
 
+.text-secondary {
+  @apply text-neutral-500 dark:text-neutral-300
+}
+
 .container {
   max-width: 500px;
   @apply mx-auto my-20 md:my-28 lg:my-40 p-0;

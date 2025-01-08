@@ -11,7 +11,7 @@ tags:
   - pets
   - neighborhood
   - friends
-  - dogs
+  - animals
 faces:
   - Lemonade
   - DJ

@@ -8,11 +8,9 @@ excerpt: ""
 categories:
 - Essays
 tags:
-  - dogs
+  - animals
   - pets
   - life changes
-  - waking early
-  - a type personality
 ---
 
 

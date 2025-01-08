@@ -8,12 +8,9 @@ categories:
 tags:
   - IndieWeb Carnival
   - Mary
-  - friendship
-  - digital relationships
-  - web
-  - Vine and Fig
+  - friendships
+  - Internet
   - queerdom
-  - chosen family
 ---
 
 The surfer, she tells me she met a woman at a 40s singles mixer. The type of woman who reschedules her flight home to Colorado so that they can have sushi in California. There's a sweetness to tales of the dating world when I'm in a monogamous relationship. I feel only a little bad about appropriating them to satisfy something which I can't put into words.

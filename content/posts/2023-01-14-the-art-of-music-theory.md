@@ -8,9 +8,8 @@ excerpt: ""
 categories:
 - Essays
 tags:
-  - music
-  - piano
-  - learning
+  - making music
+  - learners mentality
   - neurodivergence
 ---
 

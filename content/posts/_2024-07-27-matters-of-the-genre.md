@@ -4,13 +4,10 @@ description: ""
 draft: true
 date: 2024-07-27
 sidenote: ""
-categories:
-- Essays
 tags:
   - reading
-  - literary-criticism
   - books
-  - literature
+  - hosting
 ---
 A week ago, I found myself at The Black Archives / Bijlmer, a bright space full of books I had never read, and a storefront that would've made me come in even if I hadn't been invited. I was there as their Book Club's +1 to discuss [_None of the above : reflections on life beyond the binary_](https://search.worldcat.org/en/title/1394118432). Like [me](/about), it sits (un)comfortably at the intersection of being Black and non-binary. I read it with curiosity.
 

@@ -31,7 +31,7 @@ I truly hope that you don't care what kind of MacBook Pro I use, what version of
 - **[Logos Bible](https://www.logos.com/):** I love engaging in Bible study, and digging into the text a bit when I do. Logos (free version) helps me compare translations, zoom in on the history, translation or transliteration of a word, and get a deeper sense of what a text is about.
 - **[Speechify](https://speechify.com/):** I love text-to-speech software because it allows me to treat reading as a multitask activity (combined with, for example, folding laundry or cycling). I find Speechify unmatched in its originality, quality, and customer support. ([referral link](https://share.speechify.com/mz8DVrC))
 - **[Obsidian](obsidian.md/):** I love a note-taking app that doesn't hold my files hostage. Tool agnosticism is important in my workflow, and I love what Obsidian can do to a simple folder of Markdown files.
-- **[You Need a Budget (YNAB)](obsidian.md/):** Going back all the way to 2013, when life was very different, my YNAB budgetting history is revealing, enlightening, and sobering. I love using the app to keep track of our household purchases and budgets as well as my personal.
+- **[You Need a Budget (YNAB)](https://ynab.com):** Going back all the way to 2013, when life was very different, my YNAB budgetting history is revealing, enlightening, and sobering. I love using the app to keep track of our household purchases and budgets as well as my personal. (referral link](https://ynab.com/referral/?ref=yEhbbQeFpxqW5WDQ&sponsor_name=Zinzy&utm_source=customer_referral))
 
 ### Methodology
 

@@ -5,12 +5,10 @@ section: posts
 draft: false
 title: The old sharing
 excerpt: ""
-categories:
-  - Essays
 tags:
-  - internet
+  - Internet
   - IndieWeb
-  - blogging
+  - writing
 ---
 
 I am nostalgic about the way the Web used to be. I miss the handcrafted blogs that I used to visit, and the intimate windows they gave me into the lives of strangers.

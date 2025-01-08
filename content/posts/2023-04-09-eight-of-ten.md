@@ -11,10 +11,7 @@ tags:
   - religion
   - Amsterdam
   - queerdom
-  - Queer Salon
-faces:
   - Annika
-  - Howie
   - Mpho
 ---
 

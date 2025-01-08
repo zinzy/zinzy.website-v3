@@ -8,10 +8,9 @@ excerpt: "Let us meditate on us scattered sheep today, shall we? After all, if n
 categories:
 - Reflections
 tags:
-  - catholicism
+  - Catholicism
   - queerdom
-  - bible
-  - philosophy
+  - Bible
   - religion
 ---
 

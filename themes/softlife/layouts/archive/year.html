@@ -1,0 +1,10 @@
+{{ define "main" }}
+  <h1>Posts from {{ .Title }}</h1>
+  <ul>
+    {{ range .Pages.GroupByDate "January" }}
+      <li>
+        <a href="/archive/{{ .Parent.Key | urlize }}/{{ .Key | urlize }}/">{{ .Key }}</a>
+      </li>
+    {{ end }}
+  </ul>
+{{ end }}

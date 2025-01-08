@@ -5,11 +5,9 @@ draft: false
 title: Notes on my web mastery
 date: 2022-11-26
 excerpt: Recently, I've been making some great progress with my personal website. While I normally don't engage in technical ballets on the goings-on of this website, I feel it's relevant to document what I've learnt and done, if only for posterity.
-categories:
-  - Essays
 tags:
   - IndieWeb
-  - meta
+  - this site
 ---
 
 Recently, I've been making some great progress with my personal website. While I normally don't engage in technical ballets on the goings-on of this website, I feel it's relevant to document what I've learnt and done, if only for posterity.

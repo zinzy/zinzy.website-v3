@@ -5,13 +5,11 @@ draft: false
 title: Dear Nienke, you should have a website
 date: 2023-04-26
 excerpt: ""
-categories:
-  - Essays
 tags:
+  - Nienke
   - friends
   - IndieWeb
-  - personal archiving
-  - letters
+  - archiving
 ---
 
 Every time I embark on a journey towards a published post about why it's good to have a website, I get lost in the reality of personal details. Everyone has different reasons for believing something. Aiming to take them all into account doesn't help me write anything that feels worthwhile and not like a derivative[^1].

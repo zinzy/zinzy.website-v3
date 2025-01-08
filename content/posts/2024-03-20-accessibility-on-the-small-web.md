@@ -6,8 +6,7 @@ categories:
 tags:
   - IndieWeb Carnival
   - accessibility
-  - small web
-  - questions
+  - Internet
   - design
   - inclusion
 ---

@@ -10,9 +10,7 @@ categories:
 tags:
   - activism
   - climate justice
-  - Israel-Hamas War
   - intersectionality
-  - solidarity
 ---
 
 Yesterday at the Climate March, someone shouted ["From the river to the sea, Palestine will be free"](https://en.wikipedia.org/wiki/From_the_river_to_the_sea#Criticism). It was an unfortunate thing. A clean example of the climate changing instantaneously among 85,000 activists.

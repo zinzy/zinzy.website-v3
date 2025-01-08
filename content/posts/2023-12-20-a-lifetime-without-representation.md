@@ -4,12 +4,10 @@ section: posts
 draft: false
 title: A lifetime without representation
 date: 2023-12-20
-excerpt: ""
-categories:
-  - Essays
 tags:
-  - website
+  - this site
   - IndieWeb
+  - discrimination
 ---
 
 My friend and I reunite after 18 months. I missed him dearly, but once we sit down for ramen we can both tell it's like we were there yesterday. I talk about him often. He's the person who was so discombobulated by [Dutch white innocence](https://www.goodreads.com/en/book/show/26029077), that he felt more comfortable going back to the Middle East to live in the closet. He's doing better now. No more crack, and the spinning class is surprisingly inclusive. He even joined a theatre group.

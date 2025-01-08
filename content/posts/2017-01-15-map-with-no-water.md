@@ -2,15 +2,7 @@
 title: "Map With No Water"
 date: 2017-01-15 09:27:23 +0200
 tags:
-  - rijksmuseum
-  - rijksstudio
-  - art
-  - competition
-  - Photoshop
-  - water
-  - sky
-  - paintings
-  - fine art
+  - things I've made
 ---
 
 ![Art piece of a map of Amsterdam made up of snippets of sky in place where bodies of waters are](/img/photos/2017-01-15.png)

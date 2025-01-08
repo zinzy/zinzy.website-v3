@@ -4,7 +4,6 @@ date: 2024-11-28 17:15:04 +0200
 tags:
   - IndieWeb
   - IndieWeb Carnival
-  - belief
   - hosting
 ---
 

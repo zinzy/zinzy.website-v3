@@ -9,12 +9,9 @@ categories:
 - Weeknotes
 tags:
   - weeknotes
-  - restaurants
   - reading
-  - judaism
+  - Judaism
   - documentaries
-  - photographers
-  - poets
 ---
 - If you ever happen to find yourself in the sleepy fishing town of IJmuiden: the fish, service, atmosphere, and cheesecake in the fish restaurant [De Meerplaats](http://www.meerplaats.nl/) are all very pleasant.
 - For my birthday, [Erica Bouma](http://www.zinnigverhaal.nl/) gave me _Jesus_ by rebel theologian Hans Küng. It’s a great and easy read — a recommendation for anybody interested in the history of Christianity.

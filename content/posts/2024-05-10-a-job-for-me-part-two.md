@@ -5,15 +5,12 @@ date: 2024-05-10
 categories:
   - Essays
 tags:
-  - career
   - ux
   - mentoring
   - work
   - design
   - neurodivergence
-  - system thinking
   - IndieWeb Carnival
-  - series
 ---
 
 This is my very, very late submission to [April's IndieWeb Carnival topic](https://risingthumb.xyz/Writing/Blog/IndieWeb_Carnival_of_April). It's also [part two of a reflection](/2024/04/20/a-job-for-me-part-one/) on a conversation I had with a neurodivergent designer from Denmark. She asked me: how can I be promoted to the all-star Core Team at work, the one that works across products and teams?

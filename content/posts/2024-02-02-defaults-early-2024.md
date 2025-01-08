@@ -1,14 +1,8 @@
 ---
 title: "Defaults: early 2024 edition"
 sidenote: Things change, so does my opinion. It turns out I like the idea of a status [/uses](/uses) page better.
-section: posts
-share: true
 date: 2024-02-02
 tags:
-  - app defaults
-  - software
-  - recommendations
-  - uses
   - tools
 ---
 

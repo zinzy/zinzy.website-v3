@@ -8,7 +8,7 @@ date: 2020-09-25
 categories:
 - Reflections
 tags:
-  - catholicism
+  - Catholicism
   - queerdom
   - bible
   - religion

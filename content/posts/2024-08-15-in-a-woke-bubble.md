@@ -3,10 +3,8 @@ title: "In a woke bubble"
 description: ""
 date: 2024-08-15 19:39:04 +0200
 tags:
-  - woke
-  - judaism
+  - Judaism
   - antisemitism
-  - Israel-Hamas War
   - being Black
   - Anja
 ---

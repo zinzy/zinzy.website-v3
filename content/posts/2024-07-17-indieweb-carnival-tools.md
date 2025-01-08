@@ -3,14 +3,9 @@ title: "IndieWeb Carnival: Tools"
 summary: ""
 draft: false
 date: 2024-07-17
-categories:
-  - Essays
 tags:
-  - IndieWeb
   - IndieWeb Carnival
   - tools
-  - Filofax
-  - office supplies
 ---
 _[The July edition of the IndieWeb Carnival](https://jamesg.blog/2024/07/01/indieweb-carnival-tools/) is about tools. Host [James](https://jamesg.blog/) is interested in the relationship between tools and our creative practices._
 

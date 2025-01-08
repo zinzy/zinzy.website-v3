@@ -2,19 +2,12 @@
 title: "Five recent UX uses for AI"
 summary: "There's a reason I keep thinking Millennials are the new Boomers, and that reason is me. Here are some thoughts on how I finally came to welcome AI as a friendly member of my UX toolkit."
 date: 2024-05-17
-categories:
-  - Essays
 tags:
-  - career
   - ux
   - mentoring
   - work
   - design
-  - ai
-  - chatgpt
-  - soft skills
-  - hard-skills
-  - professional development
+  - artificial intelligence
 ---
 
 "Have you heard of [Pi.ai](https://pi.ai/)?" my mentee [Gabriela](https://www.linkedin.com/in/gabrielaroestandy/) asked me during her mini internship at the office. She's a clever woman; a newbie in the UX field with the technical resourcefulness of a Gen Z-er, and experience working with quantitative data. I inquired how she thought I should cultivate buy-in for a metrics project. Of course her response was to ask a chatbot.

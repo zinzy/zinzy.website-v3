@@ -11,9 +11,7 @@ faces:
 categories:
 - Essays
 tags:
-  - milestones
-  - addiction
-  - recovery
+  - sobriety
   - life changes
 ---
 

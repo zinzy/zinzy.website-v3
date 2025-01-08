@@ -8,11 +8,8 @@ categories:
 tags:
   - inclusion
   - expats
-  - work environment
-  - office culture
-  - language learning
-  - linguistics
-  - coworkers
+  - work
+  - language
   - friends
 ---
 

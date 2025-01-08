@@ -10,7 +10,6 @@ tags:
   - pride
   - queerdom
   - childhood
-  - numbing
   - mental health
 ---
 Nothing ungovernable, it's more like a hum. The hum of _I'm not feeling at my best_, of _can't get that argument out of my head_, of _what if, what if, what if_; a hum that I eventually forget is there at all, even though it never ceases to soundtrack my every move.

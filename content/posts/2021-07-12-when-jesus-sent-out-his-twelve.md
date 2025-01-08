@@ -8,7 +8,7 @@ excerpt: ""
 categories:
 - Reflections
 tags:
-  - catholicism
+  - Catholicism
   - queerdom
   - anti-lgbt
   - bible

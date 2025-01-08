@@ -4,12 +4,8 @@ description: ""
 draft: false
 date: 2024-12-01 10:15:04 +0200
 tags:
-  - IndieWeb
   - IndieWeb Carnival
-  - impact
-  - personality
-  - glitter
-  - poem
+  - poems
 ---
 
 _[The November edition of the IndieWeb Carnival](https://library.xandra.cc/indieweb-carnival/) is about impact. Host [Xandra](https://xandra.cc/) invites us to reflect on, among other things, "what has made the biggest impact on your personality?"_

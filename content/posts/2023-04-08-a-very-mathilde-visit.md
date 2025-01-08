@@ -10,9 +10,6 @@ categories:
 - Essays
 tags:
   - friends
-  - pets
-  - weekends
-faces:
   - Anja
   - Lemonade
   - Mathilde

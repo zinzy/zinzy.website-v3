@@ -3,8 +3,6 @@ title: "A list of lists"
 description: ""
 date: 2009-04-11 19:39:04 +0200
 tags:
-  - lists
-  - nope
   - queerdom
 ---
 

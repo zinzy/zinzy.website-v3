@@ -2,13 +2,10 @@
 title: "Rounding up IndieWeb Carnival December"
 date: 2024-12-24 09:52:01 +0200
 tags:
-  - injury
+  - broken ankle
   - anxiety
   - hosting
   - IndieWeb Carnival
-  - belief
-  - God
-  - The Office (US)
 ---
 When I introduced this month's [IndieWeb Carnival](https://indieweb.org/indieweb-carnival) theme [belief](/2024/11/28/indieweb-carnival-december-2024-belief/), I was terribly excited to take a quiet Saturday morning and really put together a beautiful piece on how I relate to the theme. 
 

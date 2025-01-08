@@ -6,12 +6,10 @@ date: 2024-02-04
 categories:
   - Essays
 tags:
-  - vibechecks
-  - Church
+  - church
   - IndieWeb
-  - recovery
+  - sobriety
   - music
-  -
 ---
 
 ### Introduction
