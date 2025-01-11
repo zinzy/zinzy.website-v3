@@ -23,7 +23,7 @@
         datetime="{{ .Date }}"
       >
         <a href="{{ .Permalink }}"
-          >{{ .Date | time.Format site.Params.theme_config.date_format_date_time
+          >{{ .Date | time.Format site.Params.theme_config.date_format_medium
           }}</a
         >
       </time>
@@ -99,7 +99,6 @@
 
       <div class="prose prose-gray dark:prose-invert">{{ .Content }}</div>
       {{ end }}
-      <div class="mt-5">{{ partial "tags.html" .}}</div>
     </article>
 
     {{ end }}

@@ -13,6 +13,8 @@ Here's one fact that never fails to bring shock, surprise, confusion, or mild di
 
 As an infant, I was baptized in the Dutch Catholic Church. At home, there was little interest in dogma, but I would say I grew up culturally Catholic: Church on Christmas and maybe Easter, children's prayers before bed, general lean towards feelings of guilt, on occasion a traumatized uncle would let rip on his time as an orphan living with the friars. The usual stuff.
 
+All throughout my life, I drifted, both between communities and spiritual belonging. I tried out various Protestant congregations, found a Catholic church I loved despite the Church's lack of inclusion, [did my confirmation at a Mennonite church](/2015/03/29/confession/), and even took a few Jewish conversion classes after Anja and I had settled down. Nothing really ever felt like I truly belonged there, until I found All Saints.
+
 ### Today, I call myself:
 
 - **Non-literal and non-dogmatic:** I take the Bible too seriously to take it literally, and instead apply different reading techniques to find something new in it, again and again

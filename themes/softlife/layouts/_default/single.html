@@ -2,6 +2,7 @@
 
 <div class="">
   <article class="h-entry">
+
     <header class="">
       {{ if or (eq .Section "posts") (eq .Section "micro") }}
       <time class="dt-published mb-5" datetime="{{ .Date }}">
@@ -9,7 +10,6 @@
           >{{ .Date | time.Format site.Params.theme_config.date_format_date_time
           }}</a
         >
-        
       </time>
       {{ else }}{{ end }} {{ if .Params.title }}
       <h2 class="p-name text-2xl mt-5 mb-10 md:mb-20">
@@ -106,8 +106,23 @@
         {{ .Params.sidenote | markdownify }}
       </div>
       {{ end }} {{- partial "content_wikified" . -}}
+
+      
     </content>
   </article>
+
+ 
+  {{ if .Params.songs }}
+  <ul class="mt-10">
+    {{ range .Params.songs }}
+      <li class="flex justify-between border-b last:border-none py-2">
+        <span>{{ .title }}</span>
+        <span class="text-secondary">by {{ .artist }}</span>
+      </li>
+    {{ end }}
+  </ul>
+{{ end }}
+
   <div class="my-20">{{ partial "tags.html" .}}</div>
 
   <!-- <div class="my-20">

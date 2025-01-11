@@ -41,6 +41,10 @@
   <link rel="token_endpoint" href="https://tokens.indieauth.com/token" /> 
   <link rel="micropub" href="https://micropub-zinzy.netlify.app/micropub" />
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
   
 
   
@@ -55,8 +59,8 @@
 
   
 </head>
-<div id="top" class="hidden"></div>
-    <body class="p-5 min-h-full bg-white dark:bg-neutral-950" a="auto"><header class="">
+<div id="top" class="hidden scroll-smooth"></div>
+    <body class="p-5 min-h-full antialiased bg-white dark:bg-neutral-900" a="auto"><header class="">
   <nav>
     <ul class="space-x-4"> 
       <li class="inline-block"><a href="/">Log</a></li>
@@ -69,16 +73,17 @@
 <div class="container"> 
 
             <main class="" aria-label="Content">
-                <div class=""> 
+                <div class="mt-60"> 
 
 
 <div class="">
   <article class="h-entry">
+
     <header class="">
       
       <time class="dt-published mb-5" datetime="2023-01-21 00:00:00 &#43;0000 UTC">
         <a href="https://zinzy.website/2023/01/21/love-actually-once-again/"
-          >Jan 21, 2023</a
+          >Jan 21, 2023, 12:00 AM</a
         >
       </time>
        
@@ -92,6 +97,8 @@
         <a href="/" class="u-url p-name">Zinzy Waleson Geene</a>
       </div>
     </header>
+ 
+    
 
       
 
@@ -120,22 +127,18 @@
   <div class="my-20"> 
 
 <ul class="tags inline-block p-0 mt-0 text-sm">
-   <li class="inline-block mr-3">
-    <a href="https://zinzy.website/tags/cinema/" class="underline">cinema</a>
-  </li> <li class="inline-block mr-3">
-    <a href="https://zinzy.website/tags/reviews/" class="underline">reviews</a>
-  </li> <li class="inline-block mr-3">
-    <a href="https://zinzy.website/tags/fatphobia/" class="underline">fatphobia</a>
+   <li class="inline-block first:before:content-[''] before:content-['•']">
+    <a href="https://zinzy.website/tags/cinema/" class="no-underline">cinema</a>
+  </li> <li class="inline-block first:before:content-[''] before:content-['•']">
+    <a href="https://zinzy.website/tags/reviews/" class="no-underline">reviews</a>
+  </li> <li class="inline-block first:before:content-[''] before:content-['•']">
+    <a href="https://zinzy.website/tags/fatphobia/" class="no-underline">fatphobia</a>
   </li></ul>
 
 
 </div>
 
-  <div class="my-20">
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
-    
-    
-  </div>
+  
 
   <div class="my-20 border-t pt-5 flex justify-between">
     <p>Comments? <a href="/hello" class="underline">Say hello</a></p>
@@ -154,8 +157,8 @@
          
  
         </div><footer class="">
-  <p class="mt-5 text-secondary">
-    <span class="h-card hidden">
+  <p class="hidden">
+    <span class="h-card">
       <span class="hidden p-honorific-prefix">Mx.</span>
       <span class="p-given-name">Zinzy</span>
       <span class="p-family-name">Waleson Geene</span>,
@@ -189,7 +192,11 @@
   </p>
 
   <div class="flex justify-between mt-5">
-    
+    <ul class="leading-7">
+      <li class="inline-block"><a href="/#top">Top ↑</a> <span class="text-secondary">·</span></li>
+      <li class="inline-block"><a href="">Home</a> <span class="text-secondary">·</span></li>
+      <li class="inline-block"><a href=""><a href="/hello" class="underline">Respond to this</a></a></li>
+    </ul>
     <a
       href="https://webring.xxiivv.com/#zinzy"
       target="_blank"
@@ -206,7 +213,7 @@
         <g clip-path="url(#clip0_2_7)">
           <path
             d="M23.9283 23C24.9891 21.1625 25.2766 18.9789 24.7275 16.9294C24.1783 14.88 22.8375 13.1326 21 12.0717C19.1625 11.0109 16.9789 10.7234 14.9294 11.2726C12.88 11.8217 11.1326 13.1625 10.0717 15L3.40507 26.5471M10.0717 23C10.597 23.9098 11.2964 24.7073 12.1299 25.3469C12.9633 25.9864 13.9146 26.4555 14.9294 26.7275C15.9442 26.9994 17.0026 27.0687 18.0442 26.9316C19.0858 26.7945 20.0902 26.4536 21 25.9283C21.9098 25.403 22.7073 24.7036 23.3469 23.8702C23.9864 23.0367 24.4555 22.0854 24.7275 21.0706C24.9994 20.0558 25.0687 18.9974 24.9316 17.9558C24.7945 16.9142 24.4536 15.9098 23.9283 15L17.2616 3.45294M17 11C14.8783 11 12.8434 11.8429 11.3431 13.3432C9.84286 14.8434 9 16.8783 9 19C9 21.1217 9.84286 23.1566 11.3431 24.6569C12.8434 26.1572 14.8783 27 17 27H30.3333"
-            class="stroke-gray-950 group-hover:stroke-zinc-600 dark:stroke-zinc-50 dark:hover:stroke-zinc-200 dark:group-hover:stroke-zinc-300"
+            class="stroke-neutral-950 group-hover:stroke-zinc-600 dark:stroke-zinc-50 dark:hover:stroke-zinc-200 dark:group-hover:stroke-zinc-300"
             stroke-width="3"
             stroke-linecap="square"
           />
@@ -217,10 +224,7 @@
           </clipPath>
         </defs>
       </svg>
-    </a>
-    <span class="leading-7">
-      <a href="/hello" class="underline">Respond to this</a></span
-    >
+    </a> 
   </div>
 </footer>
 <ul class="h-card hidden">

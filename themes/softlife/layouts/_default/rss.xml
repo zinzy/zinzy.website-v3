@@ -66,29 +66,34 @@
       <item>
         <title>{{ .Title }}</title>
         <link>{{ .Permalink }}</link>
-        <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
+        <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0200" | safeHTML }}</pubDate>
         {{- with $authorEmail }}<author>{{ . }}{{ with $authorName }} ({{ . }}){{ end }}</author>{{ end }}
         <guid>{{ .Permalink }}</guid>
         <description>{{ .Content | html }}
+          <hr/>
           <p>Thank you for using RSS.</p>
-          <p><a href="https://zinzy.website/about">About me</a> | 
+          <p>
+          <a href="mailto:zinzy+reply@pm.me?subject=RE: {{ .Title }}">Reply via email</a> | 
+          <a href="https://zinzy.website/about">About me</a> | 
           <a href="https://zinzy.website/hello">Say hello</a> | 
           <a href="https://ko-fi.com/zinzy">Say thanks</a> | 
-          <a href="https://www.zinzy.website/bookmarks/">Who I'm following</a></p>
+          <a href="https://www.zinzy.website/bookmarks/">Who I'm reading</a></p>
         </description>
       </item>
       {{else}}
       <item>
         <title>No title</title>
         <link>{{ .Permalink }}</link>
-        <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
+        <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 +0200" | safeHTML }}</pubDate>
         {{- with $authorEmail }}<author>{{ . }}{{ with $authorName }} ({{ . }}){{ end }}</author>{{ end }}
         <guid>{{ .Permalink }}</guid>
         <description>
         {{ .Content | html }}
 
         <p>Thank you for using RSS.</p>
-        <p><a href="https://zinzy.website/about">About me</a> | 
+        <p>
+        <a href="mailto:zinzy+reply@pm.me?subject=RE:">Reply via email</a> | 
+        <a href="https://zinzy.website/about">About me</a> | 
         <a href="https://zinzy.website/hello">Say hello</a> | 
         <a href="https://ko-fi.com/zinzy">Say thanks</a> | 
         <a href="https://www.zinzy.website/bookmarks/">Who I'm following</a></p>

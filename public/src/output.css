@@ -46,7 +46,7 @@ html,
   -o-tab-size: 4;
      tab-size: 4;
   /* 3 */
-  font-family: Inter, ui-rounded, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   /* 4 */
   font-feature-settings: normal;
   /* 5 */
@@ -1079,20 +1079,20 @@ video {
   --tw-prose-pre-bg: #030712;
   --tw-prose-th-borders: #030712;
   --tw-prose-td-borders: #030712;
-  --tw-prose-invert-body: #a3a3a3;
-  --tw-prose-invert-headings: #fff;
-  --tw-prose-invert-lead: #d4d4d4;
-  --tw-prose-invert-links: #fff;
-  --tw-prose-invert-bold: #fff;
-  --tw-prose-invert-counters: #d4d4d4;
-  --tw-prose-invert-bullets: #d4d4d4;
-  --tw-prose-invert-hr: #525252;
-  --tw-prose-invert-quotes: #d4d4d4;
+  --tw-prose-invert-body: #d1d5db;
+  --tw-prose-invert-headings: #d1d5db;
+  --tw-prose-invert-lead: #d1d5db;
+  --tw-prose-invert-links: #d1d5db;
+  --tw-prose-invert-bold: #d1d5db;
+  --tw-prose-invert-counters: #d1d5db;
+  --tw-prose-invert-bullets: #d1d5db;
+  --tw-prose-invert-hr: #4b5563;
+  --tw-prose-invert-quotes: #d1d5db;
   --tw-prose-invert-quote-borders: #404040;
-  --tw-prose-invert-captions: #fff;
+  --tw-prose-invert-captions: #d1d5db;
   --tw-prose-invert-kbd: #fff;
   --tw-prose-invert-kbd-shadows: 255 255 255;
-  --tw-prose-invert-code: #fff;
+  --tw-prose-invert-code: #f3f4f6;
   --tw-prose-invert-pre-code: #d4d4d4;
   --tw-prose-invert-pre-bg: rgb(0 0 0 / 50%);
   --tw-prose-invert-th-borders: #262626;
@@ -1258,6 +1258,10 @@ video {
   margin-top: 1.25rem;
 }
 
+.mt-60 {
+  margin-top: 15rem;
+}
+
 .block {
   display: block;
 }
@@ -1362,6 +1366,10 @@ video {
   flex: none;
 }
 
+.flex-1 {
+  flex: 1 1 0%;
+}
+
 .grow {
   flex-grow: 1;
 }
@@ -1392,6 +1400,10 @@ video {
 
 .place-content-center {
   place-content: center;
+}
+
+.place-content-between {
+  place-content: space-between;
 }
 
 .content-center {
@@ -1522,16 +1534,16 @@ video {
   background-color: rgb(244 244 245 / var(--tw-bg-opacity));
 }
 
-.fill-gray-200 {
-  fill: #e5e7eb;
+.fill-neutral-200 {
+  fill: #e5e5e5;
 }
 
-.fill-gray-600 {
-  fill: #4b5563;
+.fill-neutral-600 {
+  fill: #525252;
 }
 
-.fill-gray-950 {
-  fill: #030712;
+.fill-neutral-950 {
+  fill: #0a0a0a;
 }
 
 .fill-red-300 {
@@ -1546,8 +1558,8 @@ video {
   fill: #3f3f46;
 }
 
-.stroke-gray-950 {
-  stroke: #030712;
+.stroke-neutral-950 {
+  stroke: #0a0a0a;
 }
 
 .object-cover {
@@ -1600,6 +1612,11 @@ video {
   padding-bottom: 0.25rem;
 }
 
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
@@ -1622,6 +1639,10 @@ video {
   padding-left: 1.25rem;
 }
 
+.pr-5 {
+  padding-right: 1.25rem;
+}
+
 .pt-20 {
   padding-top: 5rem;
 }
@@ -1636,6 +1657,10 @@ video {
 
 .font-mono {
   font-family: SF Mono, monospace;
+}
+
+.font-sans {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
 }
 
 .text-2xl {
@@ -1676,10 +1701,6 @@ video {
   font-weight: 400;
 }
 
-.font-semibold {
-  font-weight: 600;
-}
-
 .uppercase {
   text-transform: uppercase;
 }
@@ -1704,34 +1725,29 @@ video {
   line-height: 1.625;
 }
 
-.text-gray-300 {
+.text-neutral-300 {
   --tw-text-opacity: 1;
-  color: rgb(209 213 219 / var(--tw-text-opacity));
+  color: rgb(212 212 212 / var(--tw-text-opacity));
 }
 
-.text-gray-400 {
+.text-neutral-400 {
   --tw-text-opacity: 1;
-  color: rgb(156 163 175 / var(--tw-text-opacity));
+  color: rgb(163 163 163 / var(--tw-text-opacity));
 }
 
-.text-gray-500 {
+.text-neutral-500 {
   --tw-text-opacity: 1;
-  color: rgb(107 114 128 / var(--tw-text-opacity));
+  color: rgb(115 115 115 / var(--tw-text-opacity));
 }
 
-.text-gray-600 {
+.text-neutral-600 {
   --tw-text-opacity: 1;
-  color: rgb(75 85 99 / var(--tw-text-opacity));
+  color: rgb(82 82 82 / var(--tw-text-opacity));
 }
 
-.text-gray-700 {
+.text-neutral-700 {
   --tw-text-opacity: 1;
-  color: rgb(55 65 81 / var(--tw-text-opacity));
-}
-
-.text-gray-950 {
-  --tw-text-opacity: 1;
-  color: rgb(3 7 18 / var(--tw-text-opacity));
+  color: rgb(64 64 64 / var(--tw-text-opacity));
 }
 
 .text-neutral-950 {
@@ -1767,6 +1783,11 @@ video {
   text-decoration-line: none;
 }
 
+.antialiased {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 .opacity-55 {
   opacity: 0.55;
 }
@@ -1782,223 +1803,48 @@ video {
   transition-duration: 150ms;
 }
 
-/**
-* @license
-*
-* Font Family: Sentient
-* Designed by: Noopur Choksi
-* URL: https://www.fontshare.com/fonts/sentient
-* © 2025 Indian Type Foundry
-*
-* Sentient Extralight 
-* Sentient ExtralightItalic 
-* Sentient Light 
-* Sentient LightItalic 
-* Sentient Regular 
-* Sentient Italic 
-* Sentient Medium 
-* Sentient MediumItalic 
-* Sentient Bold 
-* Sentient BoldItalic 
-* Sentient Variable (Variable font)
-* Sentient VariableItalic (Variable font)
-
-*
-*/
-
-@font-face {
-  font-family: 'Sentient-Extralight';
-
-  src: url('../fonts/Sentient-Extralight.woff2') format('woff2'),
-       url('../fonts/Sentient-Extralight.woff') format('woff'),
-       url('../fonts/Sentient-Extralight.ttf') format('truetype');
-
-  font-weight: 200;
-
-  font-display: swap;
-
-  font-style: normal;
+.font-sans {
+  /* @apply tracking-wider; */
 }
 
-@font-face {
-  font-family: 'Sentient-ExtralightItalic';
-
-  src: url('../fonts/Sentient-ExtralightItalic.woff2') format('woff2'),
-       url('../fonts/Sentient-ExtralightItalic.woff') format('woff'),
-       url('../fonts/Sentient-ExtralightItalic.ttf') format('truetype');
-
-  font-weight: 200;
-
-  font-display: swap;
-
-  font-style: italic;
-}
-
-@font-face {
-  font-family: 'Sentient-Light';
-
-  src: url('../fonts/Sentient-Light.woff2') format('woff2'),
-       url('../fonts/Sentient-Light.woff') format('woff'),
-       url('../fonts/Sentient-Light.ttf') format('truetype');
-
-  font-weight: 300;
-
-  font-display: swap;
-
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Sentient-LightItalic';
-
-  src: url('../fonts/Sentient-LightItalic.woff2') format('woff2'),
-       url('../fonts/Sentient-LightItalic.woff') format('woff'),
-       url('../fonts/Sentient-LightItalic.ttf') format('truetype');
-
-  font-weight: 300;
-
-  font-display: swap;
-
-  font-style: italic;
-}
-
-@font-face {
-  font-family: 'Sentient-Regular';
-
-  src: url('../fonts/Sentient-Regular.woff2') format('woff2'),
-       url('../fonts/Sentient-Regular.woff') format('woff'),
-       url('../fonts/Sentient-Regular.ttf') format('truetype');
-
-  font-weight: 400;
-
-  font-display: swap;
-
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Sentient-Italic';
-
-  src: url('../fonts/Sentient-Italic.woff2') format('woff2'),
-       url('../fonts/Sentient-Italic.woff') format('woff'),
-       url('../fonts/Sentient-Italic.ttf') format('truetype');
-
-  font-weight: 400;
-
-  font-display: swap;
-
-  font-style: italic;
-}
-
-@font-face {
-  font-family: 'Sentient-Medium';
-
-  src: url('../fonts/Sentient-Medium.woff2') format('woff2'),
-       url('../fonts/Sentient-Medium.woff') format('woff'),
-       url('../fonts/Sentient-Medium.ttf') format('truetype');
-
-  font-weight: 500;
-
-  font-display: swap;
-
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Sentient-MediumItalic';
-
-  src: url('../fonts/Sentient-MediumItalic.woff2') format('woff2'),
-       url('../fonts/Sentient-MediumItalic.woff') format('woff'),
-       url('../fonts/Sentient-MediumItalic.ttf') format('truetype');
-
-  font-weight: 500;
-
-  font-display: swap;
-
-  font-style: italic;
-}
-
-@font-face {
-  font-family: 'Sentient-Bold';
-
-  src: url('../fonts/Sentient-Bold.woff2') format('woff2'),
-       url('../fonts/Sentient-Bold.woff') format('woff'),
-       url('../fonts/Sentient-Bold.ttf') format('truetype');
-
-  font-weight: 700;
-
-  font-display: swap;
-
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Sentient-BoldItalic';
-
-  src: url('../fonts/Sentient-BoldItalic.woff2') format('woff2'),
-       url('../fonts/Sentient-BoldItalic.woff') format('woff'),
-       url('../fonts/Sentient-BoldItalic.ttf') format('truetype');
-
-  font-weight: 700;
-
-  font-display: swap;
-
-  font-style: italic;
-}
-
-/**
-* This is a variable font
-* You can control variable axes as shown below:
-* font-variation-settings: wght 700.0wght 400.0;
-*
-* available axes:
-'wght' (range from 200.0 to 700.0'wght' (range from 200.0 to 700.0
-*/
-
-@font-face {
-  font-family: 'Sentient-Variable';
-
-  src: url('../fonts/Sentient-Variable.woff2') format('woff2'),
-       url('../fonts/Sentient-Variable.woff') format('woff'),
-       url('../fonts/Sentient-Variable.ttf') format('truetype');
-
-  font-weight: 200 700;
-
-  font-display: swap;
-
-  font-style: normal;
-}
-
-/**
-* This is a variable font
-* You can control variable axes as shown below:
-* font-variation-settings: wght 700.0wght 400.0;
-*
-* available axes:
-'wght' (range from 200.0 to 700.0'wght' (range from 200.0 to 700.0
-*/
-
-@font-face {
-  font-family: 'Sentient-VariableItalic';
-
-  src: url('../fonts/Sentient-VariableItalic.woff2') format('woff2'),
-       url('../fonts/Sentient-VariableItalic.woff') format('woff'),
-       url('../fonts/Sentient-VariableItalic.ttf') format('truetype');
-
-  font-weight: 200 700;
-
-  font-display: swap;
-
-  font-style: italic;
+.font-serif {
+  letter-spacing: -0.025em;
 }
 
 body {
-  font-family: 'Sentient-Regular', serif;
-  font-size: 19px;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  --tw-text-opacity: 1;
+  color: rgb(10 10 10 / var(--tw-text-opacity));
+  /* @apply tracking-wider; */
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    --tw-text-opacity: 1;
+    color: rgb(245 245 245 / var(--tw-text-opacity));
+  }
+}
+
+body {
+  font-size: 18px;
 }
 
 .prose {
-  font-family: Georgia, -apple-system, system-ui, Segoe UI, Helvetica, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, sans-serif;
+  font-family: Libre Baskerville, -apple-system, system-ui, Segoe UI, Helvetica, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, sans-serif;
+  letter-spacing: -0.025em;
+  font-size: 18px;
+}
+
+.text-secondary {
+  --tw-text-opacity: 1;
+  color: rgb(115 115 115 / var(--tw-text-opacity));
+}
+
+@media (prefers-color-scheme: dark) {
+  .text-secondary {
+    --tw-text-opacity: 1;
+    color: rgb(212 212 212 / var(--tw-text-opacity));
+  }
 }
 
 .container {
@@ -2030,31 +1876,30 @@ body {
   list-style-type: none;
 }
 
-a, .prose :where(a):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+.prose :where(a):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
   font-weight: 400;
+  text-decoration-line: underline;
 }
 
 @media (prefers-color-scheme: dark) {
-  a, .prose :where(a):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
+  .prose :where(a):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
     --tw-text-opacity: 1;
-    color: rgb(255 255 255 / var(--tw-text-opacity));
+    color: rgb(212 212 212 / var(--tw-text-opacity));
   }
-}
-
-.prose {
-  font-size: inherit;
 }
 
 h2, h3, h4, h5, h6, 
 .prose h2, .prose h3, .prose h4, .prose h5, .prose h6 {
-  font-weight: 400;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-weight: 500;
+  /* @apply tracking-wider; */
 }
 
 @media (prefers-color-scheme: dark) {
   h2, h3, h4, h5, h6, 
 .prose h2, .prose h3, .prose h4, .prose h5, .prose h6 {
     --tw-text-opacity: 1;
-    color: rgb(255 255 255 / var(--tw-text-opacity));
+    color: rgb(245 245 245 / var(--tw-text-opacity));
   }
 }
 
@@ -2062,6 +1907,8 @@ h2, h3, h4, h5, h6,
   margin: 0px;
   border-style: none;
   padding: 0px;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  /* @apply tracking-wider; */
 }
 
 .prose blockquote p {
@@ -2069,8 +1916,8 @@ h2, h3, h4, h5, h6,
   padding: 0px;
   font-size: 1.5rem;
   line-height: 2rem;
-  font-weight: 400;
   font-style: normal;
+  font-weight: 500;
 }
 
 .prose
@@ -2099,7 +1946,34 @@ h2, h3, h4, h5, h6,
     --tw-bg-opacity: 1;
     background-color: rgb(255 255 255 / var(--tw-bg-opacity));
   }
+}
 
+figure {
+  figcaption {
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  }
+  figcaption {
+    /* @apply tracking-wider; */
+  }
+}
+
+[class*="border"] {
+  --tw-border-opacity: 1;
+  border-color: rgb(229 229 229 / var(--tw-border-opacity));
+}
+
+@media (prefers-color-scheme: dark) {
+  [class*="border"] {
+    --tw-border-opacity: 1;
+    border-color: rgb(64 64 64 / var(--tw-border-opacity));
+  }
+}
+
+time, time a {
+  /* @apply text-neutral-600; */
+}
+
+@media (prefers-color-scheme: dark) {
   .dark\:prose-invert {
     --tw-prose-body: var(--tw-prose-invert-body);
     --tw-prose-headings: var(--tw-prose-invert-headings);
@@ -2122,13 +1996,49 @@ h2, h3, h4, h5, h6,
   }
 }
 
+.before\:content-\[\'\2022\'\]::before {
+  --tw-content: '•';
+  content: var(--tw-content);
+}
+
+.after\:mx-2::after {
+  content: var(--tw-content);
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.after\:text-gray-300::after {
+  content: var(--tw-content);
+  --tw-text-opacity: 1;
+  color: rgb(209 213 219 / var(--tw-text-opacity));
+}
+
+.after\:content-\[\'\/\'\]::after {
+  --tw-content: '/';
+  content: var(--tw-content);
+}
+
+.first\:border-none:first-child {
+  border-style: none;
+}
+
+.first\:before\:content-\[\'\'\]:first-child::before {
+  --tw-content: '';
+  content: var(--tw-content);
+}
+
 .last\:border-none:last-child {
   border-style: none;
 }
 
-.hover\:border-gray-300:hover {
+.last\:after\:content-\[\'\'\]:last-child::after {
+  --tw-content: '';
+  content: var(--tw-content);
+}
+
+.hover\:border-neutral-300:hover {
   --tw-border-opacity: 1;
-  border-color: rgb(209 213 219 / var(--tw-border-opacity));
+  border-color: rgb(212 212 212 / var(--tw-border-opacity));
 }
 
 .hover\:border-transparent:hover {
@@ -2231,6 +2141,11 @@ h2, h3, h4, h5, h6,
     }
   }
 
+  .md\:-mx-60 {
+    margin-left: -15rem;
+    margin-right: -15rem;
+  }
+
   .md\:mb-20 {
     margin-bottom: 5rem;
   }
@@ -2265,6 +2180,11 @@ h2, h3, h4, h5, h6,
 }
 
 @media (min-width: 1024px) {
+  .lg\:-mx-60 {
+    margin-left: -15rem;
+    margin-right: -15rem;
+  }
+
   .lg\:mt-0 {
     margin-top: 0px;
   }
@@ -2300,9 +2220,9 @@ h2, h3, h4, h5, h6,
     border-color: rgb(82 82 91 / var(--tw-divide-opacity));
   }
 
-  .dark\:bg-neutral-950 {
+  .dark\:bg-neutral-900 {
     --tw-bg-opacity: 1;
-    background-color: rgb(10 10 10 / var(--tw-bg-opacity));
+    background-color: rgb(23 23 23 / var(--tw-bg-opacity));
   }
 
   .dark\:bg-zinc-700 {
@@ -2315,8 +2235,8 @@ h2, h3, h4, h5, h6,
     background-color: rgb(39 39 42 / var(--tw-bg-opacity));
   }
 
-  .dark\:fill-gray-400 {
-    fill: #9ca3af;
+  .dark\:fill-neutral-400 {
+    fill: #a3a3a3;
   }
 
   .dark\:fill-white {

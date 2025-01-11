@@ -1,0 +1,26 @@
+{{ define "main" }} {{ partial "back_link.html" .}}
+
+<div class="">
+  <header class="mb-10 md:mb-20 prose prose-gray dark:prose-invert">
+    <h2 class="text-2xl mb-5">Garden</h2>
+    {{ .Content }}
+  </header>
+
+
+  <ol class="list-decimal">
+
+    {{ $mixtapes := where .Site.RegularPages "Type" "music" }}
+    {{ range sort $mixtapes ".Params.start" "desc" }}
+      <li class="border-b last:border-none py-2">
+        <a href="{{ .Permalink }}" class="">
+          {{ .Title }}
+          <span class="text-secondary">{{ .Params.Start }}{{ if .Params.End }} - {{ .Params.End }}{{ end }}
+          </span>
+        </a>
+      </li>
+    {{ end }}
+    </ol>
+ 
+
+</div>
+{{ end }}

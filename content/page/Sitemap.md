@@ -3,11 +3,7 @@ title: Sitemap
 description: ""
 ---
 
-This website is conceptualized as a scavenger hunt of sorts. There are many nooks and crannies, some of which are listed or linked to.
-
-### What I do here
-
-This website is an online commonplace book; a collection of unfinished thoughts, polished ideas, and snapshots in various formats. If you go to the [homepage](/), you can take a look back to 2009.
+This website is an online commonplace book; a scavenger hunt of unfinished thoughts, polished ideas, and snapshots in various formats. There are many nooks and crannies, some of which are listed or linked below.
 
 ### About me
 
