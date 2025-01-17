@@ -76,7 +76,6 @@
           <a href="mailto:zinzy+reply@pm.me?subject=RE: {{ .Title }}">Reply via email</a> | 
           <a href="https://zinzy.website/about">About me</a> | 
           <a href="https://zinzy.website/hello">Say hello</a> | 
-          <a href="https://ko-fi.com/zinzy">Say thanks</a> | 
           <a href="https://www.zinzy.website/bookmarks/">Who I'm reading</a></p>
         </description>
       </item>
@@ -89,14 +88,14 @@
         <guid>{{ .Permalink }}</guid>
         <description>
         {{ .Content | html }}
-
-        <p>Thank you for using RSS.</p>
-        <p>
-        <a href="mailto:zinzy+reply@pm.me?subject=RE:">Reply via email</a> | 
-        <a href="https://zinzy.website/about">About me</a> | 
-        <a href="https://zinzy.website/hello">Say hello</a> | 
-        <a href="https://ko-fi.com/zinzy">Say thanks</a> | 
-        <a href="https://www.zinzy.website/bookmarks/">Who I'm following</a></p>
+        
+          <hr/>
+          <p>Thank you for using RSS.</p>
+          <p>
+          <a href="mailto:zinzy+reply@pm.me?subject=RE:">Reply via email</a> | 
+          <a href="https://zinzy.website/about">About me</a> | 
+          <a href="https://zinzy.website/hello">Say hello</a> | 
+          <a href="https://www.zinzy.website/bookmarks/">Who I'm reading</a></p>
         </description>
       </item>
       {{end}}
