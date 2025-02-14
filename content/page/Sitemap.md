@@ -21,5 +21,5 @@ This website is an online commonplace book; a scavenger hunt of unfinished thoug
 ### Other
 
 - [Uses](/uses/): products and service I use
-- [Bookmarks](/bookmarks/): my favorite links on the Internet
+- [Blogroll](/blogroll/): my favorite links on the Internet
 - [Museum](/museum/): About my time on the internet

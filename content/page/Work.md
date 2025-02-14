@@ -1,7 +1,9 @@
 ---
 title: "Work"
-description: I'm a designer, a mentor, and a community builder
+layout: work
 ---
+I'm a principal designer making products for people at work.
+
 I research, design, and sometimes develop digital tools for people at work. I've been making a living in Information Technology for the past 18 years. When I tell people I have an academic background in literary criticism and theology, it never fails to surprise them. For me, the analogies between reading a text, designing software, and designing shared spaces are myriad.
 
 - **Paying _very_ close attention:** I read, watch, and listen closely to the way people express themselves and engage with each other

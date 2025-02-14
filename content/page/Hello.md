@@ -2,16 +2,14 @@
 title: Hello
 description: How to reach me
 ---
+This [hello](https://alastairjohnston.com/introducing-hello-pages/) page helps you get in touch with me. If you have something to share, you'd like to play or learn together, or can think of any other reason we should be talking, get in touch with me. That is a [standing invitation](https://www.kalzumeus.com/standing-invitation/).
 
-This is my [hello](https://alastairjohnston.com/introducing-hello-pages/) page, where you can learn how I like to keep in touch. If you have something to share, you'd like to play or learn together, or can think of any other reason we should be talking, get in touch with me. That is a [standing invitation](https://www.kalzumeus.com/standing-invitation/).
+### How to contact me
 
-### Other ways of contacting me
-
-- Email: `hello` + this domain
-- [Mastodon](https://tech.lgbt/@zinzy) is also acceptable, although it may take months
+- For anything personal, please [email me](https://letterbird.co/zinzy-tools)
 - [LinkedIn](https://nl.linkedin.com/in/zinzy) is good for work
-- ~~If you'd like to schedule mentor time with me, please do so via [ADPList](https://adplist.org/mentors/zinzy-nev-geene)~~ I'm not mentoring at the moment
 - I do not use social media. Any account in my name that you may find is not in use, so feel safe assuming I won't see your message, and I won't receive a notification of it.
+- ~~If you'd like to schedule mentor time with me, please do so via [ADPList](https://adplist.org/mentors/zinzy-nev-geene)~~ I'm on an indefinite mentoring hiatus
 
 ### Good to know
 

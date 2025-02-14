@@ -2,9 +2,19 @@
 
 <article class="h-entry">
   <header class="prose prose-gray dark:prose-invert">
-    <p class="text-secondary mb-0 text-sm">{{ .Title }}</p>
-    <h2 class="p-name mb-2 mt-0 text-2xl">{{ .Description }}</h2>
+    <h2 class="p-name mb-10 md:mb-20">
+      {{ .Params.title }}
+    </h2>
   </header>
+
+  <div
+    id="about"
+    class="e-content prose prose-gray mt-20 dark:prose-invert"
+  >
+    {{ .Content }}
+  </div>
+
+
 
   <section class="mt-20">
     <p class="text-secondary mb-0 text-sm">What to explore</p>
@@ -55,13 +65,6 @@
       </li>
     </ul>
   </section>
-
-  <div
-    id="about"
-    class="e-content prose prose-gray mt-20 dark:prose-invert"
-  >
-    {{ .Content }}
-  </div>
 
   {{ partial "backlinks.html" . }} 
 </article>
