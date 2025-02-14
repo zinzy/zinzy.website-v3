@@ -1,5 +1,5 @@
 ---
-layout: bookmarks
+layout: blogroll
 title: Blogroll
 description: "Sites I follow"
 ---
