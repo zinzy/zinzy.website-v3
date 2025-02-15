@@ -1099,12 +1099,28 @@ video {
   --tw-prose-invert-td-borders: #262626;
 }
 
+.fixed {
+  position: fixed;
+}
+
 .relative {
   position: relative;
 }
 
+.left-0 {
+  left: 0px;
+}
+
+.top-0 {
+  top: 0px;
+}
+
 .m-0 {
   margin: 0px;
+}
+
+.m-3 {
+  margin: 0.75rem;
 }
 
 .-mx-8 {
@@ -1506,6 +1522,11 @@ video {
 .bg-pink-50 {
   --tw-bg-opacity: 1;
   background-color: rgb(253 242 248 / var(--tw-bg-opacity));
+}
+
+.bg-red-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(252 165 165 / var(--tw-bg-opacity));
 }
 
 .bg-white {

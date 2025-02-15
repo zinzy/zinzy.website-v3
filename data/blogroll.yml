@@ -1,24 +1,48 @@
-- name: "Friends and acquaintances"
+- name: "Five personal sites I love"
+  description: "What I love most about personal websites are the short and long, unassuming, friendly, personal accounts of someone's life. No news, no in-crowd blogging shop talk, no MacBook unboxing, no productivity tips, just life. Here are five websites that excel at this, in my opinion."
   children:
-    - property: Anja Waleson
-      url: https://anjawaleson.notion.site/Anja-Waleson-0182c8df804b4b12ab6e70b5b5795a55
-    - property: Annelie Wambeek
-      url: https://www.anneliewambeek.com
-    - property: Maarten Brouwer
-      url: https://murb.nl
-    - property: Mehdi Rezazadeh
-      url: https://www.mehdirezazadeh.dev
-    - property: Patrick "Pickles" Weston
-      url: http://patrickfweston.com
-    - property: Pat Flores
-      url: https://www.realphototexas.com
-    - property: John D. Boy
-      url: https://www.jboy.space
+    - property: Lou Plummer
+      description: "With his friendly tone of voice, posture of gratitude, and the happiness that comes with looking back at decades of personal growth and building relationships, Lou never fails to get my attention."
+      url: "https://louplummer.lol/"
     - property: Elliott Cost
       url: https://www.elliott.computer
+      description: "..."
+    - property: Barry Frost
+      url: https://barryfrost.com/
+      description: "..."
+    - property: Ben Borgers
+      url: https://benborgers.com/
+      description: "..."
+    - property: Piper Haywood
+      url: https://piperhaywood.com/
+      description: "..."
+    - property: Elliott Cost
+      url: https://www.elliott.computer
+      description: "..."
+- name: "Friends"
+  children:
+    - property: Anja Waleson
+      description: "My partner, an educator and potter, keeps a lovely public Notion page listing some of her educational tools, university writing, favorite reads, films, podcasts, and more."
+      url: https://anjawaleson.notion.site/Anja-Waleson-0182c8df804b4b12ab6e70b5b5795a55
+    - property: Annelie Wambeek
+      description: "My dear friend Annelie is a trainer, facilitator, and speaker on diversity, inclusion, and belonging. It has been an amazing journey watching her build a business."
+      url: https://www.anneliewambeek.com
+    - property: Mehdi Rezazadeh
+      description: "My work husband and office neighbor Mehdi is a total sunbeam of positivity, gratitude, creativity, and intelligence."
+      url: https://www.mehdirezazadeh.dev
+    - property: Patrick "Pickles" Weston
+      description: "My brother in Jesus Pickles, as we lovingly call him, is a delightful human being, a dear friend, and at one point a very committed leadership team mate."
+      url: http://patrickfweston.com
+    - property: Pat & Jacob Flores
+      url: https://www.realphototexas.com
+      description: "My favorite Texans have built an amazing real estate photography business the photos of which never fail to stun me"
+    - property: John D. Boy
+      url: https://www.jboy.space
+      description: "John is a neighborhood pal, and an academic working in sociology, who hired me to give a talk on ethnographic studies in technology."
     - property: Patrick Rhone
       url: https://patrickrhone.net
-- name: "Personal websites"
+      description: "I had been following Patrick for years before I got the opportunity to meet him, his wife, and daughter in Amsterdam one day."
+- name: "People and initiatives I follow"
   children:
     - property: Simone Silvestroni
       url: https://minutestomidnight.co.uk
@@ -252,6 +276,8 @@
       url: https://charlesharri.es
     - property: Ellie Huxtable
       url: https://ellie.wtf
+    - property: Maarten Brouwer
+      url: https://murb.nl
     - property: Ewen
       url: https://ewen.io
     - property: Chris Glass
@@ -410,8 +436,6 @@
       url: https://njoqi.me/
     - property: Brian Maier Jr.
       url: https://brianmaierjr.com/
-- name: "Other websites I like"
-  children:
     - property: Low-tech Magazine
       url: https://lowtechmagazine.com/
     - property: App Defaults
