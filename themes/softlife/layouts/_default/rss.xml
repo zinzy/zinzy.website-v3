@@ -72,10 +72,6 @@
         <description>{{ .Content | html }}
           <hr/>
           <p>Thank you for using RSS.</p>
-          <p>
-          <a href="https://zinzy.website/hello">Reply via email</a> :: 
-          <a href="https://zinzy.website/about">About me</a> :: 
-          <a href="https://www.zinzy.website/bookmarks/">Who I'm reading</a></p>
         </description>
       </item>
       {{else}}
@@ -90,9 +86,6 @@
         
           <hr/>
           <p>Thank you for using RSS.</p>
-          <a href="https://zinzy.website/hello">Reply via email</a> :: 
-          <a href="https://zinzy.website/about">About me</a> :: 
-          <a href="https://www.zinzy.website/bookmarks/">Who I'm reading</a>
         </description>
       </item>
       {{end}}
