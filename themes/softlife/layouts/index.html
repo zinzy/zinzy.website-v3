@@ -96,9 +96,15 @@
           {{ if .Params.sidenote }}
           <div class="aside">{{ .Params.sidenote | markdownify }}</div>
           {{ end }} {{if and .Params.title (ne .Params.showTitle false)}} {{
-          .Content | strings.Truncate 350 }}
-          <a href="{{ .Permalink }}" class="underline">(Continue)</a> {{ else }}
-          {{ .Content }} {{ end }}
+          .Content | strings.Truncate 250 }}
+          <div class="not-prose flex justify-end">
+            <a
+              href="{{ .Permalink }}"
+              class="font-medium text-sm border px-2 py-1 rounded text-gray-950 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-800 transition-all"
+              >Keep reading</a
+            >
+          </div>
+          {{ else }} {{ .Content }} {{ end }}
         </content>
       </div>
       <!-- <div class="mt-5">{{ partial "tags.html" .}}</div> -->

@@ -2,19 +2,73 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://zinzy.website/</loc>
+    <lastmod>2025-02-21T07:24:23+01:00</lastmod>
+  </url><url>
+    <loc>https://zinzy.website/2025/02/21/our-uncle-larry-david/</loc>
+    <lastmod>2025-02-21T07:24:23+01:00</lastmod>
+  </url><url>
+    <loc>https://zinzy.website/posts/</loc>
+    <lastmod>2025-02-21T07:24:23+01:00</lastmod>
+  </url><url>
+    <loc>https://zinzy.website/2025/02/20/he-is-a-sugar-daddy/</loc>
+    <lastmod>2025-02-20T20:38:51+01:00</lastmod>
+  </url><url>
+    <loc>https://zinzy.website/tags/dreams/</loc>
+    <lastmod>2025-02-14T06:01:01+01:00</lastmod>
+  </url><url>
+    <loc>https://zinzy.website/tags/indieweb/</loc>
+    <lastmod>2025-02-14T06:01:01+01:00</lastmod>
+  </url><url>
+    <loc>https://zinzy.website/2025/02/14/moments-later-i-wake-up-to-valentines-day-fully-clothed/</loc>
+    <lastmod>2025-02-14T06:01:01+01:00</lastmod>
+  </url><url>
+    <loc>https://zinzy.website/tags/</loc>
+    <lastmod>2025-02-14T06:01:01+01:00</lastmod>
+  </url><url>
+    <loc>https://zinzy.website/2025/01/28/07/25/14/</loc>
+    <lastmod>2025-01-28T07:25:14+01:00</lastmod>
+  </url><url>
+    <loc>https://zinzy.website/micro/</loc>
+    <lastmod>2025-01-28T07:25:14+01:00</lastmod>
+  </url><url>
+    <loc>https://zinzy.website/2025/01/17/17/32/10/</loc>
+    <lastmod>2025-01-17T17:32:10+01:00</lastmod>
+  </url><url>
+    <loc>https://zinzy.website/2025/01/17/09/19/23/</loc>
+    <lastmod>2025-01-17T09:19:23+01:00</lastmod>
+  </url><url>
+    <loc>https://zinzy.website/2025/01/14/11/21/06/</loc>
+    <lastmod>2025-01-14T11:21:06+01:00</lastmod>
+  </url><url>
+    <loc>https://zinzy.website/tags/anxiety/</loc>
+    <lastmod>2025-01-12T10:24:02+01:00</lastmod>
+  </url><url>
+    <loc>https://zinzy.website/tags/broken-ankle/</loc>
+    <lastmod>2025-01-12T10:24:02+01:00</lastmod>
+  </url><url>
+    <loc>https://zinzy.website/tags/learners-mentality/</loc>
+    <lastmod>2025-01-12T10:24:02+01:00</lastmod>
+  </url><url>
+    <loc>https://zinzy.website/tags/music/</loc>
+    <lastmod>2025-01-12T10:24:02+01:00</lastmod>
+  </url><url>
+    <loc>https://zinzy.website/tags/pkm/</loc>
+    <lastmod>2025-01-12T10:24:02+01:00</lastmod>
+  </url><url>
+    <loc>https://zinzy.website/2025/01/12/week-2-pruning/</loc>
+    <lastmod>2025-01-12T10:24:02+01:00</lastmod>
+  </url><url>
+    <loc>https://zinzy.website/tags/weeknotes/</loc>
+    <lastmod>2025-01-12T10:24:02+01:00</lastmod>
+  </url><url>
+    <loc>https://zinzy.website/2025/01/08/23/01/28/</loc>
+    <lastmod>2025-01-08T23:01:28+01:00</lastmod>
+  </url><url>
     <loc>https://zinzy.website/tags/annual-review/</loc>
     <lastmod>2025-01-07T07:49:01+02:00</lastmod>
   </url><url>
-    <loc>https://zinzy.website/</loc>
-    <lastmod>2025-01-07T07:49:01+02:00</lastmod>
-  </url><url>
     <loc>https://zinzy.website/2025/01/07/looking-back-ahead/</loc>
-    <lastmod>2025-01-07T07:49:01+02:00</lastmod>
-  </url><url>
-    <loc>https://zinzy.website/posts/</loc>
-    <lastmod>2025-01-07T07:49:01+02:00</lastmod>
-  </url><url>
-    <loc>https://zinzy.website/tags/</loc>
     <lastmod>2025-01-07T07:49:01+02:00</lastmod>
   </url><url>
     <loc>https://zinzy.website/2025/01/06/13/54/22/</loc>
@@ -23,17 +77,11 @@
     <loc>https://zinzy.website/tags/flowers/</loc>
     <lastmod>2025-01-06T13:54:22+01:00</lastmod>
   </url><url>
-    <loc>https://zinzy.website/micro/</loc>
-    <lastmod>2025-01-06T13:54:22+01:00</lastmod>
-  </url><url>
     <loc>https://zinzy.website/2025/01/06/08/19/46/</loc>
     <lastmod>2025-01-06T08:19:46+01:00</lastmod>
   </url><url>
     <loc>https://zinzy.website/2025/01/04/19/14/23/</loc>
     <lastmod>2025-01-04T19:14:23+01:00</lastmod>
-  </url><url>
-    <loc>https://zinzy.website/tags/broken-ankle/</loc>
-    <lastmod>2025-01-04T07:49:01+02:00</lastmod>
   </url><url>
     <loc>https://zinzy.website/tags/painting/</loc>
     <lastmod>2025-01-04T07:49:01+02:00</lastmod>
@@ -42,9 +90,6 @@
     <lastmod>2025-01-04T07:49:01+02:00</lastmod>
   </url><url>
     <loc>https://zinzy.website/2025/01/04/week-1-hibernating/</loc>
-    <lastmod>2025-01-04T07:49:01+02:00</lastmod>
-  </url><url>
-    <loc>https://zinzy.website/tags/weeknotes/</loc>
     <lastmod>2025-01-04T07:49:01+02:00</lastmod>
   </url><url>
     <loc>https://zinzy.website/2025/01/03/painting-fjords/</loc>
@@ -61,9 +106,6 @@
   </url><url>
     <loc>https://zinzy.website/2024/12/24/15/05/50/</loc>
     <lastmod>2024-12-24T15:05:50+01:00</lastmod>
-  </url><url>
-    <loc>https://zinzy.website/tags/anxiety/</loc>
-    <lastmod>2024-12-24T09:52:01+02:00</lastmod>
   </url><url>
     <loc>https://zinzy.website/tags/hosting/</loc>
     <lastmod>2024-12-24T09:52:01+02:00</lastmod>
@@ -106,9 +148,6 @@
   </url><url>
     <loc>https://zinzy.website/2024/11/29/11/53/05/</loc>
     <lastmod>2024-11-29T11:53:05+01:00</lastmod>
-  </url><url>
-    <loc>https://zinzy.website/tags/indieweb/</loc>
-    <lastmod>2024-11-28T17:15:04+02:00</lastmod>
   </url><url>
     <loc>https://zinzy.website/2024/11/28/indieweb-carnival-december-2024-belief/</loc>
     <lastmod>2024-11-28T17:15:04+02:00</lastmod>
@@ -521,9 +560,6 @@
     <loc>https://zinzy.website/2024/04/12/a-year-at-work-2024-edition/</loc>
     <lastmod>2024-04-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://zinzy.website/tags/learners-mentality/</loc>
-    <lastmod>2024-04-12T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://zinzy.website/2024/04/06/introducing-this-i-do-know/</loc>
     <lastmod>2024-04-06T00:00:00+00:00</lastmod>
   </url><url>
@@ -612,9 +648,6 @@
     <lastmod>2024-02-04T14:07:47+01:00</lastmod>
   </url><url>
     <loc>https://zinzy.website/tags/church/</loc>
-    <lastmod>2024-02-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://zinzy.website/tags/music/</loc>
     <lastmod>2024-02-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://zinzy.website/tags/sobriety/</loc>
@@ -954,9 +987,6 @@
     <lastmod>2023-07-02T19:10:44+00:00</lastmod>
   </url><url>
     <loc>https://zinzy.website/2023/07/02/11/24/00/</loc>
-    <lastmod>2023-07-02T11:24:00+02:00</lastmod>
-  </url><url>
-    <loc>https://zinzy.website/tags/pkm/</loc>
     <lastmod>2023-07-02T11:24:00+02:00</lastmod>
   </url><url>
     <loc>https://zinzy.website/2023/07/02/08/54/00/</loc>
@@ -1480,7 +1510,7 @@
   </url><url>
     <loc>https://zinzy.website/archive/</loc>
   </url><url>
-    <loc>https://zinzy.website/bookmarks/</loc>
+    <loc>https://zinzy.website/blogroll/</loc>
   </url><url>
     <loc>https://zinzy.website/broken-ankle/</loc>
   </url><url>
@@ -1488,25 +1518,25 @@
   </url><url>
     <loc>https://zinzy.website/colophon/</loc>
   </url><url>
-    <loc>https://zinzy.website/music/2009-2014/</loc>
+    <loc>https://zinzy.website/music/deep-conversations-in-cafes/</loc>
   </url><url>
     <loc>https://zinzy.website/follow/</loc>
   </url><url>
-    <loc>https://zinzy.website/music/1996-2001/</loc>
+    <loc>https://zinzy.website/music/forever-scary-spice/</loc>
   </url><url>
     <loc>https://zinzy.website/garden/</loc>
   </url><url>
     <loc>https://zinzy.website/hello/</loc>
   </url><url>
-    <loc>https://zinzy.website/music/2016-2019/</loc>
+    <loc>https://zinzy.website/music/homemaking/</loc>
   </url><url>
     <loc>https://zinzy.website/how-do-i-enter-the-dutch-ux-job-market/</loc>
   </url><url>
-    <loc>https://zinzy.website/music/2002-2003/</loc>
+    <loc>https://zinzy.website/music/i-just-really-like-successful-women/</loc>
   </url><url>
     <loc>https://zinzy.website/im-child-free/</loc>
   </url><url>
-    <loc>https://zinzy.website/music/2004-2008/</loc>
+    <loc>https://zinzy.website/music/im-gay-and-this-is-deep/</loc>
   </url><url>
     <loc>https://zinzy.website/im-neurodivergent/</loc>
   </url><url>
@@ -1520,9 +1550,9 @@
   </url><url>
     <loc>https://zinzy.website/miracle-morning/</loc>
   </url><url>
-    <loc>https://zinzy.website/music/2023/</loc>
+    <loc>https://zinzy.website/music/mixtape-2023/</loc>
   </url><url>
-    <loc>https://zinzy.website/music/2024/</loc>
+    <loc>https://zinzy.website/music/mixtape-2024/</loc>
   </url><url>
     <loc>https://zinzy.website/months/</loc>
   </url><url>
@@ -1536,7 +1566,7 @@
   </url><url>
     <loc>https://zinzy.website/page/</loc>
   </url><url>
-    <loc>https://zinzy.website/music/2020-2023/</loc>
+    <loc>https://zinzy.website/music/pandemic-vibes/</loc>
   </url><url>
     <loc>https://zinzy.website/praxis/</loc>
   </url><url>
@@ -1548,11 +1578,11 @@
   </url><url>
     <loc>https://zinzy.website/the-rest-is-commentary/</loc>
   </url><url>
-    <loc>https://zinzy.website/music/2015/</loc>
+    <loc>https://zinzy.website/music/too-hot-too-greedy/</loc>
   </url><url>
     <loc>https://zinzy.website/tools-do-not-matter/</loc>
   </url><url>
-    <loc>https://zinzy.website/music/1987-1995/</loc>
+    <loc>https://zinzy.website/music/toy-piano-renditions/</loc>
   </url><url>
     <loc>https://zinzy.website/uses/</loc>
   </url><url>
