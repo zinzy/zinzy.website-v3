@@ -79,6 +79,7 @@
         <description>{{ .Content | html }}
           <hr/>
           <p>Thank you for using RSS.</p>
+          <p><a href="/hello">Respond to this</a>, <a href="https://ko-fi.com/zinzy">Say cheers</a></p> 
         </description>
       </item>
     {{- end }}

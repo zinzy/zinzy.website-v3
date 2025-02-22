@@ -6,7 +6,7 @@ This [hello](https://alastairjohnston.com/introducing-hello-pages/) page helps y
 
 ### How to contact me
 
-Please [email me](https://letterbird.co/zinzy-tools) about anything. [LinkedIn](https://nl.linkedin.com/in/zinzy) is good for work.
+Please email me about anything by adding this domain to "hello". [LinkedIn](https://nl.linkedin.com/in/zinzy) is good for work.
 
 ### Good to know
 I do not use social media. Any account in my name that you may find is not in use, so feel safe assuming I won't see your message, and I won't receive a notification of it.

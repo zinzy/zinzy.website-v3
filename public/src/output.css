@@ -1522,6 +1522,11 @@ video {
   background-color: rgb(244 244 245 / var(--tw-bg-opacity));
 }
 
+.bg-gray-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+}
+
 .fill-neutral-200 {
   fill: #e5e5e5;
 }
@@ -1611,10 +1616,6 @@ video {
   padding-bottom: 1.25rem;
 }
 
-.pb-20 {
-  padding-bottom: 5rem;
-}
-
 .pl-3 {
   padding-left: 0.75rem;
 }
@@ -1639,16 +1640,8 @@ video {
   text-align: center;
 }
 
-.text-right {
-  text-align: right;
-}
-
 .font-mono {
   font-family: SF Mono, monospace;
-}
-
-.font-sans {
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
 }
 
 .text-2xl {
@@ -1713,6 +1706,11 @@ video {
   line-height: 1.625;
 }
 
+.text-gray-950 {
+  --tw-text-opacity: 1;
+  color: rgb(3 7 18 / var(--tw-text-opacity));
+}
+
 .text-neutral-300 {
   --tw-text-opacity: 1;
   color: rgb(212 212 212 / var(--tw-text-opacity));
@@ -1756,11 +1754,6 @@ video {
 .text-zinc-700 {
   --tw-text-opacity: 1;
   color: rgb(63 63 70 / var(--tw-text-opacity));
-}
-
-.text-red-600 {
-  --tw-text-opacity: 1;
-  color: rgb(220 38 38 / var(--tw-text-opacity));
 }
 
 .underline {
@@ -1834,12 +1827,14 @@ html, body {
 .prose :where(a):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
   font-weight: 400;
   text-decoration-line: underline;
+  text-decoration-color: #d1d5db;
 }
 
 @media (prefers-color-scheme: dark) {
   .prose :where(a):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
     --tw-text-opacity: 1;
     color: rgb(212 212 212 / var(--tw-text-opacity));
+    text-decoration-color: #4b5563;
   }
 }
 
@@ -1848,7 +1843,7 @@ h2, h3, h4, h5, h6,
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   font-size: 1rem;
   line-height: 1.5rem;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -1971,6 +1966,12 @@ time, time a {
   color: rgb(209 213 219 / var(--tw-text-opacity));
 }
 
+.after\:text-gray-200::after {
+  content: var(--tw-content);
+  --tw-text-opacity: 1;
+  color: rgb(229 231 235 / var(--tw-text-opacity));
+}
+
 .after\:content-\[\'\/\'\]::after {
   --tw-content: '/';
   content: var(--tw-content);
@@ -2001,6 +2002,11 @@ time, time a {
 
 .hover\:border-transparent:hover {
   border-color: transparent;
+}
+
+.hover\:bg-gray-100:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-pink-50:hover {
@@ -2244,6 +2250,11 @@ time, time a {
 
   .dark\:hover\:border-transparent:hover {
     border-color: transparent;
+  }
+
+  .dark\:hover\:bg-gray-800:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgb(31 41 55 / var(--tw-bg-opacity));
   }
 
   .dark\:hover\:bg-pink-300\/10:hover {
