@@ -7,6 +7,8 @@ One of the sweeter developments of 2025 so far has been our commitment to watch 
 
 _Seinfeld_, however, wouldn't be where it is today in our home (halfway through season five) if we hadn't first watched _Curb Your Enthusiasm_, the mockumentary about _Seinfeld_ creator Larry David.
 
+<!--more-->
+
 Upon viewing those first few _Curb_ episodes, my gut instinct was to complain about how unrealistic Larry David is. Here is a man with a complete lack of decorum, an annoyingly pedantic approach to society's unwritten rules, an inexplicable penchant for arguments, and a perplexing ability to successfully lay on the charm when the time is right, with women well above his pay grade, no less. Nobody is _like_ that, I kept screaming at the wall on which we project our streaming.
 
 After a while of me getting used to his shenanigans, though, Larry David really began to grow on me. I love Larry David. He should've been the author of that book on how not giving a fuck is a subtle art, albeit not so subtle when he does it. I began to understand I had known Larry David all along. My father-in-law is Larry David. And I think that one coworker is headed there, too.

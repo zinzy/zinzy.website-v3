@@ -19,6 +19,8 @@ tags:
 2. I walked from the office to a favorite coffee spot with coworker C., mostly without crutches! It was a win, endurance-wise, but a failure in self control. I spent the rest of the week feeling the ramifications of this adventure.
 3. Anja and I took an amazing pottery workshop at Pansa. She has been a member there for years, but hadn't been since her head injury in April. I was hoping this beginner's workshop would give her back her confidence, and I seem to have succeeded. Of course, I, too, will be signing up for their full workshop.
 
+<!--more-->
+
 {{< rawhtml >}}
 <figure>
     <img src="/img/photos/now_2025-02-21.png"

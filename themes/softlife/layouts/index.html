@@ -93,10 +93,34 @@
             </p>
             {{ end }}
           </div>
-          {{ if .Params.sidenote }}
+          <!-- {{ if .Params.sidenote }}
           <div class="aside">{{ .Params.sidenote | markdownify }}</div>
-          {{ end }} {{if and .Params.title (ne .Params.showTitle false)}} {{
-          .Content | strings.Truncate 250 }}
+          {{ end }} -->
+          
+          <div class="summary">
+
+            {{ if and .Params.title (ne .Params.showTitle false)}}
+
+              {{ if in .RawContent "<!--more-->" }}
+                {{ .Summary | safeHTML }}
+                {{ else }}
+                {{ .Content | strings.Truncate 450 }}
+                {{ end }}
+                <div class="not-prose flex justify-end">
+                  <a
+                    href="{{ .Permalink }}"
+                    class="font-medium text-sm border px-2 py-1 rounded text-gray-950 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-800 transition-all"
+                    >Keep reading</a
+                  >
+                </div>
+              {{ else }}
+              {{ .Content | safeHTML }}
+            {{ end }}
+          </div>
+
+
+          <!-- {{if and .Params.title (ne .Params.showTitle false)}} {{
+          .Summary }}
           <div class="not-prose flex justify-end">
             <a
               href="{{ .Permalink }}"
@@ -104,7 +128,7 @@
               >Keep reading</a
             >
           </div>
-          {{ else }} {{ .Content }} {{ end }}
+          {{ else }} {{ .Content }} {{ end }} -->
         </content>
       </div>
       <!-- <div class="mt-5">{{ partial "tags.html" .}}</div> -->

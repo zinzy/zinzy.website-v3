@@ -13,6 +13,8 @@ Daddy Cross, my friend and coworker with the best nickname in the world, is usua
 
 I'm never busy. I learned early on in University that answering the question "How are you?" with "Oh my, I'm _so_ busy" was both boring and unproductive. I always reserve space for emergency design work, on-the-fly meetings, and time-sensitive requests. But Daddy Cross' question wasn't about work.
 
+<!--more-->
+
 [In April, she and her theater friends will be on stage in Rotterdam](https://www.rotterdamenglishspeakingtheatre.nl/tickets.html) (and hopefully Amsterdam) to perform an anthology of three single-act plays. Did I have a moment to maybe help them put together some promotional artwork?
 
 As you may remember, [I spent a week in the hospital becoming enthralled with the workings of Procreate.app](/2025/01/03/painting-fjords/). Where I've dreaded such assignments in the past simply because of how disappointing I find the work I produce in Adobe Illustrator, I now felt excitement about making something beautiful. And I'm pleased with how it all came together.

@@ -2,7 +2,6 @@ baseURL = "https://zinzy.website"
 languageCode = "en-us"
 title = "Zinzy's website" 
 theme = "softlife"
-summaryLength = 20
 
 # When using ref or relref to resolve page links and a link cannot resolved, it will be logged with this log level.
 # Valid values are ERROR (default) or WARNING. Any ERROR will fail the build (exit -1).
