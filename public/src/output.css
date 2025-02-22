@@ -1061,7 +1061,7 @@ video {
 }
 
 .prose-gray {
-  --tw-prose-body: #030712;
+  --tw-prose-body: #4b5563;
   --tw-prose-headings: #030712;
   --tw-prose-lead: #030712;
   --tw-prose-links: #030712;
@@ -1079,40 +1079,28 @@ video {
   --tw-prose-pre-bg: #030712;
   --tw-prose-th-borders: #030712;
   --tw-prose-td-borders: #030712;
-  --tw-prose-invert-body: #d1d5db;
-  --tw-prose-invert-headings: #d1d5db;
-  --tw-prose-invert-lead: #d1d5db;
-  --tw-prose-invert-links: #d1d5db;
-  --tw-prose-invert-bold: #d1d5db;
-  --tw-prose-invert-counters: #d1d5db;
-  --tw-prose-invert-bullets: #d1d5db;
-  --tw-prose-invert-hr: #4b5563;
-  --tw-prose-invert-quotes: #d1d5db;
+  --tw-prose-invert-body: #a3a3a3;
+  --tw-prose-invert-headings: #d4d4d4;
+  --tw-prose-invert-lead: #d4d4d4;
+  --tw-prose-invert-links: #d4d4d4;
+  --tw-prose-invert-bold: #d4d4d4;
+  --tw-prose-invert-counters: #d4d4d4;
+  --tw-prose-invert-bullets: #d4d4d4;
+  --tw-prose-invert-hr: #525252;
+  --tw-prose-invert-quotes: #d4d4d4;
   --tw-prose-invert-quote-borders: #404040;
-  --tw-prose-invert-captions: #d1d5db;
+  --tw-prose-invert-captions: #d4d4d4;
   --tw-prose-invert-kbd: #fff;
   --tw-prose-invert-kbd-shadows: 255 255 255;
-  --tw-prose-invert-code: #f3f4f6;
+  --tw-prose-invert-code: #f5f5f5;
   --tw-prose-invert-pre-code: #d4d4d4;
   --tw-prose-invert-pre-bg: rgb(0 0 0 / 50%);
   --tw-prose-invert-th-borders: #262626;
   --tw-prose-invert-td-borders: #262626;
 }
 
-.absolute {
-  position: absolute;
-}
-
 .relative {
   position: relative;
-}
-
-.left-0 {
-  left: 0px;
-}
-
-.top-0 {
-  top: 0px;
 }
 
 .m-0 {
@@ -1218,6 +1206,10 @@ video {
   margin-right: 1rem;
 }
 
+.mr-5 {
+  margin-right: 1.25rem;
+}
+
 .mt-0 {
   margin-top: 0px;
 }
@@ -1294,6 +1286,10 @@ video {
   height: 4rem;
 }
 
+.h-20 {
+  height: 5rem;
+}
+
 .h-5 {
   height: 1.25rem;
 }
@@ -1324,10 +1320,6 @@ video {
 
 .w-10 {
   width: 2.5rem;
-}
-
-.w-12 {
-  width: 3rem;
 }
 
 .w-16 {
@@ -1366,16 +1358,16 @@ video {
   flex: none;
 }
 
-.flex-1 {
-  flex: 1 1 0%;
-}
-
 .grow {
   flex-grow: 1;
 }
 
 .cursor-not-allowed {
   cursor: not-allowed;
+}
+
+.list-decimal {
+  list-style-type: decimal;
 }
 
 .list-none {
@@ -1402,16 +1394,12 @@ video {
   place-content: center;
 }
 
-.place-content-between {
-  place-content: space-between;
-}
-
 .content-center {
   align-content: center;
 }
 
-.items-stretch {
-  align-items: stretch;
+.justify-end {
+  justify-content: flex-end;
 }
 
 .justify-center {
@@ -1550,10 +1538,6 @@ video {
   fill: #fca5a5;
 }
 
-.fill-zinc-400 {
-  fill: #a1a1aa;
-}
-
 .fill-zinc-700 {
   fill: #3f3f46;
 }
@@ -1653,6 +1637,10 @@ video {
 
 .text-center {
   text-align: center;
+}
+
+.text-right {
+  text-align: right;
 }
 
 .font-mono {
@@ -1765,14 +1753,14 @@ video {
   color: rgb(190 24 93 / var(--tw-text-opacity));
 }
 
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
 .text-zinc-700 {
   --tw-text-opacity: 1;
   color: rgb(63 63 70 / var(--tw-text-opacity));
+}
+
+.text-red-600 {
+  --tw-text-opacity: 1;
+  color: rgb(220 38 38 / var(--tw-text-opacity));
 }
 
 .underline {
@@ -1792,47 +1780,14 @@ video {
   opacity: 0.55;
 }
 
-.brightness-75 {
-  --tw-brightness: brightness(.75);
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-
 .transition-all {
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
 }
 
-.font-sans {
-  /* @apply tracking-wider; */
-}
-
-.font-serif {
-  letter-spacing: -0.025em;
-}
-
-body {
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
-  --tw-text-opacity: 1;
-  color: rgb(10 10 10 / var(--tw-text-opacity));
-  /* @apply tracking-wider; */
-}
-
-@media (prefers-color-scheme: dark) {
-  body {
-    --tw-text-opacity: 1;
-    color: rgb(245 245 245 / var(--tw-text-opacity));
-  }
-}
-
-body {
-  font-size: 18px;
-}
-
-.prose {
-  font-family: Libre Baskerville, -apple-system, system-ui, Segoe UI, Helvetica, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, sans-serif;
-  letter-spacing: -0.025em;
-  font-size: 18px;
+html, body {
+  font-size: 16px;
 }
 
 .text-secondary {
@@ -1843,7 +1798,7 @@ body {
 @media (prefers-color-scheme: dark) {
   .text-secondary {
     --tw-text-opacity: 1;
-    color: rgb(212 212 212 / var(--tw-text-opacity));
+    color: rgb(163 163 163 / var(--tw-text-opacity));
   }
 }
 
@@ -1891,8 +1846,9 @@ body {
 h2, h3, h4, h5, h6, 
 .prose h2, .prose h3, .prose h4, .prose h5, .prose h6 {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
-  font-weight: 500;
-  /* @apply tracking-wider; */
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 400;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -1908,7 +1864,6 @@ h2, h3, h4, h5, h6,
   border-style: none;
   padding: 0px;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
-  /* @apply tracking-wider; */
 }
 
 .prose blockquote p {
@@ -1952,9 +1907,6 @@ figure {
   figcaption {
     font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   }
-  figcaption {
-    /* @apply tracking-wider; */
-  }
 }
 
 [class*="border"] {
@@ -1970,10 +1922,16 @@ figure {
 }
 
 time, time a {
-  /* @apply text-neutral-600; */
+  --tw-text-opacity: 1;
+  color: rgb(115 115 115 / var(--tw-text-opacity));
 }
 
 @media (prefers-color-scheme: dark) {
+  time, time a {
+    --tw-text-opacity: 1;
+    color: rgb(163 163 163 / var(--tw-text-opacity));
+  }
+
   .dark\:prose-invert {
     --tw-prose-body: var(--tw-prose-invert-body);
     --tw-prose-headings: var(--tw-prose-invert-headings);
@@ -2141,11 +2099,6 @@ time, time a {
     }
   }
 
-  .md\:-mx-60 {
-    margin-left: -15rem;
-    margin-right: -15rem;
-  }
-
   .md\:mb-20 {
     margin-bottom: 5rem;
   }
@@ -2253,6 +2206,11 @@ time, time a {
 
   .dark\:stroke-zinc-50 {
     stroke: #fafafa;
+  }
+
+  .dark\:text-neutral-100 {
+    --tw-text-opacity: 1;
+    color: rgb(245 245 245 / var(--tw-text-opacity));
   }
 
   .dark\:text-pink-300 {

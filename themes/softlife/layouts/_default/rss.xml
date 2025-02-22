@@ -71,16 +71,9 @@
         <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0200" | safeHTML }}</pubDate>
         {{- with $authorEmail }}<author>{{ . }}{{ with $authorName }} ({{ . }}){{ end }}</author>{{ end }}
         <guid>{{ .Permalink }}</guid>
-        <description><![CDATA[
-  {{ .Content | safeHTML }}
-  <hr/>
-  <p>Thank you for using RSS.</p>
-  <p>
-  <a href="https://zinzy.website/hello">Reply via email</a> ::
-  <a href="https://zinzy.website/about">About me</a> ::
-  <a href="https://www.zinzy.website/bookmarks/">Who I'm reading</a>
-  </p>
-]]>
+        <description>{{ .Content | html }}
+          <hr/>
+          <p>Thank you for using RSS.</p>
         </description>
       </item>
       {{else}}
@@ -91,17 +84,8 @@
         {{- with $authorEmail }}<author>{{ . }}{{ with $authorName }} ({{ . }}){{ end }}</author>{{ end }}
         <guid>{{ .Permalink }}</guid>
         
-        <description>
-        <![CDATA[
-  {{ .Content | safeHTML }}
-  <hr/>
-  <p>Thank you for using RSS.</p>
-  <p>
-  <a href="https://zinzy.website/hello">Reply via email</a> ::
-  <a href="https://zinzy.website/about">About me</a> ::
-  <a href="https://www.zinzy.website/bookmarks/">Who I'm reading</a>
-  </p>
-]]>
+          <hr/>
+          <p>Thank you for using RSS.</p>
         </description>
       </item>
       {{end}}
