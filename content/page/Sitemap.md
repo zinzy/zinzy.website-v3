@@ -7,12 +7,15 @@ This website is an online notebook; a scavenger hunt of unfinished thoughts, pol
 ### About
 
 - [About](/about/): Zinzy, the LifeTime Movie
-- [Now](/now/): what I'm up to these days
 - [Colophon](/colophon/): about this website
+- [Now](/now/): what I'm up to these days
 
-### Reading
+### Words and links
 - [Archive](/archive): what I've written
+- [Blogroll](/blogroll/): my favorite links on the Internet
 - [Ideas](/ideas/): questioning, exploring, trying
+- [Museum](/museum/): About my time on the internet
+- [Uses](/uses/): products and service I use 
 - [Values](/values/): what's important to me 
 
 ### Connect
@@ -20,8 +23,4 @@ This website is an online notebook; a scavenger hunt of unfinished thoughts, pol
 - [Hello](/hello/): I love email
 - [Follow](/follow/): ways to stay updated
 
-### Other
 
-- [Uses](/uses/): products and service I use
-- [Blogroll](/blogroll/): my favorite links on the Internet
-- [Museum](/museum/): About my time on the internet
