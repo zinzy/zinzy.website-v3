@@ -9,7 +9,7 @@ tags:
 
 ![Theatrical poster for Rotterdam English Speaking Theatre featuring a triptych of moody scenes](/img/photos/2025-02-21_rest-2025.png)
 
-Daddy Cross, my friend and coworker with the best nickname in the world, is usually a very bold woman. The kind of power house I imagine Julia Louis-Dreyfus to be. Speaks truth to power in a voice that can do all sorts of things. Best physical comedy I've ever seen in a person. But I shouldn't be surprised, because she's a total theater kid. Last week, as I hobbled my way past her desk, she asked, in a squeeky voice: "Are you busy, like, in general?"
+Daddy Cross, my friend and coworker with the best nickname in the world, is usually a very bold woman. The kind of power house I imagine Julia Louis-Dreyfus to be. Speaks truth to power in a voice that can do all sorts of things. Best physical comedy I've ever seen in a person. But I shouldn't be surprised, because she's a total theater kid. Last week, as I hobbled my way past her desk, she asked, in a squeaky voice: "Are you busy, like, in general?"
 
 I'm never busy. I learned early on in University that answering the question "How are you?" with "Oh my, I'm _so_ busy" was both boring and unproductive. I always reserve space for emergency design work, on-the-fly meetings, and time-sensitive requests. But Daddy Cross' question wasn't about work.
 

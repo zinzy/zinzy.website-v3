@@ -3,7 +3,7 @@ title: About
 description: "Heya, I'm Zinzy Waleson Geene"
 ---
 
-Hey Internet stranger! I'm Zinzy. Thank you for taking the time to visit this space on the Internet. Imagine how much you've had to slow down from the infinity of social media timelines to even make it here. I have a crush on the cozy, intimate, and personal Internet, and [I'm not the only one](/blogroll). You too?
+Hey Internet stranger! I'm Zinzy. Thank you for taking the time to visit this space on the Internet. Imagine how much you've had to slow down from the infinity of social media timelines to even make it here. I have a crush on the cozy, intimate, and personal Internet, and [I'm not the only one](/blogroll). You?
 
 {{< rawhtml >}}
 

@@ -35,6 +35,7 @@
     date_format = "2006-01-02"
     date_format_short = "Jan 2"
     date_format_medium = "Jan 2, 2006"
+    date_format_monthly = "January 2006"
     date_format_date = "Monday, January 2, 2006"
     date_format_date_time = "Jan 2, 2006, 03:04 PM"
     date_verbose = "Jan 2"

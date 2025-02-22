@@ -2,29 +2,28 @@
 
 <div class="">
   <header class="mb-10 md:mb-20 prose prose-gray dark:prose-invert">
-    <h2 class="text-2xl mb-5">Now</h2>
+    <h2 class="mb-5">Now</h2>
     {{ .Content }}
   </header>
 
   <section class="mt-20">
     <!-- {{ $postsDefault := where .Site.RegularPages "Type" "posts" }} -->
-   
 
-    <ul class="border-b pb-20  prose prose-gray dark:prose-invert">
+    <ul class="prose prose-gray dark:prose-invert">
       {{ range (where .Site.RegularPages "Type" "now") }}
       <li class="mt-20 border-t pt-20">
-        <time class="mb-7 text-2xl font-medium font-sans" datetime="{{ .Date }}">
-          {{ .Date | time.Format site.Params.theme_config.date_format_medium
-          }}
+        <time
+          class="mb-7 font-medium text-gray-950 dark:text-white"
+          datetime="{{ .Date }}"
+        >
+          {{ .Date | time.Format site.Params.theme_config.date_format_monthly }}
         </time>
 
-        <content class="">
-          {{ .Content }}
-        </content>
+        <content class=""> {{ .Content }} </content>
       </li>
       {{ end }}
     </ul>
- 
+
     <!-- 
     <ul class="border-b">
 
@@ -44,29 +43,5 @@
       {{ end }}
     </ul> -->
   </section>
-
-  <div class="my-20">
-    {{ $re := .RelPermalink }} {{ $backlinks := slice }} {{ range
-    .Site.RegularPages }} {{ if and (findRE $re .RawContent) }} {{ $backlinks =
-    $backlinks | append . }} {{ end }} {{ end }} {{ if gt (len $backlinks) 0 }}
-    <h3 class="font-normal text-xl mb-5">Linking to this page</h3>
-    <div class="backlinks prose prose-gray dark:prose-invert">
-      <ul class="">
-        {{ range $backlinks }} {{ if not .IsHome }}
-        <li class="">
-          <a href="{{ .RelPermalink }}">
-            {{ if .Title }} {{ .Title }} {{ else }} {{ .Date | time.Format
-            site.Params.theme_config.date_format_date_time }} {{ end }}
-          </a>
-        </li>
-        {{ end }} {{ end }}
-      </ul>
-    </div>
-    {{ else }}
-    <!-- <aside>
-      <h4>No notes link to this note</h4>
-    </aside> -->
-    {{ end }}
-  </div>
 </div>
 {{ end }}
