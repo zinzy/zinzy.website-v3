@@ -1843,12 +1843,14 @@ html, body {
 .prose :where(a):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
   font-weight: 400;
   text-decoration-line: underline;
+  text-decoration-color: #d1d5db;
 }
 
 @media (prefers-color-scheme: dark) {
   .prose :where(a):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
     --tw-text-opacity: 1;
     color: rgb(212 212 212 / var(--tw-text-opacity));
+    text-decoration-color: #4b5563;
   }
 }
 
