@@ -64,9 +64,14 @@
     {{ $allEntries := (where .Site.RegularPages "Type" "in" (slice "posts" "micro")) }}
     {{- range $allEntries }}
 
-      {{ if .Title }}
       <item>
-        <title>{{ .Title }}</title>
+        <title>
+          {{ if .Title }}
+            {{ .Title }}
+          {{else}}
+            No title
+          {{end}}
+        </title>
         <link>{{ .Permalink }}</link>
         <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0200" | safeHTML }}</pubDate>
         {{- with $authorEmail }}<author>{{ . }}{{ with $authorName }} ({{ . }}){{ end }}</author>{{ end }}
@@ -76,19 +81,6 @@
           <p>Thank you for using RSS.</p>
         </description>
       </item>
-      {{else}}
-      <item>
-        <title>No title</title>
-        <link>{{ .Permalink }}</link>
-        <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 +0200" | safeHTML }}</pubDate>
-        {{- with $authorEmail }}<author>{{ . }}{{ with $authorName }} ({{ . }}){{ end }}</author>{{ end }}
-        <guid>{{ .Permalink }}</guid>
-        
-          <hr/>
-          <p>Thank you for using RSS.</p>
-        </description>
-      </item>
-      {{end}}
     {{- end }}
   </channel>
 </rss>

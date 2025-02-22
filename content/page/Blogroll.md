@@ -26,7 +26,7 @@ If I'm honest, what I love most about personal websites are the unassuming, refl
 - [Patrick "Pickles" Weston](http://patrickfweston.com): My brother in Jesus, Pickles, as we lovingly call him, is a delightful human being, a dear friend, and at one point a very committed leadership team mate.
 - [Pat & Jacob Flores](https://www.realphototexas.com): My favorite Texans have built an amazing real estate photography business the photos of which never fail to stun me.
 - [John D. Boy](https://www.jboy.space): John is a neighborhood pal, and an academic working in sociology, who hired me to give a talk on ethnographic studies in technology.
-- [Patrick Rhone](https://patrickrhone.net):I had been following Patrick for years before I got the opportunity to meet him, his wife, and daughter in Amsterdam one day.
+- [Patrick Rhone](https://patrickrhone.net): I had been following Patrick for years before I got the opportunity to meet him, his wife, and daughter in Amsterdam one day.
 
 ---
 
