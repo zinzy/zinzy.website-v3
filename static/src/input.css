@@ -23,7 +23,7 @@ html, body {
 }
 
 .prose :where(a):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
-  @apply underline font-normal dark:text-neutral-300;
+  @apply underline font-normal dark:text-neutral-300 decoration-gray-300 dark:decoration-gray-600;
 }
 
 h2, h3, h4, h5, h6, 
