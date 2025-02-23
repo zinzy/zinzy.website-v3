@@ -1142,6 +1142,11 @@ video {
   margin-bottom: 1.25rem;
 }
 
+.my-60 {
+  margin-top: 15rem;
+  margin-bottom: 15rem;
+}
+
 .mb-0 {
   margin-bottom: 0px;
 }
@@ -1248,10 +1253,6 @@ video {
 
 .mt-5 {
   margin-top: 1.25rem;
-}
-
-.mt-60 {
-  margin-top: 15rem;
 }
 
 .block {
@@ -1520,11 +1521,6 @@ video {
 .bg-zinc-100 {
   --tw-bg-opacity: 1;
   background-color: rgb(244 244 245 / var(--tw-bg-opacity));
-}
-
-.bg-gray-100 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
 }
 
 .fill-neutral-200 {
@@ -1864,8 +1860,8 @@ h2, h3, h4, h5, h6,
 .prose blockquote p {
   margin: 0px;
   padding: 0px;
-  font-size: 1.5rem;
-  line-height: 2rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
   font-style: normal;
   font-weight: 500;
 }
@@ -1949,21 +1945,10 @@ time, time a {
   }
 }
 
-.before\:content-\[\'\2022\'\]::before {
-  --tw-content: '•';
-  content: var(--tw-content);
-}
-
 .after\:mx-2::after {
   content: var(--tw-content);
   margin-left: 0.5rem;
   margin-right: 0.5rem;
-}
-
-.after\:text-gray-300::after {
-  content: var(--tw-content);
-  --tw-text-opacity: 1;
-  color: rgb(209 213 219 / var(--tw-text-opacity));
 }
 
 .after\:text-gray-200::after {
@@ -1979,11 +1964,6 @@ time, time a {
 
 .first\:border-none:first-child {
   border-style: none;
-}
-
-.first\:before\:content-\[\'\'\]:first-child::before {
-  --tw-content: '';
-  content: var(--tw-content);
 }
 
 .last\:border-none:last-child {
@@ -2139,11 +2119,6 @@ time, time a {
 }
 
 @media (min-width: 1024px) {
-  .lg\:-mx-60 {
-    margin-left: -15rem;
-    margin-right: -15rem;
-  }
-
   .lg\:mt-0 {
     margin-top: 0px;
   }

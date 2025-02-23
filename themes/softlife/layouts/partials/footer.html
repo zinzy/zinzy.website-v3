@@ -35,10 +35,14 @@
 
   <div class="flex justify-between mt-5">
     <ul class="leading-7">
-      <li class="inline-block"><a href="/#top">Top ↑</a> <span class="text-secondary">·</span></li>
-      <li class="inline-block"><a href="/index.xml">Follow</a> <span class="text-secondary">·</span></li>
-      <li class="inline-block"><a href="/hello">Say hello</a> <span class="text-secondary">·</span></li>
-      <li class="inline-block"><a href="https://ko-fi.com/zinzy" target="_blank">Say cheers</a></li>
+      <li class="inline-block after:content-['/'] after:mx-2 last:after:content-[''] after:text-gray-200 dark:after-text-gray-700"><a href="/#top">Top ↑</a></li>
+      <li class="inline-block after:content-['/'] after:mx-2 last:after:content-[''] after:text-gray-200 dark:after-text-gray-700"><a href="/follow">Follow</a></li>
+      <li class="inline-block after:content-['/'] after:mx-2 last:after:content-[''] after:text-gray-200 dark:after-text-gray-700"><a href="https://ko-fi.com/zinzy" target="_blank">Support</a></li>
+      <li class="inline-block">
+        <a href="https://github.com/zinzy/zinzy.website-v3/commits/main/">
+          {{ $t := time.AsTime "2023-01-27T23:44:58-08:00" }}
+          {{ $t.Unix }}
+        </a></li>
     </ul>
     <a
       href="https://webring.xxiivv.com/#zinzy"

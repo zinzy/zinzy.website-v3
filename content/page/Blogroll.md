@@ -194,6 +194,7 @@ If I'm honest, what I love most about personal websites are the unassuming, refl
 - [Tom Critchlow](https://tomcritchlow.com)
 - [Tom Hackshaw](https://tom.so)
 - [Tom MacWright](https://www.macwright.com)
+- [Tracy Durnell](https://tracydurnell.com/)
 - [V.H. Belvadi](https://vhbelvadi.com/ )
 - [Venkatesh Rao](https://venkateshrao.com)
 - [Viktor Lofgren](https://marginalia.nu)

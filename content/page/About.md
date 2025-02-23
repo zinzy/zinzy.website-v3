@@ -16,6 +16,12 @@ Hey Internet stranger! I'm Zinzy. Thank you for taking the time to visit this sp
 
 My name is Zinzy Waleson Geene, which sounds like ZIN-zee WHALE-son GREEN if you drop the R.
 
+{{< rawhtml >}}
+    <div class="flex justify-between rounded bg-zinc-100 p-3 text-sm text-zinc-700 dark:bg-zinc-700 dark:text-white">
+        <span>I'd love to hear from you</span> <a href="/hello">Say hello</a>
+    </div>
+{{< /rawhtml >}}
+
 I am a diary-keeper, designer, and [crazy church lady](/praxis) celebrating the slices of life that propel me ever-forward. Much of it you'll find on this quiet street on the Web; a home for soft stances, lived experiences, and critical notes on the things I hold dear. I've been yelling at Internet clouds since [1997](/museum).
 
 I'm an Afropean, queer, [neurodivergent](/im-neurodivergent/) person tuning and sharing my [yes space](https://strolling.rosano.ca/0192/). I am alive in [Amsterdam](/amsterdam/), where I share a shoebox with corgi [Lemonade](/tags/lemonade/) and my life partner, educator and potter [Anja Waleson](https://anjawaleson.notion.site/Anja-Waleson-0182c8df804b4b12ab6e70b5b5795a55).
@@ -26,4 +32,8 @@ I'm a designer of 18 years, currently working in health tech. I'm specialized in
 
 My academic background is in comparative media analysis, linguistics, and theology. Long ago, I dreamed of a career in academia, as a published author, or as a minister building a progressive church. Luckily, I'm great at failure. Nevertheless, I appreciate the central notion I take away from my academic training, which is that stories are the invisible fabric of life, the driver, the gel, the magic.
 
-I love spontaneous emails, so [say hello](/hello/).
+{{< rawhtml >}}
+    <div class="flex justify-between rounded bg-zinc-100 p-3 text-sm text-zinc-700 dark:bg-zinc-700 dark:text-white">
+        <span>I wasn't kidding</span> <a href="/hello">Say hello</a>
+    </div>
+{{< /rawhtml >}}
