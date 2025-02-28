@@ -6,31 +6,38 @@
     {{ .Content }}
   </header>
 
-  <form name="guestbook" method="POST" data-netlify="true">
-    <input type="text" name="name" placeholder="Your name" required>
-    <textarea name="message" placeholder="Your message" required></textarea>
-    <button type="submit">Sign Guestbook</button>
-  </form>
-
   <section>
-    <div>
-      <h2>Sign the guestbook</h2>
-    
-      <form action="/submitted" name="guestbook" netlify netlify-honeypot="not-for-humans">
+      <form class="bg-gray-50 rounded-lg p-4" action="/submitted" method="POST" data-netlify="true" name="guestbook" netlify netlify-honeypot="not-for-humans">
         <p style="display: none;">
           <label>Don’t fill this out if you're human: <input name="not-for-humans" /></label>
         </p>
-        <p>
-          <label>Name<br><input placeholder="Your name..." type="text" name="name" /></label>
+        <p class="m-0 p-0">
+          <label>
+            <div class="mb-1">
+              <div>Name</div>
+            </div>
+            <input required class="p-2 rounded block w-full" placeholder="Your name" type="text" name="name" />
+          </label>
         </p>
-        <p>
-          <label>Message<br><textarea name="message" placeholder="Your message..."></textarea></label>
+        <p class="m-0 p-0">
+          <label>
+            
+            <div class="mb-1">
+              <div>Website</div>
+            </div>
+            <input class="p-2 rounded block w-full"  placeholder="Your website" type="text" name="website" /></label>
         </p>
-        <p>
-          <button type="submit">Submit</button>
+        <p class="m-0 p-0">
+          <label>
+            <div class="mb-1">
+              <div>Message</div>
+            </div>
+            <textarea name="message" placeholder="Your message" class="p-2 rounded block w-full min-h-28"></textarea></label>
+        </p>
+        <p class="m-0 p-0 text-right">
+          <button type="submit" class="button">Submit</button>
         </p>
       </form>
-    </div>
   </section>
 
   <section id="guestbook-messages">
