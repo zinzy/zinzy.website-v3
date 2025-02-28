@@ -7,7 +7,7 @@
   </header>
 
   <section class="my-20">
-      <form class="bg-gray-50 rounded-lg p-4" action="/submitted" method="POST" data-netlify="true" name="guestbook" netlify netlify-honeypot="not-for-humans">
+      <form id="guestbook-form" class="bg-gray-50 rounded-lg p-4" action="/submitted" method="POST" data-netlify="true" name="guestbook" netlify netlify-honeypot="not-for-humans">
         <p style="display: none;">
           <label>Don’t fill this out if you're human: <input name="not-for-humans" /></label>
         </p>
@@ -31,11 +31,13 @@
           <label>
             <div class="mb-1">
               <div>Message</div>
+              <div class="text-sm text-secondary mb-2">You can write whatever you want, but please remember to be kind 🤗. If you plan to write a long entry, write your own blog post and send me the link instead!
+              </div>
             </div>
-            <textarea name="message" placeholder="Hey Zinzy, I just wanted to say..." class="p-2 rounded block w-full h-56"></textarea></label>
+            <textarea required id="message" name="message" placeholder="Hey Zinzy, I just wanted to say..." class="p-2 rounded block w-full h-56"></textarea></label>
         </p>
         <p class="m-0 p-0 text-right">
-          <button type="submit" class="button">Submit</button>
+          <button type="submit" class="button" id="submit-btn">Submit</button>
         </p>
       </form>
   </section>
@@ -57,7 +59,7 @@
 
         div.innerHTML = `
           <div class="mb-5">${entry.data.message}</div>
-          <div class="text-right">— ${entry.data.website ? 
+          <div class="text-right text-sm">— ${entry.data.website ? 
             `<a href="${entry.data.website}" target="_blank">${entry.data.name}</a>` :
             `${entry.data.name}`
           }</div>
@@ -75,4 +77,37 @@
   
   {{ partial "backlinks.html" . }}
 </article>
+
+
+<script>
+
+const form = document.getElementById("guestbook-form");
+const messageField = document.getElementById("message");
+const submitButton = document.getElementById("submit-btn");
+
+// Define the forbidden words
+const forbiddenWords = ["Mamma", "mamma", "Gefeliciteerd met je verjaardag"];
+
+// Function to check if any forbidden word is in the message
+const checkForForbiddenWords = () => {
+  const message = messageField.value.toLowerCase();
+
+  // Check if the message contains any forbidden words
+  const containsForbiddenWord = forbiddenWords.some(word => message.includes(word.toLowerCase()));
+
+  if (containsForbiddenWord) {
+    // Disable the submit button and update the text
+    submitButton.disabled = true;
+    submitButton.textContent = "‼️ Ik wil geen contact met jou ‼️";
+  } else {
+    // Enable the submit button and reset the text
+    submitButton.disabled = false;
+    submitButton.textContent = "Submit";
+  }
+};
+
+// Add event listener to the message field to check the input as the user types
+messageField.addEventListener("input", checkForForbiddenWords);
+
+</script>
 {{ end }}

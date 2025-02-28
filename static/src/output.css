@@ -1299,20 +1299,16 @@ video {
   height: 13rem;
 }
 
+.h-56 {
+  height: 14rem;
+}
+
 .h-auto {
   height: auto;
 }
 
 .h-full {
   height: 100%;
-}
-
-.h-56 {
-  height: 14rem;
-}
-
-.min-h-28 {
-  min-height: 7rem;
 }
 
 .min-h-full {
@@ -1802,7 +1798,7 @@ html, body {
 
 .text-secondary {
   --tw-text-opacity: 1;
-  color: rgb(115 115 115 / var(--tw-text-opacity));
+  color: rgb(107 114 128 / var(--tw-text-opacity));
 }
 
 @media (prefers-color-scheme: dark) {
@@ -1974,7 +1970,7 @@ figure figcaption {
 
 time, time a {
   --tw-text-opacity: 1;
-  color: rgb(115 115 115 / var(--tw-text-opacity));
+  color: rgb(107 114 128 / var(--tw-text-opacity));
 }
 
 @media (prefers-color-scheme: dark) {
@@ -2000,6 +1996,7 @@ time, time a {
 
 .guestbook-entry {
   margin-bottom: 2.5rem;
+  border-radius: 0.5rem;
   --tw-bg-opacity: 1;
   background-color: rgb(249 250 251 / var(--tw-bg-opacity));
   padding: 1rem;
