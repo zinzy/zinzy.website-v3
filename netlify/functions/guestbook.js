@@ -1,4 +1,3 @@
-
 exports.handler = async () => {
   const fetch = require("node-fetch");
 
@@ -23,19 +22,20 @@ exports.handler = async () => {
       {
         headers: {
           Authorization: `Bearer ${NETLIFY_ACCESS_TOKEN}`,
+          "Content-Type": "application/json",
         },
       }
     );
 
     console.log(`Netlify API response status: ${response.status}`);
 
+    const errorText = await response.text(); // Read the response even if it's an error
     if (!response.ok) {
-      const errorText = await response.text();
       console.error(`Netlify API Error: ${errorText}`);
       return { statusCode: response.status, body: `Netlify API Error: ${errorText}` };
     }
 
-    const submissions = await response.json();
+    const submissions = JSON.parse(errorText); // Convert response to JSON
     console.log(`Fetched ${submissions.length} submissions`);
 
     return { statusCode: 200, body: JSON.stringify(submissions) };
