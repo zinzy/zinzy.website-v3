@@ -32,7 +32,7 @@
             <div class="mb-1">
               <div>Message</div>
             </div>
-            <textarea name="message" placeholder="Hey Zinzy, I just wanted to say..." class="p-2 rounded block w-full min-h-28"></textarea></label>
+            <textarea name="message" placeholder="Hey Zinzy, I just wanted to say..." class="p-2 rounded block w-full h-56"></textarea></label>
         </p>
         <p class="m-0 p-0 text-right">
           <button type="submit" class="button">Submit</button>
@@ -52,15 +52,20 @@
         container.innerHTML = "";
   
         data.forEach(entry => {
-          const li = document.createElement("li");
-          li.innerHTML = `
+        const div = document.createElement("div");
+        div.classList.add("guestbook-entry");  // Add the "guestbook-entry" class
+
+        div.innerHTML = `
           <div class="mb-5">${entry.data.message}</div>
           <div class="text-right">— ${entry.data.website ? 
-              `<a href="${entry.data.website}" target="_blank">${entry.data.name}</a>` :
-              `${entry.data.name}`
-          }</div `;
-          container.appendChild(li);
-        }); 
+            `<a href="${entry.data.website}" target="_blank">${entry.data.name}</a>` :
+            `${entry.data.name}`
+          }</div>
+        `;
+
+        container.appendChild(div);
+      });
+
       })
       .catch(error => {
         console.error("Error loading guestbook:", error);
