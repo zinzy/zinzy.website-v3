@@ -7,7 +7,10 @@
   </header>
 
   <section class="my-20">
-      <form id="guestbook-form" class="bg-gray-50 rounded-lg p-4" action="/submitted" method="POST" data-netlify="true" name="guestbook" netlify netlify-honeypot="not-for-humans">
+      <form id="guestbook-form" class="bg-gray-50 rounded-lg p-4" action="/submitted" method="POST" data-netlify="true" name="guestbook" netlify netlify-honeypot="not-for-humans" data-netlify-recaptcha="true">
+        <p style="display: none;">
+          <label>Don’t fill this out if you're human: <input name="not-for-humans" /></label>
+        </p>
         <p class="m-0 p-0">
           <label>
             <div class="mb-1">
@@ -33,15 +36,7 @@
             </div>
             <textarea required id="message" name="message" placeholder="Hey Zinzy, I just wanted to say..." class="p-2 rounded block w-full h-56"></textarea></label>
         </p>
-        <p>
-          <label>
-            <div class="mb-1">
-              <div>Say "Hey" if you're human</div>
-            </div>
-            <input class="p-2 rounded block w-full" name="not-for-humans" /></label>
-        </p>
-      <!-- Hidden field for custom boolean property -->
-      <input type="hidden" name="approved" value="false">
+        <div data-netlify-recaptcha="true"></div>
         <p class="m-0 p-0 text-right">
           <button type="submit" class="button" id="submit-btn">Submit</button>
         </p>
