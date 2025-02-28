@@ -6,6 +6,12 @@
     {{ .Content }}
   </header>
 
+  <form name="guestbook" method="POST" data-netlify="true">
+    <input type="text" name="name" placeholder="Your name" required>
+    <textarea name="message" placeholder="Your message" required></textarea>
+    <button type="submit">Sign Guestbook</button>
+  </form>
+
   <section>
     <div>
       <h2>Sign the guestbook</h2>
@@ -26,7 +32,28 @@
       </form>
     </div>
   </section>
+
+  <section id="guestbook-messages">
+    <p>Loading guestbook entries...</p>
+  </section>
   
+  <script>
+    fetch('/.netlify/functions/guestbook')
+      .then(response => response.json())
+      .then(data => {
+        const container = document.getElementById("guestbook-messages");
+        container.innerHTML = "";
+  
+        data.forEach(entry => {
+          const div = document.createElement("div");
+          div.innerHTML = `<p><strong>${entry.data.name}:</strong> ${entry.data.message}</p>`;
+          container.appendChild(div);
+        });
+      })
+      .catch(error => {
+        console.error("Error loading guestbook:", error);
+      });
+  </script>
   
   
   {{ partial "backlinks.html" . }}

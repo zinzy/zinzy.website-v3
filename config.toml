@@ -58,3 +58,8 @@ refLinksNotFoundURL = "/"
     limit = 4
   
 paginate = 3
+
+[security]
+  enableInlineShortcodes = false
+  [security.funcs]
+    getenv = ['^HUGO_']
