@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 html, body {
-  font-size: 16px;
+  font-size: 17px;
 }
 
 
@@ -29,6 +29,9 @@ html, body {
 h2, h3, h4, h5, h6, 
 .prose h2, .prose h3, .prose h4, .prose h5, .prose h6 {
   @apply font-sans text-base font-medium dark:text-neutral-100;
+  /* a {
+    @apply hover:text-neutral-500 dark:hover:text-neutral-400;
+  } */
 }
 
 
@@ -56,13 +59,11 @@ h2, h3, h4, h5, h6,
 }
 
 .button {
-  @apply px-3 py-1 bg-stone-200 dark:bg-white rounded;
+  @apply font-medium text-sm border px-3 py-2 rounded text-gray-950 dark:text-neutral-300 hover:border-gray-300 dark:bg-neutral-800 dark:border-neutral-700 dark:hover:bg-neutral-800 dark:hover:border-neutral-600 dark:hover:text-neutral-300 transition-all;
 }
 
-figure {
-  figcaption {
-    @apply font-sans;
-  }
+figure figcaption {
+  @apply font-sans text-gray-500 dark:text-neutral-400;
 }
 
 [class*="border"] {
@@ -71,4 +72,16 @@ figure {
 
 time, time a {
   @apply text-secondary;
+}
+
+.footnotes {
+  @apply text-sm
+}
+
+.footnotes li p {
+  @apply leading-5;
+}
+
+.letterbird-embed .button {
+  @apply bg-red-400 !important;
 }
