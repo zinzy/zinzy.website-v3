@@ -86,6 +86,6 @@ time, time a {
   @apply bg-red-400 !important;
 }
 
-#guestbook-messages ul li {
+.guestbook-entry {
   @apply bg-gray-50 dark:bg-neutral-800 mb-10 p-4
 }
