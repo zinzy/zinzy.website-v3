@@ -1,6 +1,6 @@
 ---
 title: "The first seven jobs I had"
-date: 2025-03-01 13:27:02 +01:00
+date: 2025-03-01 10:27:02 +01:00
 tags:
   - Internet
   - IndieWeb
