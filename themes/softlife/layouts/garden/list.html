@@ -6,4 +6,17 @@
     {{ .Content }}
   </header>
 </div>
+
+<section class="my-20">
+
+  {{ $allGardenEntries := (where .Site.RegularPages "Type" "garden") }} 
+  <ul>
+    {{ range $allGardenEntries }}
+    <li class="border-b last:border-none py-2">
+      <a href="{{ .Permalink }}" class="">{{ .Title }}
+      </a>
+    </li>
+  {{ end }}
+  </ul>
+</section>
 {{ end }}

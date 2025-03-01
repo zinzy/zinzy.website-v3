@@ -3,7 +3,9 @@
 @tailwind utilities;
 
 html, body {
-  font-size: 17px;
+  @media screen and (min-width) {
+    font-size: 17px;
+  }
 }
 
 
