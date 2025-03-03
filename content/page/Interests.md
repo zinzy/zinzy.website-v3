@@ -21,11 +21,3 @@ I was academically trained as a linguist and literary theorist and was on a path
 
 ### IndieWeb
 I'm an advocate for an Internet that is kind, accessible, transparent, and designed to foster connection and understanding. There's great joy in maintaining my own website, and meeting many others who do the same.
-
-### Miscellaneous
-- How can design dynamically position itself as a service within an organization?
-- How can technology aid collaboration, inclusion, and knowledge building?
-- How does storytelling affect the lived experience and notion of self of individuals?
-- How can I learn to play that piece of music?
-- How does neurodiversity affect my relationships, attention, and productivity?
-- How can I cook this better?

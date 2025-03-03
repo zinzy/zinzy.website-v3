@@ -1798,8 +1798,8 @@ video {
 }
 
 html, body {
-  @media screen and (min-width) {
-    font-size: 17px;
+  @media screen and (min-width:768px) {
+    font-size: 18px;
   }
 }
 
