@@ -6,7 +6,7 @@ title: We all live in a white submersible
 date: 2023-06-22
 excerpt: ""
 tags:
-  - being Black
+  - being Afropean
 ---
 
 

@@ -9,7 +9,7 @@ categories:
 - Essays
 tags:
   - meditation
-  - being Black
+  - being Afropean
   - representation
 ---
 

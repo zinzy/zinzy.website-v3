@@ -9,7 +9,7 @@ categories:
 - Poetry
 tags:
   - poetry
-  - being Black
+  - being Afropean
   - racism
   - television
   - cinema

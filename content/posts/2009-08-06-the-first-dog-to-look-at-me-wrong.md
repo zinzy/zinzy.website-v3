@@ -3,7 +3,7 @@ title: The first dog to look at me wrong
 date: 2009-08-01  18:59:23 +01:00
 tags:
   - Eindhoven
-  - being Black
+  - being Afropean
   - self care
   - summer
   - university

@@ -11,7 +11,7 @@ tags:
   - book club
   - food
   - heritage
-  - being Black
+  - being Afropean
   - racism
   - trauma
   - hosting

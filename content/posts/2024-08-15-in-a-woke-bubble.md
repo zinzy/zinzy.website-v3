@@ -5,7 +5,7 @@ date: 2024-08-15 19:39:04 +0200
 tags:
   - Judaism
   - antisemitism
-  - being Black
+  - being Afropean
   - Anja
 ---
 

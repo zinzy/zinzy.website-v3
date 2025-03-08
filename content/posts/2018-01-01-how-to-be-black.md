@@ -9,7 +9,7 @@ categories:
 - Essays
 tags:
   - poetry
-  - being Black
+  - being Afropean
   - racism
   - discrimination
 ---

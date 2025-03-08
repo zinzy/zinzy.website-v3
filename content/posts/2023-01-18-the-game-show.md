@@ -10,7 +10,7 @@ categories:
 tags:
   - podcasts
   - language
-  - being Black
+  - being Afropean
   - diversity and inclusion
 ---
 
