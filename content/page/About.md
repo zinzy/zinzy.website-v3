@@ -14,7 +14,7 @@ I am a [diary-keeper](archive), [designer](/work), and [crazy church lady](/prax
 
 In [Amsterdam](/tags/amsterdam/) I share a shoebox with [Lemonade](/tags/lemonade/) and [Anja](https://anjawaleson.notion.site/Anja-Waleson-0182c8df804b4b12ab6e70b5b5795a55). Lemonade is a dog, but since we're a [child-free](/im-child-free/) home, she is my daughter. How did I get here? If you've never met my life partner, educator and potter Anja, you should. She's quite something.
 
-I'm an [Afropean](/tags/being-black), [queer](/tags/queerdom), [neurodivergent](/im-neurodivergent/) first-generation University graduate. I have the immense privilege of waking up every day feeling 8+, with a labrador-like enthusiasm for life. It's an effective way to make up for [what wasn't](/2020/05/13/clobber/).
+I'm an [Afropean](/tags/being-afropean), [queer](/tags/queerdom), [neurodivergent](/im-neurodivergent/) first-generation University graduate. I have the immense privilege of waking up every day feeling 8+, with a labrador-like enthusiasm for life. It's an effective way to make up for [what wasn't](/2020/05/13/clobber/).
 
 I'm a lifelong learner, music maker, song writer, photographer, doodler, reader, painter, gardener, and writer. I do my best to align what I do with [what I value](/values/). I [practice](/praxis) a "stop believing, start doing" kind of Christianity.
 
