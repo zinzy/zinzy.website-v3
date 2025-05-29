@@ -9,8 +9,16 @@
 
         <div class="container"> 
 
+            {{ if and .IsHome (eq .Paginator.PageNumber 1) }}
+                <section class="mt-30 prose prose-gray dark:prose-invert">
+                    <p>Hello, my name is Zinzy Waleson Geene. I'm a diary-keeper and designer with various <a href="/interests/">interests</a>, <a href="/ideas/">ideas</a>, and <a href="/values/">values</a>. Learn more <a href="/about/">about me</a> or <a href="/colophon/">this website</a>. Don't forget to sign my <a href="/guestbook/">guestbook</a>, and consider this an open invitation to <a href="/hello/">say hello</a>.</p>
+                </section>
+            {{ end }}
+           
+
+
             <main class="" aria-label="Content">
-                <div class="my-60">
+                <div class="my-30">
                     {{- block "main" . }}{{- end }}
                 </div> 
             </main>
