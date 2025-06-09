@@ -2,7 +2,12 @@
 (slice "posts" "micro")) }} {{ $sortedEntries := sort $allEntries "Date" "desc"
 }} {{ $paginator := .Paginate $sortedEntries 7 }}
 
-<section class="prose prose-gray dark:prose-invert">{{ .Content }}</section>
+
+{{ if and .IsHome (eq $paginator.PageNumber 1) }}
+<section class="mt-30 prose prose-gray dark:prose-invert">
+  {{ .Content }}
+</section>
+{{ end }}
 
 <section class="mt-28">
   <ul class="">
