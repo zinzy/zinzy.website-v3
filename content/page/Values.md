@@ -3,6 +3,10 @@ title: Values
 description: "These are some of the things I enjoy, appreciate, and practice"
 layout: page
 ---
+Below are some themes that appear in everything I do, especially as I engage in the daily practise of moving towards my life's [mission](/mission).
+
+---
+
 ### Everything's a text
 I was trained in literary and cultural criticism in an environment that was slowly developing the sensibility to look beyond Serious Literature™. These days, even though I'm nowhere near academic criticism of any kind, I still find myself discovering layers and layers of meaning in whatever I read, see, hear, encounter, experience, especially in the mundane. It means I'm almost never bored, but also that I should expect the odd puzzled look every now and then.
 
