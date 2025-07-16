@@ -1,7 +1,9 @@
 ---
 title: About
 ---
+
 {{< rawhtml >}}
+
 <figure>
     <img src="/img/zinzy_by_tim.jpg"
          alt="A person laughing with their eyes closed, Dutch landscape in the background">
@@ -25,6 +27,7 @@ My name is Zinzy Waleson Geene, which sounds like ZIN-zee WHALE-son GREEN if you
 - I've been yelling at Internet clouds since [1997](/museum)
 
 {{< rawhtml >}}
+
 <figure class="my-20">
 <img src="/img/zinzy-at-tbab.jpg" alt="An Afropean person with a headwrap sitting between bookshelves, holding a book titled 'None of the Above">
 <figcaption>Me in July 2024 as a plus one at <a href="https://www.theblackarchives.nl/tbabookclub.html?lang=en" target="_blank">The Black Archives' Book Club</a></figcaption>
