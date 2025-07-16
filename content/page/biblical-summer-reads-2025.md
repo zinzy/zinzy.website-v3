@@ -15,6 +15,7 @@ Good to know:
 - I've added links to all texts as well as the Bible passages, two translations side by side: the one you use at church, as well as The Message Bible translation.
 - You can't spell "The Message Bible" without spelling "mess", which is what it is. Think "youth pastor rapping at Christian summer camp". Still, it serves to remind us that no single translation is best.
 - I hope you have a beautiful time resting, recharging, relaxing, cooking, tanning (SUNSCREEN!), and living your best life.
+- All of the following is 100% optional
 
 ---
 
