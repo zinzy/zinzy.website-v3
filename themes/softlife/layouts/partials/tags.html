@@ -1,9 +1,9 @@
-{{ $taxonomy := "tags" }} {{ with .Param $taxonomy }}
+{{ $taxonomy := "tags" }} {{ with .Param $taxonomy }} {{ $sortedTags := sort .
+}}
 
 <ul class="tags inline-block p-0 mt-0 text-xs">
-  {{ range $index, $tag := . }} {{ with $.Site.GetPage (printf "/%s/%s"
-  $taxonomy (urlize $tag) ) -}}
-
+  {{ range $index, $tag := $sortedTags }} {{ with $.Site.GetPage (printf
+  "/%s/%s" $taxonomy (urlize $tag)) }}
   <li class="inline-block mb-4 mr-2">
     <a
       href="{{ .Permalink }}"
@@ -11,7 +11,7 @@
       >{{ $tag }}</a
     >
   </li>
-  {{- end -}} {{- end -}}
+  {{ end }} {{ end }}
 </ul>
 
 {{ end }}

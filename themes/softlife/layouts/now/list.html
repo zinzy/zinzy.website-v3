@@ -12,12 +12,9 @@
     <ul class="prose prose-slate dark:prose-invert">
       {{ range (where .Site.RegularPages "Type" "now") }}
       <li class="mt-20 border-t pt-20">
-        <time
-          class="mb-7 font-medium text-slate-950 dark:text-white"
-          datetime="{{ .Date }}"
-        >
+        <div class="font-medium text-slate-950 mt-5 dark:text-white text-2xl">
           {{ .Date | time.Format site.Params.theme_config.date_format_monthly }}
-        </time>
+        </div>
 
         <content class=""> {{ .Content }} </content>
       </li>

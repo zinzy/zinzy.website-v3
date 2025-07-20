@@ -65,22 +65,21 @@
     <ul class="space-x-4"> 
       <li class="inline-block"><a href="/">Diary</a></li>
       <li class="inline-block"><a href="/about">About</a></li>
+      <li class="inline-block"><a href="/now">Now</a></li>
       <li class="inline-block"><a href="/guestbook">Guestbook</a></li>
     </ul>
   </nav>
 </header><div class="container"> 
 
-            
-           
 
 
             <main class="" aria-label="Content">
                 <div class="my-30"> 
 
 
-<article class="h-entry prose prose-gray mb-14 dark:prose-invert">
+<article class="h-entry prose prose-slate mb-14 dark:prose-invert">
   <header class="">
-    <h2 class="p-name  md:mb-20">Guestbook</h2>
+    <h2 class="p-name md:mb-20">Guestbook</h2>
     <p>Guestbooks are a great way to let people know you&rsquo;ve been on their website. Remember, I 
 
 
@@ -112,106 +111,138 @@
   </header>
 
   <section class="my-20">
-      <form id="guestbook-form" class="bg-gray-50 rounded-lg p-4" action="/submitted" method="POST" data-netlify="true" name="guestbook" netlify netlify-honeypot="not-for-humans" data-netlify-recaptcha="true">
-        <p style="display: none;">
-          <label>Don’t fill this out if you're human: <input name="not-for-humans" /></label>
-        </p>
-        <p class="m-0 p-0">
-          <label>
-            <div class="mb-1">Name</div>
-            <input required class="p-2 rounded block w-full" placeholder="Kimmy Schmidt" type="text" name="name" />
-          </label>
-        </p>
-        <p class="m-0 p-0">
-          <label>
-            
-            <div class="mb-1">Website</div>
-            <input class="p-2 rounded block w-full"  placeholder="https://unbreakab.le" type="text" name="website" /></label>
-        </p>
-        <p class="m-0 p-0">
-          <label>
-            <div class="mb-1">
-              <div>Message</div>
-              <div class="text-sm text-secondary mb-2">Write whatever you want; please remember to be kind. If you plan to write a long entry, write your own post and <a href="/hello" class="underline">send me the link</a> instead!
-              </div>
+    <form
+      id="guestbook-form"
+      class="bg-slate-50 rounded-lg p-4"
+      action="/submitted"
+      method="POST"
+      data-netlify="true"
+      name="guestbook"
+      netlify
+      netlify-honeypot="not-for-humans"
+      data-netlify-recaptcha="true"
+    >
+      <p style="display: none">
+        <label
+          >Don’t fill this out if you're human: <input name="not-for-humans"
+        /></label>
+      </p>
+      <p class="m-0 p-0">
+        <label>
+          <div class="mb-1">Name</div>
+          <input
+            required
+            class="p-2 rounded block w-full"
+            placeholder="Kimmy Schmidt"
+            type="text"
+            name="name"
+          />
+        </label>
+      </p>
+      <p class="m-0 p-0">
+        <label>
+          <div class="mb-1">Website</div>
+          <input
+            class="p-2 rounded block w-full"
+            placeholder="https://unbreakab.le"
+            type="text"
+            name="website"
+        /></label>
+      </p>
+      <p class="m-0 p-0">
+        <label>
+          <div class="mb-1">
+            <div>Message</div>
+            <div class="text-sm text-secondary mb-2">
+              Write whatever you want; please remember to be kind. If you plan
+              to write a long entry, write your own post and
+              <a href="/hello" class="underline">send me the link</a> instead!
             </div>
-            <textarea required id="message" name="message" placeholder="Hey Zinzy, I just wanted to say..." class="p-2 rounded block w-full h-56"></textarea></label>
-        </p>
-        <div class="flex justify-center my-10"><div data-netlify-recaptcha="true"></div></div>
-        <p class="m-0 p-0 text-right">
-          <button type="submit" class="button" id="submit-btn">Submit</button>
-        </p>
-      </form>
+          </div>
+          <textarea
+            required
+            id="message"
+            name="message"
+            placeholder="Hey Zinzy, I just wanted to say..."
+            class="p-2 rounded block w-full h-56"
+          ></textarea>
+        </label>
+      </p>
+      <div class="flex justify-center my-10">
+        <div data-netlify-recaptcha="true"></div>
+      </div>
+      <p class="m-0 p-0 text-right">
+        <button type="submit" class="button" id="submit-btn">Submit</button>
+      </p>
+    </form>
   </section>
 
   <section id="guestbook-messages">
     <p>Loading guestbook entries...</p>
   </section>
-  
+
   <script>
-    fetch('/.netlify/functions/guestbook')
-      .then(response => response.json())
-      .then(data => {
+    fetch("/.netlify/functions/guestbook")
+      .then((response) => response.json())
+      .then((data) => {
         const container = document.getElementById("guestbook-messages");
         container.innerHTML = "";
-  
-        data.forEach(entry => {
-        const div = document.createElement("div");
-        div.classList.add("guestbook-entry");  
 
-        div.innerHTML = `
+        data.forEach((entry) => {
+          const div = document.createElement("div");
+          div.classList.add("guestbook-entry"); 
+
+          div.innerHTML = `
           <div class="mb-5">${entry.data.message}</div>
-          <div class="text-right text-sm">— ${entry.data.website ? 
-            `<a href="${entry.data.website}" target="_blank">${entry.data.name}</a>` :
-            `${entry.data.name}`
+          <div class="text-right text-sm">— ${
+            entry.data.website
+              ? `<a href="${entry.data.website}" target="_blank">${entry.data.name}</a>`
+              : `${entry.data.name}`
           }</div>
         `;
 
-        container.appendChild(div);
-      });
-
+          container.appendChild(div);
+        });
       })
-      .catch(error => {
+      .catch((error) => {
         console.error("Error loading guestbook:", error);
       });
   </script>
-  
-  
+
   
 
 </article>
 
-
 <script>
-
-const form = document.getElementById("guestbook-form");
-const messageField = document.getElementById("message");
-const submitButton = document.getElementById("submit-btn");
-
-
-const forbiddenWords = ["Mamma", "mamma", "Gefeliciteerd met je verjaardag"];
-
-
-const checkForForbiddenWords = () => {
-  const message = messageField.value.toLowerCase();
+  const form = document.getElementById("guestbook-form");
+  const messageField = document.getElementById("message");
+  const submitButton = document.getElementById("submit-btn");
 
   
-  const containsForbiddenWord = forbiddenWords.some(word => message.includes(word.toLowerCase()));
+  const forbiddenWords = ["Mamma", "mamma", "Gefeliciteerd met je verjaardag"];
 
-  if (containsForbiddenWord) {
+  
+  const checkForForbiddenWords = () => {
+    const message = messageField.value.toLowerCase();
+
     
-    submitButton.disabled = true;
-    submitButton.textContent = "‼️ Ik wil geen contact met jou ‼️";
-  } else {
-    
-    submitButton.disabled = false;
-    submitButton.textContent = "Submit";
-  }
-};
+    const containsForbiddenWord = forbiddenWords.some((word) =>
+      message.includes(word.toLowerCase())
+    );
 
+    if (containsForbiddenWord) {
+      
+      submitButton.disabled = true;
+      submitButton.textContent = "‼️ Ik wil geen contact met jou ‼️";
+    } else {
+      
+      submitButton.disabled = false;
+      submitButton.textContent = "Submit";
+    }
+  };
 
-messageField.addEventListener("input", checkForForbiddenWords);
-
+  
+  messageField.addEventListener("input", checkForForbiddenWords);
 </script>
 
                 </div> 
@@ -232,13 +263,15 @@ messageField.addEventListener("input", checkForForbiddenWords);
       <span class="p-family-name">Waleson Geene</span>,
       <span class="hidden p-nickname">Zinzy</span>
       <span class="hidden u-photo"
-        ><img src="/img/avatar.png" alt="Zinzy's photo"
+        ><img src="/img/avatar.jpg" alt="Zinzy's photo"
       /></span>
       <span class="hidden u-url">https://zinzy.website</span>
 
       a
 
-      <span class="lowercase p-category">Diary-keeper, designer, and community builder</span>
+      <span class="lowercase p-category"
+        >Diary-keeper, designer, and community builder</span
+      >
 
       from
       <span class="p-adr">
@@ -293,7 +326,7 @@ messageField.addEventListener("input", checkForForbiddenWords);
           </clipPath>
         </defs>
       </svg>
-    </a> 
+    </a>
   </div>
 </footer>
 <ul class="h-card hidden">
@@ -305,7 +338,7 @@ messageField.addEventListener("input", checkForForbiddenWords);
                     </span>
                 </a>
             </li>
-            <li class="u-photo"><img src="/img/avatar.png" alt="Portrait of Zinzy Waleson Geene"></li>
+            <li class="u-photo"><img src="/img/avatar.jpg" alt="Portrait of Zinzy Waleson Geene"></li>
             <li class="p-nickname">Zinzatron</li>
             <li class="p-org">Gerimedica</li>
             <li class="p-job-title">Senior Product Designer</li>
