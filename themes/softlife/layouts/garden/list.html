@@ -1,22 +1,20 @@
 {{ define "main" }} {{ partial "back_link.html" .}}
 
 <div class="">
-  <header class="mb-10 md:mb-20 prose prose-gray dark:prose-invert">
+  <header class="mb-10 md:mb-20 prose prose-slate dark:prose-invert">
     <h2 class="text-2xl mb-5">Garden</h2>
     {{ .Content }}
   </header>
 </div>
 
 <section class="my-20">
-
-  {{ $allGardenEntries := (where .Site.RegularPages "Type" "garden") }} 
+  {{ $allGardenEntries := (where .Site.RegularPages "Type" "garden") }}
   <ul>
     {{ range $allGardenEntries }}
     <li class="border-b last:border-none py-2">
-      <a href="{{ .Permalink }}" class="">{{ .Title }}
-      </a>
+      <a href="{{ .Permalink }}" class="">{{ .Title }} </a>
     </li>
-  {{ end }}
+    {{ end }}
   </ul>
 </section>
 {{ end }}

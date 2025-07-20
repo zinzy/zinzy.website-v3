@@ -1,12 +1,12 @@
 {{ define "main" }} {{ partial "back_link.html" .}}
 
 <article class="">
-  <div class="h-entry prose prose-gray mb-14 dark:prose-invert">
+  <div class="h-entry prose prose-slate mb-14 dark:prose-invert">
     <header class="">
       <p class="text-secondary mb-0 text-sm">{{ .Title }}</p>
       <h2 class="p-name mt-5 mb-4 text-2xl">{{ .Description }}</h2>
     </header>
-  
+
     <div class="e-content" class="mb-14">{{ .Content }}</div>
   </div>
 
@@ -18,14 +18,19 @@
         {{ range .children }}
         <li class="inline-block mr-3">
           <a href="{{ .url }}" target="_blank" rel="noopener noreferrer">
-            <img src="https://www.google.com/s2/favicons?domain={{ .url }}&sz=16" class="inline-block" alt="">
+            <img
+              src="https://www.google.com/s2/favicons?domain={{ .url }}&sz=16"
+              class="inline-block"
+              alt=""
+            />
             {{ .property }}
           </a>
         </li>
         {{ end }}
       </ul>
-      </li>
-  {{ end }}
-  </ul> {{ partial "backlinks.html" . }}
+    </li>
+    {{ end }}
+  </ul>
+  {{ partial "backlinks.html" . }}
 </article>
 {{ end }}

@@ -1,20 +1,13 @@
 {{ define "main" }} {{ partial "back_link.html" .}}
 
 <article class="h-entry">
-  <header class="prose prose-gray dark:prose-invert">
-    <h2 class="p-name mb-10 md:mb-20">
-      {{ .Params.title }}
-    </h2>
+  <header class="prose prose-slate dark:prose-invert">
+    <h2 class="p-name mb-10 md:mb-20">{{ .Params.title }}</h2>
   </header>
 
-  <div
-    id="about"
-    class="e-content prose prose-gray mt-20 dark:prose-invert"
-  >
+  <div id="about" class="e-content prose prose-slate mt-20 dark:prose-invert">
     {{ .Content }}
   </div>
-
-
 
   <section class="mt-20">
     <p class="text-secondary mb-0 text-sm">What to explore</p>
@@ -66,6 +59,6 @@
     </ul>
   </section>
 
-  {{ partial "backlinks.html" . }} 
+  {{ partial "backlinks.html" . }}
 </article>
 {{ end }}

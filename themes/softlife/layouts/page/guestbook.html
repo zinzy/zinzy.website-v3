@@ -1,110 +1,142 @@
 {{ define "main" }} {{ partial "back_link.html" .}}
 
-<article class="h-entry prose prose-gray mb-14 dark:prose-invert">
+<article class="h-entry prose prose-slate mb-14 dark:prose-invert">
   <header class="">
-    <h2 class="p-name  md:mb-20">{{ .Title }}</h2>
+    <h2 class="p-name md:mb-20">{{ .Title }}</h2>
     {{ .Content }}
   </header>
 
   <section class="my-20">
-      <form id="guestbook-form" class="bg-gray-50 rounded-lg p-4" action="/submitted" method="POST" data-netlify="true" name="guestbook" netlify netlify-honeypot="not-for-humans" data-netlify-recaptcha="true">
-        <p style="display: none;">
-          <label>Don’t fill this out if you're human: <input name="not-for-humans" /></label>
-        </p>
-        <p class="m-0 p-0">
-          <label>
-            <div class="mb-1">Name</div>
-            <input required class="p-2 rounded block w-full" placeholder="Kimmy Schmidt" type="text" name="name" />
-          </label>
-        </p>
-        <p class="m-0 p-0">
-          <label>
-            
-            <div class="mb-1">Website</div>
-            <input class="p-2 rounded block w-full"  placeholder="https://unbreakab.le" type="text" name="website" /></label>
-        </p>
-        <p class="m-0 p-0">
-          <label>
-            <div class="mb-1">
-              <div>Message</div>
-              <div class="text-sm text-secondary mb-2">Write whatever you want; please remember to be kind. If you plan to write a long entry, write your own post and <a href="/hello" class="underline">send me the link</a> instead!
-              </div>
+    <form
+      id="guestbook-form"
+      class="bg-slate-50 rounded-lg p-4"
+      action="/submitted"
+      method="POST"
+      data-netlify="true"
+      name="guestbook"
+      netlify
+      netlify-honeypot="not-for-humans"
+      data-netlify-recaptcha="true"
+    >
+      <p style="display: none">
+        <label
+          >Don’t fill this out if you're human: <input name="not-for-humans"
+        /></label>
+      </p>
+      <p class="m-0 p-0">
+        <label>
+          <div class="mb-1">Name</div>
+          <input
+            required
+            class="p-2 rounded block w-full"
+            placeholder="Kimmy Schmidt"
+            type="text"
+            name="name"
+          />
+        </label>
+      </p>
+      <p class="m-0 p-0">
+        <label>
+          <div class="mb-1">Website</div>
+          <input
+            class="p-2 rounded block w-full"
+            placeholder="https://unbreakab.le"
+            type="text"
+            name="website"
+        /></label>
+      </p>
+      <p class="m-0 p-0">
+        <label>
+          <div class="mb-1">
+            <div>Message</div>
+            <div class="text-sm text-secondary mb-2">
+              Write whatever you want; please remember to be kind. If you plan
+              to write a long entry, write your own post and
+              <a href="/hello" class="underline">send me the link</a> instead!
             </div>
-            <textarea required id="message" name="message" placeholder="Hey Zinzy, I just wanted to say..." class="p-2 rounded block w-full h-56"></textarea></label>
-        </p>
-        <div class="flex justify-center my-10"><div data-netlify-recaptcha="true"></div></div>
-        <p class="m-0 p-0 text-right">
-          <button type="submit" class="button" id="submit-btn">Submit</button>
-        </p>
-      </form>
+          </div>
+          <textarea
+            required
+            id="message"
+            name="message"
+            placeholder="Hey Zinzy, I just wanted to say..."
+            class="p-2 rounded block w-full h-56"
+          ></textarea>
+        </label>
+      </p>
+      <div class="flex justify-center my-10">
+        <div data-netlify-recaptcha="true"></div>
+      </div>
+      <p class="m-0 p-0 text-right">
+        <button type="submit" class="button" id="submit-btn">Submit</button>
+      </p>
+    </form>
   </section>
 
   <section id="guestbook-messages">
     <p>Loading guestbook entries...</p>
   </section>
-  
+
   <script>
-    fetch('/.netlify/functions/guestbook')
-      .then(response => response.json())
-      .then(data => {
+    fetch("/.netlify/functions/guestbook")
+      .then((response) => response.json())
+      .then((data) => {
         const container = document.getElementById("guestbook-messages");
         container.innerHTML = "";
-  
-        data.forEach(entry => {
-        const div = document.createElement("div");
-        div.classList.add("guestbook-entry");  // Add the "guestbook-entry" class
 
-        div.innerHTML = `
+        data.forEach((entry) => {
+          const div = document.createElement("div");
+          div.classList.add("guestbook-entry"); // Add the "guestbook-entry" class
+
+          div.innerHTML = `
           <div class="mb-5">${entry.data.message}</div>
-          <div class="text-right text-sm">— ${entry.data.website ? 
-            `<a href="${entry.data.website}" target="_blank">${entry.data.name}</a>` :
-            `${entry.data.name}`
+          <div class="text-right text-sm">— ${
+            entry.data.website
+              ? `<a href="${entry.data.website}" target="_blank">${entry.data.name}</a>`
+              : `${entry.data.name}`
           }</div>
         `;
 
-        container.appendChild(div);
-      });
-
+          container.appendChild(div);
+        });
       })
-      .catch(error => {
+      .catch((error) => {
         console.error("Error loading guestbook:", error);
       });
   </script>
-  
-  
+
   {{ partial "backlinks.html" . }}
 </article>
 
-
 <script>
+  const form = document.getElementById("guestbook-form");
+  const messageField = document.getElementById("message");
+  const submitButton = document.getElementById("submit-btn");
 
-const form = document.getElementById("guestbook-form");
-const messageField = document.getElementById("message");
-const submitButton = document.getElementById("submit-btn");
+  // Define the forbidden words
+  const forbiddenWords = ["Mamma", "mamma", "Gefeliciteerd met je verjaardag"];
 
-// Define the forbidden words
-const forbiddenWords = ["Mamma", "mamma", "Gefeliciteerd met je verjaardag"];
+  // Function to check if any forbidden word is in the message
+  const checkForForbiddenWords = () => {
+    const message = messageField.value.toLowerCase();
 
-// Function to check if any forbidden word is in the message
-const checkForForbiddenWords = () => {
-  const message = messageField.value.toLowerCase();
+    // Check if the message contains any forbidden words
+    const containsForbiddenWord = forbiddenWords.some((word) =>
+      message.includes(word.toLowerCase())
+    );
 
-  // Check if the message contains any forbidden words
-  const containsForbiddenWord = forbiddenWords.some(word => message.includes(word.toLowerCase()));
+    if (containsForbiddenWord) {
+      // Disable the submit button and update the text
+      submitButton.disabled = true;
+      submitButton.textContent = "‼️ Ik wil geen contact met jou ‼️";
+    } else {
+      // Enable the submit button and reset the text
+      submitButton.disabled = false;
+      submitButton.textContent = "Submit";
+    }
+  };
 
-  if (containsForbiddenWord) {
-    // Disable the submit button and update the text
-    submitButton.disabled = true;
-    submitButton.textContent = "‼️ Ik wil geen contact met jou ‼️";
-  } else {
-    // Enable the submit button and reset the text
-    submitButton.disabled = false;
-    submitButton.textContent = "Submit";
-  }
-};
-
-// Add event listener to the message field to check the input as the user types
-messageField.addEventListener("input", checkForForbiddenWords);
-
+  // Add event listener to the message field to check the input as the user types
+  messageField.addEventListener("input", checkForForbiddenWords);
 </script>
 {{ end }}
