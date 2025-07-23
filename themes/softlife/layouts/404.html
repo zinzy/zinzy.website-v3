@@ -1,8 +1,8 @@
 {{ define "main" }} {{- partial "back_link.html" . -}}
 
 <div class="">
-  <header class="prose prose-gray dark:prose-invert">
-    <h2 class="p-name mb-2 mt-0 text-2xl lg:w-2/3">
+  <header class="prose prose-slate dark:prose-invert">
+    <h2 class="p-name mb-2 mt-0 text-2xl">
       Sometimes I'll start a sentence, and I don't even...
     </h2>
     <p class="">
@@ -10,18 +10,17 @@
       hoping to find does not exist (anymore). Please head back to the
       <a href="/">front page</a> to continue your journey.
     </p>
-    <p class="">Here are a few random posts.</p>
+    <p class="">Here are a three random posts.</p>
   </header>
+
+  <hr class="my-10" />
 
   <section class="mt-10 md:mt-20">
     {{ $feed := where .Site.RegularPages "Type" "posts" }} {{ range shuffle
     $feed | first 3 }}
 
     <article class="mb-20">
-      <time
-        class="dt-published mb-5"
-        datetime="{{ .Date }}"
-      >
+      <time class="dt-published mb-5" datetime="{{ .Date }}">
         <a href="{{ .Permalink }}"
           >{{ .Date | time.Format site.Params.theme_config.date_format_medium
           }}</a
@@ -29,16 +28,16 @@
       </time>
       {{ if .Params.title }}
 
-      <h2 class="text-2xl mt-5">
+      <h2 class="text-2xl mt-5 mb-10">
         <a href="{{ .Permalink }}">{{ .Params.title }}</a>
       </h2>
 
-      <div class="prose prose-gray dark:prose-invert">
+      <div class="prose prose-slate dark:prose-invert">
         {{ .Summary }} <a href="{{ .Permalink }}">(Continue)</a>
       </div>
       {{ else }}
 
-      <div class="prose prose-gray dark:prose-invert">
+      <div class="prose prose-slate dark:prose-invert">
         {{ if .Params.replyTo }} {{ if .Params.rsvp }}
         <p>
           {{ if eq .Params.rsvp "yes" }}<data class="p-rsvp" value="YES"
@@ -97,7 +96,7 @@
         {{ end }}
       </div>
 
-      <div class="prose prose-gray dark:prose-invert">{{ .Content }}</div>
+      <div class="prose prose-slate dark:prose-invert">{{ .Content }}</div>
       {{ end }}
     </article>
 

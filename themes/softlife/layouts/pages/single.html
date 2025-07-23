@@ -1,6 +1,6 @@
 {{ define "main" }} {{ partial "back_link.html" .}}
 
-<article class="h-entry relative prose prose-gray dark:prose-invert">
+<article class="h-entry relative prose prose-slate dark:prose-invert">
   <header>
     <h2 class="p-name text-3xl">{{ .Title }}</h2>
   </header>
@@ -12,6 +12,5 @@
   {{ end }}
 
   <div class="e-content">{{ .Content }}</div>
-  
 </article>
 {{ end }}

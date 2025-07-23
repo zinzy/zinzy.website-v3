@@ -1,6 +1,6 @@
 {{ define "main" }} {{ partial "back_link.html" .}} {{ $shorts := where
-.Site.RegularPages "Type" "shorts" }} {{ $notes := where $shorts
-".Params.photo" "=" nil }}
+.Site.RegularPages "Type" "shorts" }} {{ $notes := where $shorts ".Params.photo"
+"=" nil }}
 
 <header class="mb-10 md:mb-20">
   <h2 class="text-2xl mb-5">{{ .Title }}</h2>
@@ -22,7 +22,7 @@
       </p>
       {{ if .Params.title }} {{ else }}
 
-      <div class="prose prose-gray dark:prose-invert">
+      <div class="prose prose-slate dark:prose-invert">
         {{ if .Params.replyTo }} {{ if .Params.rsvp }}
         <p>
           {{ if eq .Params.rsvp "yes" }}<data class="p-rsvp" value="YES"
@@ -83,7 +83,7 @@
         {{ end }}
       </div>
 
-      <div class="prose prose-gray dark:prose-invert">{{ .Content }}</div>
+      <div class="prose prose-slate dark:prose-invert">{{ .Content }}</div>
       {{ end }}
       <div class="mt-5">{{ partial "tags.html" .}}</div>
     </li>

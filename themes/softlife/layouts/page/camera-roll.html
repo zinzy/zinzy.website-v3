@@ -6,18 +6,16 @@
     {{ range $cameraroll }}
     <li class="mb-3">
       <a href="{{ .Permalink }}">
-      <img
-      src="{{ .Params.photo }}"
-      alt="Photo for {{ .Title }}"
-      class="aspect-square object-cover border"
-    />
-    </a>
+        <img
+          src="{{ .Params.photo }}"
+          alt="Photo for {{ .Title }}"
+          class="aspect-square object-cover border"
+        />
+      </a>
     </li>
     {{ end }}
   </ul>
 </section>
-
-
 
 <!-- <section class="mt-16">
   <ul class="">
@@ -42,7 +40,7 @@
       />
       </div>
 
-      <div class="prose prose-gray dark:prose-invert">{{ .Content }}</div>
+      <div class="prose prose-slate dark:prose-invert">{{ .Content }}</div>
       <div class="mt-5">{{ partial "tags.html" .}}</div>
     </li>
     {{ end }}

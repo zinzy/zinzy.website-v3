@@ -2,7 +2,6 @@
 
 <div class="">
   <article class="h-entry">
-
     <header class="">
       {{ if or (eq .Section "posts") (eq .Section "micro") }}
       <time class="dt-published" datetime="{{ .Date }}">
@@ -12,9 +11,7 @@
         >
       </time>
       {{ else }}{{ end }} {{ if .Params.title }}
-      <h2 class="p-name text-2xl mb-10 md:mb-20">
-        {{ .Params.title }}
-      </h2>
+      <h2 class="p-name text-2xl mt-5 mb-10 md:mb-20">{{ .Params.title }}</h2>
       {{ end }}
 
       <div class="u-author h-card hidden">
@@ -22,11 +19,6 @@
         <a href="/" class="u-url p-name">Zinzy Waleson Geene</a>
       </div>
     </header>
-
-
-
-
-
 
     {{ if or (eq .Section "posts") (eq .Section "shorts") }} {{ if gt
     .Site.Params.oldPost .Date.Year }}
@@ -45,7 +37,7 @@
     </div>
     {{ end }} {{ end }}
 
-    <content class="e-content prose prose-gray dark:prose-invert">
+    <content class="e-content prose prose-slate dark:prose-invert">
       <div class="mt-5">
         {{ if .Params.replyTo }} {{ if .Params.rsvp }}
         <p>
@@ -111,22 +103,19 @@
         {{ .Params.sidenote | markdownify }}
       </div>
       {{ end }} {{- partial "content_wikified" . -}}
-
-      
     </content>
   </article>
 
- 
   {{ if .Params.songs }}
   <ul class="mt-10">
     {{ range .Params.songs }}
-      <li class="flex justify-between border-b last:border-none py-2">
-        <span>{{ .title }}</span>
-        <span class="text-secondary">by {{ .artist }}</span>
-      </li>
+    <li class="flex justify-between border-b last:border-none py-2">
+      <span>{{ .title }}</span>
+      <span class="text-secondary">by {{ .artist }}</span>
+    </li>
     {{ end }}
   </ul>
-{{ end }}
+  {{ end }}
 
   <div class="my-20">{{ partial "tags.html" .}}</div>
 
@@ -135,7 +124,7 @@
     .Site.RegularPages }} {{ if and (findRE $re .RawContent) }} {{ $backlinks =
     $backlinks | append . }} {{ end }} {{ end }} {{ if gt (len $backlinks) 0 }}
     <h3 class="mb-5">Linking to this page</h3>
-    <div class="backlinks prose prose-gray dark:prose-invert">
+    <div class="backlinks prose prose-slate dark:prose-invert">
       <ul class="">
         {{ range $backlinks }} {{ if not .IsHome }}
         <li class="">
@@ -159,11 +148,18 @@
       <p>Follow via <a href="/index.xml" class="underline">RSS</a></p>
     </div>
     <div class="border-t pt-5 mt-5 flex">
-      <img src="/img/avatar.jpg" alt="" class="flex-none w-20 h-20 mr-5 rounded">
-      <p>I'm <a href="/about" class="underline">Zinzy Waleson Geene</a>, a diary-keeper, designer, and community builder in Amsterdam. Yelling at Internet clouds since 1997.</p>
+      <img
+        src="/img/avatar.jpg"
+        alt=""
+        class="flex-none w-20 h-20 mr-5 rounded"
+      />
+      <p>
+        Hello, I'm <a href="/about" class="underline">Zinzy Waleson Geene</a>, a
+        diary-keeper, designer, and community builder yelling at Internet clouds
+        since 1997.
+      </p>
     </div>
   </div>
   <!-- {{ end }} -->
-
 </div>
 {{ end }}

@@ -81,20 +81,25 @@ It's easy for me to be a "kop zonder kip" in general, and within the context of 
 
 ---
 
-### Theme 3: On showing up as we are (work in progress)
+### Theme 3: On showing up as we are
 
 My biggest challenge within Christianity is showing up as I am in a world that often shows me I don't belong. I sometimes feel like I'm passing for Christian, or passing for queer enough, passing for not-traumatised, or passing for not-Black. These texts often help me remember that I don't need any of that, that I have just as little real control over my circumstances as anyone else, and that just showing up is good enough.
 
-Bible passages:
+#### A song:
+
+- [Kana Kassy](https://open.spotify.com/track/0s3hLSHmF9JBS7bNrx1jRd?si=69a2936849964f48) by Ali Farka Touré and Toumani Diabaté
+
+#### Bible passages:
 
 - [Psalm 139](https://www.biblegateway.com/passage/?search=Psalm%20139&version=NIV,MSG)
 - [Ecclesiastes 9:1-12](https://www.biblegateway.com/passage/?search=Ecclesiastes%209%3A1-12&version=NRSVUE,MSG)
 
-Reflections:
+#### Reflections:
 
-- [Notes on passing]() by Erin Clarke (that pastor I met in the streets of London)
+- [Notes on Passing](https://www.dropbox.com/scl/fi/ngc4uxh8puxo5ifwrwoiy/erin-clarke-passing.pdf?rlkey=c746i6o3kcbdpdzgyy9o953hb&st=wmn87wbs&dl=0) by Erin Clarke, from _The Book of Queer Prophets_ (that pastor I met in the streets of London)
+- [Embracing Enoughness](https://cac.org/daily-meditations/embracing-enoughness-2020-06-30/) by Richard Rohr
 
-Poetry:
+#### Poetry:
 
 - [The body never overreacts - it remembers](https://www.instagram.com/blackliturgies/p/DFGCFpUuCN1/?img_index=1) by Cole Arthur Riley
 - [Enough](https://wordsfortheyear.com/2015/09/26/enough-by-david-whyte/) by David Whyte

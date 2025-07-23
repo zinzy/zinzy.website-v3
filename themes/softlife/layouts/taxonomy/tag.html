@@ -8,10 +8,8 @@
     </h2>
 
     {{ if .Content }}
-      <div class="prose prose-gray dark:prose-invert">{{ .Content }}</div>
+    <div class="prose prose-slate dark:prose-invert">{{ .Content }}</div>
     {{ end }}
-
-
   </header>
 
   <section class="mt-20">
@@ -21,29 +19,30 @@
     $paginator := .Paginate $sortedfeed 7 }} {{ range $paginator.Pages }}
 
     <article class="mb-20">
-
       <header class="mb-5">
         <time class="dt-published" datetime="{{ .Date }}">
           <a href="{{ .Permalink }}">
-            {{ .Date |
-              time.Format site.Params.theme_config.date_format_medium }}
+            {{ .Date | time.Format site.Params.theme_config.date_format_medium
+            }}
           </a>
         </time>
-        {{ if .Params.title }} 
-        <h2 class="">
+        {{ if .Params.title }}
+        <h2 class="p-name text-2xl mt-5 mb-10">
           <a href="{{ .Permalink }}">{{ .Params.title }}</a>
         </h2>
         {{ end }}
+      </header>
 
-      </header> 
-
-      {{ if .Params.title }} 
-      <div class="prose prose-gray dark:prose-invert">
-        {{ .Summary }} <a href="{{ .Permalink }}">(Continue)</a>
+      {{ if .Params.title }}
+      <div class="prose prose-slate dark:prose-invert">
+        {{ .Summary }}
+        <div class="not-prose flex justify-end">
+          <a href="{{ .Permalink }}" class="button">Keep reading</a>
+        </div>
       </div>
       {{ else }}
 
-      <div class="prose prose-gray dark:prose-invert">
+      <div class="prose prose-slate dark:prose-invert">
         {{ if .Params.replyTo }} {{ if .Params.rsvp }}
         <p>
           {{ if eq .Params.rsvp "yes" }}<data class="p-rsvp" value="YES"
@@ -101,7 +100,7 @@
         </p>
         {{ end }}
       </div>
-      <div class="prose prose-gray dark:prose-invert">{{ .Content }}</div>
+      <div class="prose prose-slate dark:prose-invert">{{ .Content }}</div>
       {{ end }}
     </article>
 
