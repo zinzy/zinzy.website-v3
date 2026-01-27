@@ -21,7 +21,7 @@ module.exports = {
     },
     fontFamily: {
       sans: ['-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', 'sans-serif', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', ],
-      serif: [ 'Libre Baskerville', '-apple-system', 'system-ui', 'Segoe UI', 'Helvetica', 'Arial','Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'sans-serif', ],
+      serif: [ 'STIX Two Text', '-apple-system', 'system-ui', 'Segoe UI', 'Helvetica', 'Arial','Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'sans-serif', ],
       mono: ['SF Mono', 'monospace'],
     }, 
     extend: {
@@ -43,7 +43,7 @@ module.exports = {
         },
         gray: {
           css: { 
-            '--tw-prose-body': theme('colors.gray[600]'),
+            '--tw-prose-body': theme('colors.gray[950]'),
             '--tw-prose-headings': theme('colors.gray[950]'),
             '--tw-prose-lead': theme('colors.gray[950]'),
             '--tw-prose-links': theme('colors.gray[950]'),

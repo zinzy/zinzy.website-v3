@@ -2,7 +2,7 @@
 
 <div class="">
   <header class="prose prose-slate dark:prose-invert">
-    <p class="text-secondary mb-0 text-sm">{{ .Title }}</p>
+    <p class="mb-0 text-sm">{{ .Title }}</p>
     <h2 class="p-name mb-2 mt-0 text-2xl">{{ .Description }}</h2>
     {{ .Content }}
   </header>
@@ -20,8 +20,8 @@
           <div class="w-4/5 text-xs h-full content-center">
             <div class="pl-3">
               <div class="font-medium mb-1">{{ .Title }}</div>
-              <!-- <div class="text-secondary">{{ .Params.author }}</div> -->
-              <ul class="text-secondary list-comma">
+              <!-- <div class="">{{ .Params.author }}</div> -->
+              <ul class="list-comma">
                 {{ range .Params.tags }}
                 <li>{{. }}</li>
                 {{end}}

@@ -3,7 +3,7 @@
 
 
 <header class="prose prose-slate dark:prose-invert container">
-  <p class="text-secondary mb-0 text-sm">Cinema</p>
+  <p class=" mb-0 text-sm">Cinema</p>
   <h2 class="p-name mb-2 mt-0 text-2xl">An overview of the texts that have inspired me over the years.</h2>
 </header>
 
@@ -36,7 +36,7 @@
         <div class="grow">
           <div class="pl-5">
             <div>{{ .Title }}</div>
-          <div class="text-secondary text-sm">{{ .Params.director }}</div>
+          <div class=" text-sm">{{ .Params.director }}</div>
           <div>
             {{ $taxonomy := "tags" }} {{ with .Param $taxonomy }}
           <ul class="inline-block text-xs p-0 m-0 mt-5">
@@ -67,7 +67,7 @@
 
 <div class="">
   <header>
-    <p class="text-secondary mb-0 text-sm">{{ .Title }}</p>
+    <p class=" mb-0 text-sm">{{ .Title }}</p>
     <h2 class="p-name mb-2 mt-0 text-2xl">
       I am a fervent diarist, and this archive exists to remind myself that life
       is ever-evolving, as am I.
@@ -81,7 +81,7 @@
       <li class="border-t py-3">
         <a class="w-full content-center md:flex" href="{{ .Permalink }}">
           <span class="grow font-medium">{{ .Title }}</span>
-          <time class="text-secondary flex-none text-sm"
+          <time class=" flex-none text-sm"
             >{{- (.Date | time.Format
             site.Params.theme_config.date_format_medium) }}</time
           >

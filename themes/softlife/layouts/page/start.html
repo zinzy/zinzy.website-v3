@@ -2,7 +2,7 @@
 
 <article class="h-entry">
   <header class="prose prose-slate dark:prose-invert">
-    <p class="text-secondary mb-0 text-sm">{{ .Title }}</p>
+    <p class="mb-0 text-sm">{{ .Title }}</p>
     <h2 class="p-name my-2 text-2xl">{{ .Description }}</h2>
     <p>
       zinzy.website has been published (ir)regularly since 2004 under a wide
@@ -66,13 +66,13 @@
       {{ range $value := .Site.Pages.GroupByDate "2006" }} {{ $url := (index
       $value.Pages 0).Date.Format "2006" | urlize }}
       <li class="flex">
-        <a href="/{{ $url }}" class="text-secondary">{{ .Key }}</a>
+        <a href="/{{ $url }}" class="">{{ .Key }}</a>
         <span class="mx-3 text-neutral-300 dark:text-zinc-600">/</span>
 
         <ul class="grid grid-cols-12 gap-1 grow">
           {{ range $value.GroupByDate "01" "$value" "asc" }} {{ $url := (index
           $value.Pages 0).Date.Format "01" | urlize }}
-          <li><a href="/{{ $url }}" class="text-secondary">{{ .Key }}</a></li>
+          <li><a href="/{{ $url }}" class="">{{ .Key }}</a></li>
           {{ end }}
         </ul>
       </li>
@@ -90,7 +90,7 @@
       <li class="border-t py-3">
         <a class="w-full" href="{{ .Permalink }}">
           <span class="font-medium">{{ .Title }}</span>
-          <span class="text-secondary text-sm">{{ .Description }}</span>
+          <span class="text-sm">{{ .Description }}</span>
         </a>
       </li>
       {{ end }}
@@ -133,10 +133,7 @@
           <a
             href="{{ $tagURL }}"
             class="flex rounded-full border px-3 leading-7 text-xs font-medium leading-8 no-underline transition-all bg-white hover:border-transparent hover:bg-pink-50 group-hover:text-pink-500 dark:hover:border-transparent dark:hover:bg-pink-300/10 dark:group-hover:text-pink-300"
-            >{{ .Term }}
-            <span class="text-secondary ml-2 inline-block"
-              >{{ .Count }}</span
-            ></a
+            >{{ .Term }} <span class="ml-2 inline-block">{{ .Count }}</span></a
           >
         </li>
         {{ end }} {{ end }}
@@ -162,7 +159,7 @@
     <input
       type="submit"
       value="→"
-      class="bg-zinc-100 w-10 rounded-tr rounded-br text-secondary"
+      class="bg-zinc-100 w-10 rounded-tr rounded-br"
     />
   </form>
 

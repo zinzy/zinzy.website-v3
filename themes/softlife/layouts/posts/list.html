@@ -7,18 +7,21 @@
 
   <section class="mt-20">
     <!-- {{ $postsDefault := where .Site.RegularPages "Type" "posts" }} -->
-    {{ range (where .Site.RegularPages "Type" "in" (slice "posts")).GroupByDate "2006" }}
-
+    {{ range (where .Site.RegularPages "Type" "in" (slice "posts")).GroupByDate
+    "2006" }}
 
     <ul class="">
-
       <li class="mt-10">
         <h3 class="mb-5">{{ .Key }}</h3>
         <ul class="border">
           {{ range .Pages }}
           <li class="border-b last:border-none p-2">
             <!-- <span class="date">{{ .Date.Format (.Site.Params.dateFormat | default "January 2, 2006" ) }}</span> -->
-            <a class="border-none" href="{{ .Params.externalLink | default .RelPermalink }}">{{ .Title }}</a>
+            <a
+              class="border-none"
+              href="{{ .Params.externalLink | default .RelPermalink }}"
+              >{{ .Title }}</a
+            >
           </li>
           {{- end -}}
         </ul>
@@ -26,7 +29,7 @@
     </ul>
 
     {{ end }}
-<!-- 
+    <!-- 
     <ul class="border-b">
 
 
@@ -36,7 +39,7 @@
       <li class="border-t py-3">
         <a class="w-full content-center md:flex" href="{{ .Permalink }}">
           <span class="grow font-medium">{{ .Title }}</span>
-          <time class="text-secondary flex-none text-sm"
+          <time class=" flex-none text-sm"
             >{{- (.Date | time.Format
             site.Params.theme_config.date_format_medium) }}</time
           >

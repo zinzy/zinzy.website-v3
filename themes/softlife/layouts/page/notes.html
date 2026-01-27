@@ -12,9 +12,7 @@
     <li class="mb-20">
       <p class="mb-5">
         <a href="{{ .Permalink }}">
-          <time
-            class="dt-published text-secondary mb-5"
-            data-published="{{ .Date }}"
+          <time class="dt-published mb-5" data-published="{{ .Date }}"
             >{{ .Date | time.Format
             site.Params.theme_config.date_format_date_time }}
           </time>

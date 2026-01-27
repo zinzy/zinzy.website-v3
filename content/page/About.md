@@ -11,20 +11,11 @@ title: About
 </figure>
 {{< /rawhtml >}}
 
-Hello kind stranger, thank you for taking the time to visit this space on the Internet. I have a crush on the cozy, intimate, and personal Internet, and [I'm not the only one](/blogroll). You?
+Hello kind stranger, thank you for taking the time to visit my Internet home. This website is an online diary; a scavenger hunt of unfinished thoughts, polished ideas, and snapshots in various formats.
 
-This website is an online notebook; a scavenger hunt of unfinished thoughts, polished ideas, and snapshots in various formats. I absolutely love receiving friendly emails from Internet strangers. Here's a standing invitation to [say hello](/hello).
+My name is Zinzy Waleson Geene, which sounds like ZIN-zee WHALE-son GREEN if you drop the R. I live in [Amsterdam](/tags/amsterdam/) with [Anja](https://anjawaleson.notion.site/Anja-Waleson-0182c8df804b4b12ab6e70b5b5795a55), and corgis [Lemonade](/tags/lemonade/) and [Zev](/tags/zev/). My academic background is in comparative literature and theology, and I'm now approaching 20 years in Information Technology.
 
----
-
-My name is Zinzy Waleson Geene, which sounds like ZIN-zee WHALE-son GREEN if you drop the R. Some things about me:
-
-- I am a diary-keeper [(archive)](/archive)
-- I love my work as a [software designer](/work)
-- I'm a [crazy church lady](/praxis)
-- I live in [Amsterdam](/tags/amsterdam/) with [Anja](https://anjawaleson.notion.site/Anja-Waleson-0182c8df804b4b12ab6e70b5b5795a55) and [Lemonade](/tags/lemonade/)
-- I keep a [website](/colophon) because I like the independent web
-- I've been yelling at Internet clouds since [1997](/museum)
+I am a person on a [mission](/mission), with various [interests](/interests/), [ideas](/ideas/), and [values](/values/). I absolutely love receiving friendly emails from Internet strangers. Here's a standing invitation to [say hello](/hello). I've been yelling at Internet clouds since [1997](/museum) and have a crush on the intimate and personal Internet, and [I'm not the only one](/blogroll). You?
 
 {{< rawhtml >}}
 
@@ -42,6 +33,6 @@ I'm of São Toméan and Dutch descent, hailing from enslaved Angolan grandparent
 
 In various forms and frequencies, I've been keeping a diary since I was a little kid. You may consider this website an extension of that. I'm an advocate for the [IndieWeb](/tags/indieweb/), which is a snooty way of saying I think the Internet should be scattered, playful, experimental, personal, and cozy.
 
-My Xhosa name was inspired by Nelson Mandela's daughter Zindziswa. If I had been a boy, you would've had to call me Stevie Wonder Waleson Geene.
+My Xhosa name was inspired by Nelson Mandela's daughter Zindziswa. Had I come out a boy, you would've had to call me Stevie Wonder Waleson Geene. You're welcome.
 
 I've been [sober](/2021/05/02/3-years-sober/) since May 2018.
