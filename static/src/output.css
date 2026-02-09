@@ -2340,11 +2340,6 @@ input[type="checkbox"] {
 }
 
 @media (prefers-color-scheme: dark) {
-  .dark\:divide-neutral-700 > :not([hidden]) ~ :not([hidden]) {
-    --tw-divide-opacity: 1;
-    border-color: rgb(64 64 64 / var(--tw-divide-opacity));
-  }
-
   .dark\:divide-neutral-800 > :not([hidden]) ~ :not([hidden]) {
     --tw-divide-opacity: 1;
     border-color: rgb(38 38 38 / var(--tw-divide-opacity));

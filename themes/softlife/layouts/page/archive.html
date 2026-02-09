@@ -6,8 +6,6 @@
     {{ .Content }}
   </header>
 
-  <section class="mt-10">xsxs</section>
-
   <section class="mt-10">
     <!-- {{ $postsDefault := where .Site.RegularPages "Type" "posts" }} -->
     {{ range (where .Site.RegularPages "Type" "in" (slice "posts")).GroupByDate

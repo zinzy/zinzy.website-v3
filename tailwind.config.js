@@ -60,7 +60,7 @@ module.exports = {
             '--tw-prose-th-borders': theme('colors.gray[950]'),
             '--tw-prose-td-borders': theme('colors.gray[950]'),
             // Everything below will be dark mode
-            '--tw-prose-invert-body': theme('colors.red[400]'),
+            '--tw-prose-invert-body': theme('colors.neutral[400]'),
             '--tw-prose-invert-headings': theme('colors.neutral[300]'),
             '--tw-prose-invert-lead': theme('colors.neutral[300]'),
             '--tw-prose-invert-links': theme('colors.neutral[300]'),

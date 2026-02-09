@@ -1,6 +1,6 @@
 ---
-title: "I want to stand"
-date: 2026-01-26 09:03:12 +01:00
+title: "Showing up for text"
+date: 2026-02-09 20:03:12 +01:00
 draft: true
 tags:
   - Christianity
