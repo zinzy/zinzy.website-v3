@@ -1,9 +1,10 @@
 ---
 title: "Work"
 layout: work
+draft: true
 ---
-I'm a principal designer making products for people at work.
 
+I'm a principal designer making products for people at work.
 
 {{< rawhtml >}}
 

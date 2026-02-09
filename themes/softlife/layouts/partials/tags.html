@@ -1,15 +1,11 @@
 {{ $taxonomy := "tags" }} {{ with .Param $taxonomy }} {{ $sortedTags := sort .
 }}
 
-<ul class="tags inline-block p-0 mt-0 text-xs">
+<ul class="tags inline-block p-0 mt-0">
   {{ range $index, $tag := $sortedTags }} {{ with $.Site.GetPage (printf
   "/%s/%s" $taxonomy (urlize $tag)) }}
-  <li class="inline-block mb-4 mr-2">
-    <a
-      href="{{ .Permalink }}"
-      class="no-underline border border-slate-300 font-medium px-2 py-1 uppercase text-slate-500 rounded hover:bg-slate-50 hover:text-slate-950 hover:border-slate-400"
-      >{{ $tag }}</a
-    >
+  <li class="">
+    <a href="{{ .Permalink }}" class=""># {{ $tag }}</a>
   </li>
   {{ end }} {{ end }}
 </ul>

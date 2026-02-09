@@ -1,0 +1,30 @@
+{{ define "main" }} {{ partial "back_link.html" .}}
+<article class="h-entry">
+  <header class="prose dark:prose-invert">
+    <h2 class="p-name mb-5">{{ .Params.title }}</h2>
+  </header>
+
+  <div id="about" class="e-content prose dark:prose-invert">{{ .Content }}</div>
+
+  <section class="mt-5 border rounded dark:border-neutral-800">
+    {{ $skip := slice "index" "Sitemap" "Thanks for your message" "Guestbook" }}
+
+    <ul class="divide-y divide-gray-200 dark:divide-neutral-800">
+      {{ range sort (where .Site.RegularPages "Section" "page") "Title" }} {{ if
+      not (in $skip .Title ) }}
+      <li class="">
+        <a
+          href="{{ .RelPermalink }}"
+          class="block p-3 hover:bg-gray-50 dark:hover:bg-neutral-800 transition-all"
+        >
+          <span class="font-medium">{{ .Title }}</span>
+          <span class="text-secondary">{{.Description}}</span></a
+        >
+      </li>
+      {{ end }} {{ end }}
+    </ul>
+  </section>
+
+  {{ partial "backlinks.html" . }}
+</article>
+{{ end }}

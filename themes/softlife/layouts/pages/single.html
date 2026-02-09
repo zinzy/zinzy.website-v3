@@ -1,10 +1,9 @@
 {{ define "main" }} {{ partial "back_link.html" .}}
 
-<article class="h-entry relative prose prose-slate dark:prose-invert">
-  <header>
-    <h2 class="p-name text-2xl">{{ .Title }}</h2>
+<article class="h-entry relative prose dark:prose-invert">
+  <header class="">
+    <h2 class="p-name">{{ .Title }}</h2>
   </header>
-
   {{ if .Params.toc }}
   <aside {{ if .Params.tocBorder }} class="toc" {{ end }}>
     {{ .TableOfContents }}

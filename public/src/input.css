@@ -3,19 +3,15 @@
 @tailwind utilities;
 
 html, body {
+  /* font-family: "STIX Two Text", serif; */
   @media screen and (min-width:768px) {
-    font-size: 18px;
+    font-size: 15px;
   }
 }
 
-
-.text-secondary {
-  @apply text-slate-500 dark:text-neutral-400;
-}
-
 .container {
-  max-width: 500px;
-  @apply mx-auto my-20 md:my-28 lg:my-40 p-0;
+  max-width: 400px;
+  /* @apply mx-auto my-20 md:my-28 lg:my-40 p-0; */
 }
 
 .log li {
@@ -23,31 +19,99 @@ html, body {
   padding: 0;
   list-style-type: none;
 }
+ 
+.text-secondary {
+  @apply text-gray-500 dark:text-neutral-500;
+}
+
+
+header > nav > ul > li > a {
+  @apply py-1 px-2 rounded-md hover:bg-gray-100 transition-all
+}
 
 .prose :where(a):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
-  @apply underline font-normal dark:text-neutral-300 decoration-slate-300 dark:decoration-slate-600;
+  @apply no-underline font-normal dark:text-gray-300 border-b border-gray-950;
 }
 
-h2, h3, h4, h5, h6, 
-.prose h2, .prose h3, .prose h4, .prose h5, .prose h6 {
-  @apply font-sans text-base font-medium dark:text-neutral-100;
-  /* a {
-    @apply hover:text-neutral-500 dark:hover:text-neutral-400;
-  } */
+
+
+@layer components {
+  h1, .prose h1,
+  h2, .prose h2,
+  h3, .prose h3,
+  h4, .prose h4,
+  h5, .prose h5,
+  h6, .prose h6 {
+    @apply relative font-sans font-medium text-gray-950 dark:text-white text-base mb-3 mt-0;
+    a {
+      @apply font-medium
+    }
+  }
+
+  h1::before, .prose h1::before {
+    content: "h1";
+    @apply absolute left-0 -translate-x-full pr-4 leading-6
+           text-xs uppercase text-gray-400;
+  }
+
+  h2::before, .prose h2::before {
+    content: "h2";
+    @apply absolute left-0 -translate-x-full pr-4 leading-6
+           text-xs uppercase text-gray-400;
+  }
+
+  h3::before, .prose h3::before {
+    content: "h3";
+    @apply absolute left-0 -translate-x-full pr-4 leading-6
+           text-xs uppercase text-gray-400;
+  }
+
+  h4::before, .prose h4::before {
+    content: "h4";
+    @apply absolute left-0 -translate-x-full pr-4 leading-6
+           text-xs uppercase text-gray-400;
+  }
+
+  h5::before, .prose h5::before {
+    content: "h5";
+    @apply absolute left-0 -translate-x-full pr-4 leading-6
+           text-xs uppercase text-gray-400;
+  }
+
+  h6::before, .prose h6::before {
+    content: "h6";
+    @apply absolute left-0 -translate-x-full pr-4 leading-6
+           text-xs uppercase text-gray-400;
+  }
 }
+
+
 
 
 .prose blockquote {
-  @apply border-none p-0 m-0 font-sans;
+  @apply border-l-4 border-gray-200 dark:border-gray-600 p-0 pl-6 m-0 font-sans py-3;
 }
+
+.prose blockquote p:last-child {
+    @apply mt-5;
+  }
 
 .prose blockquote p {
   @apply text-base not-italic p-0 m-0 font-medium;
 }
 
-.prose blockquote p {
+.prose blockquote p,
+.prose blockquote a {
   @apply font-medium
 }
+
+.prose blockquote blockquote {
+  @apply border-none p-0 pt-3 text-gray-600
+}
+.prose blockquote blockquote a {
+  @apply  text-gray-600 text-sm font-normal
+}
+
 
 .prose
   :where(blockquote p:first-of-type):not(
@@ -60,20 +124,33 @@ h2, h3, h4, h5, h6,
   content: "";
 }
 
+
 .button {
-  @apply font-medium text-sm border px-3 py-2 rounded text-slate-950 dark:text-neutral-300 hover:border-slate-300 dark:bg-neutral-800 dark:border-neutral-700 dark:hover:bg-neutral-800 dark:hover:border-neutral-600 dark:hover:text-neutral-300 transition-all;
+  @apply font-medium text-base border px-3 py-2 rounded-full text-gray-950 dark:text-neutral-300 hover:border-gray-100 hover:bg-gray-100  dark:bg-neutral-800 dark:border-neutral-800 dark:hover:bg-neutral-700 dark:hover:border-neutral-700 dark:hover:text-neutral-300 transition-all;
+}
+
+.tags {
+  @apply text-xs
+}
+
+.tags li {
+  @apply inline-block mb-4 mr-2;
+}
+
+.tags li a {
+  @apply no-underline border border-gray-200 font-semibold px-2 py-1 uppercase rounded hover:border-gray-100 hover:bg-gray-100;
 }
 
 figure figcaption {
-  @apply font-sans text-slate-500 dark:text-neutral-400;
+  @apply font-sans mt-3 text-secondary text-sm;
 }
 
 [class*="border"] {
-  @apply border-neutral-200 dark:border-neutral-700;
+  @apply border-gray-200 dark:border-gray-700;
 }
 
-time, time a {
-  @apply text-secondary;
+img {
+  @apply rounded-xl
 }
 
 .footnotes {
@@ -89,5 +166,16 @@ time, time a {
 }
 
 .guestbook-entry {
-  @apply bg-slate-50 dark:bg-neutral-800 mb-10 p-4 rounded-lg
+  @apply bg-gray-50 dark:bg-gray-800 mb-10 p-4 rounded-lg
+}
+
+
+.summary {
+  p:first-of-type {
+    @apply m-0;
+  }
+}
+
+input[type="checkbox"] {
+  @apply m-0
 }

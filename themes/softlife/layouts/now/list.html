@@ -1,7 +1,7 @@
 {{ define "main" }} {{ partial "back_link.html" .}}
 
 <div class="">
-  <header class="mb-10 md:mb-20 prose prose-slate dark:prose-invert">
+  <header class="mb-10 md:mb-20 prose dark:prose-invert">
     <h2 class="mb-5 text-2xl">Now</h2>
     {{ .Content }}
   </header>
@@ -9,7 +9,7 @@
   <section class="mt-20">
     <!-- {{ $postsDefault := where .Site.RegularPages "Type" "posts" }} -->
 
-    <ul class="prose prose-slate dark:prose-invert">
+    <ul class="prose dark:prose-invert">
       {{ range (where .Site.RegularPages "Type" "now") }}
       <li class="mt-20 border-t pt-20">
         <div class="font-medium text-slate-950 mt-5 dark:text-white text-2xl">

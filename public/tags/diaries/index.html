@@ -10,12 +10,7 @@
   />
 
   <title>
-
-     
-    
-      diaries 
-    
-    
+     diaries 
   </title>
 
   <link
@@ -38,12 +33,15 @@
 
   
   <link rel="authorization_endpoint" href="https://indieauth.com/auth" />
-  <link rel="token_endpoint" href="https://tokens.indieauth.com/token" /> 
+  <link rel="token_endpoint" href="https://tokens.indieauth.com/token" />
   <link rel="micropub" href="https://micropub-zinzy.netlify.app/micropub" />
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&display=swap"
+    rel="stylesheet"
+  />
 
   
 
@@ -60,21 +58,56 @@
   
 </head>
 <div id="top" class="hidden scroll-smooth"></div>
-    <body class="p-5 min-h-full antialiased bg-white dark:bg-neutral-900 text-neutral-950 dark:text-neutral-100" a="auto"><header class="">
-  <nav>
-    <ul class="space-x-4"> 
-      <li class="inline-block"><a href="/">Diary</a></li>
-      <li class="inline-block"><a href="/about">About</a></li>
-      <li class="inline-block"><a href="/now">Now</a></li>
-      <li class="inline-block"><a href="/guestbook">Guestbook</a></li>
-    </ul>
-  </nav>
-</header><div class="container"> 
+    <body class="px-5 min-h-full antialiased bg-white dark:bg-neutral-900 text-gray-950 dark:text-neutral-100" a="auto">
+         
 
 
+        <div class="container my-20"><header class="flex">
+  <div class="flex-none">
+    <a href="/"
+      ><img
+        src="/img/avatar_small.jpg"
+        class="w-16 rounded-xl hover:rotate-4 hover:transition-all"
+        alt="A person laughing with their eyes closed, Dutch landscape in the background"
+    /></a>
+  </div>
+<nav class="flex-1 flex items-center justify-end">
+  <ul class="space-x-2">
+    
 
-            <main class="" aria-label="Content">
-                <div class="my-30"> 
+    <li class="inline-block">
+      <a
+        href="/"
+        class="text-secondary"
+      >
+        Diary
+      </a>
+    </li>
+
+    <li class="inline-block">
+      <a
+        href="/guestbook/"
+        class="text-secondary"
+      >
+        Guestbook
+      </a>
+    </li>
+
+    <li class="inline-block">
+      <a
+        href="/sitemap/"
+        class="text-secondary"
+      >
+        Sitemap
+      </a>
+    </li>
+  </ul>
+</nav>
+
+</header>
+<main class="my-20" aria-label="Content">
+                
+                     
 
 
 <div class="">
@@ -92,20 +125,20 @@
 
     <article class="mb-20">
       <header class="mb-5">
-        <time class="dt-published" datetime="2023-09-17 08:49:15 &#43;0200 CEST">
+        <time class="dt-published text-secondary" datetime="2023-09-17 08:49:15 &#43;0200 CEST">
           <a href="https://zinzy.website/2023/09/17/week-37-rosh-hashanah/">
             Sep 17, 2023
           </a>
         </time>
         
-        <h2 class="p-name text-2xl mt-5 mb-10">
+        <h2 class="p-name mb-5">
           <a href="https://zinzy.website/2023/09/17/week-37-rosh-hashanah/">Week 37: Rosh Hashanah</a>
         </h2>
         
       </header>
 
       
-      <div class="prose prose-slate dark:prose-invert">
+      <div class="prose dark:prose-invert">
         Cooler temperatures! After the hottest week I&rsquo;ve experienced in months, things were back to comfortable Summer weather. By the time I&rsquo;m writing this the sky is gray and it&rsquo;s raining, but this week&rsquo;s weather was cheerful and moderate. On Tuesday and Wednesday I gave two big UX workshops at week to help coworkers understand how they can use UX in their daily work. I&rsquo;ve been giving workshops for well over a decade, always trusting my instinct to figure out what a particular group or context required.
         <div class="not-prose flex justify-end">
           <a href="https://zinzy.website/2023/09/17/week-37-rosh-hashanah/" class="button">Keep reading</a>
@@ -118,20 +151,20 @@
 
     <article class="mb-20">
       <header class="mb-5">
-        <time class="dt-published" datetime="2023-02-11 00:00:00 &#43;0000 UTC">
+        <time class="dt-published text-secondary" datetime="2023-02-11 00:00:00 &#43;0000 UTC">
           <a href="https://zinzy.website/2023/02/11/saturday-morning-routines/">
             Feb 11, 2023
           </a>
         </time>
         
-        <h2 class="p-name text-2xl mt-5 mb-10">
+        <h2 class="p-name mb-5">
           <a href="https://zinzy.website/2023/02/11/saturday-morning-routines/">Saturday morning routines</a>
         </h2>
         
       </header>
 
       
-      <div class="prose prose-slate dark:prose-invert">
+      <div class="prose dark:prose-invert">
         Living in a good neighborhood has many advantages. One of them is that it makes me want to spend a lot of time there. Saturday morning is very likely my favorite day in the neighborhood.
 I get up, without an alarm, around 6:30, engage in some morning writing, and fanny around the house for a bit. I take a shower at 7:45, and walk to my favorite coffee place at 08:20.
         <div class="not-prose flex justify-end">
@@ -141,22 +174,33 @@ I get up, without an alarm, around 6:30, engage in some morning writing, and fan
       
     </article>
 
-     <div class="pagination flex justify-between">
+     <div class="pagination flex justify-between items-center">
   
-    <span class="text-neutral-400">←</span>
+  
+  <span
+    class="text-gray-300 dark:text-neutral-700 w-10 h-10 inline-flex items-center justify-center rounded-md border cursor-not-allowed dark:border-neutral-800"
+    >←</span
+  >
   
 
-  <span>1 of 1</span>
+  
+  <span class="text-secondary"
+    >1 of 1</span
+  >
 
   
-    <span class="text-neutral-400">→</span>
+  
+  <span
+    class="text-gray-300 w-10 h-10 inline-flex items-center justify-center rounded-md border cursor-not-allowed"
+    >→</span
+  >
   
 </div>
+
   </section>
 </div>
 
 
-                </div> 
             </main>
  
 
@@ -166,7 +210,7 @@ I get up, without an alarm, around 6:30, engage in some morning writing, and fan
 
          
  
-        </div><footer class="">
+        </div><footer class="px-3 pb-5">
   <p class="hidden">
     <span class="h-card">
       <span class="hidden p-honorific-prefix">Mx.</span>
@@ -207,6 +251,12 @@ I get up, without an alarm, around 6:30, engage in some morning writing, and fan
     <ul class="leading-7 space-x-4">
       <li class="inline-block"><a href="/#top">Top ↑</a></li>
       <li class="inline-block"><a href="/follow">Follow</a></li>
+      <li class="inline-block">
+        <a href="https://xn--sr8hvo.ws/previous">←</a>
+        🕸💍
+        <a href="https://xn--sr8hvo.ws/next">→</a>
+      </li>
+
       
       
     </ul>

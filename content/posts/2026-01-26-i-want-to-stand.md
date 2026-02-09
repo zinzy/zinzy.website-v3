@@ -11,4 +11,4 @@ tags:
   - church
 ---
 
-A year ago I stumbled into the office of a local physical therapy practice, hoping to find support as I recovered from a triple ankle fracture.
+A year ago I stumbled into the office of a local physical therapy practice, hoping to find support as I recovered from a triple ankle fracture. I did, and it was a success: these days,

@@ -1,20 +1,19 @@
 {{ define "main" }} {{ $allEntries := (where .Site.RegularPages "Type" "in"
 (slice "posts" "micro")) }} {{ $sortedEntries := sort $allEntries "Date" "desc"
 }} {{ $paginator := .Paginate $sortedEntries 7 }} {{ if and .IsHome (eq
-$paginator.PageNumber 1) }}
-<section class="mt-30 prose prose-slate dark:prose-invert">
-  {{ .Content }}
-</section>
-{{ end }}
+$paginator.PageNumber 1) }} {{ end }}
 
-<section class="mt-28">
+<section class="">
   <ul class="">
     {{ range $paginator.Pages }}
     <li class="mb-28">
       <div class="">
         <header class="mb-5">
           {{ if or (eq .Section "posts") (eq .Section "micro") }}
-          <time class="font-normal dt-published block" datetime="{{ .Date }}">
+          <time
+            class="font-normal dt-published block text-secondary"
+            datetime="{{ .Date }}"
+          >
             <a href="{{ .Permalink }}"
               >{{ .Date | time.Format
               site.Params.theme_config.date_format_medium }}</a
@@ -22,7 +21,7 @@ $paginator.PageNumber 1) }}
           </time>
           {{ else }}{{ end }} {{if and .Params.title (ne .Params.showTitle
           false)}}
-          <h2 class="p-name text-2xl mt-5">
+          <h2 class="p-name mt-0">
             <a class="u-url" href="{{ .Permalink }}">{{ .Params.title }}</a>
           </h2>
           {{ end }}
@@ -33,7 +32,7 @@ $paginator.PageNumber 1) }}
           </div>
         </header>
 
-        <content class="e-content prose prose-slate dark:prose-invert">
+        <content class="e-content prose dark:prose-invert">
           <div class="mt-5">
             {{ if .Params.replyTo }} {{ if .Params.rsvp }}
             <p>
@@ -102,27 +101,20 @@ $paginator.PageNumber 1) }}
 
           <div class="summary">
             {{ if and .Params.title (ne .Params.showTitle false)}} {{ if in
-            .RawContent "<!--more-->" }} {{ .Summary | safeHTML }} {{ else }} {{
-            .Content | strings.Truncate 450 }} {{ end }}
-            <div class="not-prose flex justify-end">
-              <a href="{{ .Permalink }}" class="button">Keep reading</a>
+            .RawContent "<!--more-->" }} {{ .Summary | safeHTML }} {{ else }} 
+            
+            {{ $paras := findRE "(?s)<p[^>]*>.*?</p>" .Content }}
+{{ with index $paras 0 }}
+  {{ . | safeHTML }}
+{{ end }}
+            {{ end }}
+            <div class="not-prose flex justify-end mt-5">
+              <a href="{{ .Permalink }}" class="button group">Keep reading <span class="transition-all inline-block ml-2 group-hover:rotate-12">→</span></a>
             </div>
             {{ else }} {{ .Content | safeHTML }} {{ end }}
           </div>
-
-          <!-- {{if and .Params.title (ne .Params.showTitle false)}} {{
-          .Summary }}
-          <div class="not-prose flex justify-end">
-            <a
-              href="{{ .Permalink }}"
-              class="font-medium text-sm border px-2 py-1 rounded text-slate-950 dark:text-white hover:bg-slate-100 dark:hover:bg-slate-800 transition-all"
-              >Keep reading</a
-            >
-          </div>
-          {{ else }} {{ .Content }} {{ end }} -->
         </content>
       </div>
-      <!-- <div class="mt-5">{{ partial "tags.html" .}}</div> -->
     </li>
     {{ end }}
   </ul>

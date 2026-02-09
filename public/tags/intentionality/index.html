@@ -10,12 +10,7 @@
   />
 
   <title>
-
-     
-    
-      intentionality 
-    
-    
+     intentionality 
   </title>
 
   <link
@@ -38,12 +33,15 @@
 
   
   <link rel="authorization_endpoint" href="https://indieauth.com/auth" />
-  <link rel="token_endpoint" href="https://tokens.indieauth.com/token" /> 
+  <link rel="token_endpoint" href="https://tokens.indieauth.com/token" />
   <link rel="micropub" href="https://micropub-zinzy.netlify.app/micropub" />
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&display=swap"
+    rel="stylesheet"
+  />
 
   
 
@@ -60,21 +58,56 @@
   
 </head>
 <div id="top" class="hidden scroll-smooth"></div>
-    <body class="p-5 min-h-full antialiased bg-white dark:bg-neutral-900 text-neutral-950 dark:text-neutral-100" a="auto"><header class="">
-  <nav>
-    <ul class="space-x-4"> 
-      <li class="inline-block"><a href="/">Diary</a></li>
-      <li class="inline-block"><a href="/about">About</a></li>
-      <li class="inline-block"><a href="/now">Now</a></li>
-      <li class="inline-block"><a href="/guestbook">Guestbook</a></li>
-    </ul>
-  </nav>
-</header><div class="container"> 
+    <body class="px-5 min-h-full antialiased bg-white dark:bg-neutral-900 text-gray-950 dark:text-neutral-100" a="auto">
+         
 
 
+        <div class="container my-20"><header class="flex">
+  <div class="flex-none">
+    <a href="/"
+      ><img
+        src="/img/avatar_small.jpg"
+        class="w-16 rounded-xl hover:rotate-4 hover:transition-all"
+        alt="A person laughing with their eyes closed, Dutch landscape in the background"
+    /></a>
+  </div>
+<nav class="flex-1 flex items-center justify-end">
+  <ul class="space-x-2">
+    
 
-            <main class="" aria-label="Content">
-                <div class="my-30"> 
+    <li class="inline-block">
+      <a
+        href="/"
+        class="text-secondary"
+      >
+        Diary
+      </a>
+    </li>
+
+    <li class="inline-block">
+      <a
+        href="/guestbook/"
+        class="text-secondary"
+      >
+        Guestbook
+      </a>
+    </li>
+
+    <li class="inline-block">
+      <a
+        href="/sitemap/"
+        class="text-secondary"
+      >
+        Sitemap
+      </a>
+    </li>
+  </ul>
+</nav>
+
+</header>
+<main class="my-20" aria-label="Content">
+                
+                     
 
 
 <div class="">
@@ -92,20 +125,20 @@
 
     <article class="mb-20">
       <header class="mb-5">
-        <time class="dt-published" datetime="2025-07-05 10:15:23 &#43;0100 &#43;0100">
+        <time class="dt-published text-secondary" datetime="2025-07-05 10:15:23 &#43;0100 &#43;0100">
           <a href="https://zinzy.website/2025/07/05/week-27-rhythm/">
             Jul 5, 2025
           </a>
         </time>
         
-        <h2 class="p-name text-2xl mt-5 mb-10">
+        <h2 class="p-name mb-5">
           <a href="https://zinzy.website/2025/07/05/week-27-rhythm/">Week 27: Rhythm</a>
         </h2>
         
       </header>
 
       
-      <div class="prose prose-slate dark:prose-invert">
+      <div class="prose dark:prose-invert">
         <figure>
     <img src="/img/photos/2025-07-05_01.jpeg"
          alt="Two bare feet stand on the sand, touching the water">
@@ -129,20 +162,20 @@
 
     <article class="mb-20">
       <header class="mb-5">
-        <time class="dt-published" datetime="2024-12-01 15:56:01 &#43;0200 &#43;0200">
+        <time class="dt-published text-secondary" datetime="2024-12-01 15:56:01 &#43;0200 &#43;0200">
           <a href="https://zinzy.website/2024/12/01/week-48-two-feet/">
             Dec 1, 2024
           </a>
         </time>
         
-        <h2 class="p-name text-2xl mt-5 mb-10">
+        <h2 class="p-name mb-5">
           <a href="https://zinzy.website/2024/12/01/week-48-two-feet/">Week 48: Two feet</a>
         </h2>
         
       </header>
 
       
-      <div class="prose prose-slate dark:prose-invert">
+      <div class="prose dark:prose-invert">
         For this week&rsquo;s weeknotes I&rsquo;m trying something new with sections, inspired by Tracy Durnell. Overall, week 48 was great: I had a few important wins in the health department, and overall I leave it feeling confident, optimistic, and loved.
 Three wins After 34 days, I retired my cast and got an aircast! I&rsquo;m finally able to learn to walk on two feet again I&rsquo;ve been enjoying my Miracle Morning routine Stuff I did 8 hours on both Thursday and Friday confirmed what I had hoped: I finally feel energetic and proactive enough to get back to work.
         <div class="not-prose flex justify-end">
@@ -152,22 +185,33 @@ Three wins After 34 days, I retired my cast and got an aircast! I&rsquo;m finall
       
     </article>
 
-     <div class="pagination flex justify-between">
+     <div class="pagination flex justify-between items-center">
   
-    <span class="text-neutral-400">←</span>
+  
+  <span
+    class="text-gray-300 dark:text-neutral-700 w-10 h-10 inline-flex items-center justify-center rounded-md border cursor-not-allowed dark:border-neutral-800"
+    >←</span
+  >
   
 
-  <span>1 of 1</span>
+  
+  <span class="text-secondary"
+    >1 of 1</span
+  >
 
   
-    <span class="text-neutral-400">→</span>
+  
+  <span
+    class="text-gray-300 w-10 h-10 inline-flex items-center justify-center rounded-md border cursor-not-allowed"
+    >→</span
+  >
   
 </div>
+
   </section>
 </div>
 
 
-                </div> 
             </main>
  
 
@@ -177,7 +221,7 @@ Three wins After 34 days, I retired my cast and got an aircast! I&rsquo;m finall
 
          
  
-        </div><footer class="">
+        </div><footer class="px-3 pb-5">
   <p class="hidden">
     <span class="h-card">
       <span class="hidden p-honorific-prefix">Mx.</span>
@@ -218,6 +262,12 @@ Three wins After 34 days, I retired my cast and got an aircast! I&rsquo;m finall
     <ul class="leading-7 space-x-4">
       <li class="inline-block"><a href="/#top">Top ↑</a></li>
       <li class="inline-block"><a href="/follow">Follow</a></li>
+      <li class="inline-block">
+        <a href="https://xn--sr8hvo.ws/previous">←</a>
+        🕸💍
+        <a href="https://xn--sr8hvo.ws/next">→</a>
+      </li>
+
       
       
     </ul>

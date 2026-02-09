@@ -1,6 +1,6 @@
 ---
-title: Ideas
-description: Things I want to do or have
+title: Hello, I'm Zinzy Waleson Geene
+currently: Multidisciplinary collaboration in healthcare, becoming a lay preacher
 ---
 
-Welcome, I'm Zinzy Waleson Geene. I'm a diary-keeper, designer, and researcher living and working in Amsterdam. Learn more [about me](/about/) or [this website](/colophon/). Don't forget to sign my [guestbook](/guestbook/), and consider this an open invitation to [say hello](/hello/).
+Hello, I'm Zinzy Waleson Geene, a diary-keeper, music maker, community builder, researcher, and designer living and working in Amsterdam. Thank you for taking the time to visit my home on the Internet.

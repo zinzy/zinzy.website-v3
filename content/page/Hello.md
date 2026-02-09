@@ -1,13 +1,15 @@
 ---
 title: Hello
-description: How to reach me
+description: How to email me
 ---
 
 If you have something to share, you'd like to play or learn together, or can think of any other reason we should be talking, please get in touch with me. That is a standing invitation, and this is a [hello](https://alastairjohnston.com/introducing-hello-pages/) page.
 
 {{< rawhtml >}}
 
+<div class="mt-5 mb-10">
 <script data-letterbirduser="zinzy" src="https://letterbird.co/embed/v1.js"></script>
+</div>
 
 {{< /rawhtml >}}
 

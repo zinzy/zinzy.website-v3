@@ -12,7 +12,7 @@
           }}</a
         >
       </time>
-      <h2 class="p-name text-2xl mt-5 mb-4">
+      <h2 class="p-name mt-5 mb-4">
         <a class="u-url" href="{{ .Permalink }}">{{ .Title }}</a>
       </h2>
 
@@ -37,9 +37,7 @@
       >
     </div>
     {{ end }}
-    <content
-      class="min-h-full e-content prose prose-slate relative dark:prose-invert"
-    >
+    <content class="min-h-full e-content prose relative dark:prose-invert">
       {{ if .Params.sidenote }}
       <div class="aside">{{ .Params.sidenote | markdownify }}</div>
       {{ end }} {{- partial "content_wikified" . -}}

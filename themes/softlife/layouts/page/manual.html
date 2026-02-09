@@ -6,7 +6,7 @@
     <h2 class="p-name mt-5 mb-4 text-2xl">{{ .Description }}</h2>
   </header>
 
-  <div id="about" class="e-content prose prose-slate mt-20 dark:prose-invert">
+  <div id="about" class="e-content prose mt-20 dark:prose-invert">
     {{ if .Params.sidenote }}
     <div class="aside">{{ .Params.sidenote | markdownify }}</div>
     {{ end }} {{ .Content }}
@@ -25,9 +25,7 @@
           <p class="text-xs">Senior Product Designer</p>
         </div>
       </div>
-      <div
-        class="lg:w-2/3 prose prose-slate dark:prose-invert grid content-center"
-      >
+      <div class="lg:w-2/3 prose dark:prose-invert grid content-center">
         <h3 class="text-xl font-medium mb-2 mt-0">My role</h3>
         <p class="m-0 p-0">
           I am a Product Designer, though some coworkers may call me a UX
@@ -47,9 +45,7 @@
 
   <section class="mt-10">
     <div class="lg:flex lg:gap-6">
-      <div
-        class="lg:w-3/5 prose prose-slate dark:prose-invert grid content-center"
-      >
+      <div class="lg:w-3/5 prose dark:prose-invert grid content-center">
         <div>
           <h3 class="text-xl font-medium mb-2 mt-0">Working hours</h3>
           <p class="m-0 p-0">
@@ -78,7 +74,7 @@
     </div>
   </section>
 
-  <section class="mt-10 prose prose-slate dark:prose-invert">
+  <section class="mt-10 prose dark:prose-invert">
     <h3 class="text-xl font-medium mb-2 mt-0">
       My day is structured around first unblocking development teams, so that
       what remains is space for deep work.
@@ -132,7 +128,7 @@
     <h3 class="text-xl font-medium mb-2 mt-0">
       My preferred communications channels
     </h3>
-    <div class="prose prose-slate dark:prose-invert">
+    <div class="prose dark:prose-invert">
       <ul class="my-5">
         {{ range $.Site.Data.manual.communication }}
         <li class="">

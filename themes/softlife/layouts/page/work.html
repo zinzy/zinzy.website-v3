@@ -1,11 +1,11 @@
 {{ define "main" }} {{ partial "back_link.html" .}}
 
 <article class="h-entry">
-  <header class="prose prose-slate dark:prose-invert">
+  <header class="prose dark:prose-invert">
     <h2 class="p-name mb-10 md:mb-20">{{ .Params.title }}</h2>
   </header>
 
-  <div id="about" class="e-content prose prose-slate mt-20 dark:prose-invert">
+  <div id="about" class="e-content prose mt-20 dark:prose-invert">
     {{ .Content }}
   </div>
 

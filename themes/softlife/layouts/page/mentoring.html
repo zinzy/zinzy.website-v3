@@ -7,9 +7,7 @@
       <h2 class="p-name mt-5 mb-4 text-2xl">{{ .Description }}</h2>
     </header>
 
-    <content class="h-entry prose prose-slate dark:prose-invert">
-      {{ .Content }}
-    </content>
+    <content class="h-entry prose dark:prose-invert"> {{ .Content }} </content>
 
     <ul class="m-0 mt-12 list-none p-0">
       {{ range sort $.Site.Data.mentoring "name" }}

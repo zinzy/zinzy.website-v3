@@ -1,15 +1,34 @@
-<div class="pagination flex justify-between">
+<div class="pagination flex justify-between items-center">
+  <!-- Prev -->
   {{ if .Paginator.HasPrev }}
-    <a href="{{ .Paginator.Prev.URL }}" class="text-neutral-500">←</a>
+  <a
+    href="{{ .Paginator.Prev.URL }}"
+    class="text-gray-500 dark:text-neutral-500 w-10 h-10 inline-flex items-center justify-center rounded-md border hover:border-gray-100 hover:bg-gray-100 dark:bg-neutral-800 dark:border-neutral-800 dark:hover:bg-neutral-700 dark:hover:border-neutral-700 dark:hover:text-neutral-300 transition-all;"
+    >←</a
+  >
   {{ else }}
-    <span class="text-neutral-400">←</span>
+  <span
+    class="text-gray-300 dark:text-neutral-700 w-10 h-10 inline-flex items-center justify-center rounded-md border cursor-not-allowed dark:border-neutral-800"
+    >←</span
+  >
   {{ end }}
 
-  <span>{{ .Paginator.PageNumber }} of {{ .Paginator.TotalPages }}</span>
+  <!-- Current page -->
+  <span class="text-secondary"
+    >{{ .Paginator.PageNumber }} of {{ .Paginator.TotalPages }}</span
+  >
 
+  <!-- Next -->
   {{ if .Paginator.HasNext }}
-    <a href="{{ .Paginator.Next.URL }}" class="text-neutral-500">→</a>
+  <a
+    href="{{ .Paginator.Next.URL }}"
+    class="text-gray-500 w-10 h-10 inline-flex items-center justify-center rounded-md border hover:border-gray-100 hover:bg-gray-100 dark:bg-neutral-800 dark:border-neutral-800 dark:hover:bg-neutral-700 dark:hover:border-neutral-700 dark:hover:text-neutral-300 transition-all;"
+    >→</a
+  >
   {{ else }}
-    <span class="text-neutral-400">→</span>
+  <span
+    class="text-gray-300 w-10 h-10 inline-flex items-center justify-center rounded-md border cursor-not-allowed"
+    >→</span
+  >
   {{ end }}
 </div>

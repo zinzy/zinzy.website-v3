@@ -40,7 +40,6 @@ Unless otherwise stated, as per [CC BY-NC-ND 4.0](https://creativecommons.org/li
 - Don't use it for commercial purposes
 - Don't publish or distribute it if you remix, transform, or build upon it
 
-
 ### Privacy
 
 I respect your digital sovereignty. I do not track your personal data nor the journey you take on this website or any others. While I do my best to minimize this, please remember that, while [I don't track you, others might](https://www.zylstra.org/blog/2020/01/i-dont-track-you-here-but-others-might/).
@@ -55,3 +54,6 @@ I respect your digital sovereignty. I do not track your personal data nor the jo
 - [The Forest](https://theforest.link/)
 - [_People and Blogs_ interview with Manuel Moreale](https://manuelmoreale.com/pb-zinzy)
 
+### Banner
+
+![](/img/banner.svg)
