@@ -50,37 +50,37 @@ header > nav > ul > li > a {
 
   h1::before, .prose h1::before {
     content: "h1";
-    @apply absolute left-0 -translate-x-full pr-4 leading-6
+    @apply hidden md:block absolute left-0 -translate-x-full pr-4 leading-6
            text-xs uppercase text-gray-400;
   }
 
   h2::before, .prose h2::before {
     content: "h2";
-    @apply absolute left-0 -translate-x-full pr-4 leading-6
+    @apply hidden md:block absolute left-0 -translate-x-full pr-4 leading-6
            text-xs uppercase text-gray-400;
   }
 
   h3::before, .prose h3::before {
     content: "h3";
-    @apply absolute left-0 -translate-x-full pr-4 leading-6
+    @apply hidden md:block absolute left-0 -translate-x-full pr-4 leading-6
            text-xs uppercase text-gray-400;
   }
 
   h4::before, .prose h4::before {
     content: "h4";
-    @apply absolute left-0 -translate-x-full pr-4 leading-6
+    @apply hidden md:block absolute left-0 -translate-x-full pr-4 leading-6
            text-xs uppercase text-gray-400;
   }
 
   h5::before, .prose h5::before {
     content: "h5";
-    @apply absolute left-0 -translate-x-full pr-4 leading-6
+    @apply hidden md:block absolute left-0 -translate-x-full pr-4 leading-6
            text-xs uppercase text-gray-400;
   }
 
   h6::before, .prose h6::before {
     content: "h6";
-    @apply absolute left-0 -translate-x-full pr-4 leading-6
+    @apply hidden md:block absolute left-0 -translate-x-full pr-4 leading-6
            text-xs uppercase text-gray-400;
   }
 }

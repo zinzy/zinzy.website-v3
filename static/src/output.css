@@ -1104,6 +1104,7 @@ h1::before, .prose h1::before {
   content: "h1";
   position: absolute;
   left: 0px;
+  display: none;
   --tw-translate-x: -100%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   padding-right: 1rem;
@@ -1112,12 +1113,19 @@ h1::before, .prose h1::before {
   line-height: 1.5rem;
   --tw-text-opacity: 1;
   color: rgb(156 163 175 / var(--tw-text-opacity));
+}
+
+@media (min-width: 768px) {
+  h1::before, .prose h1::before {
+    display: block;
+  }
 }
 
 h2::before, .prose h2::before {
   content: "h2";
   position: absolute;
   left: 0px;
+  display: none;
   --tw-translate-x: -100%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   padding-right: 1rem;
@@ -1126,12 +1134,19 @@ h2::before, .prose h2::before {
   line-height: 1.5rem;
   --tw-text-opacity: 1;
   color: rgb(156 163 175 / var(--tw-text-opacity));
+}
+
+@media (min-width: 768px) {
+  h2::before, .prose h2::before {
+    display: block;
+  }
 }
 
 h3::before, .prose h3::before {
   content: "h3";
   position: absolute;
   left: 0px;
+  display: none;
   --tw-translate-x: -100%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   padding-right: 1rem;
@@ -1140,12 +1155,19 @@ h3::before, .prose h3::before {
   line-height: 1.5rem;
   --tw-text-opacity: 1;
   color: rgb(156 163 175 / var(--tw-text-opacity));
+}
+
+@media (min-width: 768px) {
+  h3::before, .prose h3::before {
+    display: block;
+  }
 }
 
 h4::before, .prose h4::before {
   content: "h4";
   position: absolute;
   left: 0px;
+  display: none;
   --tw-translate-x: -100%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   padding-right: 1rem;
@@ -1154,12 +1176,19 @@ h4::before, .prose h4::before {
   line-height: 1.5rem;
   --tw-text-opacity: 1;
   color: rgb(156 163 175 / var(--tw-text-opacity));
+}
+
+@media (min-width: 768px) {
+  h4::before, .prose h4::before {
+    display: block;
+  }
 }
 
 h5::before, .prose h5::before {
   content: "h5";
   position: absolute;
   left: 0px;
+  display: none;
   --tw-translate-x: -100%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   padding-right: 1rem;
@@ -1170,10 +1199,17 @@ h5::before, .prose h5::before {
   color: rgb(156 163 175 / var(--tw-text-opacity));
 }
 
+@media (min-width: 768px) {
+  h5::before, .prose h5::before {
+    display: block;
+  }
+}
+
 h6::before, .prose h6::before {
   content: "h6";
   position: absolute;
   left: 0px;
+  display: none;
   --tw-translate-x: -100%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   padding-right: 1rem;
@@ -1182,6 +1218,12 @@ h6::before, .prose h6::before {
   line-height: 1.5rem;
   --tw-text-opacity: 1;
   color: rgb(156 163 175 / var(--tw-text-opacity));
+}
+
+@media (min-width: 768px) {
+  h6::before, .prose h6::before {
+    display: block;
+  }
 }
 
 .relative {
