@@ -1,0 +1,148 @@
+{{ define "main" }} {{ partial "back_link.html" .}}
+
+<div class="">
+  <article class="h-entry">
+    <header class="mb-5">
+      {{ $hasTitle := and .Params.title (ne .Params.showTitle false) }} {{ if or
+      (eq .Section "posts") (eq .Section "micro") }}
+      <time class="text-secondary dt-published block" datetime="{{ .Date }}">
+        {{ .Date | time.Format site.Params.theme_config.date_format_medium }}
+      </time>
+      {{ end }} {{ if $hasTitle }}
+      <h2 class="p-name inline-block">{{ .Params.title }}</h2>
+      {{ if .Params.start }}<span class="text-secondary text-sm ml-2">{{ .Params.start }}</span>{{ end }}
+      {{ end }}
+
+      <div class="u-author h-card hidden">
+        <img src="/img/avatar.jpg" class="u-photo" />
+        <span class="u-url p-name">Zinzy Waleson Geene</span>
+      </div>
+    </header>
+
+    {{ if or (eq .Section "posts") (eq .Section "shorts") }} {{ if gt
+    .Site.Params.oldPost .Date.Year }}
+
+    <div class="mb-10 flex rounded bg-zinc-100 p-3 text-sm text-zinc-700 dark:bg-zinc-700 dark:text-white">
+      <span class="mr-2 inline-block content-center md:leading-9">{{- partial "symbols/alert.html" . -}}</span>
+      <span class="inline-block">
+        I published this piece quite a while ago. Though I enjoy the art of
+        public record-keeping, you should know it may no longer reflect my
+        views.</span>
+    </div>
+    {{ end }} {{ end }}
+
+    <content class="e-content prose dark:prose-invert">
+      <div class="mt-5">
+        {{ if .Params.replyTo }} {{ if .Params.rsvp }}
+        <p>
+          {{ if eq .Params.rsvp "yes" }}<data class="p-rsvp" value="YES">Is going</data>
+          to {{ else if eq .Params.rsvp "maybe" }}<data class="p-rsvp" value="Maybe">Might go</data>
+          to {{ else if eq .Params.rsvp "no" }}<data class="p-rsvp" value="no">Unable to go</data>
+          to {{ else if eq .Params.rsvp "interested" }}<data class="p-rsvp" value="interested">Is interested</data>
+          in {{ end }}
+
+          <a href="{{.Params.replyTo}}" rel="in-reply-to" class="u-in-reply-to text-url break-all font-normal underline"
+            target="_blank">
+            {{ if .Params.replyToName }} {{.Params.replyToName}} {{ else }}
+            {{.Params.replyTo}} {{ end }}
+          </a>
+        </p>
+
+        {{ else }}
+
+        <p class="u-in-reply-to mt-0 mb-5">
+          Replied to
+          <a href="{{.Params.replyTo}}" rel="in-reply-to" class="u-in-reply-to text-url break-all font-normal underline"
+            target="_blank">
+            {{ if .Params.replyToName }} {{.Params.replyToName | markdownify }}
+            {{ else }} {{.Params.replyTo}} {{ end }}
+          </a>
+        </p>
+        {{ end }} {{ else if .Params.likeOf }}
+        <p class="mt-0 mb-5 h-cite u-like-of">
+          Liked
+          <a href="{{.Params.likeOf}}" class="text-url break-all font-normal underline" target="_blank">
+            {{ if .Params.likeOfName }} {{.Params.likeOfName | markdownify}} {{
+            else }} {{.Params.likeOf}} {{ end }}
+          </a>
+        </p>
+        {{ end }}
+      </div>
+      {{ if .Params.sidenote }}
+      <div class="bg-neutral-200/50 p-3 mb-10">
+        {{ .Params.sidenote | markdownify }}
+      </div>
+      {{ end }} {{- partial "content_wikified" . -}}
+    </content>
+  </article>
+
+  {{ if .Params.songs }}
+  <section class="mt-10">
+    <ul class="border rounded dark:border-neutral-800 divide-y divide-gray-200 dark:divide-neutral-800">
+      {{ range .Params.songs }}
+      <li class="flex items-center justify-between gap-4 p-3">
+
+        <!-- Left side: title + artist -->
+        <div class="flex-1 min-w-0">
+          <div class="flex flex-wrap items-baseline gap-x-2">
+            <span class="font-medium">{{ .title }}</span>
+            <span class="text-secondary text-sm leading-6"> {{ .artist }}</span>
+          </div>
+        </div>
+
+        <!-- Right side: play count -->
+        {{ if .count }}
+        <span class="flex-none text-secondary text-sm">
+          {{ .count }}
+        </span>
+        {{ end }}
+
+      </li>
+      {{ end }}
+    </ul>
+  </section>
+  {{ end }}
+
+
+  <div class="my-20">{{ partial "tags.html" .}}</div>
+
+  <!-- <div class="my-20">
+    {{ $re := .RelPermalink }} {{ $backlinks := slice }} {{ range
+    .Site.RegularPages }} {{ if and (findRE $re .RawContent) }} {{ $backlinks =
+    $backlinks | append . }} {{ end }} {{ end }} {{ if gt (len $backlinks) 0 }}
+    <h3 class="mb-5">Linking to this page</h3>
+    <div class="backlinks prose dark:prose-invert">
+      <ul class="">
+        {{ range $backlinks }} {{ if not .IsHome }}
+        <li class="">
+          <a href="{{ .RelPermalink }}">
+            {{ if .Title }} {{ .Title }} {{ else }} {{ .Date | time.Format
+            site.Params.theme_config.date_format_date_time }} {{ end }}
+          </a>
+        </li>
+        {{ end }} {{ end }}
+      </ul>
+    </div>
+    {{ else }}
+    {{ end }}
+  </div> -->
+
+  <!-- {{ if or (eq .Section "posts") (eq .Section "micro") }} -->
+
+  <div class="my-20">
+    <div class="border-t pt-5 mt-5 flex justify-between">
+      <p><a href="/hello" class="underline">Say hello</a></p>
+      <p>Follow via <a href="/index.xml" class="underline">RSS</a></p>
+    </div>
+    <div class="border-t pt-5 mt-5 flex">
+      <img src="/img/avatar.jpg" alt="" class="flex-none w-20 h-20 mr-5 rounded" />
+      <p>
+        Hello, I'm <a href="/about" class="underline">Zinzy Waleson Geene</a>, a
+        diary-keeper, designer, and community builder yelling at Internet clouds
+        since 1997.
+      </p>
+    </div>
+  </div>
+  <!-- {{ end }} -->
+</div>
+{{ end }}

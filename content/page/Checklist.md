@@ -57,12 +57,12 @@ This list was copied (and slightly adapted) from [Mike Sass' _Website Component 
 - [ ] security.txt
 - [ ] [Sitemap](/sitemap)
 - [ ] ~~Site Statistics~~ (read about [privacy](/colophon#privacy))
-- [ ] Style guide page
+- [ ] [Style guide page](/style)
 - [ ] Tags
 - [ ] TIL page
 - [ ] Uses page
 - [x] [Values page](/values)
 - [ ] Webfinger
 - [x] Webmention, send
-- [ ] Webmention, receive
-- [ ] Webring (Webring Enthusiasts) or IndieWebRing
+- [x] Webmention, receive
+- [x] Indie Webring

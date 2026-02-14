@@ -2,9 +2,9 @@
 module.exports = {
   mode: 'jit',
   content: [
-    "./content/*.md", 
+    "./content/*.md",
     "./src/**/*.{html,js}",
-    "./themes/softlife/layouts/**/*.html"
+    "./themes/theme/layouts/**/*.html"
   ],
   theme: {
     container: {
@@ -20,29 +20,29 @@ module.exports = {
       },
     },
     fontFamily: {
-      sans: ['-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', 'sans-serif', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', ],
-      serif: [ 'STIX Two Text', '-apple-system', 'system-ui', 'Segoe UI', 'Helvetica', 'Arial','Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'sans-serif', ],
+      sans: ['-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', 'sans-serif', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',],
+      serif: ['STIX Two Text', '-apple-system', 'system-ui', 'Segoe UI', 'Helvetica', 'Arial', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'sans-serif',],
       mono: ['SF Mono', 'monospace'],
-    }, 
+    },
     extend: {
-			animation: {
-				fade: 'fadeIn .5s ease-in-out',
-			},
+      animation: {
+        fade: 'fadeIn .5s ease-in-out',
+      },
 
-			keyframes: {
-				fadeIn: {
-					from: { opacity: 0 },
-					to: { opacity: 1 },
-				},
-			},
-      typography: ({ theme }) => ({ 
+      keyframes: {
+        fadeIn: {
+          from: { opacity: 0 },
+          to: { opacity: 1 },
+        },
+      },
+      typography: ({ theme }) => ({
         default: {
           css: {
             color: theme('colors.gray'),
           },
         },
         gray: {
-          css: { 
+          css: {
             '--tw-prose-body': theme('colors.gray[950]'),
             '--tw-prose-headings': theme('colors.gray[950]'),
             '--tw-prose-lead': theme('colors.gray[950]'),

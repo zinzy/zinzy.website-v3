@@ -1060,45 +1060,6 @@ video {
   margin-bottom: 0;
 }
 
-.prose-slate {
-  --tw-prose-body: #334155;
-  --tw-prose-headings: #0f172a;
-  --tw-prose-lead: #475569;
-  --tw-prose-links: #0f172a;
-  --tw-prose-bold: #0f172a;
-  --tw-prose-counters: #64748b;
-  --tw-prose-bullets: #cbd5e1;
-  --tw-prose-hr: #e2e8f0;
-  --tw-prose-quotes: #0f172a;
-  --tw-prose-quote-borders: #e2e8f0;
-  --tw-prose-captions: #64748b;
-  --tw-prose-kbd: #0f172a;
-  --tw-prose-kbd-shadows: 15 23 42;
-  --tw-prose-code: #0f172a;
-  --tw-prose-pre-code: #e2e8f0;
-  --tw-prose-pre-bg: #1e293b;
-  --tw-prose-th-borders: #cbd5e1;
-  --tw-prose-td-borders: #e2e8f0;
-  --tw-prose-invert-body: #cbd5e1;
-  --tw-prose-invert-headings: #fff;
-  --tw-prose-invert-lead: #94a3b8;
-  --tw-prose-invert-links: #fff;
-  --tw-prose-invert-bold: #fff;
-  --tw-prose-invert-counters: #94a3b8;
-  --tw-prose-invert-bullets: #475569;
-  --tw-prose-invert-hr: #334155;
-  --tw-prose-invert-quotes: #f1f5f9;
-  --tw-prose-invert-quote-borders: #334155;
-  --tw-prose-invert-captions: #94a3b8;
-  --tw-prose-invert-kbd: #fff;
-  --tw-prose-invert-kbd-shadows: 255 255 255;
-  --tw-prose-invert-code: #fff;
-  --tw-prose-invert-pre-code: #cbd5e1;
-  --tw-prose-invert-pre-bg: rgb(0 0 0 / 50%);
-  --tw-prose-invert-th-borders: #475569;
-  --tw-prose-invert-td-borders: #334155;
-}
-
 h1, .prose h1,
   h2, .prose h2,
   h3, .prose h3,
@@ -1143,6 +1104,7 @@ h1::before, .prose h1::before {
   content: "h1";
   position: absolute;
   left: 0px;
+  display: none;
   --tw-translate-x: -100%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   padding-right: 1rem;
@@ -1151,12 +1113,19 @@ h1::before, .prose h1::before {
   line-height: 1.5rem;
   --tw-text-opacity: 1;
   color: rgb(156 163 175 / var(--tw-text-opacity));
+}
+
+@media (min-width: 768px) {
+  h1::before, .prose h1::before {
+    display: block;
+  }
 }
 
 h2::before, .prose h2::before {
   content: "h2";
   position: absolute;
   left: 0px;
+  display: none;
   --tw-translate-x: -100%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   padding-right: 1rem;
@@ -1165,12 +1134,19 @@ h2::before, .prose h2::before {
   line-height: 1.5rem;
   --tw-text-opacity: 1;
   color: rgb(156 163 175 / var(--tw-text-opacity));
+}
+
+@media (min-width: 768px) {
+  h2::before, .prose h2::before {
+    display: block;
+  }
 }
 
 h3::before, .prose h3::before {
   content: "h3";
   position: absolute;
   left: 0px;
+  display: none;
   --tw-translate-x: -100%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   padding-right: 1rem;
@@ -1179,12 +1155,19 @@ h3::before, .prose h3::before {
   line-height: 1.5rem;
   --tw-text-opacity: 1;
   color: rgb(156 163 175 / var(--tw-text-opacity));
+}
+
+@media (min-width: 768px) {
+  h3::before, .prose h3::before {
+    display: block;
+  }
 }
 
 h4::before, .prose h4::before {
   content: "h4";
   position: absolute;
   left: 0px;
+  display: none;
   --tw-translate-x: -100%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   padding-right: 1rem;
@@ -1193,12 +1176,19 @@ h4::before, .prose h4::before {
   line-height: 1.5rem;
   --tw-text-opacity: 1;
   color: rgb(156 163 175 / var(--tw-text-opacity));
+}
+
+@media (min-width: 768px) {
+  h4::before, .prose h4::before {
+    display: block;
+  }
 }
 
 h5::before, .prose h5::before {
   content: "h5";
   position: absolute;
   left: 0px;
+  display: none;
   --tw-translate-x: -100%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   padding-right: 1rem;
@@ -1209,10 +1199,17 @@ h5::before, .prose h5::before {
   color: rgb(156 163 175 / var(--tw-text-opacity));
 }
 
+@media (min-width: 768px) {
+  h5::before, .prose h5::before {
+    display: block;
+  }
+}
+
 h6::before, .prose h6::before {
   content: "h6";
   position: absolute;
   left: 0px;
+  display: none;
   --tw-translate-x: -100%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   padding-right: 1rem;
@@ -1221,6 +1218,12 @@ h6::before, .prose h6::before {
   line-height: 1.5rem;
   --tw-text-opacity: 1;
   color: rgb(156 163 175 / var(--tw-text-opacity));
+}
+
+@media (min-width: 768px) {
+  h6::before, .prose h6::before {
+    display: block;
+  }
 }
 
 .relative {
@@ -1921,6 +1924,13 @@ header > nav > ul > li > a:hover {
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
 }
 
+@media (prefers-color-scheme: dark) {
+  header > nav > ul > li > a:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgb(38 38 38 / var(--tw-bg-opacity));
+  }
+}
+
 .prose :where(a):not(:where([class~="not-prose"],[class~="not-prose"] *)) {
   border-bottom-width: 1px;
   --tw-border-opacity: 1;
@@ -2196,6 +2206,11 @@ input[type="checkbox"] {
   content: var(--tw-content);
 }
 
+.hover\:rotate-6:hover {
+  --tw-rotate: 6deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 .hover\:border-gray-100:hover {
   --tw-border-opacity: 1;
   border-color: rgb(243 244 246 / var(--tw-border-opacity));
@@ -2367,9 +2382,9 @@ input[type="checkbox"] {
 }
 
 @media (prefers-color-scheme: dark) {
-  .dark\:divide-neutral-700 > :not([hidden]) ~ :not([hidden]) {
+  .dark\:divide-neutral-800 > :not([hidden]) ~ :not([hidden]) {
     --tw-divide-opacity: 1;
-    border-color: rgb(64 64 64 / var(--tw-divide-opacity));
+    border-color: rgb(38 38 38 / var(--tw-divide-opacity));
   }
 
   .dark\:divide-slate-700 > :not([hidden]) ~ :not([hidden]) {
@@ -2382,14 +2397,19 @@ input[type="checkbox"] {
     border-color: rgb(82 82 91 / var(--tw-divide-opacity));
   }
 
-  .dark\:border-neutral-700 {
-    --tw-border-opacity: 1;
-    border-color: rgb(64 64 64 / var(--tw-border-opacity));
-  }
-
   .dark\:border-neutral-800 {
     --tw-border-opacity: 1;
     border-color: rgb(38 38 38 / var(--tw-border-opacity));
+  }
+
+  .dark\:bg-neutral-600 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(82 82 82 / var(--tw-bg-opacity));
+  }
+
+  .dark\:bg-neutral-700 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(64 64 64 / var(--tw-bg-opacity));
   }
 
   .dark\:bg-neutral-800 {

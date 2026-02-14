@@ -67,7 +67,7 @@
     <a href="/"
       ><img
         src="/img/avatar_small.jpg"
-        class="w-16 rounded-xl hover:rotate-4 hover:transition-all"
+        class="w-16 rounded-xl hover:rotate-6 hover:transition-all"
         alt="A person laughing with their eyes closed, Dutch landscape in the background"
     /></a>
   </div>
@@ -146,7 +146,7 @@
   <section class="my-20">
     <form
       id="guestbook-form"
-      class="bg-slate-50 rounded-lg p-4"
+      class="bg-slate-50 dark:bg-neutral-800 rounded-lg p-4"
       action="/submitted"
       method="POST"
       data-netlify="true"
@@ -165,7 +165,7 @@
           <div class="mb-1">Name</div>
           <input
             required
-            class="p-2 rounded block w-full"
+            class="p-2 rounded block w-full dark:bg-neutral-700"
             placeholder="Kimmy Schmidt"
             type="text"
             name="name"
@@ -176,7 +176,7 @@
         <label>
           <div class="mb-1">Website</div>
           <input
-            class="p-2 rounded block w-full"
+            class="p-2 rounded block w-full dark:bg-neutral-700"
             placeholder="https://unbreakab.le"
             type="text"
             name="website"
@@ -186,7 +186,7 @@
         <label>
           <div class="mb-1">
             <div>Message</div>
-            <div class="text-sm mb-2">
+            <div class="text-sm mb-5">
               Write whatever you want; please remember to be kind. If you plan
               to write a long entry, write your own post and
               <a href="/hello" class="underline">send me the link</a> instead!
@@ -197,15 +197,21 @@
             id="message"
             name="message"
             placeholder="Hey Zinzy, I just wanted to say..."
-            class="p-2 rounded block w-full h-56"
+            class="p-2 rounded block w-full h-56 dark:bg-neutral-700"
           ></textarea>
         </label>
       </p>
-      <div class="flex justify-center my-10">
+      <div class="flex justify-center my-5">
         <div data-netlify-recaptcha="true"></div>
       </div>
       <p class="m-0 p-0 text-right">
-        <button type="submit" class="button" id="submit-btn">Submit</button>
+        <button
+          type="submit"
+          class="button dark:bg-neutral-600"
+          id="submit-btn"
+        >
+          Submit
+        </button>
       </p>
     </form>
   </section>
