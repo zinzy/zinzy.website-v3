@@ -10,12 +10,7 @@
   />
 
   <title>
-
-     
-    
-      Garden 
-    
-    
+     Garden 
   </title>
 
   <link
@@ -38,12 +33,15 @@
 
   
   <link rel="authorization_endpoint" href="https://indieauth.com/auth" />
-  <link rel="token_endpoint" href="https://tokens.indieauth.com/token" /> 
+  <link rel="token_endpoint" href="https://tokens.indieauth.com/token" />
   <link rel="micropub" href="https://micropub-zinzy.netlify.app/micropub" />
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&display=swap"
+    rel="stylesheet"
+  />
 
   
 
@@ -60,91 +58,105 @@
   
 </head>
 <div id="top" class="hidden scroll-smooth"></div>
-    <body class="p-5 min-h-full antialiased bg-white dark:bg-neutral-900 text-neutral-950 dark:text-neutral-100" a="auto"><header class="">
-  <nav>
-    <ul class="space-x-4"> 
-      <li class="inline-block"><a href="/">Log</a></li>
-      <li class="inline-block"><a href="/about">About</a></li>
-      <li class="inline-block"><a href="/hello">Say hello</a></li>
-      <li class="inline-block"><a href="/sitemap">Sitemap</a></li>
-    </ul>
-  </nav>
-</header>
-<div class="container"> 
+    <body class="px-5 min-h-full antialiased bg-white dark:bg-neutral-900 text-gray-950 dark:text-neutral-100" a="auto">
+         
 
-            <main class="" aria-label="Content">
-                <div class="mt-60"> 
+
+        <div class="container my-20"><header class="flex">
+  <div class="flex-none">
+    <a href="/"
+      ><img
+        src="/img/avatar_small.jpg"
+        class="w-16 rounded-xl hover:rotate-6 hover:transition-all"
+        alt="A person laughing with their eyes closed, Dutch landscape in the background"
+    /></a>
+  </div>
+<nav class="flex-1 flex items-center justify-end">
+  <ul class="space-x-2">
+    
+
+    <li class="inline-block">
+      <a
+        href="/"
+        class="text-secondary"
+      >
+        Diary
+      </a>
+    </li>
+
+    <li class="inline-block">
+      <a
+        href="/guestbook/"
+        class="text-secondary"
+      >
+        Guestbook
+      </a>
+    </li>
+
+    <li class="inline-block">
+      <a
+        href="/sitemap/"
+        class="text-secondary"
+      >
+        Sitemap
+      </a>
+    </li>
+  </ul>
+</nav>
+
+</header>
+<main class="my-20" aria-label="Content">
+                
+                     
 
 
 <div class="">
-  <header class="mb-10 md:mb-20 prose prose-gray dark:prose-invert">
-    <h2 class="text-2xl mb-5">Garden</h2>
-    <p>Welcome to the garden; an ever-evolving, somewhat experimental section of this website. You may consider it a collection of working notes on concepts such as the 
+  <article class="h-entry">
+    <header class="mb-5">
+        
+      <h2 class="p-name inline-block">Garden</h2>
+      
+      
+
+      <div class="u-author h-card hidden">
+        <img src="/img/avatar.jpg" class="u-photo" />
+        <span class="u-url p-name">Zinzy Waleson Geene</span>
+      </div>
+    </header>
+
+    
+
+    <content class="e-content prose dark:prose-invert">
+      <div class="mt-5">
+        
+      </div>
+      
+ 
 
 
 
 
 
 
-  
-  
-  
-
-
-  <a href="/miracle-morning/" class="">Miracle Morning</a> routine, my spiritual 
 
 
 
 
-
-
-  
-  
-  
-
-
-  <a href="/praxis/" class="">praxis</a>, how 
-
-
-
-
-
-
-  
-  
-  
-
-
-  <a href="/im-child-free/" class="">I&rsquo;m child-free</a>, how I think 
-
-
-
-
-
+<p>Below is a list of all the posts I have published over the years.</p>
+</content>
+  </article>
 
   
-  
-  
 
 
-  <a href="/tools-do-not-matter/" class="">tools do not matter</a>, or my favorite spots in 
-
-
-
-
-
-
-  
-  
-  
-
-
-  <a href="/amsterdam/" class="">Amsterdam</a>.</p>
-
-  </header>
+  <div class="my-20"> 
 </div>
 
-                </div> 
+  
+
+  
+</div>
+
             </main>
  
 
@@ -154,7 +166,7 @@
 
          
  
-        </div><footer class="">
+        </div><footer class="px-3 pb-5">
   <p class="hidden">
     <span class="h-card">
       <span class="hidden p-honorific-prefix">Mx.</span>
@@ -162,13 +174,15 @@
       <span class="p-family-name">Waleson Geene</span>,
       <span class="hidden p-nickname">Zinzy</span>
       <span class="hidden u-photo"
-        ><img src="/img/avatar.png" alt="Zinzy's photo"
+        ><img src="/img/avatar.jpg" alt="Zinzy's photo"
       /></span>
       <span class="hidden u-url">https://zinzy.website</span>
 
       a
 
-      <span class="lowercase p-category">Designer and writer</span>
+      <span class="lowercase p-category"
+        >Diary-keeper, designer, and community builder</span
+      >
 
       from
       <span class="p-adr">
@@ -190,11 +204,17 @@
   </p>
 
   <div class="flex justify-between mt-5">
-    <ul class="leading-7">
-      <li class="inline-block"><a href="/#top">Top ↑</a> <span class="text-secondary">·</span></li>
-      <li class="inline-block"><a href="/index.xml">Follow</a> <span class="text-secondary">·</span></li>
-      <li class="inline-block"><a href="/hello">Say hello</a> <span class="text-secondary">·</span></li>
-      <li class="inline-block"><a href="https://ko-fi.com/zinzy" target="_blank">Say cheers</a></li>
+    <ul class="leading-7 space-x-4">
+      <li class="inline-block"><a href="/#top">Top ↑</a></li>
+      <li class="inline-block"><a href="/follow">Follow</a></li>
+      <li class="inline-block">
+        <a href="https://xn--sr8hvo.ws/previous">←</a>
+        🕸💍
+        <a href="https://xn--sr8hvo.ws/next">→</a>
+      </li>
+
+      
+      
     </ul>
     <a
       href="https://webring.xxiivv.com/#zinzy"
@@ -223,7 +243,7 @@
           </clipPath>
         </defs>
       </svg>
-    </a> 
+    </a>
   </div>
 </footer>
 <ul class="h-card hidden">
@@ -235,7 +255,7 @@
                     </span>
                 </a>
             </li>
-            <li class="u-photo"><img src="/img/avatar.png" alt="Portrait of Zinzy Waleson Geene"></li>
+            <li class="u-photo"><img src="/img/avatar.jpg" alt="Portrait of Zinzy Waleson Geene"></li>
             <li class="p-nickname">Zinzatron</li>
             <li class="p-org">Gerimedica</li>
             <li class="p-job-title">Senior Product Designer</li>

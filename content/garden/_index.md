@@ -1,6 +1,5 @@
 ---
 title: "Garden"
-layout: page
 draft: true
 ---
 

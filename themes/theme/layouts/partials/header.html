@@ -1,43 +1,30 @@
 <header class="flex">
   <div class="flex-none">
-    <a href="/"
-      ><img
-        src="/img/avatar_small.jpg"
-        class="w-16 rounded-xl hover:rotate-6 hover:transition-all"
-        alt="A person laughing with their eyes closed, Dutch landscape in the background"
-    /></a>
+    <a href="/"><img src="/img/avatar_small.jpg" class="w-16 rounded-xl hover:rotate-6 hover:transition-all"
+        alt="A person laughing with their eyes closed, Dutch landscape in the background" /></a>
   </div>
-<nav class="flex-1 flex items-center justify-end">
-  <ul class="space-x-2">
-    {{ $current := .RelPermalink }}
+  <nav class="flex-1 flex items-center justify-end">
+    <ul class="space-x-1">
+      {{ $current := .RelPermalink }}
 
-    <li class="inline-block">
-      <a
-        href="/"
-        class="{{ if eq $current "/" }}font-medium{{ else }}text-secondary{{ end }}"
-      >
-        Diary
-      </a>
-    </li>
+      <li class="inline-block">
+        <a href="/" class="{{ if eq $current " /" }}font-medium{{ else }}text-secondary{{ end }}">
+          Diary
+        </a>
+      </li>
 
-    <li class="inline-block">
-      <a
-        href="/guestbook/"
-        class="{{ if eq $current "/guestbook/" }}font-medium{{ else }}text-secondary{{ end }}"
-      >
-        Guestbook
-      </a>
-    </li>
+      <li class="inline-block">
+        <a href="/guestbook/" class="{{ if eq $current " /guestbook/" }}font-medium{{ else }}text-secondary{{ end }}">
+          Guestbook
+        </a>
+      </li>
 
-    <li class="inline-block">
-      <a
-        href="/sitemap/"
-        class="{{ if eq $current "/sitemap/" }}font-medium{{ else }}text-secondary{{ end }}"
-      >
-        Sitemap
-      </a>
-    </li>
-  </ul>
-</nav>
+      <li class="inline-block">
+        <a href="/sitemap/" class="{{ if eq $current " /sitemap/" }}font-medium{{ else }}text-secondary{{ end }}">
+          Sitemap
+        </a>
+      </li>
+    </ul>
+  </nav>
 
 </header>

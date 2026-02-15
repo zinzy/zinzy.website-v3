@@ -1,0 +1,25 @@
+{{ define "main" }} {{ partial "back_link.html" .}}
+
+<div class="">
+  <header class="mb-10 md:mb-20 prose dark:prose-invert">
+    <h2 class="mb-5">{{.Title}}</h2>
+    {{ .Content }}
+  </header>
+
+  <section class="mt-10">
+    {{ $mixtapes := where .Site.RegularPages "Type" "garden" }}
+    <ul class="border rounded dark:border-neutral-800 divide-y divide-gray-200 dark:divide-neutral-800">
+      {{ range .Pages }}
+      <li class="">
+        <a class="block p-3 hover:bg-gray-50 dark:hover:bg-neutral-800 transition-all" href="{{ .Permalink }}">
+          <span class="font-medium">{{ .Title }}</span>
+          <span class="text-secondary text-sm ml-2">
+            {{ .Params.Start }}{{ if .Params.End }} - {{ .Params.End }}{{ end }}
+          </span>
+        </a>
+      </li>
+      {{ end }}
+    </ul>
+  </section>
+</div>
+{{ end }}

@@ -1,0 +1,37 @@
+{{ define "main" }} {{ partial "back_link.html" .}}
+
+<div class="">
+  <article class="h-entry">
+    <header class="mb-5">
+      <h2 class="p-name inline-block">{{ .Params.title }}</h2>
+
+      <div class="u-author h-card hidden">
+        <img src="/img/avatar.jpg" class="u-photo" />
+        <span class="u-url p-name">Zinzy Waleson Geene</span>
+      </div>
+    </header>
+
+    <content class="e-content prose dark:prose-invert">
+      {{- partial "content_wikified" . -}}
+    </content>
+  </article>
+
+
+  <div class="my-20">{{ partial "tags.html" .}}</div>
+
+  <div class="my-20">
+    <div class="border-t pt-5 mt-5 flex justify-between">
+      <p><a href="/hello" class="underline">Say hello</a></p>
+      <p>Follow via <a href="/index.xml" class="underline">RSS</a></p>
+    </div>
+    <div class="border-t pt-5 mt-5 flex">
+      <img src="/img/avatar.jpg" alt="" class="flex-none w-20 h-20 mr-5 rounded" />
+      <p>
+        Hello, I'm <a href="/about" class="underline">Zinzy Waleson Geene</a>, a
+        diary-keeper, designer, and community builder yelling at Internet clouds
+        since 1997.
+      </p>
+    </div>
+  </div>
+</div>
+{{ end }}

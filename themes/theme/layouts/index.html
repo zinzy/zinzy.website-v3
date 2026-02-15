@@ -21,7 +21,7 @@ $paginator.PageNumber 1) }} {{ end }}
           </time>
           {{ else }}{{ end }} {{if and .Params.title (ne .Params.showTitle
           false)}}
-          <h2 class="p-name mt-0">
+          <h2 class="p-name mt-0 mb-0">
             <a class="u-url" href="{{ .Permalink }}">{{ .Params.title }}</a>
           </h2>
           {{ end }}
