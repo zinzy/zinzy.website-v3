@@ -5,11 +5,15 @@
     <header class="mb-5">
       {{ $hasTitle := and .Params.title (ne .Params.showTitle false) }} {{ if or
       (eq .Section "posts") (eq .Section "micro") }}
-      <time class="text-secondary dt-published block" datetime="{{ .Date }}">
-        {{ .Date | time.Format site.Params.theme_config.date_format_medium }}
-      </time>
+      <a class="u-url text-secondary block" href="{{ .Permalink }}">
+        <time class="dt-published" datetime="{{ .Date }}">
+          {{ .Date | time.Format site.Params.theme_config.date_format_medium }}
+        </time>
+      </a>
       {{ end }} {{ if $hasTitle }}
-      <h2 class="p-name inline-block mb-0">{{ .Params.title }}</h2>
+      <h2 class="p-name inline-block mb-0">
+        <a href="{{ .Permalink }}">{{ .Params.title }}</a>
+      </h2>
       {{ if .Params.start }}<span class="text-secondary text-sm ml-2"
         >{{ .Params.start }}</span
       >{{ end }} {{ end }}
