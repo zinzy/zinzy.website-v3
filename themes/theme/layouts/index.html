@@ -9,6 +9,11 @@ $paginator.PageNumber 1) }} {{ end }}
     <li class="mb-28">
       <div class="">
         <header class="mb-5">
+
+          {{ if .Params.draft }}
+          <div class="mb-5"><span class="text-xs text-white font-semibold px-2 py-1 uppercase rounded bg-lime-500 ">Draft</span></div>
+          {{ end}}
+
           {{ if or (eq .Section "posts") (eq .Section "micro") }}
           <time
             class="font-normal dt-published block text-secondary"

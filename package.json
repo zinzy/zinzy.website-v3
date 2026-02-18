@@ -10,7 +10,7 @@
 "scripts": {
   "tailwind:dev": "tailwindcss -i ./static/src/input.css -o ./static/src/output.css --watch",
   "tailwind:build": "tailwindcss -i ./static/src/input.css -o ./static/src/output.css --minify",
-  "dev": "concurrently \"hugo serve --disableFastRender\" \"npm run tailwind:dev\"",
+  "dev": "concurrently \"hugo serve --disableFastRender --buildDrafts --buildFuture\" \"npm run tailwind:dev\"",
   "build": "npm run tailwind:build && hugo --minify",
   "clean": "rm -rf public"
 }

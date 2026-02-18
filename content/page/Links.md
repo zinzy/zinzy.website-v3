@@ -19,11 +19,13 @@ If I'm honest, what I love most about personal websites are the unassuming, refl
 
 - [Anja Waleson](https://anjawaleson.notion.site/Anja-Waleson-0182c8df804b4b12ab6e70b5b5795a55): My partner, an educator and potter, keeps a lovely public Notion page listing some of her educational tools, university writing, favorite reads, films, podcasts, and more.
 - [Annelie Wambeek](https://www.anneliewambeek.com): My dear friend Annelie is a trainer, facilitator, and speaker on diversity, inclusion, and belonging. It has been an amazing journey watching her build a business.
-- [Mehdi Rezazadeh](https://www.mehdirezazadeh.dev): My work husband and office neighbor Mehdi is a total sunbeam of positivity, gratitude, creativity, and intelligence.
-- [Patrick "Pickles" Weston](http://patrickfweston.com): My brother in Jesus, Pickles, as we lovingly call him, is a delightful human being, a dear friend, and at one point a very committed leadership team mate.
-- [Pat & Jacob Flores](https://www.realphototexas.com): My favorite Texans have built an amazing real estate photography business the photos of which never fail to stun me.
 - [John D. Boy](https://www.jboy.space): John is a neighborhood pal, and an academic working in sociology, who hired me to give a talk on ethnographic studies in technology.
+- [Maartje Hulzinga](https://maartjehulzinga.nl/): My wonderful UX team mate and birthday buddy. Maartje is an extraordinarily mature recent graduate, and a stellar coworker.
+- [Mehdi Rezazadeh](https://www.mehdirezazadeh.dev): My work husband and office neighbor Mehdi is a total sunbeam of positivity, gratitude, creativity, and intelligence.
+- [Pat & Jacob Flores](https://www.realphototexas.com): My favorite Texans have built an amazing real estate photography business the photos of which never fail to stun me.
 - [Patrick Rhone](https://patrickrhone.net): I had been following Patrick for years before I got the opportunity to meet him, his wife, and daughter in Amsterdam one day.
+- [Patrick "Pickles" Weston](http://patrickfweston.com): My brother in Jesus, Pickles, as we lovingly call him, is a delightful human being, a dear friend, and at one point a very committed leadership team mate.
+- [Rounak Vyas](https://rounakvyas.me/): Rounak is one of those people at the office who never fail to put a smile on my face. We run the IndieWeb club together.
 
 ---
 
