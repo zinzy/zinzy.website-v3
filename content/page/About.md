@@ -24,7 +24,7 @@ I taught myself to build websites as a child in the late nineties and have made 
 </figure>
 {{< /rawhtml >}}
 
-I live in [Amsterdam](/tags/amsterdam/) with [Anja](https://anjawaleson.notion.site/Anja-Waleson-0182c8df804b4b12ab6e70b5b5795a55), [Lemonade](/tags/lemonade/) and [Zev](/tags/zev/). I'm an [Afropean](/tags/being-afropean), [queer](/tags/queerdom), [sober](/tags/sobriety/), [neurodivergent](/im-neurodivergent/) first-generation University graduate. I have the immense privilege of waking up every day feeling 8+, with a labrador-like enthusiasm for life, not in spite but _because_ of [what wasn't](/2020/05/13/clobber/).
+I live in [Amsterdam](/tags/amsterdam/) with [Anja](https://anjawaleson.notion.site/Anja-Waleson-0182c8df804b4b12ab6e70b5b5795a55), [Lemonade](/tags/lemonade/) and [Zev](/tags/zev/). I'm an [Afropean](/tags/being-afropean), [queer](/tags/queerdom), [sober](/tags/sobriety/), [neurodivergent](/im-neurodivergent/), [Christian](/garden/praxis) first-generation University graduate. I have the immense privilege of waking up every day feeling 8+, with a labrador-like enthusiasm for life, not in spite but _because_ of [what wasn't](/2020/05/13/clobber/).
 
 I'm of São Toméan and Dutch descent, hailing from enslaved Angolan grandparents on one side, and a long line of loud, burgundian band geeks on the other. I grew up in the narrow tail-end of the Netherlands, bike rides away from both Belgium and Germany.
 
