@@ -1,7 +1,6 @@
 ---
 title: "Museum memories"
 date: 2026-03-06 15:48:29 +01:00
-draft: true
 tags:
   - IndieWeb Carnival
   - art
