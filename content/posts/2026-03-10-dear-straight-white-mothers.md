@@ -21,7 +21,7 @@ I am not a woman.
 
 When people tell me "Pick a gender", even "non-binary" feels like too much of a declaration. When I look out into the world, and see the social dynamic of various genders with one another, and the ways in which the members of each present, behave, and negotiate, all I can think is:
 
-I'm a colour-blind in an apparently vividly-coloured world. I do not understand what you are talking about.
+I am colour-blind in an apparently vividly-coloured world. I do not understand what you are talking about.
 
 I'm not a woman, so on International Women's Day, I'm an ally.
 
