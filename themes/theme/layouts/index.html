@@ -3,7 +3,11 @@
 }} {{ $paginator := .Paginate $sortedEntries 7 }} {{ if and .IsHome (eq
 $paginator.PageNumber 1) }} {{ end }}
 
-<section class="">
+<section class="e-content prose dark:prose-invert">
+  <p>Mid-range millennial drawn to complex puzzles and good stories. Between meanderings, I research and design medical software in Amsterdam.</p>
+</section>
+
+<section class="mt-20">
   <ul class="">
     {{ range $paginator.Pages }}
     <li class="mb-28">
