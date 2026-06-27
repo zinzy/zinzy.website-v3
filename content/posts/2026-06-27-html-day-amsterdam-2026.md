@@ -24,3 +24,7 @@ HTML Day is an annual celebration of HTML during which we gather in-person to wr
 - Talk about websites
 - Write HTML
 - Share what we've made
+
+### How to join
+
+[Sign up on Luma!](https://luma.com/1asbgrh6)
