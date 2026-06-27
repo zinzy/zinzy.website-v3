@@ -18,7 +18,7 @@
     $feed := $filtered }} {{ $sortedfeed := $feed.ByDate.Reverse }} {{
     $paginator := .Paginate $sortedfeed 7 }} {{ range $paginator.Pages }}
 
-    <article class="mb-20">
+    <article class="spaced">
       <header class="mb-5">
         <time class="dt-published text-secondary" datetime="{{ .Date }}">
           <a href="{{ .Permalink }}">

@@ -5,7 +5,10 @@ body {
   line-height: 150%;
   padding: 30px;
   /* -webkit-font-smoothing: antialiased; */
-  @media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 768px) {
+  body {
     max-width: 600px;
     margin: 0 auto;
   }
@@ -22,44 +25,71 @@ h1, h2, h3, h4, h5, h6 {
   /* font-family: sans-serif; */
 }
 
-ul.photos {
+ul.posts {
   list-style: none;
-  li { 
-    margin-top: 100px;
-    padding: 0;
-    @media screen and (min-width: 768px) {
-      margin-top: 100px;
-    }
+  margin: 0;
+  padding: 0;
+}
+
+ul.posts li { 
+  margin-top: 100px;
+  padding: 0;
+}
+
+@media screen and (min-width: 768px) {
+  ul.posts li {
+    margin-top: 50px;
   }
 }
 
+.spaced {
+  margin-bottom: 50px;
+}
 
 .hidden {
   display: none;
 }
 
+.cam-feed {
+  display: flex;
+  width: 100%;
+  gap: 16px; 
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.cam-feed img {
+  flex: 1;
+  max-height: 150px;
+  object-fit: cover; 
+}
+
 .site-header {
   display: flex;
   justify-content: space-between;
-  @media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 768px) {
+  .site-header {
     margin: 50px auto;
-  }
-  nav {
-    ul {
-      margin:0;
-      padding: 0;
-      list-style: none;
-      li {
-        @media screen and (min-width: 768px) {
-          display: inline-block;
-          margin-left: 20px
-        }
-      }
-    }
   }
 }
 
-input, textarea {
+.site-header nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@media screen and (min-width: 768px) {
+  .site-header nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+}
+
+input[type="text"], textarea {
   padding: 10px;
   width: 100%;
   margin-top: 10px;
@@ -79,43 +109,45 @@ button {
   border-radius: 40px;
 }
 
-
 .intro {
   margin: 50px 0;
 }
 
-
 .site-footer {
   margin-top: 100px;
-    ul {
-      margin: 0;
-      padding:0;
-      text-align: center;
-      line-height: 100%;
-      li {
-        line-height: 100%;
-        margin: 0 20px;
-        padding:0;
-        display: inline-block;
-      }
-    }
+}
+
+.site-footer ul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  line-height: 100%;
+}
+
+.site-footer ul li {
+  line-height: 100%;
+  margin: 0 20px;
+  padding: 0;
+  display: inline-block;
 }
 
 hr {
   border: 1px dotted black;
 }
 
- a {
+a {
   /* text-decoration: none; */
   color: #000;
   text-decoration: 1px underline dotted;
   text-underline-offset: 4px;
- }
-
+}
 
 img, video {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  border-radius: 5px;
 }
 
 .now li {
@@ -132,6 +164,7 @@ section {
   margin-top: 50px;
 }
 
+/* Note: There was a second textarea declaration in your code */
 textarea {
   width: 100%;
 }

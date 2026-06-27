@@ -61,7 +61,7 @@
     {{- end }}
 
 
-    {{ $allEntries := (where .Site.RegularPages "Type" "in" (slice "posts" "micro")) }}
+    {{ $allEntries := (where .Site.RegularPages "Type" "posts") }}
     {{- range $allEntries }}
 
     <item>

@@ -8,12 +8,23 @@ $sortedPosts 5 }}
 
 <section>
   <h2>Recent posts <a href="/archive">(all)</a></h2>
-  <ul class="posts">
+  <ul class="">
     {{ range $paginatePosts.Pages }}
     <li class="">
       <a href="{{ .Params.externalLink | default .RelPermalink }}"
         >{{ .Params.title }}</a
       >
+    </li>
+    {{ end }}
+  </ul>
+</section>
+
+<section>
+  <h2>Recent photos <a href="/photos">(all)</a></h2>
+  <ul class="cam-feed">
+    {{ range first 5 (where .Site.RegularPages "Type" "photos" ) }}
+    <li>
+      <img src="{{ .Params.photo }}" alt="{{ .Params.alt }}" />
     </li>
     {{ end }}
   </ul>

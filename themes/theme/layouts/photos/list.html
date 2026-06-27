@@ -10,16 +10,14 @@
   <section class="">
     <!-- {{ $postsDefault := where .Site.RegularPages "Type" "posts" }} -->
 
-    <ul class="photos">
+    <ul class="posts">
       {{ range (where .Site.RegularPages "Type" "photos") }}
       <li class="mt-20 border-t pt-20">
-        <!-- <div class="font-medium text-slate-950 mt-5 dark:text-white text-2xl">
-          {{ .Date | time.Format site.Params.theme_config.date_format_monthly }}
-        </div> -->
-
         <content class="">
           <img src="{{ .Params.photo }}" alt="{{ .Params.alt }}" />
-
+          <em>
+            {{ .Date | time.Format site.Params.theme_config.date_format_date }}
+          </em>
           <!-- {{ .Content }} -->
         </content>
       </li>
