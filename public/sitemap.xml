@@ -2,8 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://zinzy.website/photos/2026-06-27-09-00-14/</loc>
+    <lastmod>2026-06-27T09:00:32+02:00</lastmod>
+  </url><url>
     <loc>https://zinzy.website/</loc>
-    <lastmod>2026-06-24T00:00:00+00:00</lastmod>
+    <lastmod>2026-06-27T09:00:32+02:00</lastmod>
+  </url><url>
+    <loc>https://zinzy.website/photos/</loc>
+    <lastmod>2026-06-27T09:00:32+02:00</lastmod>
+  </url><url>
+    <loc>https://zinzy.website/2026/06/27/html-day-2026-amsterdam-edition/</loc>
+    <lastmod>2026-06-27T07:17:10+01:00</lastmod>
+  </url><url>
+    <loc>https://zinzy.website/tags/indieweb/</loc>
+    <lastmod>2026-06-27T07:17:10+01:00</lastmod>
+  </url><url>
+    <loc>https://zinzy.website/posts/</loc>
+    <lastmod>2026-06-27T07:17:10+01:00</lastmod>
+  </url><url>
+    <loc>https://zinzy.website/tags/</loc>
+    <lastmod>2026-06-27T07:17:10+01:00</lastmod>
   </url><url>
     <loc>https://zinzy.website/now/</loc>
     <lastmod>2026-06-24T00:00:00+00:00</lastmod>
@@ -12,9 +30,6 @@
     <lastmod>2026-06-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://zinzy.website/photos/2026-05-16-06-29-51/</loc>
-    <lastmod>2026-05-16T06:30:55+02:00</lastmod>
-  </url><url>
-    <loc>https://zinzy.website/photos/</loc>
     <lastmod>2026-05-16T06:30:55+02:00</lastmod>
   </url><url>
     <loc>https://zinzy.website/tags/antiracism/</loc>
@@ -27,12 +42,6 @@
     <lastmod>2026-03-10T09:22:10+01:00</lastmod>
   </url><url>
     <loc>https://zinzy.website/tags/intersectionality/</loc>
-    <lastmod>2026-03-10T09:22:10+01:00</lastmod>
-  </url><url>
-    <loc>https://zinzy.website/posts/</loc>
-    <lastmod>2026-03-10T09:22:10+01:00</lastmod>
-  </url><url>
-    <loc>https://zinzy.website/tags/</loc>
     <lastmod>2026-03-10T09:22:10+01:00</lastmod>
   </url><url>
     <loc>https://zinzy.website/tags/art/</loc>
@@ -223,9 +232,6 @@
   </url><url>
     <loc>https://zinzy.website/2025/03/05/07/15/44/</loc>
     <lastmod>2025-03-05T07:15:44+01:00</lastmod>
-  </url><url>
-    <loc>https://zinzy.website/tags/indieweb/</loc>
-    <lastmod>2025-03-02T13:48:23+01:00</lastmod>
   </url><url>
     <loc>https://zinzy.website/2025/03/02/week-9-guestbook/</loc>
     <lastmod>2025-03-02T13:48:23+01:00</lastmod>
