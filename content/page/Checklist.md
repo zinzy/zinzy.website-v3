@@ -9,7 +9,7 @@ This list was copied (and slightly adapted) from [Mike Sass' _Website Component 
 - [x] [Custom 404 page](/404.html)
 - [x] [88x31 button](/colophon#banner)
 - [x] [/About page](/about)
-- [ ] AI manifesto
+- [x] [AI manifesto](/colophon#ai-manifesto)
 - [ ] ~~ai.txt~~
 - [x] [Activity feed](/)
 - [ ] ~~Architecture.md~~
@@ -18,6 +18,7 @@ This list was copied (and slightly adapted) from [Mike Sass' _Website Component 
 - [ ] /Carry page
 - [ ] ~~Change Log~~
 - [ ] ~~change-password~~
+- [x] [Colophon](/colophon)
 - [ ] ~~Comments (for blog posts)~~
 - [ ] /Defaults page
 - [ ] Disclaimer

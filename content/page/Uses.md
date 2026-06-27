@@ -7,14 +7,14 @@ I truly hope that you don't care what kind of MacBook Pro I use, what version of
 
 ### Stationery
 
-- **Filofax Lockwood Cognac Zipped A5 Organizer:** After lusting after them for years, I finally found myself with the financial privilege to buy my first Filofax at 19. I've been a fan ever since. This A5 journal, fully zipped with lots of pockets, usually goes where I do. It is my trusted companion for any type of writing I do.
-- **Palomino [Blackwing 602](https://en.wikipedia.org/wiki/Blackwing_602):** Knowing I'm writing and sketching only with a mere approximation of the original Blackwing, I love these pencils for their softness and the fact that they introduced me to the wonderful world of long point sharpening.
-- **DécoTime twin markers:** What I suspect to be a hilariously local product sold at the Dutch version of the Dollar Store, Action, these markers are lovely for highlighting and simple drawing.
+- **[Midori MD Notebook in A5 or B6 Slim](https://md-product.com/):** elegant, simple, with beautifully thing paper that somehow doesn't struggle with my ink
+- **[TWSBI ECO Clear Fountain Pen](https://www.jetpens.com/TWSBI-ECO-Clear-Fountain-Pen-Fine/pd/16631):** Aware these are known for their cracking issues, I wanted my first vacuum fill fountain pen to be in a lower price range. I've promised myself that, if I last a full year, I can upgrade.
+- **[Mont Blanc Permanent Black Ink (bottle)](https://www.montblanc.com/en-nl/ink-bottle-permanent-black-60%C2%A0ml-MB128196VG.html):** It takes a moment to dry, but I love having a bottle of ink in the house so that I don't have to mess around with cartridges.
 
 ### Kitchenware
 
 - **[Le Creuset spatulas](https://www.lecreuset.com/kitchen-tools/spoons-and-spatulas):** the most-used and most-liked tools in our kitchen are a variety of spatulas that we use for _everything_.
-- **[Safe Bambino espresso maker](https://www.sageappliances.com/eu/en/products/espresso/bes450.html):** As an ~~avid coffee drinker~~ asshole Millennial, well-brewed coffee and impeccably steamed milk is the fuel that starts my engine. In Covid times, I, along with all the other gentrifiers in the neighborhood, developed a habit of getting takeout coffee from Coffee Company. There were months that I spent in excess of 250 Euros at that establishment. This machine is helping me make better choices.
+- **[Sage Bambino espresso maker](https://www.sageappliances.com/eu/en/products/espresso/bes450.html):** As an ~~avid coffee drinker~~ asshole Millennial, well-brewed coffee and impeccably steamed milk is the fuel that starts my engine. In Covid times, I, along with all the other gentrifiers in the neighborhood, developed a habit of getting takeout coffee from Coffee Company. There were months that I spent in excess of 250 Euros at that establishment. This machine is helping me make better choices.
 - **Fake Stanley Cup:** Like so many other people on the planet, I've been totally influenced to get one of those ridiculous Stanley Cups. What's worse, I even wanted one in the rosé color omnipresent in my Pinterest ads. A longtime fan of Stanley products, mostly because of its leak-proof and thermal technology, I refused to pay 70+ Euros for a product with a plastic lid that didn't do anything temperature-wise. The knock-off I got for 24 Euros has been serving me very well ever since.
 
 ### Books
@@ -32,8 +32,14 @@ I truly hope that you don't care what kind of MacBook Pro I use, what version of
 - **[Speechify](https://speechify.com/):** I love text-to-speech software because it allows me to treat reading as a multitask activity (combined with, for example, folding laundry or cycling). I find Speechify unmatched in its originality, quality, and customer support. ([referral link](https://share.speechify.com/mz8DVrC))
 - **[Obsidian](obsidian.md/):** I love a note-taking app that doesn't hold my files hostage. Tool agnosticism is important in my workflow, and I love what Obsidian can do to a simple folder of Markdown files.
 - **[You Need a Budget (YNAB)](https://ynab.com):** Going back all the way to 2013, when life was very different, my YNAB budgetting history is revealing, enlightening, and sobering. I love using the app to keep track of our household purchases and budgets as well as my personal. ([referral link](https://ynab.com/referral/?ref=yEhbbQeFpxqW5WDQ&sponsor_name=Zinzy&utm_source=customer_referral)
-)
+  )
+
 ### Methodology
 
 - **[Johnny Decimal](https://johnnydecimal.com/):** My central strategy for organizing the numerous files that live in my filing cabinet, this adaptation of the Dewey Decimal Classification is helpful in leaving things where they belong, and retrieving them easily.
 - **[Interstitial bullet journalling](https://bulletjournal.com/blogs/bulletjournalist/how-to-improve-focus-using-a-bullet-journal?srsltid=AfmBOoq3ssQZBF8xfc4A6FR8pYiruvqz187J0PvOq4Up5lFN-Fa7WjqD):** I love the simplicity, authenticity, and neurodivergent brilliance of the original Bullet Journal method (without the decorative fanfare). In a running list, without the sections common to the Filofax ring binder, I employ a technique called interstitial bullet journalling to keep me on track, let me offload, and help me slow down.
+
+### Retired
+
+- (2026-05-05) **Filofax Lockwood Cognac Zipped A5 Organizer:** After lusting after them for years, I finally found myself with the financial privilege to buy my first Filofax at 19. I've been a fan ever since. This A5 journal, fully zipped with lots of pockets, usually goes where I do. It is my trusted companion for any type of writing I do.
+- (2026-05-05) **Palomino [Blackwing 602](https://en.wikipedia.org/wiki/Blackwing_602):** Knowing I'm writing and sketching only with a mere approximation of the original Blackwing, I love these pencils for their softness and the fact that they introduced me to the wonderful world of long point sharpening.

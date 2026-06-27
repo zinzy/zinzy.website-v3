@@ -12,12 +12,13 @@ description: "A list of things I don't like, want to do or experience"
 
 ### Things to avoid
 
-- Over attendance of spaces where I'm "the other"
+- Preoccupation with spaces where I'm "the other", no matter how nice that "other" is
 
 ### Words to avoid
 
 I collect these when I have reached my limit with them.
 
+-
 - "Hold space" (2024)
 - Most other uses of "space" in a figurative sense (2024)
 - "Woke" (2023)

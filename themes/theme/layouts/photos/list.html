@@ -1,0 +1,49 @@
+{{ define "main" }} {{ partial "back_link.html" .}}
+
+<div class="">
+  <header class="mb-10 md:mb-20 prose dark:prose-invert">
+    <h2 class="mb-5 text-2xl">Photography</h2>
+
+    {{ .Content }}
+  </header>
+
+  <section class="">
+    <!-- {{ $postsDefault := where .Site.RegularPages "Type" "posts" }} -->
+
+    <ul class="photos">
+      {{ range (where .Site.RegularPages "Type" "photos") }}
+      <li class="mt-20 border-t pt-20">
+        <!-- <div class="font-medium text-slate-950 mt-5 dark:text-white text-2xl">
+          {{ .Date | time.Format site.Params.theme_config.date_format_monthly }}
+        </div> -->
+
+        <content class="">
+          <img src="{{ .Params.photo }}" alt="{{ .Params.alt }}" />
+
+          <!-- {{ .Content }} -->
+        </content>
+      </li>
+      {{ end }}
+    </ul>
+
+    <!-- 
+    <ul class="border-b">
+
+
+
+      
+      {{ range $postsDefault }}
+      <li class="border-t py-3">
+        <a class="w-full content-center md:flex" href="{{ .Permalink }}">
+          <span class="grow font-medium">{{ .Title }}</span>
+          <time class=" flex-none text-sm"
+            >{{- (.Date | time.Format
+            site.Params.theme_config.date_format_medium) }}</time
+          >
+        </a>
+      </li>
+      {{ end }}
+    </ul> -->
+  </section>
+</div>
+{{ end }}

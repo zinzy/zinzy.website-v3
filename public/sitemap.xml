@@ -2,28 +2,70 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://zinzy.website/</loc>
+    <lastmod>2026-06-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zinzy.website/now/</loc>
+    <lastmod>2026-06-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zinzy.website/now/2026/06/24/</loc>
+    <lastmod>2026-06-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zinzy.website/photos/2026-05-16-06-29-51/</loc>
+    <lastmod>2026-05-16T06:30:55+02:00</lastmod>
+  </url><url>
+    <loc>https://zinzy.website/photos/</loc>
+    <lastmod>2026-05-16T06:30:55+02:00</lastmod>
+  </url><url>
+    <loc>https://zinzy.website/tags/antiracism/</loc>
+    <lastmod>2026-03-10T09:22:10+01:00</lastmod>
+  </url><url>
+    <loc>https://zinzy.website/2026/03/10/dear-straight-white-mothers/</loc>
+    <lastmod>2026-03-10T09:22:10+01:00</lastmod>
+  </url><url>
+    <loc>https://zinzy.website/tags/feminism/</loc>
+    <lastmod>2026-03-10T09:22:10+01:00</lastmod>
+  </url><url>
+    <loc>https://zinzy.website/tags/intersectionality/</loc>
+    <lastmod>2026-03-10T09:22:10+01:00</lastmod>
+  </url><url>
+    <loc>https://zinzy.website/posts/</loc>
+    <lastmod>2026-03-10T09:22:10+01:00</lastmod>
+  </url><url>
+    <loc>https://zinzy.website/tags/</loc>
+    <lastmod>2026-03-10T09:22:10+01:00</lastmod>
+  </url><url>
+    <loc>https://zinzy.website/tags/art/</loc>
+    <lastmod>2026-03-06T15:48:29+01:00</lastmod>
+  </url><url>
+    <loc>https://zinzy.website/tags/indieweb-carnival/</loc>
+    <lastmod>2026-03-06T15:48:29+01:00</lastmod>
+  </url><url>
+    <loc>https://zinzy.website/tags/london/</loc>
+    <lastmod>2026-03-06T15:48:29+01:00</lastmod>
+  </url><url>
+    <loc>https://zinzy.website/2026/03/06/museum-memories/</loc>
+    <lastmod>2026-03-06T15:48:29+01:00</lastmod>
+  </url><url>
+    <loc>https://zinzy.website/tags/museums/</loc>
+    <lastmod>2026-03-06T15:48:29+01:00</lastmod>
+  </url><url>
+    <loc>https://zinzy.website/tags/photography/</loc>
+    <lastmod>2026-03-06T15:48:29+01:00</lastmod>
+  </url><url>
     <loc>https://zinzy.website/2026/02/18/a-random-list-of-silly-things-i-hate/</loc>
     <lastmod>2026-02-18T07:23:10+01:00</lastmod>
   </url><url>
     <loc>https://zinzy.website/tags/entertainment/</loc>
     <lastmod>2026-02-18T07:23:10+01:00</lastmod>
   </url><url>
-    <loc>https://zinzy.website/</loc>
-    <lastmod>2026-02-18T07:23:10+01:00</lastmod>
-  </url><url>
     <loc>https://zinzy.website/tags/lists/</loc>
-    <lastmod>2026-02-18T07:23:10+01:00</lastmod>
-  </url><url>
-    <loc>https://zinzy.website/posts/</loc>
     <lastmod>2026-02-18T07:23:10+01:00</lastmod>
   </url><url>
     <loc>https://zinzy.website/tags/racism/</loc>
     <lastmod>2026-02-18T07:23:10+01:00</lastmod>
   </url><url>
     <loc>https://zinzy.website/tags/social-media/</loc>
-    <lastmod>2026-02-18T07:23:10+01:00</lastmod>
-  </url><url>
-    <loc>https://zinzy.website/tags/</loc>
     <lastmod>2026-02-18T07:23:10+01:00</lastmod>
   </url><url>
     <loc>https://zinzy.website/tags/technology/</loc>
@@ -105,9 +147,6 @@
     <lastmod>2025-07-22T22:54:05+02:00</lastmod>
   </url><url>
     <loc>https://zinzy.website/now/2025/07/22/</loc>
-    <lastmod>2025-07-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://zinzy.website/now/</loc>
     <lastmod>2025-07-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://zinzy.website/tags/christianity/</loc>
@@ -306,9 +345,6 @@
     <lastmod>2024-12-24T15:05:50+01:00</lastmod>
   </url><url>
     <loc>https://zinzy.website/tags/hosting/</loc>
-    <lastmod>2024-12-24T09:52:01+02:00</lastmod>
-  </url><url>
-    <loc>https://zinzy.website/tags/indieweb-carnival/</loc>
     <lastmod>2024-12-24T09:52:01+02:00</lastmod>
   </url><url>
     <loc>https://zinzy.website/2024/12/24/rounding-up-indieweb-carnival-december/</loc>
@@ -917,9 +953,6 @@
     <loc>https://zinzy.website/tags/climate-justice/</loc>
     <lastmod>2023-11-13T10:16:15+02:00</lastmod>
   </url><url>
-    <loc>https://zinzy.website/tags/intersectionality/</loc>
-    <lastmod>2023-11-13T10:16:15+02:00</lastmod>
-  </url><url>
     <loc>https://zinzy.website/2023/11/13/the-artificial-borders-of-climate-activism/</loc>
     <lastmod>2023-11-13T10:16:15+02:00</lastmod>
   </url><url>
@@ -954,9 +987,6 @@
     <lastmod>2023-10-04T22:23:30+00:00</lastmod>
   </url><url>
     <loc>https://zinzy.website/tags/health/</loc>
-    <lastmod>2023-10-01T10:16:15+02:00</lastmod>
-  </url><url>
-    <loc>https://zinzy.website/tags/museums/</loc>
     <lastmod>2023-10-01T10:16:15+02:00</lastmod>
   </url><url>
     <loc>https://zinzy.website/2023/10/01/week-39-small-escapes/</loc>
