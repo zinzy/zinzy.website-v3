@@ -1,6 +1,6 @@
 ---
 title: "How I cosplay, African edition"
-date: 2026-07-01 09:08:30 +01:00
+date: 2026-07-01 08:08:30 +02:00
 tags:
   - IndieWeb Carnival
   - being Afropean
