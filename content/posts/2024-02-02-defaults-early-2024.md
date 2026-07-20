@@ -1,10 +1,11 @@
 ---
 title: "Defaults: early 2024 edition"
-sidenote: Things change, so does my opinion. It turns out I like the idea of a status [/uses](/uses) page better.
 date: 2024-02-02
 tags:
   - tools
 ---
+
+_Things change, so does my opinion. It turns out I like the idea of a static [/uses](/uses) page better._
 
 Inspired by [App Defaults](https://defaults.rknight.me/), this is a list of the main tools I frequently use these days.
 
