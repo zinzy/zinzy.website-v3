@@ -11,13 +11,12 @@ HTML Day is an annual celebration of HTML during which we gather in-person to wr
 
 - Date: August 8, 2026
 - Time: 14:00
-- Location: somewhere in Central Amsterdam
+- Location: [Internet Archive Europe on Oudeschans 16, Amsterdam](https://maps.app.goo.gl/oHq7NHTicBsWav2K7)
 
 ### What to bring
 
 - Something to write HTML on (a laptop, tablet, smartphone or paper)
-- (Depending on location) A snack and drink for yourself
-- (Depending on location) A picnic blanket
+- A snack and drink for yourself
 
 ### What we'll do
 
