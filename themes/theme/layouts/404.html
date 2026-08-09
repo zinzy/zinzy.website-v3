@@ -2,80 +2,21 @@
 
 <div class="">
   <div>
-    <img src="/img/404.gif" class="float-right ml-6 mb-3 w-28" alt="Gif of a Black boy looking embarrassed and scared" />
-  <header class="prose dark:prose-invert mb-5"> 
-    <h2 class="p-name">
-      Sometimes I'll start a sentence, and I don't even...
-    </h2>
-    <p class="">
-      I'm sorry that something has led you to this 404 page. What you were
-      hoping to find does not exist (anymore). Please head back to the <a href="/">front page</a> to continue your journey. Additionally, below are eight random posts.</p>
-  </header>
-  </div>
- 
-
-  <section class="mt-20">
-
-  {{ $allEntries := (where .Site.RegularPages "Type" "posts") }}
-
-
-{{/* Shuffle and take 8 */}}
-{{ range first 8 (shuffle $allEntries) }}
-  <div class="mb-28">
-    <header class="mb-5">
-      {{ if eq .Section "posts"}}
-        <time class="font-normal dt-published block text-secondary" datetime="{{ .Date }}">
-          <a href="{{ .Permalink }}">
-            {{ .Date | time.Format site.Params.theme_config.date_format_medium }}
-          </a>
-        </time>
-      {{ end }}
-
-      {{ if and .Params.title (ne .Params.showTitle false) }}
-        <h2 class="p-name mt-0">
-          <a class="u-url" href="{{ .Permalink }}">{{ .Params.title }}</a>
-        </h2>
-      {{ end }}
-
-      <div class="u-author h-card hidden">
-        <img src="/img/avatar.jpg" class="u-photo" />
-        <a href="/" class="u-url p-name">Zinzy Waleson Geene</a>
-      </div>
+    <img
+      src="/img/404.gif"
+      class="float-right ml-6 mb-3 w-28"
+      alt="Gif of a Black boy looking embarrassed and scared"
+    />
+    <header class="prose dark:prose-invert mb-5">
+      <h2 class="p-name">
+        Sometimes I'll start a sentence, and I don't even...
+      </h2>
+      <p class="">
+        I'm sorry that something has led you to this 404 page. What you were
+        hoping to find does not exist (anymore). Please head back to the
+        <a href="/">front page</a> to continue your journey.
+      </p>
     </header>
-
-    <content class="e-content prose dark:prose-invert">
-      <div class="mt-5">
-        {{ if .Params.replyTo }}
-          <!-- replyTo / RSVP logic -->
-        {{ else if .Params.likeOf }}
-          <!-- likeOf logic -->
-        {{ end }}
-      </div>
-
-      <div class="summary">
-        {{ if and .Params.title (ne .Params.showTitle false) }}
-          {{ if in .RawContent "<!--more-->" }}
-            {{ .Summary | safeHTML }}
-          {{ else }}
-            {{ $paras := findRE "(?s)<p[^>]*>.*?</p>" .Content }}
-            {{ with index $paras 0 }}
-              {{ . | safeHTML }}
-            {{ end }}
-          {{ end }}
-
-          <div class="not-prose flex justify-end mt-5">
-            <a href="{{ .Permalink }}" class="button group">
-              Keep reading <span class="transition-all inline-block ml-2 group-hover:rotate-12">→</span>
-            </a>
-          </div>
-        {{ else }}
-          {{ .Content | safeHTML }}
-        {{ end }}
-      </div>
-    </content>
   </div>
-{{ end }}
-
-  </section>
 </div>
 {{ end }}
