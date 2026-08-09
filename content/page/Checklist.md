@@ -4,6 +4,11 @@ layout: checklist
 description: "Things I (hope to) have on my site"
 ---
 
+A general to do list on things I want to do on this website:
+
+- [ ] Remove Tailwind
+- [ ] Add imager dithering process
+
 This list was copied (and slightly adapted) from [Mike Sass' _Website Component Checklist_](https://shellsharks.com/notes/2023/08/15/website-component-checklist). I've added things I thought would be useful.
 
 - [x] [Custom 404 page](/404.html)

@@ -1,4 +1,6 @@
 [build]
+  command = "python3 -m venv scripts/.venv && scripts/.venv/bin/pip install -q -r scripts/requirements.txt && scripts/.venv/bin/python scripts/dither_photos.py --limit 5 && hugo"
+  publish = "public"
   functions = "netlify/functions"
 
 [build.environment]
