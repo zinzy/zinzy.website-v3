@@ -12,17 +12,14 @@
     where .Site.RegularPages "Section" "page" }} {{ $music := where
     .Site.Sections "Section" "music" }}
 
-    <ul class="divide-y divide-gray-200 dark:divide-neutral-800">
+    <ul class="sitemap">
       {{ range sort (append $pages $music) "Title" }} {{ if not (in $skip
       .Title) }}
-      <li>
-        <a
-          href="{{ .RelPermalink }}"
-          class="block p-3 hover:bg-gray-50 dark:hover:bg-neutral-800 transition-all"
+      <li class="">
+        <a href="{{ .RelPermalink }}" class="">
+          <span class="">{{ .Title }}</span></a
         >
-          <span class="font-medium">{{ .Title }}</span></a
-        >:
-        <span class="text-secondary">{{ .Description }}</span>
+        <!-- <span class="text-secondary">{{ .Description }}</span> -->
       </li>
       {{ end }} {{ end }}
     </ul>

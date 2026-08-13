@@ -1,7 +1,7 @@
 body {
   background: #fff0de;
   font-family: Arial, Helvetica, sans-serif;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.8px;
   font-size: 1rem;
   font-kerning: normal;
   -webkit-font-smoothing: antialiased;
@@ -70,7 +70,6 @@ ul.posts li {
   flex: 1;
   max-height: 350px;
   object-fit: cover;
-  /* filter: grayscale(1) sepia(0.7) hue-rotate(-20deg); */
 }
 
 .site-header {
@@ -101,8 +100,9 @@ input[type="text"], textarea {
   padding: 10px;
   width: 100%;
   margin-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.8px;
   font-size: 100%;
-  font-family: Times;
 }
 
 textarea {
@@ -179,4 +179,28 @@ section {
 /* Note: There was a second textarea declaration in your code */
 textarea {
   width: 100%;
+}
+
+/* The Grid Container */
+.sitemap {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 20px;
+  @media screen and (min-width: 768px) {
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  }
+}
+
+.sitemap li a {
+  display: block;
+  border: 1px solid black;
+  text-align: center;
+  padding: 100px 0;
+  text-decoration: none;
+  &:hover {
+    background: #ffe6c6;
+  }
 }

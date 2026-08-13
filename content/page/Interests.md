@@ -2,7 +2,6 @@
 title: Interests
 share: true
 section: page
-description: Red threads in my life
 ---
 
 The red thread in my life is bottomless curiosity for the world in which we live. I enjoy doing short deep-dives into all sorts of subjects. Some stay, but with many I'll reach a point of satisfaction at some point, ready to take on something new. To learn about the more fleeting interests occupying my mind, you should read my [Now](/now) page. Below is an overview of the themes that have been with me for decades.
@@ -13,7 +12,9 @@ Hailing from a long line of band geeks, I got my first toy piano at age four, an
 
 ### Faith
 
-While it hasn't been easy to find my place in the multiplex that is modern Christianity, spirituality within the context of the story of Jesus has always been important to me. My journey and relationships have let me find inspiration in taoism and Judaism, and today my approach to Christianity is largely non-literal, non-dogmatic, and profoundly subversive, as Robin Meyers would say. I follow Jesus, and I do my best not to worship him. I'm fortunate to have found a fellowship in [All Saints](https://allsaintsamsterdam.church/), where I'm helping to build a community that is truly affirming and inclusive.
+After a somewhat dramatic dismantling of my church, I seem to have landed in a space of spiritual drought, and strangely not to my dismay. I'm trying to not push myself into any particular religious or spiritual direction, and instead engage in activities that I find nourishing. So far, none of them have been Christian. I miss it sometimes, but I don't know if I'll ever be back again.
+
+~~While it hasn't been easy to find my place in the multiplex that is modern Christianity, spirituality within the context of the story of Jesus has always been important to me. My journey and relationships have let me find inspiration in taoism and Judaism, and today my approach to Christianity is largely non-literal, non-dogmatic, and profoundly subversive, as Robin Meyers would say. I follow Jesus, and I do my best not to worship him. I'm fortunate to have found a fellowship in [All Saints](https://allsaintsamsterdam.church/), where I'm helping to build a community that is truly affirming and inclusive.~~
 
 ### Photography
 

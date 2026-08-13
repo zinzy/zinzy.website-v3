@@ -9,7 +9,7 @@
   <section class="posts">
     <!-- {{ $postsDefault := where .Site.RegularPages "Type" "posts" }} -->
 
-    <ul class="prose dark:prose-invert">
+    <ul class="prose dark:prose-invert list-none">
       {{ range (where .Site.RegularPages "Type" "now") }}
       <li class="mt-20 border-t pt-20">
         <div class="font-medium text-slate-950 mt-5 dark:text-white text-2xl">
