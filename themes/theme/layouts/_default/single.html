@@ -2,20 +2,6 @@
 
 <div class="">
   <article class="h-entry">
-    <header class="mb-5">
-      <h2 class="p-name inline-block mb-0">
-        <a href="{{ .Permalink }}">{{ .Params.title }}</a>
-      </h2>
-      {{ if .Params.start }}<span class="text-secondary text-sm ml-2"
-        >{{ .Params.start }}</span
-      >{{ end }}
-
-      <div class="u-author h-card hidden">
-        <img src="/img/avatar.jpg" class="u-photo" />
-        <span class="u-url p-name">Zinzy Waleson Geene</span>
-      </div>
-    </header>
-
     {{ if or (eq .Section "posts") (eq .Section "shorts") }} {{ if gt
     .Site.Params.oldPost .Date.Year }}
 
@@ -129,13 +115,27 @@
 
   <!-- <div class="my-20">{{ partial "tags.html" .}}</div> -->
 
+  {{ with .GetTerms "tags" }}
+  <section class="mt-10">
+    <ul class="grid">
+      {{ range . }}
+      <li>
+        <a href="{{ .RelPermalink }}">
+          <span>{{ .LinkTitle }}</span>
+        </a>
+      </li>
+      {{ end }}
+    </ul>
+  </section>
+  {{ end }}
+
   <!-- {{ if or (eq .Section "posts") (eq .Section "micro") }} -->
 
   <footer class="page-footer">
     <ul>
       <li>
         This was published on
-        <a class="u-url text-secondary block" href="{{ .Permalink }}">
+        <a class="u-url" href="{{ .Permalink }}">
           <time class="dt-published" datetime="{{ .Date }}">
             {{ .Date | time.Format site.Params.theme_config.date_format_medium
             }}

@@ -2,42 +2,28 @@
 $sortedPosts := sort $posts "Date" "desc"}} {{ $paginatePosts := .Paginate
 $sortedPosts 5 }}
 
-<section class="intro">
+<article class="h-entry">
+  <div class="intro">
   <p>{{ .Content }}</p>
-</section>
+</div>
 
 <section>
-  <h2>Recent posts <a href="/archive">(all)</a></h2>
+  <h2><a href="/posts">Latest posts</h2>
   <ul class="">
     {{ range $paginatePosts.Pages }}
-    <li class="">
-      <a href="{{ .Params.externalLink | default .RelPermalink }}"
-        >{{ .Params.title }}</a
-      >
-    </li>
-    {{ end }}
-  </ul>
-</section>
-
-<section>
-  <h2>Recent photos <a href="/photos">(all)</a></h2>
-  <ul class="cam-feed">
-    {{ range first 3 (where .Site.RegularPages "Type" "photos" ) }} {{ $photo :=
-    .Params.photo }} {{ $dithered := printf "%s/dithers/%s_dithered.png"
-    (path.Dir $photo) (path.BaseName $photo) }} {{ $src := $photo }} {{ if
-    os.FileExists (printf "static%s" $dithered) }} {{ $src = $dithered }} {{ end
-    }}
     <li>
-      <img src="{{ $src }}" alt="{{ .Params.alt }}" />
+      <a href="{{ .RelPermalink }}">
+        <span>{{ .LinkTitle }}</span>
+      </a>
+      (<time
+        >{{ .Date | time.Format site.Params.theme_config.date_format_short
+        }}</time
+      >)
     </li>
     {{ end }}
   </ul>
-</section>
 
-{{ $nowPosts := where .Site.RegularPages "Type" "now" }} {{ if $nowPosts }}
-<section>
-  {{ range first 1 $nowPosts }}
-  <h2>{{ .Title }}</h2>
-  {{ .Content}} {{ end }}
 </section>
-{{ end }} {{ end }}
+</article>
+
+{{ end }}

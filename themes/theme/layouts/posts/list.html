@@ -1,10 +1,6 @@
 {{ define "main" }} {{ partial "back_link.html" .}}
 
 <div class="">
-  <header class="mb-10 md:mb-20">
-    <h2 class="mb-5">{{ .Title }}</h2>
-  </header>
-
   <section class="mt-20">
     <!-- {{ $postsDefault := where .Site.RegularPages "Type" "posts" }} -->
     {{ range (where .Site.RegularPages "Type" "in" (slice "posts")).GroupByDate
@@ -12,7 +8,7 @@
 
     <ul class="">
       <li class="mt-10">
-        <h3 class="mb-5">{{ .Key }}</h3>
+        <div>{{ .Key }}</div>
         <ul class="border">
           {{ range .Pages }}
           <li class="border-b last:border-none p-2">

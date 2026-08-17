@@ -1,18 +1,18 @@
 ---
 title: "Work"
 layout: work
-draft: true
+tagline: "I'm a principal designer making products for people at work"
 ---
 
-I'm a principal designer making products for people at work.
+![Two White men and a Black person in a lei smile at the camera with champagne glasses in their hand.](/img/zinzy.jpg)
 
-{{< rawhtml >}}
+_Here I am in 2019 with Robin (L) and Michar (R), celebrating the 25th anniversary of the travel technology company that employed us. The pandemic was months away. We were but children._
 
-  <figure>
-    <img src="/img/zinzy.jpg" class="w-full" class="Two White men and a Black non-binary person in a lei smile at the camera with champagne glasses in their hand." />
-    <figcaption>Here I am in 2019 with Robin (L) and Michar (R), celebrating the 25th anniversary of the travel technology company that employed us. The pandemic was months away. We were but children.</figcaption>
-  </figure>
-{{< /rawhtml >}}
+### What I do
+
+- I am specialised in enterprise software, or tools that people use to solve problems at work
+
+- I have been working as a designer for 20 years
 
 I research, design, and sometimes develop digital tools for people at work. I've been making a living in Information Technology for the past 18 years. When I tell people I have an academic background in literary criticism and theology, it never fails to surprise them. For me, the analogies between reading a text, designing software, and designing shared spaces are myriad.
 

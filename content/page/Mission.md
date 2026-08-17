@@ -6,9 +6,7 @@ layout: page
 
 {{< rawhtml >}}
 
-<section class="border border-gray-50 dark:bg-neutral-800 text-center py-20 rounded-xl font-medium">
-<div class="my-20">To (en)counter suffering</div>
-</section>
+<div class="callout">To (en)counter suffering</div>
 {{< /rawhtml >}}
 
 Perhaps it is my ["Christian"](/praxis) heritage, but I am not scared of big words like suffering and sin. I _am_ scared, however, of the rigid hyperbole of the personal mission statement. Mine came to me the way people come to the idea for their first tattoo: suddenly, epiphanically, inevitably.

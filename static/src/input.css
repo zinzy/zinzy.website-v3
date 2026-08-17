@@ -1,155 +1,117 @@
+html {
+  font-size: 20px;
+}
+
 body {
-  background: #fff0de;
-  font-family: Arial, Helvetica, sans-serif;
-  letter-spacing: 0.8px;
   font-size: 1rem;
-  font-kerning: normal;
-  -webkit-font-smoothing: antialiased;
-  line-height: 150%;
-  padding: 30px;
-  /* -webkit-font-smoothing: antialiased; */
+  
+  margin: 1.5rem;
 }
 
-@media screen and (min-width: 768px) {
-  body {
-    max-width: 600px;
-    margin: 0 auto;
-  }
+.h-entry {
+  max-width: 40rem;
+  /* min-height: 400px; */
 }
 
-.guestbook-entry {
-  margin-bottom: 50px;
+.h-entry.full {
+  max-width: 100%;
 }
-
 
 h1, h2, h3, h4, h5, h6 {
-  font-weight: normal;
-  font-size: 100%;
-  /* font-family: sans-serif; */
+font-weight: 400;
+font-size: 100%;
 }
 
-h2 {
-  margin-bottom: 50px;
+h3:before, h4:before, h5:before, h6:before {
+  color: gray;
+  font: monospace;
+  background: #e5e3e4;
+  display: inline-block;
+  padding: 0 5px;
+  margin-right: 10px;
+  border-radius: 3px;
 }
 
-ul.posts {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
+h3:before { content: "###"; }
+h4:before { content: "####"; }
+h5:before { content: "#####"; }
+h6:before { content: "######"; }
 
-ul.posts li { 
-  margin-top: 100px;
-  padding: 0;
-}
-
-@media screen and (min-width: 768px) {
-  ul.posts li {
-    margin-top: 50px;
-  }
-}
-
-.spaced {
-  margin-bottom: 50px;
+a {
+  color: blue;
 }
 
 .hidden {
   display: none;
 }
 
-.cam-feed {
-  display: flex;
-  width: 100%;
-  gap: 16px; 
+header {
+  margin-bottom: 100px;
+}
+ 
+
+section, footer {
+  margin-top: 100px;
+}
+
+/* The Grid Container */
+.grid {
+  list-style: none;
   padding: 0;
   margin: 0;
-  list-style: none;
-}
-
-.cam-feed img {
-  flex: 1;
-  max-height: 350px;
-  object-fit: cover;
-}
-
-.site-header {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+  align-items: stretch;
 }
 
 @media screen and (min-width: 768px) {
-  .site-header {
-    margin: 50px auto;
+  .grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 }
 
-.site-header nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-@media screen and (min-width: 768px) {
-  .site-header nav ul li {
-    display: inline-block;
-    margin-left: 20px;
+@media screen and (min-width: 1400px) {
+  .grid {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
   }
 }
 
-input[type="text"], textarea {
-  padding: 10px;
-  width: 100%;
-  margin-top: 10px;
-  font-family: Arial, Helvetica, sans-serif;
-  letter-spacing: 0.8px;
-  font-size: 100%;
+@media screen and (min-width: 1600px) {
+  .grid {
+    grid-template-columns: repeat(8, minmax(0, 1fr));
+  }
 }
 
-textarea {
-  min-height: 150px;
+.grid li {
+  height: 100%;
 }
 
-button {
-  background: yellow;
-  padding: 10px 20px;
-  font-size: 100%;
-  font-family: Times;
-  border-radius: 40px;
-}
-
-.intro {
-  margin: 50px 0;
-}
-
-.site-footer {
-  margin: 100px 0;
-}
-
-.site-footer ul {
-  margin: 0;
-  padding: 0;
+.grid li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+  border: 1px solid black;
   text-align: center;
-  line-height: 100%;
+  text-decoration: none;
+  position: relative;
+  &:hover {
+    background: LemonChiffon;
+    color: blue;
+  }
 }
 
-.site-footer ul li {
-  line-height: 100%;
-  margin: 0 20px;
-  padding: 0;
-  display: inline-block;
+.tag-count {
+  position:absolute;
+  right: 0;
+  top: 0;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  height: 30px;
+  line-height: 30px;
+  width: 30px;
 }
-
-hr {
-  border: 1px dotted black;
-}
-
-a {
-  /* text-decoration: none; */
-  color: #000;
-  text-decoration: 1px underline dotted;
-  text-underline-offset: 4px;
-}
-
 img, video {
   max-width: 100%;
   height: auto;
@@ -158,49 +120,30 @@ img, video {
   border-radius: 5px;
 }
 
-.now li {
+.callout {
+  padding: 50px 30px;
+  text-align: center;
   border: 1px solid black;
+  margin-bottom: 50px;
+  @media screen and (min-width: 768px)  {
+    padding: 100px 50px;
+  }
 }
 
-.page-footer {
-  border-top: 1px dotted black;
-  padding-top: 50px;
-  margin-top: 50px;
-}
-
-h3 {
-  margin-top: 50px;
-}
-
-section {
-  margin-top: 50px;
-}
-
-/* Note: There was a second textarea declaration in your code */
-textarea {
-  width: 100%;
-}
-
-/* The Grid Container */
-.sitemap {
-  list-style: none;
+.summarised-posts {
+  list-style-type: none;
   padding: 0;
   margin: 0;
-  display: grid;
-  grid-template-columns: 50% 50%;
-  gap: 20px;
-  @media screen and (min-width: 768px) {
-  grid-template-columns: 33.3% 33.3% 33.3%;
+  li {
+  margin-bottom: 30px;
   }
 }
 
-.sitemap li a {
-  display: block;
+.pagination {
+  margin-top: 100px;
+}
+
+hr {
   border: 1px solid black;
-  text-align: center;
-  padding: 100px 0;
-  text-decoration: none;
-  &:hover {
-    background: #ffe6c6;
-  }
+  margin: 100px 0;
 }

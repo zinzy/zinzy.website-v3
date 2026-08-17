@@ -18,7 +18,6 @@ description: "A list of things I don't like, want to do or experience"
 
 I collect these when I have reached my limit with them.
 
--
 - "Hold space" (2024)
 - Most other uses of "space" in a figurative sense (2024)
 - "Woke" (2023)

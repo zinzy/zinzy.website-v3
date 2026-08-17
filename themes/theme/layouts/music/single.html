@@ -3,41 +3,27 @@
 <div class="">
   <article class="h-entry">
     <header class="mb-5">
-      <h2 class="p-name inline-block">
-        <a href="/music">Music</a>
-        <span class="text-gray-200 dark:text-neutral-700 inline-block mx-2"
-          >/</span
-        >
-        {{ .Params.title }} {{ if .Params.start }}<span
-          class="text-secondary text-sm ml-2"
-        >
-          {{ .Params.start }}</span
-        >
-      </h2>
-      {{ end }}
-
       <div class="u-author h-card hidden">
         <img src="/img/avatar.jpg" class="u-photo" />
         <span class="u-url p-name">Zinzy Waleson Geene</span>
       </div>
     </header>
 
-    <content class="e-content prose dark:prose-invert">
-      {{- partial "content_wikified" . -}}
-    </content>
+    <content class="e-content"> {{- partial "content_wikified" . -}} </content>
+
+    <section>
+      <h3>Top songs</h3>
+      <ul>
+        {{ range .Params.songs }}
+
+        <li>
+          "{{ .title }}" by {{ .artist }} {{ if .count }}({{ .count }} times){{
+          end }}
+        </li>
+        {{ end }}
+      </ul>
+    </section>
   </article>
-
-  <section class="mt-10">
-    <ul>
-      {{ range .Params.songs }}
-
-      <li>
-        "{{ .title }}" by {{ .artist }} {{ if .count }}({{ .count }} times){{
-        end }}
-      </li>
-      {{ end }}
-    </ul>
-  </section>
 
   <footer class="page-footer">
     <ul>

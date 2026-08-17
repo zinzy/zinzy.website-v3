@@ -1,18 +1,12 @@
 {{ define "main" }} {{ partial "back_link.html" .}}
-<article class="h-entry">
-  <header class="prose dark:prose-invert">
-    <h2 class="p-name mb-5">{{ .Params.title }}</h2>
-  </header>
-
-  <div id="about" class="e-content prose dark:prose-invert">{{ .Content }}</div>
-
-  <section class="mt-5 border rounded dark:border-neutral-800">
+<article class="h-entry full">
+  <section class="">
     {{ $skip := slice "index" "Sitemap" "Thanks for your message" "Guestbook"
-    "Garden" "Disclaimer" "Codex" "Library" "Resume" "Work" }} {{ $pages :=
-    where .Site.RegularPages "Section" "page" }} {{ $music := where
+    "Garden" "Disclaimer" "Mentoring" "Codex" "Library" "Resume" "Work" }} {{
+    $pages := where .Site.RegularPages "Section" "page" }} {{ $music := where
     .Site.Sections "Section" "music" }}
 
-    <ul class="sitemap">
+    <ul class="grid">
       {{ range sort (append $pages $music) "Title" }} {{ if not (in $skip
       .Title) }}
       <li class="">

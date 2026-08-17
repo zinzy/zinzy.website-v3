@@ -1,47 +1,25 @@
 {{ define "main" }} {{ partial "back_link.html" .}}
 
 <div class="">
-  <header class="mb-10 md:mb-20 prose dark:prose-invert">
-    <h2 class="mb-5 text-2xl">Photography</h2>
-
-    {{ .Content }}
-  </header>
-
   <section class="">
-    <!-- {{ $postsDefault := where .Site.RegularPages "Type" "posts" }} -->
-
-    <ul class="posts">
-      {{ range (where .Site.RegularPages "Type" "photos") }}
-      <li class="mt-20 border-t pt-20">
-        <content class="">
+    {{ $photos := sort (where .Site.RegularPages "Section" "photos") "Date"
+    "desc" }} {{ $photo := index $photos 0 }} {{ $prevPhoto := index (sort
+    (where $photos "Date" "<" $photo.Date) "Date" "desc") 0 }} {{ with $photo }}
+    <article class="h-entry">
+      <content class="e-content prose dark:prose-invert">
+        <p>
+          {{ .Date | time.Format site.Params.theme_config.date_format_short }}
+        </p>
+        {{ if $prevPhoto }}
+        <a href="{{ $prevPhoto.RelPermalink }}">
           <img src="{{ .Params.photo }}" alt="{{ .Params.alt }}" />
-          <em>
-            {{ .Date | time.Format site.Params.theme_config.date_format_date }}
-          </em>
-          <!-- {{ .Content }} -->
-        </content>
-      </li>
-      {{ end }}
-    </ul>
-
-    <!-- 
-    <ul class="border-b">
-
-
-
-      
-      {{ range $postsDefault }}
-      <li class="border-t py-3">
-        <a class="w-full content-center md:flex" href="{{ .Permalink }}">
-          <span class="grow font-medium">{{ .Title }}</span>
-          <time class=" flex-none text-sm"
-            >{{- (.Date | time.Format
-            site.Params.theme_config.date_format_medium) }}</time
-          >
         </a>
-      </li>
-      {{ end }}
-    </ul> -->
+        {{ else }}
+        <img src="{{ .Params.photo }}" alt="{{ .Params.alt }}" />
+        {{ end }}
+      </content>
+    </article>
+    {{ end }}
   </section>
 </div>
 {{ end }}

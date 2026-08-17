@@ -20,9 +20,9 @@ from datetime import datetime
 import hitherdither
 from PIL import Image
 
-GRAYSCALE_PALETTE = hitherdither.palette.Palette([(20, 20, 20), (100, 100, 100), (180, 180, 180), (245, 245, 245)])
-THRESHOLD = [96, 96, 96]
-THUMBNAIL_SIZE = (250, 250)
+GRAYSCALE_PALETTE = hitherdither.palette.Palette([(0, 0, 0), (90, 90, 90), (180, 180, 180), (245, 245, 245)])
+THRESHOLD = [72, 72, 72]
+THUMBNAIL_SIZE = (600, 600)
 
 
 def dither_image(source_path, output_path):

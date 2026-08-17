@@ -21,7 +21,7 @@ I figured three or four people show up, and I would host it at a park somewhere.
 
 {{< rawhtml >}}
 
-<div style="background: yellow; border: 1px solid black;padding: 20px; margin-top:24px">If you don't see your name up here, <a href="/hello">email me</a> your name, personal website, and HTML Day creation, and I'll add it to the list.</div>
+<div class="callout">If you don't see your name up here, <a href="/hello">email me</a> your name, personal website, and HTML Day creation, and I'll add it to the list.</div>
 {{< /rawhtml >}}
 
 ### My takeaways

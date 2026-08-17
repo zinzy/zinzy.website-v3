@@ -1,146 +1,106 @@
-body {
-  background: #fffbcc;
-  font-family: Times;
+html {
   font-size: 20px;
-  line-height: 150%;
-  padding: 30px;
-  /* -webkit-font-smoothing: antialiased; */
 }
 
-@media screen and (min-width: 768px) {
-  body {
-    max-width: 600px;
-    margin: 0 auto;
-  }
+body {
+  font-size: 1rem;
+  
+  margin: 1.5rem;
 }
 
-.guestbook-entry {
-  margin-bottom: 50px;
+.h-entry {
+  max-width: 40rem;
+  /* min-height: 400px; */
+}
+
+.h-entry.full {
+  max-width: 100%;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  /* font-weight: bold; */
-  font-size: 100%;
-  /* font-family: sans-serif; */
+font-weight: 400;
+font-size: 100%;
 }
 
-ul.posts {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+h3 {
+  margin-top: 50px;
 }
 
-ul.posts li { 
-  margin-top: 100px;
-  padding: 0;
-}
-
-@media screen and (min-width: 768px) {
-  ul.posts li {
-    margin-top: 50px;
-  }
-}
-
-.spaced {
-  margin-bottom: 50px;
+a {
+  color: blue;
 }
 
 .hidden {
   display: none;
 }
 
-.cam-feed {
-  display: flex;
-  width: 100%;
-  gap: 16px; 
-  padding: 0;
-  margin: 0;
-  list-style: none;
+header {
+  margin-bottom: 100px;
 }
+ 
 
-.cam-feed img {
-  flex: 1;
-  max-height: 150px;
-  object-fit: cover; 
-}
-
-.site-header {
-  display: flex;
-  justify-content: space-between;
-}
-
-@media screen and (min-width: 768px) {
-  .site-header {
-    margin: 50px auto;
-  }
-}
-
-.site-header nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-@media screen and (min-width: 768px) {
-  .site-header nav ul li {
-    display: inline-block;
-    margin-left: 20px;
-  }
-}
-
-input[type="text"], textarea {
-  padding: 10px;
-  width: 100%;
-  margin-top: 10px;
-  font-size: 100%;
-  font-family: Times;
-}
-
-textarea {
-  min-height: 150px;
-}
-
-button {
-  background: yellow;
-  padding: 10px 20px;
-  font-size: 100%;
-  font-family: Times;
-  border-radius: 40px;
-}
-
-.intro {
-  margin: 50px 0;
-}
-
-.site-footer {
+section, footer {
   margin-top: 100px;
 }
 
-.site-footer ul {
+/* The Grid Container */
+.grid {
+  list-style: none;
+  padding: 0;
   margin: 0;
-  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+  align-items: stretch;
+}
+
+@media screen and (min-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .grid {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .grid {
+    grid-template-columns: repeat(8, minmax(0, 1fr));
+  }
+}
+
+.grid li {
+  height: 100%;
+}
+
+.grid li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+  border: 1px solid black;
   text-align: center;
-  line-height: 100%;
+  text-decoration: none;
+  position: relative;
+  &:hover {
+    background: LemonChiffon;
+    color: blue;
+  }
 }
 
-.site-footer ul li {
-  line-height: 100%;
-  margin: 0 20px;
-  padding: 0;
-  display: inline-block;
+.tag-count {
+  position:absolute;
+  right: 0;
+  top: 0;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  height: 30px;
+  line-height: 30px;
+  width: 30px;
 }
-
-hr {
-  border: 1px dotted black;
-}
-
-a {
-  /* text-decoration: none; */
-  color: #000;
-  text-decoration: 1px underline dotted;
-  text-underline-offset: 4px;
-}
-
 img, video {
   max-width: 100%;
   height: auto;
@@ -149,21 +109,12 @@ img, video {
   border-radius: 5px;
 }
 
-.now li {
+.callout {
+  padding: 50px 30px;
+  text-align: center;
   border: 1px solid black;
-}
-
-.page-footer {
-  border-top: 1px dotted black;
-  padding-top: 20px;
-  margin-top: 20px;
-}
-
-section {
-  margin-top: 50px;
-}
-
-/* Note: There was a second textarea declaration in your code */
-textarea {
-  width: 100%;
+  margin-bottom: 50px;
+  @media screen and (min-width: 768px)  {
+    padding: 100px 50px;
+  }
 }

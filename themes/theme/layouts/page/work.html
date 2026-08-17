@@ -1,64 +1,10 @@
 {{ define "main" }} {{ partial "back_link.html" .}}
 
 <article class="h-entry">
-  <header class="prose dark:prose-invert">
-    <h2 class="p-name mb-10 md:mb-20">{{ .Params.title }}</h2>
-  </header>
+  <div class="callout">{{ .Params.tagline }}</div>
 
   <div id="about" class="e-content prose mt-20 dark:prose-invert">
     {{ .Content }}
   </div>
-
-  <section class="mt-20">
-    <p class="mb-0 text-sm">What to explore</p>
-
-    <ul class="m-0 mt-5 grid list-none grid-cols-2 gap-4 p-0 lg:grid-cols-3">
-      <li class="m-0 inline-block p-0">
-        <a
-          class="flex cursor-not-allowed rounded border px-2 text-xs no-underline opacity-55"
-        >
-          <span class="mr-2 inline-block content-center leading-9"
-            >{{- partial "symbols/design.html" . -}}</span
-          >
-          <span
-            class="inline-block font-medium leading-9 group-hover:text-pink-500 dark:group-hover:text-pink-300"
-            >Design</span
-          >
-        </a>
-      </li>
-      <li class="group m-0 inline-block p-0">
-        <a
-          href="/mentoring"
-          class="flex rounded border px-2 text-xs no-underline transition-all hover:border-transparent hover:bg-pink-50 dark:hover:border-transparent dark:hover:bg-pink-300/10"
-        >
-          <span
-            class="mr-2 inline-block content-center leading-9 transition-all group-hover:rotate-6"
-            >{{- partial "symbols/mentoring.html" . -}}</span
-          >
-          <span
-            class="inline-block font-medium leading-9 group-hover:text-pink-500 dark:group-hover:text-pink-300"
-            >Mentoring</span
-          >
-        </a>
-      </li>
-      <li class="group m-0 inline-block p-0">
-        <a
-          href="/community"
-          class="flex rounded border px-2 text-xs no-underline transition-all hover:border-transparent hover:bg-pink-50 dark:hover:border-transparent dark:hover:bg-pink-300/10"
-        >
-          <span
-            class="mr-2 inline-block content-center leading-9 transition-all group-hover:rotate-6"
-            >{{- partial "symbols/community.html" . -}}</span
-          >
-          <span
-            class="inline-block font-medium leading-9 group-hover:text-pink-500 dark:group-hover:text-pink-300"
-            >Community</span
-          >
-        </a>
-      </li>
-    </ul>
-  </section>
-
-  {{ partial "backlinks.html" . }}
 </article>
 {{ end }}

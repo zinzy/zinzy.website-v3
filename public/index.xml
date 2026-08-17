@@ -8,11 +8,340 @@
     <description>Zinzy&#39;s website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 27 Jun 2026 09:00:32 +0200</lastBuildDate>
+    <lastBuildDate>Sun, 09 Aug 2026 16:31:21 +0200</lastBuildDate>
     <atom:link href="https://zinzy.website/index.xml" rel="self" type="application/rss+xml" />
 
 
     
+
+    <item>
+            <title>
+              
+                That was HTML Day 2026, Amsterdam edition
+              
+            </title>
+            <link>https://zinzy.website/2026/08/08/that-was-html-day-2026-amsterdam-edition/</link>
+            <guid isPermaLink="true">https://zinzy.website/2026/08/08/that-was-html-day-2026-amsterdam-edition/</guid>
+            <pubDate>Sat, 08 Aug 2026 19:08:30 -0800</pubDate>
+
+            <description>
+<![CDATA[<p>Yesterday, at the headquarters of 
+
+
+
+
+
+
+  
+  
+  
+
+<a href="https://www.internetarchive.eu/" target="_blank" rel="noopener" class=" after:content-[' ↗'] ">Internet Archive Europe</a>, I hosted the 
+
+
+
+
+
+
+  
+  
+  
+
+
+  <a href="/2026/06/27/html-day-2026-amsterdam-edition/" class="">second Amsterdam edition of HTML Day</a>! The 
+
+
+
+
+
+
+  
+  
+  
+
+<a href="https://bobs-club.net/html-day-2025-08-02/index.html" target="_blank" rel="noopener" class=" after:content-[' ↗'] ">first edition</a> was hosted last year by 
+
+
+
+
+
+
+  
+  
+  
+
+<a href="https://braxtonhall.ca/" target="_blank" rel="noopener" class=" after:content-[' ↗'] ">Braxton Hall</a>, who I was pleased joined us yesterday for HTML fun.</p>
+<p>I figured three or four people show up, and I would host it at a park somewhere. Instead, 
+
+
+
+
+
+
+  
+  
+  
+
+<a href="https://holly.garden/" target="_blank" rel="noopener" class=" after:content-[' ↗'] ">Holly Zijderveld</a> reached out to suggest we use the IAE venue right in the centre of Amsterdam. It was a very sunny day, and still 13 people gathered to work on HTML pages, talk about independent web publishing, and everything else that came floating by.</p>
+<h3 id="the-participants">The participants</h3>
+<ul>
+<li>
+
+
+
+
+
+
+  
+  
+  
+
+<a href="https://www.adiron.me/" target="_blank" rel="noopener" class=" after:content-[' ↗'] ">Adi Ron</a> made 
+
+
+
+
+
+
+  
+  
+  
+
+<a href="https://bookshelf-nine-orpin.vercel.app/" target="_blank" rel="noopener" class=" after:content-[' ↗'] ">a page about books</a></li>
+<li>
+
+
+
+
+
+
+  
+  
+  
+
+<a href="https://sanaas.world/" target="_blank" rel="noopener" class=" after:content-[' ↗'] ">Sanaa Asim</a> dedicated 
+
+
+
+
+
+
+  
+  
+  
+
+<a href="https://bucolic-marshmallow-8884b6.netlify.app/" target="_blank" rel="noopener" class=" after:content-[' ↗'] ">a page to popups with nostalgia-inducing images</a></li>
+<li>Christos made 
+
+
+
+
+
+
+  
+  
+  
+
+<a href="https://heroic-lily-1937d5.netlify.app/" target="_blank" rel="noopener" class=" after:content-[' ↗'] ">a portfolio with a light switch</a></li>
+<li>
+
+
+
+
+
+
+  
+  
+  
+
+<a href="https://rose.systems/" target="_blank" rel="noopener" class=" after:content-[' ↗'] ">Vivian</a> made 
+
+
+
+
+
+
+  
+  
+  
+
+<a href="https://rose.systems/energy2026.html" target="_blank" rel="noopener" class=" after:content-[' ↗'] ">a page that was a brochure</a></li>
+<li>
+
+
+
+
+
+
+  
+  
+  
+
+<a href="https://holly.garden/" target="_blank" rel="noopener" class=" after:content-[' ↗'] ">Holly Zijderveldt</a> made 
+
+
+
+
+
+
+  
+  
+  
+
+<a href="https://cyberiaradio.neocities.org/" target="_blank" rel="noopener" class=" after:content-[' ↗'] ">an intentionally poorly readable page about a playlist</a></li>
+<li>
+
+
+
+
+
+
+  
+  
+  
+
+<a href="https://elliott.computer/" target="_blank" rel="noopener" class=" after:content-[' ↗'] ">Elliott Cost</a> made 
+
+
+
+
+
+
+  
+  
+  
+
+<a href="https://sites.elliott.computer/html-day-august-8-2026/" target="_blank" rel="noopener" class=" after:content-[' ↗'] ">a page that was a window</a></li>
+</ul>
+
+
+
+<div style="background: yellow; border: 1px solid black;padding: 20px; margin-top:24px">If you don't see your name up here, <a href="/hello">email me</a> your name, personal website, and HTML Day creation, and I'll add it to the list.</div>
+
+<h3 id="my-takeaways">My takeaways</h3>
+<ul>
+<li>It is refreshing to write vanilla HTML. I came to HTML Day thinking about my uncle Peter. When I first began making websites age 11, I one day asked him a question about building software. He said to me: 
+
+
+
+
+
+
+  
+  
+  
+
+<a href="https://sites.elliott.computer/html-day-august-8-2026/" target="_blank" rel="noopener" class=" after:content-[' ↗'] ">&ldquo;you don&rsquo;t <em>build</em> software, you <em>write</em> it.&rdquo;</a> I wanted to honour that by writing vanilla HTML without autocompletion, on my iPad. It was mildly embarrassing, cumbersome, and ultimately very good for my nervous system.</li>
+<li>I thoroughly enjoyed talking Indieweb shop with fellow enthusiasts!</li>
+<li>I explicitly told my coworkers not to show up thinking their technical understanding would overwhelm HTML newbies. It turned out, every person at the table was an IT professional. Sorry Panos!</li>
+<li>I loved how diverse the group of attendees was; in ethnicity, gender and sexual identity, and style of website making.</li>
+</ul>
+
+<hr/>
+<p>Thank you for reading through RSS. My diary-keeping will always be public and free, though you're welcome to <a href="https://ko-fi.com/zinzy">support</a> it.</p>
+<ul>
+<li><a href="https://zinzy.website/hello">Email me</a></li>
+<li><a href="https://zinzy.website/now">Where I am now</a></li>
+<li><a href="https://zinzy.website/blogroll">Who I'm reading</a></li>
+</ul>
+
+]]>
+
+            </description>
+            <author>Zinzy Waleson Geene</author>
+        </item>
+
+    <item>
+            <title>
+              
+                How I cosplay, African edition
+              
+            </title>
+            <link>https://zinzy.website/2026/07/01/how-i-cosplay-african-edition/</link>
+            <guid isPermaLink="true">https://zinzy.website/2026/07/01/how-i-cosplay-african-edition/</guid>
+            <pubDate>Wed, 01 Jul 2026 07:08:30 -0100</pubDate>
+
+            <description>
+<![CDATA[<p>Today is Emancipation Day in the Netherlands, a day on which we commemorate the abolishment of slavery in our &ldquo;former&rdquo; colonies. There is a march, a ceremony by the national monument, and a festival known for its danceable music, long lines for great food, and lovely market. I&rsquo;ve taken the day off, and will be going to Museumplein with a friend to celebrate, and to hopefully score a new wooden afro pick.</p>
+<p>I don&rsquo;t always participate in the Indieweb Carnival, but was delighted to meander to its 
+
+
+
+
+
+
+  
+  
+  
+
+<a href="https://indieweb.org/IndieWeb_Carnival" target="_blank" rel="noopener" class=" after:content-[' ↗'] ">wiki page</a> and see that this month&rsquo;s theme is <em>
+
+
+
+
+
+
+  
+  
+  
+
+<a href="https://artlung.com/identity-cosplay-ic/" target="_blank" rel="noopener" class=" after:content-[' ↗'] ">Masks, Identities &amp; Cosplay</a></em>.</p>
+<p>This whole essay would&rsquo;ve been tied together irreproachably if I now introduced my opinions on the book 
+
+
+
+
+
+
+  
+  
+  
+
+<a href="https://www.goodreads.com/book/show/274392.Black_Skin_White_Masks" target="_blank" rel="noopener" class=" after:content-[' ↗'] "><em>White Masks, Black Skin</em> by Frantz Fanon</a>, a book which I&rsquo;m sure describes in detail my most senior costume. But I shouldn&rsquo;t be talking about the book in a way that indicates I know of its contents, because I haven&rsquo;t read it yet.</p>
+<p>I haven&rsquo;t read much Fanon.</p>
+<p>I haven&rsquo;t read much Césaire.</p>
+<p>I haven&rsquo;t read much Said.</p>
+<p>I haven&rsquo;t read much De Kom.</p>
+<p>I haven&rsquo;t read much Baldwin.</p>
+<p>I haven&rsquo;t read much Vianen.</p>
+<p>I haven&rsquo;t read much Morrison.</p>
+<p>I haven&rsquo;t read much Gyasi.</p>
+<p>I haven&rsquo;t read much Trefossa.</p>
+<p>I haven&rsquo;t read much Butler.</p>
+<p>I can list all of these names because they have been in my library since the day I moved in with Anja ten years ago. I am in love with the wokest white person I know. But I have yet to read more than ten pages in any of her books on anticolonialism, antiracism, and intergenerational trauma in the African diaspora. Reading Black literature, philosophy, poetry is hard.</p>
+<p>Really, really hard.</p>
+<p>It requires that I come up out of the deep water, take off my mask, and breathe freely.</p>
+<p>Breathe freely and remember that I&rsquo;m not the only person in the world who experiences racism. That I&rsquo;m not alone as someone who was raised without their parent of colour, who struggles to be authentic in a world that signals that who they are isn&rsquo;t quite up to standard. Someone who prefers to forget that they have &ldquo;an identity&rdquo; at all.</p>
+<p>I can do it, but not for much longer than an hour. The discomfort is immense.</p>
+<p>I was raised in a part of the world and in a time of the world where &ldquo;Don&rsquo;t be crazy, I don&rsquo;t even <em>see</em> your skin colour&rdquo; was a God-honest compliment. We know better now. We know that racism is baked into the unwritten rules of our societies, in the fabric of our ecosystems. 
+
+
+
+
+
+
+  
+  
+  
+
+<a href="https://www.penguin.co.uk/discover/articles/ibram-x-kendi-definition-of-antiracist" target="_blank" rel="noopener" class=" after:content-[' ↗'] ">We&rsquo;re racist until we&rsquo;re antiracist.</a></p>
+<p>I was raised, taught, healthcare-provided by people who didn&rsquo;t see my skin colour, because if they did see it, the only possible response was a negative one. And now, miles and years removed from the setting of my childhood, I&rsquo;m surrounded by friendly, empathic and very intelligent White people who <em>can</em> meet my otherness with gentle curiosity. People who, unaware of the pervasiveness of microaggressions and racial trauma, stop empathising when they learn that their innocuous small talk can be painful, and that the road to hell is paved with good intentions.</p>
+<p>My colour-blindness training wheels were screwed on at birth, and come in handy every day. I can&rsquo;t bare to remember that I can only show up as my full self, African <em>culture</em> and African <em>trauma</em> hand-in-hand. The reality of it is uncomfortable, jarring, painful. Finding ways to be authentically me in a world that has — truly — screamed at me about the horrors of Blackness is the hardest thing I will ever do.</p>
+<p>Cosplay suit for sale — worn out.</p>
+
+<hr/>
+<p>Thank you for reading through RSS. My diary-keeping will always be public and free, though you're welcome to <a href="https://ko-fi.com/zinzy">support</a> it.</p>
+<ul>
+<li><a href="https://zinzy.website/hello">Email me</a></li>
+<li><a href="https://zinzy.website/now">Where I am now</a></li>
+<li><a href="https://zinzy.website/blogroll">Who I'm reading</a></li>
+</ul>
+
+]]>
+
+            </description>
+            <author>Zinzy Waleson Geene</author>
+        </item>
 
     <item>
             <title>
@@ -38,17 +367,26 @@
 
 <a href="https://html.energy/" target="_blank" rel="noopener" class=" after:content-[' ↗'] ">HTML energy</a> is all around us. Let&rsquo;s celebrate it! Beginners are very, very welcome.</p>
 <h3 id="details">Details</h3>
-<p>==August 8, 2026==</p>
 <ul>
-<li>Date: ==August 8, 2026==</li>
+<li>Date: August 8, 2026</li>
 <li>Time: 14:00</li>
-<li>Location: somewhere in Central Amsterdam</li>
+<li>Location: 
+
+
+
+
+
+
+  
+  
+  
+
+<a href="https://maps.app.goo.gl/oHq7NHTicBsWav2K7" target="_blank" rel="noopener" class=" after:content-[' ↗'] ">Internet Archive Europe on Oudeschans 16, Amsterdam</a></li>
 </ul>
 <h3 id="what-to-bring">What to bring</h3>
 <ul>
-<li>Something to write HTML on (a laptop, tablet, or smartphone)</li>
-<li>(Depending on location) A snack and drink for yourself</li>
-<li>(Depending on location) A picnic blanket</li>
+<li>Something to write HTML on (a laptop, tablet, smartphone or paper)</li>
+<li>A snack and drink for yourself</li>
 </ul>
 <h3 id="what-well-do">What we&rsquo;ll do</h3>
 <ul>
@@ -56,6 +394,19 @@
 <li>Write HTML</li>
 <li>Share what we&rsquo;ve made</li>
 </ul>
+<h3 id="how-to-join">How to join</h3>
+<p>
+
+
+
+
+
+
+  
+  
+  
+
+<a href="https://luma.com/1asbgrh6" target="_blank" rel="noopener" class=" after:content-[' ↗'] ">Sign up on Luma!</a></p>
 
 <hr/>
 <p>Thank you for reading through RSS. My diary-keeping will always be public and free, though you're welcome to <a href="https://ko-fi.com/zinzy">support</a> it.</p>
@@ -3802,7 +4153,20 @@ There is a disgruntled woman who is 37 weeks pregnant, homeless, and a &ldquo;ta
             <pubDate>Fri, 02 Feb 2024 00:00:00 -0200</pubDate>
 
             <description>
-<![CDATA[<p>Inspired by 
+<![CDATA[<p><em>Things change, so does my opinion. It turns out I like the idea of a static 
+
+
+
+
+
+
+  
+  
+  
+
+
+  <a href="/uses" class="">/uses</a> page better.</em></p>
+<p>Inspired by 
 
 
 
