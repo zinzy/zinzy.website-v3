@@ -20,15 +20,18 @@ from datetime import datetime
 import hitherdither
 from PIL import Image
 
-GRAYSCALE_PALETTE = hitherdither.palette.Palette([(0, 0, 0), (90, 90, 90), (180, 180, 180), (245, 245, 245)])
+BLACK_AND_WHITE_PALETTE = hitherdither.palette.Palette([(0, 0, 0), (255, 255, 255)])
 THRESHOLD = [72, 72, 72]
 THUMBNAIL_SIZE = (1200, 1200)
+DISPLAY_WIDTH = 1000
 
 
 def dither_image(source_path, output_path):
     img = Image.open(source_path).convert("RGB")
     img.thumbnail(THUMBNAIL_SIZE, Image.LANCZOS)
-    dithered = hitherdither.ordered.bayer.bayer_dithering(img, GRAYSCALE_PALETTE, THRESHOLD, order=8)
+    dithered = hitherdither.ordered.bayer.bayer_dithering(img, BLACK_AND_WHITE_PALETTE, THRESHOLD, order=8)
+    display_height = round(dithered.height * DISPLAY_WIDTH / dithered.width)
+    dithered = dithered.resize((DISPLAY_WIDTH, display_height), Image.Resampling.NEAREST)
     dithered.save(output_path, optimize=True)
 
 
