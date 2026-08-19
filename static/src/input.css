@@ -160,3 +160,9 @@ hr {
 .guestbook-entry {
   margin-bottom: 50px;
 }
+
+.notes {
+  article {
+    margin-bottom: 100px;
+  }
+}

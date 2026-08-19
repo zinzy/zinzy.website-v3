@@ -1,0 +1,19 @@
+{{ define "main" }} {{ partial "back_link.html" .}}
+
+<div class="">
+  <section class="notes">
+    {{ $notes := sort (where .Site.RegularPages "Section" "notes") "Date" "desc"
+    }} {{ range $notes }}
+    <article class="h-entry">
+      <content class="e-content prose dark:prose-invert">
+        <p>
+          {{ .Date | time.Format site.Params.theme_config.date_format_date_time
+          }}
+        </p>
+        {{ .Content}}
+      </content>
+    </article>
+    {{ end }}
+  </section>
+</div>
+{{ end }}
