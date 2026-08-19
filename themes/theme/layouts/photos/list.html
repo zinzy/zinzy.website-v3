@@ -1,25 +1,14 @@
-{{ define "main" }} {{ partial "back_link.html" .}}
-
-<div class="">
-  <section class="">
-    {{ $photos := sort (where .Site.RegularPages "Section" "photos") "Date"
-    "desc" }} {{ $photo := index $photos 0 }} {{ $prevPhoto := index (sort
-    (where $photos "Date" "<" $photo.Date) "Date" "desc") 0 }} {{ with $photo }}
-    <article class="h-entry">
-      <content class="e-content prose dark:prose-invert">
-        <p>
-          {{ .Date | time.Format site.Params.theme_config.date_format_short }}
-        </p>
-        {{ if $prevPhoto }}
-        <a href="{{ $prevPhoto.RelPermalink }}">
-          <img src="{{ .Params.photo }}" alt="{{ .Params.alt }}" />
-        </a>
-        {{ else }}
-        <img src="{{ .Params.photo }}" alt="{{ .Params.alt }}" />
-        {{ end }}
-      </content>
-    </article>
+{{ define "main" }} {{ partial "back_link.html" .}} {{ $photos := sort (where
+.Site.RegularPages "Section" "photos") "Date" "desc" }}
+<section class="photo-gallery">
+  <ul class="photo-grid">
+    {{ range $photos }}
+    <li>
+      <a href="{{ .RelPermalink }}">
+        <img src="{{ .Params.photo }}" alt="{{ .Params.alt }}" loading="lazy" />
+      </a>
+    </li>
     {{ end }}
-  </section>
-</div>
+  </ul>
+</section>
 {{ end }}

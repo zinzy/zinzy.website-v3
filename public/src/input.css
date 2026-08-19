@@ -22,9 +22,20 @@ font-weight: 400;
 font-size: 100%;
 }
 
-h3 {
-  margin-top: 50px;
+h3:before, h4:before, h5:before, h6:before {
+  color: gray;
+  font: monospace;
+  background: #e5e3e4;
+  display: inline-block;
+  padding: 0 5px;
+  margin-right: 10px;
+  border-radius: 3px;
 }
+
+h3:before { content: "###"; }
+h4:before { content: "####"; }
+h5:before { content: "#####"; }
+h6:before { content: "######"; }
 
 a {
   color: blue;
@@ -91,6 +102,88 @@ section, footer {
   }
 }
 
+.photo-gallery {
+}
+
+.photo-grid {
+  list-style: none;
+  padding: 0 1rem;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.photo-grid li {
+  min-width: 0;
+}
+
+.photo-grid a,
+.photo-grid img {
+  display: block;
+  width: 100%;
+}
+
+.photo-grid a {
+  aspect-ratio: 1;
+  overflow: hidden;
+}
+
+.photo-grid img {
+  height: 100%;
+  object-fit: cover;
+}
+
+@media screen and (min-width: 600px) {
+  .photo-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .photo-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .photo-grid {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+}
+
+.latest-photos-grid {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.25rem;
+}
+
+.latest-photos-grid li,
+.latest-photos-grid a,
+.latest-photos-grid img {
+  display: block;
+  width: 100%;
+}
+
+.latest-photos-grid a {
+  aspect-ratio: 1;
+  border: 0;
+}
+
+.latest-photos-grid img {
+  height: 100%;
+  object-fit: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .latest-photos-grid {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+}
+
 .tag-count {
   position:absolute;
   right: 0;
@@ -116,5 +209,42 @@ img, video {
   margin-bottom: 50px;
   @media screen and (min-width: 768px)  {
     padding: 100px 50px;
+  }
+}
+
+.callout.mini {
+  padding: 30px;
+}
+
+.summarised-posts {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  li {
+  margin-bottom: 30px;
+  }
+}
+
+.pagination {
+  margin-top: 100px;
+}
+
+hr {
+  border: 1px solid black;
+  margin: 100px 0;
+}
+
+.posts {
+  margin: 0;
+  padding: 0;
+}
+
+.guestbook-entry {
+  margin-bottom: 50px;
+}
+
+.notes {
+  article {
+    margin-bottom: 100px;
   }
 }

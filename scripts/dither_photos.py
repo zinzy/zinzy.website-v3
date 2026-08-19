@@ -22,7 +22,7 @@ from PIL import Image
 
 GRAYSCALE_PALETTE = hitherdither.palette.Palette([(0, 0, 0), (90, 90, 90), (180, 180, 180), (245, 245, 245)])
 THRESHOLD = [72, 72, 72]
-THUMBNAIL_SIZE = (600, 600)
+THUMBNAIL_SIZE = (1200, 1200)
 
 
 def dither_image(source_path, output_path):
