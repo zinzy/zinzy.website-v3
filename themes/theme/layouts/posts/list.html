@@ -6,7 +6,7 @@
     {{ range (where .Site.RegularPages "Type" "in" (slice "posts")).GroupByDate
     "2006" }}
 
-    <ul class="">
+    <ul class="posts">
       <li class="mt-10">
         <div>{{ .Key }}</div>
         <ul class="border">

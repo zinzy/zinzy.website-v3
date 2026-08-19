@@ -1,6 +1,6 @@
 {{ define "main" }} {{ $posts := (where .Site.RegularPages "Type" "posts") }} {{
 $sortedPosts := sort $posts "Date" "desc"}} {{ $paginatePosts := .Paginate
-$sortedPosts 5 }}
+$sortedPosts 15 }}
 
 <article class="h-entry">
   <div class="intro">

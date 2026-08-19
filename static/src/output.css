@@ -141,6 +141,10 @@ img, video {
   }
 }
 
+.callout.mini {
+  padding: 30px;
+}
+
 .summarised-posts {
   list-style-type: none;
   padding: 0;
@@ -157,4 +161,9 @@ img, video {
 hr {
   border: 1px solid black;
   margin: 100px 0;
+}
+
+.posts {
+  margin: 0;
+  padding: 0;
 }
