@@ -1,10 +1,7 @@
 {{ define "main" }} {{ partial "back_link.html" .}}
 
 <article class="h-entry prose mb-14 dark:prose-invert">
-  <header class="">
-    <h2 class="p-name md:mb-20 text-2xl">{{ .Title }}</h2>
-    {{ .Content }}
-  </header>
+  <header class="">{{ .Content }}</header>
 
   <section class="my-20">
     <form
@@ -28,7 +25,14 @@
           <div class="mb-1">Name</div>
           <input
             required
-            class="p-2 rounded block w-full dark:bg-neutral-700"
+            style="
+              display: block;
+              width: 100%;
+              padding: 10px;
+              margin-top: 20px;
+              font-size: 1rem;
+              font-family: Times, serif;
+            "
             placeholder="Kimmy Schmidt"
             type="text"
             name="name"
@@ -39,7 +43,14 @@
         <label>
           <div class="mb-1">Website</div>
           <input
-            class="p-2 rounded block w-full dark:bg-neutral-700"
+            style="
+              display: block;
+              width: 100%;
+              padding: 10px;
+              margin-top: 20px;
+              font-size: 1rem;
+              font-family: Times, serif;
+            "
             placeholder="https://unbreakab.le"
             type="text"
             name="website"
@@ -49,7 +60,7 @@
         <label>
           <div class="mb-1">
             <div>Message</div>
-            <div class="text-sm mb-5">
+            <div style="margin-top: 20px">
               <em
                 >Write whatever you want; please remember to be kind. If you
                 plan to write a long entry, write your own post and
@@ -63,7 +74,15 @@
             id="message"
             name="message"
             placeholder="Hey Zinzy, I just wanted to say..."
-            class="p-2 rounded block w-full h-56 dark:bg-neutral-700"
+            style="
+              display: block;
+              width: 100%;
+              min-height: 150px;
+              padding: 10px;
+              margin-top: 20px;
+              font-size: 1rem;
+              font-family: Times, serif;
+            "
           ></textarea>
         </label>
       </p>
