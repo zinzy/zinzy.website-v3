@@ -4,13 +4,14 @@
   <article class="h-entry">
     <content class="e-content prose dark:prose-invert">
       {{ $photos := sort (where .Site.RegularPages "Section" "photos") "Date"
-      "desc" }} {{ $olderPhotos := sort (where $photos "Date" "<" .Date) "Date"
-      "desc" }} {{ $prevPhoto := index $olderPhotos 0 }} {{ if $prevPhoto }}
+      "desc" }} {{ $photo := index .Params.photo 0 }} {{ $olderPhotos := sort
+      (where $photos "Date" "<" .Date) "Date" "desc" }} {{ $prevPhoto := index
+      $olderPhotos 0 }} {{ if $prevPhoto }}
       <a href="{{ $prevPhoto.RelPermalink }}" class="text-secondary">
-        <img src="{{ .Params.photo }}" alt="{{ .Params.alt }}" />
+        <img src="{{ $photo.url }}" alt="{{ $photo.alt }}" />
       </a>
       {{ else }}
-      <img src="{{ .Params.photo }}" alt="{{ .Params.alt }}" />
+      <img src="{{ $photo.url }}" alt="{{ $photo.alt }}" />
       {{ end }}
 
       <div class="mt-5">

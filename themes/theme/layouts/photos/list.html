@@ -2,10 +2,10 @@
 .Site.RegularPages "Section" "photos") "Date" "desc" }}
 <section class="photo-gallery">
   <ul class="photo-grid">
-    {{ range $photos }}
+    {{ range $photos }} {{ $photo := index .Params.photo 0 }}
     <li>
       <a href="{{ .RelPermalink }}">
-        <img src="{{ .Params.photo }}" alt="{{ .Params.alt }}" loading="lazy" />
+        <img src="{{ $photo.url }}" alt="{{ $photo.alt }}" loading="lazy" />
       </a>
     </li>
     {{ end }}

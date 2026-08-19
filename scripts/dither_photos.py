@@ -46,7 +46,7 @@ def most_recent_photos(content_dir, limit):
                 line = line.strip()
                 if line.startswith("date:"):
                     date = datetime.fromisoformat(line.split(":", 1)[1].strip())
-                elif line.startswith("photo:"):
+                elif line.startswith("- url:"):
                     photo = line.split(":", 1)[1].strip().strip("\"'")
         if date and photo:
             entries.append((date, os.path.basename(photo)))

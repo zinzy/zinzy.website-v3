@@ -1,7 +1,8 @@
 {{ if not .IsHome }} {{ $crumbTitle := .Title }} {{ if eq .Section "photos" }}
-{{ $crumbTitle = .Date | time.Format site.Params.theme_config.date_format_date
-}} {{ end }} {{ $showParent := and .Parent (ne .Parent.RelPermalink "/") (ne
-.Parent.Title "Pages") }}
+{{ if .IsPage }} {{ $crumbTitle = .Date | time.Format
+site.Params.theme_config.date_format_date }} {{ else }} {{ $crumbTitle =
+"Photos" }} {{ end }} {{ end }} {{ $showParent := and .Parent (ne
+.Parent.RelPermalink "/") (ne .Parent.Title "Pages") }}
 <header>
   <nav class="breadcrumbs" aria-label="Breadcrumb">
     <a href="/">Zinzy's website</a>
