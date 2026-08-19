@@ -248,3 +248,4 @@ If I'm honest, what I love most about personal websites are the unassuming, refl
 - [Gossip's Web](https://gossipsweb.net)
 - [Tech Policy Press](https://techpolicy.press)
 - [Natural Hair Club](https://thenaturalhairclub.nl)
+- [Wing Pang](https://wingpang.com/)

@@ -156,3 +156,7 @@ hr {
   margin: 0;
   padding: 0;
 }
+
+.guestbook-entry {
+  margin-bottom: 50px;
+}
