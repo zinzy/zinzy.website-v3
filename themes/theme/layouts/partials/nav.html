@@ -1,31 +1,31 @@
 <nav role="navigation" aria-label="Main">
-  <ul class="flex place-content-center gap-y-5">
-    <li class="mx-3 grid text-center" aria-label="Home">
+  <ul>
+    <li aria-label="Home">
       <a
         href="/"
-        class="group grid h-10 w-10 content-center justify-center rounded-full hover:bg-zinc-50 dark:hover:bg-zinc-300/10"
+       
       >
-        <span class="transition-all group-hover:rotate-6"
+        <span
           >{{- partial "symbols/home.html" . -}}</span
         ></a
       >
     </li>
-    <li class="mx-3" aria-label="About">
+    <li aria-label="About">
       <a
         href="/about"
-        class="group grid h-10 w-10 content-center justify-center rounded-full hover:bg-zinc-50 dark:hover:bg-zinc-300/10"
+       
       >
-        <span class="transition-all group-hover:rotate-6">
+        <span>
           {{- partial "symbols/about.html" . -}}
         </span>
       </a>
     </li>
-    <li class="mx-3" aria-label="Sitemap">
+    <li aria-label="Sitemap">
       <a
         href="/sitemap"
-        class="group grid h-10 w-10 content-center justify-center rounded-full hover:bg-zinc-50 dark:hover:bg-zinc-300/10"
+       
       >
-        <span class="transition-all group-hover:rotate-6">
+        <span>
           {{- partial "symbols/site.html" . -}}
         </span>
       </a>

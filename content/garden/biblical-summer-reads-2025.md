@@ -3,6 +3,7 @@ title: Biblical Summer reads 2025
 description: ""
 share: true
 slug: ajp
+callout: I wrote this page for a friend
 ---
 
 Hey firecracker! Below are three themes to accompany you during your time in France, or, in the words of our [lord and saviour Shakira, whenever wherever](https://www.youtube.com/watch?v=weRHyjj34ZE).

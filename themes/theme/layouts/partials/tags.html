@@ -1,11 +1,11 @@
 {{ $taxonomy := "tags" }} {{ with .Param $taxonomy }} {{ $sortedTags := sort .
 }}
 
-<ul class="grid">
+<ul>
   {{ range $index, $tag := $sortedTags }} {{ with $.Site.GetPage (printf
   "/%s/%s" $taxonomy (urlize $tag)) }}
-  <li class="">
-    <a href="{{ .Permalink }}" class="">{{ $tag }}</a>
+  <li>
+    <a href="{{ .Permalink }}">{{ $tag }}</a>
   </li>
   {{ end }} {{ end }}
 </ul>

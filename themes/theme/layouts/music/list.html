@@ -1,25 +1,25 @@
 {{ define "main" }} {{ partial "back_link.html" .}}
 
 <article class="h-entry">
-  <header class="mb-10 md:mb-20 prose dark:prose-invert">{{ .Content }}</header>
+  <header>{{ .Content }}</header>
 
-  <section class="mt-10">
+  <section>
     {{ $mixtapes := where .Site.RegularPages "Type" "music" }}
     <ul
-      class="border rounded dark:border-neutral-800 divide-y divide-gray-200 dark:divide-neutral-800"
+     
     >
       {{ range sort $mixtapes ".Params.start" "desc" }}
-      <li class="">
+      <li>
         {{ if .Content }}
         <a
-          class="block p-3 hover:bg-gray-50 dark:hover:bg-neutral-800 transition-all"
+         
           href="{{ .Permalink }}"
         >
-          <span class="font-medium">{{ .Title }}</span>
+          <span>{{ .Title }}</span>
         </a>
         {{ else }}
-        <div class="block p-3">
-          <span class="font-medium">{{ .Title }}</span>
+        <div>
+          <span>{{ .Title }}</span>
         </div>
         {{ end }}
       </li>

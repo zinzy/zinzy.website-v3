@@ -4,11 +4,12 @@ html {
 
 body {
   font-size: 1rem;
+  line-height: 1.3rem;
   margin: 1.5rem;
 }
 
 .h-entry {
-  max-width: 40rem;
+  max-width: 35rem;
   /* min-height: 400px; */
 }
 
@@ -26,7 +27,7 @@ h3:before, h4:before, h5:before, h6:before {
   font-family: monospace;
   font-size: 70%;
   text-transform: uppercase;
-  background: #e3e3e3;
+  background: rgb(255, 242, 204);
   display: inline-block;
   padding: 5px;
   margin-right: 10px;
@@ -51,6 +52,43 @@ h6:before {
 
 a {
   color: blue;
+  &[target=_blank]{
+    &:after {
+      content: "↗";
+      font-size: 50%;
+      font-weight: bold;
+      vertical-align: super;
+    }
+  }
+}
+
+pre {
+  background-color: #000;
+  /* Deep, modern dark theme background */
+  color: #ccc;
+  /* Soft light text for readability */
+  font-family: 'Fira Code', Consolas, Monaco, 'Andale Mono', monospace;
+  font-size: 0.8rem;
+  line-height: 1.5;
+  padding: 1.25rem;
+  border-radius: 8px;
+  /* Smooth rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+  /* Subtle depth */
+  overflow-x: auto;
+  /* Clean horizontal scrolling for long lines */
+  margin: 1.5rem 0;
+}
+
+/* Styling for inline code snippets as a bonus */
+
+:not(pre) > code {
+  background-color: rgba(175, 184, 193, 0.2);
+  color: #e06c75;
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  font-size: 0.85em;
+  font-family: monospace;
 }
 
 .hidden {
@@ -245,7 +283,11 @@ img, video {
 }
 
 hr {
-  border: 1px solid black;
+  height: 1px;
+  color: #000;
+  background: #000;
+  font-size: 0;
+  border: 0;
   margin: 100px 0;
 }
 
@@ -261,5 +303,17 @@ hr {
 .notes {
   article {
     margin-bottom: 100px;
+  }
+}
+
+#footnotes {
+  margin-top: 100px;
+  font-size: 80%;
+}
+
+.footnotes {
+  font-size: 80%;
+  hr {
+    margin: 20px 0;
   }
 }

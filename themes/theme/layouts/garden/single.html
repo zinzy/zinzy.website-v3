@@ -1,34 +1,18 @@
 {{ define "main" }} {{ partial "back_link.html" .}}
 
-<div class="">
+<div>
   <article class="h-entry">
-    <header class="mb-5">
-      <h2 class="p-name inline-block">{{ .Params.title }}</h2>
-
-      <div class="u-author h-card hidden">
-        <img src="/img/avatar.jpg" class="u-photo" />
-        <span class="u-url p-name">Zinzy Waleson Geene</span>
-      </div>
-    </header>
-
-    <content class="e-content prose dark:prose-invert">
-      {{- partial "content_wikified" . -}}
-    </content>
+    {{ if .Params.callout }}
+    <div class="callout mini">{{ .Params.callout }}</div>
+    {{ end }}
+    <content class="e-content"> {{- partial "content_wikified" . -}} </content>
   </article>
 
   <footer class="page-footer">
     <ul>
-      <li>
-        This was published on
-        <a class="u-url text-secondary block" href="{{ .Permalink }}">
-          <time class="dt-published" datetime="{{ .Date }}">
-            {{ .Date | time.Format site.Params.theme_config.date_format_medium
-            }}
-          </time>
-        </a>
-      </li>
-      <li><a href="/hello" class="underline">Say hello</a></li>
-      <li>Follow via <a href="/index.xml" class="underline">RSS</a></li>
+      <li>This page is part of my <a href="/garden">garden</a></li>
+      <li><a href="/hello">Say hello</a></li>
+      <li>Follow via <a href="/index.xml">RSS</a></li>
     </ul>
   </footer>
 </div>

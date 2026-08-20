@@ -9,7 +9,7 @@ $sortedPosts 15 }}
 
 <section>
   <h2>Latest posts <a href="/posts">(all)</h2>
-  <ul class="">
+  <ul>
     {{ range $paginatePosts.Pages }}
     <li>
       <a href="{{ .RelPermalink }}">
@@ -32,12 +32,12 @@ $sortedPosts 15 }}
     <p>
       <time datetime="{{ .Date }}">{{ .Date | time.Format site.Params.theme_config.date_format_date_time }}</time>
     </p>
-    <content class="e-content prose dark:prose-invert">{{ .Content }}</content>
+    <content class="e-content">{{ .Content }}</content>
   </article>
 </section>
 {{ end }}
 
-{{ $photos := first 5 (sort (where .Site.RegularPages "Section" "photos") "Date" "desc") }}
+<!-- {{ $photos := first 5 (sort (where .Site.RegularPages "Section" "photos") "Date" "desc") }}
 {{ $cacheBust := now.Unix }}
 {{ if $photos }}
 <section class="photos">
@@ -55,7 +55,7 @@ $sortedPosts 15 }}
     {{ end }}
   </ul>
 </section>
-{{ end }}
+{{ end }} -->
 </article>
 
 {{ end }}

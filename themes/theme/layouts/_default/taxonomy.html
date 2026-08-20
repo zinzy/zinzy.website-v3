@@ -1,12 +1,12 @@
 {{ define "main" }} {{ partial "back_link.html" .}}
 
 <article class="h-entry full">
-  <section class="">
+  <section>
     <ul class="grid">
       {{ range .Data.Terms.ByCount }}
-      <li class="">
-        <a href="{{ .Page.RelPermalink }}" class="">
-          <span class="">{{ .Page.Title }}</span>
+      <li>
+        <a href="{{ .Page.RelPermalink }}">
+          <span>{{ .Page.Title }}</span>
           <span class="tag-count">{{ .Count }}</span>
         </a>
       </li>

@@ -1,19 +1,17 @@
 <!DOCTYPE html>
-<html lang="{{ $.Site.LanguageCode }}" class="scroll-smooth min-h-full">
+<html lang="{{ $.Site.LanguageCode }}" id="top">
     {{- partial "head.html" . -}}
-    <div id="top" class="hidden scroll-smooth"></div>
-    <body class="px-5 min-h-full antialiased bg-white dark:bg-neutral-900 text-gray-950 dark:text-neutral-100" a="{{ $.Site.Params.theme_config.appearance | default "auto" }}">
+    <div id="top"></div>
+    <body a="{{ $.Site.Params.theme_config.appearance | default "auto" }}">
          
 
 
-        <div class="container my-20"> 
+        <div>
 
         {{- partial "header.html" . -}} 
 
-            <main class="my-20" aria-label="Content">
+            <main aria-label="Content">
                 
-                    <!-- <h2 class="mb-5">{{ .Title }}</h2>
-                    <p>{{ .Description }}</p> -->
                     {{- block "main" . }}{{- end }}
             </main>
  
@@ -23,7 +21,7 @@
             {{ end }}
          
  
-        </div> 
+        </div>
 
 
         {{- partial "footer.html" . -}}
