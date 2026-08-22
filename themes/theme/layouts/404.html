@@ -1,22 +1,11 @@
 {{ define "main" }} {{- partial "back_link.html" . -}}
 
-<div>
-  <div>
-    <img
-      src="/img/404.gif"
-     
-      alt="Gif of a Black boy looking embarrassed and scared"
-    />
-    <header>
-      <h2 class="p-name">
-        Sometimes I'll start a sentence, and I don't even...
-      </h2>
-      <p>
-        I'm sorry that something has led you to this 404 page. What you were
-        hoping to find does not exist (anymore). Please head back to the
-        <a href="/">front page</a> to continue your journey.
-      </p>
-    </header>
-  </div>
-</div>
+<article class="h-entry">
+  <h2 class="p-name">Sometimes I'll start a sentence, and I don't even...</h2>
+  <p>
+    I'm sorry that something has led you to this 404 page. What you were hoping
+    to find does not exist (anymore). Please head back to the
+    <a href="/">front page</a> to continue your journey.
+  </p>
+</article>
 {{ end }}
