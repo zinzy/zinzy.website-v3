@@ -8,7 +8,7 @@ $sortedPosts 15 }}
 </div>
 
 <section>
-  <h2>Latest <a href="/posts">posts</h2>
+  <h2>Latest in <a href="/posts">posts</h2>
   <ul>
     {{ range $paginatePosts.Pages }}
     <li>
@@ -25,7 +25,7 @@ $sortedPosts 15 }}
 {{ $notes := sort (where .Site.RegularPages "Section" "notes") "Date" "desc" }}
 {{ with index $notes 0 }}
 <section class="notes">
-  <h2>Latest <a href="/notes">notes</a></h2>
+  <h2>Latest in <a href="/notes">notes</a></h2>
   <article class="h-entry">
     <p>
       <time datetime="{{ .Date }}">{{ .Date | time.Format site.Params.theme_config.date_format_date_time }}</time>

@@ -2,13 +2,17 @@
 {{ if .IsPage }} {{ $crumbTitle = .Date | time.Format
 site.Params.theme_config.date_format_date }} {{ else }} {{ $crumbTitle =
 "Photos" }} {{ end }} {{ end }} {{ $showParent := and .Parent (ne
-.Parent.RelPermalink "/") (ne .Parent.Title "Pages") }}
+.Parent.RelPermalink "/") (ne .Parent.Title "Pages") }} {{ if and (eq .Section
+"page") (ne .Title "Sitemap") }} {{ $showParent = true }} {{ end }}
 <header>
   <nav class="breadcrumbs" aria-label="Breadcrumb">
     <a href="/">Zinzy's website</a>
-    {{ if $showParent }} /
+    {{ if $showParent }} / {{ if and (eq .Section "page") (ne .Title "Sitemap")
+    }}
+    <a href="/sitemap">Sitemap</a>
+    {{ else }}
     <a href="{{ .Parent.RelPermalink }}">{{ .Parent.Title }}</a>
-    {{ end }} / <span class="crumb-title">{{ $crumbTitle }}</span>
+    {{ end }} {{ end }} / <span class="crumb-title">{{ $crumbTitle }}</span>
   </nav>
 </header>
 {{ end }}
