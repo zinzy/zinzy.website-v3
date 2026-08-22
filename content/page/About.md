@@ -4,8 +4,7 @@ description: "Zinzy, the LifeTime movie"
 slug: about
 ---
 
-![](/img/photos/2025-10-02-18-33-13.jpeg)
-_Here I am with my daughters enjoying the October winds of the country's finest province, Zeeland._
+_[[img]](/img/photos/2025-10-02-18-33-13.jpeg): Here I am with my daughters enjoying the October winds of the country's finest province, Zeeland._
 
 I’m a diary-keeper, music maker, design researcher, and community builder living and working in Amsterdam. Thank you for taking the time to visit my home on the Internet. This website is an online diary; a scavenger hunt of unfinished thoughts, polished ideas, and snapshots in various formats.
 

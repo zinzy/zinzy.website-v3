@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "Map With No Water"
 date: 2017-01-15 09:27:23 +0200
 tags:

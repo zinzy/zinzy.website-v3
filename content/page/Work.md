@@ -1,12 +1,10 @@
 ---
 title: "Work"
 layout: work
-tagline: "I'm a principal designer making products for people at work"
+tagline: "I'm a design researcher making products for people at work"
 ---
 
-![Two White men and a Black person in a lei smile at the camera with champagne glasses in their hand.](/img/zinzy.jpg)
-
-_Here I am in 2019 with Robin (L) and Michar (R), celebrating the 25th anniversary of the travel technology company that employed us. The pandemic was months away. We were but children._
+_[[img]](/img/zinzy.jpg): Here I am in 2019 with Robin (L) and Michar (R), celebrating the 25th anniversary of the travel technology company that employed us. The pandemic was months away. We were but children_
 
 ### What I do
 

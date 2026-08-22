@@ -1,22 +1,18 @@
 ---
-share: true
-section: posts
-draft: false
+draft: true
 title: Come back to Chigaco
 date: 2023-04-17
 excerpt: Spring is here, I think? I spend the afternoon in the park with ex-colleague-turned-friend Susan, who is celebrating landing a new and challenging job. There's a boy in the park who's walking around barefoot. Later we see him on a zipline. I like this scene; it tells me that summer is almost upon us.
 categories:
-- Essays
+  - Essays
 tags:
   - neighborhood
   - funny
   - language
   - parks
-faces:
-  - Susan
 ---
 
-<!-- 
+<!--
 ![](https://res.cloudinary.com/dbi2zounq/image/upload/v1681746974/2023-04-17_hcdwmk.jpg) -->
 
 Spring is here, I think? I spend the afternoon in the park with ex-colleague-turned-friend Susan, who is celebrating landing a new and challenging job. There's a boy in the park who's walking around barefoot. Later we see him on a slack line. I like this scene; it tells me that summer is almost upon us.

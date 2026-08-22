@@ -62,4 +62,4 @@ I respect your digital sovereignty. I do not track your personal data nor the jo
 
 ### Banner
 
-![](/img/banner.svg)
+[[img]](/img/banner.svg)

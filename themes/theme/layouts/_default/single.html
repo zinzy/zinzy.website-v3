@@ -106,7 +106,8 @@
 
   {{ with .GetTerms "tags" }}
   <section>
-    <ul>
+    <h3>More about</h3>
+    <ul class="grid">
       {{ range . }}
       <li>
         <a href="{{ .RelPermalink }}">

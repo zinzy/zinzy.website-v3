@@ -8,13 +8,11 @@ $sortedPosts 15 }}
 </div>
 
 <section>
-  <h2>Latest posts <a href="/posts">(all)</h2>
+  <h2>Latest <a href="/posts">posts</h2>
   <ul>
     {{ range $paginatePosts.Pages }}
     <li>
-      <a href="{{ .RelPermalink }}">
-        <span>{{ .LinkTitle }}</span>
-      </a>
+      <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
       (<time
         >{{ .Date | time.Format site.Params.theme_config.date_format_short
         }}</time
@@ -27,7 +25,7 @@ $sortedPosts 15 }}
 {{ $notes := sort (where .Site.RegularPages "Section" "notes") "Date" "desc" }}
 {{ with index $notes 0 }}
 <section class="notes">
-  <h2>Latest note <a href="/notes">(all)</a></h2>
+  <h2>Latest <a href="/notes">notes</a></h2>
   <article class="h-entry">
     <p>
       <time datetime="{{ .Date }}">{{ .Date | time.Format site.Params.theme_config.date_format_date_time }}</time>
@@ -37,25 +35,6 @@ $sortedPosts 15 }}
 </section>
 {{ end }}
 
-<!-- {{ $photos := first 5 (sort (where .Site.RegularPages "Section" "photos") "Date" "desc") }}
-{{ $cacheBust := now.Unix }}
-{{ if $photos }}
-<section class="photos">
-  <h2>Latest photos <a href="/photos">(all)</a></h2>
-  <ul class="latest-photos-grid">
-    {{ range $photos }}
-    {{ $photo := index .Params.photo 0 }}
-    {{ $filename := path.Base $photo.url }}
-    {{ $ditheredFilename := replaceRE `\.[^.]+$` "_dithered.png" $filename }}
-    <li>
-      <a href="{{ .RelPermalink }}">
-        <img src="{{ printf "/img/photos/dithers/%s?v=%d" $ditheredFilename $cacheBust | relURL }}" alt="{{ $photo.alt }}" loading="lazy" />
-      </a>
-    </li>
-    {{ end }}
-  </ul>
-</section>
-{{ end }} -->
 </article>
 
 {{ end }}

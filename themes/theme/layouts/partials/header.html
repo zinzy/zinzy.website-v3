@@ -8,7 +8,7 @@ site.Params.theme_config.date_format_date }} {{ else }} {{ $crumbTitle =
     <a href="/">Zinzy's website</a>
     {{ if $showParent }} /
     <a href="{{ .Parent.RelPermalink }}">{{ .Parent.Title }}</a>
-    {{ end }} / <span>{{ $crumbTitle }}</span>
+    {{ end }} / <span class="crumb-title">{{ $crumbTitle }}</span>
   </nav>
 </header>
 {{ end }}

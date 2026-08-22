@@ -1,23 +1,14 @@
 ---
-share: true
-section: posts
-draft: false
+draft: true
 title: Meeting Yana and DJ
 date: 2023-04-11
-excerpt: What I love most about today's snapshot is the despair I can see in Lemonade's eyes even when her entire body is a background blur.
 categories:
-- Essays
+  - Essays
 tags:
   - pets
   - neighborhood
   - friends
-  - animals
-faces:
-  - Lemonade
-  - DJ
-  - Yana
 ---
-
 
 <!-- ![](https://res.cloudinary.com/dbi2zounq/image/upload/v1681285678/zinzy.website/2023-04-11_qaysnk.jpg) -->
 

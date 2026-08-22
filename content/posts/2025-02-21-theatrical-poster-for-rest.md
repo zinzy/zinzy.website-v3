@@ -7,7 +7,7 @@ tags:
   - design
 ---
 
-![Theatrical poster for Rotterdam English Speaking Theatre featuring a triptych of moody scenes](/img/photos/2025-02-21_rest-2025.png)
+_[[img]](/img/photos/2025-02-21_rest-2025.png): Theatrical poster for Rotterdam English Speaking Theatre featuring a triptych of moody scenes_
 
 Daddy Cross, my friend and coworker with the best nickname in the world, is usually a very bold woman. The kind of power house I imagine Julia Louis-Dreyfus to be. Speaks truth to power in a voice that can do all sorts of things. Best physical comedy I've ever seen in a person. But I shouldn't be surprised, because she's a total theater kid. Last week, as I hobbled my way past her desk, she asked, in a squeaky voice: "Are you busy, like, in general?"
 

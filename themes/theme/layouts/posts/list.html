@@ -1,48 +1,21 @@
 {{ define "main" }} {{ partial "back_link.html" .}}
 
-<div>
-  <section>
-    <!-- {{ $postsDefault := where .Site.RegularPages "Type" "posts" }} -->
-    {{ range (where .Site.RegularPages "Type" "in" (slice "posts")).GroupByDate
-    "2006" }}
+<article class="h-entry">
+  <!-- {{ $postsDefault := where .Site.RegularPages "Type" "posts" }} -->
+  {{ range (where .Site.RegularPages "Type" "in" (slice "posts")).GroupByDate
+  "2006" }}
 
-    <ul class="posts">
-      <li>
-        <div>{{ .Key }}</div>
-        <ul>
-          {{ range .Pages }}
-          <li>
-            <!-- <span class="date">{{ .Date.Format (.Site.Params.dateFormat | default "January 2, 2006" ) }}</span> -->
-            <a
-             
-              href="{{ .Params.externalLink | default .RelPermalink }}"
-              >{{ .Title }}</a
-            >
-          </li>
-          {{- end -}}
-        </ul>
-      </li>
-    </ul>
+  <ul>
+    {{ .Key }} {{ range .Pages }}
+    <li>
+      <!-- <span class="date">{{ .Date.Format (.Site.Params.dateFormat | default "January 2, 2006" ) }}</span> -->
+      <a href="{{ .Params.externalLink | default .RelPermalink }}"
+        >{{ .Title }}</a
+      >
+    </li>
+    {{- end -}}
+  </ul>
 
-    {{ end }}
-    <!-- 
-    <ul>
-
-
-
-      
-      {{ range $postsDefault }}
-      <li>
-        <a class="w-full" href="{{ .Permalink }}">
-          <span>{{ .Title }}</span>
-          <time
-            >{{- (.Date | time.Format
-            site.Params.theme_config.date_format_medium) }}</time
-          >
-        </a>
-      </li>
-      {{ end }}
-    </ul> -->
-  </section>
-</div>
+  {{ end }}
+</article>
 {{ end }}
