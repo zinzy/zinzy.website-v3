@@ -3,6 +3,8 @@ title: Museum
 description: "A history of my time on the Internet"
 ---
 
+I taught myself to build websites as a 90s kid and have made an effort — in varying degrees of commitment, skill, and intensity — to share slices of my life on the web ever since. I believe in an Internet that is whimsical, creative, honest, and expansive.
+
 ### 1997 - 2002: Local dev env
 
 Before I ever managed to publish anything on the actual Internet, I found out about HTML, and how it helped me structure pages to tell exactly the story I wanted to tell. One may call it reminiscent of [Creed's blog](https://www.youtube.com/watch?v=AYsMPiQNixU).

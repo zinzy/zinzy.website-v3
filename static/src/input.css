@@ -235,5 +235,28 @@ ul {
 iframe.letterbird-embed {
   border: 1px solid black !important;
   margin: 50px 0 0 0;
-  max-width: 100%;
+  max-width: 100% !important;
+  border-radius: 0 !important;
+
+  .sheet {
+    padding: 0 !important;
+  }
+
+}
+
+
+#guestbook-form {
+  .button {
+    font-family: Times, serif;
+    font-size: 1rem;
+    padding: 10px 20px;
+      border: 1px solid black;
+      border-radius: 5px;
+    &:hover {
+      cursor: pointer;
+      background: yellow;
+      border: 1px solid black;
+      border-radius: 5px;
+    }
+  }
 }
