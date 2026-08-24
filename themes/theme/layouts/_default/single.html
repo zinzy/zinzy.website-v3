@@ -125,27 +125,8 @@
     <p>
       This post was published on {{ .Date | time.Format
       site.Params.theme_config.date_format_medium}}. You are most welcome to
-      reply to it by email.
+      reply to it by <a href="/hello">. Additionally, you may follow via <a href="/index.xml">RSS</a>
     </p>
-
-    You can reply to this weeknotes entry by email. I’d love to hear your
-    thoughts! If you like what I write, stick your email address below and
-    subscribe. I send out my weeknotes every Sunday morning. Alternatively,
-    subscribe to the web feed.
-
-    <ul>
-      <li>
-        This was published on
-        <a class="u-url" href="{{ .Permalink }}">
-          <time class="dt-published" datetime="{{ .Date }}">
-            {{ .Date | time.Format site.Params.theme_config.date_format_medium
-            }}
-          </time>
-        </a>
-      </li>
-      <li><a href="/hello">Say hello</a></li>
-      <li>Follow via <a href="/index.xml">RSS</a></li>
-    </ul>
   </footer>
   <!-- {{ end }} -->
 </div>
