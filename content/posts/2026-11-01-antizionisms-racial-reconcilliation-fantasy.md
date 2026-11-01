@@ -2,7 +2,8 @@
 date: 2026-11-01T06:08:43.097Z
 publishDate: 2026-11-01T06:08:43.097Z
 draft: true
-title: Antizionism's racial reconcilliation fantasy
+lastmod: 2026-11-01T06:08:56.105Z
+title: On parenting
 uid: 01a195b9-7a8e-75cb-b337-070ab3100715
 ---
 
