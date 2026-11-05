@@ -3,6 +3,7 @@ date: 2026-11-01T06:08:43.097Z
 publishDate: 2026-11-01T06:08:43.097Z
 lastmod: 2026-11-01T06:09:07.176Z
 title: On parenting
+draft: true
 uid: 01a195b9-7a8e-75cb-b337-070ab3100715
 ---
 
