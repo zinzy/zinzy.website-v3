@@ -1,40 +1,95 @@
-{{ define "main" }} {{ $posts := (where .Site.RegularPages "Type" "posts") }} {{
-$sortedPosts := sort $posts "Date" "desc"}} {{ $paginatePosts := .Paginate
-$sortedPosts 15 }}
+{{ define "main" }} {{ $posts := (where .Site.RegularPages "Type" "in" (slice
+"posts" "notes") ) }} {{ $sortedPosts := sort $posts "Date" "desc"}} {{
+$paginatePosts := .Paginate $sortedPosts 15 }}
 
 <article class="h-entry">
   <div class="intro">
-  <p>{{ .Content }}</p>
-</div>
+    <p>{{ .Content }}</p>
+  </div>
 
-<section>
-  <h2>Latest in <a href="/posts">posts</h2>
-  <ul>
-    {{ range $paginatePosts.Pages }}
-    <li>
-      <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
-      (<time
-        >{{ .Date | time.Format site.Params.theme_config.date_format_short
-        }}</time
-      >)
-    </li>
-    {{ end }}
-  </ul>
-</section>
+  <section class="posts">
+    <ul>
+      {{ range $paginatePosts.Pages }}
+      <li>
+        <article>
+          <a href="{{ .RelPermalink }}" class="u-url">
+            <time class="dt-published" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+              {{ .Date.Format "Jan 2, 2006" }}
+            </time>
+          </a>
+          {{ if .Title }}
+          <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+          {{ else }}{{ end }}
 
-{{ $notes := sort (where .Site.RegularPages "Section" "notes") "Date" "desc" }}
-{{ with index $notes 0 }}
-<section class="notes">
-  <h2>Latest in <a href="/notes">notes</a></h2>
-  <article class="h-entry">
-    <p>
-      <time datetime="{{ .Date }}">{{ .Date | time.Format site.Params.theme_config.date_format_date_time }}</time>
-    </p>
-    <content class="e-content">{{ .Content }}</content>
-  </article>
-</section>
-{{ end }}
+          <content class="e-content">
+            <div>
+              {{ if .Params.replyTo }} {{ if .Params.rsvp }}
+              <p>
+                {{ if eq .Params.rsvp "yes" }}<data class="p-rsvp" value="YES"
+                  >Is going</data
+                >
+                to {{ else if eq .Params.rsvp "maybe" }}<data
+                  class="p-rsvp"
+                  value="Maybe"
+                  >Might go</data
+                >
+                to {{ else if eq .Params.rsvp "no" }}<data
+                  class="p-rsvp"
+                  value="no"
+                  >Unable to go</data
+                >
+                to {{ else if eq .Params.rsvp "interested" }}<data
+                  class="p-rsvp"
+                  value="interested"
+                  >Is interested</data
+                >
+                in {{ end }}
 
+                <a
+                  href="{{.Params.replyTo}}"
+                  rel="in-reply-to"
+                  class="u-in-reply-to text-url"
+                  target="_blank"
+                >
+                  {{ if .Params.replyToName }} {{.Params.replyToName}} {{ else
+                  }} {{.Params.replyTo}} {{ end }}
+                </a>
+              </p>
+
+              {{ else }}
+
+              <p class="u-in-reply-to">
+                Replied to
+                <a
+                  href="{{.Params.replyTo}}"
+                  rel="in-reply-to"
+                  class="u-in-reply-to text-url"
+                  target="_blank"
+                >
+                  {{ if .Params.replyToName }} {{.Params.replyToName |
+                  markdownify }} {{ else }} {{.Params.replyTo}} {{ end }}
+                </a>
+              </p>
+              {{ end }} {{ else if .Params.likeOf }}
+              <p class="h-cite u-like-of">
+                Liked
+                <a href="{{.Params.likeOf}}" class="text-url" target="_blank">
+                  {{ if .Params.likeOfName }} {{.Params.likeOfName |
+                  markdownify}} {{ else }} {{.Params.likeOf}} {{ end }}
+                </a>
+              </p>
+              {{ end }}
+            </div>
+
+            {{ if .Title }} {{ .Summary }}
+            <a href="{{ .RelPermalink }}">Read More...</a>
+            {{ else }} {{- partial "content_wikified" . -}} {{ end }}
+          </content>
+        </article>
+      </li>
+      {{ end }}
+    </ul>
+  </section>
 </article>
 
 {{ end }}

@@ -1,0 +1,22 @@
+{{ define "main" }} {{ partial "back_link.html" .}}
+<article class="h-entry full">
+  <section>
+    {{ $skip := slice "index" "Sitemap" "Thanks for your message" "Disclaimer"
+    "Mentoring" "Codex" "Library" "Garden" "Resume" "Work" }} {{ $pages := where
+    .Site.RegularPages "Section" "page" }} {{ $music := where .Site.Sections
+    "Section" "music" }}
+
+    <ul class="grid">
+      {{ range sort (append $pages $music) "Title" }} {{ if not (in $skip
+      .Title) }}
+      <li>
+        <a href="{{ .RelPermalink }}"> <span>{{ .Title }}</span></a>
+        <!-- <span class="text-secondary">{{ .Description }}</span> -->
+      </li>
+      {{ end }} {{ end }}
+    </ul>
+  </section>
+
+  {{ partial "backlinks.html" . }}
+</article>
+{{ end }}

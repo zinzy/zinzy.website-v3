@@ -1,0 +1,14 @@
+{{ define "main" }} {{ partial "back_link.html" .}} {{ $photos := sort (where
+.Site.RegularPages "Section" "photos") "Date" "desc" }}
+<section class="photo-gallery">
+  <ul class="photo-grid">
+    {{ range $photos }} {{ $photo := index .Params.photo 0 }}
+    <li>
+      <a href="{{ .RelPermalink }}">
+        <img src="{{ $photo.url }}" alt="{{ $photo.alt }}" loading="lazy" />
+      </a>
+    </li>
+    {{ end }}
+  </ul>
+</section>
+{{ end }}

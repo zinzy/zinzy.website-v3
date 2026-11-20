@@ -1,0 +1,10 @@
+{{ define "main" }} {{ partial "back_link.html" .}}
+
+<article class="h-entry">
+  <div class="callout">{{ .Params.tagline }}</div>
+
+  <div id="about" class="e-content">
+    {{ .Content }}
+  </div>
+</article>
+{{ end }}

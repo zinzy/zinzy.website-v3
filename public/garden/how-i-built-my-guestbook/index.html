@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en-us" id="top"><head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta
+    name="description"
+    content="Zinzy Waleson Geene is a product designer from Amsterdam"
+  />
+
+  <title>
+     How I built my guestbook 
+  </title>
+
+  <link
+    rel="alternate"
+    type="application/rss+xml"
+    href="https://zinzy.website/index.xml"
+    title="Zinzy&#39;s website"
+  />
+
+  <link rel="icon" type="image/svg+xml" href="https://emojicdn.elk.sh/👋🏽" />
+  
+
+  <link rel="stylesheet" href="/src/input.css" />
+
+  
+  <link rel="me" href="https://github.com/zinzy" />
+  <link rel="me" href="https://tech.lgbt/@zinzy" />
+  <link rel="me" href="mailto:zinzy@pm.me" />
+
+  
+  <link rel="micropub" href="https://laurence.zinzy.website/micropub" />
+  <link
+    rel="authorization_endpoint"
+    href="https://laurence.zinzy.website/auth"
+  />
+  <link rel="token_endpoint" href="https://laurence.zinzy.website/auth/token" />
+
+  
+
+  
+  <link
+    rel="webmention"
+    href="https://webmention.io/zinzy.website/webmention"
+  />
+
+  
+  <script src="/src/site.js" async></script>
+  <script src="/src/webmention.js" async></script>
+
+  
+</head>
+<div id="top"></div>
+    <body a="auto">
+         
+
+
+        <div><header>
+  <h1><a href="/">Zinzy Waleson Geene</a></h1>
+  Diary-keeper, designer
+  <nav>
+    <ul>
+      <li><a href="/about">About</a></li>
+      <li><a href="/sitemap">Sitemap</a></li>
+      <li><a href="/guestbook">Guestbook</a></li>
+    </ul>
+  </nav>
+</header>
+<main aria-label="Content"> 
+
+
+<div>
+  <article class="h-entry">
+    
+    <content class="e-content">
+ 
+
+
+
+
+
+
+
+
+
+
+<p><em>At the time of writing, March 1, 2025, I just launched my 
+
+
+
+
+
+
+  
+  
+  
+
+
+  <a href="/guestbook" class="">guestbook</a>. I managed to build it in under an hour once I connected the dots, but it took me years to get there. I&rsquo;m using this page to document what I did, and to document improvements I may make in the future.</em></p>
+<p>My website is built using static site generator 
+
+
+
+
+
+
+  
+  
+  
+
+<a href="https://gohugo.io/" target="_blank" rel="noopener" class=" ↗'] ">Hugo</a>, which I like for its flexibility. In the IndieWeb community, static site generators are notoriously awkward. It&rsquo;s much more of a hassle to 
+
+
+
+
+
+
+  
+  
+  
+
+<a href="https://indieweb.org/POSSE" target="_blank" rel="noopener" class=" ↗'] ">POSSE</a>, 
+
+
+
+
+
+
+  
+  
+  
+
+<a href="https://indieweb.org/Micropub" target="_blank" rel="noopener" class=" ↗'] ">Micropub</a>, or create your own 
+
+
+
+
+
+
+  
+  
+  
+
+<a href="https://indieweb.org/guestbook" target="_blank" rel="noopener" class=" ↗'] ">guestbook</a>. Using the steps below, it was quite straight-forward for me to create one.</p>
+<h3 id="guestbook-workflow">Guestbook workflow</h3>
+<ol>
+<li>Users fill out name, an optional website, and a message</li>
+<li>Netlify detects new entry</li>
+<li>Some Javascript displays the entry on the guestbook page</li>
+<li>I get a notification to check the entry</li>
+</ol>
+<h3 id="step-1-create-guestbook-page-with-form">Step 1: Create Guestbook page with form</h3>
+<p>In my Hugo content folder I created <code>guestbook.md</code>, adding the frontmatter property <code>layout: guestbook</code>. In <code>guestbook.html</code>, I added a top section with a page title and content populating whatever I put in the Markdown file. Below that, I added a simple form:</p>
+<pre tabindex="0"><code>      &lt;form id=&#34;guestbook-form&#34; class=&#34;bg-gray-50 rounded-lg p-4&#34; action=&#34;/submitted&#34; method=&#34;POST&#34; data-netlify=&#34;true&#34; name=&#34;guestbook&#34; netlify netlify-honeypot=&#34;not-for-humans&#34; data-netlify-recaptcha=&#34;true&#34;&gt;
+        &lt;p style=&#34;display: none;&#34;&gt;
+          &lt;label&gt;Don’t fill this out if you&#39;re human: &lt;input name=&#34;not-for-humans&#34; /&gt;&lt;/label&gt;
+        &lt;/p&gt;
+        &lt;p class=&#34;m-0 p-0&#34;&gt;
+          &lt;label&gt;
+            &lt;div class=&#34;mb-1&#34;&gt;
+              &lt;div&gt;Name&lt;/div&gt;
+            &lt;/div&gt;
+            &lt;input required class=&#34;p-2 rounded block w-full&#34; placeholder=&#34;Kimmy Schmidt&#34; type=&#34;text&#34; name=&#34;name&#34; /&gt;
+          &lt;/label&gt;
+        &lt;/p&gt;
+        &lt;p class=&#34;m-0 p-0&#34;&gt;
+          &lt;label&gt;
+
+            &lt;div class=&#34;mb-1&#34;&gt;
+              &lt;div&gt;Website&lt;/div&gt;
+            &lt;/div&gt;
+            &lt;input class=&#34;p-2 rounded block w-full&#34;  placeholder=&#34;https://unbreakab.le&#34; type=&#34;text&#34; name=&#34;website&#34; /&gt;&lt;/label&gt;
+        &lt;/p&gt;
+        &lt;p class=&#34;m-0 p-0&#34;&gt;
+          &lt;label&gt;
+            &lt;div class=&#34;mb-1&#34;&gt;
+              &lt;div&gt;Message&lt;/div&gt;
+              &lt;div class=&#34;text-sm text-secondary mb-2&#34;&gt;Write whatever you want; please remember to be kind. If you plan to write a long entry, write your own post and &lt;a href=&#34;/hello&#34; class=&#34;underline&#34;&gt;send me the link&lt;/a&gt; instead!
+              &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;textarea required id=&#34;message&#34; name=&#34;message&#34; placeholder=&#34;Hey Zinzy, I just wanted to say...&#34; class=&#34;p-2 rounded block w-full h-56&#34;&gt;&lt;/textarea&gt;&lt;/label&gt;
+        &lt;/p&gt;
+        &lt;div class=&#34;flex justify-center my-10&#34;&gt;&lt;div data-netlify-recaptcha=&#34;true&#34;&gt;&lt;/div&gt;&lt;/div&gt;
+        &lt;p class=&#34;m-0 p-0 text-right&#34;&gt;
+          &lt;button type=&#34;submit&#34; class=&#34;button&#34; id=&#34;submit-btn&#34;&gt;Submit&lt;/button&gt;
+        &lt;/p&gt;
+      &lt;/form&gt;
+</code></pre></content>
+  </article>
+
+  <footer class="page-footer">
+    <ul>
+      <li>This page is part of my garden</li>
+      <li><a href="/hello">Say hello</a></li>
+      <li>Follow via <a href="/index.xml">RSS</a></li>
+    </ul>
+  </footer>
+</div>
+
+            </main>
+ 
+
+            
+<div id="webmentions"></div>
+
+
+         
+ 
+        </div><footer class="site-footer">
+  <ul class="h-card hidden">
+    <li class="p-name">
+      <a class="u-url u-uid text-primary" href="/">
+        <span>
+          <span class="p-given-name">Zinzy</span>
+          <span class="p-family-name">Waleson Geene</span>
+        </span>
+      </a>
+    </li>
+    <li class="u-photo">
+      <img src="/img/avatar.jpg" alt="Portrait of Zinzy Waleson Geene" />
+    </li>
+    <li class="p-nickname">Zinzatron</li>
+    <li class="p-org">Gerimedica</li>
+    <li class="p-job-title">Principal Designer</li>
+    <li class="p-role">Principal Designer of healthcare software</li>
+    <li class="p-locality">Amsterdam</li>
+    <li class="p-region">North Holland</li>
+    <li class="p-country-name">The Netherlands</li>
+    <li class="p-note">Advocate for the small, open, indie, cozy web</li>
+    <li class="p-category">Designer</li>
+    <li class="p-gender-identity">Non-binary</li>
+    <li class="u-sound">ZIN-zee WHALE-son GHEE-n</li>
+  </ul>
+
+  <div>
+    <ul>
+      <li><a href="/#top">Top ↑</a></li>
+      <li><a href="/follow">Follow</a></li>
+    </ul>
+  </div>
+</footer>
+<script src="/src/site.js"></script>
+    </body>
+</html>

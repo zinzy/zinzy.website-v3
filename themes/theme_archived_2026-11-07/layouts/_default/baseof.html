@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="{{ $.Site.LanguageCode }}" id="top">
+    {{- partial "head.html" . -}}
+    <div id="top"></div>
+    <body a="{{ $.Site.Params.theme_config.appearance | default "auto" }}">
+         
+
+
+        <div>
+
+        {{- partial "header.html" . -}} 
+
+            <main aria-label="Content">
+                
+                    {{- block "main" . }}{{- end }}
+            </main>
+ 
+
+            {{ if not .IsHome }}
+            {{- partial "webmentions.html" . -}}
+            {{ end }}
+         
+ 
+        </div>
+
+
+        {{- partial "footer.html" . -}}
+
+  
+        <script src="/src/site.js"></script>
+    </body>
+</html>

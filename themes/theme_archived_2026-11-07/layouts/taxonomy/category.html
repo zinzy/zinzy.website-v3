@@ -1,0 +1,17 @@
+{{ define "main" }} {{ partial "back_link.html" .}}
+
+<div>
+  <header>
+    <p>{{ .Title }}</p>
+    <h2>
+      {{ if eq .Title "Overheard" }} Things I've
+      <span>{{.Title}}</span>
+      {{ else if eq .Title "Today I wondered" }} {{ .Title }} {{ else }} {{
+      .Title }} I have written {{ end }}
+    </h2>
+  </header>
+
+  {{ partial "feed_all.html" .}}
+</div>
+
+{{ end }}

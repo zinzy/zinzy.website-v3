@@ -1,0 +1,49 @@
+{{ define "main" }} {{ partial "back_link.html" .}}
+
+<div>
+  <article class="h-entry">
+    <header>
+      <p>{{ .Title }}</p>
+      <h2 class="p-name">{{ .Description }}</h2>
+    </header>
+
+    <content class="h-entry"> {{ .Content }} </content>
+
+    <ul>
+      {{ range sort $.Site.Data.mentoring "name" }}
+      <li>
+        <p
+          class="shadow-subtle"
+        >
+          {{ .quote }}
+        </p>
+
+        <p>
+          <a
+            href="{{ .url }}"
+            target="_blank"
+            rel="noopener noreferrer"
+           
+          >
+            <span>
+              <img
+                src="{{ .img }}"
+                alt=""
+               
+              />
+            </span>
+            <span>
+              <span>{{ .name }}</span>
+              <span
+               
+                >{{ .jobTitle }}</span
+              >
+            </span>
+          </a>
+        </p>
+      </li>
+      {{ end }}
+    </ul>
+  </article>
+</div>
+{{ end }}

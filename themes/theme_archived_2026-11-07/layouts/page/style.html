@@ -1,0 +1,24 @@
+{{ define "main" }} {{ partial "back_link.html" .}}
+
+<article class="h-entry">
+  <section>{{ .Content }}</section>
+
+  <section>
+    <figure>
+      <img
+        src="/img/bijlmer-bookclub-july-2024.jpg"
+        alt="A Black hand holding a book titled 'None of the Above' in front of an Amsterdam Bijlmer lake"
+      />
+      <figcaption>Books are for reading</figcaption>
+    </figure>
+
+    <ul class="tags">
+      <li><a href="">Tag</a></li>
+    </ul>
+
+    <a href="" class="button">Button</a>
+  </section>
+
+  {{ partial "backlinks.html" . }}
+</article>
+{{ end }}

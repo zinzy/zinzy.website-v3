@@ -1,0 +1,21 @@
+{{ define "main" }} {{ partial "back_link.html" .}}
+
+<article class="h-entry">
+  <!-- {{ $postsDefault := where .Site.RegularPages "Type" "posts" }} -->
+  {{ range (where .Site.RegularPages "Type" "in" (slice "posts")).GroupByDate
+  "2006" }}
+
+  <ul>
+    {{ .Key }} {{ range .Pages }}
+    <li>
+      <!-- <span class="date">{{ .Date.Format (.Site.Params.dateFormat | default "January 2, 2006" ) }}</span> -->
+      <a href="{{ .Params.externalLink | default .RelPermalink }}"
+        >{{ .Title }}</a
+      >
+    </li>
+    {{- end -}}
+  </ul>
+
+  {{ end }}
+</article>
+{{ end }}

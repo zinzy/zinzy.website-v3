@@ -1,0 +1,40 @@
+{{ define "main" }} {{ $posts := (where .Site.RegularPages "Type" "posts") }} {{
+$sortedPosts := sort $posts "Date" "desc"}} {{ $paginatePosts := .Paginate
+$sortedPosts 15 }}
+
+<article class="h-entry">
+  <div class="intro">
+  <p>{{ .Content }}</p>
+</div>
+
+<section>
+  <h2>Latest in <a href="/posts">posts</h2>
+  <ul>
+    {{ range $paginatePosts.Pages }}
+    <li>
+      <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+      (<time
+        >{{ .Date | time.Format site.Params.theme_config.date_format_short
+        }}</time
+      >)
+    </li>
+    {{ end }}
+  </ul>
+</section>
+
+{{ $notes := sort (where .Site.RegularPages "Section" "notes") "Date" "desc" }}
+{{ with index $notes 0 }}
+<section class="notes">
+  <h2>Latest in <a href="/notes">notes</a></h2>
+  <article class="h-entry">
+    <p>
+      <time datetime="{{ .Date }}">{{ .Date | time.Format site.Params.theme_config.date_format_date_time }}</time>
+    </p>
+    <content class="e-content">{{ .Content }}</content>
+  </article>
+</section>
+{{ end }}
+
+</article>
+
+{{ end }}

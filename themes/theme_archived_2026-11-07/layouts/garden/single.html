@@ -1,0 +1,19 @@
+{{ define "main" }} {{ partial "back_link.html" .}}
+
+<div>
+  <article class="h-entry">
+    {{ if .Params.callout }}
+    <div class="callout mini">{{ .Params.callout }}</div>
+    {{ end }}
+    <content class="e-content"> {{- partial "content_wikified" . -}} </content>
+  </article>
+
+  <footer class="page-footer">
+    <ul>
+      <li>This page is part of my garden</li>
+      <li><a href="/hello">Say hello</a></li>
+      <li>Follow via <a href="/index.xml">RSS</a></li>
+    </ul>
+  </footer>
+</div>
+{{ end }}

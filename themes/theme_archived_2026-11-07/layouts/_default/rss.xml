@@ -1,0 +1,91 @@
+{{- /* Deprecate site.Author.email in favor of site.Params.author.email */}}
+{{- $authorEmail := "" }}
+{{- with site.Params.author }}
+  {{- if reflect.IsMap . }}
+    {{- with .email }}
+      {{- $authorEmail = . }}
+    {{- end }}
+  {{- end }}
+{{- else }}
+  {{- with site.Author.email }}
+    {{- $authorEmail = . }}
+    {{- warnf "The author key in site configuration is deprecated. Use params.author.email instead." }}
+  {{- end }}
+{{- end }}
+
+{{- /* Deprecate site.Author.name in favor of site.Params.author.name */}}
+{{- $authorName := "" }}
+{{- with site.Params.author }}
+  {{- if reflect.IsMap . }}
+    {{- with .name }}
+      {{- $authorName = . }}
+    {{- end }}
+  {{- else }}
+    {{- $authorName  = . }}
+  {{- end }}
+{{- else }}
+  {{- with site.Author.name }}
+    {{- $authorName = . }}
+    {{- warnf "The author key in site configuration is deprecated. Use params.author.name instead." }}
+  {{- end }}
+{{- end }}
+
+{{- $pctx := . }}
+{{- if .IsHome }}{{ $pctx = .Site }}{{ end }}
+{{- $pages := slice }}
+{{- if or $.IsHome $.IsSection }}
+{{- $pages = $pctx.RegularPages }}
+{{- else }}
+{{- $pages = $pctx.Pages }}
+{{- end }}
+{{- $limit := 4 }}
+{{- if ge $limit 1 }}
+{{- $pages = $pages | first 10 }}
+{{- end }}
+{{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+
+  
+    <title>RSS feed for {{ .Site.Title }}</title>
+    <link>{{ .Permalink }}</link>
+    <description>{{ .Site.Title }}</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>{{ site.LanguageCode }}</language>{{ with $authorEmail }}
+    <managingEditor>{{.}}{{ with $authorName }} ({{ . }}){{ end }}</managingEditor>{{ end }}{{ with $authorEmail }}
+    <webMaster>{{ . }}{{ with $authorName }} ({{ . }}){{ end }}</webMaster>{{ end }}{{ with .Site.Copyright }}
+    <copyright>{{ . }}</copyright>{{ end }}{{ if not .Date.IsZero }}
+    <lastBuildDate>{{ (index $pages.ByLastmod.Reverse 0).Lastmod.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>{{ end }}
+    {{- with .OutputFormats.Get "RSS" }}
+    {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
+    {{- end }}
+
+
+    {{ $allEntries := (where .Site.RegularPages "Type" "posts") }}
+    {{- range $allEntries }}
+
+    <item>
+            <title>
+              {{ if .Title }}
+                {{ .Title }}
+              {{else}}
+                No title
+              {{end}}
+            </title>
+            <link>{{ .Permalink }}</link>
+            <guid isPermaLink="true">{{ .Permalink }}</guid>
+            <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0200" | safeHTML }}</pubDate>
+
+            <description>
+{{ printf "<![CDATA[" | safeHTML }}
+  {{- printf "%s" .Content | safeHTML }}
+  {{- printf "\n<hr/>\n<p>Thank you for reading through RSS. My diary-keeping will always be public and free, though you're welcome to <a href=\"https://ko-fi.com/zinzy\">support</a> it.</p>\n" | safeHTML }}
+  {{- printf "<ul>\n<li><a href=\"https://zinzy.website/hello\">Email me</a></li>\n<li><a href=\"https://zinzy.website/now\">Where I am now</a></li>\n<li><a href=\"https://zinzy.website/blogroll\">Who I'm reading</a></li>\n</ul>\n" | safeHTML }}
+{{ printf "]]>" | safeHTML }}
+
+            </description>
+            <author>Zinzy Waleson Geene</author>
+        </item>
+    {{- end }}
+  </channel>
+</rss>

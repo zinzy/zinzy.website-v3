@@ -1,0 +1,30 @@
+{{ define "main" }} {{ partial "back_link.html" .}}
+
+<article class="h-entry">
+  <header>{{ .Content }}</header>
+
+  <section>
+    {{ $mixtapes := where .Site.RegularPages "Type" "music" }}
+    <ul
+     
+    >
+      {{ range sort $mixtapes ".Params.start" "desc" }}
+      <li>
+        {{ if .Content }}
+        <a
+         
+          href="{{ .Permalink }}"
+        >
+          <span>{{ .Title }}</span>
+        </a>
+        {{ else }}
+        <div>
+          <span>{{ .Title }}</span>
+        </div>
+        {{ end }}
+      </li>
+      {{ end }}
+    </ul>
+  </section>
+</article>
+{{ end }}

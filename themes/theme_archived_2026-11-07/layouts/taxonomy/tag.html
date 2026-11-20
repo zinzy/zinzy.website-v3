@@ -1,0 +1,35 @@
+{{ define "main" }} {{ partial "back_link.html" .}}
+
+<div>
+  <section class="h-entry">
+    {{ $posts := where .Data.Pages "Type" "posts" }} {{ $micro := where
+    .Data.Pages "Type" "micro" }} {{ $filtered := union $posts $micro }} {{
+    $feed := $filtered }} {{ $sortedfeed := $feed.ByDate.Reverse }} {{
+    $paginator := .Paginate $sortedfeed 7 }} 
+    
+    <ul class="summarised-posts">
+    {{ range $paginator.Pages }}
+<li>
+   <article>
+      <time class="dt-published text-secondary" datetime="{{ .Date }}">
+        <a href="{{ .Permalink }}">
+          {{ .Date | time.Format site.Params.theme_config.date_format_medium }}
+        </a>
+      </time>
+      {{ if .Params.title }}
+      <h2 class="p-name">
+        <a href="{{ .Permalink }}">{{ .Params.title }}</a>
+      </h2>
+      {{ end }} {{ if .Params.title }}
+      <div>
+        {{ .Summary }} (<a href="{{ .Permalink }}" class="button"
+          >Keep reading</a
+        >)
+      </div>
+      {{ else }} {{ end }}
+</li>
+    {{ end }} </ul>{{ partial "pagination.html" . }}
+  </section>
+</div>
+
+{{ end }}

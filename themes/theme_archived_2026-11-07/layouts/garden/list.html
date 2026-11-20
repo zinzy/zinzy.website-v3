@@ -1,0 +1,10 @@
+{{ define "main" }} {{ partial "back_link.html" .}}
+
+<article class="h-entry">{{ .Content }}</article>
+
+{{ $garden := sort (where .Site.RegularPages "Section" "garden") "Date" "desc"
+}} {{ range $garden }}
+<ul class="h-entry">
+  <li><a href="{{.RelPermalink}}">{{ .Title }}</a></li>
+</ul>
+{{ end }} {{ end }}

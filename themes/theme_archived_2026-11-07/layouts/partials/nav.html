@@ -1,0 +1,34 @@
+<nav role="navigation" aria-label="Main">
+  <ul>
+    <li aria-label="Home">
+      <a
+        href="/"
+       
+      >
+        <span
+          >{{- partial "symbols/home.html" . -}}</span
+        ></a
+      >
+    </li>
+    <li aria-label="About">
+      <a
+        href="/about"
+       
+      >
+        <span>
+          {{- partial "symbols/about.html" . -}}
+        </span>
+      </a>
+    </li>
+    <li aria-label="Sitemap">
+      <a
+        href="/sitemap"
+       
+      >
+        <span>
+          {{- partial "symbols/site.html" . -}}
+        </span>
+      </a>
+    </li>
+  </ul>
+</nav>
