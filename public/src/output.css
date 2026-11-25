@@ -8,16 +8,11 @@ body {
   line-height: 1.3rem;
   margin: 1rem auto;
   padding: 1rem;
-  @media screen and (min-width: 1400px) {
+  @media screen and (min-width: 768px) {
     margin: 5rem auto;
 
     max-width: 600px;
   }
-}
-
-.h-entry, .page-footer {
-  max-width: 35rem;
-  margin: 1rem auto;
 }
 
 .h-entry.full {

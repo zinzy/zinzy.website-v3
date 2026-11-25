@@ -1,5 +1,5 @@
 {{ define "main" }} {{ $posts := (where .Site.RegularPages "Type" "in" (slice
-"posts" "notes") ) }} {{ $sortedPosts := sort $posts "Date" "desc"}} {{
+"posts" "notes" "photos") ) }} {{ $sortedPosts := sort $posts "Date" "desc"}} {{
 $paginatePosts := .Paginate $sortedPosts 15 }}
 
 <article class="h-entry">
@@ -79,6 +79,13 @@ $paginatePosts := .Paginate $sortedPosts 15 }}
                 </a>
               </p>
               {{ end }}
+
+              {{ if .Params.photo}}
+                       {{ $post := . }}
+{{ with index .Params.photo 0 }}
+  <p><em><a href="{{ $post.RelPermalink }}">[img]</a>: {{ .alt }}</em></p>
+{{ end }}
+              {{ end }}
             </div>
 
             {{ if .Title }} {{ .Summary }}
@@ -91,5 +98,20 @@ $paginatePosts := .Paginate $sortedPosts 15 }}
     </ul>
   </section>
 </article>
+
+{{ if gt $paginatePosts.TotalPages 1 }}
+<nav class="pagination" role="navigation">
+  {{ if $paginatePosts.HasPrev }}
+  <a class="newer" href="{{ $paginatePosts.Prev.URL }}">Newer</a>
+  {{ else }}
+  <span class="newer disabled">Newer</span> 
+  {{ end }} | 
+  {{ if $paginatePosts.HasNext }}
+  <a class="older" href="{{ $paginatePosts.Next.URL }}">Older</a>
+  {{ else }}
+  <span class="older disabled">Older</span> 
+  {{ end}}
+  </nav>
+  {{ end}}
 
 {{ end }}
