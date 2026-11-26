@@ -26,6 +26,18 @@
     {{ end }} {{ end }}
 
     <content class="e-content">
+
+
+  {{ if .Params.photos }}
+    <div>
+    {{ with index .Params.photo 0 }}
+      <figure>
+        <img src="{{ .url }}" alt="{{ .alt }}" />
+        <figcaption>{{ .alt }}</figcaption>
+      </figure>
+    {{ end }}
+    </div>
+  {{ end }}
       <div>
         {{ if .Params.replyTo }} {{ if .Params.rsvp }}
         <p>
@@ -87,31 +99,8 @@
       {{ end }} {{- partial "content_wikified" . -}}
     </content>
   </article>
+ 
 
-  {{ if .Params.photo}}
-    {{ with index .Params.photo 0 }}
-      <figure>
-        <img src="{{ .url }}" alt="{{ .alt }}" />
-        <figcaption>{{ .alt }}</figcaption>
-      </figure>
-    {{ end }}
-  {{ end }}
-
-  {{ if .Params.photos }}
-    <section>
-      <ul>
-        {{ range .Params.photos }}
-        <li>
-          <div>
-            <a href="{{ .url }}" target="_blank">
-              <img src="{{ .url }}" alt="{{ .alt }}" />
-            </a>
-          </div>
-        </li>
-        {{ end }}
-      </ul>
-    </section>
-  {{ end }}
 
   {{ if .Params.songs }}
   <section>
