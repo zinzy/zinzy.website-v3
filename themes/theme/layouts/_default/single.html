@@ -28,16 +28,15 @@
     <content class="e-content">
 
 
-  {{ if .Params.photos }}
-    <div>
-    {{ with index .Params.photo 0 }}
-      <figure>
-        <img src="{{ .url }}" alt="{{ .alt }}" />
-        <figcaption>{{ .alt }}</figcaption>
-      </figure>
-    {{ end }}
-    </div>
-  {{ end }}
+ {{ if .Params.photo}}
+                       {{ $post := . }}
+                {{ with index .Params.photo 0 }}
+                <figure>
+                  <img src="{{ .url }}" alt="{{ .alt }}" />
+                  <figcaption>{{ .alt }}</figcaption>
+                </figure>
+                {{ end }}
+              {{ end }}
       <div>
         {{ if .Params.replyTo }} {{ if .Params.rsvp }}
         <p>

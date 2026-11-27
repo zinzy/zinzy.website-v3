@@ -12,11 +12,11 @@ $paginatePosts := .Paginate $sortedPosts 15 }}
       {{ range $paginatePosts.Pages }}
       <li>
         <article>
-          <a href="{{ .RelPermalink }}" class="u-url">
+          <p><a href="{{ .RelPermalink }}" class="u-url">
             <time class="dt-published" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
               {{ .Date.Format "Jan 2, 2006" }}
             </time>
-          </a>
+          </a></p>
           {{ if .Title }}
           <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
           {{ else }}{{ end }}
@@ -82,9 +82,12 @@ $paginatePosts := .Paginate $sortedPosts 15 }}
 
               {{ if .Params.photo}}
                        {{ $post := . }}
-{{ with index .Params.photo 0 }}
-  <p><em><a href="{{ $post.RelPermalink }}">[img]</a>: {{ .alt }}</em></p>
-{{ end }}
+                {{ with index .Params.photo 0 }}
+                <figure>
+                  <img src="{{ .url }}" alt="{{ .alt }}" />
+                  <figcaption>{{ .alt }}</figcaption>
+                </figure>
+                {{ end }}
               {{ end }}
             </div>
 
