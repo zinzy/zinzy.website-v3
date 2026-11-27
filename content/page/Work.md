@@ -4,7 +4,7 @@ layout: work
 tagline: "I'm a design researcher making products for people at work"
 ---
 
-_[[img]](/img/zinzy.jpg): Here I am in 2019 with Robin (L) and Michar (R), celebrating the 25th anniversary of the travel technology company that employed us. The pandemic was months away. We were but children_
+![Here I am in 2019 with Robin (L) and Michar (R), celebrating the 25th anniversary of the travel technology company that employed us. The pandemic was months away. We were but children](/img/zinzy.jpg)
 
 ### What I do
 

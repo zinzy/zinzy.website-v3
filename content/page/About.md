@@ -3,7 +3,7 @@ title: About
 slug: about
 ---
 
-_[[img]](/img/photos/2025-10-02-18-33-13.jpeg): Here I am with my daughters enjoying the October winds of the country's finest province, Zeeland._
+![Here I am with my daughters enjoying the October winds of the country's finest province, Zeeland](/img/photos/2025-10-02-18-33-13.jpeg)
 
 Hello, and welcome to my personal website. My name is Zinzy Waleson Geene, and you've reached my home on the Internet. It is an online diary; a scavenger hunt of unfinished thoughts, polished ideas, and snapshots in various formats.
 
