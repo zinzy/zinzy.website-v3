@@ -83,10 +83,7 @@ $paginatePosts := .Paginate $sortedPosts 15 }}
               {{ if .Params.photo}}
                        {{ $post := . }}
                 {{ with index .Params.photo 0 }}
-                <figure>
-                  <img src="{{ .url }}" alt="{{ .alt }}" />
-                  <figcaption>{{ .alt }}</figcaption>
-                </figure>
+                <a href="{{ $post.RelPermalink }}"><em>[img]: {{ .alt }}</em></a>
                 {{ end }}
               {{ end }}
             </div>

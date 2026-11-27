@@ -8,9 +8,11 @@ body {
   line-height: 1.3rem;
   margin: 1rem auto;
   padding: 1rem;
-  @media screen and (min-width: 768px) {
-    margin: 5rem auto;
+}
 
+@media screen and (min-width: 768px) {
+  body {
+    margin: 5rem auto;
     max-width: 600px;
   }
 }
@@ -31,17 +33,14 @@ h1 {
   padding: 0;
 }
 
-section.posts {
-  ul {
-    margin:0;
-    padding:0;
-    list-style-type: none;
-    li {
-      article {
-        margin-top: 5rem;
-      }
-    }
-  }
+section.posts ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+section.posts ul li article {
+  margin-top: 5rem;
 }
 
 /* h3:before, h4:before, h5:before, h6:before {
@@ -63,26 +62,27 @@ h6:before { content: "h6"; } */
 
 a {
   color: black;
-  &[target=_blank]{
-    &:after {
-      content: "\2197";
-      font-size: 50%;
-      font-weight: bold;
-      vertical-align: super;
-    }
-  }
+}
+
+a[target="_blank"]:after {
+  content: "\2197";
+  font-size: 50%;
+  font-weight: bold;
+  vertical-align: super;
 }
 
 figure {
   padding: 0;
   margin: 0;
-  img {
-    padding: 0;
-    margin: 0;
-  }
-  figcaption {
-    font-size: 80%;
-  }
+}
+
+figure img {
+  padding: 0;
+  margin: 0;
+}
+
+figure figcaption {
+  font-size: 80%;
 }
 
 pre {
@@ -169,14 +169,15 @@ section, footer {
   text-align: center;
   text-decoration: none;
   position: relative;
-  &:hover {
-    background: LemonChiffon;
-    color: blue;
-  }
+}
+
+.grid li a:hover {
+  background: LemonChiffon;
+  color: blue;
 }
 
 .tag-count {
-  position:absolute;
+  position: absolute;
   right: 0;
   top: 0;
   border-left: 1px solid black;
@@ -199,7 +200,10 @@ img, video {
   text-align: center;
   border: 1px solid black;
   margin-bottom: 50px;
-  @media screen and (min-width: 768px)  {
+}
+
+@media screen and (min-width: 768px) {
+  .callout {
     padding: 100px 50px;
   }
 }
@@ -212,9 +216,10 @@ img, video {
   list-style-type: none;
   padding: 0;
   margin: 0;
-  li {
-    margin-bottom: 30px;
-  }
+}
+
+.summarised-posts li {
+  margin-bottom: 30px;
 }
 
 .pagination {
@@ -244,10 +249,8 @@ hr {
   margin-bottom: 50px;
 }
 
-.notes {
-  article {
-    margin-bottom: 100px;
-  }
+.notes article {
+  margin-bottom: 100px;
 }
 
 #footnotes {
@@ -257,9 +260,10 @@ hr {
 
 .footnotes {
   font-size: 80%;
-  hr {
-    margin: 20px 0;
-  }
+}
+
+.footnotes hr {
+  margin: 20px 0;
 }
 
 /* ul { 
@@ -271,11 +275,12 @@ hr {
 
 nav {
   margin-top: 1rem;
-  ul {
-    list-style-type: none;
-    margin:0;
-    padding: 0;
-  }
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 iframe.letterbird-embed {
@@ -283,23 +288,23 @@ iframe.letterbird-embed {
   margin: 50px 0 0 0;
   max-width: 100% !important;
   border-radius: 0 !important;
-  .sheet {
-    padding: 0 !important;
-  }
 }
 
-#guestbook-form {
-  .button {
-    font-family: Times, serif;
-    font-size: 1rem;
-    padding: 10px 20px;
-    border: 1px solid black;
-    border-radius: 5px;
-    &:hover {
-      cursor: pointer;
-      background: yellow;
-      border: 1px solid black;
-      border-radius: 5px;
-    }
-  }
+iframe.letterbird-embed .sheet {
+  padding: 0 !important;
+}
+
+#guestbook-form .button {
+  font-family: Times, serif;
+  font-size: 1rem;
+  padding: 10px 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+#guestbook-form .button:hover {
+  cursor: pointer;
+  background: yellow;
+  border: 1px solid black;
+  border-radius: 5px;
 }

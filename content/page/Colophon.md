@@ -29,7 +29,7 @@ I generally don't know people visit this space unless they tell me. The most hum
 
 - This site is built with static site generator [Hugo](https://gohugo.io/). I like [HTML energy](https://html.energy/), but I also like conserving my writing across many different technologies, apps, and frameworks. I write in [Markdown](https://www.markdownguide.org/), and keep all of it in a single folder.
 - It lives in a [repo](https://github.com/zinzy/zinzy.website-v3/commits/main/) on [Github](https://github.com/zinzy), and is deployed via [Netlify](https://www.netlify.com/)
-- It uses [Tailwind](https://tailwindcss.com/), browser-native typography, and little else
+- It uses vanilla CSS, browser-native typography, and little else
 - It uses [h-card and h-entry IndieWeb standards](https://spec.indieweb.org/)
 
 ### Copyright
